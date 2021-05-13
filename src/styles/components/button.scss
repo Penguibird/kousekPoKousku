@@ -1,0 +1,23 @@
+.button {
+    font-size: 1.2rem;
+    $color: hsl(0, 99%, 39%);
+
+    border: 3px solid $color;
+    padding: 0.8em 1.4em;
+    margin: 0.2em;
+    border-radius: 0.3em;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: $color;
+    text-transform: uppercase;
+
+    &.filled {
+        border: none;
+        background-color: $color;
+        color: white;
+        &:hover {
+            background-color: darken($color, 5);
+        }
+    }
+}

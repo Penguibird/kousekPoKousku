@@ -3,6 +3,7 @@ module.exports = {
     title: "My Gatsby Site",
   },
   plugins: [
+    `gatsby-plugin-typescript`,
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
@@ -24,4 +25,7 @@ module.exports = {
       __key: "images",
     },
   ],
+  flags: {
+    FAST_DEV: true,
+  }
 };
