@@ -24,9 +24,16 @@
     "gatsby-plugin-typescript": "^3.4.0",
     "gatsby-source-filesystem": "^3.4.0",
     "gatsby-transformer-sharp": "^3.4.0",
+    "prettier": "^2.3.0",
+    "prettier-plugin-style-order": "^0.2.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "sass": "^1.32.12"
+    "sass": "^1.32.12",
+    "tiny-slider-react": "^0.5.3"
+  },
+  "devDependencies": {
+    "@types/react-helmet": "^6.1.1",
+    "@types/tiny-slider-react": "^0.3.2"
   }
 }

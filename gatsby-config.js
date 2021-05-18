@@ -3,6 +3,7 @@ module.exports = {
     title: "My Gatsby Site",
   },
   plugins: [
+
     `gatsby-plugin-typescript`,
     "gatsby-plugin-sass",
     "gatsby-plugin-image",

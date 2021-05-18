@@ -6,7 +6,11 @@ import { Helmet } from "react-helmet";
 
 import "../styles/style.scss";
 
-const Layout = ({ children }) => {
+interface Props {
+    children: React.ReactNode,
+}
+
+const Layout: React.FC<Props> = ({ children }) => {
 
     return (
         <Fragment>

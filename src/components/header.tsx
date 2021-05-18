@@ -7,15 +7,6 @@ const Header = ({ }) => {
         <StaticImage className="logo" src="../images/logo_placeholder.png" alt='Kousek po Kousku' width={120} aspectRatio={1} layout='constrained' />
         <nav>
             <ul>
-                <li>
-                    <Link to="/projekty">projekty</Link>
-                </li>
-                <li>
-                    <Link to="/zadat">žádat</Link>
-                </li>
-                <li>
-                    <Link to="/darovat">darovat</Link>
-                </li>
                 <li className="dropdown">
                     <label htmlFor="dropdown-expand" className="navbar-link">O nadaci</label>
                     <input type="checkbox" name="dropdown-expand" id="dropdown-expand" />
@@ -30,6 +21,15 @@ const Header = ({ }) => {
                             <Link to="/aktualne-podporujeme">Aktuálně podporujeme</Link>
                         </li>
                     </ul>
+                </li>
+                <li>
+                    <Link to="/projekty">projekty</Link>
+                </li>
+                <li>
+                    <Link to="/zadat">žádat</Link>
+                </li>
+                <li>
+                    <Link to="/zahrada-hojnosti">Zahrada hojnosti</Link>
                 </li>
             </ul>
         </nav>

@@ -1,0 +1,48 @@
+.aktuality-wrapper {
+  display: grid;
+  grid-template-areas: "prev carousel next";
+  grid-template-rows: 1fr;
+  grid-template-columns: 80px 1fr 80px;
+
+  padding: 1em;
+
+  .prev {
+    grid-area: prev;
+  }
+  .tns-outer {
+    grid-area: carousel;
+  }
+  .next {
+    grid-area: next;
+  }
+}
+
+.aktualita {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 0.5em;
+
+  font-size: 1em;
+
+  background-color: $background-color-white;
+  border-radius: 8px;
+  box-shadow: $box-shadow;
+
+  .img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5em;
+  }
+  button {
+    background: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+.aktualita + .aktualita {
+  margin-left: 1em;
+}
