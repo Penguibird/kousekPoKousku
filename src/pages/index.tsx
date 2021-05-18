@@ -3,9 +3,14 @@ import * as React from "react"
 import LayerWrapper from "../components/layer-wrapper";
 import Layout from '../components/layout';
 import { Link } from 'gatsby';
-import AktualityCarousel from "../components/aktuality-carousel";
+import Loadable from '@loadable/component';
+
+// import AktualityCarousel from "../components/aktuality-carousel";
+const AktualityCarousel = Loadable(() => import("../components/aktuality-carousel"))
+import Map from './../components/map';
 
 const IndexPage = () => {
+
   return (
     <Layout>
       <LayerWrapper className="main-page-hero hero">
@@ -74,9 +79,27 @@ const IndexPage = () => {
       </section>
 
       <section className="aktuality">
-        <h1>Aktuality</h1>
+        <h1 className="section-title">Aktuality</h1>
         <AktualityCarousel />
       </section>
+
+      <section className="section section-centered call-to-action">
+        <h1 className="title">PŘIPOJ SVŮJ KOUSEK DOBRA</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus fusce ultrices ac neque adipiscing. </p>
+        <a href="/" className="button">daruj</a>
+      </section>
+
+      <section className="section section-text">
+        <h1>O nadaci</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus fusce ultrices ac neque adipiscing. Malesuada erat risus duis massa a vestibulum sit arcu volutpat. Pharetra ante cursus sodales tristique adipiscing vitae ac amet id. . </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus fusce ultrices ac neque adipiscing. Malesuada erat risus duis massa a vestibulum sit arcu volutpat. Pharetra ante cursus sodales tristique adipiscing vitae ac amet id. . </p>
+        <Link to="/">Více o nadace</Link>
+      </section>
+
+      <section className="section section-map">
+        <Map />
+      </section>
+
     </Layout>
   )
 }

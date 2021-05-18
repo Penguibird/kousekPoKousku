@@ -8,7 +8,7 @@ module.exports = {
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
+    // "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
@@ -28,5 +28,6 @@ module.exports = {
   ],
   flags: {
     FAST_DEV: true,
+    DEV_SSR: true,
   }
 };

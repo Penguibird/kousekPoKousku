@@ -2,9 +2,9 @@
   display: grid;
   grid-template-areas: "prev carousel next";
   grid-template-rows: 1fr;
-  grid-template-columns: 80px 1fr 80px;
+  grid-template-columns: 80px calc(100vw - 160px) 80px;
 
-  padding: 1em;
+  padding: 1em 0;
 
   .prev {
     grid-area: prev;
@@ -15,14 +15,28 @@
   .next {
     grid-area: next;
   }
+
+  @media screen and (max-width: 600px) {
+    grid-template-areas: "carousel";
+    grid-template-columns: 1fr;
+    .prev,
+    .next {
+      display: none;
+    }
+  }
 }
 
 .aktualita {
+  max-width: 100vw;
+  padding: 1em;
+}
+
+.aktualita-inner {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 
-  padding: 0.5em;
+  padding: 1em;
 
   font-size: 1em;
 
@@ -34,15 +48,6 @@
     width: 100%;
     height: auto;
     margin-bottom: 0.5em;
+    border-radius: 3px;
   }
-  button {
-    background: none;
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-  }
-}
-
-.aktualita + .aktualita {
-  margin-left: 1em;
 }

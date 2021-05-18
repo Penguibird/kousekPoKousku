@@ -20,6 +20,9 @@ const Header = ({ }) => {
                         <li>
                             <Link to="/aktualne-podporujeme">Aktuálně podporujeme</Link>
                         </li>
+                        <li>
+                            <Link to="/media">Média</Link>
+                        </li>
                     </ul>
                 </li>
                 <li>
@@ -33,7 +36,7 @@ const Header = ({ }) => {
                 </li>
             </ul>
         </nav>
-        <a href="google.cz" className="eshop-link button filled">E shop</a>
+        <a href="google.cz" className="eshop-link button filled">E&nbsp;shop</a>
     </header>
 }
 

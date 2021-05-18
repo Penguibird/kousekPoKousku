@@ -1,3 +1,10 @@
+.hero {
+  min-height: 20vw;
+}
+.hero-title {
+  place-self: center;
+}
+
 .aktualne-podporujeme {
   padding: 2em 2em;
   .title {
@@ -37,6 +44,13 @@
 
   &:hover {
     background-size: 120%;
+  }
+}
+
+section.aktuality {
+  .section-title {
+    width: max-content;
+    margin: 0 auto;
   }
 }
 
