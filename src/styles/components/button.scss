@@ -1,23 +1,27 @@
+$color: darken($main-red, 3);
+
 .button {
-    font-size: 1.2rem;
-    $color: hsl(0, 99%, 39%);
+  margin: 0.2em;
+  padding: 0.8em 1.4em;
+  color: $color;
+  font-weight: 700;
+  font-size: 1.1rem;
 
-    border: 3px solid $color;
-    padding: 0.8em 1.4em;
-    margin: 0.2em;
-    border-radius: 0.3em;
+  font-family: "Roboto", sans-serif;
+  line-height: normal;
+  text-transform: uppercase;
 
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    color: $color;
-    text-transform: uppercase;
+  border: 3px solid $color;
+  border-radius: 0.3em;
 
-    &.filled {
-        border: none;
-        background-color: $color;
-        color: white;
-        &:hover {
-            background-color: darken($color, 5);
-        }
+  transition: background-color 0.2s ease-in-out;
+
+  &.filled {
+    color: white;
+    background-color: $color;
+    border: none;
+    &:hover {
+      background-color: darken($color, 7);
     }
+  }
 }

@@ -29,6 +29,10 @@
 .aktualita {
   max-width: 100vw;
   padding: 1em;
+  .title {
+    margin: 1em 0 0;
+    font-size: 1.5em;
+  }
 }
 
 .aktualita-inner {

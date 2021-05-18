@@ -2,6 +2,7 @@
   min-height: 20vw;
 }
 .hero-title {
+  font-size: 3rem;
   place-self: center;
 }
 
@@ -44,6 +45,10 @@
 
   &:hover {
     background-size: 120%;
+  }
+
+  .title {
+      font-style: 2rem;
   }
 }
 

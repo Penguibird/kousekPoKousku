@@ -84,9 +84,9 @@ const IndexPage = () => {
       </section>
 
       <section className="section section-centered call-to-action">
-        <h1 className="title">PŘIPOJ SVŮJ KOUSEK DOBRA</h1>
+        <h1 className="title">Připoj svůj kousek dobra</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus fusce ultrices ac neque adipiscing. </p>
-        <a href="/" className="button">daruj</a>
+        <a href="/" className="button filled">daruj</a>
       </section>
 
       <section className="section section-text">

@@ -1,11 +1,16 @@
+nav li a,
 nav li,
 .navbar-link {
-    font-size: 1.2rem;
-    padding: 1em;
-    margin: 0 0.2em;
+  color: $base-text-color;
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
 
-    text-transform: uppercase;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    color: $base-text-color;
+nav li,
+.navbar-link {
+  margin: 0 0.2em;
+  padding: 1em;
+
+  text-transform: uppercase;
 }
