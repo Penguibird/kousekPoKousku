@@ -23,7 +23,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
             <section className="section section-text kde ">
                 <h2 className="title">Kde? </h2>
-                <p className="subtitle"><strong>Zahrada hojnosti se rozprostírá ve Fulneku na Novojičínsku,</strong> na ulici Palackého,<br /> nedaleko Kapucínského kláštera.</p>
+                <p className="subtitle"><strong>Zahrada hojnosti se rozprostírá ve Fulneku na Novojičínsku,</strong> na ulici Palackého, nedaleko Kapucínského kláštera.</p>
                 <p className="text">
                     Na protějším kopci se rozprostírá Žákovský háj, kam chodil vyučovat své žáky Jan Ámos Komenský.
                     Kousek od Zahrady hojnosti  stojí i Dětský domov Loreta, v jehož podzemí byla potvrzena existence zaniklé Loretánské kaple, nazývané Svatá chýše.
@@ -36,11 +36,13 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                 </p>
 
             </section>
+
+
             <section className="section section-text co-nabizi">
                 <h2 className="title">
                     Co nabízí?
                     </h2>
-                <p className="subtitle">Zahrada je bohatá od samého začátku. Hned ze startu nabízí <strong>půdu, prostor a zázemí</strong></p>
+                <p className="subtitle text-center">Zahrada je bohatá od samého začátku. Hned ze startu <br /> nabízí <strong>půdu, prostor a zázemí</strong></p>
                 <ul className="flex-row">
                     <li>
                         <h3>Půda</h3>
@@ -67,6 +69,8 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     <strong>Přejeme si dlouhodobě spoluvytvářet podmínky pro společnost, která žije v hojnosti autentických projevů,</strong> s vědomím svého odpovědného jednání, s uměním radovat se z každodenního žití a chutí tvořit v radosti,<br /> což je<strong> největší dar</strong>.
                     </p>
             </section>
+
+
             <section className="prinos">
                 <h2 className="title">Přínos</h2>
                     <LayerWrapper>
@@ -76,6 +80,8 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                         </div>
                     </LayerWrapper>
             </section>
+
+
             <section className="section section-text financovani">
                 <h2 className="title">
                     Financování
