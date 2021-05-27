@@ -1,4 +1,5 @@
-header {
+header {    
+
     position: fixed;
     top: 0;
     left: 0;
@@ -9,10 +10,11 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0.5em 2em;
+    padding: 0 2em;
     box-sizing: border-box;
     align-items: flex-start;
     .logo {
+        position: absolute !important;
         margin-top: 0.5em;
         min-width: 90px;
         width: 12vw;
@@ -25,6 +27,19 @@ header {
     a {
         color: inherit;
         text-decoration: unset;
+    }
+    transition: background-color .3s ease-in-out;
+    &:hover,
+    &:focus-within {
+        background-color: $main-yellow;
+        * {
+            color: $main-white;
+
+        }
+        .dropdown-content {
+            background-color: $main-yellow;
+
+        }
     }
 }
 
@@ -39,29 +54,40 @@ header {
         top: -9999px;
     }
     .dropdown-content {
+        z-index: 50;
         position: absolute;
         visibility: hidden;
         opacity: 0;
         display: block;
-        margin: 0.5em 0 0;
-        transform: translateY(-500px);
-        transition: transform 0.45s ease-in-out, opacity 0.5s ease-in-out 0.4s, visibility 0.5s ease-in-out;
+        // margin: 0.5em 0 0;
+        // transform: translateY(-500px);
+        // transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
     }
     .dropdown-content li {
+        z-index: 50;
+
         width: min-content;
         min-width: 100%;
+        padding: 0.7em 1em;
+        margin: 0;
         // text-align: center;
         // margin: auto;
     }
     // &:focus-within .dropdown-content,
-    input[type="checkbox"]:checked ~ .dropdown-content {
+    label:hover ~ .dropdown-content,
+    .dropdown-content:hover {
         visibility: visible;
+
         opacity: 1;
-        transform: translateY(0);
     }
+    // input[type="checkbox"]:checked ~ .dropdown-content {
+    //     // transform: translateY(0);
+    // }
 }
 
-nav ul {
+header nav {
+    padding-left: 180px;
+ ul {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -78,7 +104,24 @@ nav ul {
         }
     }
 }
-
-.dropdown-content li + li {
-    padding-top: 0;
 }
+nav li a,
+nav li,
+.navbar-link {
+  color: $base-text-color;
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-link {
+  // margin: 0 0.2em;
+  padding: 1em;
+
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+  &:hover, &:focus-within {
+    background-color: darken($main-yellow, 5);
+  }
+}
+

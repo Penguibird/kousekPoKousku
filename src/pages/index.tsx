@@ -7,7 +7,8 @@ import Loadable from '@loadable/component';
 
 // import AktualityCarousel from "../components/aktuality-carousel";
 const AktualityCarousel = Loadable(() => import("../components/aktuality-carousel"))
-import Map from './../components/map';
+// import Map from './../components/map';
+const Map = Loadable(() => import('./../components/map'))
 
 const IndexPage = () => {
 
@@ -47,10 +48,10 @@ const IndexPage = () => {
           <Link to="/zahrada-hojnosti" className="projekt zahrada">
             <h2>Zahrada hojnosti</h2>
           </Link>
-          <Link to="/socialni-klinika" className="projekt klinika">
+          <Link to="/projekty#klinika" className="projekt klinika">
             <h2>Sociální klinika</h2>
           </Link>
-          <Link to="/rodina" className="projekt rodina">
+          <Link to="/projekty#rodina" className="projekt rodina">
             <h2>Rodina</h2>
           </Link>
         </div>
@@ -80,7 +81,13 @@ const IndexPage = () => {
 
       <section className="aktuality">
         <h1 className="section-title">Aktuality</h1>
-        <AktualityCarousel />
+        <LayerWrapper>
+          <div style={{ height: '400px' }}></div>
+          <div>
+            <AktualityCarousel />
+          </div>
+        </LayerWrapper>
+
       </section>
 
       <section className="section section-centered call-to-action">
@@ -89,16 +96,16 @@ const IndexPage = () => {
         <a href="/" className="button filled">daruj</a>
       </section>
 
-      <section className="section section-text">
+      <section className="section section-text" id="o-nadaci">
         <h1>O nadaci</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus fusce ultrices ac neque adipiscing. Malesuada erat risus duis massa a vestibulum sit arcu volutpat. Pharetra ante cursus sodales tristique adipiscing vitae ac amet id. . </p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus fusce ultrices ac neque adipiscing. Malesuada erat risus duis massa a vestibulum sit arcu volutpat. Pharetra ante cursus sodales tristique adipiscing vitae ac amet id. . </p>
-        <Link to="/">Více o nadace</Link>
+        <Link className="button" to="/nadace-v-cislech">Nadace v číslech</Link>
       </section>
 
-      <section className="section section-map">
+      {/* <section className="section section-map">
         <Map />
-      </section>
+      </section> */}
 
     </Layout>
   )

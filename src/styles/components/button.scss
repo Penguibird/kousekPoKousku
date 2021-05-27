@@ -10,18 +10,21 @@ $color: darken($main-red, 3);
   font-family: "Roboto", sans-serif;
   line-height: normal;
   text-transform: uppercase;
+  background-color: transparent;
 
   border: 3px solid $color;
   border-radius: 0.3em;
 
   transition: background-color 0.2s ease-in-out;
-
+  &:hover,
   &.filled {
     color: white;
     background-color: $color;
-    border: none;
+    border-color: $color;
+    // transition: border-color 0.2s ease-in-out;
     &:hover {
       background-color: darken($color, 7);
+      border-color: darken($color, 7);
     }
   }
 }

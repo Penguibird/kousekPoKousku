@@ -1,0 +1,46 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100vw;
+  padding: 1em 0 0.1em;
+  margin: 2em 0 0;
+
+  font-size: 0.85rem;
+  background-color: $main-yellow;
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    gap: 5em;
+    list-style-type: none;
+    * {
+      margin: 0;
+    }
+  }
+  a {
+    display: block;
+  }
+  p > a {
+    display: inline;
+  }
+  li {
+    h5 {
+      font-size: 1.1em;
+    }
+    p,
+    a {
+      font-size: 1em;
+    }
+    & > * + * {
+      margin-top: 0.5em;
+    }
+  }
+  .signature {
+    color: darken(white, 6);
+    font-weight: 600;
+  }
+}

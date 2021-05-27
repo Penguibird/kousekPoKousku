@@ -4,34 +4,36 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 const Header = ({ }) => {
     return <header>
-        <StaticImage className="logo" src="../images/logo_placeholder.png" alt='Kousek po Kousku' width={120} aspectRatio={1} layout='constrained' />
+        <Link className="logo" to="/">
+            <StaticImage src="../images/logo_placeholder.png" alt='Kousek po Kousku' width={120} aspectRatio={1} layout='constrained' />
+        </Link>
         <nav>
             <ul>
                 <li className="dropdown">
-                    <label htmlFor="dropdown-expand" className="navbar-link">O nadaci</label>
+                    <label htmlFor="dropdown-expand" className="navbar-link">O&nbsp;nadaci</label>
                     <input type="checkbox" name="dropdown-expand" id="dropdown-expand" />
                     <ul className="dropdown-content">
-                        <li>
-                            <Link to="/nase-mise">Naše mise</Link>
+                        <li className="navbar-link" >
+                            <Link to="/#o-nadaci">Naše mise</Link>
                         </li>
-                        <li>
+                        <li className="navbar-link" >
                             <Link to="/nadace-v-cislech">Nadace v číslech</Link>
                         </li>
-                        <li>
-                            <Link to="/aktualne-podporujeme">Aktuálně podporujeme</Link>
+                        <li className="navbar-link" >
+                            <Link to="/projekty">Aktuálně podporujeme</Link>
                         </li>
-                        <li>
+                        <li className="navbar-link" >
                             <Link to="/media">Média</Link>
                         </li>
                     </ul>
                 </li>
-                <li>
+                <li className="navbar-link" >
                     <Link to="/projekty">projekty</Link>
                 </li>
-                <li>
+                <li className="navbar-link" >
                     <Link to="/zadat">žádat</Link>
                 </li>
-                <li>
+                <li className="navbar-link" >
                     <Link to="/zahrada-hojnosti">Zahrada hojnosti</Link>
                 </li>
             </ul>

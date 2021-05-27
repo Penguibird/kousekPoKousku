@@ -1,11 +1,41 @@
+@font-face {
+    font-family: 'Cavolini';
+    src: url('../../assets/font/CAVOLINI.woff') format('.woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cavolini';
+    font-weight: bold;
+    src: url('../../assets/font/CAVOLINIBOLD.woff') format('.woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cavolini';
+    font-style: italic;
+    src: url('../../assets/font/CAVOLINIITALIC.woff') format('.woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cavolini';
+    font-style: italic;
+    font-weight: bold;
+    src: url('../../assets/font/CAVOLINIBOLDITALIC.woff') format('.woff');
+    font-display: swap;
+}
+
+
 @import "./variables.scss";
 @import "./global.scss";
 
-@import "./pages/index.scss";
-@import "./pages/404.scss";
-
 @import "./components/header.scss";
-@import "./components/navbar-link.scss";
+// @import "./components/navbar-link.scss";
 @import "./components/button.scss";
 @import "./components/section.scss";
 @import "./components/aktualita.scss";
+@import "./components/map.scss";
+@import "./components/footer.scss";
+
+@import "./pages/index.scss";
+@import "./pages/projekty.scss";
+@import "./pages/404.scss";
+@import "./pages/zahrada.scss";

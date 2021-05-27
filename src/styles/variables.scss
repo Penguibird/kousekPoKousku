@@ -1,5 +1,13 @@
 $base-text-color: #1f1f1f;
 $background-color-white: rgb(243, 243, 243);
 $box-shadow: 2px 2px 2px rgba(80, 80, 80, 0.364);
-$main-yellow: #FFB514;
-$main-red: #FF0000;
+
+$main-yellow: #ffb514;
+$main-red: #ff0000;
+$main-green: #118a07;
+
+$main-text-red: darken($main-red, 6.5);
+
+$main-white: white;
+
+$gray: rgb(128, 128, 128);

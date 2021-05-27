@@ -1,10 +1,4 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p, li, a {
+body {
     font-family: "Montserrat", sans-serif !important;
     color: $base-text-color;
 }
@@ -13,18 +7,27 @@ h1 {
     font-size: 2.3rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 700;
 }
 
-p, a, li, label {
+p,
+a,
+li,
+label {
     font-weight: 300;
     line-height: 1.5;
     font-weight: 400;
     color: $base-text-color;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -38,7 +41,6 @@ a {
 
 * {
     box-sizing: border-box;
-
 }
 
 button {
@@ -46,4 +48,28 @@ button {
     border: none;
     border-radius: 0;
     box-shadow: none;
-  }
+    cursor: pointer;
+}
+
+label {
+    display: block;
+}
+
+nav > ul > li + li {
+    margin-left: .5em;   
+}
+
+.title-centered {
+    width: max-content;
+    margin: 0 auto;
+}
+
+*::-webkit-scrollbar {
+    width: .4em;
+    background-color: lightgray;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: $gray;
+    border-radius: 10000px;
+}
