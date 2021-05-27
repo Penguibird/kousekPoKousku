@@ -23,6 +23,10 @@
     font-display: swap;
 }
 
+@mixin Cavolini {
+    font-family: Cavolini, sans-serif;
+}
+
 
 @import "./variables.scss";
 @import "./global.scss";
@@ -39,3 +43,4 @@
 @import "./pages/projekty.scss";
 @import "./pages/404.scss";
 @import "./pages/zahrada.scss";
+@import "./pages/zadat.scss";

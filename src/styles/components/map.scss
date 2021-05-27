@@ -104,6 +104,6 @@
   color: $main-text-red;
   font-weight: 700;
   font-size: 1.2em;
-  font-family: Cavolini;
   font-style: italic;
+  @include Cavolini;
 }

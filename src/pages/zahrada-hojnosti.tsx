@@ -21,7 +21,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
             </section> */}
 
-            <section className="section section-text kde ">
+            {/* <section className="section section-text kde ">
                 <h2 className="title">Kde? </h2>
                 <p className="subtitle"><strong>Zahrada hojnosti se rozprostírá ve Fulneku na Novojičínsku,</strong> na ulici Palackého, nedaleko Kapucínského kláštera.</p>
                 <p className="text">
@@ -35,6 +35,15 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     Síle energetických jevů věřili už v 15. století a její pozitiva plně využívali.
                 </p>
 
+            </section> */}
+
+            <section className="section section-text kde ">
+                <h2 className="title">Co je Zahrada hojnosti</h2>
+                {/* <p className="subtitle"></p> */}
+                <p className="text">
+                    <strong>Zahrada Hojnosti na pozemku Nadačního fondu Kousek po kousku je naprosto unikátní projekt,</strong> který je přístupný dalším filantropickým a donátorským počinům.
+                </p>
+
             </section>
 
 
@@ -42,7 +51,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                 <h2 className="title">
                     Co nabízí?
                     </h2>
-                <p className="subtitle text-center">Zahrada je bohatá od samého začátku. Hned ze startu <br /> nabízí <strong>půdu, prostor a zázemí</strong></p>
+                <p className="subtitle text-center">Zahrada je bohatá od samého začátku. Nabízí <strong>půdu, prostor a zázemí.</strong></p>
                 <ul className="flex-row">
                     <li>
                         <h3>Půda</h3>
@@ -65,20 +74,18 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                             </p>
                     </li>
                 </ul>
-                <p className="bottom-text text subtitle">
-                    <strong>Přejeme si dlouhodobě spoluvytvářet podmínky pro společnost, která žije v hojnosti autentických projevů,</strong> s vědomím svého odpovědného jednání, s uměním radovat se z každodenního žití a chutí tvořit v radosti,<br /> což je<strong> největší dar</strong>.
-                    </p>
+
             </section>
 
 
             <section className="prinos">
                 <h2 className="title">Přínos</h2>
-                    <LayerWrapper>
-                        <div style={{height: '400px'}}></div>
-                        <div>
-                            <ZahradaCarousel />
-                        </div>
-                    </LayerWrapper>
+                <LayerWrapper>
+                    <div style={{ height: '400px' }}></div>
+                    <div>
+                        <ZahradaCarousel />
+                    </div>
+                </LayerWrapper>
             </section>
 
 
@@ -95,6 +102,13 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     Finanční zdroje se vrátí zpět do hospodaření Nadačního fondu a budou použity na další kousky DOBRA v rámci projektů Nadačního fondu Kousek po kousku.
                 </p>
             </section>
+
+            <p className="lone-paragraph">
+                <strong>Přejeme si dlouhodobě spolu vytvářet podmínky pro společnost, která žije v hojnosti autentických projevů,</strong> s vědomím svého odpovědného jednání, s uměním radovat se z každodenního žití a chutí tvořit v radosti,<br /> což je<strong> největší dar</strong>.
+            </p>
+
+
+
             <section className="section section-text pravidla">
                 <h2 className="title">
                     Pravidla fungování

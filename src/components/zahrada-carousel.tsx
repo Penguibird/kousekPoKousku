@@ -1,10 +1,14 @@
-import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
-import TinySlider from "tiny-slider-react";
+import { useState, Fragment } from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
-import LayerWrapper from './layer-wrapper';
+
+import TinySlider from "tiny-slider-react";
 // import Loadable from "@loadable/component"
+
+import LayerWrapper from './layer-wrapper';
 import useWindowSize from '../functions/useWindowSize';
+
 export interface Prinos {
     title: string,
     body: string[],
@@ -59,49 +63,68 @@ const ZahradaCarousel: React.FC<Props> = ({ }) => {
 
     const prev = () => slider != null && slider.slider.goTo('prev');
     const next = () => slider != null && slider.slider.goTo('next');
+    const goTo = (i: number) => () => slider != null && slider.slider.goTo(i);
+    const [selectedIndex, setSelectedIndex] = useState(0);
 
-    return <LayerWrapper className="zahrada-carousel zahrada-carousel-wrapper">
-
-        <div className="slider-layer">
-            <TinySlider
-                settings={{
-                    autoplay: false,
-                    arrowKeys: false,
-                    // autoWidth: true,
-                    // fixedWidth: windowSize.width,
-                    autoHeight: false,
-                    mouseDrag: true,
-                    lazyload: true,
-                    nav: false,
-                    controls: false,
-                    items: 1,
-                    rewind: false,
-                    // startIndex: 0,
-                }}
-                ref={ts => slider = ts}
-            >
-                {prinosy.map((p: Prinos, i: number) =>
-                    <li key={i}>
-                        <LayerWrapper key={i} className="inner-slide">
-                            <StaticImage loading="eager" src={'../images/hero_placeholder.png'} alt={p.imageAlt ?? 'Nahradni pozadi'} layout='constrained' />
-                            <div className="prinos">
-                                <h3 className="title">{p.title}</h3>
-                                {p.body.map((text, i) => <p key={i} className="text">{text}</p>)}
-                            </div>
-                        </LayerWrapper>
-                    </li>
-                )}
-            </TinySlider >
-        </div>
-        <div className="button-layer">
+    return <Fragment>
+        <div className="carousel-navigation">
             <button onClick={prev} className="slider-button prev">
                 {"<"}
             </button>
+            {prinosy.map((p, i) =>
+                <button key={i}
+                    className={`carousel-nav-button ${i} ${i + 1 == selectedIndex ? 'selected' : ''}`}
+                    onClick={goTo(i)}
+
+                >{i + 1}</button>
+            )}
             <button onClick={next} className="slider-button next">
                 {">"}
             </button>
         </div>
-    </LayerWrapper >
+        <LayerWrapper className="zahrada-carousel zahrada-carousel-wrapper">
+            <div className="slider-layer">
+                <TinySlider
+                    settings={{
+                        autoplay: false,
+                        arrowKeys: false,
+                        // autoWidth: true,
+                        // fixedWidth: windowSize.width,
+                        autoHeight: false,
+                        mouseDrag: true,
+                        lazyload: true,
+                        nav: false,
+                        controls: false,
+                        items: 1,
+                        rewind: false,
+                        // startIndex: 0,
+                    }}
+                    ref={ts => slider = ts}
+                    onIndexChanged={(e) => { setSelectedIndex(e.index) }}
+                >
+                    {prinosy.map((p: Prinos, i: number) =>
+                        <li key={i}>
+                            <LayerWrapper key={i} className="inner-slide">
+                                <StaticImage loading="eager" src={'../images/hero_placeholder.png'} alt={p.imageAlt ?? 'Nahradni pozadi'} layout='constrained' />
+                                <div className={`prinos ${i} ${p.title.split(' ')[0]}`}>
+                                    <h3 className="title">{p.title}</h3>
+                                    {p.body.map((text, i) => <p key={i} className="text">{text}</p>)}
+                                </div>
+                            </LayerWrapper>
+                        </li>
+                    )}
+                </TinySlider >
+            </div>
+            <div className="button-layer">
+                <button onClick={prev} className="slider-button prev">
+                    {"<"}
+                </button>
+                <button onClick={next} className="slider-button next">
+                    {">"}
+                </button>
+            </div>
+        </LayerWrapper >
+    </Fragment>
 }
 
 export default ZahradaCarousel;

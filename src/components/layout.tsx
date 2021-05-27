@@ -8,6 +8,8 @@ import "../styles/style.scss";
 
 interface Props {
     children: React.ReactNode,
+    title?: string,
+    
 }
 
 const Layout: React.FC<Props> = ({ children }) => {
