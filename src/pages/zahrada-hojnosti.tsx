@@ -4,50 +4,45 @@ import Layout from './../components/layout';
 import LayerWrapper from './../components/layer-wrapper';
 import { StaticImage } from 'gatsby-plugin-image';
 import Loadable from '@loadable/component';
+
 // import ZahradaCarousel from '../components/zahrada-carousel'
 const ZahradaCarousel = Loadable(() => import('../components/zahrada-carousel'))
+
 interface ZahradaPageProps {
 
 };
 
 const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
     return <Layout>
-        <LayerWrapper className="hero">
-            <StaticImage src="../images/hero_placeholder.png" alt='' layout='constrained' />
-            <h1 className="title hero-title">Zahrada hojnosti</h1>
-        </LayerWrapper>
         <main className="zahrada">
-            {/* <section className="section section-text intro">
+            <LayerWrapper className="hero">
+                <StaticImage class="hero-image" src="../images/jahoda.png" width={900} alt='' layout='constrained' placeholder="blurred" imgStyle={{ filter: 'brightness(0.9)' }} />
+                {/* <h1 className="title hero-title">Zahrada hojnosti</h1> */}
 
-            </section> */}
+                <section className="section section-text kde ">
+                    <h1 className="title">Zahrada Hojnosti</h1>
+                    {/* <p className="subtitle"></p> */}
+                    <p className="text">
+                        <strong>Zahrada Hojnosti na pozemku Nadačního fondu Kousek po kousku je naprosto unikátní projekt,</strong> který je připraven na vstup dalších filantropů a donátorů.
+                    </p>    
+                    {/* <h2 className="title co-nabizi">
+                        Co nabízí?
+                    </h2> */}
+                    <p className="subtitle co-nabizi">Zahrada je bohatá od&nbsp;samého začátku. Už&nbsp;nyní nabízí <strong>půdu, prostor a&nbsp;zázemí.</strong></p>
+                </section>
+            </LayerWrapper>
 
-            <section className="section section-text kde ">
-                <h2 className="title">Kde? </h2>
-                <p className="subtitle"><strong>Zahrada hojnosti se rozprostírá ve Fulneku na Novojičínsku,</strong> na ulici Palackého, nedaleko Kapucínského kláštera.</p>
-                <p className="text">
-                    Na protějším kopci se rozprostírá Žákovský háj, kam chodil vyučovat své žáky Jan Ámos Komenský.
-                    Kousek od Zahrady hojnosti  stojí i Dětský domov Loreta, v jehož podzemí byla potvrzena existence zaniklé Loretánské kaple, nazývané Svatá chýše.
-                    Santa Casy se bez výjimek stavěly na zcela výjimečných místech s prokázanými tzv. telurickými proudy. Ty vznikají pohybem podzemních vod, posuvem půdy nebo na geologických zlomech.
-                    Telurické proudy jsou podle historických zdrojů projevem života, často se označují jako meridiány Země. Jsou popisovány jako energetické toky, které zásobují krajinu pozitivní energií.
-                </p>
-                <p className="text">
-                    Fulnek je na základě těchto doložených faktů bezpochyb mystickým místem. Je povzbuzován zvláštní, jedinečnou energií.
-                    Síle energetických jevů věřili už v 15. století a její pozitiva plně využívali.
-                </p>
 
-            </section>
-
+            {/* Unused claim */}
+            {/* <p className="text">Jedinečný projekt pro podporu soběstačnosti, s jedinečným modelem hospodaření</p> */}
 
             <section className="section section-text co-nabizi">
-                <h2 className="title">
-                    Co nabízí?
-                    </h2>
-                <p className="subtitle text-center">Zahrada je bohatá od samého začátku. Hned ze startu <br /> nabízí <strong>půdu, prostor a zázemí</strong></p>
+
                 <ul className="flex-row">
                     <li>
                         <h3>Půda</h3>
                         <p className="text">
-                            Půda poskytuje péči semenům a kořenům rostlin, které jsou postupně vysévány a sazeny na pozemku o rozloze více než 14 000 m2.
+                            Půda poskytuje péči semenům a kořenům rostlin, které jsou postupně vysévány a sazeny na pozemku o rozloze 16 000 m2.
                             Postupem času vznikne jedlý les, jedlá i okrasná zahrada, budou se pěstovat byliny i květiny k řezu, okrasné keře.
                             </p>
                     </li>
@@ -65,20 +60,18 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                             </p>
                     </li>
                 </ul>
-                <p className="bottom-text text subtitle">
-                    <strong>Přejeme si dlouhodobě spoluvytvářet podmínky pro společnost, která žije v hojnosti autentických projevů,</strong> s vědomím svého odpovědného jednání, s uměním radovat se z každodenního žití a chutí tvořit v radosti,<br /> což je<strong> největší dar</strong>.
-                    </p>
+
             </section>
 
 
             <section className="prinos">
                 <h2 className="title">Přínos</h2>
-                    <LayerWrapper>
-                        <div style={{height: '400px'}}></div>
-                        <div>
-                            <ZahradaCarousel />
-                        </div>
-                    </LayerWrapper>
+                <LayerWrapper>
+                    <div style={{ height: '400px' }}></div>
+                    <div>
+                        <ZahradaCarousel />
+                    </div>
+                </LayerWrapper>
             </section>
 
 
@@ -91,10 +84,20 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     Zda se časem zahrada stane soběstačnou, zvládne provoz a přitáhne další regionální donátory a filantropy.
                     </p>
                 <p className="text">
-                    Jedním ze zdrojů budou samozběry. Bude možné přijít na řez květin, sběr bylin, později i bobulovin a vše, co v hojnosti zahrada vydá. Při samosběru se nastaví minimální částka a bude na každém, zda plody přírody ocení klidně i sumou vyšší.
+                    Jedním ze zdrojů budou samosběry. Bude možné přijít na řez květin, sběr bylin, později i bobulovin a vše, co v hojnosti zahrada vydá. Při samosběru se nastaví minimální částka a bude na každém, zda plody přírody ocení klidně i sumou vyšší.
                     Finanční zdroje se vrátí zpět do hospodaření Nadačního fondu a budou použity na další kousky DOBRA v rámci projektů Nadačního fondu Kousek po kousku.
                 </p>
             </section>
+
+            <section className="section paragraph">
+                {/* //todo Fix image, responsive, etc */}
+                <p className="lone-paragraph">
+                    <strong>Přejeme si dlouhodobě spolu vytvářet podmínky pro společnost, která žije v hojnosti autentických projevů,</strong> s vědomím svého odpovědného jednání, s uměním radovat se z každodenního žití a chutí tvořit v radosti, což je<strong> největší dar</strong>.
+                </p>
+            </section>
+
+
+
             <section className="section section-text pravidla">
                 <h2 className="title">
                     Pravidla fungování
@@ -123,3 +126,25 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 }
 
 export default ZahradaPage;
+
+
+
+/* <section className="section section-text intro">
+
+</section> */
+
+/* <section className="section section-text kde ">
+    <h2 className="title">Kde? </h2>
+    <p className="subtitle"><strong>Zahrada hojnosti se rozprostírá ve Fulneku na Novojičínsku,</strong> na ulici Palackého, nedaleko Kapucínského kláštera.</p>
+    <p className="text">
+        Na protějším kopci se rozprostírá Žákovský háj, kam chodil vyučovat své žáky Jan Ámos Komenský.
+        Kousek od Zahrady hojnosti  stojí i Dětský domov Loreta, v jehož podzemí byla potvrzena existence zaniklé Loretánské kaple, nazývané Svatá chýše.
+        Santa Casy se bez výjimek stavěly na zcela výjimečných místech s prokázanými tzv. telurickými proudy. Ty vznikají pohybem podzemních vod, posuvem půdy nebo na geologických zlomech.
+        Telurické proudy jsou podle historických zdrojů projevem života, často se označují jako meridiány Země. Jsou popisovány jako energetické toky, které zásobují krajinu pozitivní energií.
+    </p>
+    <p className="text">
+        Fulnek je na základě těchto doložených faktů bezpochyb mystickým místem. Je povzbuzován zvláštní, jedinečnou energií.
+        Síle energetických jevů věřili už v 15. století a její pozitiva plně využívali.
+    </p>
+
+</section> */

@@ -25,7 +25,7 @@ const ZadatPage: React.FC<ZadatPageProps> = ({ }) => {
                         <p className="phone">Telefon: <a href="tel:+420702022975">702 022 975</a></p>
                     </li>
                     <li className="ochrana-udaju">
-                        <h2 className="title">Ochrana osobních údajů - FORMULÁŘE</h2>
+                        <h2 className="title">Ochrana osobních údajů</h2>
                         <p>Společnost Nadační fond Kousek po kousku chrání poskytnuté osobní údaje v souladu s předpisy ČR a EU (GDPR)</p>
                         <p><a href="./Kousek po Kousku - GDPR prohlášení o ochraně osobních údajů.pdf" className="pdf">Ochrana osobních údajů</a> - Dokument PDF (112 kB)</p>
                     </li>

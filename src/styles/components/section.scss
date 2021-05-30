@@ -5,7 +5,7 @@
   .section-title,
   .title {
     margin: 0 0;
-    font-size: 2.3rem;
+    font-size: 2.3rem;    
   }
   p {
     width: auto;
@@ -16,7 +16,7 @@
     margin-bottom: 0;
     max-width: 100%;
     
-    font-family: Cavolini;
+    @include Cavolini;
     font-style: italic;
 
     font-weight: 550;
@@ -33,14 +33,37 @@
     margin-top: 1em;
     display: inline-block; // prevents collapsing margin
   }
+
+  .button-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2em;
+  }
 }
 
-.section-text {
+.section-text, .text-section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
+  
+  &.right-align {
+    align-items: flex-end;
+    .text, p, .section-text {
+      text-align: right;
+
+    }
+  }
+
+  &.light {
+    color: $text-white;
+    .title, .section-title, .text, p, h1, h2, h3 {
+      color: $text-white;
+    }
+  }
 }
+
 
 .section-centered {
   display: flex;
@@ -48,5 +71,22 @@
   align-items: center;
   p {
     text-align: center;
+  }
+}
+
+.section {
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2em;
+    flex: 1 0 auto;
+
+    &>*{
+      width: 100%;
+    }
+    @media screen and (max-width: 900px) {
+      flex-direction: column;
+    }
   }
 }

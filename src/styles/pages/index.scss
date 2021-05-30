@@ -36,7 +36,7 @@
   align-items: center;
   justify-content: center;
 
-  background-image: url("../images/hero_placeholder.png");
+  background-image: url('../images/hero_placeholder.png');
   background-repeat: no-repeat;
   background-position: center;
 
@@ -48,7 +48,17 @@
   }
 
   .title {
-      font-style: 2rem;
+    font-style: 2rem;
+  }
+}
+
+.projekt.zahrada {
+  background-image: url("../images/jahoda_sm.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  &:hover {
+    background-size: 80%;
   }
 }
 
@@ -60,4 +70,13 @@ section.aktuality {
 }
 
 section.kouskovani {
+}
+
+section.galavecer {
+  background-image: url('../images/sako_chlap_bw.jpg');
+  // background-image: url('../images/sako.jpg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+  // filter: brightness(0.4);
 }

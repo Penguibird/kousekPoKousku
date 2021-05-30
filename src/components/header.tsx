@@ -1,11 +1,40 @@
 import * as React from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from "gatsby";
 import { StaticImage } from 'gatsby-plugin-image';
 
-const Header = ({ }) => {
-    return <header>
+type Image = {
+    url: string,
+    alt: string,
+}
+
+interface Props {
+    color?: 'red' | 'green',
+    logo?: 'default' | 'zahrada' | Image,
+    children?: React.ReactNode,
+}
+
+const Header: React.FC<Props> = ({ color, logo }) => {
+    function onetime(node: Document | HTMLElement, type: string, callback: EventListener) {
+        node.addEventListener(type, function (e) {
+            // @ts-ignore
+            e.target.removeEventListener(e.type, callback);
+            return callback(e);
+        });
+    }
+    useEffect(() => {
+        onetime(document, 'scroll', (e) => {
+            document.querySelector('header')?.classList.add('filled')
+        });
+    }, [])
+
+
+    return <header className=""  >
         <Link className="logo" to="/">
-            <StaticImage src="../images/logo_placeholder.png" alt='Kousek po Kousku' width={120} aspectRatio={1} layout='constrained' />
+            {logo == 'zahrada'
+                ? <StaticImage src="../images/logo-zahrada3.jpg" alt='Kousek po Kousku' width={150} aspectRatio={1} layout='constrained' />
+                : <StaticImage src="../images/logo_placeholder.png" alt='Kousek po Kousku' width={150} aspectRatio={1} layout='constrained' />
+            }
         </Link>
         <nav>
             <ul>
@@ -38,7 +67,7 @@ const Header = ({ }) => {
                 </li>
             </ul>
         </nav>
-        <a href="google.cz" className="eshop-link button filled">E&nbsp;shop</a>
+        <a href="google.cz" className={"eshop-link button filled" + color ?? ''}>E&nbsp;shop</a>
     </header>
 }
 

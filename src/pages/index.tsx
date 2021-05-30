@@ -59,16 +59,22 @@ const IndexPage = () => {
 
       <section className="text-section section kouskovani">
         <h1 className="section-title">Kouskování</h1>
-        <p className="section-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Risus fusce ultrices ac neque adipiscing. Malesuada erat risus duis massa a vestibulum sit arcu volutpat. Pharetra ante cursus sodales tristique adipiscing vitae ac amet id.
-        </p>
-        <a href="/" className="button section-button buy-button">
-          koupit
-        </a>
+
+        <p className="text">Udržitelnost je téma, kterému se dlouhodobě věnujeme. Ano, výroba oblečení má na životní prostředí svůj dopad. Pomůže už to, pokud naši osobní spotřebu redukujeme.</p>
+
+        <p className="text">Do šatníku si pořizujme <strong>základní, kvalitní, nadčasové kousky, nejlépe z&nbsp;recyklovatelných materiálů.</strong> Zejména díky dobrým materiálům vydrží ve skvělé kondici a slouží dlouho, často i někomu druhému. Právě nákup z druhé ruky je jedním z principů zpomalení cyklu neboli <strong>slou módy</strong>.</p>
+
+        <p className="text">V Nadačním fondu Kousek po kousku máme s dobročinným bazarem pod značkou <strong>Kouskování</strong> dlouholeté zkušenosti. Veškeré kousky, které stále vypadají skvěle a z mnoha důvodů je již nevyužijete, rádi přijmeme a <a className="link eshop-link" href="">na našem eshopu</a> nabídneme dál. Výtěžkem bude podpořen některý z dalších projektů.</p>
+
+        <div className="button-row">
+          <Link to="/kouskovani" className="button">Chci darovat kousek</Link>
+          <a href="/" className="button section-button buy-button filled">
+            Chci koupit kousek
+          </a>
+        </div>
       </section>
 
-      <section className="text-section section galavecer">
+      <section className="text-section section galavecer light">
         <h1 className="section-title">Slavnostní galavečer</h1>
         <p className="section-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -98,9 +104,11 @@ const IndexPage = () => {
 
       <section className="section section-text" id="o-nadaci">
         <h1>O nadaci</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus fusce ultrices ac neque adipiscing. Malesuada erat risus duis massa a vestibulum sit arcu volutpat. Pharetra ante cursus sodales tristique adipiscing vitae ac amet id. . </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus fusce ultrices ac neque adipiscing. Malesuada erat risus duis massa a vestibulum sit arcu volutpat. Pharetra ante cursus sodales tristique adipiscing vitae ac amet id. . </p>
-        <Link className="button" to="/nadace-v-cislech">Nadace v číslech</Link>
+        <p className="text">Každý člověk může kdykoliv během svého života zažívat radost, zapálení, touhu objevovat nové možnosti, realizovat je tvořivou cestou a tím zlepšovat sám sebe i svět kolem nás, tady a teď.</p>
+        <p className="text">
+          Pomáháme pochopit nové životní pohledy, uchopit život do vlastních rukou a osvojit si skutečné životní hodnoty. Zároveň prožíváme radost a uspokojení z toho, co děláme. Každý v sobě máme něco jedinečného, a to pomáháme objevit.
+          Všichni máme volbu. My jsme si zvolili dělat to, co nás naplňuje. Pomáhat lidem.</p>
+        <Link className="button" to="/nadace-v-cislech">Více o nadaci</Link>
       </section>
 
       {/* <section className="section section-map">

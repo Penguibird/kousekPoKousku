@@ -28,9 +28,10 @@ header {
         color: inherit;
         text-decoration: unset;
     }
-    transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
     &:hover,
-    &:focus-within {
+    &:focus-within,
+    .filled {
         background-color: $main-yellow;
         * {
             color: $main-white;

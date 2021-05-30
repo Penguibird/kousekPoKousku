@@ -40,7 +40,11 @@ footer {
     }
   }
   .signature {
-    color: darken(white, 6);
+    color: darken(white, 4);
     font-weight: 600;
+    a {
+      font-weight: 600;
+
+    }
   }
 }

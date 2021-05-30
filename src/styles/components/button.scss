@@ -1,30 +1,43 @@
-$color: darken($main-red, 3);
 
-.button {
-  margin: 0.2em;
-  padding: 0.8em 1.4em;
-  color: $color;
-  font-weight: 700;
-  font-size: 1.1rem;
-
-  font-family: "Roboto", sans-serif;
-  line-height: normal;
-  text-transform: uppercase;
-  background-color: transparent;
-
-  border: 3px solid $color;
-  border-radius: 0.3em;
-
-  transition: background-color 0.2s ease-in-out;
-  &:hover,
-  &.filled {
-    color: white;
-    background-color: $color;
-    border-color: $color;
-    // transition: border-color 0.2s ease-in-out;
-    &:hover {
-      background-color: darken($color, 7);
-      border-color: darken($color, 7);
+  @mixin button($color) {
+    margin: 0.2em;
+    padding: 0.8em 1.4em;
+    color: $color;
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 0.02ch;
+  
+    font-family: "Roboto", sans-serif;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0);
+  
+    border: 3px solid $color;
+    border-radius: 0.3em;
+  
+    // transition: background 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out
+    , border-color 0.2s ease-in-out
+    , border 0.2s ease-in-out;
+    &:hover,
+    &.filled {
+      color: white;
+      background-color: $color;
+      // border-color: $color;
+      // transition: border-color 0.2s ease-in-out;
+      &.filled:hover {
+        background-color: darken($color, 7);
+        border-color: darken($color, 7);
+      }
     }
   }
+  
+  
+
+.button {
+ @include button(darken($main-red, 7));
+}
+
+.button.green {
+  @include button($main-green);
 }
