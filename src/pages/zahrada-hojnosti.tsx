@@ -37,7 +37,6 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             {/* <p className="text">Jedinečný projekt pro podporu soběstačnosti, s jedinečným modelem hospodaření</p> */}
 
             <section className="section section-text co-nabizi">
-
                 <ul className="flex-row">
                     <li>
                         <h3>Půda</h3>
