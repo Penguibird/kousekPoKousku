@@ -45,9 +45,9 @@ const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
                 sociálni klinika.cz
                 </a>
         </section>
-        <section className="section section-text" id="rodina">
+        <section className="section section-text" id="intervence">
             <h2 className="section-title title">
-                Rodina
+                Intervence autistů
                 </h2>
             <p className="subtitle">
                 Dicta qui aliquam nihil harum nulla optio nisi modi sequi.

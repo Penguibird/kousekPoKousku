@@ -70,6 +70,14 @@ main.zahrada {
   }
 }
 
+main.zahrada {
+  .subtitle.co-nabizi {
+    font-size: 1.8rem;
+    margin-top: 8em;
+    max-width: 40ch;
+  }
+}
+
 
 /* ------------------------------- prvni text ------------------------------- */
 
@@ -108,13 +116,7 @@ section.kde {
 
 
 /* -------------------------------- co nabizi ------------------------------- */
-main.zahrada {
-  .subtitle.co-nabizi {
-    font-size: 1.8rem;
-    margin-top: 4em;
-    max-width: 40ch;
-  }
-}
+
 
 section.co-nabizi {
 

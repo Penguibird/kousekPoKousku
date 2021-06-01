@@ -11,6 +11,7 @@
   .title {
     width: max-content;
     margin: auto;
+    margin-bottom: 2em;
   }
 }
 
@@ -60,6 +61,20 @@
   &:hover {
     background-size: 80%;
   }
+}
+
+.projekt.klinika {
+  background-image: url("../images/ruce_klinika.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.projekt.intervence {
+  background-image: url("../images/intervence_placeholder.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 section.aktuality {

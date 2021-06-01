@@ -2,9 +2,13 @@ import * as React from 'react';
 import { useRef, useEffect, useState } from 'react';
 const API_KEY = "AIzaSyAY2Tat - yTfQzZbsSXkAMajLb8qsYsrXDU";
 import { Loader, LoaderOptions } from "@googlemaps/js-api-loader";
+
+import LayerWrapper from './layer-wrapper';
+
 // @ts-ignore
 import markerIcon from "../images/map_marker.svg";
-import LayerWrapper from './layer-wrapper';
+// @ts-ignore
+import mapOutline from '../images/map_outline_yellow.svg';
 
 interface MapProps {
 
@@ -163,6 +167,25 @@ const Map: React.FC<MapProps> = ({ }) => {
             return marker;
         })
 
+        // , 18.436931
+        // , 17.686974
+        // 49.880670, 17.146264
+        // 49.550606, 18.859233
+
+        // const imageBounds = {
+        //     north: 50.327999,
+        //     south: 49.392601,
+        //     east: 18.859233,
+        //     west: 17.146264,
+        // };
+
+        // const regionOverlay = new google.maps.GroundOverlay(
+        //     mapOutline,
+        //     imageBounds
+        // );
+        // regionOverlay.setMap(map);
+
+
     });
     //#endregion loading map
 
@@ -203,6 +226,8 @@ const Map: React.FC<MapProps> = ({ }) => {
                 behavior: 'smooth',
             });
         }
+
+
     }
 
     const scrollHandler = (e: React.SyntheticEvent) => {
@@ -218,7 +243,6 @@ const Map: React.FC<MapProps> = ({ }) => {
 
     const setHighlighter = (n: string | number) => {
         document.getElementById("highlight")?.style.setProperty("--offset", n + '')
-
     }
     // const [selectedYear, setSelectedYear] = useState();
 
@@ -243,7 +267,7 @@ const Map: React.FC<MapProps> = ({ }) => {
                     <button className="projekt-title-button" onClick={highlightProjekt(i)}>
                         <h3 className="projekt-title">{p.name}</h3>
                     </button>
-                    <p className="money">{p.price}</p>
+                    <p className="money">{p.price} Kč</p>
                     <p className="description">{p.description}</p>
                 </div>)
 
@@ -263,6 +287,7 @@ const Map: React.FC<MapProps> = ({ }) => {
 }
 
 export default Map;
+
 
 const grayStyle = [
     {
