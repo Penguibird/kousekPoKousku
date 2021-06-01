@@ -13,7 +13,7 @@ interface ZahradaPageProps {
 };
 
 const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
-    return <Layout>
+    return <Layout headerProps={{ color: 'green', logo: 'zahrada' }}>
         <main className="zahrada">
             <LayerWrapper className="hero">
                 <StaticImage class="hero-image" src="../images/jahoda.png" width={900} alt='' layout='constrained' placeholder="blurred" imgStyle={{ filter: 'brightness(0.9)' }} />
@@ -22,7 +22,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                 <section className="section section-text kde ">
                     <h1 className="title">Zahrada Hojnosti</h1>
                     {/* <p className="subtitle"></p> */}
-                    <p className="text">
+                    <p className="text bigger">
                         <strong>Zahrada Hojnosti na pozemku Nadačního fondu Kousek po kousku je naprosto unikátní projekt,</strong> který je připraven na vstup dalších filantropů a donátorů.
                     </p>
                     {/* <h2 className="title co-nabizi">
@@ -44,7 +44,8 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                             Půda poskytuje péči semenům a kořenům rostlin, které jsou a budou postupně vysévány a sazeny na pozemku NF KpK o rozloze více než 16 000 m2.
                             Vzniká květinový labyrint, bylinná i okrasná část. Postupně se bude okrasná i jedlá zahrada rozšiřovat, přibude jedlý les.
                             </p>
-                        <p className="text">V Zahradě Hojnosti je po terénních úpravách stále nedostatek orné půdy. Víte o nějaké? Pomozte nám zajistit další půdu pro rostliny. Napište nám na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a></p>
+                        <p className="text">V Zahradě Hojnosti je po terénních úpravách stále nedostatek orné půdy. Víte o nějaké? Napište nám na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a></p>
+                        <p className="subtitle green">Pomozte nám zajistit další půdu pro rostliny.</p>
                     </li>
                     <li>
                         <h3>Prostor</h3>
@@ -55,8 +56,9 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
                         <p className="text">
                             Chcete se zapojit?
-                            Přihlaste se do FB skupiny <a href=""> DOBROvolníci pro kousek</a>, kde sdělujeme aktuální informace o termínech a akcích, nebo napište na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>. <strong>Rádi Vás přivítáme.</strong>
+                            Přihlaste se do FB skupiny <a href="">DOBROvolníci pro kousek</a>, kde sdělujeme aktuální informace o termínech a akcích, nebo napište na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>.
                         </p>
+                        <p className="subtitle green" >Rádi Vás přivítáme.</p>
                     </li>
                     <li>
                         <h3>Zázemí</h3>
@@ -64,15 +66,24 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                             Zahrada poskytne zázemí také pro různé druhy vědomého cvičení, pro harmonizaci, odpočinek a duševní pohodu. Pro hledání sama sebe, ztišení své duše, odpoutání se od každodenní reality.
                             Je už na každém, zda relaxuje u fyzické práce, cvičení nebo si jen sedne pod strom. Budeme připravovat i mnoho tematických workshopů o pěstování a zpracování bylin, výrobě mastí, krémů tinktur a v dalších letech se okruh dál rozšíří.
                             </p>
-                        <p className="text"><strong>Vzpomínáte?</strong> Už J.Á. Komenský tvrdil, že nejlepší učitelkou je sama příroda. A je to tak.</p>
                         <p className="text">
-                            Chtěli byste nějaký workshop sami pořádat?  Přihlaste se na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>
-
+                            Chtěli byste nějaký workshop sami pořádat? Přihlaste se na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>
                         </p>
+                        <p className="subtitle green"> Už <strong>J.Á. Komenský</strong> tvrdil, že nejlepší učitelkou je sama příroda. A je to tak.</p>
                     </li>
                 </ul>
 
             </section>
+
+            <section className="quote-section">
+                <figure className="quote-wrapper">
+                    <blockquote className="komensky">"Jsou situace, kdy&nbsp;je potřeba zavřít oči, aby člověk viděl a&nbsp;ztišit&nbsp;se, aby&nbsp;se slyšel."</blockquote>
+                    <figcaption className=""> - J. Á. Komenský</figcaption>
+                    {/* <blockquote className="bottom">Kéž&nbsp;Vám bude Zahrada hojnosti k&nbsp;tomuto sloužit…</blockquote> */}
+                </figure>
+                <StaticImage className="img" src='https://image.shutterstock.com/shutterstock/photos/1270917781/display_1500/stock-photo-jan-amos-komensky-portrait-from-czechoslovakia-banknotes-1270917781.jpg' alt='Jan amos komensky' placeholder="blurred" layout='constrained' />
+            </section>
+
 
             <section className="prinos">
                 <h2 className="title">Přínos</h2>
@@ -85,11 +96,6 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             </section>
 
 
-            <figure className="quote-wrapper">
-                <figcaption className="">Odkaz J. Á. Komenského</figcaption>
-                <blockquote className="komensky">"Jsou situace, kdy&nbsp;je potřeba zavřít oči, aby člověk viděl a&nbsp;ztišit&nbsp;se, aby&nbsp;se slyšel."</blockquote>
-                <blockquote className="bottom">Kéž&nbsp;Vám bude Zahrada hojnosti k&nbsp;tomuto sloužit…</blockquote>
-            </figure>
 
 
             <section className="section section-text financovani">

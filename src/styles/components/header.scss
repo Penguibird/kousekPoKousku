@@ -31,7 +31,7 @@ header {
     transition: background-color .3s ease-in-out, color .3s ease-in-out;
     &:hover,
     &:focus-within,
-    .filled {
+    &.filled {
         background-color: $main-yellow;
         * {
             color: $main-white;

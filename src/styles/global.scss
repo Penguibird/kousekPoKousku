@@ -81,3 +81,11 @@ nav > ul > li + li {
 .inline {
     display: inline;
 }
+
+p.text.bigger {
+    font-size: 1.2em;
+}
+
+.green {
+    color: $main-green !important;
+}

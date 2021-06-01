@@ -54,6 +54,20 @@ main.zahrada {
       color: $main-green
     }
   }
+
+  p.text {
+    a, a.link, .link {
+      color: $main-green;
+      font-weight: 500;
+      &:visited {
+        color: darken($main-green, 6)
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+      
+    }
+  }
 }
 
 
@@ -252,6 +266,14 @@ section.prinos > .title {
   }
 }
 
+.zahrada-prinos {
+  &.socialni {
+    .img {
+      transform: scaleX(-1);
+    }
+  }
+}
+
 
 /* ----------------------------- lone-paragraph ----------------------------- */
 
@@ -317,23 +339,40 @@ section.pravidla {
 
 /* ---------------------------------- quote --------------------------------- */
 
-.quote-wrapper {
+section.quote-section {
+
   width: 100vw;    
-  margin: 0 0 2em;
+  margin: 4em 0 ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  .img {
+    max-width: 40vw;
+  }
+}
+
+.quote-wrapper {
+
+  // margin-left: 5vw;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-around;
   figcaption {
-    font-size: 1.5em;
-    font-weight: 700;
-    color: $main-green;
-    &::after {
-      content: ":";
-    }
+    font-size: 1.5x
+    em;
+    font-weight: 600;
+
   }
   blockquote.komensky {
+    color: $main-green;
+
     font-size: 2em;
+    @include Cavolini;
+    
     font-style: italic;
     max-width: 500px;
     text-align: center;

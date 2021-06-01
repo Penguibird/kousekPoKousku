@@ -11,42 +11,57 @@ import useWindowSize from '../functions/useWindowSize';
 
 export interface Prinos {
     title: string,
+    className: string,
     body: string[],
     imageUrl?: string,
     imageAlt?: string,
+    image?: any,
 }
 
 const prinosy: Prinos[] = [
     {
         title: 'Sociální přínos',
+        className: 'socialni',
         body: ["Vedení k dobrovolnictví, tvoření fyzickou prací, sdílení, propojování, stmelování generací, předávání zkušeností, prohlubování vztahu k přírodě, práci a tělu. Komunitní tvoření, společný zájem, pospolitost."],
         imageUrl: '../images/hero_placeholder.png',
         imageAlt: '',
+        image: < StaticImage className="img" loading="eager" src='../images/zahrada_deda.jpg' alt='Zena cvici jogu' layout='constrained' placeholder="blurred" />
+
     },
     {
         title: "Pohybový a kreativní přínos",
+        className: 'pohybovy',
         body: [
             `Vědomé cvičení, workshopy na téma malování, fotografování, tvorba a vázání dekorací, běžných či příležitostných květinových vazeb, zpracování bylin v širokém pojetí, užití v kuchyni, postupně i zdravé vaření podle makrobiotiky i dalších trendy stylů.`,
             //     `Od vědomých cvičení po workshopy na téma malování, fotografování,
             // vázání dekorací, kytic a běžných či příležitostných květinových vazeb, zpracování bylin v širokém pojetí, užití v kuchyni atd.`
-        ]
+        ],
+        imageUrl: '../images/zahrada_cviceni.jpg',
+        imageAlt: 'Zena cvici jogu',
+        image: < StaticImage className="img" loading="eager" src='../images/zahrada_cviceni.jpg' alt='Zena cvici jogu' layout='constrained' placeholder="blurred" />
 
     },
     {
         title: "Edukativní přínos pro všechny věkové skupiny",
+        className: 'edukativni',
         body: [
             `Zahrada dětem a mládeži v praxi poslouží pro představení zákonitostí přírody, koloběhu, ekosystému. Budou poznávat rostliny a květiny, učit se o jejich významu, účincích bylin. I tady svou roli sehraje výchova k dobrovolnictví.
         Pobyt v přírodě v rámci vzdělávání je pro Zahradu hojnosti  skvělou motivací, vždyť i Jan Ámos Komenský vyučoval své žáky v nedalekém Žákovském háji a potvrdil, že vlastní zkušenost a praxe jsou nenahraditelné. Bude mnoho vzdělávacích možností a projektů, které budou vznikat na míru, v závislosti na ročním období a koloběhu přírody.`,
             `Podobně se mohou přidat dospělí. Ti se jistě zapojí i do výměny pěstitelských zkušeností, předávání rad a tipů o zpracování plodů, bylin, ovoce, zavařování, výrobě tinktur, olejů, mastí atd.`
-        ]
+        ],
+        image: < StaticImage className="img" loading="eager" src='../images/zahrada_kniha.jpg' alt='Zena cvici jogu' layout='constrained' placeholder="blurred" />
+
     },
     {
         title: "Praktický přínos - samosběr",
+        className: 'samozber',
         body: [
             // `Až Zahrada nabídne svou hojnost, bude možné využít možnosti samosběru z jejich darů. Tak se uzavře cyklus dát a sklidit v rámci jednoho roku, aby mohl započít další.`
             `Až Zahrada nabídne svou hojnost, bude možné využít možnosti samosběru z jejich darů. Tak se uzavře cyklus dát a sklidit v rámci jednoho roku, aby mohl započít další.`,
             `Zahrada hojnosti má být místem, které bude stále vzkvétat, to znamená, že i její hospodaření je potřeba nastavit tak, aby byla soběstačná. Samosběr bude kromě workshopů vytvářet prozatím zdroje příjmů, které se znovu vloží do další sezóny.`
-        ]
+        ],
+        image: < StaticImage className="img" loading="eager" src='../images/zahrada_byliny.jpg' alt='Zena cvici jogu' layout='constrained' placeholder="blurred" />
+
     }
 ]
 
@@ -111,9 +126,9 @@ const ZahradaCarousel: React.FC<Props> = ({ }) => {
                     onIndexChanged={(e) => { setSelectedIndex(e.index) }}
                 >
                     {prinosy.map((p: Prinos, i: number) =>
-                        <li key={i}>
+                        <li key={i} className={`zahrada-prinos zahrada-prinos-${i} ${p.className}`} >
                             <LayerWrapper key={i} className="inner-slide">
-                                <StaticImage loading="eager" src={'../images/hero_placeholder.png'} alt={p.imageAlt ?? 'Nahradni pozadi'} layout='constrained' />
+                                {p.image}
                                 <div className={`prinos ${i} ${p.title.split(' ')[0]}`}>
                                     <h3 className="title">{p.title}</h3>
                                     {p.body.map((text, i) => <p key={i} className="text">{text}</p>)}

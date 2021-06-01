@@ -15,25 +15,21 @@ interface Props {
 }
 
 const Header: React.FC<Props> = ({ color, logo }) => {
-    function onetime(node: Document | HTMLElement, type: string, callback: EventListener) {
-        node.addEventListener(type, function (e) {
-            // @ts-ignore
-            e.target.removeEventListener(e.type, callback);
-            return callback(e);
-        });
+
+    const scrollCallback = (e: Event) => {
+        setTimeout(() => document.querySelector('header')?.classList.add('filled'), 100);
+        document.removeEventListener('scroll', scrollCallback)
     }
     useEffect(() => {
-        onetime(document, 'scroll', (e) => {
-            document.querySelector('header')?.classList.add('filled')
-        });
+        document.addEventListener('scroll', scrollCallback);
     }, [])
 
 
     return <header className=""  >
         <Link className="logo" to="/">
             {logo == 'zahrada'
-                ? <StaticImage src="../images/logo-zahrada3.jpg" alt='Kousek po Kousku' width={150} aspectRatio={1} layout='constrained' />
-                : <StaticImage src="../images/logo_placeholder.png" alt='Kousek po Kousku' width={150} aspectRatio={1} layout='constrained' />
+                ? <StaticImage src="../images/logo-zahrada3.jpg" alt='Kousek po Kousku - zahrada hojnosti' width={150} aspectRatio={1} layout='constrained' />
+                : <StaticImage src="../images/logo.jpg" alt='Kousek po Kousku' width={150} aspectRatio={1} layout='constrained' />
             }
         </Link>
         <nav>
@@ -67,7 +63,7 @@ const Header: React.FC<Props> = ({ color, logo }) => {
                 </li>
             </ul>
         </nav>
-        <a href="google.cz" className={"eshop-link button filled" + color ?? ''}>E&nbsp;shop</a>
+        <a href="google.cz" className={"eshop-link button filled " + color ?? ''}>E&nbsp;shop</a>
     </header>
 }
 

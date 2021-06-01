@@ -18,7 +18,7 @@ const LayerWrapper: React.FC<LayerWrapperProps> = ({ children, startingZIndex = 
             ...style,
         }}
     >
-        {Children.map(children, (child: any, i: number) => React.cloneElement(child, { style: { zIndex: (startingZIndex + i), gridArea: 'main', ...child.props.style } }))}
+        {Children.map(children, (child: any, i: number) => child && React.cloneElement(child, { style: { zIndex: (startingZIndex + i), gridArea: 'main', ...child.props.style } }))}
     </div>
 }
 
