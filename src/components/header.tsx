@@ -29,7 +29,7 @@ const Header: React.FC<Props> = ({ color, logo }) => {
         <Link className="logo" to="/">
             {logo == 'zahrada'
                 ? <StaticImage src="../images/logo-zahrada3.jpg" alt='Kousek po Kousku - zahrada hojnosti' width={150} aspectRatio={1} layout='constrained' />
-                : <StaticImage src="../images/logo.jpg" alt='Kousek po Kousku' width={150} aspectRatio={1} layout='constrained' />
+                : <StaticImage src="../images/logo.svg" alt='Kousek po Kousku' width={150} aspectRatio={228 / 237} layout='constrained' />
             }
         </Link>
         <nav>

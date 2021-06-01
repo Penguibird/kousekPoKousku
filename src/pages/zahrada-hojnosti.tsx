@@ -16,20 +16,9 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
     return <Layout headerProps={{ color: 'green', logo: 'zahrada' }}>
         <main className="zahrada">
             <LayerWrapper className="hero">
-                <StaticImage class="hero-image" src="../images/jahoda.png" width={900} alt='' layout='constrained' placeholder="blurred" imgStyle={{ filter: 'brightness(0.9)' }} />
-                {/* <h1 className="title hero-title">Zahrada hojnosti</h1> */}
 
-                <section className="section section-text kde ">
-                    <h1 className="title">Zahrada Hojnosti</h1>
-                    {/* <p className="subtitle"></p> */}
-                    <p className="text bigger">
-                        <strong>Zahrada Hojnosti na pozemku Nadačního fondu Kousek po kousku je naprosto unikátní projekt,</strong> který je připraven na vstup dalších filantropů a donátorů.
-                    </p>
-                    {/* <h2 className="title co-nabizi">
-                        Co nabízí?
-                    </h2> */}
-                    <p className="subtitle co-nabizi">Zahrada je bohatá od&nbsp;samého začátku. Už&nbsp;nyní nabízí <strong>půdu, prostor a&nbsp;zázemí.</strong></p>
-                </section>
+                <StaticImage className='img' src="../images/hero_placeholder.png" alt='Fotka zahrady' layout='constrained' placeholder='blurred' />
+                <h1 className="title">Zahrada Hojnosti</h1>
             </LayerWrapper>
 
 
@@ -37,6 +26,19 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             {/* <p className="text">Jedinečný projekt pro podporu soběstačnosti, s jedinečným modelem hospodaření</p> */}
 
             <section className="section section-text co-nabizi">
+                <p className="text bigger">
+                    <strong>Zahrada Hojnosti na pozemku Nadačního fondu Kousek po kousku je naprosto unikátní projekt,</strong> který je připraven na vstup dalších filantropů a donátorů.
+                    </p>
+
+                <p className="text">
+                    Na pozemku Nadačního fondu Kousek po kousku ve Fulneku, o rozloze 16 000 m2, se postupně rodí výjimečné místo pro tělo, mysl a duši, harmonizační a inspirativní prostor pro psychickou i fyzickou relaxaci. Zázemí zahrady umožní dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah pro všechny věkové skupiny i spoluúčast na výjimečném ekonomickém procesu.
+                    Prostřednictvím samosběrů květin, bylin a plodů jedlé zahrady uvede totiž NF naprosto unikátní způsob hospodaření pro dosažení soběstačnosti.
+                    </p>
+                {/* <h2 className="title co-nabizi">
+                        Co nabízí?
+                    </h2> */}
+                <p className="subtitle co-nabizi">Zahrada je bohatá od&nbsp;samého začátku. Už&nbsp;nyní nabízí <strong>půdu, prostor a&nbsp;zázemí.</strong></p>
+
                 <ul className="flex-row">
                     <li>
                         <h3>Půda</h3>
@@ -44,7 +46,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                             Půda poskytuje péči semenům a kořenům rostlin, které jsou a budou postupně vysévány a sazeny na pozemku NF KpK o rozloze více než 16 000 m2.
                             Vzniká květinový labyrint, bylinná i okrasná část. Postupně se bude okrasná i jedlá zahrada rozšiřovat, přibude jedlý les.
                             </p>
-                        <p className="text">V Zahradě Hojnosti je po terénních úpravách stále nedostatek orné půdy. Víte o nějaké? Napište nám na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a></p>
+                        <p className="text">V Zahradě Hojnosti je po terénních úpravách stále nedostatek orné půdy. <strong>Víte o nějaké?</strong> Napište nám na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a></p>
                         <p className="subtitle green">Pomozte nám zajistit další půdu pro rostliny.</p>
                     </li>
                     <li>
@@ -55,8 +57,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                             </p>
 
                         <p className="text">
-                            Chcete se zapojit?
-                            Přihlaste se do FB skupiny <a href="">DOBROvolníci pro kousek</a>, kde sdělujeme aktuální informace o termínech a akcích, nebo napište na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>.
+                            <strong>Chcete se zapojit?</strong> Přihlaste se do FB skupiny <a href="">DOBROvolníci pro kousek</a>, kde sdělujeme aktuální informace o termínech a akcích, nebo napište na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>.
                         </p>
                         <p className="subtitle green" >Rádi Vás přivítáme.</p>
                     </li>
@@ -66,10 +67,10 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                             Zahrada poskytne zázemí také pro různé druhy vědomého cvičení, pro harmonizaci, odpočinek a duševní pohodu. Pro hledání sama sebe, ztišení své duše, odpoutání se od každodenní reality.
                             Je už na každém, zda relaxuje u fyzické práce, cvičení nebo si jen sedne pod strom. Budeme připravovat i mnoho tematických workshopů o pěstování a zpracování bylin, výrobě mastí, krémů tinktur a v dalších letech se okruh dál rozšíří.
                             </p>
-                        <p className="text">
-                            Chtěli byste nějaký workshop sami pořádat? Přihlaste se na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>
-                        </p>
                         <p className="subtitle green"> Už <strong>J.Á. Komenský</strong> tvrdil, že nejlepší učitelkou je sama příroda. A je to tak.</p>
+                        <p className="text">
+                            <strong>Chtěli byste nějaký workshop sami pořádat?</strong> Přihlaste se na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>
+                        </p>
                     </li>
                 </ul>
 
@@ -114,6 +115,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
             <section className="section paragraph">
                 {/* //todo Fix image, responsive, etc */}
+                <StaticImage className='img' src="../images/paprika_hor.png" alt='Ruka držící rostlinku papriky' layout='constrained' placeholder='blurred'/>
                 <p className="lone-paragraph">
                     <strong>Přejeme si dlouhodobě spolu vytvářet podmínky pro společnost, která žije v hojnosti autentických projevů,</strong> s vědomím svého odpovědného jednání, s uměním radovat se z každodenního žití a chutí tvořit v radosti, což je<strong> největší dar</strong>.
                 </p>

@@ -3,7 +3,8 @@ module.exports = {
     title: "My Gatsby Site",
   },
   plugins: [
-'gatsby-plugin-anchor-links',
+    `gatsby-plugin-netlify-cms`,
+    'gatsby-plugin-anchor-links',
     `gatsby-plugin-typescript`,
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
@@ -15,8 +16,13 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-plugin-sharp",
+      options: {
+        icon: 'src/images/favicon.jpg'
+      }
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {

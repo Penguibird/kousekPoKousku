@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo: penguibird/kousekPoKousku
+  branch: master
+  site_domain: cms.netlify.com
+
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'projekty'
+    label: 'Projekty'
+    folder: 'content/projekty'
+    create: true
+    slug: 'index'
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}/index'
+    preview: false
+    fields:
+      - { label: 'Nazev', name: 'title', widget: 'string' }
+      - { label: 'Cena', name: 'price', widget: 'string' }
+      - { label: 'Datum', name: 'date', widget: 'datetime' }
+      - { label: 'Popis', name: 'description', widget: 'markdown' }
+      # - { label: 'Latitude', name: 'description', widget: 'markdown' }
+      

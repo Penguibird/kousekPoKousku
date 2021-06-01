@@ -1,8 +1,10 @@
 main.zahrada {
 
 
+
   h1.title {
     font-size: 2.6rem;
+    place-self: center;
   }
   h1.title,
   h2.title   {
@@ -70,13 +72,6 @@ main.zahrada {
   }
 }
 
-main.zahrada {
-  .subtitle.co-nabizi {
-    font-size: 1.8rem;
-    margin-top: 8em;
-    max-width: 40ch;
-  }
-}
 
 
 /* ------------------------------- prvni text ------------------------------- */
@@ -118,9 +113,19 @@ section.kde {
 /* -------------------------------- co nabizi ------------------------------- */
 
 
+
+main.zahrada {
+  .subtitle.co-nabizi {
+    font-size: 1.8rem;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    max-width: 40ch;
+  }
+}
+
 section.co-nabizi {
 
-  padding: 0 4vw 5vw;
+  padding: 4vw 4vw 5vw;
 
 
   .flex-row {
@@ -142,8 +147,12 @@ section.co-nabizi {
       width: 100%;
       max-width: 40ch;
     }
-    @media screen and (max-width: 678px) {
+    @media screen and (max-width: 800px) {
       flex-direction: column;
+      &>* {
+        width: 100%;
+        max-width: 100%;
+      }
     }
 
 
@@ -281,15 +290,25 @@ section.prinos > .title {
 
 section.paragraph {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1em;
+  padding: 0 0 2em;
+  .img {
+    width: 40vw;
+  }
+  @media (max-width: 800px) {
+    flex-direction: column;
+    align-items: flex-start;
 
-  padding: 3vw 4vw 10vw;
+    margin-bottom: 4em;
 
-  background-image: url("../images/paprika_hor.png");
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: 40%;
+    .img {
+      width: 80vw
+    }
+  }
+
 }
 
 p.lone-paragraph {
@@ -299,7 +318,8 @@ p.lone-paragraph {
   font-style: italic;
   color: $main-green;
   
-  width: 50vw;
+  // width: 50vw;
+  margin: 0 2em;
   max-width: 900px;
 
   text-align: justify;
@@ -351,7 +371,20 @@ section.quote-section {
   justify-content: flex-end;
 
   .img {
-    max-width: 40vw;
+    max-width: 30vw;
+  }
+
+  @media (max-width:800px) {
+    flex-direction: column;
+    .img {
+      align-self: flex-end;
+      max-width: 40vw;
+    }
+
+    blockquote {
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
 }
 
