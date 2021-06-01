@@ -2,11 +2,7 @@
   width: 100%;
   padding: 8vw 4vw 5vw;
 
-  .section-title,
-  .title {
-    margin: 0 0;
-    font-size: 2.3rem;    
-  }
+  
   p {
     width: auto;
     max-width: 70ch;
@@ -41,6 +37,15 @@
     gap: 2em;
   }
 }
+
+.section-title,
+ .section .title,
+ section .title {
+    margin: 0 0;
+    font-size: 2.3rem; 
+    text-transform: uppercase;    
+    font-weight: 600;
+  }
 
 .section-text, .text-section {
   display: flex;

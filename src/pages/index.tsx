@@ -76,11 +76,12 @@ const IndexPage = () => {
 
       <section className="text-section section galavecer light">
         <h1 className="section-title">Slavnostní galavečer</h1>
+        <p className="subtitle">Buďte u toho</p>
         <p className="text">
           Letošní rok je pro Nadační fond Kousek po kousku jubilejní. 10 let kousků dobra připomeneme 16. října tohoto roku v kostele sv. Josefa ve Fulneku na Slavnostním Galavečeru. Zrekapitulujeme dosavadní počiny, připomeneme některé z podpořených projektů, přivítáme řadu hostů  a prozradíme další plány.
         </p>
 
-          <p className="text">Součástí Galavečera bude koncert popové houslistky <a className="inline" href="https://www.youtube.com/watch?v=-49HE-gAxok">Lucie Klasek &amp; The Stringz.</a></p>
+        <p className="text">Součástí Galavečera bude koncert popové houslistky <a className="inline" href="https://www.youtube.com/watch?v=-49HE-gAxok">Lucie Klasek &amp; The Stringz.</a></p>
         <a href="/" className="button section-button buy-button">
           koupit vstupenku
         </a>
@@ -104,7 +105,7 @@ const IndexPage = () => {
       </section>
 
       <section className="section section-text" id="o-nadaci">
-        <h1>O nadaci</h1>
+        <h1 className="title">O nadaci</h1>
         <p className="text">Každý člověk může kdykoliv během svého života zažívat radost, zapálení, touhu objevovat nové možnosti, realizovat je tvořivou cestou a tím zlepšovat sám sebe i svět kolem nás, tady a teď.</p>
         <p className="text">
           Pomáháme pochopit nové životní pohledy, uchopit život do vlastních rukou a osvojit si skutečné životní hodnoty. Zároveň prožíváme radost a uspokojení z toho, co děláme. Každý v sobě máme něco jedinečného, a to pomáháme objevit.
