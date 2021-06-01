@@ -24,7 +24,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     {/* <p className="subtitle"></p> */}
                     <p className="text">
                         <strong>Zahrada Hojnosti na pozemku Nadačního fondu Kousek po kousku je naprosto unikátní projekt,</strong> který je připraven na vstup dalších filantropů a donátorů.
-                    </p>    
+                    </p>
                     {/* <h2 className="title co-nabizi">
                         Co nabízí?
                     </h2> */}
@@ -41,9 +41,10 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     <li>
                         <h3>Půda</h3>
                         <p className="text">
-                            Půda poskytuje péči semenům a kořenům rostlin, které jsou postupně vysévány a sazeny na pozemku o rozloze 16 000 m2.
-                            Postupem času vznikne jedlý les, jedlá i okrasná zahrada, budou se pěstovat byliny i květiny k řezu, okrasné keře.
+                            Půda poskytuje péči semenům a kořenům rostlin, které jsou a budou postupně vysévány a sazeny na pozemku NF KpK o rozloze více než 16 000 m2.
+                            Vzniká květinový labyrint, bylinná i okrasná část. Postupně se bude okrasná i jedlá zahrada rozšiřovat, přibude jedlý les.
                             </p>
+                        <p className="text">V Zahradě Hojnosti je po terénních úpravách stále nedostatek orné půdy. Víte o nějaké? Pomozte nám zajistit další půdu pro rostliny. Napište nám na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a></p>
                     </li>
                     <li>
                         <h3>Prostor</h3>
@@ -51,17 +52,27 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                             Prostor slouží ke sdílení, setkávání, tvoření jednotlivců i skupin. Všichni si mohou odzkoušet své limity při fyzické práci a zjistit, jaký díl radosti jim přináší.
                             Dobrovolnictví v zahradě nabude všední význam. Jde o skvělý způsob, jak pozitivně ovlivnit sebe a svět kolem nás.
                             </p>
+
+                        <p className="text">
+                            Chcete se zapojit?
+                            Přihlaste se do FB skupiny <a href=""> DOBROvolníci pro kousek</a>, kde sdělujeme aktuální informace o termínech a akcích, nebo napište na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>. <strong>Rádi Vás přivítáme.</strong>
+                        </p>
                     </li>
                     <li>
                         <h3>Zázemí</h3>
                         <p className="text">
-                            Zahrada také poskytne zázemí pro různé druhy vědomého cvičení, pro harmonizaci, odpočinek a duševní pohodu. Pro hledání sama sebe, ztišení své duše, pro řešení svých dilemat.
+                            Zahrada poskytne zázemí také pro různé druhy vědomého cvičení, pro harmonizaci, odpočinek a duševní pohodu. Pro hledání sama sebe, ztišení své duše, odpoutání se od každodenní reality.
+                            Je už na každém, zda relaxuje u fyzické práce, cvičení nebo si jen sedne pod strom. Budeme připravovat i mnoho tematických workshopů o pěstování a zpracování bylin, výrobě mastí, krémů tinktur a v dalších letech se okruh dál rozšíří.
                             </p>
+                        <p className="text"><strong>Vzpomínáte?</strong> Už J.Á. Komenský tvrdil, že nejlepší učitelkou je sama příroda. A je to tak.</p>
+                        <p className="text">
+                            Chtěli byste nějaký workshop sami pořádat?  Přihlaste se na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>
+
+                        </p>
                     </li>
                 </ul>
 
             </section>
-
 
             <section className="prinos">
                 <h2 className="title">Přínos</h2>
@@ -72,6 +83,13 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     </div>
                 </LayerWrapper>
             </section>
+
+
+            <figure className="quote-wrapper">
+                <figcaption className="">Odkaz J. Á. Komenského</figcaption>
+                <blockquote className="komensky">"Jsou situace, kdy&nbsp;je potřeba zavřít oči, aby člověk viděl a&nbsp;ztišit&nbsp;se, aby&nbsp;se slyšel."</blockquote>
+                <blockquote className="bottom">Kéž&nbsp;Vám bude Zahrada hojnosti k&nbsp;tomuto sloužit…</blockquote>
+            </figure>
 
 
             <section className="section section-text financovani">
@@ -99,7 +117,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
             <section className="section section-text pravidla">
                 <h2 className="title">
-                    Pravidla fungování
+                    Desatero zahrady
                     </h2>
                 <ol className="pravidla-list">
                     <li>Přistupuj s láskou ke všemu, co zde je a cti hojnost.</li>
@@ -111,15 +129,10 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     <li>Zapoj se do dobrovolnických prací a vyzkoušej své limity. </li>
                     <li>Zažij, jaké je tvořit rukama, zotav tělo i mysl.</li>
                     <li>Vše co Zahrada Hojnosti nabízí se vrací zpět, v podobě darů potřebným. </li>
-                    <li>Odkup si květiny, byliny, plody. </li>
-                    <li>Přijď a nasbírej si při samosběru a nechej příspěvek na další kousek DOBRA.</li>
+                    <li>Udržuj koloběh hojnosti. Přijď a nasbírej si při samosběru květiny, byliny, plody, zaplať za ně, ať se zahrada může dále rozvíjet. </li>
                 </ol>
             </section>
-            <figure className="quote-wrapper">
-                <figcaption className="">Odkaz J. Á. Komenského</figcaption>
-                <blockquote className="komensky">"Jsou situace, kdy&nbsp;je potřeba zavřít oči, aby člověk viděl a&nbsp;ztišit&nbsp;se, aby&nbsp;se slyšel."</blockquote>
-                <blockquote className="bottom">Kéž&nbsp;Vám bude Zahrada hojnosti k&nbsp;tomuto sloužit…</blockquote>
-            </figure>
+
         </main>
     </Layout>
 }

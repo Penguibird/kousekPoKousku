@@ -1,6 +1,7 @@
 import * as React from 'react';
 //import {Fragment, useState, useEffect} from 'react';
 import Layout from './../components/layout';
+import { Link } from 'gatsby';
 
 interface KouskovaniPageProps {
 
@@ -21,6 +22,7 @@ const KouskovaniPage: React.FC<KouskovaniPageProps> = ({ }) => {
             {/* Ve Studénce, kde je sklad Kouskování si můžete po dohodě své vybrané kousky také vyzvednout, nebo Vám balíček zašleme na uvedenou adresu.
             Svým nákupem přispějete na další projekt. Všechny podpořené projekty najdete zde/ link na mappu. Ty, související s výtěžkem z Kouskování jsou označeny. */}
 
+            <p className="text">Darováním svých kousků do Kouskování přispějete na další projekt. Všechny podpořené projekty najdete <Link to="/projekty" >zde</Link>. Ty, související s výtěžkem z Kouskování jsou označeny.</p>
             <p className="dekujeme">Děkujeme</p>
         </main>
     </Layout>

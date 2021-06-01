@@ -76,10 +76,11 @@ const IndexPage = () => {
 
       <section className="text-section section galavecer light">
         <h1 className="section-title">Slavnostní galavečer</h1>
-        <p className="section-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Risus fusce ultrices ac neque adipiscing. Malesuada erat risus duis massa a vestibulum sit arcu volutpat. Pharetra ante cursus sodales tristique adipiscing vitae ac amet id.
+        <p className="text">
+          Letošní rok je pro Nadační fond Kousek po kousku jubilejní. 10 let kousků dobra připomeneme 16. října tohoto roku v kostele sv. Josefa ve Fulneku na Slavnostním Galavečeru. Zrekapitulujeme dosavadní počiny, připomeneme některé z podpořených projektů, přivítáme řadu hostů  a prozradíme další plány.
         </p>
+
+          <p className="text">Součástí Galavečera bude koncert popové houslistky <a className="inline" href="https://www.youtube.com/watch?v=-49HE-gAxok">Lucie Klasek &amp; The Stringz.</a></p>
         <a href="/" className="button section-button buy-button">
           koupit vstupenku
         </a>

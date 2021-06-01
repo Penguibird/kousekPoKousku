@@ -24,11 +24,9 @@ const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
                 Zahrada
                 </h2>
             <p className="text">
-                Quibusdam eveniet error rerum cum. Aut et rerum debitis sapiente voluptatum. Quibusdam eveniet error rerum cum. Aut et rerum debitis sapiente voluptatum.
-                </p>
-            <p className="text">
-                Quis quia quo nam quasi perspiciatis pariatur dolores. Voluptatem suscipit ratione adipisci ut debitis qui est tenetur minima. Et qui maxime fugit accusamus. Quis quia quo nam quasi perspiciatis pariatur dolores. Voluptatem suscipit ratione adipisci ut debitis qui est tenetur minima. Et qui maxime fugit accusamus.
-                </p>
+                Na pozemku Nadačního fondu Kousek po kousku ve Fulneku, o rozloze 16 000 m2, se postupně rodí výjimečné místo pro tělo, mysl a duši, harmonizační a inspirativní prostor pro psychickou i fyzickou relaxaci.
+                Zázemí zahrady umožní dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah pro všechny věkové skupiny i spoluúčast na výjimečném ekonomickém procesu.
+                  Prostřednictvím samosběrů květin, bylin a plodů jedlé zahrady uvede totiž NF naprosto unikátní způsob hospodaření pro dosažení soběstačnosti.</p>
             <Link className="button link" to="/zahrada-hojnosti">
                 Více
                 </Link>

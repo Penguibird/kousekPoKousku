@@ -25,8 +25,12 @@ const prinosy: Prinos[] = [
     },
     {
         title: "Pohybový a kreativní přínos",
-        body: [`Od vědomých cvičení po workshopy na téma malování, fotografování,
-        vázání dekorací, kytic a běžných či příležitostných květinových vazeb, zpracování bylin v širokém pojetí, užití v kuchyni atd.`]
+        body: [
+            `Vědomé cvičení, workshopy na téma malování, fotografování, tvorba a vázání dekorací, běžných či příležitostných květinových vazeb, zpracování bylin v širokém pojetí, užití v kuchyni, postupně i zdravé vaření podle makrobiotiky i dalších trendy stylů.`,
+            //     `Od vědomých cvičení po workshopy na téma malování, fotografování,
+            // vázání dekorací, kytic a běžných či příležitostných květinových vazeb, zpracování bylin v širokém pojetí, užití v kuchyni atd.`
+        ]
+
     },
     {
         title: "Edukativní přínos pro všechny věkové skupiny",
@@ -39,10 +43,14 @@ const prinosy: Prinos[] = [
     {
         title: "Praktický přínos - samosběr",
         body: [
-            `Až Zahrada nabídne svou hojnost, bude možné využít možnosti samosběru z jejich darů. Tak se uzavře cyklus dát a sklidit v rámci jednoho roku, aby mohl započít další.`
+            // `Až Zahrada nabídne svou hojnost, bude možné využít možnosti samosběru z jejich darů. Tak se uzavře cyklus dát a sklidit v rámci jednoho roku, aby mohl započít další.`
+            `Až Zahrada nabídne svou hojnost, bude možné využít možnosti samosběru z jejich darů. Tak se uzavře cyklus dát a sklidit v rámci jednoho roku, aby mohl započít další.`,
+            `Zahrada hojnosti má být místem, které bude stále vzkvétat, to znamená, že i její hospodaření je potřeba nastavit tak, aby byla soběstačná. Samosběr bude kromě workshopů vytvářet prozatím zdroje příjmů, které se znovu vloží do další sezóny.`
         ]
     }
 ]
+
+const romanNumerals: readonly string[] = ["", 'I', 'II', 'III', 'IV', 'V', 'VI'] as const;
 
 interface Props {
 
@@ -76,7 +84,7 @@ const ZahradaCarousel: React.FC<Props> = ({ }) => {
                     className={`carousel-nav-button ${i} ${i + 1 == selectedIndex ? 'selected' : ''}`}
                     onClick={goTo(i)}
 
-                >{i + 1}</button>
+                >{romanNumerals[i + 1]}</button>
             )}
             <button onClick={next} className="slider-button next">
                 {">"}
