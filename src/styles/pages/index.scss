@@ -2,7 +2,8 @@
   min-height: 20vw;
 }
 .hero-title {
-  font-size: 3rem;
+  font-size: clamp(1.5rem, calc(1rem + 3vw), 3rem);
+  text-align: center;
   place-self: center;
 }
 
@@ -10,6 +11,8 @@
   padding: 2em 2em;
   .title {
     width: max-content;
+    max-width: 100%;
+    text-align: center;
     margin: auto;
     margin-bottom: 2em;
   }
@@ -80,6 +83,7 @@
 section.aktuality {
   .section-title {
     width: max-content;
+    max-width: 100%;
     margin: 0 auto;
   }
 }
@@ -98,4 +102,30 @@ section.galavecer {
 
 section.aktuality {
   padding: 2em 0;
+}
+
+section.call-to-action {
+  .title {
+    text-align: center;
+  }
+}
+
+section.sponzori {
+  .title {
+    margin-bottom: 2em;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .flex-row{
+    align-items: center;
+    justify-content: center;
+    gap: 8vw;
+    &>*{
+      width: max-content;
+      max-width: 100%;
+    }
+
+  }
 }

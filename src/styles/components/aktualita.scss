@@ -1,6 +1,6 @@
 .aktuality-wrapper {
   display: grid;
-  grid-template-areas: "prev carousel next";
+  grid-template-areas: 'prev carousel next';
   grid-template-rows: 1fr;
   grid-template-columns: 80px calc(100vw - 160px) 80px;
 
@@ -17,7 +17,7 @@
   }
 
   @media screen and (max-width: 600px) {
-    grid-template-areas: "carousel";
+    grid-template-areas: 'carousel';
     grid-template-columns: 1fr;
     .prev,
     .next {
@@ -40,18 +40,30 @@
   flex-direction: column;
   align-items: flex-start;
 
-  padding: 1em;
+  padding: 0.5em;
 
   font-size: 1em;
 
   background-color: $background-color-white;
-  border-radius: 8px;
+  border-radius: 0.8em;
   box-shadow: $box-shadow;
+
+  $margin: 1rem;
+  & {
+    padding-bottom: $margin;
+  }
+  & > :not(.img) {
+    margin-right: $margin / 2;
+    margin-left: $margin;
+  }
 
   .img {
     width: 100%;
     height: auto;
     margin-bottom: 0.5em;
     border-radius: 3px;
+  }
+  p {
+    font-size: 0.9em;
   }
 }

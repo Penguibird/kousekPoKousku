@@ -3,7 +3,12 @@ module.exports = {
     title: "My Gatsby Site",
   },
   plugins: [
-    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+        modulePath: `${__dirname}/src/cms/cms.js`,
+      },
+    },
     'gatsby-plugin-anchor-links',
     `gatsby-plugin-typescript`,
     "gatsby-plugin-sass",

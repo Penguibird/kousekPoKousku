@@ -28,15 +28,18 @@ const Header: React.FC<Props> = ({ color, logo }) => {
     return <header className=""  >
         <Link className="logo" to="/">
             {logo == 'zahrada'
-                ? <StaticImage src="../images/logo-zahrada3.jpg" alt='Kousek po Kousku - zahrada hojnosti' width={150} aspectRatio={1} layout='constrained' />
+                ? <StaticImage src="../images/logo_zahrada_wbg.png" alt='Kousek po Kousku - zahrada hojnosti' width={150} aspectRatio={2135 / 2318} layout='constrained' />
                 : <StaticImage src="../images/logo.svg" alt='Kousek po Kousku' width={150} aspectRatio={228 / 237} layout='constrained' />
             }
         </Link>
+        {/* <span className="empty"></span> */}
+        <label className="sm navbar-link" htmlFor="menu-expand" >BG</label>
+        <input className="sm " type="checkbox" name="menu-expand" id="menu-expand" />
         <nav>
             <ul>
                 <li className="dropdown">
                     <label htmlFor="dropdown-expand" className="navbar-link">O&nbsp;nadaci</label>
-                    <input type="checkbox" name="dropdown-expand" id="dropdown-expand" />
+                    <input className="" type="checkbox" name="dropdown-expand" id="dropdown-expand" />
                     <ul className="dropdown-content">
                         <li className="navbar-link" >
                             <Link to="/#o-nadaci">Naše mise</Link>

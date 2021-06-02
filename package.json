@@ -29,6 +29,7 @@
     "gatsby-source-filesystem": "^3.4.0",
     "gatsby-transformer-sharp": "^3.4.0",
     "netlify-cms-app": "^2.15.17",
+    "netlify-cms-widget-simple-uuid": "0.0.2",
     "prettier": "^2.3.0",
     "prettier-plugin-style-order": "^0.2.2",
     "react": "^17.0.1",

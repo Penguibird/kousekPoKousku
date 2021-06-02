@@ -18,7 +18,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             <LayerWrapper className="hero">
 
                 <StaticImage className='img' src="../images/hero_placeholder.png" alt='Fotka zahrady' layout='constrained' placeholder='blurred' />
-                <h1 className="title">Zahrada Hojnosti</h1>
+                <h1 className="title text-center">Zahrada Hojnosti</h1>
             </LayerWrapper>
 
 
@@ -26,18 +26,18 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             {/* <p className="text">Jedinečný projekt pro podporu soběstačnosti, s jedinečným modelem hospodaření</p> */}
 
             <section className="section section-text co-nabizi">
-                <p className="text bigger">
+                <p className="montserrat-subtitle ">
                     <strong>Zahrada Hojnosti na pozemku Nadačního fondu Kousek po kousku je naprosto unikátní projekt,</strong> který je připraven na vstup dalších filantropů a donátorů.
                     </p>
 
                 <p className="text">
-                    Na pozemku Nadačního fondu Kousek po kousku ve Fulneku, o rozloze 16 000 m2, se postupně rodí výjimečné místo pro tělo, mysl a duši, harmonizační a inspirativní prostor pro psychickou i fyzickou relaxaci. Zázemí zahrady umožní dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah pro všechny věkové skupiny i spoluúčast na výjimečném ekonomickém procesu.
+                    Na pozemku Nadačního fondu Kousek po kousku ve Fulneku, o rozloze 16&nbsp;000&nbsp;m<sup>2</sup>, se postupně rodí výjimečné místo pro tělo, mysl a&nbsp;duši, harmonizační a&nbsp;inspirativní prostor pro psychickou i fyzickou relaxaci. Zázemí zahrady umožní dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah pro všechny věkové skupiny i spoluúčast na výjimečném ekonomickém procesu.
                     Prostřednictvím samosběrů květin, bylin a plodů jedlé zahrady uvede totiž NF naprosto unikátní způsob hospodaření pro dosažení soběstačnosti.
                     </p>
                 {/* <h2 className="title co-nabizi">
                         Co nabízí?
                     </h2> */}
-                <p className="subtitle co-nabizi">Zahrada je bohatá od&nbsp;samého začátku. Už&nbsp;nyní nabízí <strong>půdu, prostor a&nbsp;zázemí.</strong></p>
+                <p className="montserrat-subtitle bigger co-nabizi">Zahrada je bohatá od&nbsp;samého začátku. Už&nbsp;nyní nabízí&nbsp;<strong>půdu, prostor a&nbsp;zázemí.</strong></p>
 
                 <ul className="flex-row">
                     <li>
@@ -82,7 +82,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     <figcaption className=""> - J. Á. Komenský</figcaption>
                     {/* <blockquote className="bottom">Kéž&nbsp;Vám bude Zahrada hojnosti k&nbsp;tomuto sloužit…</blockquote> */}
                 </figure>
-                <StaticImage className="img" src='https://image.shutterstock.com/shutterstock/photos/1270917781/display_1500/stock-photo-jan-amos-komensky-portrait-from-czechoslovakia-banknotes-1270917781.jpg' alt='Jan amos komensky' placeholder="blurred" layout='constrained' />
+                <StaticImage className="img" src='../images/komensky_placeholder.jpg' alt='Jan amos komensky' placeholder="blurred" layout='constrained' />
             </section>
 
 
@@ -104,18 +104,18 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     Financování
                     </h2>
                 <p className="text">
-                    Hospodaření je a bude naprosto jedinečné a teprve čas ukáže, jak vše bude fungovat. Zda se hojnost zahrady rozroste a bude plodit dary pro další potřebné.
+                    <strong>Hospodaření je a bude naprosto jedinečné a teprve čas ukáže, jak vše bude fungovat.</strong> Zda se hojnost zahrady rozroste a bude plodit dary pro další potřebné.
                     Zda se časem zahrada stane soběstačnou, zvládne provoz a přitáhne další regionální donátory a filantropy.
                     </p>
                 <p className="text">
-                    Jedním ze zdrojů budou samosběry. Bude možné přijít na řez květin, sběr bylin, později i bobulovin a vše, co v hojnosti zahrada vydá. Při samosběru se nastaví minimální částka a bude na každém, zda plody přírody ocení klidně i sumou vyšší.
-                    Finanční zdroje se vrátí zpět do hospodaření Nadačního fondu a budou použity na další kousky DOBRA v rámci projektů Nadačního fondu Kousek po kousku.
+                    <strong>Jedním ze zdrojů budou samosběry.</strong> Bude možné přijít na řez květin, sběr bylin, později i bobulovin a vše, co v hojnosti zahrada vydá. Při samosběru se nastaví minimální částka a bude na každém, zda plody přírody ocení klidně i sumou vyšší.
+                    <strong>Finanční zdroje se vrátí zpět do hospodaření Nadačního fondu a budou použity na další kousky dobra</strong> v rámci projektů Nadačního fondu Kousek po kousku.
                 </p>
             </section>
 
             <section className="section paragraph">
                 {/* //todo Fix image, responsive, etc */}
-                <StaticImage className='img' src="../images/paprika_hor.png" alt='Ruka držící rostlinku papriky' layout='constrained' placeholder='blurred'/>
+                <StaticImage className='img' src="../images/paprika_hor.png" alt='Ruka držící rostlinku papriky' layout='constrained' placeholder='blurred' />
                 <p className="lone-paragraph">
                     <strong>Přejeme si dlouhodobě spolu vytvářet podmínky pro společnost, která žije v hojnosti autentických projevů,</strong> s vědomím svého odpovědného jednání, s uměním radovat se z každodenního žití a chutí tvořit v radosti, což je<strong> největší dar</strong>.
                 </p>
