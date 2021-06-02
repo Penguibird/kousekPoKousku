@@ -9,6 +9,7 @@ import LayerWrapper from './layer-wrapper';
 import markerIcon from "../images/map_marker.svg";
 // @ts-ignore
 import mapOutline from '../images/map_outline_yellow.svg';
+import { useStaticQuery, graphql } from 'gatsby';
 
 interface MapProps {
 
@@ -24,7 +25,7 @@ export interface Projekt {
     name: string,
     price: number,
     description: string,
-    year?: Year,
+    year: Year,
     image?: {
         url: string,
         altText: string,
@@ -120,74 +121,107 @@ const Map: React.FC<MapProps> = ({ }) => {
         }
     }
 
-    //#region loading map
-    const loader = new Loader({
-        apiKey: API_KEY,
-        version: "weekly",
+    const data = useStaticQuery(graphql`query MyQuery {
+        allMarkdownRemark {
+            edges {
+                node {
+                    rawMarkdownBody
+                    frontmatter {
+                        id
+                        description
+                        image {
+                            imageAlt
+                        }
+                        locationName
+                        position {
+                            lat
+                            lng
+                        }
+                        price
+                        title
+                        year
+                    }
+                }
+                }
+            }
+    }`);
+    const projekty: Projekt[] = data.allMarkdownRemark.edges
+        .map((edge: any) => ({ name: edge.node.frontmatter.title, ...edge.node.frontmatter }))
+        .sort((a: Projekt, b: Projekt) => (b.year - a.year))
+        .reverse();
 
-        ...additionalOptions,
-    });
 
-    loader.load().then(() => {
-        map = new window.google.maps.Map(document.getElementById("map") as HTMLElement, {
-            // center: { lat: 49.71198812010327, lng: 17.914118207168002 }, //fulnek
-            center: { lat: 49.85967567710321, lng: 17.914118207168002 }, // MSK center
+    useEffect(() => {
+        console.log(projekty)
+        //#region loading map
+        const loader = new Loader({
+            apiKey: API_KEY,
+            version: "weekly",
 
-            zoom: 9,
-            styles: grayStyle,
-            mapTypeControl: false,
-            streetViewControl: false,
+            ...additionalOptions,
         });
 
+        loader.load().then(() => {
+            map = new window.google.maps.Map(document.getElementById("map") as HTMLElement, {
+                // center: { lat: 49.71198812010327, lng: 17.914118207168002 }, //fulnek
+                center: { lat: 49.85967567710321, lng: 17.914118207168002 }, // MSK center
 
-        // highlight Fulnek
-        const fulnekMarker = new window.google.maps.Marker({
-            position: { lat: 49.71198812010327, lng: 17.914118207168002 },
-            label: {
-                fontSize: '20px',
-                text: 'Fulnek',
-            },
-            icon: getIcon(1),
-            map,
-        });
-        google.maps.event.addListener(map, 'zoom_changed', () => {
-            const zoom = map.getZoom();
-            const visible: boolean = zoom == undefined ? false : zoom < 10;
-            fulnekMarker.setVisible(visible);
-        });
+                zoom: 9,
+                styles: grayStyle,
+                mapTypeControl: false,
+                streetViewControl: false,
+            });
 
-        markers = projekty.map((projekt, i: number) => {
-            const marker = new window.google.maps.Marker({
-                position: projekt.position,
-                // icon: '../images/map_marker.svg',
-                icon: getIcon(35),
-                map: map,
+
+            // highlight Fulnek
+            const fulnekMarker = new window.google.maps.Marker({
+                position: { lat: 49.71198812010327, lng: 17.914118207168002 },
+                label: {
+                    fontSize: '20px',
+                    text: 'Fulnek',
+                },
+                icon: getIcon(1),
+                map,
+            });
+            google.maps.event.addListener(map, 'zoom_changed', () => {
+                const zoom = map.getZoom();
+                const visible: boolean = zoom == undefined ? false : zoom < 10;
+                fulnekMarker.setVisible(visible);
+            });
+
+            markers = projekty.map((projekt, i: number) => {
+                const marker = new window.google.maps.Marker({
+                    position: projekt.position,
+                    // icon: '../images/map_marker.svg',
+                    icon: getIcon(35),
+                    map: map,
+                })
+                marker.addListener('click', highlightProjekt(i))
+                return marker;
             })
-            marker.addListener('click', highlightProjekt(i))
-            return marker;
-        })
 
-        // , 18.436931
-        // , 17.686974
-        // 49.880670, 17.146264
-        // 49.550606, 18.859233
+            // , 18.436931
+            // , 17.686974
+            // 49.880670, 17.146264
+            // 49.550606, 18.859233
 
-        // const imageBounds = {
-        //     north: 50.327999,
-        //     south: 49.392601,
-        //     east: 18.859233,
-        //     west: 17.146264,
-        // };
+            // const imageBounds = {
+            //     north: 50.327999,
+            //     south: 49.392601,
+            //     east: 18.859233,
+            //     west: 17.146264,
+            // };
 
-        // const regionOverlay = new google.maps.GroundOverlay(
-        //     mapOutline,
-        //     imageBounds
-        // );
-        // regionOverlay.setMap(map);
+            // const regionOverlay = new google.maps.GroundOverlay(
+            //     mapOutline,
+            //     imageBounds
+            // );
+            // regionOverlay.setMap(map);
 
 
-    });
-    //#endregion loading map
+        });
+        //#endregion loading map
+    }, [])
 
 
     const selectYear = (year: number) => () => {
@@ -218,7 +252,7 @@ const Map: React.FC<MapProps> = ({ }) => {
         const projekt = projekty[i];
         // document.getElementById(projekt.id)?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
         var target = document.getElementById(projekt.id);
-        console.log({ target })
+        // console.log({ target })
         var targetParent = target?.parentElement;
         if (targetParent && targetParent.scrollTop && target) {
             targetParent.scrollTo({
@@ -236,7 +270,7 @@ const Map: React.FC<MapProps> = ({ }) => {
         years.forEach((year, i) => {
             let _ = document.getElementById(year.toString())?.offsetTop;
             if (_ && (projekty.scrollTop + projekty.offsetTop + 1) >= _) selectedYear = i;
-            console.log(_)
+            // console.log(_)
         })
         setHighlighter(selectedYear ?? '0');
     }
@@ -263,16 +297,24 @@ const Map: React.FC<MapProps> = ({ }) => {
         </LayerWrapper>
         <div className="map-projekty" onScroll={scrollHandler}>
             {projekty.reduce((acc: JSX.Element[], p: Projekt, i: number, arr: Projekt[]) => {
+
+
+
+                //add things
                 acc.push(<div className="Projekt" key={p.id} id={p.id}>
                     <button className="projekt-title-button" onClick={highlightProjekt(i)}>
-                        <h3 className="projekt-title">{p.name}</h3>
+                        <h3 style={{ textAlign: 'left' }} className="projekt-title">{p.name}</h3>
                     </button>
                     <p className="money">{p.price} Kč</p>
                     <p className="description">{p.description}</p>
                 </div>)
 
-                if (i == (arr.length - 1) || (i !== 0 && p.year && arr[i - 1].year && p.year !== arr[i - 1].year)) {
-                    const p = arr[i - 1];
+
+                // Add Year seperator yellow stripes if needed
+                const isLast = i == (arr.length - 1);
+                const yearDoesntMatchNext = !isLast && p.year && arr[i + 1].year && p.year !== arr[i + 1].year;
+                if (isLast || (yearDoesntMatchNext)) {
+                    // const p = arr[i - 1];
                     acc.push(
                         <div className="year-seperator" style={{ marginTop: 0 }} key={p.year} id={p.year?.toString()}>{p.year}</div>
                     )

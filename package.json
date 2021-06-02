@@ -16,6 +16,7 @@
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.11.4",
     "@loadable/component": "^5.15.0",
+    "@ncwidgets/id": "^0.9.0",
     "gatsby": "3.6.0",
     "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-image": "^1.4.1",
@@ -27,6 +28,7 @@
     "gatsby-plugin-sitemap": "^4.0.0",
     "gatsby-plugin-typescript": "^3.4.0",
     "gatsby-source-filesystem": "^3.4.0",
+    "gatsby-transformer-remark": "^4.3.0",
     "gatsby-transformer-sharp": "^3.4.0",
     "netlify-cms-app": "^2.15.17",
     "netlify-cms-widget-simple-uuid": "0.0.2",
