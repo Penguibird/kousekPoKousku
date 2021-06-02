@@ -1,6 +1,7 @@
 ---
 name: Sociální klinika z.ú. - Podpora služeb rozvoje Sociální kliniky v
   Moravskoslezském kraji
+id: nmYCyNY2P
 title: Sociální klinika z.ú. - Podpora služeb rozvoje Sociální kliniky v
   Moravskoslezském kraji
 price: 20000
