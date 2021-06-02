@@ -1,6 +1,8 @@
 ---
 name: Sociální klinika z.ú. - Podpora služeb rozvoje Sociální kliniky v
   Moravskoslezském kraji
+title: Sociální klinika z.ú. - Podpora služeb rozvoje Sociální kliniky v
+  Moravskoslezském kraji
 price: 20000
 year: 2020
 description: "Účelem je poskytování kvalitní terapeutické služby lidem, kteří se
