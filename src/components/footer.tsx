@@ -13,13 +13,13 @@ const Footer = ({ }) => {
                 <h5>Kontaktní osoba</h5>
                 <p className="name">Iva Ježová</p>
                 <a href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>
-                <p className="phone">Telefon: <a href="tel:+420702022975">702 022 975</a></p>
+                <p className="phone">Telefon: <a href="tel:+420702022975">+420 702 022 975</a></p>
             </li>
-            <li className="partneri">
+            {/* <li className="partneri">
                 <h5>Naši partneři</h5>
                 <a href="https://www.parskomponenty.cz" className="company">Pars Komponenty s.r.o</a>
                 <a href="http://www.ksb.cz/" className="company">Kocián Šolc Balaštík</a>
-            </li>
+            </li> */}
         </ul>
         <p className="signature">© {(new Date()).getFullYear()} - Vojtěch Loskot, <a href="https://softwarovereznictvi.cz">Softwarové řeznictví</a> </p>
     </footer>

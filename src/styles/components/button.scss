@@ -1,19 +1,19 @@
 
   @mixin button($color) {
     margin: 0.2em;
-    padding: 0.8em 1.4em;
+    padding: 0.5em 1em;
     color: $color;
-    font-weight: 700;
-    font-size: 1.1rem;
-    letter-spacing: 0.02ch;
+    font-weight: 600;
+    font-size: .9rem;
+    letter-spacing: 0.07ch;
   
     font-family: "Roboto", sans-serif;
     line-height: normal;
     text-transform: uppercase;
     background-color: rgba(255, 255, 255, 0);
   
-    border: 3px solid $color;
-    border-radius: 0.3em;
+    border: 2px solid $color;
+    border-radius: 0.15em;
   
     // transition: background 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out

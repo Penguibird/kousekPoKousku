@@ -12,7 +12,7 @@ header {
     justify-content: space-between;
     padding: 0 2em;
     box-sizing: border-box;
-    align-items: flex-start;
+    align-items: center;
     .logo {
         position: absolute !important;
         margin-top: 0.5em;
@@ -20,6 +20,7 @@ header {
         width: 12vw;
         max-width: 120px;
         height: auto;
+        align-self: flex-start;
         // min-height: 90px;
         // height: 12vw;
         // max-height: 130px;
@@ -110,19 +111,20 @@ nav li a,
 nav li,
 .navbar-link {
   color: $base-text-color;
-  font-weight: 600;
-  font-size: 1.2rem;
+  font-weight: 500;
+  font-size: 1rem;
   font-family: "Montserrat", sans-serif;
+  letter-spacing: .02ch;
 }
 
 .navbar-link {
   // margin: 0 0.2em;
-  padding: 1em;
+  padding: .8em 1.5em .65em;
 
   text-transform: uppercase;
   transition: background-color 0.2s ease-in-out;
   &:hover, &:focus-within {
-    background-color: darken($main-yellow, 5);
+    background-color: darken($main-yellow, 3);
   }
 }
 

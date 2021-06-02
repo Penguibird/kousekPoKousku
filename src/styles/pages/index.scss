@@ -10,6 +10,8 @@
   padding: 2em 2em;
   .title {
     width: max-content;
+    max-width: 100vw;
+    text-align: center;
     margin: auto;
     margin-bottom: 2em;
   }
@@ -98,4 +100,29 @@ section.galavecer {
 
 section.aktuality {
   padding: 2em 0;
+}
+
+section.call-to-action {
+  .title {
+    text-align: center;
+  }
+}
+
+section.sponzori {
+  .title {
+    margin-bottom: 2em;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .flex-row{
+    align-items: center;
+    justify-content: center;
+    gap: 8vw;
+    &>*{
+      width: max-content;
+    }
+
+  }
 }

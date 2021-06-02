@@ -113,6 +113,18 @@ const IndexPage = () => {
         <Link className="button" to="/nadace-v-cislech">Více o nadaci</Link>
       </section>
 
+
+      <section className="section sponzori">
+        <h2 className="title text-center">Naši sponzoři</h2>
+        <ul className="flex-row">
+          <li>
+            <StaticImage className='img' src="../images/logo_pars.png" alt='Pars Komponenty' layout='constrained' placeholder='blurred' />
+          </li>
+          <li>
+            <StaticImage className='img' src="../images/logo_ksb.jpg" alt='Kocián Šolc Balaštík' layout='constrained' placeholder='blurred' />
+          </li>
+        </ul>
+      </section>
       {/* <section className="section section-map">
         <Map />
       </section> */}

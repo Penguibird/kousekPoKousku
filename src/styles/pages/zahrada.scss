@@ -8,7 +8,7 @@ main.zahrada {
   }
   h1.title,
   h2.title   {
-    font-weight: 600;
+    // font-weight: 600;
     text-transform: uppercase;
   }
 
@@ -44,6 +44,26 @@ main.zahrada {
   strong {
     color: $main-green;
   }
+
+  .montserrat-subtitle {
+    // margin-left: auto;
+    // margin-right: auto;
+    // margin: 4em auto;
+    max-width: 900px;
+
+    color: inherit;
+    font-size: 1.55em;
+
+    font-weight: 200;
+    strong, .strong, &.strong {
+      font-weight: 500;
+      color: $main-green
+    }
+    &.bigger {
+      font-size: 2em;
+    }
+  }
+
   .subtitle {
     max-width: 900px;
 
@@ -92,9 +112,9 @@ section.kde {
 
 @media screen and (max-width: 678px) {
   main.zahrada{
-    .hero {
-      display: block !important;
-    }
+    // .hero {
+    //   display: block !important;
+    // }
     .hero-image {
     // grid-area: ;
       place-self: center center;
@@ -115,10 +135,9 @@ section.kde {
 
 
 main.zahrada {
-  .subtitle.co-nabizi {
+  :not(section).co-nabizi {
     font-size: 1.8rem;
-    margin-top: 4em;
-    margin-bottom: 2em;
+    margin: 4em auto 3em;
     max-width: 40ch;
   }
 }
@@ -159,9 +178,10 @@ section.co-nabizi {
     h3 {
       margin-bottom: 0;
       color: $main-green;
-      font-size: 1.5em;
-      @include Cavolini;
-      font-style: italic;
+      font-size: 1.8em;
+      // @include Cavolini;
+      // font-style: italic;
+      text-transform: uppercase;
     }
     h3+p {
       margin-top: 0;
@@ -207,6 +227,10 @@ section.prinos > .title {
       pointer-events: all;
       width: $button-width;
     }
+    @media (max-width:800px) {
+        
+      display: none;
+    }
   }
   .inner-slide > * {
     width: 100vw;
@@ -214,17 +238,21 @@ section.prinos > .title {
   .prinos {
     // margin: 0 ;
     padding: 4em $button-width 2em;
-
+    
+    @media (max-width:800px) {
+      
+      padding: 4em 0.5em 2em 1em;
+    }
 
 
     .title {
       max-width: 70vw;
-      font-size: 1.8em;
-      color: $main-green;
+      font-size: 2.3em;
+      // color: $main-green;
 
 
-      @include Cavolini;
-      font-style: italic;
+      // @include Cavolini;
+      // font-style: italic;
 
 
     }
@@ -298,6 +326,27 @@ section.paragraph {
   .img {
     width: 40vw;
   }
+  
+
+  p.lone-paragraph {
+    // margin: 2em 0 1em 5em;
+    // @include Cavolini;
+    font-size: 1.4em;
+    // font-style: italic;
+      font-weight: 300;
+      color: $main-black;
+    strong {
+      color: $main-green;
+      font-weight: 500;
+    }
+    // width: 50vw;
+    margin: 0 2em;
+    max-width: 900px;
+  
+    text-align: justify;
+  }
+
+
   @media (max-width: 800px) {
     flex-direction: column;
     align-items: flex-start;
@@ -307,22 +356,12 @@ section.paragraph {
     .img {
       width: 80vw
     }
+
+    p.lone-paragraph {
+      text-align: left;
+    }
   }
 
-}
-
-p.lone-paragraph {
-  // margin: 2em 0 1em 5em;
-  @include Cavolini;
-  font-size: 1.3em;
-  font-style: italic;
-  color: $main-green;
-  
-  // width: 50vw;
-  margin: 0 2em;
-  max-width: 900px;
-
-  text-align: justify;
 }
 
 
@@ -339,6 +378,9 @@ section.pravidla {
   ol {
     margin-left: 2em;
     margin-top: 2em;
+    @media (max-width: 700px) {
+      margin-left: .5em;
+    }
   }
   
   li {
@@ -364,17 +406,18 @@ section.pravidla {
 section.quote-section {
 
   width: 100vw;    
-  margin: 4em 0 ;
+  margin: 4em 0 6em;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-end;
 
   .img {
-    max-width: 30vw;
+    max-width: 20vw;
   }
 
   @media (max-width:800px) {
+    align-items: center;
     flex-direction: column;
     .img {
       align-self: flex-end;
@@ -396,19 +439,22 @@ section.quote-section {
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-around;
+  margin-top: 0;
   figcaption {
-    font-size: 1.5x
-    em;
+    font-size: 1.3em;
     font-weight: 600;
+    color: $main-green;
 
   }
   blockquote.komensky {
     color: $main-green;
 
     font-size: 2em;
-    @include Cavolini;
+    // @include Cavolini;
     
     font-style: italic;
+    font-weight: 200;
+    color: $main-black;
     max-width: 500px;
     text-align: center;
     line-height: 1.5em;

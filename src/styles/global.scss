@@ -13,7 +13,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 700;
+    font-weight: 800;
+    color: $main-black; 
 }
 
 p,
@@ -86,6 +87,6 @@ p.text.bigger {
     font-size: 1.5em;
 }
 
-p.text.green {
+p.text.green, p.green, .subtitle.green {
     color: $main-green !important;
 }
