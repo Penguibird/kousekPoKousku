@@ -124,11 +124,11 @@ const ZahradaCarousel: React.FC<Props> = ({ }) => {
                         items: 1,
                         rewind: false,
                         // startIndex: 0,
-                        responsive: {
-                            800: {
-                                autoHeight: false,
-                            }
-                        }
+                        // responsive: {
+                        // 800: {
+                        //     autoHeight: false,
+                        // }
+                        // }
                     }}
                     ref={ts => slider = ts}
                     onIndexChanged={(e) => { setSelectedIndex(e.index) }}
