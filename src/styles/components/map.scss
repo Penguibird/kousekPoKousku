@@ -9,11 +9,19 @@
   max-width: 1300px;
   margin: 0 auto;
   padding: 2em;
+  @media (max-width: 900px) {
+    grid-template-areas:
+      'map map'
+      'projekty projekty';
+  }
   .map {
     grid-area: map;
   }
   .year-wrapper {
     grid-area: years;
+    @media (max-width: 900px) {
+      display: none !important;
+    }
   }
   .map-projekty {
     grid-area: projekty;
@@ -40,6 +48,7 @@
 }
 .year-list {
   display: flex;
+
   flex-direction: column;
   align-items: center;
   height: fit-content;

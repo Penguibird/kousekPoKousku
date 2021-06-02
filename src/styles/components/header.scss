@@ -1,29 +1,31 @@
 header {    
-
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
     z-index: 100;
 
-    width: 100%;
+    width: 100vw;
+    box-sizing: border-box;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 2em;
-    box-sizing: border-box;
     align-items: center;
+
+    padding: 0 2em;
+
     .logo {
         position: absolute !important;
+        align-self: flex-start;
+
         margin-top: 0.5em;
+
         min-width: 90px;
         width: 12vw;
         max-width: 120px;
+
         height: auto;
-        align-self: flex-start;
-        // min-height: 90px;
-        // height: 12vw;
-        // max-height: 130px;
     }
     a {
         color: inherit;
@@ -36,34 +38,23 @@ header {
         background-color: $main-yellow;
         * {
             color: $main-white;
-
         }
         .dropdown-content {
             background-color: $main-yellow;
-
         }
+    }
+    .sm {
+        display: none;
     }
 }
 
 .dropdown {
-    label {
-        cursor: pointer;
-    }
-    input[type="checkbox"] {
-        width: 0;
-        height: 0;
-        position: absolute;
-        top: -9999px;
-    }
     .dropdown-content {
         z-index: 50;
         position: absolute;
         visibility: hidden;
         opacity: 0;
         display: block;
-        // margin: 0.5em 0 0;
-        // transform: translateY(-500px);
-        // transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
     }
     .dropdown-content li {
         z-index: 50;
@@ -72,41 +63,106 @@ header {
         min-width: 100%;
         padding: 0.7em 1em;
         margin: 0;
-        // text-align: center;
-        // margin: auto;
+   
     }
-    // &:focus-within .dropdown-content,
     label:hover ~ .dropdown-content,
     .dropdown-content:hover {
         visibility: visible;
-
         opacity: 1;
     }
-    // input[type="checkbox"]:checked ~ .dropdown-content {
-    //     // transform: translateY(0);
-    // }
 }
 
 header nav {
     padding-left: 180px;
- ul {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-end;
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-end;
 
-    padding: 0;
-    margin: 0;
+        padding: 0;
+        margin: 0;
 
-    list-style: none;
-    li {
-        display: block;
-        &::marker {
-            display: none;
+        list-style: none;
+        li {
+            display: block;
+            &::marker {
+                display: none;
+            }
         }
     }
 }
+
+@media screen and (max-width: 900px) {
+    header {
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        background-color: $main-yellow;
+        * {
+            color: $main-white !important;
+        }
+        padding: 0 .5em 0 0;
+        .logo {
+            margin-top: 0;
+            top: 0;
+            left: 0;
+        }
+
+        
+        .sm  {
+            display: block;
+        }
+        label {
+            cursor: pointer;
+            justify-self: flex-end;
+            // position: absolute;
+            // top: 0;
+            // right: 0;
+        }
+        input[type="checkbox"] {
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: -9999px;
+        }
+
+        .eshop-link, nav {
+            display: none;
+        }
+        input[type="checkbox"]:checked ~ .eshop-link ,
+        input[type="checkbox"]:checked ~ nav {
+            display: block;     
+        }
+
+        nav > ul {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0;   
+        }
+
+        .dropdown-content {
+            display: none !important;
+            transform: translateY(-500px);
+        }
+        input[name="dropdown-expand"]:checked ~ .dropdown-content {
+            transform: translateY(0);
+            display: flex !important;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+
+            position: static;
+            visibility: visible;
+            opacity: 1;
+        }
+    }
 }
+
+
+
+
+
 nav li a,
 nav li,
 .navbar-link {
