@@ -129,9 +129,7 @@ const Map: React.FC<MapProps> = ({ }) => {
                     frontmatter {
                         id
                         description
-                        image {
-                            imageAlt
-                        }
+                        
                         locationName
                         position {
                             lat
@@ -144,7 +142,7 @@ const Map: React.FC<MapProps> = ({ }) => {
                 }
                 }
             }
-    }`);
+    }`); 
     const projekty: Projekt[] = data.allMarkdownRemark.edges
         .map((edge: any) => ({ name: edge.node.frontmatter.title, ...edge.node.frontmatter }))
         .sort((a: Projekt, b: Projekt) => (b.year - a.year))

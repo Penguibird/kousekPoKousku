@@ -1,4 +1,5 @@
 node_modules/
+postDownloader/node_modules
 .cache/
 public
 assets
