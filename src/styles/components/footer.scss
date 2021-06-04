@@ -2,6 +2,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 4em;
 
   width: 100vw;
   margin: 2em 0 0;
@@ -12,7 +13,7 @@ footer {
   ul {
     display: flex;
     flex-direction: row;
-    gap: 5em;
+    gap: max(3em, 10vw);
     align-items: flex-start;
     justify-content: space-around;
     padding: 0 1em;
@@ -25,7 +26,7 @@ footer {
       padding-left: 3em;
     }
     & > * {
-      width: 100%;
+      // width: 100%;
     }
     * {
       margin: 0;

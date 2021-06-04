@@ -73,7 +73,7 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
 
                         {/* maybe change to <img /> */}
                         {/* <StaticImage loading="eager" className="img" src="../images/hero_placeholder.png" alt="" layout="constrained" /> */}
-                        <GatsbyImage image={akt.image.image} alt={akt.image.imageAlt}></GatsbyImage>
+                        <GatsbyImage className="img" image={akt.image.image} alt={akt.image.imageAlt}></GatsbyImage>
 
                         <h3 className="title">{akt.title}</h3>
                         <p className="text" dangerouslySetInnerHTML={{ __html: akt.body }}></p>

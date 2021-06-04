@@ -42,11 +42,11 @@ const Header: React.FC<Props> = ({ color, logo }) => {
                     <input className="" type="checkbox" name="dropdown-expand" id="dropdown-expand" />
                     <ul className="dropdown-content">
                         <li className="navbar-link" >
-                            <Link to="/#o-nadaci">Naše mise</Link>
+                            <Link to="/mise-vize-poslani">Mise, vize, poslání</Link>
                         </li>
-                        <li className="navbar-link" >
+                        {/* <li className="navbar-link" >
                             <Link to="/nadace-v-cislech">Nadace v číslech</Link>
-                        </li>
+                        </li> */}
                         <li className="navbar-link" >
                             <Link to="/projekty">Aktuálně podporujeme</Link>
                         </li>

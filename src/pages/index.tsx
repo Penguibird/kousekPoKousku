@@ -74,7 +74,7 @@ const IndexPage = () => {
         </div>
       </section>
 
-      <section className="text-section section galavecer light">
+      <section className="text-section section galavecer">
         <h1 className="section-title">Slavnostní galavečer</h1>
         <p className="subtitle">Buďte u toho</p>
         <p className="text">
@@ -107,13 +107,14 @@ const IndexPage = () => {
       <section className="section section-text" id="o-nadaci">
         <h1 className="title">O nadaci</h1>
         <p className="text">Každý člověk může kdykoliv během svého života zažívat radost, zapálení, touhu objevovat nové možnosti, realizovat je tvořivou cestou a tím zlepšovat sám sebe i svět kolem nás, tady a teď. </p>
-        <p className="text">Pomáháme chápat a přijímat nové životní pohledy, uchopit život do vlastních rukou a osvojit si skutečné životní hodnoty. Zároveň prožíváme radost a uspokojení z toho, co děláme. Každý v sobě máme něco jedinečného, a to pomáháme objevit. Všichni máme volbu. My jsme si zvolili dělat to, co nás naplňuje. Pomáhat lidem, sobě a světu kolem nás.</p>
-        <Link className="button" to="/o-nadaci">Více o nadaci</Link>
+        <p className="text">Pomáháme chápat a přijímat nové životní pohledy, uchopit život do vlastních rukou a osvojit si skutečné životní hodnoty. Zároveň prožíváme radost a uspokojení z toho, co děláme. Každý v sobě máme něco jedinečného, a to pomáháme objevit. Všichni máme volbu. My jsme si zvolili dělat to, co nás naplňuje. Pomáhat lidem, sobě a světu kolem nás.
+        <Link className="button" to="/mise-vize-poslani">Více o nadaci</Link>
+        </p>
       </section>
 
 
       <section className="section sponzori">
-        <h2 className="title text-center">Naši sponzoři</h2>
+        <h2 className="title text-center">Partneři</h2>
         <ul className="flex-row">
           <li>
             <StaticImage className='img' src="../images/logo_pars.png" alt='Pars Komponenty' layout='constrained' placeholder='blurred' />

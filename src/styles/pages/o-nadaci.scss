@@ -40,4 +40,20 @@ main.o-nadaci {
     }
     
   }
+
+  .section .title {
+      margin-bottom: 1em;
+  }
+  ul.roky {
+      max-width: 60ch;
+      li, li::marker {
+          text-align: justify;
+        //   color: $main-white;
+      }
+      padding-top: 2em;
+      padding-bottom: 2em;
+      padding-right: 1em;
+      background-color: $light-gray-background;
+      border-radius: 2px;
+  }
 }

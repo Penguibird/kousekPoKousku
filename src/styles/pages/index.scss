@@ -98,6 +98,9 @@ section.galavecer {
   background-position: right top;
   background-size: cover;
   // filter: brightness(0.4);
+  .text {
+    color: $main-white;
+  }
 }
 
 section.aktuality {
@@ -105,12 +108,29 @@ section.aktuality {
 }
 
 section.call-to-action {
+  background-color: $main-yellow;
   .title {
     text-align: center;
   }
 }
 
+section#o-nadaci,
+section.o-nadaci {
+  align-items: center;
+  .title {
+    margin-bottom: 1.3em;
+  }
+  p, .text {
+    text-align: justify;
+  }
+  .button {
+    display: block;
+    width: max-content;
+  }
+}
+
 section.sponzori {
+  background-color: $light-gray-background;
   .title {
     margin-bottom: 2em;
   }

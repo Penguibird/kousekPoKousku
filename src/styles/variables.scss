@@ -1,5 +1,7 @@
 $base-text-color: #1f1f1f;
-$background-color-white: rgb(243, 243, 243);
+$background-color-white: #f3f3f3;
+$light-gray-background: $background-color-white;
+
 $box-shadow: 2px 2px 12px 0px rgb(80 80 80 / 20%);
 
 $main-yellow: #ffad00;
@@ -14,3 +16,5 @@ $main-white: white;
 $text-white: white;
 
 $gray: rgb(128, 128, 128);
+
+$light-gray-background: #e8e8e8;
