@@ -22,6 +22,7 @@ collections:
     fields:
     - { label: "ID", name: "id", widget: "id"}
     - { label: "Nazev", name: 'name', widget: 'string'}
+    - {label: 'Datum', name: 'date', widget: 'dateTime', format: 'DD-MM-YYYY'}
     - {label: 'Text', name: 'body', widget: 'markdown'}
     - label: 'Obrazek'
       name: 'image'

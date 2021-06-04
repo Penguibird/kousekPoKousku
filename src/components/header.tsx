@@ -53,6 +53,9 @@ const Header: React.FC<Props> = ({ color, logo }) => {
                         <li className="navbar-link" >
                             <Link to="/media">Média</Link>
                         </li>
+                        <li className="navbar-link" >
+                            <Link to="/aktuality">aktuality</Link>
+                        </li>
                     </ul>
                 </li>
                 <li className="navbar-link" >
@@ -66,7 +69,7 @@ const Header: React.FC<Props> = ({ color, logo }) => {
                 </li>
             </ul>
         </nav>
-        <a href="google.cz" className={"eshop-link button filled " + color ?? ''}>E&nbsp;shop</a>
+        <Link to="/eshop" className={"eshop-link button filled " + color ?? ''}>E&nbsp;shop</Link>
     </header>
 }
 

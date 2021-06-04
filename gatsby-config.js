@@ -3,6 +3,7 @@ module.exports = {
     title: "My Gatsby Site",
   },
   plugins: [
+    `gatsby-plugin-breakpoints`,
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {

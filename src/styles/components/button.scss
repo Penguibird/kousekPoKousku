@@ -5,6 +5,9 @@
     color: $color;
     font-weight: 600;
     font-size: .9rem;
+    &.bigger {
+      font-size: 1.25rem;
+    }
     letter-spacing: 0.07ch;
   
     font-family: "Roboto", sans-serif;

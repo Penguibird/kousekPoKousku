@@ -32,17 +32,15 @@ header {
         text-decoration: unset;
     }
     transition: background-color .3s ease-in-out, color .3s ease-in-out;
-    &:hover,
-    &:focus-within,
-    &.filled {
+ 
         background-color: $main-yellow;
         * {
-            color: $main-white;
+            color: $main-white !important;
         }
         .dropdown-content {
             background-color: $main-yellow;
         }
-    }
+    
     .sm {
         display: none;
     }
@@ -93,10 +91,44 @@ header nav {
     }
 }
 
+header  input[type="checkbox"] {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -9999px;
+}
+
 @media screen and (max-width: 900px) {
     header {
-        flex-direction: row-reverse;
-        align-items: flex-start;
+        
+        // flex-direction: row-reverse;
+        // align-items: flex-start;
+
+
+        display: grid;
+        grid-template-columns: minmax(90px, 1fr) minmax(calc((100vw - 90px) - 50px), 1fr) minmax(50px, 1fr);
+        grid-template-rows: 1fr auto;
+        place-items: start start;
+        grid-template-areas: 
+        'logo nav   burger'
+        'eshop   eshop  eshop';
+
+        .logo {
+            grid-area: logo;
+        }
+        nav {
+            grid-area: nav;
+        }
+        .button {
+            grid-area: eshop;
+            place-self: center;
+        }
+        label {
+            grid-area: burger;
+        }
+
+
+        
         background-color: $main-yellow;
         * {
             color: $main-white !important;
@@ -119,31 +151,52 @@ header nav {
             // top: 0;
             // right: 0;
         }
-        input[type="checkbox"] {
-            width: 0;
-            height: 0;
-            position: absolute;
-            top: -9999px;
-        }
+       
 
         .eshop-link, nav {
+            // display: none;
+            // transform: translateY(-500px);     
+            opacity: 0;
+            max-height: 0;
+            transition: opacity .2s ease-out, max-height .2s ease;
+        }
+        .eshop-link {
             display: none;
+        }
+        input[type="checkbox"]:checked ~ .eshop-link {
+            display: block;
         }
         input[type="checkbox"]:checked ~ .eshop-link ,
         input[type="checkbox"]:checked ~ nav {
-            display: block;     
+            // display: block;
+            opacity: 1;
+            transform: translateY(0);     
+            max-height: 100vh;
+            // transition: opacity .2s ease, max-height .2s ease;
         }
 
+        nav {
+            padding-left: 0;
+        }
         nav > ul {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             gap: 0;   
         }
+        .navbar-link {
+            width: auto !important;
+            min-width: 0px !important;
+        }
 
         .dropdown-content {
-            display: none !important;
-            transform: translateY(-500px);
+            margin-left: 1.5em;
+
+            opacity: 0 !important;
+            max-height: 0vh;
+            height: auto ;
+            transition:  max-height .32s ease;
+            //opacity .1s ease-out,
         }
         input[name="dropdown-expand"]:checked ~ .dropdown-content {
             transform: translateY(0);
@@ -153,10 +206,16 @@ header nav {
             justify-content: space-around;
 
             position: static;
+            opacity: 1 !important;
             visibility: visible;
-            opacity: 1;
+            transform: translateY(0);     
+            max-height: 100vh;
         }
     }
+    li {
+        margin-left: 0 !important;
+    }
+
 }
 
 

@@ -101,16 +101,14 @@ const IndexPage = () => {
       <section className="section section-centered call-to-action">
         <h1 className="title">Připoj svůj kousek dobra</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus fusce ultrices ac neque adipiscing. </p>
-        <a href="/" className="button filled">daruj</a>
+        <Link to="/eshop" className="button filled bigger">daruj</Link>
       </section>
 
       <section className="section section-text" id="o-nadaci">
         <h1 className="title">O nadaci</h1>
-        <p className="text">Každý člověk může kdykoliv během svého života zažívat radost, zapálení, touhu objevovat nové možnosti, realizovat je tvořivou cestou a tím zlepšovat sám sebe i svět kolem nás, tady a teď.</p>
-        <p className="text">
-          Pomáháme pochopit nové životní pohledy, uchopit život do vlastních rukou a osvojit si skutečné životní hodnoty. Zároveň prožíváme radost a uspokojení z toho, co děláme. Každý v sobě máme něco jedinečného, a to pomáháme objevit.
-          Všichni máme volbu. My jsme si zvolili dělat to, co nás naplňuje. Pomáhat lidem.</p>
-        <Link className="button" to="/nadace-v-cislech">Více o nadaci</Link>
+        <p className="text">Každý člověk může kdykoliv během svého života zažívat radost, zapálení, touhu objevovat nové možnosti, realizovat je tvořivou cestou a tím zlepšovat sám sebe i svět kolem nás, tady a teď. </p>
+        <p className="text">Pomáháme chápat a přijímat nové životní pohledy, uchopit život do vlastních rukou a osvojit si skutečné životní hodnoty. Zároveň prožíváme radost a uspokojení z toho, co děláme. Každý v sobě máme něco jedinečného, a to pomáháme objevit. Všichni máme volbu. My jsme si zvolili dělat to, co nás naplňuje. Pomáhat lidem, sobě a světu kolem nás.</p>
+        <Link className="button" to="/o-nadaci">Více o nadaci</Link>
       </section>
 
 

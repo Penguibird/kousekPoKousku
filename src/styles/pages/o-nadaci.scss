@@ -1,0 +1,43 @@
+main.o-nadaci {
+
+    section.hero {
+        min-height: 0;
+        background-color: $main-yellow;
+    }
+
+    .section {
+        align-items: center;
+        .text {
+            max-width: 60ch;
+            line-height: 1.7em;
+            text-align: justify;
+        }
+        *+.text {
+            margin-top: 1.6em;
+        }
+    }
+
+
+  .hero-title {
+      margin: 0;
+    padding: 3em 0 2em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  ul {
+    // list-style-type: none;
+
+    li {
+        font-size: 1.1em;
+    }
+    li+li {
+        margin-top: .5em;
+    }
+    li::marker {
+        color: $main-black;
+        font-size: 1.1em;
+    }
+    
+  }
+}

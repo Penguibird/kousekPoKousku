@@ -1,44 +1,16 @@
-import { StaticImage } from 'gatsby-plugin-image';
+// import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
 import TinySlider from "tiny-slider-react";
-import { Link } from 'gatsby';
+import { Link, useStaticQuery, graphql } from 'gatsby';
 // import Loadable from "@loadable/component"
-import useWindowSize from './../functions/useWindowSize';
-export interface Aktualita {
-    title: string,
-    body: string,
-}
+
+import { GatsbyImage } from 'gatsby-plugin-image';
+import { Aktualita } from '../functions/useAktuality';
+import useAktuality from '../functions/useAktuality';
 
 interface Props {
 
 }
-
-const aktuality: Aktualita[] = [
-    {
-        title: "Lorem ipsum",
-        body: "Natus repellat provident ducimus blanditiis dolor quos. Labore rerum ut error. Hic eos eum hic voluptas eos autem sed. In dolores provident qui ut porro dolorem at iste unde."
-    },
-    {
-        title: "Lorem ipsum",
-        body: "Natus repellat provident ducimus blanditiis dolor quos. Labore rerum ut error. Hic eos eum hic voluptas eos autem sed. In dolores provident qui ut porro dolorem at iste unde."
-    },
-    {
-        title: "Lorem ipsum",
-        body: "Natus repellat provident ducimus blanditiis dolor quos. Labore rerum ut error. Hic eos eum hic voluptas eos autem sed. In dolores provident qui ut porro dolorem at iste unde."
-    },
-    {
-        title: "Lorem ipsum",
-        body: "Natus repellat provident ducimus blanditiis dolor quos. Labore rerum ut error. Hic eos eum hic voluptas eos autem sed. In dolores provident qui ut porro dolorem at iste unde."
-    },
-    {
-        title: "Lorem ipsum",
-        body: "Natus repellat provident ducimus blanditiis dolor quos. Labore rerum ut error. Hic eos eum hic voluptas eos autem sed. In dolores provident qui ut porro dolorem at iste unde."
-    },
-    {
-        title: "Lorem ipsum",
-        body: "Natus repellat provident ducimus blanditiis dolor quos. Labore rerum ut error. Hic eos eum hic voluptas eos autem sed. In dolores provident qui ut porro dolorem at iste unde."
-    },
-]
 
 const AktualityCarousel: React.FC<Props> = ({ }) => {
     let slider: TinySlider | null;
@@ -53,6 +25,11 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
     // };
     const prev = () => slider != null && slider.slider.goTo('prev');
     const next = () => slider != null && slider.slider.goTo('next');
+
+    const aktuality = useAktuality();
+    console.log(aktuality[89])
+    // .sort((a: Aktualita, b: Aktualita) => a.date.getTime() - b.date.getTime());
+
 
     return <div className="aktuality-wrapper">
         <button onClick={prev} className="slider-button prev">
@@ -69,7 +46,9 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
                 // autoWidth: false,
                 autoHeight: true,
                 // mouseDrag: true,
-                lazyload: true,
+                // lazyload: true,
+                loop: false,
+                
                 nav: false,
                 controls: false,
                 items: 1,
@@ -93,11 +72,13 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
                     <div className="aktualita-inner" >
 
                         {/* maybe change to <img /> */}
-                        <StaticImage loading="eager" className="img" src="../images/hero_placeholder.png" alt="" layout="constrained" />
+                        {/* <StaticImage loading="eager" className="img" src="../images/hero_placeholder.png" alt="" layout="constrained" /> */}
+                        <GatsbyImage image={akt.image.image} alt={akt.image.imageAlt}></GatsbyImage>
 
                         <h3 className="title">{akt.title}</h3>
-                        <p>{akt.body}</p>
-                        <Link className="aktuality-link link" to="/">Více</Link>
+                        <p className="text" dangerouslySetInnerHTML={{ __html: akt.body }}></p>
+                        {/* {akt.link && (akt.link[0] == "/" ? <Link to={akt.link} className="aktuality-link link">Více</Link>
+                            : <a className="aktuality-link link" href={akt.link}>Více</a>)} */}
                     </div>
                 </div>))}
         </TinySlider >
