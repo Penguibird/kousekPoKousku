@@ -45,13 +45,16 @@ const IndexPage = () => {
         </div> */}
 
         <div className="projekty">
-          <Link to="/zahrada-hojnosti" className="projekt zahrada">
+          <Link to="/zahrada-hojnosti" className="projekt-link zahrada">
+            <StaticImage className='img' src="../images/jahoda.png" alt='' layout='constrained' placeholder='blurred' objectFit='contain' />
             <h2>Zahrada hojnosti</h2>
           </Link>
-          <Link to="/projekty#klinika" className="projekt klinika">
+          <Link to="/projekty#klinika" className="projekt-link klinika">
+            <StaticImage className='img' src="../images/handshake.png" alt='' layout='constrained' placeholder='blurred' objectFit='cover' />
             <h2>Sociální klinika</h2>
           </Link>
-          <Link to="/projekty#intervence" className="projekt intervence">
+          <Link to="/projekty#intervence" className="projekt-link intervence">
+            <StaticImage className='img' src="../images/puzzle.png" alt='' layout='constrained' placeholder='blurred' objectFit='contain' />
             <h2>Intervence autistů</h2>
           </Link>
         </div>
