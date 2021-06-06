@@ -1,9 +1,9 @@
 ---
-id: 63ff6bcc-d239-4356-921e-15c1a3194e4c
-title: Klub paličkování Fulnek
+id: 2c0a5458-bd08-4aaa-9578-b51768ccadea
+title: "Klub paličkování Fulnek"
 price: 3000
 year: 2019
-description: Podpora činnosti
+description: "Podpora činnosti"
 kouskovani: true
 locationName: undefined
 position:

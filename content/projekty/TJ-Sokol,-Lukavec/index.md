@@ -1,9 +1,9 @@
 ---
-id: 178519f9-d747-40ec-b464-3e5eadce8511
-title: TJ Sokol, Lukavec
+id: 90714c1d-44a7-4847-b0f7-28f0886a7be4
+title: "TJ Sokol, Lukavec"
 price: 5000
 year: 2019
-description: Příspěvek na zakoupení traktoru
+description: "Příspěvek na zakoupení traktoru"
 kouskovani: true
 locationName: undefined
 position:

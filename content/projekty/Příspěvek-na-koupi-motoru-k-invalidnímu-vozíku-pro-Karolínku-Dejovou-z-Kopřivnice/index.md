@@ -1,9 +1,9 @@
 ---
-id: 1e2ed954-951d-4284-a004-4fffa11423c2
-title: Příspěvek na koupi motoru k invalidnímu vozíku pro Karolínku Dejovou z Kopřivnice.
+id: 6ac8cbce-7692-46a5-a50a-9b3973a3dd43
+title: "Příspěvek na koupi motoru k invalidnímu vozíku pro Karolínku Dejovou z Kopřivnice."
 price: 40000
 year: 2016
-description: Přispěvek na invalidní vozík
+description: "Přispěvek na invalidní vozík"
 kouskovani: true
 locationName: undefined
 position:

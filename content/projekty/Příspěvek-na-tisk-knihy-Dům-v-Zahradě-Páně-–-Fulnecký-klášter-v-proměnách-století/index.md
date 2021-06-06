@@ -1,9 +1,9 @@
 ---
-id: 77e5a9d0-1579-498a-954b-d658858ed08c
-title: Příspěvek na tisk knihy Dům v Zahradě Páně – Fulnecký klášter v proměnách století.
+id: ac7d6052-112a-47e4-aec1-ec0009b4dde8
+title: "Příspěvek na tisk knihy Dům v Zahradě Páně – Fulnecký klášter v proměnách století."
 price: 15000
 year: 2016
-description: Muzeum Nový Jičín
+description: "Muzeum Nový Jičín"
 kouskovani: true
 locationName: undefined
 position:

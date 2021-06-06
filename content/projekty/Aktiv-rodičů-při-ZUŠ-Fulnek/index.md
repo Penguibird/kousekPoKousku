@@ -1,9 +1,9 @@
 ---
-id: 2b599f02-8e9d-4c91-9005-280de2cdd5a2
-title: Aktiv rodičů při ZUŠ Fulnek
+id: c50d4d99-863c-4ec8-aa17-f45439e0a7a7
+title: "Aktiv rodičů při ZUŠ Fulnek"
 price: 3991
 year: 2017
-description: Klobouky pro swingovou partičku
+description: "Klobouky pro swingovou partičku"
 kouskovani: true
 locationName: undefined
 position:

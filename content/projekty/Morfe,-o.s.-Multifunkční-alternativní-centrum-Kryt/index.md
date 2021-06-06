@@ -1,9 +1,9 @@
 ---
-id: 10a44fc9-957d-42b4-b4c9-dac6a5c9a8cd
-title: Morfe, o.s. Multifunkční alternativní centrum Kryt
+id: cde57f05-85bf-443c-856f-c57fa4411fc4
+title: "Morfe, o.s. Multifunkční alternativní centrum Kryt"
 price: 10000
 year: 2013
-description: Projekt přispívá svým „kouskem“ ke vzniku a oživení nového unikátního prostoru pro mladou kulturu ve Studénce. Bývalý kryt se postupně zaplní profesionálními i amatérskými umělci, budou se zde uskutečňovat, workshopy, besedy i další vzdělávací akce pro návštěvníky z celého regionu.
+description: "Projekt přispívá svým „kouskem“ ke vzniku a oživení nového unikátního prostoru pro mladou kulturu ve Studénce. Bývalý kryt se postupně zaplní profesionálními i amatérskými umělci, budou se zde uskutečňovat, workshopy, besedy i další vzdělávací akce pro návštěvníky z celého regionu."
 kouskovani: false
 locationName: undefined
 position:

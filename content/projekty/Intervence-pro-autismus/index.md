@@ -1,9 +1,9 @@
 ---
-id: 534bd000-3b97-40fc-89d3-8c1d575f9b32
-title: Intervence pro autismus
+id: 710770b0-23ce-4fc6-85c6-5faa1fb99b9a
+title: "Intervence pro autismus"
 price: 20000
 year: 2019
-description: Přispěvek poskytnut na rehabilitaci klientů
+description: "Přispěvek poskytnut na rehabilitaci klientů"
 kouskovani: false
 locationName: undefined
 position:

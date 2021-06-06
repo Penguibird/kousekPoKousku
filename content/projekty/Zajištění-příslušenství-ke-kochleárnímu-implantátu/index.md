@@ -1,9 +1,9 @@
 ---
-id: 171bff3d-834c-4566-bcc3-e2b243551120
-title: Zajištění příslušenství ke kochleárnímu implantátu
+id: 924fd5a9-fab6-4b68-95f3-fe05ed072a3e
+title: "Zajištění příslušenství ke kochleárnímu implantátu"
 price: 49000
 year: 2012
-description: Příspěvek nadačního fondu pomůže k zakoupení nezbytného technického zařízení pro sluchově postiženou Evu Liberdovou, aktivní sociální pracovnici momentálně působící v neziskové organizaci Slezská diakonie v našem regionu. Díky kochleárnímu implantátu bude moci Eva Liberdová účastnit například hromadných školení a vzdělávacích akcí, a dále tak napomáhat všem sociálně potřebným, s kterými se v rámci své práce setká.
+description: "Příspěvek nadačního fondu pomůže k zakoupení nezbytného technického zařízení pro sluchově postiženou Evu Liberdovou, aktivní sociální pracovnici momentálně působící v neziskové organizaci Slezská diakonie v našem regionu. Díky kochleárnímu implantátu bude moci Eva Liberdová účastnit například hromadných školení a vzdělávacích akcí, a dále tak napomáhat všem sociálně potřebným, s kterými se v rámci své práce setká."
 kouskovani: false
 locationName: undefined
 position:

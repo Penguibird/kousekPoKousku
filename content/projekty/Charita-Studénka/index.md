@@ -1,9 +1,9 @@
 ---
-id: 39b6cce7-972c-411e-a796-9c94baca2eb6
-title: Charita Studénka
+id: 7e2cbf2c-965b-4019-b1ac-dc8ae2677516
+title: "Charita Studénka"
 price: 10000
 year: 2019
-description: Domov pro seniory – podpora záměru postavit novou budovu
+description: "Domov pro seniory – podpora záměru postavit novou budovu"
 kouskovani: true
 locationName: undefined
 position:

@@ -1,9 +1,9 @@
 ---
-id: 0852ea6f-d326-4f29-b669-020974e2f9d9
-title: Římskokatolická farnost Fulnek
+id: 99ed0820-6564-4a5e-9fc0-9e2d7d5c3fb9
+title: "Římskokatolická farnost Fulnek"
 price: 30000
 year: 2019
-description: Kostel Nejsvětější Trojice – odpočinková zóna pro turisty
+description: "Kostel Nejsvětější Trojice – odpočinková zóna pro turisty"
 kouskovani: true
 locationName: undefined
 position:

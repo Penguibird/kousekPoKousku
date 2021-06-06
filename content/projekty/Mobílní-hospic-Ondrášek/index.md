@@ -1,9 +1,9 @@
 ---
-id: 92260888-6be5-46ad-b3ed-4ca527e230b3
-title: Mobílní hospic Ondrášek
+id: f993a4d7-b736-47bb-a2f9-2c958e0905fc
+title: "Mobílní hospic Ondrášek"
 price: 23133
 year: 2015
-description: undefined
+description: "undefined"
 kouskovani: true
 locationName: undefined
 position:

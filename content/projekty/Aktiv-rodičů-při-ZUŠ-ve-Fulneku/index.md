@@ -1,9 +1,9 @@
 ---
-id: b906be2e-9914-4117-bae3-9ed60c92fbb0
-title: Aktiv rodičů při ZUŠ ve Fulneku
+id: 6a5e39eb-f4f1-435c-8cc2-13e617349f8a
+title: "Aktiv rodičů při ZUŠ ve Fulneku"
 price: 5000
 year: 2019
-description: Pořízení zvukové techniky pro potřebu výuky kapel a souborů na ZUŠ ve FulneKU
+description: "Pořízení zvukové techniky pro potřebu výuky kapel a souborů na ZUŠ ve FulneKU"
 kouskovani: true
 locationName: undefined
 position:

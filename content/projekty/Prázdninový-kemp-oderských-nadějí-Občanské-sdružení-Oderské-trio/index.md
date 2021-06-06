@@ -1,9 +1,9 @@
 ---
-id: 01ee447c-f1cc-462e-ba01-031b1569c496
-title: Prázdninový kemp oderských nadějí Občanské sdružení Oderské trio
+id: 27cfc512-d98a-4d1f-aa56-cef6022a1e95
+title: "Prázdninový kemp oderských nadějí Občanské sdružení Oderské trio"
 price: 21500
 year: 2012
-description: Kousek nadačního fondu přispěje k organizaci dětského sportovně zaměřeného tábora v Odrách, připraveného za účasti mnoha místních aktivních občanů a ve spolupráci s tamními školami.
+description: "Kousek nadačního fondu přispěje k organizaci dětského sportovně zaměřeného tábora v Odrách, připraveného za účasti mnoha místních aktivních občanů a ve spolupráci s tamními školami."
 kouskovani: false
 locationName: undefined
 position:

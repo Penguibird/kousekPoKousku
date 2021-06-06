@@ -1,9 +1,9 @@
 ---
-id: f89eb658-54a6-4228-a9a4-877cedc42021
-title: Dělnický dům v Odrách Promítejme dál
+id: 94c1a79e-a867-4e33-922f-cdb355bd025f
+title: "Dělnický dům v Odrách Promítejme dál"
 price: 80000
 year: 2013
-description: Projekt podporuje další činnost již po mnoho let velmi aktivního Dělnického domu v Odrách, který se stal místem kulturního i vzdělávacího setkání nejen místních občanů všech generací, (od mateřskou školkou povinných až po seniory). Díky zakoupení dataprojektoru bude moci Dělnický dům pokračovat ve filmovém klubu, projekcích pro děti i veřejných besedách na nejrůznější téma.
+description: "Projekt podporuje další činnost již po mnoho let velmi aktivního Dělnického domu v Odrách, který se stal místem kulturního i vzdělávacího setkání nejen místních občanů všech generací, (od mateřskou školkou povinných až po seniory). Díky zakoupení dataprojektoru bude moci Dělnický dům pokračovat ve filmovém klubu, projekcích pro děti i veřejných besedách na nejrůznější téma."
 kouskovani: false
 locationName: undefined
 position:
