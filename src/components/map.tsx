@@ -121,28 +121,29 @@ const Map: React.FC<MapProps> = ({ }) => {
         }
     }
 
-    const data = useStaticQuery(graphql`query MyQuery {
-        allMarkdownRemark {
-            edges {
-                node {
-                    rawMarkdownBody
-                    frontmatter {
-                        id
-                        description
-                        
-                        locationName
-                        position {
-                            lat
-                            lng
-                        }
-                        price
-                        title
-                        year
-                    }
+    const data = useStaticQuery(graphql`query Projekty {
+        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/projekty\//"}}) {
+          edges {
+            node {
+              rawMarkdownBody
+              frontmatter {
+                id
+                description
+                position {
+                  lat
+                  lng
                 }
-                }
+                kouskovani
+                price
+                title
+                year
+              }
             }
-    }`); 
+          }
+        }
+      }
+      `);
+    console.log(data)
     const projekty: Projekt[] = data.allMarkdownRemark.edges
         .map((edge: any) => ({ name: edge.node.frontmatter.title, ...edge.node.frontmatter }))
         .sort((a: Projekt, b: Projekt) => (b.year - a.year))
@@ -232,34 +233,45 @@ const Map: React.FC<MapProps> = ({ }) => {
     }, [])
     let lastSelectedMarker: google.maps.Marker | null = null;
 
-    const highlightProjekt = (i: number) => () => {
-        // todo highlighting of projekts
-        const marker = markers[i]
-        map.setCenter(marker.getPosition() as google.maps.LatLng);
-        map.setZoom(11); // todo test how small
+    const highlightProjekt = (i: number) => {
+        // console.log("MAP", map)
+        return () => {
+            // todo highlighting of projekts
+            const marker = markers[i]
+            map.setCenter(marker.getPosition() as google.maps.LatLng);
+            map.setZoom(11); // todo test how small
 
-        lastSelectedMarker?.setIcon(getIcon(35))
-        marker.setIcon(getIcon(45));
-        lastSelectedMarker = marker;
+            // window.scrollTo({
+            //     behavior: 'smooth',
+            //     top: document.getElementById('map')?.offsetTop
+            // })
+            // location.hash = "#" + 'mapSection';
+            document.getElementById('map')?.scrollIntoView({ behavior: 'smooth' })
 
-        setTimeout(() => {
-            marker.setAnimation(google.maps.Animation.BOUNCE);
-            setTimeout(() => { marker.setAnimation(null); }, 750);
-        }, 500);
 
-        const projekt = projekty[i];
-        // document.getElementById(projekt.id)?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-        var target = document.getElementById(projekt.id);
-        // console.log({ target })
-        var targetParent = target?.parentElement;
-        if (targetParent && targetParent.scrollTop && target) {
-            targetParent.scrollTo({
-                top: (target.offsetTop - targetParent.offsetTop - 40),
-                behavior: 'smooth',
-            });
+            lastSelectedMarker?.setIcon(getIcon(35))
+            marker.setIcon(getIcon(45));
+            lastSelectedMarker = marker;
+
+            setTimeout(() => {
+                marker.setAnimation(google.maps.Animation.BOUNCE);
+                setTimeout(() => { marker.setAnimation(null); }, 750);
+            }, 500);
+
+            const projekt = projekty[i];
+            // document.getElementById(projekt.id)?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+            var target = document.getElementById(projekt.id);
+            // console.log({ target })
+            var targetParent = target?.parentElement;
+            if (targetParent && targetParent.scrollTop && target) {
+                targetParent.scrollTo({
+                    top: (target.offsetTop - targetParent.offsetTop - 40),
+                    behavior: 'smooth',
+                });
+            }
+
+
         }
-
-
     }
 
     const scrollHandler = (e: React.SyntheticEvent) => {
@@ -293,35 +305,34 @@ const Map: React.FC<MapProps> = ({ }) => {
                 </button>)}
             </div>
         </LayerWrapper>
-        <div className="map-projekty" onScroll={scrollHandler}>
-            {projekty.reduce((acc: JSX.Element[], p: Projekt, i: number, arr: Projekt[]) => {
-
-
-
-                //add things
-                acc.push(<div className="Projekt" key={p.id} id={p.id}>
-                    <button className="projekt-title-button" onClick={highlightProjekt(i)}>
-                        <h3 style={{ textAlign: 'left' }} className="projekt-title">{p.name}</h3>
-                    </button>
-                    <p className="money">{p.price} Kč</p>
-                    <p className="description">{p.description}</p>
-                </div>)
-
-
-                // Add Year seperator yellow stripes if needed
-                const isLast = i == (arr.length - 1);
-                const yearDoesntMatchNext = !isLast && p.year && arr[i + 1].year && p.year !== arr[i + 1].year;
-                if (isLast || (yearDoesntMatchNext)) {
-                    // const p = arr[i - 1];
-                    acc.push(
-                        <div className="year-seperator" style={{ marginTop: 0 }} key={p.year} id={p.year?.toString()}>{p.year}</div>
-                    )
-                    acc.push(
-                        <div style={{ height: 0, visibility: 'collapse', margin: 0 }} className="year-anchor" id={p.year?.toString() + "-anchor"}></div>
-                    )
-                }
-                return acc;
-            }, []).reverse()}
+        <div className="map-projekty-wrapper">
+            <div className="map-projekty" onScroll={scrollHandler}>
+                {projekty.reduce((acc: JSX.Element[], p: Projekt, i: number, arr: Projekt[]) => {
+                    //add things
+                    acc.push(<div className="Projekt" key={p.id} id={p.id}>
+                        <button className="projekt-title-button" onClick={highlightProjekt(i)}>
+                            <h3 style={{ textAlign: 'left' }} className="projekt-title">{p.name} {p.kouskovani ? <span className="kouskovani-icon"></span> : null}</h3>
+                        </button>
+                        <p className="money">{p.price} Kč</p>
+                        <p className="description">{p.description}</p>
+                        {/* {p.kouskovani ? <p className="kouskovani-popis">Projekt byl podpořen z výtěžků Kouskování</p> : null} */}
+                    </div>)
+                    // Add Year seperator yellow stripes if needed
+                    const isLast = i == (arr.length - 1);
+                    const yearDoesntMatchNext = !isLast && p.year && arr[i + 1].year && p.year !== arr[i + 1].year;
+                    if (isLast || (yearDoesntMatchNext)) {
+                        // const p = arr[i - 1];
+                        acc.push(
+                            <div className="year-seperator" style={{ marginTop: 0 }} key={p.year} id={p.year?.toString()}>{p.year}</div>
+                        )
+                        acc.push(
+                            <div style={{ height: 0, visibility: 'collapse', margin: 0 }} className="year-anchor" id={p.year?.toString() + "-anchor"}></div>
+                        )
+                    }
+                    return acc;
+                }, []).reverse()}
+            </div>
+            <p className="text-legend"><span className="kouskovani-icon"></span> - Projekt byl podpořen z výtěžků Kouskování.</p>
         </div>
     </div>
 }

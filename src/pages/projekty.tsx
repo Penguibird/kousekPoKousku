@@ -76,7 +76,7 @@ const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
             </section>
             <StaticImage className='img' src="../images/puzzle.png" alt='Ruka držící puzzle' layout='constrained' placeholder='blurred' />
         </section>
-        <section className="map-section">
+        <section className="map-section" id="mapSection">
             <h1 className="title title-centered section-title">
                 Mapa projektů
                 </h1>

@@ -191,7 +191,7 @@ section.co-nabizi {
 
     h3 {
       margin-bottom: 0;
-      color: $main-green;
+      color: $main-black;
       font-size: 1.8em;
       // @include Cavolini;
       // font-style: italic;
@@ -486,4 +486,31 @@ section.quote-section {
     max-width: 400px;
     text-align: center;
   }
+}
+
+section.gallery {
+  .image-wrapper {
+    height: 500px;
+  }
+  
+}
+
+.gallery-wrapper {
+  display: grid;
+  grid-template-areas: 'prev carousel next';
+  grid-template-rows: 1fr;
+  grid-template-columns: 80px calc(100vw - 160px) 80px;
+
+  padding: 1em 0;
+
+  .prev {
+    grid-area: prev;
+  }
+  .tns-outer {
+    grid-area: carousel;
+  }
+  .next {
+    grid-area: next;
+  }
+
 }
