@@ -1,5 +1,5 @@
 ---
-id: 21225f53-e27a-4369-aa52-0929102e59b9
+id: ea2415c0-5a89-4943-b10c-b37fe81e0778
 title: "ZŠ a MŠ speciální Nový Jičín"
 price: 10000
 year: 2013

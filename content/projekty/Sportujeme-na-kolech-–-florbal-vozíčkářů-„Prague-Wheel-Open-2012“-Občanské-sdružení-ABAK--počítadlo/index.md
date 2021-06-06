@@ -1,5 +1,5 @@
 ---
-id: 13dddd02-e1c4-40d9-a91e-618338758d2f
+id: 4285cacc-b06a-476b-96bc-e9381eb39532
 title: "Sportujeme na kolech – florbal vozíčkářů „Prague Wheel Open 2012“ Občanské sdružení ABAK- počítadlo"
 price: 35000
 year: 2012

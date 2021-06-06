@@ -1,5 +1,5 @@
 ---
-id: dfa522f3-2755-4116-9367-5ad88e7f5eb6
+id: 377c2c23-fe89-455a-b6f5-8dba9ce46991
 title: "Centrum pro rodinu a sociální péči z. s. Tematické setkávání pečujících"
 price: 10000
 year: 2014

@@ -1,5 +1,5 @@
 ---
-id: 8ed8ddd3-69f8-417f-a9aa-bcc6a27fbfd6
+id: 18d64593-8009-4d1b-9696-93d2d50d91e1
 title: "Zážitková pedagogika a výuka tradičních řemesel pro děti i dospělé z Fulnecka a okolí Základní článek Hnutí Brontosaurus Kolovrátek"
 price: 50000
 year: 2012

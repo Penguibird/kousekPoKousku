@@ -1,5 +1,5 @@
 ---
-id: 0dce19f5-aa6d-48aa-90b4-9517796a443d
+id: cd52001d-8ae3-4759-9812-622ad5128f47
 title: "Slyšíme se? Muzeum Novojičínska"
 price: 200000
 year: 2012

@@ -1,5 +1,5 @@
 ---
-id: e4b70031-f818-4a8d-a71d-04f24891cc39
+id: 984269c3-4bac-45cd-9741-706609d7e3ca
 title: "Kuratorium zámku Bílovce, o.s. Vracíme zámku život"
 price: 10000
 year: 2014

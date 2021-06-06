@@ -1,5 +1,5 @@
 ---
-id: abf5bc7f-26a2-4ed4-93e9-ebd5a590805b
+id: 22cabf20-d7f5-452a-abbd-456ac9e8b6b0
 title: "Sociální zařízení města Bílovce"
 price: 5000
 year: 2019

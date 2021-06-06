@@ -1,5 +1,5 @@
 ---
-id: 319b026e-bacf-455f-a112-fe845d276fc0
+id: 18d45ba2-3511-4295-9979-5407b528f847
 title: "Jiří Šindler Letní akce Jako za mlada"
 price: 20000
 year: 2014

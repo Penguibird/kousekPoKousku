@@ -1,5 +1,5 @@
 ---
-id: 27cfc512-d98a-4d1f-aa56-cef6022a1e95
+id: 286eef22-3502-46be-8b65-6a183f14c26c
 title: "Prázdninový kemp oderských nadějí Občanské sdružení Oderské trio"
 price: 21500
 year: 2012

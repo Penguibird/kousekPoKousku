@@ -1,5 +1,5 @@
 ---
-id: f2c4a04c-b6a9-4dd4-9e24-e7ad561936b8
+id: 4813fd52-e2d4-4d22-9163-74dda6155e19
 title: "Theater Ludem Vzdělávání prostřednictvím dramatu – zážitkové drama dílny
 pro ZŠ a MŠ v Moravskoslezském kraji"
 price: 20000

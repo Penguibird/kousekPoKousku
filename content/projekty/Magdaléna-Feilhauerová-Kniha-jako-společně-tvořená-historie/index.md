@@ -1,5 +1,5 @@
 ---
-id: 23400cd9-d081-4c3e-a5af-b1cd885161fb
+id: fa54002e-4ba8-4df1-bcb5-dd000200557e
 title: "Magdaléna Feilhauerová Kniha jako společně tvořená historie"
 price: 10000
 year: 2016

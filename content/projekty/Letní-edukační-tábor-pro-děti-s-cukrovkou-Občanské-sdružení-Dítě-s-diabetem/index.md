@@ -1,5 +1,5 @@
 ---
-id: 660c48e1-30c6-44e2-9e26-8764b7b7275f
+id: 8a055315-5305-4e88-a996-712ffe317bb6
 title: "Letní edukační tábor pro děti s cukrovkou Občanské sdružení Dítě s diabetem"
 price: 26000
 year: 2012

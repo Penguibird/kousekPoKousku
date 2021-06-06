@@ -1,5 +1,5 @@
 ---
-id: 6101543e-3ca1-404f-a361-80387fd962c1
+id: 00530f59-3b73-4577-a325-0b9d7ca72bd9
 title: "Otevřený rodič, z.s."
 price: 8000
 year: 2019

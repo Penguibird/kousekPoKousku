@@ -1,5 +1,5 @@
 ---
-id: f467a11e-be14-4c5a-acfc-69cea581c724
+id: b794e12c-9ddf-447f-a2e3-e139c63f0c26
 title: "Děcko o.p.s. Zajištění denní speciální dopravy dětem a žákům s těžším
 zdravotním postižením v rámci okresu Nový Jičín"
 price: 30000

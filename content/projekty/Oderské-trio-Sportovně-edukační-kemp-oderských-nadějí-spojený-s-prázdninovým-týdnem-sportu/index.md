@@ -1,5 +1,5 @@
 ---
-id: d2945625-a1aa-4942-88a9-6c9d65d1cf32
+id: 9ad9f26e-1281-402f-8990-aa8ffb19d9cd
 title: "Oderské trio Sportovně edukační kemp oderských nadějí spojený s prázdninovým týdnem sportu"
 price: 10000
 year: 2013

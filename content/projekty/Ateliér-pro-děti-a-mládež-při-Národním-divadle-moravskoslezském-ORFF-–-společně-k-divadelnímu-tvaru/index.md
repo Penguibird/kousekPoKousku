@@ -1,5 +1,5 @@
 ---
-id: 6ba61c50-4f45-4f6f-9fb4-8674c915e55f
+id: 8050b644-d842-42fb-8592-711c859d5f3b
 title: "Ateliér pro děti a mládež při Národním divadle moravskoslezském ORFF – společně k divadelnímu tvaru!"
 price: 24000
 year: 2014

@@ -1,5 +1,5 @@
 ---
-id: f993a4d7-b736-47bb-a2f9-2c958e0905fc
+id: 4c6b1780-07fc-48d9-aa98-92c81fb6175a
 title: "Mobílní hospic Ondrášek"
 price: 23133
 year: 2015

@@ -1,5 +1,5 @@
 ---
-id: 6a5e39eb-f4f1-435c-8cc2-13e617349f8a
+id: 2fdb071b-d6b9-442e-8bf2-4286c433aa03
 title: "Aktiv rodičů při ZUŠ ve Fulneku"
 price: 5000
 year: 2019

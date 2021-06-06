@@ -1,5 +1,5 @@
 ---
-id: 924fd5a9-fab6-4b68-95f3-fe05ed072a3e
+id: 4edb6ede-a828-4e0e-9254-ae1890ba6ce5
 title: "Zajištění příslušenství ke kochleárnímu implantátu"
 price: 49000
 year: 2012

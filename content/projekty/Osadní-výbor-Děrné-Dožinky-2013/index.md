@@ -1,5 +1,5 @@
 ---
-id: 7407740c-dbbf-43fe-b9de-3581d5d72a4d
+id: 6b00d60a-0e35-46b2-acb2-ca4e413920cd
 title: "Osadní výbor Děrné Dožinky 2013"
 price: 10000
 year: 2013

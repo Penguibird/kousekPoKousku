@@ -1,5 +1,5 @@
 ---
-id: e7a37872-3f52-411e-9b6a-cd94f3b1bc3f
+id: b85bfb2e-a8c0-4d3b-9879-075d1dc650e7
 title: "Smyslová zahrada – stavební úpravy zahrady ZŠ a MŠ speciální, ul. Komenského v Novém Jičíně"
 price: 100000
 year: 2012

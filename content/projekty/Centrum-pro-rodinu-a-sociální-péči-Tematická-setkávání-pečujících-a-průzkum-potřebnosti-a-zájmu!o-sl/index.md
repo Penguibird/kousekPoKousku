@@ -1,5 +1,5 @@
 ---
-id: 66a747c1-34c2-4faf-949a-0e3fb994fae7
+id: 9eaeb896-d8f8-4e9c-a58b-a475aa29ed55
 title: "Centrum pro rodinu a sociální péči Tematická setkávání pečujících a průzkum potřebnosti a zájmu
 o službu „Rodinného průvodce“ ve Fulneku a okolí"
 price: 40000

@@ -1,5 +1,5 @@
 ---
-id: 272c8e8c-1258-4835-9596-501ad26f3050
+id: 155c0b91-a6f0-4bd7-b380-2fa01729efee
 title: "Zámek Bílovec - dotkněte se historie"
 price: 20000
 year: 2013

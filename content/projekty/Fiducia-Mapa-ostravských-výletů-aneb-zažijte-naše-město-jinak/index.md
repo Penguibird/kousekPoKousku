@@ -1,5 +1,5 @@
 ---
-id: f0ff2d2a-aeb6-47d9-8096-0f7d073f2a46
+id: ed6ea007-81a4-484d-8f7d-7107f091ff4f
 title: "Fiducia Mapa ostravských výletů aneb zažijte naše město jinak"
 price: 5000
 year: 2016

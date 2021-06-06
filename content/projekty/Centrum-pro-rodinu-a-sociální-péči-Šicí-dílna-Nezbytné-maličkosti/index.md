@@ -1,5 +1,5 @@
 ---
-id: 505bfe84-1b94-49bb-83d0-537f4b21ac9d
+id: e33858f7-ee4c-409c-bc14-575d51d37bd2
 title: "Centrum pro rodinu a sociální péči Šicí dílna Nezbytné maličkosti"
 price: 30000
 year: 2016

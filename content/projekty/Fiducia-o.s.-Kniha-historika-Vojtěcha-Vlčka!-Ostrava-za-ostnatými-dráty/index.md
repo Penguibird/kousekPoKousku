@@ -1,5 +1,5 @@
 ---
-id: 7584bbfe-e6a7-4c49-9c25-713f60d1b993
+id: e19138a9-b47a-42f8-9434-488a43c9116f
 title: "Fiducia o.s. Kniha historika Vojtěcha Vlčka: Ostrava za ostnatými dráty"
 price: 10000
 year: 2013

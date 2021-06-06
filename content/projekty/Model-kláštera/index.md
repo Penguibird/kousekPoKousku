@@ -1,5 +1,5 @@
 ---
-id: c8e8f675-c98e-497d-bb56-5d6f1e5ce274
+id: e7a9e34a-fd4b-40f9-ab56-910646728835
 title: "Model kláštera"
 price: 30000
 year: 2018

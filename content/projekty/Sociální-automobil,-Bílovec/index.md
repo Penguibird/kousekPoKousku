@@ -1,5 +1,5 @@
 ---
-id: 75e94bf9-c7a4-47f3-8c3f-65bff3f4c373
+id: d0f1ad8f-98f2-498c-af1f-ff20c3b454e9
 title: "Sociální automobil, Bílovec"
 price: 24200
 year: 2018

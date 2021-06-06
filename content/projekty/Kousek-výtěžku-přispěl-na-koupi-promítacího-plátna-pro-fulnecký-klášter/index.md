@@ -1,5 +1,5 @@
 ---
-id: 12fd2c23-d560-444f-ad0b-c6c476a0c379
+id: b7bca42d-cbcf-463c-8735-0974267ed5e1
 title: "Kousek výtěžku přispěl na koupi promítacího plátna pro fulnecký klášter"
 price: 24974
 year: 2017

@@ -1,5 +1,5 @@
 ---
-id: ab47b77e-b264-4e6e-90f7-5795389d35e4
+id: 88c163cb-e9f5-454e-9a5d-d9fd65ba8aa9
 title: "Zámek Bílovec - divadlo, hudba a vzdělávání"
 price: 10000
 year: 2015

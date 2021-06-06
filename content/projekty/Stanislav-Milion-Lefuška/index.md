@@ -1,5 +1,5 @@
 ---
-id: c4d7c95d-5fcd-46b0-bd30-e3b6e0f8ad1e
+id: 15a4417b-bd47-4dce-86a0-9837195d7c48
 title: "Stanislav Milion Lefuška"
 price: 20000
 year: 2014

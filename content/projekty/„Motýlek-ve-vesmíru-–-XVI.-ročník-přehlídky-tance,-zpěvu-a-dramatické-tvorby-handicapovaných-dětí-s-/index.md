@@ -1,5 +1,5 @@
 ---
-id: 2bc6ee1a-5557-49bb-8dec-b84153bf381e
+id: 05ae627e-0389-47a8-8d1d-911f21217219
 title: "„Motýlek ve vesmíru – XVI. ročník přehlídky tance, zpěvu a dramatické tvorby handicapovaných dětí s mezinárodní účasti“"
 price: 10000
 year: 2012

@@ -37,7 +37,7 @@ id: ${v4()}
 title: "${projekt.name.trim().replace("\"", "").replace("'", "")}"
 price: ${Number.parseInt(projekt.price.toString().replace(" ", ""))}
 year: ${projekt.year.toString().trim()}
-description: "${projekt.description}"
+description: "${projekt.description?.replace("\"", "'")}"
 kouskovani: ${!!projekt.kouskovani}
 locationName: ${projekt.locationName}
 position:

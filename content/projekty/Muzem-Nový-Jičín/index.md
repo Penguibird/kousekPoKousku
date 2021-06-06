@@ -1,5 +1,5 @@
 ---
-id: 180d5a13-6113-442b-929b-7f8a1c15c29e
+id: cf8f1f17-4132-47cf-a36a-56a4718325a5
 title: "Muzem Nový Jičín"
 price: 30000
 year: 2014

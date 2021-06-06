@@ -1,5 +1,5 @@
 ---
-id: 7bed3f63-34c0-4f20-9245-31c9425efbd1
+id: f9cb4f3b-c95c-44a5-ae58-7ed634479489
 title: "Základní článek hnutí Brontosaurus Kolovrátek Zážitková a ekologická výchova pro (nejen) fulnecké děti"
 price: 20000
 year: 2013

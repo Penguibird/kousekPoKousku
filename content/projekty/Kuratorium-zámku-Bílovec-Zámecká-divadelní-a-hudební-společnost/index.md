@@ -1,5 +1,5 @@
 ---
-id: ba08c323-6b68-44ff-9c96-ea1a3e8db27f
+id: 8e4f6967-1a4c-49d5-8584-43211428dc8e
 title: "Kuratorium zámku Bílovec Zámecká divadelní a hudební společnost"
 price: 5000
 year: 2016

@@ -1,5 +1,5 @@
 ---
-id: 4d09973a-81ca-4d0b-9052-ede9fb202aa3
+id: 5ec632fc-d9eb-4279-9cbe-00474cabb6f8
 title: "Rovný přístup k dětem s diabetem mellitus Občanské sdružení Dítě s diabetem"
 price: 40000
 year: 2012

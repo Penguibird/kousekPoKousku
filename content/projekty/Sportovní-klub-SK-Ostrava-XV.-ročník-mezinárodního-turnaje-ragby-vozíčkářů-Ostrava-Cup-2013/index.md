@@ -1,5 +1,5 @@
 ---
-id: dabf9481-fcd3-4901-85cb-4702a569a31d
+id: 97f6cf1d-d954-4722-9610-c0dd2c8e355d
 title: "Sportovní klub SK Ostrava XV. ročník mezinárodního turnaje ragby vozíčkářů Ostrava Cup 2013"
 price: 10000
 year: 2013

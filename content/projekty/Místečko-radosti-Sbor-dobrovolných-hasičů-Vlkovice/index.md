@@ -1,5 +1,5 @@
 ---
-id: 62f6a158-0cef-4a66-b0d5-4f4282845e09
+id: 18717ddc-092b-4806-bf67-3d343b5c428d
 title: "Místečko radosti Sbor dobrovolných hasičů Vlkovice"
 price: 50000
 year: 2012

@@ -1,5 +1,5 @@
 ---
-id: f36e5582-bcb0-41fe-b72a-0524a09f2c3b
+id: 5678502c-0bc2-4833-915e-9ce70a740061
 title: "Podpora děkanátních akcí pro mládež"
 price: 6000
 year: 2019

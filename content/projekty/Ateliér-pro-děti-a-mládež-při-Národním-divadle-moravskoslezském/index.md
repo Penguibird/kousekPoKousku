@@ -1,5 +1,5 @@
 ---
-id: 3f07f9f4-8ab0-4340-915c-5789aaba4a75
+id: c0a4c444-d666-4092-b23f-d98d33061d7e
 title: "Ateliér pro děti a mládež při Národním divadle moravskoslezském"
 price: 100000
 year: 2012

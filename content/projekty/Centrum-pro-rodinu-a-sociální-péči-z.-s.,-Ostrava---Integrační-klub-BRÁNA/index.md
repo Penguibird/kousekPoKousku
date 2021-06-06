@@ -1,5 +1,5 @@
 ---
-id: 4fc2d834-90d5-442d-b8b7-928f1151a543
+id: 2a07c08e-db9a-471a-a745-27672dccc42b
 title: "Centrum pro rodinu a sociální péči z. s., Ostrava - Integrační klub BRÁNA"
 price: 5000
 year: 2018

@@ -1,9 +1,9 @@
 ---
-id: 828115eb-0fe2-47c2-adb4-28cb4521efe9
+id: c8597329-bc6b-4cc2-8cc0-db99927c43db
 title: "ZMĚNA PARADIGMATU, z.s.- Projekt: Cyklus kruhů kolektivní inteligence."
 price: 14400
 year: 2020
-description: "Téma tohoto projektu je: "Jak probíhající celosvětová situace posiluje společneské hodnoty a vede k systémové stabilizaci?"."
+description: "Téma tohoto projektu je: 'Jak probíhající celosvětová situace posiluje společneské hodnoty a vede k systémové stabilizaci?"."
 kouskovani: false
 locationName: undefined
 position:

@@ -1,5 +1,5 @@
 ---
-id: 94c1a79e-a867-4e33-922f-cdb355bd025f
+id: cdf11168-fe60-4008-9410-0a387957aeb2
 title: "Dělnický dům v Odrách Promítejme dál"
 price: 80000
 year: 2013

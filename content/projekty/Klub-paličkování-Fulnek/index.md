@@ -1,5 +1,5 @@
 ---
-id: 2c0a5458-bd08-4aaa-9578-b51768ccadea
+id: 96be5bf8-d9d6-46e3-8b40-0bb69246e66e
 title: "Klub paličkování Fulnek"
 price: 3000
 year: 2019

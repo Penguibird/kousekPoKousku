@@ -1,5 +1,5 @@
 ---
-id: 1c077c3f-6655-4221-9da2-cb1da31a6697
+id: ff98c307-b685-447c-b11a-12e6d3665af4
 title: "ZŠ JAK Fulnek Vzdělávání dětí s PAS na běžné ZŠ"
 price: 40000
 year: 2013

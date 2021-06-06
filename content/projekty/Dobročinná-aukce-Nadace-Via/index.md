@@ -1,5 +1,5 @@
 ---
-id: 32aaddcd-a8e9-4b35-9296-495df56a2efa
+id: 875f7e8c-60ad-43cd-a69a-6f1c1a0ffacb
 title: "Dobročinná aukce Nadace Via"
 price: 3000
 year: 2019

@@ -1,5 +1,5 @@
 ---
-id: b95d0aa0-62aa-4b59-9c27-2513301287a4
+id: 96c50f9f-adb6-4a74-b784-a2dca5f64caa
 title: "Světlana Marková 15 let paličkování ve Fulneku"
 price: 3000
 year: 2018

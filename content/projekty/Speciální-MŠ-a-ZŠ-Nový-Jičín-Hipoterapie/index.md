@@ -1,5 +1,5 @@
 ---
-id: 24cf9d76-ef9c-4d71-a3a1-289797452f5d
+id: 83c76dee-c162-4886-a800-f38ecddc870d
 title: "Speciální MŠ a ZŠ Nový Jičín Hipoterapie"
 price: 20000
 year: 2016

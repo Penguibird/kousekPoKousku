@@ -1,5 +1,5 @@
 ---
-id: b48d554d-dbbb-429f-a25b-9960fe412d1d
+id: ddf04012-3022-4d74-b358-9f2090cc72e7
 title: "Světlana Marková Klub paličkování"
 price: 12000
 year: 2014

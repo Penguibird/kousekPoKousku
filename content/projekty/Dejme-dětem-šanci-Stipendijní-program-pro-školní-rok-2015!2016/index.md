@@ -1,5 +1,5 @@
 ---
-id: d8666143-9802-4b6d-8d43-e1c42b58ac62
+id: 8bedea28-706c-49e1-ad70-808ff07a65b1
 title: "Dejme dětem šanci Stipendijní program pro školní rok 2015/2016"
 price: 46000
 year: 2015

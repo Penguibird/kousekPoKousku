@@ -1,5 +1,5 @@
 ---
-id: 8b6a0f0c-d0ac-4518-b415-88d17678ca89
+id: 2fa97fa4-b7c5-4e6f-921e-690f9c9c6d0a
 title: "Charitativní burzy – podpora dobrovolnictví ADRA Frýdek-Místek"
 price: 50000
 year: 2012

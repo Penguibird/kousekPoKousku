@@ -1,5 +1,5 @@
 ---
-id: 3e3ba3f0-30b8-4c33-a686-7ca3b84b4787
+id: 0be4cb5c-0460-41f5-a5ba-fbf61d2adaa3
 title: "Ateliér pro děti a mládež"
 price: 90000
 year: 2013

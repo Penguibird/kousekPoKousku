@@ -1,5 +1,5 @@
 ---
-id: 47f0095d-9407-4275-ad41-9c4ad6a20c9a
+id: 0e976c4e-8d65-4923-8c43-77bd437fb5fa
 title: "Circus! Dance Studio, z. s. Pole Priness 2019"
 price: 3000
 year: 2018
