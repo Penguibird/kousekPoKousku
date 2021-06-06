@@ -92,9 +92,23 @@ p.text.bigger {
 p.text.green, p.green, .subtitle.green {
     color: $main-green !important;
 }
+p.text.green, p.blue, .subtitle.blue {
+    color: $main-black !important;
+}
 
 #gatsby-focus-wrapper {
     height: 100vh;
     overflow: hidden scroll;
     scroll-behavior: smooth;
+}
+
+main, section, .section {
+
+    a:not(.buttonm):hover {
+        text-decoration: underline;
+    }
+}
+
+svg.arrow {
+    fill: $main-black;
 }

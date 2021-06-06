@@ -60,21 +60,21 @@ const IndexPage = () => {
         </div>
       </section>
 
-      <section className="text-section section kouskovani">
-        <h1 className="section-title">Kouskování</h1>
-        <p className="subtitle">Dejte kouskům druhou šanci!</p>
-        <p className="text">Udržitelnost je téma, kterému se dlouhodobě věnujeme. Ano, výroba oblečení má na životní prostředí svůj dopad. Pomůžeme, pokud naši osobní spotřebu redukujeme.</p>
-
-        <p className="text">Do šatníku si pořizujme <strong>základní, kvalitní, nadčasové kousky, nejlépe z&nbsp;recyklovatelných materiálů.</strong> Zejména díky dobrým materiálům vydrží ve skvělé kondici a slouží dlouho, často i někomu druhému. Právě nákup z druhé ruky je jedním z principů zpomalení cyklu neboli <strong>slou módy</strong>.</p>
-
-        <p className="text">V Nadačním fondu Kousek po kousku máme s dobročinným bazarem pod značkou <strong>Kouskování</strong> dlouholeté zkušenosti. Veškeré kousky, které stále vypadají luxusně a z mnoha důvodů je již nevyužijete, rádi přijmeme a na našem eshopu nabídneme dál. Výtěžek pomůže dlouhodobě podporovanému projektu <Link to="/projekty#intervence"><strong>Intervence pro Autismus</strong></Link></p>
-
-        <div className="button-row">
-          <Link to="/kouskovani" className="button">Chci darovat kousek</Link>
-          <a href="/" className="button section-button buy-button filled">
-            Chci koupit kousek
-          </a>
-        </div>
+      <section className="image-section">
+        <section className="text-section section kouskovani">
+          <h1 className="section-title">Kouskování</h1>
+          <p className="subtitle">Dejte kouskům druhou šanci!</p>
+          <p className="text">Udržitelnost je téma, kterému se dlouhodobě věnujeme. Ano, výroba oblečení má na životní prostředí svůj dopad. Pomůžeme, pokud naši osobní spotřebu redukujeme.</p>
+          <p className="text">Do šatníku si pořizujme <strong>základní, kvalitní, nadčasové kousky, nejlépe z&nbsp;recyklovatelných materiálů.</strong> Zejména díky dobrým materiálům vydrží ve skvělé kondici a slouží dlouho, často i někomu druhému. Právě nákup z druhé ruky je jedním z principů zpomalení cyklu neboli <strong>slou módy</strong>.</p>
+          <p className="text">V Nadačním fondu Kousek po kousku máme s dobročinným bazarem pod značkou <strong>Kouskování</strong> dlouholeté zkušenosti. Veškeré kousky, které stále vypadají luxusně a z mnoha důvodů je již nevyužijete, rádi přijmeme a na našem eshopu nabídneme dál. Výtěžek pomůže dlouhodobě podporovanému projektu <Link to="/projekty#intervence"><strong>Intervence pro Autismus</strong></Link></p>
+          <div className="button-row">
+            <Link to="/kouskovani" className="button">Chci darovat kousek</Link>
+            <a href="/" className="button section-button buy-button filled">
+              Chci koupit kousek
+            </a>
+          </div>
+        </section>
+        <StaticImage className='section-image img' src="../images/kouskovani_saty.png" alt='Ruka podává šaty a boty' layout='constrained' placeholder='blurred' />
       </section>
 
       <section className="text-section section galavecer">
@@ -107,7 +107,7 @@ const IndexPage = () => {
         </p>
         <p>Věříme, že pokud část prostředků, které se v regionu vyprodukují, vrátíme do místních projektů, společně bude přibývat míst, kde je život radostnější.</p>
 
-        <p className="subtitle">Připojte se, ať už jakoukoli částkou, jakýmkoli způsobem. </p>
+        <p className="subtitle blue">Připojte se, ať už jakoukoli částkou, jakýmkoli způsobem. </p>
         <Link to="/eshop" className="button filled bigger">daruj</Link>
 
       </section>

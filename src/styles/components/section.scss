@@ -112,8 +112,27 @@ section .title {
     & > * {
       width: 100%;
     }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1000px) {
       flex-direction: column;
     }
+  }
+}
+
+.image-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+  .img, img, .section-image {
+    width: 60%;
+  }
+  @media (max-width: 800px) {
+    flex-direction: column;
+    .img, img, .section-image {
+    //  align-self: flex-end;
+    display: none !important;
+    }
+    
   }
 }

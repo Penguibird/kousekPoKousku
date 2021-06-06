@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import { StaticImage } from 'gatsby-plugin-image';
 
 const ONadaciPage = () => {
     return (
@@ -45,6 +46,11 @@ const ONadaciPage = () => {
                         <li>Následovat odkaz J. Á. Komenského, zejména podporovat téma Škola hrou</li>
                         <li>Podporovat popularizaci historie Fulneku i za hranicemi regionu</li>
                     </ul>
+                </section>
+
+                <section className="section images">
+                    <StaticImage className='img' src="../images/martina_laptop.png" alt='Pan Vyhlídal u stolu' layout='constrained' placeholder='blurred' />
+                    <StaticImage className='img' src="../images/pan_vyhlidal.png" alt='Pan Vyhlídal u stolu' layout='constrained' placeholder='blurred' />
                 </section>
 
                 <section className="section-text section vznik">

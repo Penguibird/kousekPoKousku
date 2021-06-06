@@ -17,7 +17,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
         <main className="zahrada">
             <LayerWrapper className="hero">
 
-                {/* <StaticImage className='img' src="../images/hero_placeholder.png" alt='Fotka zahrady' layout='constrained' placeholder='blurred' /> */}
+                <StaticImage className='img' src="../images/hero_placeholder.png" alt='Fotka zahrady' layout='constrained' placeholder='blurred' />
                 <h1 className="title text-center">Zahrada Hojnosti</h1>
             </LayerWrapper>
 
@@ -25,19 +25,24 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             {/* Unused claim */}
             {/* <p className="text">Jedinečný projekt pro podporu soběstačnosti, s jedinečným modelem hospodaření</p> */}
 
-            <section className="section section-text co-nabizi">
-                <p className="montserrat-subtitle ">
-                    <strong>Zahrada Hojnosti na pozemku Nadačního fondu Kousek po kousku je naprosto unikátní projekt,</strong> který je připraven na vstup dalších filantropů a donátorů.
-                    </p>
+            <section className="section-uvod">
+                <section className="section section-text co-nabizi">
+                    <p className="montserrat-subtitle " >
+                        <strong>Zahrada Hojnosti na pozemku Nadačního fondu Kousek po kousku je naprosto unikátní projekt,</strong> který je připraven na vstup dalších filantropů a donátorů.
+                        </p>
+                    <p className="text">
+                        Na pozemku Nadačního fondu Kousek po kousku ve Fulneku, o rozloze 16&nbsp;000&nbsp;m<sup>2</sup>, se postupně rodí výjimečné místo pro tělo, mysl a&nbsp;duši, harmonizační a&nbsp;inspirativní prostor pro psychickou i fyzickou relaxaci. Zázemí zahrady umožní dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah pro všechny věkové skupiny i spoluúčast na výjimečném ekonomickém procesu.
+                        Prostřednictvím samosběrů květin, bylin a plodů jedlé zahrady uvede totiž NF naprosto unikátní způsob hospodaření pro dosažení soběstačnosti.
+                        </p>
+                    {/* <h2 className="title co-nabizi">
+                            Co nabízí?
+                        </h2> */}
+                </section>
+                <StaticImage className='img' src="../images/jahoda.png" alt='Ruka drzi rostlinku' layout='constrained' placeholder='blurred' />
+            </section>
 
-                <p className="text">
-                    Na pozemku Nadačního fondu Kousek po kousku ve Fulneku, o rozloze 16&nbsp;000&nbsp;m<sup>2</sup>, se postupně rodí výjimečné místo pro tělo, mysl a&nbsp;duši, harmonizační a&nbsp;inspirativní prostor pro psychickou i fyzickou relaxaci. Zázemí zahrady umožní dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah pro všechny věkové skupiny i spoluúčast na výjimečném ekonomickém procesu.
-                    Prostřednictvím samosběrů květin, bylin a plodů jedlé zahrady uvede totiž NF naprosto unikátní způsob hospodaření pro dosažení soběstačnosti.
-                    </p>
-                {/* <h2 className="title co-nabizi">
-                        Co nabízí?
-                    </h2> */}
-                <p className="montserrat-subtitle bigger co-nabizi">Zahrada je bohatá od&nbsp;samého začátku. Už&nbsp;nyní nabízí&nbsp;<strong>půdu, prostor a&nbsp;zázemí.</strong></p>
+            <section className="section section-text co-nabizi">
+                <p className="montserrat-subtitle bigger co-nabizi" style={{ marginTop: '0' }}>Zahrada je bohatá od&nbsp;samého začátku. Už&nbsp;nyní nabízí&nbsp;<strong>půdu, prostor a&nbsp;zázemí.</strong></p>
 
                 <ul className="flex-row">
                     <li>

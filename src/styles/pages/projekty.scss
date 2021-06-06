@@ -1,17 +1,87 @@
-section#zahrada {
-  background-image: url('../images/paprika_hor.png');
-  background-repeat: no-repeat;
-  background-position: left 60%;
-  background-size: 30%;
-}
 
 .map-section {
   .title {
-    text-align: center;
     margin: 0 auto;
+    text-align: center;
+    width: 100vw;
+    background-color: $main-yellow;
+    padding: .5em 0;
   }
 }
 
 section#zahrada .text {
   text-align: justify;
+}
+
+.section-zahrada {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5em;
+  align-items: center;
+  justify-content:space-between;
+  .section {
+    width: auto;
+  }
+  .img {
+    width: 40%;
+    max-width: 500px;
+  }
+  @media (max-width: 800px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    .img {
+      margin-top: -2em;
+      width: 60%;
+      margin-bottom: 2em;
+    }
+  }
+}
+
+.section-klinika {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  align-items: center;
+  justify-content: flex-start;
+  .section {
+    width: auto;
+  }
+  @media (max-width: 800px) {
+    flex-direction: column;
+    gap: 0;
+    .img {
+      width: 50%;
+      margin-bottom: 2em;
+    }
+  }
+}
+
+.section-intervence {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  align-items: flex-end;
+  justify-content: space-between;
+  .section {
+    width: auto;
+  }
+  .img {
+    width: 70%;
+    max-width: 700px;
+    // place-self: center;
+  }
+  @media (max-width: 800px) {
+    flex-direction: column;
+    gap: 0;
+    .img {
+      margin-top: -4em;
+
+    }
+    
+  }
+}
+
+.hero-projekty {
+  background-color: $main-yellow;
 }

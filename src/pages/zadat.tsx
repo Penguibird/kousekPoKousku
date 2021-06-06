@@ -11,9 +11,14 @@ const ZadatPage: React.FC<ZadatPageProps> = ({ }) => {
         <main className="zadat">
             <section className="main-section section section-text">
                 <h1 className="title">Aktuální informace pro rok 2021</h1>
-                <p className="text">V roce 2021jsme v Nadačním fondu zvolili jinou variantu podpory projektů. V případě zájmu a potřeby někoho či něco podpořit, pište své návrhy projektů na email: info@kousekpokousku.cz</p>
-                <a href="mailto:info@kousekpokousku.cz" className="button button-filled mail">Napište nám</a>
-                <p className="subtitle strong">Ozveme se Vám.</p>
+                <p>
+                    <p className="text">V roce 2021 máme již stěžejní podporované projekty vybrány, nic ale není definitivní. </p>
+                    <p className="text">Své žádosti nám posílejte formou dopisu nebo emailem přes tlačítko žádat, uveďte své údaje a popište důvody, které Vás vedou k prosbě o příspěvek. V krátké době Vás budeme kontaktovat zpět. </p>
+
+                    <p className="text">Pokud by byly vyhlášeny mimořádné granty, budou informace řádně zveřejněny.</p>
+                </p>
+                <a href="mailto:info@kousekpokousku.cz" className="button bigger button-filled mail">Napište nám</a>
+                <p className="subtitle strong">Děkujeme za důvěru.</p>
             </section>
             <section className="dalsi-info section">
                 <ul className="flex-row">
@@ -34,5 +39,9 @@ const ZadatPage: React.FC<ZadatPageProps> = ({ }) => {
         </main>
     </Layout>
 }
+
+
+
+
 
 export default ZadatPage;

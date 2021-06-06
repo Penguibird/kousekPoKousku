@@ -57,3 +57,17 @@ main.o-nadaci {
       border-radius: 2px;
   }
 }
+
+section.images {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    gap: 2em;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 60em;
+    .img {
+        border-radius: 2px;
+    }
+}
