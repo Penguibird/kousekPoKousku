@@ -2,7 +2,7 @@ import * as React from 'react';
 //import {Fragment, useState, useEffect} from 'react';
 import Layout from './../components/layout';
 import LayerWrapper from './../components/layer-wrapper';
-import { StaticImage, GatsbyImage } from 'gatsby-plugin-image';
+import { StaticImage } from 'gatsby-plugin-image';
 import Loadable from '@loadable/component';
 
 // import ZahradaCarousel from '../components/zahrada-carousel'

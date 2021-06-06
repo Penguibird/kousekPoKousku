@@ -1,7 +1,7 @@
 // import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
 import TinySlider from "tiny-slider-react";
-import { Link, useStaticQuery, graphql } from 'gatsby';
+
 // import Loadable from "@loadable/component"
 
 import { GatsbyImage } from 'gatsby-plugin-image';

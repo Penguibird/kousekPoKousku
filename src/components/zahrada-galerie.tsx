@@ -32,7 +32,8 @@ const ZahradaGalerie: React.FC<ZahradaGalerieProps> = ({ }) => {
           }
         }
       }`);
-    const images: Image[] = data.allFile.edges.map(({ node }) => ({ src: node.childrenImageSharp.gatsbyImageData, alt: node.name }))
+    const images: Image[] = data.allFile.edges.map(({ node }) => ({ src: node.childrenImageSharp[0].gatsbyImageData, alt: node.name }))
+    console.log(data)
     console.log(images);
     return <div className="gallery-wrapper">
         <button onClick={prev} className="slider-button prev">
