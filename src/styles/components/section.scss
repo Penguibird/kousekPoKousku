@@ -1,17 +1,17 @@
-.section  {
+.section {
   width: 100%;
   padding: 8vw 4vw 5vw;
 
-  
   p {
     width: auto;
     max-width: 70ch;
   }
-  .subtitle, .section-subtitle {
-    margin-top: .3em;
+  .subtitle,
+  .section-subtitle {
+    margin-top: 0.3em;
     margin-bottom: 0;
     max-width: 100%;
-    
+
     @include Cavolini;
     font-style: italic;
 
@@ -23,7 +23,7 @@
     margin-top: 2.3em;
   }
   .section-text + .section-text {
-    margin-top: .7em;
+    margin-top: 0.7em;
   }
   .button {
     margin-top: 1em;
@@ -43,31 +43,35 @@
 }
 
 .section-title,
- .section .title,
- section .title {
-    margin: 0 0;
-    font-size: 2.3rem; 
-    text-transform: uppercase;    
-    font-size: clamp(1.8rem, 1rem + 2vw ,2.6rem);
-    text-transform: uppercase;
-    font-weight: 750;
-  }
+.section .title,
+section .title {
+  margin: 0 0;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  font-size: clamp(1.8rem, 1rem + 2vw, 2.6rem);
+  text-transform: uppercase;
+  font-weight: 750;
+}
 
-.section-text, .text-section {
+.section-text,
+.text-section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
-  
+
   &.right-align {
     align-items: flex-end;
-    .text, p, .section-text {
+    .text,
+    p,
+    .section-text {
       text-align: right;
-
     }
     @media (max-width: 900px) {
       align-items: center;
-      .text, p, .section-text {
+      .text,
+      p,
+      .section-text {
         text-align: left;
       }
     }
@@ -75,14 +79,20 @@
 
   &.light {
     color: $text-white;
-    .title, .section-title, .text, p, h1, h2, h3 {
+    .title,
+    .section-title,
+    .text,
+    p,
+    h1,
+    h2,
+    h3 {
       color: $text-white;
     }
   }
 }
 
-
-.section-centered {
+.section-centered,
+.section-center {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,7 +109,7 @@
     gap: 2em;
     flex: 1 0 auto;
 
-    &>*{
+    & > * {
       width: 100%;
     }
     @media screen and (max-width: 900px) {
