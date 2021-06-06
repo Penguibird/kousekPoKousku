@@ -153,7 +153,7 @@ header  input[type="checkbox"] {
         }
        
 
-        .eshop-link, nav {
+        .eshop-link, nav, .dropdown-content {
             // display: none;
             // transform: translateY(-500px);     
             opacity: 0;
@@ -164,6 +164,22 @@ header  input[type="checkbox"] {
             display: none;
         }
         input[type="checkbox"]:checked ~ .eshop-link {
+            display: block;
+        }
+
+        .menu {
+            fill: white !important;
+        }
+        .menu.closed {
+            display: block;
+        }
+        .menu.open {
+            display: none;
+        }
+        input[type="checkbox"]:checked ~ label .menu.closed {
+            display: none;
+        } 
+        input[type="checkbox"]:checked ~ label .menu.open {
             display: block;
         }
         input[type="checkbox"]:checked ~ .eshop-link ,

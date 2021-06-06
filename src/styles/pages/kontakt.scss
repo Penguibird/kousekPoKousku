@@ -1,44 +1,99 @@
 main.kontakt {
-    font-size: 1rem;
-    padding: 0 1em;
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-    a,
-    .link {
-        &:not(.inline) {
-            display: block;
-        }
-        &:hover {
-            text-decoration: underline;
-        }
-    }
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  padding: 4em 1em;
+  font-size: 1rem;
 
-    .lidi {
-        margin: 5em auto;
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  a,
+  .link {
+    &:not(.inline) {
+      display: block;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 
-        display: grid;
-        grid-template-columns: auto;
+  .adresa-wrapper {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 200px 1fr;
+    gap: 1em;
+    margin-top: 1em;
+    font-size: 1.2em;
+    .left {
+      grid-column: 1 / span 1;
+      color: $main-black;
+      font-weight: 700;
+      place-self: start end;
+      svg {
+        width: 30px;
+        height: auto;
+        fill: $main-black;
+      }
+    }
+  }
 
-        gap: 4em;
-        padding: 2em;
-        & > * {
-            flex-grow: 1;
-            flex-shrink: 1;
-            flex-basis: 0;
-            // width: 100%;
-            min-width: max-content;
+  .lidi {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    align-items: flex-start;
+    margin: 5em auto;
+    padding: 2em;
+    & > * {
+      flex: 1 0 0;
+      width: 100%;
+    }
+    @media (max-width: 800px) {
+      flex-direction: column;
+    }
+  }
+  .popis {
+    margin-bottom: 0.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  ul.rady {
+    display: flex;
+    flex-direction: row;
+    gap: 15vw;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5em;
+    @media (max-width: 800px) {
+      flex-direction: column;
+      gap: 3em;
+      width: max-content;
+    }
+    li {
+      h2 {
+        margin-bottom: 1em;
+      }
+      ul {
+        li {
+          font-weight: 600;
+          span.titul {
+            font-weight: 400;
+          }
         }
+        li + li {
+          margin-top: 0.5em;
+        }
+      }
     }
-    .popis {
-        text-transform: uppercase;
-        font-weight: 300;
-        margin-bottom: 0.5em;
-    }
+  }
 }
