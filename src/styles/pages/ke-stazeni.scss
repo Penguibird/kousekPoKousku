@@ -1,0 +1,13 @@
+main.ke-stazeni {
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: max-content;
+  margin: 4em auto;
+  font-size: 1.2em;
+  ul {
+      padding: 0;
+  }
+}

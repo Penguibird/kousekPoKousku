@@ -24,6 +24,7 @@
     , border 0.2s ease-in-out;
     &:hover,
     &.filled {
+      text-decoration: none;
       color: white;
       background-color: $color;
       // border-color: $color;

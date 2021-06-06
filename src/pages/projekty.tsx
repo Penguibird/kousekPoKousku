@@ -58,8 +58,8 @@ const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
             </section>
             <StaticImage className='img' src="../images/logo_socialni_klinika.png" alt='Logo sociální kliniky' layout='constrained' placeholder='blurred' />
         </section>
-        <section className="section-intervence">
-            <section className="section section-text" id="intervence">
+        <section className="section-intervence" id="intervence">
+            <section className="section section-text" >
                 <h2 className="section-title title">
                     Intervence autistů
                     </h2>
