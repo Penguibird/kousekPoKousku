@@ -63,11 +63,11 @@ const IndexPage = () => {
       <section className="text-section section kouskovani">
         <h1 className="section-title">Kouskování</h1>
         <p className="subtitle">Dejte kouskům druhou šanci!</p>
-        <p className="text">Udržitelnost je téma, kterému se dlouhodobě věnujeme. Ano, výroba oblečení má na životní prostředí svůj dopad. Pomůže už to, pokud naši osobní spotřebu redukujeme.</p>
+        <p className="text">Udržitelnost je téma, kterému se dlouhodobě věnujeme. Ano, výroba oblečení má na životní prostředí svůj dopad. Pomůžeme, pokud naši osobní spotřebu redukujeme.</p>
 
         <p className="text">Do šatníku si pořizujme <strong>základní, kvalitní, nadčasové kousky, nejlépe z&nbsp;recyklovatelných materiálů.</strong> Zejména díky dobrým materiálům vydrží ve skvělé kondici a slouží dlouho, často i někomu druhému. Právě nákup z druhé ruky je jedním z principů zpomalení cyklu neboli <strong>slou módy</strong>.</p>
 
-        <p className="text">V Nadačním fondu Kousek po kousku máme s dobročinným bazarem pod značkou <strong>Kouskování</strong> dlouholeté zkušenosti. Veškeré kousky, které stále vypadají skvěle a z mnoha důvodů je již nevyužijete, rádi přijmeme a <a className="link eshop-link" href="">na našem eshopu</a> nabídneme dál. Výtěžkem bude podpořen některý z dalších projektů.</p>
+        <p className="text">V Nadačním fondu Kousek po kousku máme s dobročinným bazarem pod značkou <strong>Kouskování</strong> dlouholeté zkušenosti. Veškeré kousky, které stále vypadají luxusně a z mnoha důvodů je již nevyužijete, rádi přijmeme a na našem eshopu nabídneme dál. Výtěžek pomůže dlouhodobě podporovanému projektu <Link to="/projekty#intervence"><strong>Intervence pro Autismus</strong></Link></p>
 
         <div className="button-row">
           <Link to="/kouskovani" className="button">Chci darovat kousek</Link>
@@ -103,7 +103,11 @@ const IndexPage = () => {
 
       <section className="section section-centered call-to-action">
         <h1 className="title">Připoj svůj kousek dobra</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus fusce ultrices ac neque adipiscing. </p>
+        <p>Nadační fond kousek po kousku rozdělil za 10 let přes 3 mil. korun mezi 112 projektů. Zapsal se do života mnoha jednotlivců, spolků a organizací. Připojil se k projektům, za kterými stojí šikovní a aktivní lidé nebo ti, kteří zrovna nejvíce pomoc potřebují.
+        </p>
+        <p>Věříme, že pokud část prostředků, které se v regionu vyprodukují, vrátíme do místních projektů, společně bude přibývat míst, kde je život radostnější.</p>
+
+        <p className="subtitle">Připojte se, ať už jakoukoli částkou, jakýmkoli způsobem. </p>
         <Link to="/eshop" className="button filled bigger">daruj</Link>
 
       </section>

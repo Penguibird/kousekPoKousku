@@ -8,7 +8,8 @@ interface MediaPageProps {
 
 const MediaPage: React.FC<MediaPageProps> = ({ }) => {
     return <Layout>
-
+        {/* Popisek melting pot videa */}
+        Melting Pot - myšlenky bez hranic, mezinárodní diskuzní fórum, které probíhá v době konání festivalu Colors of Ostrava, prezentuje písmeno M, které vzniklo v PARS Komponenty s.r.o
     </Layout>
 }
 

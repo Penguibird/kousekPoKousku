@@ -15,10 +15,12 @@ interface ProjektyPageProps {
 
 const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
     return <Layout>
-        <LayerWrapper className="hero" >
+        {/* <LayerWrapper className="hero" >
             <StaticImage src="../images/hero_placeholder.png" alt='' layout='constrained' />
+        </LayerWrapper> */}
+        <section className="hero-zahrada section">
             <h1 className="title hero-title">Aktuálně podporujeme</h1>
-        </LayerWrapper>
+        </section>  
         <section className="section section-text right-align" id="zahrada">
             <h2 className="section-title title">
                 Zahrada

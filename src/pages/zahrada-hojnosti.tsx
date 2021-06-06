@@ -17,7 +17,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
         <main className="zahrada">
             <LayerWrapper className="hero">
 
-                <StaticImage className='img' src="../images/hero_placeholder.png" alt='Fotka zahrady' layout='constrained' placeholder='blurred' />
+                {/* <StaticImage className='img' src="../images/hero_placeholder.png" alt='Fotka zahrady' layout='constrained' placeholder='blurred' /> */}
                 <h1 className="title text-center">Zahrada Hojnosti</h1>
             </LayerWrapper>
 
