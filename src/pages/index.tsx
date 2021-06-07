@@ -54,7 +54,7 @@ const IndexPage = () => {
             <h2>Sociální klinika</h2>
           </Link>
           <Link to="/projekty#intervence" className="projekt-link intervence">
-            <StaticImage className='img' src="../images/puzzle.png" alt='' layout='constrained' placeholder='blurred' objectFit='contain' />
+            <StaticImage className='img' src="../images/puzzle 2.png" alt='' layout='constrained' placeholder='blurred' objectFit='contain' />
             <h2>Intervence autistů</h2>
           </Link>
         </div>
@@ -138,7 +138,7 @@ const IndexPage = () => {
 
       <section className="section section-text" id="o-nadaci">
         <h1 className="title">O nadaci</h1>
-        <p className="text">Každý člověk může kdykoliv během svého života zažívat radost, zapálení, touhu objevovat nové možnosti, realizovat je tvořivou cestou a tím zlepšovat sám sebe i svět kolem nás, tady a teď. </p>
+        <p className="text" style={{textAlign: 'justify'}}>Každý člověk může kdykoliv během svého života zažívat radost, zapálení, touhu objevovat nové možnosti, realizovat je tvořivou cestou a tím zlepšovat sám sebe i svět kolem nás, tady a teď. </p>
         <p className="text">Pomáháme chápat a přijímat nové životní pohledy, uchopit život do vlastních rukou a osvojit si skutečné životní hodnoty. Zároveň prožíváme radost a uspokojení z toho, co děláme. Každý v sobě máme něco jedinečného, a to pomáháme objevit. Všichni máme volbu. My jsme si zvolili dělat to, co nás naplňuje. Pomáhat lidem, sobě a světu kolem nás.
         <Link className="button" to="/mise-vize-poslani">Více o nadaci</Link>
         </p>

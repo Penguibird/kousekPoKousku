@@ -96,7 +96,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     <figcaption className=""> - J. Á. Komenský</figcaption>
                     {/* <blockquote className="bottom">Kéž&nbsp;Vám bude Zahrada hojnosti k&nbsp;tomuto sloužit…</blockquote> */}
                 </figure>
-                <StaticImage className="img" src='../images/komensky_placeholder.jpg' alt='Jan amos komensky' placeholder="blurred" layout='constrained' />
+                <StaticImage className="img" src='../images/komensky.jpg' alt='Jan amos komensky' placeholder="blurred" layout='constrained' />
             </section>
 
 

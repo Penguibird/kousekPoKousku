@@ -30,7 +30,18 @@ section.kouskovani {
 }
 
 section.galavecer {
-  background-image: url("../images/sako_chlap_bw.jpg");
+  background-image: url("../images/sako_final.jpg");
+  @media (max-width: 1300px) {
+    background-image: url("../images/sako_final.jpg"), linear-gradient(
+      135deg, rgb(100  100  100  / 78%), rgb(187 187 187 / 13%));
+  }
+  @media (max-width: 800px) {
+    .section-title {
+      color: white;
+    }
+    background-image: url("../images/sako_final.jpg"),linear-gradient(to bottom, rgba(220, 220, 220, 0.8), rgb(140 140 140 / 62%));;
+  }
+  background-blend-mode: multiply;
   // background-image: url('../images/sako.jpg');
   background-repeat: no-repeat;
   background-position: right top;

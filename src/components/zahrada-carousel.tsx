@@ -27,7 +27,7 @@ const prinosy: Prinos[] = [
         ],
         imageUrl: '../images/hero_placeholder.png',
         imageAlt: '',
-        image: < StaticImage className="img" loading="eager" src='../images/zahrada_deda.jpg' alt='Zena cvici jogu' layout='constrained' placeholder="blurred" />
+        image: < StaticImage className="img" loading="eager" src='../images/deda.png' alt='Děda s vnukem sázejí na zahradě' layout='constrained' placeholder="blurred" />
 
     },
     {
@@ -41,7 +41,7 @@ const prinosy: Prinos[] = [
         ],
         imageUrl: '../images/zahrada_cviceni.jpg',
         imageAlt: 'Zena cvici jogu',
-        image: < StaticImage className="img" loading="eager" src='../images/zahrada_cviceni.jpg' alt='Zena cvici jogu' layout='constrained' placeholder="blurred" />
+        image: < StaticImage className="img" loading="eager" src='../images/joga.png' alt='Žena cvičí jógu v parku' layout='constrained' placeholder="blurred" />
 
     },
     {
@@ -52,7 +52,7 @@ const prinosy: Prinos[] = [
         Pobyt v přírodě v rámci vzdělávání je pro Zahradu hojnosti  skvělou motivací, vždyť i <strong>Jan Ámos Komenský vyučoval své žáky v nedalekém Žákovském háji</strong> a potvrdil, že vlastní zkušenost a praxe jsou nenahraditelné. Bude mnoho vzdělávacích možností a projektů, které budou vznikat na míru, v závislosti na ročním období a koloběhu přírody.`,
             `<strong>Podobně se mohou přidat dospělí.</strong> Ti se jistě zapojí i do výměny pěstitelských zkušeností, předávání rad a tipů o zpracování plodů, bylin, ovoce, zavařování, výrobě tinktur, olejů, mastí atd.`
         ],
-        image: < StaticImage className="img" loading="eager" src='../images/zahrada_kniha.jpg' alt='Zena cvici jogu' layout='constrained' placeholder="blurred" />
+        image: < StaticImage className="img" loading="eager" src='../images/kniha.jpg' alt='Otevřená kniha na trávě' layout='constrained' placeholder="blurred" />
 
     },
     {
@@ -62,7 +62,7 @@ const prinosy: Prinos[] = [
             `Až Zahrada nabídne svou hojnost, bude možné využít možnosti samosběru z jejich darů. <strong>Tak se uzavře cyklus dát a sklidit v rámci jednoho roku, aby mohl započít další.</strong>`,
             `Zahrada hojnosti má být místem, které bude stále vzkvétat, to znamená, že i její hospodaření je potřeba nastavit tak, aby byla soběstačná. Samosběr bude kromě workshopů vytvářet prozatím zdroje příjmů, které se znovu vloží do další sezóny.`
         ],
-        image: < StaticImage className="img" loading="eager" src='../images/zahrada_byliny.jpg' alt='Zena cvici jogu' layout='constrained' placeholder="blurred" />
+        image: < StaticImage className="img" loading="eager" src='../images/byliny.jpg' alt='Sesbírané byliny na stole' layout='constrained' placeholder="blurred" />
 
     }
 ]
@@ -137,7 +137,7 @@ const ZahradaCarousel: React.FC<Props> = ({ }) => {
                         <li key={i} className={`zahrada-prinos zahrada-prinos-${i} ${p.className}`} >
                             <LayerWrapper key={i} className="inner-slide">
                                 {p.image}
-                                <div className={`prinos ${i} ${p.title.split(' ')[0]}`}>
+                                <div className={`prinos ${i} ${p.className}`}>
                                     <h3 className="title">{p.title}</h3>
                                     {p.body.map((text, i) => <p key={i} className="text" dangerouslySetInnerHTML={{ __html: text }}></p>)}
                                 </div>

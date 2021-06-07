@@ -314,7 +314,7 @@ const Map: React.FC<MapProps> = ({ }) => {
                             <h3 style={{ textAlign: 'left' }} className="projekt-title">{p.name} {p.kouskovani ? <span className="kouskovani-icon"></span> : null}</h3>
                         </button>
                         <p className="money">{p.price} Kč</p>
-                        <p className="description">{p.description}</p>
+                        <p className="description">{p.description && p.description !== "undefined" ? p.description : ""}</p>
                         {/* {p.kouskovani ? <p className="kouskovani-popis">Projekt byl podpořen z výtěžků Kouskování</p> : null} */}
                     </div>)
                     // Add Year seperator yellow stripes if needed
@@ -326,7 +326,7 @@ const Map: React.FC<MapProps> = ({ }) => {
                             <div className="year-seperator" style={{ marginTop: 0 }} key={p.year} id={p.year?.toString()}>{p.year}</div>
                         )
                         acc.push(
-                            <div style={{ height: 0, visibility: 'collapse', margin: 0 }} className="year-anchor" id={p.year?.toString() + "-anchor"}></div>
+                            <div key={p.year + "anchor"} style={{ height: 0, visibility: 'collapse', margin: 0 }} className="year-anchor" id={p.year?.toString() + "-anchor"}></div>
                         )
                     }
                     return acc;
