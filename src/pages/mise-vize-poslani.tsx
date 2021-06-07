@@ -13,8 +13,8 @@ const ONadaciPage = () => {
 
                 <section className="section-text section mise">
                     <h2 className="title">Mise</h2>
-                    <p className="text">Věříme, že čemu je věnována pozornost, to se děje. Naše pozornost míří k podpoře těch, kterým mnohdy chybí jen malý kousek k cíli. </p>
-                    <p className="text">Snaží se, kousek po kousku postupují po cestě za svým snem, někteří i přes nesnáze a zkoušky osudu. Podpora v pravou chvíli, další kousek, jim přinese pocit naplnění, spravedlnosti a štěstí. Radost je pak cennější a společná. Svým příběhem, často aniž by se o to snažili, motivují a inspirují další.  Jsou důkazem, že být tvůrcem je správná cesta. Že energie vložená do tvořivosti se vrací. </p>
+                    <p className="text">Věříme, že čemu je věnována pozornost, to se děje. <strong>Naše pozornost míří k podpoře těch, kterým mnohdy chybí jen malý kousek k cíli.</strong> </p>
+                    <p className="text">Snaží se, kousek po kousku postupují po cestě za svým snem, někteří i přes nesnáze a zkoušky osudu. Podpora v pravou chvíli, další kousek, jim přinese pocit naplnění, spravedlnosti a štěstí. Radost je pak cennější a společná. Svým příběhem, často aniž by se o to snažili, motivují a inspirují další.  <strong>Jsou důkazem, že být tvůrcem je správná cesta.</strong> Že energie vložená do tvořivosti se vrací. </p>
                 </section>
 
                 <section className="section-text section vize">
