@@ -7,6 +7,7 @@ import TinySlider from "tiny-slider-react";
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { Aktualita } from '../functions/useAktuality';
 import useAktuality from '../functions/useAktuality';
+import { useState } from 'react';
 
 interface Props {
 
@@ -26,7 +27,7 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
     const prev = () => slider != null && slider.slider.goTo('prev');
     const next = () => slider != null && slider.slider.goTo('next');
 
-    const aktuality = useAktuality();
+    const aktuality = useAktuality().slice(0, 20);
     console.log(aktuality[89])
     // .sort((a: Aktualita, b: Aktualita) => a.date.getTime() - b.date.getTime());
 
@@ -44,22 +45,23 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
                 autoplay: false,
                 arrowKeys: false,
                 // autoWidth: false,
-                autoHeight: true,
+                autoHeight: false,
+                
                 // mouseDrag: true,
                 // lazyload: true,
                 loop: false,
-                
+
                 nav: false,
                 controls: false,
                 items: 1,
                 responsive: {
-                    640: {
+                    700: {
                         items: 2,
                     },
-                    900: {
+                    1000: {
                         items: 3,
                     },
-                    1200: {
+                    1400: {
                         items: 4,
                     },
                 }
@@ -67,22 +69,55 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
             }}
             ref={ts => slider = ts}
         >
-            {aktuality.map((akt: Aktualita, i: number) => (
-                <div className="aktualita" key={i}>
-                    <div className="aktualita-inner" >
-
-                        {/* maybe change to <img /> */}
-                        {/* <StaticImage loading="eager" className="img" src="../images/hero_placeholder.png" alt="" layout="constrained" /> */}
-                        <GatsbyImage className="img" image={akt.image.image} alt={akt.image.imageAlt}></GatsbyImage>
-
-                        <h3 className="title">{akt.title}</h3>
-                        <p className="text" dangerouslySetInnerHTML={{ __html: akt.body }}></p>
-                        {/* {akt.link && (akt.link[0] == "/" ? <Link to={akt.link} className="aktuality-link link">Více</Link>
-                            : <a className="aktuality-link link" href={akt.link}>Více</a>)} */}
-                    </div>
-                </div>))}
+            {aktuality.map((akt: Aktualita, i: number) => (<AktualitaComponent akt={akt} key={i} />))}
         </TinySlider >
     </div >
+}
+
+interface AktualitaProps {
+    akt: Aktualita,
+}
+
+
+const cutOffLength = 200;
+const AktualitaComponent: React.FC<AktualitaProps> = ({ akt }) => {
+
+    if (akt.body.length < cutOffLength) {
+        return <div className="aktualita" >
+            <div className="aktualita-inner" >
+
+                {/* maybe change to <img /> */}
+                {/* <StaticImage loading="eager" className="img" src="../images/hero_placeholder.png" alt="" layout="constrained" /> */}
+                <GatsbyImage objectFit='cover' objectPosition='top' className="img" image={akt.image.image} alt={akt.image.imageAlt}></GatsbyImage>
+
+                <h3 className="title">{akt.title}</h3>
+                <p className="text" dangerouslySetInnerHTML={{ __html: akt.body }}></p>
+                {/* {akt.link && (akt.link[0] == "/" ? <Link to={akt.link} className="aktuality-link link">Více</Link>
+        : <a className="aktuality-link link" href={akt.link}>Více</a>)} */}
+            </div>
+        </div>
+    }
+
+    const longText = akt.body;
+    const shortText = akt.body.slice(0, cutOffLength) + '...'
+    const [expanded, setExpanded] = useState(false);
+
+    return <div className="aktualita" >
+        <div className="aktualita-inner" >
+
+            {/* maybe change to <img /> */}
+            {/* <StaticImage loading="eager" className="img" src="../images/hero_placeholder.png" alt="" layout="constrained" /> */}
+            <GatsbyImage objectFit='cover' objectPosition='top' className="img" image={akt.image.image} alt={akt.image.imageAlt}></GatsbyImage>
+
+            <h3 className="title">{akt.title}</h3>
+            <p className="text" dangerouslySetInnerHTML={{ __html: expanded ? longText : shortText }}></p>
+            <button className="link vice-button" onClick={() => {
+                setExpanded(!expanded)
+            }}>{expanded ? 'Méně' : 'Více'}</button>
+            {/* {akt.link && (akt.link[0] == "/" ? <Link to={akt.link} className="aktuality-link link">Více</Link>
+        : <a className="aktuality-link link" href={akt.link}>Více</a>)} */}
+        </div>
+    </div>
 }
 
 export default AktualityCarousel;

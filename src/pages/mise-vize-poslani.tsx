@@ -48,10 +48,6 @@ const ONadaciPage = () => {
                     </ul>
                 </section>
 
-                <section className="section images">
-                    <StaticImage className='img' src="../images/martina_laptop.png" alt='Pan Vyhlídal u stolu' layout='constrained' placeholder='blurred' />
-                    <StaticImage className='img' src="../images/pan_vyhlidal.png" alt='Pan Vyhlídal u stolu' layout='constrained' placeholder='blurred' />
-                </section>
 
                 <section className="section-text section vznik">
                     <h2 className="title">Vznik nadačního fondu</h2>
@@ -68,6 +64,10 @@ const ONadaciPage = () => {
                     </ul>
                     <p className="text">Duší Nadačního fondu Kousek po kousku vždy byla a je  dcera zakladatele Martina Mazancová, která se s oporou svého manžela Ladislava Mazance, osobně věnuje všem podporovaným projektům a kousek po kousku vede aktivity NF směrem ke spolupráci s dalšími donátory a filantropy.
                      Stojí také  za vlastním unikátním projektem Zahrady Hojnosti, ke kterému přistupuje s neobyčejným vizionářským pohledem a osobní angažovaností, s cílem vytvořit ve Fulneku jedinečné místo pro místní i návštěvníky města a kde zhmotní svou filantropickou ideu.</p>
+                </section>
+                <section className="section images">
+                    <StaticImage className='img' src="../images/martina_laptop.png" alt='Pan Vyhlídal u stolu' layout='constrained' placeholder='blurred' />
+                    <StaticImage className='img' src="../images/pan_vyhlidal.png" alt='Pan Vyhlídal u stolu' layout='constrained' placeholder='blurred' />
                 </section>
             </main>
         </Layout>
