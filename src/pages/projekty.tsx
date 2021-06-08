@@ -61,16 +61,16 @@ const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
                 <h2 className="section-title title">
                     Intervence autistů
                     </h2>
-                <p className="subtitle">
+                {/* <p className="subtitle">
                     Dicta qui aliquam nihil harum nulla optio nisi modi sequi.
+                    </p> */}
+                <p className="text">
+                    Intervence pro autismus sdružuje rodiny, které s autismem žijí a speciální pedagogy, kteří mají s touto problematikou dlouhodobé zkušenosti. Vyměňují si poznatky, sdílejí radosti i starosti, vzájemně se podporují. Důležitým posláním je také informovat společnost. Připravit okolí na setkání s těmi, kteří neměli tolik štěstí a trpí některou z poruch autismu.  Snaží se vysvětlit jejich počínání, přiblížit jejich emoce, strachy a vnímání.
                     </p>
                 <p className="text">
-                    Účelem je poskytování kvalitní terapeutické služby lidem, kteří se nacházejí v náročné životní situaci a nemohou si tyto služby z finančních důvodu dovolit. Přesto na sobě chtějí pracovat, hledají změnu a uvědomují si díl své zodpovědnosti.
-                    </p>
-                <a className="button link" href="https://google.com">
-                    {/* //add eshop link */}
-                        Koupit kousek
-                    </a>
+                    Kromě toho iniciátor projektu Jan František Valů vede v Polance nad Odrou Bydlení s autisty, kde dohlíží na dospělé mladé muže, vede je k samostatnému životu, dodává jim jistotu a ukazuje, jak se dá dennodenní život zvládat.  Jezdí plavat, do kina, divadla, na výlety, denně se věnují lehké práci, cvičení, procházkám.
+                    Rozhodli jsem se je dále podporovat. Morálně, komunitně a díky Vašim příspěvkům do Kouskování i finančně.
+                     </p>
             </section>
             <StaticImage className='img' src="../images/puzzle.png" alt='Ruka držící puzzle' layout='constrained' placeholder='blurred' />
         </section>
