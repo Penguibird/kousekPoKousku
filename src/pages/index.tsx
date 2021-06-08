@@ -71,9 +71,9 @@ const IndexPage = () => {
         <section className="text-section section kouskovani">
           <h1 className="section-title">Kouskování</h1>
           <p className="subtitle">Dejte kouskům druhou šanci!</p>
-          <p className="text">Udržitelnost je téma, kterému se dlouhodobě věnujeme. Ano, výroba oblečení má na životní prostředí svůj dopad. Pomůžeme, pokud naši osobní spotřebu redukujeme.</p>
-          <p className="text">Do šatníku si pořizujme <strong>základní, kvalitní, nadčasové kousky, nejlépe z&nbsp;recyklovatelných materiálů.</strong> Zejména díky dobrým materiálům vydrží ve skvělé kondici a slouží dlouho, často i někomu druhému. Právě nákup z druhé ruky je jedním z principů zpomalení cyklu neboli <strong>slou módy</strong>.</p>
-          <p className="text">V Nadačním fondu Kousek po kousku máme s dobročinným bazarem pod značkou <strong>Kouskování</strong> dlouholeté zkušenosti. Veškeré kousky, které stále vypadají luxusně a z mnoha důvodů je již nevyužijete, rádi přijmeme a na našem eshopu nabídneme dál. Výtěžek pomůže dlouhodobě podporovanému projektu <Link to="/projekty#intervence"><strong>Intervence pro Autismus</strong></Link></p>
+          <p className="text">Udržitelnost je&nbsp;téma, kterému se&nbsp;dlouhodobě věnujeme. Ano, výroba oblečení má&nbsp;na životní prostředí svůj dopad. Pomůžeme, pokud naši osobní spotřebu redukujeme.</p>
+          <p className="text">Do&nbsp;šatníku si&nbsp;pořizujme <strong>základní, kvalitní, nadčasové kousky, nejlépe z&nbsp;recyklovatelných materiálů.</strong> Zejména díky dobrým materiálům vydrží ve&nbsp;skvělé kondici a&nbsp;slouží dlouho, často i&nbsp;někomu druhému. Právě nákup z&nbsp;druhé ruky je jedním z&nbsp;principů zpomalení cyklu neboli <strong>slou&nbsp;módy</strong>.</p>
+          <p className="text">V Nadačním fondu Kousek po&nbsp;kousku máme s&nbsp;dobročinným bazarem pod&nbsp;značkou <strong>Kouskování</strong> dlouholeté zkušenosti. Veškeré kousky, které stále vypadají luxusně a&nbsp;z&nbsp;mnoha důvodů je&nbsp;již nevyužijete, rádi přijmeme a na&nbsp;našem eshopu nabídneme dál. Výtěžek pomůže dlouhodobě podporovanému projektu <Link to="/projekty#intervence"><strong>Intervence pro&nbsp;Autismus</strong></Link></p>
           <div className="button-row">
             <Link to="/kouskovani" className="button">Chci darovat kousek</Link>
             <a href="/" className="button section-button buy-button filled">
@@ -86,9 +86,9 @@ const IndexPage = () => {
 
       <section className="text-section section galavecer">
         <h1 className="section-title">Slavnostní galavečer</h1>
-        <p className="subtitle">Buďte u toho</p>
+        <p className="subtitle">Buďte u&nbsp;toho</p>
         <p className="text">
-          Letošní rok je pro Nadační fond Kousek po kousku jubilejní. 10 let kousků dobra připomeneme 16. října tohoto roku v kostele sv. Josefa ve Fulneku na Slavnostním Galavečeru. Zrekapitulujeme dosavadní počiny, připomeneme některé z podpořených projektů, přivítáme řadu hostů  a prozradíme další plány.
+          Letošní rok je&nbsp;pro Nadační fond Kousek po&nbsp;kousku jubilejní. 10&nbsp;let kousků dobra připomeneme 16.&nbsp;října tohoto roku v&nbsp;kostele sv.&nbsp;Josefa ve&nbsp;Fulneku na&nbsp;Slavnostním Galavečeru. Zrekapitulujeme dosavadní počiny, připomeneme některé z&nbsp;podpořených projektů, přivítáme řadu hostů a&nbsp;prozradíme další plány.
         </p>
 
         <p className="text">Součástí Galavečera bude koncert popové houslistky <a className="inline" href="https://www.youtube.com/watch?v=-49HE-gAxok">Lucie Klasek &amp; The Stringz.</a></p>
@@ -110,11 +110,11 @@ const IndexPage = () => {
 
       <section className="section section-centered call-to-action">
         <h1 className="title">Připoj svůj kousek dobra</h1>
-        <p>Nadační fond kousek po kousku rozdělil za 10 let přes 3 mil. korun mezi 112 projektů. Zapsal se do života mnoha jednotlivců, spolků a organizací. Připojil se k projektům, za kterými stojí šikovní a aktivní lidé nebo ti, kteří zrovna nejvíce pomoc potřebují.
+        <p>Nadační fond Kousek po&nbsp;kousku rozdělil za&nbsp;10&nbsp;let přes 3&nbsp;mil.&nbsp;korun mezi 112&nbsp;projektů. Zapsal se do&nbsp;života mnoha jednotlivců, spolků a&nbsp;organizací. Připojil se&nbsp;k&nbsp;projektům, za&nbsp;kterými stojí šikovní a&nbsp;aktivní lidé nebo ti, kteří zrovna nejvíce pomoc potřebují.
         </p>
-        <p>Věříme, že pokud část prostředků, které se v regionu vyprodukují, vrátíme do místních projektů, společně bude přibývat míst, kde je život radostnější.</p>
+        <p>Věříme, že&nbsp;pokud část prostředků, které se&nbsp;v&nbsp;regionu vyprodukují, vrátíme do&nbsp;místních projektů, společně bude přibývat míst, kde&nbsp;je život radostnější.</p>
 
-        <p className="subtitle blue">Připojte se, ať už jakoukoli částkou, jakýmkoli způsobem. </p>
+        <p className="subtitle blue">Připojte se, ať&nbsp;už jakoukoli částkou, jakýmkoli způsobem. </p>
         <Link to="/eshop" className="button filled bigger">daruj</Link>
 
       </section>
@@ -144,10 +144,10 @@ const IndexPage = () => {
       </section>
 
       <section className="section section-text" id="o-nadaci">
-        <h1 className="title">O nadačním fondu</h1>
+        <h1 className="title">O&nbsp;nadačním fondu</h1>
         <p className="text" style={{ textAlign: 'justify' }}>Každý člověk může kdykoliv během svého života zažívat radost, zapálení, touhu objevovat nové možnosti, realizovat je tvořivou cestou a tím zlepšovat sám sebe i svět kolem nás, tady a teď. </p>
         <p className="text">Pomáháme chápat a přijímat nové životní pohledy, uchopit život do vlastních rukou a osvojit si skutečné životní hodnoty. Zároveň prožíváme radost a uspokojení z toho, co děláme. Každý v sobě máme něco jedinečného, a to pomáháme objevit. Všichni máme volbu. My jsme si zvolili dělat to, co nás naplňuje. Pomáhat lidem, sobě a světu kolem nás.
-        <Link className="button" to="/mise-vize-poslani">Více o nadaci</Link>
+        <Link className="button" to="/mise-vize-poslani">Více o nadačním fondu</Link>
         </p>
       </section>
 

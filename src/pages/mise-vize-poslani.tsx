@@ -5,7 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 const ONadaciPage = () => {
     return (
-        <Layout  title="Mise, vize, poslání | Nadační fond Kousek po Kousku" >
+        <Layout title="Mise, vize, poslání | Nadační fond Kousek po Kousku" >
             <main className="o-nadaci">
                 <section className="hero">
                     <h1 className="lone-title hero-title">O nadaci</h1>
@@ -14,7 +14,7 @@ const ONadaciPage = () => {
                 <section className="section-text section mise">
                     <h2 className="title">Mise</h2>
                     <p className="text">Věříme, že čemu je věnována pozornost, to se děje. <strong>Naše pozornost míří k podpoře těch, kterým mnohdy chybí jen malý kousek k cíli.</strong> </p>
-                    <p className="text">Snaží se, kousek po kousku postupují po cestě za svým snem, někteří i přes nesnáze a zkoušky osudu. Podpora v pravou chvíli, další kousek, jim přinese pocit naplnění, spravedlnosti a štěstí. Radost je pak cennější a společná. Svým příběhem, často aniž by se o to snažili, motivují a inspirují další.  <strong>Jsou důkazem, že být tvůrcem je správná cesta.</strong> Že energie vložená do tvořivosti se vrací. </p>
+                    <p className="text">Snaží se, kousek po kousku postupují za svým snem, někteří i přes nesnáze a zkoušky osudu. Podpora v pravou chvíli, další kousek, jim přinese pocit naplnění, spravedlnosti a štěstí. Radost je pak cennější a společná. Svým příběhem, často aniž by se o to snažili, motivují a inspirují další.  <strong>Jsou důkazem, že být tvůrcem je správná cesta.</strong> Že energie vložená do tvořivosti se vrací. </p>
                 </section>
 
                 <section className="section-text section vize">
@@ -55,6 +55,8 @@ const ONadaciPage = () => {
                     <p className="text">Nadační fond Kousek po kousku byl založen v prosinci roku 2011 za účelem s cílem podpory a rozvoje duchovních a humanitárních hodnot, podpory životního prostředí, chovu a ochrany zvířat, vzdělávání,
                      školství včetně volnočasových aktivit, vědy a výzkumu, sportu, sociálně-zdravotní oblasti, potřeb seniorů, zdravotnictví, kultury, umění, památek, lidových tradic, dále podpory regionu a evropských projektů neziskových organizací na výše uvedené účely.</p>
                     <p className="text">Kousek po kousku vznikl z iniciace Martiny Mazancové, za velké podpory tatínka Martiny, zakladatele a původního majitele rodinné společnosti Pars Komponenty, s. r. o., pana Vladimíra Vyhlídala.</p>
+                    <StaticImage className='img' src="../images/pan_vyhlida.jpg" alt='Pan Vyhlídal u stolu' layout='constrained' placeholder='blurred' />
+
                     <p className="text">První grantové kolo bylo vyhlášeno na jaře 2012 díky finančnímu příspěvku společnosti Pars Komponenty, s.r.o., která už před založením nadačního fondu splňovala kredit společensky zodpovědné firmy a měla za sebou podnikatelské úspěchy.</p>
 
                     <ul className="roky">
@@ -66,8 +68,7 @@ const ONadaciPage = () => {
                      Stojí také  za vlastním unikátním projektem Zahrady Hojnosti, ke kterému přistupuje s neobyčejným vizionářským pohledem a osobní angažovaností, s cílem vytvořit ve Fulneku jedinečné místo pro místní i návštěvníky města a kde zhmotní svou filantropickou ideu.</p>
                 </section>
                 <section className="section images">
-                    <StaticImage className='img' src="../images/martina_laptop.png" alt='Pan Vyhlídal u stolu' layout='constrained' placeholder='blurred' />
-                    <StaticImage className='img' src="../images/pan_vyhlidal.png" alt='Pan Vyhlídal u stolu' layout='constrained' placeholder='blurred' />
+                    <StaticImage className='img' src="../images/martina_laptop.jpg" alt='Pan Vyhlídal u stolu' layout='constrained' placeholder='blurred' />
                 </section>
             </main>
         </Layout>

@@ -1,5 +1,10 @@
 main.o-nadaci {
-
+    .img {
+        margin: 0 auto;
+        max-width: 60em;
+        border-radius: 2px;
+        margin: 2em 0;
+    }
     section.hero {
         min-height: 0;
         background-color: $main-yellow;
@@ -65,9 +70,4 @@ section.images {
     justify-content: center;
     gap: 2em;
     padding: 0;
-    margin: 0 auto;
-    max-width: 60em;
-    .img {
-        border-radius: 2px;
-    }
 }

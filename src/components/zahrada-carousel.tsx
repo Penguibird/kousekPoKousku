@@ -23,7 +23,7 @@ const prinosy: Prinos[] = [
         title: 'Sociální přínos',
         className: 'socialni',
         body: [
-            `<strong>Vedení k dobrovolnictví, tvoření fyzickou prací,</strong> sdílení, propojování, stmelování generací, předávání zkušeností, prohlubování vztahu k přírodě, práci a tělu. Komunitní tvoření, společný zájem, pospolitost.`
+            `<strong>Vedení k dobrovolnictví, tvoření fyzickou prací,</strong> sdílení, propojování, stmelování generací, předávání zkušeností, prohlubování vztahu k přírodě, práci a&nbsp;tělu. Komunitní tvoření, společný zájem, pospolitost.`
         ],
         imageUrl: '../images/hero_placeholder.png',
         imageAlt: '',
@@ -34,8 +34,8 @@ const prinosy: Prinos[] = [
         title: "Pohybový a kreativní přínos",
         className: 'pohybovy',
         body: [
-            `<strong>Vědomé cvičení, workshopy na téma malování, fotografování, tvorba a vázání dekorací,</strong> běžných či příležitostných květinových vazeb, zpracování bylin v širokém pojetí,
-             užití v kuchyni, postupně i zdravé vaření podle makrobiotiky i dalších trendy stylů.`,
+            `<strong>Vědomé cvičení, workshopy na téma malování, fotografování, tvorba a&nbsp;vázání dekorací,</strong> běžných či&nbsp;příležitostných květinových vazeb, zpracování bylin v&nbsp;širokém pojetí,
+             užití v&nbsp;kuchyni, postupně i&nbsp;zdravé vaření podle makrobiotiky i&nbsp;dalších trendy stylů.`,
             //     `Od vědomých cvičení po workshopy na téma malování, fotografování,
             // vázání dekorací, kytic a běžných či příležitostných květinových vazeb, zpracování bylin v širokém pojetí, užití v kuchyni atd.`
         ],
@@ -48,9 +48,10 @@ const prinosy: Prinos[] = [
         title: "Edukativní přínos pro všechny věkové skupiny",
         className: 'edukativni',
         body: [
-            `Zahrada dětem a mládeži v praxi poslouží pro představení zákonitostí přírody, koloběhu, ekosystému. Budou poznávat rostliny a květiny, učit se o jejich významu, účincích bylin. <strong>I tady svou roli sehraje výchova k dobrovolnictví.</strong>
-        Pobyt v přírodě v rámci vzdělávání je pro Zahradu hojnosti  skvělou motivací, vždyť i <strong>Jan Ámos Komenský vyučoval své žáky v nedalekém Žákovském háji</strong> a potvrdil, že vlastní zkušenost a praxe jsou nenahraditelné. Bude mnoho vzdělávacích možností a projektů, které budou vznikat na míru, v závislosti na ročním období a koloběhu přírody.`,
-            `<strong>Podobně se mohou přidat dospělí.</strong> Ti se jistě zapojí i do výměny pěstitelských zkušeností, předávání rad a tipů o zpracování plodů, bylin, ovoce, zavařování, výrobě tinktur, olejů, mastí atd.`
+            `Zahrada dětem a&nbsp;mládeži v&nbsp;praxi poslouží pro&nbsp;představení zákonitostí přírody, koloběhu, ekosystému. Budou poznávat rostliny a květiny, učit se&nbsp;o&nbsp;jejich významu, účincích bylin. <strong>I&nbsp;tady svou roli sehraje výchova k&nbsp;dobrovolnictví.</strong>
+        Pobyt v&nbsp;přírodě v&nbsp;rámci vzdělávání je&nbsp;pro Zahradu Hojnosti skvělou motivací, vždyť&nbsp;i&nbsp;<strong>Jan&nbsp;Ámos Komenský vyučoval své žáky v nedalekém Žákovském&nbsp;háji</strong> a&nbsp;tvrdil, že&nbsp; matka příroda je nejzkušenější učitelkou. 
+        Společně rozvineme mnoho vzdělávacích možností a&nbsp;projektů, které budou vznikat na&nbsp;míru, v&nbsp;závislosti na ročním období a&nbsp;koloběhu přírody.`,
+            `<strong>Podobně se&nbsp;mohou přidat dospělí.</strong> Ti&nbsp;se jistě zapojí i&nbsp;do&nbsp;výměny pěstitelských zkušeností, předávání rad a&nbsp;tipů o&nbsp;zpracování plodů, bylin, ovoce, zavařování, výrobě tinktur, olejů, mastí atd.`
         ],
         image: < StaticImage className="img" loading="eager" src='../images/kniha.jpg' alt='Otevřená kniha na trávě' layout='constrained' placeholder="blurred" />
 

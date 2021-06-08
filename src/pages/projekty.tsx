@@ -14,7 +14,7 @@ interface ProjektyPageProps {
 };
 
 const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
-    return <Layout  title="Projekty | Nadační fond Kousek po Kousku" >
+    return <Layout title="Projekty | Nadační fond Kousek po Kousku" >
         {/* <LayerWrapper className="hero" >
             <StaticImage src="../images/hero_placeholder.png" alt='' layout='constrained' />
         </LayerWrapper> */}
@@ -26,13 +26,11 @@ const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
                 <h2 className="section-title title">
                     Zahrada
                     </h2>
-                <p className="text">
-                    Na pozemku Nadačního fondu Kousek po kousku ve Fulneku, o rozloze 16 000 m2, se postupně rodí výjimečné místo pro tělo, mysl a duši, harmonizační a inspirativní prostor pro psychickou i fyzickou relaxaci.
-                    Zázemí zahrady umožní dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah pro všechny věkové skupiny i spoluúčast na výjimečném ekonomickém procesu.
-                      Prostřednictvím samosběrů květin, bylin a plodů jedlé zahrady uvede totiž NF naprosto unikátní způsob hospodaření pro dosažení soběstačnosti.</p>
-                <Link className="button link" to="/zahrada-hojnosti">
-                    Více
-                    </Link>
+                <p className="text">Na&nbsp;pozemku Nadačního fondu Kousek po&nbsp;kousku ve&nbsp;Fulneku, o&nbsp;rozloze 16&nbsp;000&nbsp;m<sup>2</sup>, se postupně rodí výjimečné <strong>místo pro tělo, mysl a&nbsp;duši, harmonizační
+                            a&nbsp;inspirativní prostor pro psychickou i fyzickou relaxaci.</strong> Zázemí zahrady umožní<strong> dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah</strong> pro&nbsp;všechny věkové skupiny i&nbsp;spoluúčast na&nbsp;výjimečném ekonomickém procesu.
+                        Prostřednictvím samosběrů květin, bylin a&nbsp;plodů jedlé zahrady představí totiž NF naprosto <strong>unikátní způsob hospodaření pro dosažení soběstačnosti.</strong>
+                </p>
+                <Link className="button link" to="/zahrada-hojnosti">Více</Link>
             </section>
             <StaticImage className='img' src='../images/paprika_hor.png' alt='Ruce drzi rostlinku' layout='constrained' placeholder='blurred' />
         </section>

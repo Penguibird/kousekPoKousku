@@ -34,7 +34,7 @@ const ZahradaGalerie: React.FC<ZahradaGalerieProps> = ({ }) => {
       }`);
 
   // @ts-ignore
-  const images: Image[] = data.allFile.edges.map(({ node }) => ({ src: node.childrenImageSharp[0].gatsbyImageData, alt: node.name }))
+  const images: Image[] = data.allFile.edges.map(({ node }) => ({ src: node.childrenImageSharp[0].gatsbyImageData, alt: node.name })).sort((a, b) => a.alt.localeCompare(b.alt))
   console.log(data)
   console.log(images);
   return <div className="gallery-wrapper">
