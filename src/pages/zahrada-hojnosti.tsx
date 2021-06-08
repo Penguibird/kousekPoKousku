@@ -6,7 +6,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Loadable from '@loadable/component';
 
 
-// import heroVideo from '../images/zahrada_hero.mp4'
+import heroVideo from '../images/zahrada_hero.mp4'
 
 // import ZahradaCarousel from '../components/zahrada-carousel'
 const ZahradaCarousel = Loadable(() => import('../components/zahrada-carousel'))
@@ -20,15 +20,15 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
 
     // console.log(images)
-    return <Layout headerProps={{ color: 'green', logo: 'zahrada' }}>
+    return <Layout title="Zahrada hojnosti | Nadační fond Kousek po Kousku" headerProps={{ color: 'green', logo: 'zahrada' }}>
         <main className="zahrada">
             <LayerWrapper className="hero">
 
                 {/* <StaticImage className='img' src="../images/hero_placeholder.png" alt='Fotka zahrady' layout='constrained' placeholder='blurred' />
                 <h1 className="title text-center">Zahrada Hojnosti</h1> */}
-                {/* <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+                <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
                     <source src={heroVideo} type="video/mp4" />
-                </video> */}
+                </video>
             </LayerWrapper>
 
 

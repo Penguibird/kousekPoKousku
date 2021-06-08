@@ -14,7 +14,7 @@ interface ProjektyPageProps {
 };
 
 const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
-    return <Layout>
+    return <Layout  title="Projekty | Nadační fond Kousek po Kousku" >
         {/* <LayerWrapper className="hero" >
             <StaticImage src="../images/hero_placeholder.png" alt='' layout='constrained' />
         </LayerWrapper> */}

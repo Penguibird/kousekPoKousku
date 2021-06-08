@@ -7,7 +7,7 @@ interface ZadatPageProps {
 };
 
 const ZadatPage: React.FC<ZadatPageProps> = ({ }) => {
-    return <Layout>
+    return <Layout  title="Žádat | Nadační fond Kousek po Kousku" >
         <main className="zadat">
             <section className="main-section section section-text">
                 <h1 className="title">Aktuální informace pro rok 2021</h1>

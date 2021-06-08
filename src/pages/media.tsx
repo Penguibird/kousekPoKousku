@@ -7,7 +7,7 @@ interface MediaPageProps {
 };
 
 const MediaPage: React.FC<MediaPageProps> = ({ }) => {
-    return <Layout>
+    return <Layout  title="Média | Nadační fond Kousek po Kousku" >
         {/* Popisek melting pot videa */}
         <main className="media">
             <section className=" section hero yellow">

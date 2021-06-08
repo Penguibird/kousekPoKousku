@@ -14,7 +14,7 @@ const Map = Loadable(() => import('./../components/map'))
 const IndexPage = () => {
 
   return (
-    <Layout>
+    <Layout >
       <LayerWrapper className="main-page-hero hero">
         <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
           <source src={heroVideo} type="video/mp4" />

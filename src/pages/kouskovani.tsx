@@ -8,7 +8,7 @@ interface KouskovaniPageProps {
 };
 
 const KouskovaniPage: React.FC<KouskovaniPageProps> = ({ }) => {
-    return <Layout>
+    return <Layout  title="Kouskování | Nadační fond Kousek po Kousku" >
         <main className="kouskovani-darovat">
             <section className="section section-center">
                 <p className="text" style={{ textAlign: 'justify' }}><strong>Děkujeme, že jste se rozhodli přispět kousky, kterým společně dáme další šanci a vrátíme je  do života. </strong>

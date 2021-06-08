@@ -7,7 +7,7 @@ interface VyrocniZpravyPageProps {
 };
 
 const VyrocniZpravyPage: React.FC<VyrocniZpravyPageProps> = ({ }) => {
-    return <Layout>
+    return <Layout  title="Ke stažení | Nadační fond Kousek po Kousku" >
         <main className="ke-stazeni">
             <section className="vyrocni-zpravy">
                 <h2>Výroční zprávy</h2>

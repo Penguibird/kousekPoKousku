@@ -7,7 +7,7 @@ interface KontaktPageProps {
 };
 
 const KontaktPage: React.FC<KontaktPageProps> = ({ }) => {
-    return <Layout>
+    return <Layout  title="Kontakt | Nadační fond Kousek po Kousku" >
         <main className="kontakt">
             <div className="kontakt">
                 <div className="adresa-wrapper">

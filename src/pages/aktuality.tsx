@@ -23,7 +23,7 @@ const AktualityPage: React.FC<AktualityPageProps> = ({ }) => {
                 : <a className="aktuality-link link" href={akt.link}>Více</a>)} */}
         </div>
 
-    return <Layout>
+    return <Layout  title="Aktuality | Nadační fond Kousek po Kousku" >
         <main className="aktuality">
             <section className="section section-hero-title">
                 <h1 className="hero-title">Aktuality</h1>

@@ -5,7 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 const ONadaciPage = () => {
     return (
-        <Layout>
+        <Layout  title="Mise, vize, poslání | Nadační fond Kousek po Kousku" >
             <main className="o-nadaci">
                 <section className="hero">
                     <h1 className="lone-title hero-title">O nadaci</h1>
