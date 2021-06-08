@@ -1,5 +1,5 @@
 ---
-name: Pohlednice od Matěje Čípa
+name: Pozdrav z Ameriky od Matěje Čipa
 image:
   image: fotka-z-usa-matj-2.jpg
   imageAlt: Pohlednice od Matěje Čípa

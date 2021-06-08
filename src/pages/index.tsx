@@ -4,7 +4,8 @@ import LayerWrapper from "../components/layer-wrapper";
 import Layout from '../components/layout';
 import { Link } from 'gatsby';
 import Loadable from '@loadable/component';
-
+import heroVideo from "../images/hero_final.mp4"
+import heroSnapshot from '../images/hero_snapshot.png'
 // import AktualityCarousel from "../components/aktuality-carousel";
 const AktualityCarousel = Loadable(() => import("../components/aktuality-carousel"))
 // import Map from './../components/map';
@@ -15,8 +16,11 @@ const IndexPage = () => {
   return (
     <Layout>
       <LayerWrapper className="main-page-hero hero">
-        <StaticImage layout="fullWidth" className="hero-image" src="../images/hero_placeholder.png" alt="" />
-        <h1 className="hero-title">Lorem ipsum dolor sit amet</h1>
+        <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+          <source src={heroVideo} type="video/mp4" />
+        </video>
+        {/* <StaticImage layout="fullWidth" className="hero-image" src="../images/hero_placeholder.png" alt="" />
+        <h1 className="hero-title">Lorem ipsum dolor sit amet</h1> */}
       </LayerWrapper>
 
       <section className="aktualne-podporujeme">
@@ -137,8 +141,8 @@ const IndexPage = () => {
       </section>
 
       <section className="section section-text" id="o-nadaci">
-        <h1 className="title">O nadaci</h1>
-        <p className="text" style={{textAlign: 'justify'}}>Každý člověk může kdykoliv během svého života zažívat radost, zapálení, touhu objevovat nové možnosti, realizovat je tvořivou cestou a tím zlepšovat sám sebe i svět kolem nás, tady a teď. </p>
+        <h1 className="title">O nadačním fondu</h1>
+        <p className="text" style={{ textAlign: 'justify' }}>Každý člověk může kdykoliv během svého života zažívat radost, zapálení, touhu objevovat nové možnosti, realizovat je tvořivou cestou a tím zlepšovat sám sebe i svět kolem nás, tady a teď. </p>
         <p className="text">Pomáháme chápat a přijímat nové životní pohledy, uchopit život do vlastních rukou a osvojit si skutečné životní hodnoty. Zároveň prožíváme radost a uspokojení z toho, co děláme. Každý v sobě máme něco jedinečného, a to pomáháme objevit. Všichni máme volbu. My jsme si zvolili dělat to, co nás naplňuje. Pomáhat lidem, sobě a světu kolem nás.
         <Link className="button" to="/mise-vize-poslani">Více o nadaci</Link>
         </p>
@@ -151,9 +155,9 @@ const IndexPage = () => {
           <li>
             <StaticImage className='img' src="../images/logo_pars.png" alt='Pars Komponenty' layout='constrained' placeholder='blurred' />
           </li>
-          <li>
+          {/* <li>
             <StaticImage className='img' src="../images/logo_ksb.jpg" alt='Kocián Šolc Balaštík' layout='constrained' placeholder='blurred' />
-          </li>
+          </li> */}
         </ul>
       </section>
       {/* <section className="section section-map">

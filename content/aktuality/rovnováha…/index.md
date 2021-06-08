@@ -1,12 +1,12 @@
 ---
-name: ROVNOVÁHA…
+name: ROVNOVÁHA
 image:
   image: snímek1.jpg
   imageAlt: Dualita a její rovnováha
 ---
 Fráze? Nikoli!
 
-Světová zdravotnická organizace / WHO / definuje ZDRAVÍ jako stav úplného tělesného, duševního a sociálního blaha nebo také stav úplné tělesné, duševní a sociální pohody.
+**Světová zdravotnická organizace / WHO / definuje ZDRAVÍ jako stav úplného tělesného, duševního a sociálního blaha nebo také stav úplné tělesné, duševní a sociální pohody.**
 
  
 

@@ -5,6 +5,9 @@ import LayerWrapper from './../components/layer-wrapper';
 import { StaticImage } from 'gatsby-plugin-image';
 import Loadable from '@loadable/component';
 
+
+// import heroVideo from '../images/zahrada_hero.mp4'
+
 // import ZahradaCarousel from '../components/zahrada-carousel'
 const ZahradaCarousel = Loadable(() => import('../components/zahrada-carousel'))
 const ZahradaGalerie = Loadable(() => import('../components/zahrada-galerie'))
@@ -21,8 +24,11 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
         <main className="zahrada">
             <LayerWrapper className="hero">
 
-                <StaticImage className='img' src="../images/hero_placeholder.png" alt='Fotka zahrady' layout='constrained' placeholder='blurred' />
-                <h1 className="title text-center">Zahrada Hojnosti</h1>
+                {/* <StaticImage className='img' src="../images/hero_placeholder.png" alt='Fotka zahrady' layout='constrained' placeholder='blurred' />
+                <h1 className="title text-center">Zahrada Hojnosti</h1> */}
+                {/* <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+                    <source src={heroVideo} type="video/mp4" />
+                </video> */}
             </LayerWrapper>
 
 

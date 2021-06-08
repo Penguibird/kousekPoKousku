@@ -1,5 +1,5 @@
 ---
-name: Svět je lepší za zvuku hudby
+name: Podpořili jsme bouři strun
 image:
   imageAlt: The stringz
   image: safe_image.jpg

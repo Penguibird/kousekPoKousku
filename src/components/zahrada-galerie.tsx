@@ -8,17 +8,17 @@ interface ZahradaGalerieProps {
 
 };
 interface Image {
-    src: any,
-    alt: string,
+  src: any,
+  alt: string,
 }
 
 const ZahradaGalerie: React.FC<ZahradaGalerieProps> = ({ }) => {
-    let slider: TinySlider | null;
+  let slider: TinySlider | null;
 
-    const prev = () => slider != null && slider.slider.goTo('prev');
-    const next = () => slider != null && slider.slider.goTo('next');
+  const prev = () => slider != null && slider.slider.goTo('prev');
+  const next = () => slider != null && slider.slider.goTo('next');
 
-    const data = useStaticQuery(graphql`query ObrazkyZahrada {
+  const data = useStaticQuery(graphql`query ObrazkyZahrada {
         allFile(
           filter: {extension: {regex: "/(jpg)|(jpeg)|(png)/"}, dir: {regex: "/obrazkyZahrada/"}}
         ) {
@@ -32,11 +32,11 @@ const ZahradaGalerie: React.FC<ZahradaGalerieProps> = ({ }) => {
           }
         }
       }`);
-    const images: Image[] = data.allFile.edges.map(({ node }) => ({ src: node.childrenImageSharp[0].gatsbyImageData, alt: node.name }))
-    console.log(data)
-    console.log(images);
-    return <div className="gallery-wrapper">
-        <button onClick={prev} className="slider-button prev">
+  const images: Image[] = data.allFile.edges.map(({ node }) => ({ src: node.childrenImageSharp[0].gatsbyImageData, alt: node.name }))
+  console.log(data)
+  console.log(images);
+  return <div className="gallery-wrapper">
+    {/* <button onClick={prev} className="slider-button prev">
             <svg className="arrow" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none" opacity=".87" /><path d="M17.51 3.87L15.73 2.1 5.84 12l9.9 9.9 1.77-1.77L9.38 12l8.13-8.13z" /></svg>
         </button>
         <button onClick={next} className="slider-button next">
@@ -54,8 +54,11 @@ const ZahradaGalerie: React.FC<ZahradaGalerieProps> = ({ }) => {
             {images.map((image: Image, i: number) => <div className="image-wrapper" key={i}>
                 <GatsbyImage className="img" image={image.src} alt={image.alt} />
             </div>)}
-        </TinySlider>
-    </div>
+        </TinySlider> */}
+    {images.map((image: Image, i: number) => <div className="image-wrapper" key={i}>
+      <GatsbyImage className="img" image={image.src} alt={image.alt} />
+    </div>)}
+  </div>
 }
 
 export default ZahradaGalerie;

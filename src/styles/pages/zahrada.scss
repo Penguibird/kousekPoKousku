@@ -508,24 +508,42 @@ section.gallery {
   
 }
 
+
+// Old styles for carousel
+// .gallery-wrapper {
+//   display: grid;
+//   grid-template-areas: 'prev carousel next';
+//   grid-template-rows: 1fr;
+//   max-width: 1200px;
+//   grid-template-columns: 80px calc( min(1200px, 100vw) - 160px) 80px;
+
+//   padding: 1em 0;
+//   margin: 0 auto;
+
+//   .prev {
+//     grid-area: prev;
+//   }
+//   .tns-outer {
+//     grid-area: carousel;
+//   }
+//   .next {
+//     grid-area: next;
+//   }
+
+// }
+
 .gallery-wrapper {
-  display: grid;
-  grid-template-areas: 'prev carousel next';
-  grid-template-rows: 1fr;
-  max-width: 1200px;
-  grid-template-columns: 80px calc( min(1200px, 100vw) - 160px) 80px;
-
-  padding: 1em 0;
-  margin: 0 auto;
-
-  .prev {
-    grid-area: prev;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  &>* {
+    height: 100%;
+    width: auto;
+    flex: 1 1 auto;
+    max-width: 300px;
+    min-width: 200px;
   }
-  .tns-outer {
-    grid-area: carousel;
-  }
-  .next {
-    grid-area: next;
-  }
-
 }

@@ -1,5 +1,5 @@
 ---
-name: Bubeník Karlík
+name: Karlík
 image:
   image: screenshot-2021-06-07-132752.jpg
   imageAlt: Bubeník karlík

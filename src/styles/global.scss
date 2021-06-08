@@ -112,3 +112,12 @@ main, section, .section {
 svg.arrow {
     fill: $main-black;
 }
+
+.hero-video {
+    width: 100%;
+    max-width: 100vw;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+    max-height: 800px;
+}

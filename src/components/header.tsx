@@ -41,7 +41,7 @@ const Header: React.FC<Props> = ({ color, logo }) => {
         <nav>
             <ul>
                 <li className="dropdown">
-                    <label htmlFor="dropdown-expand" className="navbar-link">O&nbsp;nadaci</label>
+                    <label htmlFor="dropdown-expand" className="navbar-link">O&nbsp;nás</label>
                     <input className="" type="checkbox" name="dropdown-expand" id="dropdown-expand" />
                     <ul className="dropdown-content">
                         <li className="navbar-link" >
@@ -78,7 +78,7 @@ const Header: React.FC<Props> = ({ color, logo }) => {
                 </li>
             </ul>
         </nav>
-        <Link to="/eshop" className={"eshop-link button filled " + color ?? ''}>E&nbsp;shop</Link>
+        <Link to="/eshop" className={"eshop-link button filled " + color ?? ''}>Daruj</Link>
     </header>
 }
 
