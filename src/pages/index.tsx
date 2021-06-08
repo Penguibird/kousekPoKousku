@@ -62,7 +62,7 @@ const IndexPage = () => {
           </Link>
           <Link to="/projekty#intervence" className="projekt-link intervence">
             <StaticImage className='img' src="../images/puzzle 2.png" alt='' layout='constrained' placeholder='blurred' objectFit='contain' />
-            <h2>Intervence autistů</h2>
+            <h2>Intervence pro autismus</h2>
           </Link>
         </div>
       </section>
