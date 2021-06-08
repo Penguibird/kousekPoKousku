@@ -5,7 +5,7 @@ import LayerWrapper from './../components/layer-wrapper';
 import { StaticImage } from 'gatsby-plugin-image';
 import Loadable from '@loadable/component';
 
-
+// @ts-ignore
 import heroVideo from '../images/zahrada_hero.mp4'
 
 // import ZahradaCarousel from '../components/zahrada-carousel'

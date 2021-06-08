@@ -4,7 +4,10 @@ import LayerWrapper from "../components/layer-wrapper";
 import Layout from '../components/layout';
 import { Link } from 'gatsby';
 import Loadable from '@loadable/component';
+
+// @ts-ignore
 import heroVideo from "../images/hero_final.mp4"
+// @ts-ignore
 import heroSnapshot from '../images/hero_snapshot.png'
 // import AktualityCarousel from "../components/aktuality-carousel";
 const AktualityCarousel = Loadable(() => import("../components/aktuality-carousel"))

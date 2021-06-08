@@ -1,7 +1,7 @@
 import * as React from 'react';
 //import {Fragment, useState, useEffect} from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import TinySlider from 'tiny-slider-react';
+// import TinySlider from 'tiny-slider-react';
 import { GatsbyImage } from 'gatsby-plugin-image';
 
 interface ZahradaGalerieProps {
@@ -13,10 +13,10 @@ interface Image {
 }
 
 const ZahradaGalerie: React.FC<ZahradaGalerieProps> = ({ }) => {
-  let slider: TinySlider | null;
+  // let slider: TinySlider | null;
 
-  const prev = () => slider != null && slider.slider.goTo('prev');
-  const next = () => slider != null && slider.slider.goTo('next');
+  // const prev = () => slider != null && slider.slider.goTo('prev');
+  // const next = () => slider != null && slider.slider.goTo('next');
 
   const data = useStaticQuery(graphql`query ObrazkyZahrada {
         allFile(
@@ -32,6 +32,8 @@ const ZahradaGalerie: React.FC<ZahradaGalerieProps> = ({ }) => {
           }
         }
       }`);
+
+  // @ts-ignore
   const images: Image[] = data.allFile.edges.map(({ node }) => ({ src: node.childrenImageSharp[0].gatsbyImageData, alt: node.name }))
   console.log(data)
   console.log(images);
