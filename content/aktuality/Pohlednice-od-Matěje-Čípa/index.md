@@ -1,5 +1,6 @@
 ---
 name: Pozdrav z Ameriky od Matěje Čipa
+date: 05-06-2021
 image:
   image: fotka-z-usa-matj-2.jpg
   imageAlt: Pohlednice od Matěje Čípa

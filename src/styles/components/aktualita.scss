@@ -79,15 +79,19 @@
   .img {
     width: 100%;
     height: auto;
-    @media (min-width: 640px) {
-      max-height: 200px;
-    }
+    
     
     margin-bottom: 0.5em;
     border-radius: 3px;
   }
   p {
     font-size: 0.9em;
+  }
+}
+
+.aktuality-wrapper .aktualita .img {
+  @media (min-width: 640px) {
+    max-height: 250px;
   }
 }
 

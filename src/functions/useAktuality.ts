@@ -58,7 +58,7 @@ const useAktuality = () => {
       title: node.frontmatter.name,
       body: (node.html as string).replace('/n', ''),
       //@ts-ignore
-      date: new Date(moment(node.frontmatter.date, 'DD-MM-YYYY').toDate()),
+      date: moment(node.frontmatter.date, 'DD-MM-YYYY').toDate(),
       link: node.frontmatter.link
         ? getLink(node.frontmatter.link)
         : undefined,
@@ -67,7 +67,7 @@ const useAktuality = () => {
         imageAlt: node.frontmatter.image.imageAlt
       }
     }))
-    .sort((a: Aktualita, b: Aktualita) => a.date.getTime() - b.date.getTime())
+    .sort((a: Aktualita, b: Aktualita) => a.date.getTime()- b.date.getTime())
     .reverse();
   return aktuality;
 }

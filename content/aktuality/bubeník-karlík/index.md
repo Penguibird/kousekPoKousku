@@ -1,5 +1,7 @@
 ---
 name: Karlík
+date: 07-06-2021
+
 image:
   image: screenshot-2021-06-07-132752.jpg
   imageAlt: Bubeník karlík

@@ -1,5 +1,6 @@
 ---
 name: ROVNOVÁHA
+date: 08-06-2021
 image:
   image: snímek1.jpg
   imageAlt: Dualita a její rovnováha

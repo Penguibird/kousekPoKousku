@@ -67,7 +67,7 @@ section.call-to-action {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 3em;
   flex-grow: 1;
@@ -80,6 +80,9 @@ section.call-to-action {
   font-size: 1.2rem;
   max-width: 30em;
   // background-color: white;
+  li.cislo.people {
+    margin-top: -0.3em;
+  }
   li.cislo {
     width: 100%;
     display: flex;

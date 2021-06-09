@@ -1,5 +1,6 @@
 ---
 name: Podpořili jsme bouři strun
+date: 09-06-2021
 image:
   imageAlt: The stringz
   image: safe_image.jpg

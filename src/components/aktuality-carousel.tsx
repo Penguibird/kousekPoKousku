@@ -27,8 +27,9 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
     const prev = () => slider != null && slider.slider.goTo('prev');
     const next = () => slider != null && slider.slider.goTo('next');
 
-    const aktuality = useAktuality().slice(0, 20);
-    console.log(aktuality[89])
+    const aktuality = useAktuality();
+    console.log(aktuality)
+    console.log(aktuality.map(a => a.date))
     // .sort((a: Aktualita, b: Aktualita) => a.date.getTime() - b.date.getTime());
 
 
@@ -45,17 +46,19 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
                 autoplay: false,
                 arrowKeys: false,
                 // autoWidth: false,
-                autoHeight: false,
-                
+                autoHeight: true,
+
                 // mouseDrag: true,
                 // lazyload: true,
                 loop: false,
-
                 nav: false,
+                speed: 1,
                 controls: false,
+
                 items: 1,
                 responsive: {
                     700: {
+                        autoHeight: false,
                         items: 2,
                     },
                     1000: {

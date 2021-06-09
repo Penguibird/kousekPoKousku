@@ -76,9 +76,9 @@ const IndexPage = () => {
           <p className="text">V Nadačním fondu Kousek po&nbsp;kousku máme s&nbsp;dobročinným bazarem pod&nbsp;značkou <strong>Kouskování</strong> dlouholeté zkušenosti. Veškeré kousky, které stále vypadají luxusně a&nbsp;z&nbsp;mnoha důvodů je&nbsp;již nevyužijete, rádi přijmeme a na&nbsp;našem eshopu nabídneme dál. Výtěžek pomůže dlouhodobě podporovanému projektu <Link to="/projekty#intervence"><strong>Intervence pro&nbsp;Autismus</strong></Link></p>
           <div className="button-row">
             <Link to="/kouskovani" className="button">Chci darovat kousek</Link>
-            <a href="/" className="button section-button buy-button filled">
+            <Link to="/eshop" className="button section-button buy-button filled">
               Chci koupit kousek
-            </a>
+            </Link>
           </div>
         </section>
         <StaticImage className='section-image img' src="../images/kouskovani_saty.png" alt='Ruka podává šaty a boty' layout='constrained' placeholder='blurred' />
@@ -112,9 +112,10 @@ const IndexPage = () => {
         <h1 className="title">Připoj svůj kousek dobra</h1>
         <p>Nadační fond Kousek po&nbsp;kousku rozdělil za&nbsp;10&nbsp;let přes 3&nbsp;mil.&nbsp;korun mezi 112&nbsp;projektů. Zapsal se do&nbsp;života mnoha jednotlivců, spolků a&nbsp;organizací. Připojil se&nbsp;k&nbsp;projektům, za&nbsp;kterými stojí šikovní a&nbsp;aktivní lidé nebo ti, kteří zrovna nejvíce pomoc potřebují.
         </p>
-        <p>Věříme, že&nbsp;pokud část prostředků, které se&nbsp;v&nbsp;regionu vyprodukují, vrátíme do&nbsp;místních projektů, společně bude přibývat míst, kde&nbsp;je život radostnější.</p>
+        <p>Věříme, že&nbsp;pokud část prostředků, které vzejdou z&nbsp;regionu, vrátíme zpět do&nbsp;místních projektů, přibude míst, kde se&nbsp;žije lépe a&nbsp;radostněji.</p>
 
-        <p className="subtitle blue">Připojte se, ať&nbsp;už jakoukoli částkou, jakýmkoli způsobem. </p>
+        {/* <p className="subtitle blue">Připojte se, ať&nbsp;už jakoukoli částkou, jakýmkoli způsobem. </p> */}
+        <p className="subtitle blue"> Děkujeme, že&nbsp;se přidáte.</p>
         <Link to="/eshop" className="button filled bigger">daruj</Link>
 
       </section>

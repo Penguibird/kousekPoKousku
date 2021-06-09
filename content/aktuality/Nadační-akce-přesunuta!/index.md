@@ -1,6 +1,6 @@
 ---
 name: Nadační akce přesunuta!
-date: 04-06-2021
+date: 06-06-2021
 image:
     image: pozvnka-jen-1.strana.jpg
     imageAlt: Nadační akce přesunuta!
