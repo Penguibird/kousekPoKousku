@@ -6,7 +6,16 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Loadable from '@loadable/component';
 
 // @ts-ignore
-import heroVideo from '../images/zahrada_hero.mp4'
+
+
+// @ts-ignore
+import heroVideo from "../images/videos/zahrada_hero.mp4"
+// @ts-ignore
+import heroVideo1366 from "../images/videos/zahrada_1366_4Mb.mp4"
+// @ts-ignore
+import heroVideo768 from "../images/videos/zahrada_768_4Mb.mp4"
+// @ts-ignore
+import heroVideo360 from "../images/videos/zahrada_360_4Mb.mp4"
 
 // import ZahradaCarousel from '../components/zahrada-carousel'
 const ZahradaCarousel = Loadable(() => import('../components/zahrada-carousel'))
@@ -27,8 +36,10 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                 {/* <StaticImage className='img' src="../images/hero_placeholder.png" alt='Fotka zahrady' layout='constrained' placeholder='blurred' />
                 <h1 className="title text-center">Zahrada Hojnosti</h1> */}
                 <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
-                    <source src={heroVideo} type="video/mp4" />
-                </video>
+                    <source media="(max-width: 360px)" src={heroVideo360} type="video/mp4" />
+                    <source media="(max-width: 768px)" src={heroVideo768} type="video/mp4" />
+                    <source media="(max-width: 1366px)" src={heroVideo1366} type="video/mp4" />
+                    <source src={heroVideo} type="video/mp4" />                </video>
                 <div className="overlay"></div>
             </LayerWrapper>
 

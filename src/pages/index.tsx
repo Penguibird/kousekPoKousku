@@ -6,7 +6,13 @@ import { Link } from 'gatsby';
 import Loadable from '@loadable/component';
 
 // @ts-ignore
-import heroVideo from "../images/hero_final.mp4"
+import heroVideo from "../images/videos/hero_final.mp4"
+// @ts-ignore
+import heroVideo1366 from "../images/videos/homepage_1366_4Mb.mp4"
+// @ts-ignore
+import heroVideo768 from "../images/videos/homepage_768_4Mb.mp4"
+// @ts-ignore
+import heroVideo360 from "../images/videos/homepage_360_4Mb.mp4"
 // @ts-ignore
 import heroSnapshot from '../images/hero_snapshot.png'
 // import AktualityCarousel from "../components/aktuality-carousel";
@@ -20,6 +26,9 @@ const IndexPage = () => {
     <Layout >
       <LayerWrapper className="main-page-hero hero">
         <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+          {/* <source media="(max-width: 360px)" src={heroVideo360} type="video/mp4" /> */}
+          <source media="(max-width: 768px)" src={heroVideo768} type="video/mp4" />
+          <source media="(max-width: 1366px)" src={heroVideo1366} type="video/mp4" />
           <source src={heroVideo} type="video/mp4" />
         </video>
         {/* <StaticImage layout="fullWidth" className="hero-image" src="../images/hero_placeholder.png" alt="" />
