@@ -81,7 +81,7 @@ const IndexPage = () => {
             </Link>
           </div>
         </section>
-        <StaticImage className='section-image img' src="../images/kouskovani_saty.png" alt='Ruka podává šaty a boty' layout='constrained' placeholder='blurred' />
+        <StaticImage style={{ filter: 'brightness(1.2)' }} className='section-image img' src="../images/kouskovani_saty.png" alt='Ruka podává šaty a boty' layout='constrained' placeholder='blurred' />
       </section>
 
       <section className="text-section section galavecer">

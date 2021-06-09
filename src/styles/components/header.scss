@@ -153,7 +153,7 @@ header  input[type="checkbox"] {
         }
        
 
-        .eshop-link, nav, .dropdown-content {
+        .eshop-link, nav, nav > ul, .dropdown-content {
             // display: none;
             // transform: translateY(-500px);     
             opacity: 0;
@@ -183,6 +183,7 @@ header  input[type="checkbox"] {
             display: block;
         }
         input[type="checkbox"]:checked ~ .eshop-link ,
+        input[type="checkbox"]:checked ~ nav > ul,
         input[type="checkbox"]:checked ~ nav {
             // display: block;
             opacity: 1;
