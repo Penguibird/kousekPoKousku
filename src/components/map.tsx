@@ -143,7 +143,7 @@ const Map: React.FC<MapProps> = ({ }) => {
         }
       }
       `);
-    console.log(data)
+    // console.log(data)
     const projekty: Projekt[] = data.allMarkdownRemark.edges
         .map((edge: any) => ({ name: edge.node.frontmatter.title, ...edge.node.frontmatter }))
         .sort((a: Projekt, b: Projekt) => (b.year - a.year))
@@ -151,7 +151,7 @@ const Map: React.FC<MapProps> = ({ }) => {
 
 
     useEffect(() => {
-        console.log(projekty)
+        // console.log(projekty)
         //#region loading map
         const loader = new Loader({
             apiKey: API_KEY,

@@ -46,7 +46,7 @@ image:
 ---
 ${post.body.join(EOL + EOL)}
 `
-            console.log(content)
+            // console.log(content)
             fs.writeFileSync(path.join(postFolder, 'index.md'), content, { encoding: 'utf-8' })
 
             http.request(`http://www.kousekpokousku.cz/${el.querySelector('img').getAttribute('src')}`, function (response) {
@@ -62,7 +62,7 @@ ${post.body.join(EOL + EOL)}
             }).end();
         });
         setTimeout(() => {
-            console.log(counter);
+            // console.log(counter);
         }, 2000)
 
     });

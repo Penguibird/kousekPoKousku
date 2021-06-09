@@ -35,8 +35,8 @@ const ZahradaGalerie: React.FC<ZahradaGalerieProps> = ({ }) => {
 
   // @ts-ignore
   const images: Image[] = data.allFile.edges.map(({ node }) => ({ src: node.childrenImageSharp[0].gatsbyImageData, alt: node.name })).sort((a, b) => a.alt.localeCompare(b.alt))
-  console.log(data)
-  console.log(images);
+  // console.log(data)
+  // console.log(images);
   return <div className="gallery-wrapper">
     {/* <button onClick={prev} className="slider-button prev">
             <svg className="arrow" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none" opacity=".87" /><path d="M17.51 3.87L15.73 2.1 5.84 12l9.9 9.9 1.77-1.77L9.38 12l8.13-8.13z" /></svg>

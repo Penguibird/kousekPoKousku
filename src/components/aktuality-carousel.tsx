@@ -28,8 +28,8 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
     const next = () => slider != null && slider.slider.goTo('next');
 
     const aktuality = useAktuality();
-    console.log(aktuality)
-    console.log(aktuality.map(a => a.date))
+    // console.log(aktuality)
+    // console.log(aktuality.map(a => a.date))
     // .sort((a: Aktualita, b: Aktualita) => a.date.getTime() - b.date.getTime());
 
 
