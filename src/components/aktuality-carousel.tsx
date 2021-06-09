@@ -8,6 +8,7 @@ import { GatsbyImage } from 'gatsby-plugin-image';
 import { Aktualita } from '../functions/useAktuality';
 import useAktuality from '../functions/useAktuality';
 import { useState } from 'react';
+import { useEffect } from 'react';
 
 interface Props {
 
@@ -31,7 +32,12 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
     // console.log(aktuality)
     // console.log(aktuality.map(a => a.date))
     // .sort((a: Aktualita, b: Aktualita) => a.date.getTime() - b.date.getTime());
-
+    const resize = () => {
+        if (slider) {
+            slider.slider.updateSliderHeight();
+            // slider.slider.updateInnerWrapperHeight();
+        }
+    }
 
     return <div className="aktuality-wrapper">
         <button onClick={prev} className="slider-button prev">
@@ -52,9 +58,9 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
                 // lazyload: true,
                 loop: false,
                 nav: false,
-                speed: 1,
+                speed: 1000,
                 controls: false,
-
+                slideBy: 1,
                 items: 1,
                 responsive: {
                     700: {
@@ -72,18 +78,19 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
             }}
             ref={ts => slider = ts}
         >
-            {aktuality.map((akt: Aktualita, i: number) => (<AktualitaComponent akt={akt} key={i} />))}
+            {aktuality.map((akt: Aktualita, i: number) => (<AktualitaComponent akt={akt} key={i} resize={resize} />))}
         </TinySlider >
     </div >
 }
 
 interface AktualitaProps {
     akt: Aktualita,
+    resize: () => void;
 }
 
 
 const cutOffLength = 200;
-const AktualitaComponent: React.FC<AktualitaProps> = ({ akt }) => {
+const AktualitaComponent: React.FC<AktualitaProps> = ({ akt, resize }) => {
 
     if (akt.body.length < cutOffLength) {
         return <div className="aktualita" >
@@ -105,6 +112,10 @@ const AktualitaComponent: React.FC<AktualitaProps> = ({ akt }) => {
     const shortText = akt.body.slice(0, cutOffLength) + '...'
     const [expanded, setExpanded] = useState(false);
 
+    useEffect(() => {
+        resize();
+    }, [expanded])
+
     return <div className="aktualita" >
         <div className="aktualita-inner" >
 
@@ -115,7 +126,7 @@ const AktualitaComponent: React.FC<AktualitaProps> = ({ akt }) => {
             <h3 className="title">{akt.title}</h3>
             <p className="text" dangerouslySetInnerHTML={{ __html: expanded ? longText : shortText }}></p>
             <button className="link vice-button" onClick={() => {
-                setExpanded(!expanded)
+                setExpanded(!expanded);
             }}>{expanded ? 'Méně' : 'Více'}</button>
             {/* {akt.link && (akt.link[0] == "/" ? <Link to={akt.link} className="aktuality-link link">Více</Link>
         : <a className="aktuality-link link" href={akt.link}>Více</a>)} */}
