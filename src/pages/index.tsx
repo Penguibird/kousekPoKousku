@@ -18,12 +18,12 @@ import heroSnapshot from '../images/hero_snapshot.png'
 // import AktualityCarousel from "../components/aktuality-carousel";
 const AktualityCarousel = Loadable(() => import("../components/aktuality-carousel"))
 // import Map from './../components/map';
-const Map = Loadable(() => import('./../components/map'))
+// const Map = Loadable(() => import('./../components/map'))
 import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 
 const IndexPage = () => {
   const breakpoints = useBreakpoint();
-  const placeholderImage = <StaticImage className='img' src='../images/hero_snapshot.png' alt='Fulnek - Tady jsme doma' layout='fullWidth' placeholder='blurred' />
+  const placeholderImage = <StaticImage className='img' src='../images/hero_snapshot.png' alt='Fulnek - Tady jsme doma' layout='fullWidth' placeholder='none' />
   return (
     <Layout >
       <LayerWrapper className="main-page-hero hero">
