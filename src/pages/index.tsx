@@ -23,21 +23,29 @@ import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 
 const IndexPage = () => {
   const breakpoints = useBreakpoint();
+  const placeholderImage = <StaticImage className='img' src='../images/hero_snapshot.png' alt='Fulnek - Tady jsme doma' layout='fullWidth' placeholder='blurred' />
   return (
     <Layout >
       <LayerWrapper className="main-page-hero hero">
         {breakpoints.noVideo
-          ? <StaticImage className='img' src='../images/hero_snapshot.png' alt='Fulnek - Tady jsme doma' layout='fullWidth' placeholder='blurred' />
-          : <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
-            {breakpoints.xs
-              ? <source src={heroVideo360} type="video/mp4" />
-              : breakpoints.sm
-                ? <source src={heroVideo768} type="video/mp4" />
-                : breakpoints.md
-                  ? <source src={heroVideo1366} type="video/mp4" />
-                  : <source src={heroVideo} type="video/mp4" />
-            }
-          </video>
+          ? placeholderImage
+          : breakpoints.xs
+            ? <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+              <source src={heroVideo360} type="video/mp4" />
+            </video>
+
+            : breakpoints.sm
+              ? <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+                <source src={heroVideo768} type="video/mp4" />
+              </video>
+              : breakpoints.md
+                ? <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+                  <source src={heroVideo1366} type="video/mp4" />
+                </video>
+                : breakpoints.l ? <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+                  <source src={heroVideo} type="video/mp4" />
+                </video>
+                  : placeholderImage
         }
 
         {/* <StaticImage layout="fullWidth" className="hero-image" src="../images/hero_placeholder.png" alt="" />

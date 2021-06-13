@@ -10,7 +10,7 @@ module.exports = {
           xs: '(max-width: 360px)',
           sm: '(max-width: 768px)',
           md: '(max-width: 1366px)',
-          l: '(max-width: 1536px)',
+          l: '(min-width: 1367px)',
           noVideo: '(prefers-reduced-motion: reduce), (prefers-reduced-data: reduce)'
         }
       }
