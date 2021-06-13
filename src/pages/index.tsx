@@ -19,18 +19,27 @@ import heroSnapshot from '../images/hero_snapshot.png'
 const AktualityCarousel = Loadable(() => import("../components/aktuality-carousel"))
 // import Map from './../components/map';
 const Map = Loadable(() => import('./../components/map'))
+import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 
 const IndexPage = () => {
-
+  const breakpoints = useBreakpoint();
   return (
     <Layout >
       <LayerWrapper className="main-page-hero hero">
-        <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
-          {/* <source media="(max-width: 360px)" src={heroVideo360} type="video/mp4" /> */}
-          <source media="(max-width: 768px)" src={heroVideo768} type="video/mp4" />
-          <source media="(max-width: 1366px)" src={heroVideo1366} type="video/mp4" />
-          <source src={heroVideo} type="video/mp4" />
-        </video>
+        {breakpoints.noVideo
+          ? <StaticImage className='img' src='../images/hero_snapshot.png' alt='Fulnek - Tady jsme doma' layout='fullWidth' placeholder='blurred' />
+          : <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+            {breakpoints.xs
+              ? <source src={heroVideo360} type="video/mp4" />
+              : breakpoints.sm
+                ? <source src={heroVideo768} type="video/mp4" />
+                : breakpoints.md
+                  ? <source src={heroVideo1366} type="video/mp4" />
+                  : <source src={heroVideo} type="video/mp4" />
+            }
+          </video>
+        }
+
         {/* <StaticImage layout="fullWidth" className="hero-image" src="../images/hero_placeholder.png" alt="" />
         <h1 className="hero-title">Lorem ipsum dolor sit amet</h1> */}
       </LayerWrapper>

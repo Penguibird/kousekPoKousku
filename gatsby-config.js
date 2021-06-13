@@ -3,8 +3,18 @@ module.exports = {
     title: "My Gatsby Site",
   },
   plugins: [
-    `gatsby-plugin-breakpoints`,
     {
+      resolve: `gatsby-plugin-breakpoints`,
+      options: {
+        queries: {
+          xs: '(max-width: 368px)',
+          sm: '(max-width: 768px)',
+          md: '(max-width: 1366px)',
+          l: '(max-width: 1536px)',
+          noVideo: '(prefers-reduced-motion: reduce), (prefers-reduced-data: reduce)'
+        }
+      }
+    }, {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
