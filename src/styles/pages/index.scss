@@ -18,6 +18,78 @@
   }
 }
 
+
+section.intro-section {
+  gap: 1em;
+  .subtitle {
+    font-size: 2em;
+  }
+  div {
+    margin-left: 7em;
+    @media (max-width: 780px) {
+      margin-left: 0;
+      
+    }
+    text-align: right;
+    align-self: flex-start;
+    display: grid;
+    grid-template-columns:  auto 1fr;
+    grid-template-rows:auto auto auto auto;
+    grid-template-areas: 
+    'img .'
+    ' img header'
+    ' img text'
+    'img .';
+    place-items: start start;
+    // column-gap: 3em;
+    column-gap: 1em;
+    .img {
+      grid-area: img;
+    }
+    .title {
+      grid-area: header;
+    }
+    .link, a {
+      grid-area: text;
+    }
+  }
+
+  .img {
+    width: 10em;
+    height: 6em;
+    &.svg {
+      fill: $main-black;
+      // stroke: $main-black;
+    }
+    &.photo {
+      outline: solid $main-yellow 1em;
+      background-color: $main-yellow;
+    }
+  }
+  p.title {
+    font-size: 2em;
+  }
+  div p.title
+  {
+    font-size: 1.6em;
+    text-transform: none;
+  }
+  
+  a, .link {
+    font-size: 1.15em;
+    margin-top: .3em;
+    font-weight: 600;
+    display: block;
+    color: $main-red;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  & > * + * {
+     margin-top: 5em;
+  }
+}
+
 section.aktuality {
   .section-title {
     width: max-content;
@@ -26,8 +98,6 @@ section.aktuality {
   }
 }
 
-section.kouskovani {
-}
 
 section.galavecer {
   background-image: url("../images/sako_final.jpg");
