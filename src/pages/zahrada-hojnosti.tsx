@@ -17,17 +17,22 @@ import heroVideo768 from "../images/videos/zahrada_768_4Mb.mp4"
 // @ts-ignore
 import heroVideo360 from "../images/videos/zahrada_360_4Mb.mp4"
 
+import { useBreakpoint } from 'gatsby-plugin-breakpoints';
+
 // import ZahradaCarousel from '../components/zahrada-carousel'
 const ZahradaCarousel = Loadable(() => import('../components/zahrada-carousel'))
 const ZahradaGalerie = Loadable(() => import('../components/zahrada-galerie'))
+
+
 interface ZahradaPageProps {
+
 
 };
 
 
 const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
-
-
+    const breakpoints = useBreakpoint();
+    const placeholderImage = <StaticImage className='img' src='../images/zahrada_hero_placeholder.png' alt='Foto zahrady z dronu' layout='fullWidth' placeholder='blurred' />
     // console.log(images)
     return <Layout title="Zahrada hojnosti | Nadační fond Kousek po Kousku" headerProps={{ color: 'green', logo: 'zahrada' }}>
         <main className="zahrada">
@@ -35,11 +40,26 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
                 {/* <StaticImage className='img' src="../images/hero_placeholder.png" alt='Fotka zahrady' layout='constrained' placeholder='blurred' />
                 <h1 className="title text-center">Zahrada Hojnosti</h1> */}
-                <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
-                    <source media="(max-width: 360px)" src={heroVideo360} type="video/mp4" />
-                    <source media="(max-width: 768px)" src={heroVideo768} type="video/mp4" />
-                    <source media="(max-width: 1366px)" src={heroVideo1366} type="video/mp4" />
-                    <source src={heroVideo} type="video/mp4" />                </video>
+                {breakpoints.noVideo
+                    ? placeholderImage
+                    : breakpoints.xs
+                        ? <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+                            <source src={heroVideo360} type="video/mp4" />
+                        </video>    
+
+                        : breakpoints.sm
+                            ? <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+                                <source src={heroVideo768} type="video/mp4" />
+                            </video>
+                            : breakpoints.md
+                                ? <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+                                    <source src={heroVideo1366} type="video/mp4" />
+                                </video>
+                                : breakpoints ? <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+                                    <source src={heroVideo} type="video/mp4" />
+                                </video>
+                                    : placeholderImage
+                }
                 <div className="overlay"></div>
             </LayerWrapper>
 
