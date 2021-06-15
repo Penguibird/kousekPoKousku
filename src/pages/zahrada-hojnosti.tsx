@@ -94,7 +94,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             <section className="section section-text tree-section">
                 {/* <LayerWrapper> */}
                     <StaticImage className='img tree-img' src="../../assets/tree4.jpg" alt='' layout='constrained' placeholder='blurred' />
-                    <p className="montserrat-subtitle bigger co-nabizi" style={{ marginTop: '0' }}>
+                    <p className="montserrat-subtitle co-nabizi" style={{ marginTop: '0' }}>
                         Spolupráce s přírodou je rovná. <strong>Za práci, péči a starostlivost přichází hojnost.</strong> Pokud ji chceme vidět, vnímáme ji všude. Už při zrodu nabízí zahrada půdu, prostor a zázemí.
                         Je povzbuzující terapií vidět, jak se i to nejmenší semínko snaží uchytit, každá květina na louce prezentovat svoji krásu. Je to výzva pro nás pro všechny.
                     </p>
@@ -165,17 +165,20 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
 
 
-            <section className="section section-text financovani">
-                <h2 className="title">
-                    Financování
-                    </h2>
-                <p className="text">
-                    Zda se&nbsp;časem zahrada stane soběstačnou, zvládne provoz a&nbsp;přitáhne další regionální dárce a&nbsp;filantropy.
+            <section className="section financovani">
+                <section className="section section-text inner">
+                    <h2 className="title">
+                        Financování
+                        </h2>
+                    <p className="text">
+                        Zda se&nbsp;časem zahrada stane soběstačnou, zvládne provoz a&nbsp;přitáhne další regionální dárce a&nbsp;filantropy.
+                        </p>
+                    <p className="text">
+                        <strong>Jedním ze&nbsp;zdrojů budou samosběry.</strong> Bude možné přijít na&nbsp;řez květin, sběr bylin, později i&nbsp;bobulovin a&nbsp;vše, co&nbsp;v&nbsp;hojnosti zahrada vydá. Při&nbsp;samosběru se&nbsp;nastaví minimální částka a&nbsp;bude na&nbsp;každém, zda plody přírody ocení klidně i sumou vyšší.
+                        <strong> Finanční zdroje se&nbsp;vrátí zpět do&nbsp;hospodaření Nadačního&nbsp;fondu a&nbsp;budou použity na&nbsp;další kousky dobra</strong> v&nbsp;rámci projektů Nadačního&nbsp;fondu Kousek po&nbsp;kousku a&nbsp;pro&nbsp;další rozvoj zahrady.
                     </p>
-                <p className="text">
-                    <strong>Jedním ze&nbsp;zdrojů budou samosběry.</strong> Bude možné přijít na&nbsp;řez květin, sběr bylin, později i&nbsp;bobulovin a&nbsp;vše, co&nbsp;v&nbsp;hojnosti zahrada vydá. Při&nbsp;samosběru se&nbsp;nastaví minimální částka a&nbsp;bude na&nbsp;každém, zda plody přírody ocení klidně i sumou vyšší.
-                    <strong> Finanční zdroje se&nbsp;vrátí zpět do&nbsp;hospodaření Nadačního&nbsp;fondu a&nbsp;budou použity na&nbsp;další kousky dobra</strong> v&nbsp;rámci projektů Nadačního&nbsp;fondu Kousek po&nbsp;kousku a&nbsp;pro&nbsp;další rozvoj zahrady.
-                </p>
+                </section>
+                <StaticImage className='img' src="https://image.shutterstock.com/shutterstock/photos/583423603/display_1500/stock-photo-hand-holding-credit-card-isolated-on-white-583423603.jpg" alt='' layout='constrained' placeholder='blurred'/>
             </section>
 
             <section className="section paragraph">

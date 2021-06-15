@@ -157,24 +157,40 @@ section.section.tree-section {
   padding-bottom: 0;
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: normal;
   // gap: 4em;
-
   &>div {
     width: 100%;
+  }
+  p {
+    // margin-top: min(10em, 40vw) !important;
+    margin-top: 4em !important;
+    padding-left: 1em;
   }
   .img {
     // transform: scaleX(-1);
     align-self: flex-start;
-    max-width: 1100px;
+    max-width: 800px;
     height: auto;
     // place-self: start start !important;
   }
-
-  p {
-    // margin-top: min(10em, 40vw) !important;
-    margin-top: 4em !important;
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    .img {
+      max-width: 50%;
+    }
+    p {
+      margin-top: 0;
+    }
   }
+  @media (max-width: 700px) {
+    .img {
+      max-width: 100%;
+    }
+  }
+
+
 }
 
 
@@ -183,13 +199,6 @@ section.section.tree-section {
 /* -------------------------------- co nabizi ------------------------------- */
 
 
-main.zahrada {
-  :not(section).co-nabizi {
-    font-size: 1.8rem;
-    margin: 4em auto 3em;
-    max-width: 40ch;
-  }
-}
 
 section.co-nabizi {
 
@@ -580,5 +589,20 @@ section.gallery {
     flex: 1 1 auto;
     max-width: 300px;
     min-width: 200px;
+  }
+}
+
+
+section.financovani {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1em;
+  padding-right: 0;
+  @media (max-width: 900px) {
+    .img {
+      display: none !important;
+    }
   }
 }
