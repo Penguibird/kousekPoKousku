@@ -20,10 +20,13 @@ export interface Prinos {
 
 const prinosy: Prinos[] = [
     {
-        title: 'Sociální přínos',
+        title: 'Přilož ruku k dílu',
         className: 'socialni',
         body: [
-            `<strong>Vedení k dobrovolnictví, tvoření fyzickou prací,</strong> sdílení, propojování, stmelování generací, předávání zkušeností, prohlubování vztahu k přírodě, práci a&nbsp;tělu. Komunitní tvoření, společný zájem, pospolitost.`
+            ` <strong>Podporujeme dobrovolnictví,</strong> věříme, že je to způsob, jak pozitivně ovlivnit sebe i svět kolem nás.
+             <strong>Víme, že sdílet radost z výsledku pomáhá.</strong> Zahrada podpoří přátelství lidí různých generací, kteří by se třeba jinde nepotkali,
+             stejně tak spolupráci, prohlubování vztahu k přírodě, práci a tělu. Komunitní tvoření, společný zájem, pospolitost bude pro mnohé nové, věříme, že o to zajímavější. 
+            `
         ],
         imageUrl: '../images/hero_placeholder.png',
         imageAlt: '',
@@ -31,13 +34,12 @@ const prinosy: Prinos[] = [
 
     },
     {
-        title: "Pohybový a kreativní přínos",
+        title: "Pojďme tvořit a hýbat se",
         className: 'pohybovy',
         body: [
-            `<strong>Vědomé cvičení, workshopy na téma malování, fotografování, tvorba a&nbsp;vázání dekorací,</strong> běžných či&nbsp;příležitostných květinových vazeb, zpracování bylin v&nbsp;širokém pojetí,
-             užití v&nbsp;kuchyni, postupně i&nbsp;zdravé vaření podle makrobiotiky i&nbsp;dalších trendy stylů.`,
-            //     `Od vědomých cvičení po workshopy na téma malování, fotografování,
-            // vázání dekorací, kytic a běžných či příležitostných květinových vazeb, zpracování bylin v širokém pojetí, užití v kuchyni atd.`
+            `<strong>Vědomé cvičení, workshopy na téma malování, fotografování, tvorba a vázání dekorací,</strong> běžných či příležitostných květinových vazeb, zpracování bylin v širokém pojetí,
+         užití v kuchyni, postupně i zdravé vaření podle makrobiotiky i dalších trendy stylů. To vše čeká Zahradu Hojnosti. `    ,
+            `Učme se od přírody, bez ohledu na to, kolik je nám let.`
         ],
         imageUrl: '../images/zahrada_cviceni.jpg',
         imageAlt: 'Zena cvici jogu',
@@ -45,23 +47,26 @@ const prinosy: Prinos[] = [
 
     },
     {
-        title: "Edukativní přínos pro všechny věkové skupiny",
+        title: "Učme se od matky přírody",
         className: 'edukativni',
         body: [
-            `Zahrada dětem a&nbsp;mládeži v&nbsp;praxi poslouží pro&nbsp;představení zákonitostí přírody, koloběhu, ekosystému. Budou poznávat rostliny a květiny, učit se&nbsp;o&nbsp;jejich významu, účincích bylin. <strong>I&nbsp;tady svou roli sehraje výchova k&nbsp;dobrovolnictví.</strong>
-        Pobyt v&nbsp;přírodě v&nbsp;rámci vzdělávání je&nbsp;pro Zahradu Hojnosti skvělou motivací, vždyť&nbsp;i&nbsp;<strong>Jan&nbsp;Ámos Komenský vyučoval své žáky v nedalekém Žákovském&nbsp;háji</strong> a&nbsp;tvrdil, že&nbsp; matka příroda je nejzkušenější učitelkou. 
-        Společně rozvineme mnoho vzdělávacích možností a&nbsp;projektů, které budou vznikat na&nbsp;míru, v&nbsp;závislosti na ročním období a&nbsp;koloběhu přírody.`,
-            `<strong>Podobně se&nbsp;mohou přidat dospělí.</strong> Ti&nbsp;se jistě zapojí i&nbsp;do&nbsp;výměny pěstitelských zkušeností, předávání rad a&nbsp;tipů o&nbsp;zpracování plodů, bylin, ovoce, zavařování, výrobě tinktur, olejů, mastí atd.`
+            `Zahrada dětem a mladým v praxi poslouží pro představení zákonitostí přírody, koloběhu, ekosystému. Budou poznávat rostliny a květiny, učit se o jejich významu, účincích bylin. 
+            Podle odkazu <strong>Jana Ámose Komenského, který vyučoval své žáky v nedalekém Žákovském háji, využijme moudrost přírody v reálném prostředí.</strong>
+       Společně rozvineme mnoho vzdělávacích možností a projektů, které budou vznikat na míru, v závislosti na ročním období a koloběhu přírody.`,
+            `<strong>Podobně se mohou přidat dospělí.</strong> Ti se jistě zapojí i do výměny pěstitelských zkušeností, předávání rad a tipů o zpracování plodů,
+             bylin, ovoce, zavařování, výrobě tinktur, olejů, mastí atd.
+            `
         ],
         image: < StaticImage className="img" loading="eager" src='../images/kniha.jpg' alt='Otevřená kniha na trávě' layout='constrained' placeholder="blurred" />
 
     },
     {
-        title: "Praktický přínos - samosběr",
+        title: "Užijme si hojnost, kterou poskytne",
         className: 'samozber',
         body: [
-            `Až Zahrada nabídne svou hojnost, bude možné využít možnosti samosběru z jejich darů. <strong>Tak se uzavře cyklus dát a sklidit v rámci jednoho roku, aby mohl započít další.</strong>`,
-            `Zahrada hojnosti má být místem, které bude stále vzkvétat, to znamená, že i její hospodaření je potřeba nastavit tak, aby byla soběstačná. Samosběr bude kromě workshopů vytvářet prozatím zdroje příjmů, které se znovu vloží do další sezóny.`
+            `Až Zahrada nabídne svou hojnost, budeme pořádat samosběry z jejich darů. Tak se uzavře cyklus dát a sklidit v rámci jednoho roku, aby mohl započít další.`,
+            `Zahrada hojnosti má být místem, které bude stále vzkvétat, to znamená, že i její hospodaření je potřeba nastavit tak, aby byla soběstačná.
+             Samosběr bude kromě workshopů vytvářet prozatím zdroje příjmů, které se znovu vloží do další sezóny. `
         ],
         image: < StaticImage className="img" loading="eager" src='../images/byliny.jpg' alt='Sesbírané byliny na stole' layout='constrained' placeholder="blurred" />
 

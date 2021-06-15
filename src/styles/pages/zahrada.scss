@@ -58,7 +58,7 @@ main.zahrada {
     color: inherit;
     font-size: 1.55em;
 
-    font-weight: 200;
+    font-weight: 300;
     strong, .strong, &.strong {
       font-weight: 500;
       color: $main-green
@@ -148,8 +148,39 @@ section.kde {
 }
 
 
-/* -------------------------------- co nabizi ------------------------------- */
 
+/* ---------------------------- tree img section ---------------------------- */
+
+section.section.tree-section {
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  // gap: 4em;
+
+  &>div {
+    width: 100%;
+  }
+  .img {
+    // transform: scaleX(-1);
+    align-self: flex-start;
+    max-width: 1100px;
+    height: auto;
+    // place-self: start start !important;
+  }
+
+  p {
+    // margin-top: min(10em, 40vw) !important;
+    margin-top: 4em !important;
+  }
+}
+
+
+
+
+/* -------------------------------- co nabizi ------------------------------- */
 
 
 main.zahrada {

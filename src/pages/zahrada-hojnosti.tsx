@@ -45,7 +45,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     : breakpoints.xs
                         ? <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
                             <source src={heroVideo360} type="video/mp4" />
-                        </video>    
+                        </video>
 
                         : breakpoints.sm
                             ? <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
@@ -70,13 +70,20 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             <section className="section-uvod">
                 <section className="section section-text co-nabizi">
                     <p className="montserrat-subtitle " >
-                        <strong>Zahrada Hojnosti na pozemku Nadačního fondu Kousek po kousku je naprosto unikátní projekt,</strong> který&nbsp;je&nbsp;připraven na&nbsp;vstup dalších dárců a&nbsp;filantropů.
+                        {/* <strong>Zahrada Hojnosti na pozemku Nadačního fondu Kousek po kousku je naprosto unikátní projekt,</strong> který&nbsp;je&nbsp;připraven na&nbsp;vstup dalších dárců a&nbsp;filantropů. */}
+                        Budujeme Zahradu Hojnosti. Zahradu pro <strong>tělo i duši.</strong> Přidejte se. Vytvoříme spolu krásné, inspirativní místo pro psychickou i fyzickou relaxaci, které bude žít pro další a další generace.
                         </p>
-                    <p className="text">
+                    <p className="montserrat-subtitle">
+                        Vítáme všechny, kteří v ní najdou svůj kousek pro sebe. <strong>Kousek pohody, odpočinku, krásy, pohybu, přátelství...</strong>
+                    </p>
+                    <p className="montserrat-subtitle">
+                        Zahrada poskytne <strong>prostor pro hledání a hlubší poznání sebe sama,</strong> pro tvořivou práci, setkávání, pohyb a poznávání nového prostřednictvím workshopů.
+                        </p>
+                    {/* <p className="text">
                         Na&nbsp;pozemku Nadačního fondu Kousek po&nbsp;kousku ve&nbsp;Fulneku, o&nbsp;rozloze 16&nbsp;000&nbsp;m<sup>2</sup>, se postupně rodí výjimečné <strong>místo pro tělo, mysl a&nbsp;duši, harmonizační
                             a&nbsp;inspirativní prostor pro psychickou i fyzickou relaxaci.</strong> Zázemí zahrady umožní<strong> dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah</strong> pro&nbsp;všechny věkové skupiny i&nbsp;spoluúčast na&nbsp;výjimečném ekonomickém procesu.
                         Prostřednictvím samosběrů květin, bylin a&nbsp;plodů jedlé zahrady představí totiž NF naprosto <strong>unikátní způsob hospodaření pro dosažení soběstačnosti.</strong>
-                    </p>
+                    </p> */}
                     {/* <h2 className="title co-nabizi">
                             Co nabízí?
                         </h2> */}
@@ -84,23 +91,27 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                 <StaticImage className='img' src="../images/jahoda.png" alt='Ruka drzi rostlinku' layout='constrained' placeholder='blurred' />
             </section>
 
-            <section className="section section-text co-nabizi">
-                <p className="montserrat-subtitle bigger co-nabizi" style={{ marginTop: '0' }}>
-                    <p><strong>Hojnost je všude.</strong> </p>
-                    <p>
-                        Zahrada se utváří, příroda tady vládne, kam se&nbsp;podíváš. Jakékoli semínko se&nbsp;snaží vzklíčit, každá květinka prezentuje svoji krásu.
-                        Je&nbsp;to fascinující, uklidňující, povzbuzující terapie. Zahrada Hojnosti poskytuje půdu, prostor a&nbsp;zázemí.
+            <section className="section section-text tree-section">
+                {/* <LayerWrapper> */}
+                    <StaticImage className='img tree-img' src="../../assets/tree4.jpg" alt='' layout='constrained' placeholder='blurred' />
+                    <p className="montserrat-subtitle bigger co-nabizi" style={{ marginTop: '0' }}>
+                        Spolupráce s přírodou je rovná. <strong>Za práci, péči a starostlivost přichází hojnost.</strong> Pokud ji chceme vidět, vnímáme ji všude. Už při zrodu nabízí zahrada půdu, prostor a zázemí.
+                        Je povzbuzující terapií vidět, jak se i to nejmenší semínko snaží uchytit, každá květina na louce prezentovat svoji krásu. Je to výzva pro nás pro všechny.
                     </p>
-                </p>
+                {/* </LayerWrapper> */}
+            </section>
+
+            <section className="section section-text co-nabizi">
+
 
                 <ul className="flex-row">
                     <li>
                         <h3>Půda</h3>
                         <p className="text">
-                            Půda poskytuje péči semenům a&nbsp;kořenům rostlin, které jsou a&nbsp;budou postupně vysévány a&nbsp;sazeny na&nbsp;pozemku NF&nbsp;KpK o&nbsp;rozloze více než 16&nbsp;000&nbsp;m2.
-                            Vzniká květinový labyrint, bylinná i&nbsp;okrasná část. Postupně se&nbsp;bude okrasná i&nbsp;jedlá zahrada rozšiřovat, přibude jedlý les.
-                            </p>
-                        <p className="text">V&nbsp;Zahradě&nbsp;Hojnosti je po&nbsp;terénních úpravách stále nedostatek orné půdy. <strong>Víte&nbsp;o&nbsp;nějaké?</strong> Napište nám na&nbsp;<a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a></p>
+                            Půda poskytuje péči všemu, co po nutných terénních úpravách zbylo i novým semenům a rostlinám.
+                            Jde o prostor více než 16&nbsp;000&nbsp;m<sup>2</sup>. Vzniká zde květinový labyrint, bylinná i okrasná část.
+                            Postupně se bude okrasná i jedlá zahrada rozšiřovat, přibude jedlý les.</p>
+                        <p className="text">V&nbsp;Zahradě&nbsp;Hojnosti je po&nbsp;úpravách stále nedostatek orné půdy. <strong>Víte&nbsp;o&nbsp;nějaké?</strong> Napište nám na&nbsp;<a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a></p>
                         <p className="subtitle green">Pomozte&nbsp;nám zajistit další půdu pro&nbsp;rostliny.</p>
                     </li>
                     <li>
@@ -142,7 +153,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
 
             <section className="prinos">
-                <h2 className="title">Přínos</h2>
+                <h2 className="title">Co Zahrada nabídne?</h2>
                 <LayerWrapper>
                     <div style={{ height: '400px' }}></div>
                     <div>

@@ -21,10 +21,40 @@
 
 section.intro-section {
   gap: 1em;
-  .subtitle {
-    font-size: 2em;
+  // .subtitle {
+  //   font-size: 2em;
+  // }
+  padding: 0 0 2em;
+    // background-color: $main-yellow;
+  h1.title {
+    font-weight: 800;
+    text-align: center ;
+    @media (max-width: 900px) {
+      text-align: left;
+    }
+    font-size: clamp(1.8rem, 1rem + 2vw, 2.6rem);
+
+    line-height: 1.6em;
+    color: $main-black;
+    
+    padding: .6em 1em 0;
+    margin: 2em auto 0;
+    max-width: 60ch;
+
   }
-  div {
+  
+
+  ul.claims {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3em;
+    padding-left: 0;
+    padding: 0 .3em;
+    margin: 3em auto 0;
+  }
+  .icon-wrapper {
     margin-left: 7em;
     @media (max-width: 780px) {
       margin-left: 0;
@@ -55,8 +85,11 @@ section.intro-section {
   }
 
   .img {
-    width: 10em;
-    height: 6em;
+    width: 8vw;
+    min-width: 60px;
+    margin-right: .5em;
+    height: 5vw;
+    min-height: 60px;
     &.svg {
       fill: $main-black;
       // stroke: $main-black;
@@ -68,14 +101,16 @@ section.intro-section {
   }
   p.title {
     font-size: 2em;
+    text-align: left;
   }
-  div p.title
+  .claims p.title
   {
     font-size: 1.6em;
     text-transform: none;
   }
   
   a, .link {
+    text-align: left;
     font-size: 1.15em;
     margin-top: .3em;
     font-weight: 600;
