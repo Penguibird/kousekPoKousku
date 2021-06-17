@@ -34,6 +34,11 @@
         border-color: darken($color, 7);
       }
     }
+
+    &:not(.wrap) {
+      min-width: max-content;
+
+    }
   }
   
   
