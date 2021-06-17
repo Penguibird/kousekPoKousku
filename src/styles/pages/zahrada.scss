@@ -56,12 +56,16 @@ main.zahrada {
     max-width: 900px;
     // padding: 0 1em;
     color: inherit;
-    font-size: 1.55em;
+    font-size: 1.3em;
 
     font-weight: 300;
     strong, .strong, &.strong {
       font-weight: 500;
-      color: $main-green
+      color: $main-green;
+
+      // @include Cavolini;
+      // font-style: italic;
+      // font-weight: 700;
     }
     &.bigger {
       font-size: 2em;
@@ -99,15 +103,36 @@ main.zahrada {
 
 
 .section-uvod {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 4em;
+  padding: 4vw;
+  padding-right: 0;
+  // .section {
+  //   display: inline-flex !important;
+  //   width: 50vw;
+  // }
   .img {
-    width: 60%;
+    float: right;
+    shape-outside: polygon(194px 184px, 54.69% 22.67%, 99.75% 22.99%, 100.17% 82.2%, 75.82% 76.17%, 48.85% 76.07%, 33.14% 74.83%, 28.53% 71.49%, 18.68% 67.98%, 20.41% 64.23%, 14.63% 58.29%, 13.59% 52.45%, 9.96% 50.17%, 64px 45.08%, 20.13% 42.65%, 26.91% 23.33%);
+    shape-margin: 0%;
+    width: 60vw;
+
     max-width: 600px;
-    @media (max-width: 700px) {
-      display: none !important;
+  }
+  @media (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    p {
+      order: 3;
+    }
+    p:first-of-type {
+      order: 1;
+    }
+    .img {
+      width: 70vw;
+      height: 60vw;
+      align-self: flex-end;
+      order: 2;
     }
   }
 }
@@ -155,40 +180,37 @@ section.section.tree-section {
   padding-left: 0;
   padding-top: 0;
   padding-bottom: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: normal;
-  // gap: 4em;
-  &>div {
-    width: 100%;
-  }
-  p {
-    // margin-top: min(10em, 40vw) !important;
-    margin-top: 4em !important;
-    padding-left: 1em;
-  }
   .img {
     // transform: scaleX(-1);
     align-self: flex-start;
-    max-width: 800px;
+    width: 100vw;
+    
+    min-width: 100%;
     height: auto;
-    // place-self: start start !important;
   }
-  @media (max-width: 1200px) {
-    flex-direction: column;
-    .img {
-      max-width: 50%;
+
+  p {
+    width: 100vw;
+    max-width: 100vw;
+    margin-top: 20vw;
+    &::after, &::before {
+      content: '';
+      width: 50%;
+      height: 100%;
+      // shape-margin: 10%;
+
     }
-    p {
-      margin-top: 0;
+    &::before {
+      float: left;
+      shape-outside: polygon(29.01% 24.12%, 27.2% 19.27%, 33.76% 13.38%, 40.91% 16.36%, 36.24% -7.67%, 0.79% -0.13%, 0.43% 54.27%, 27.04% 48.01%);
+        }
+    &::after {
+      float: right;
+      shape-outside: polygon(0 0, 100% 100%, 0 100%);
     }
   }
-  @media (max-width: 700px) {
-    .img {
-      max-width: 100%;
-    }
-  }
+
+  
 
 
 }

@@ -20,7 +20,7 @@ export interface Prinos {
 
 const prinosy: Prinos[] = [
     {
-        title: 'Přilož ruku k dílu',
+        title: 'Společné tvoření',
         className: 'socialni',
         body: [
             ` <strong>Podporujeme dobrovolnictví,</strong> věříme, že je to způsob, jak pozitivně ovlivnit sebe i svět kolem nás.

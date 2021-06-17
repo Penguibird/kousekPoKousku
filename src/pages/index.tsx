@@ -79,23 +79,43 @@ const IndexPage = () => {
       const stepperValueBoundary = decimal === 0
         ? 1
         : 1 / (decimal * 10);
-
+      const equal = decimal === 0
+        ? (a: number, b: number) => a === b
+        : approxeq;
       let startTimestamp: number | null = null;
       const step = (timestamp: number) => {
         if (!startTimestamp) startTimestamp = timestamp;
-        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+
+        // Calculate how far along in the animation we are
+        const progress = Math.min((timestamp - startTimestamp) / (duration), 1);
+
+        // let t = (timestamp - startTimestamp);
+        // let c = ;
+        // let d = duration;
+        // let b = start;
+
+        // t = progress;
+
+        // let val =  
+
+
+        // From that calculate what number to show
         obj.innerHTML = (progress * (end - start) + start).toFixed(decimal).toString();
-        if (decimal > 0) console.log((progress * (end - start) + start).toFixed(decimal).toString())
-        if (!approxeq(progress, 1)) {
+        // obj.innerHTML = (-(end - start) * progress * (progress - 2) + start).toFixed(decimal).toString();
+
+        // If the animation isnt finished, queue up next animation
+        // * uses approxeq to deal with floating points
+        if (!equal(progress, 1)) {
           window.requestAnimationFrame(step);
         }
       };
+      // Kick off the animation
       window.requestAnimationFrame(step);
     }
   }
 
   const startValue = 0;
-  const animDuration = 1500;
+  const animDuration = 1000;
   useEffect(() => {
     const observe = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -139,24 +159,7 @@ const IndexPage = () => {
         <h1 className="hero-title">Lorem ipsum dolor sit amet</h1> */}
       </LayerWrapper>
 
-      {/* <section className="aktualne-podporujeme">
-        <h1 className="title">Aktuálně podporujeme</h1>
 
-        <div className="projekty">
-          <Link to="/zahrada-hojnosti" className="projekt-link zahrada">
-            <StaticImage className='img' src="../images/jahoda.png" alt='' layout='constrained' placeholder='blurred' objectFit='contain' />
-            <h2>Zahrada hojnosti</h2>
-          </Link>
-          <Link to="/projekty#klinika" className="projekt-link klinika">
-            <StaticImage className='img' src="../images/handshake.png" alt='' layout='constrained' placeholder='blurred' objectFit='cover' />
-            <h2>Sociální klinika</h2>
-          </Link>
-          <Link to="/projekty#intervence" className="projekt-link intervence">
-            <StaticImage className='img' src="../images/puzzle 2.png" alt='' layout='constrained' placeholder='blurred' objectFit='contain' />
-            <h2>Intervence pro autismus</h2>
-          </Link>
-        </div>
-      </section> */}
 
       <section className="text-section section intro-section">
         <h1 className="title">Kousek po&nbsp;kousku přispíváme k&nbsp;lepšímu životu v&nbsp;našem, Moravskoslezském kraji</h1>
@@ -211,15 +214,16 @@ const IndexPage = () => {
         </ul>
       </section>
 
+
       <section className="section section-centered call-to-action">
         <h1 className="title">Připoj svůj kousek dobra</h1>
         <p>
-          Zapsal se do&nbsp;života mnoha jednotlivců, spolků a&nbsp;organizací. Připojil se&nbsp;k&nbsp;projektům, za&nbsp;kterými stojí šikovní a&nbsp;aktivní lidé nebo ti, kteří zrovna nejvíce pomoc potřebují.
+          Věříme, že&nbsp;čemu je věnována pozornost, to&nbsp;se&nbsp;děje. Naše pozornost míří k&nbsp;podpoře lokálních projektů a&nbsp;míst, díky kterým je&nbsp;život lepší. K&nbsp;pomoci lidem, kteří tvoří v&nbsp;našem regionu.
         </p>
-        <p>Věříme, že&nbsp;pokud část prostředků, které vzejdou z&nbsp;regionu, vrátíme zpět do&nbsp;místních projektů, přibude míst, kde se&nbsp;žije lépe a&nbsp;radostněji.</p>
+        <p>Jsme přesvědčeni, že prostředky, které vzejdou z&nbsp;regionu, mají znovu najít uplatnění v&nbsp;oblastních projektech.</p>
 
         {/* <p className="subtitle blue">Připojte se, ať&nbsp;už jakoukoli částkou, jakýmkoli způsobem. </p> */}
-        <p className="subtitle blue"> Děkujeme, že&nbsp;se přidáte</p>
+        <p className="subtitle blue"> Děkujeme, že&nbsp;se připojíte</p>
         <Link to="/eshop" className="button filled bigger">Chci přispět</Link>
 
       </section>

@@ -9,13 +9,13 @@ import Loadable from '@loadable/component';
 
 
 // @ts-ignore
-import heroVideo from "../images/videos/zahrada_hero.mp4"
+import heroVideo from "../images/videos/zahrada_final.mp4"
 // @ts-ignore
-import heroVideo1366 from "../images/videos/zahrada_1366_4Mb.mp4"
+import heroVideo1366 from "../images/videos/zahrada_final_1366.mp4"
 // @ts-ignore
-import heroVideo768 from "../images/videos/zahrada_768_4Mb.mp4"
+import heroVideo768 from "../images/videos/zahrada_final_768.mp4"
 // @ts-ignore
-import heroVideo360 from "../images/videos/zahrada_360_4Mb.mp4"
+import heroVideo360 from "../images/videos/zahrada_final_360.mp4"
 
 import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 
@@ -33,6 +33,24 @@ interface ZahradaPageProps {
 const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
     const breakpoints = useBreakpoint();
     const placeholderImage = <StaticImage className='img' src='../images/zahrada_hero_placeholder.png' alt='Foto zahrady z dronu' layout='fullWidth' placeholder='blurred' />
+    const videoProps = {
+        className: "hero-video",
+        width: "1920",
+        height: "1080",
+        muted: true,
+        autoPlay: true,
+        loop: true,
+        preload: "auto",
+
+    }
+    React.useLayoutEffect(() => {
+        const video = document.querySelector('.hero-video');
+        if (video) video.addEventListener('loadedmetadata', () => {
+            const target = document.getElementById('placeholderImage');
+            console.log(target)
+            if (target) target.style.display = 'none';
+        }, false)
+    }, [breakpoints])
     // console.log(images)
     return <Layout title="Zahrada hojnosti | Nadační fond Kousek po Kousku" headerProps={{ color: 'green', logo: 'zahrada' }}>
         <main className="zahrada">
@@ -43,23 +61,26 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                 {breakpoints.noVideo
                     ? placeholderImage
                     : breakpoints.xs
-                        ? <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+                        ? <video {...videoProps}>
                             <source src={heroVideo360} type="video/mp4" />
                         </video>
 
                         : breakpoints.sm
-                            ? <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+                            ? <video {...videoProps}>
                                 <source src={heroVideo768} type="video/mp4" />
                             </video>
                             : breakpoints.md
-                                ? <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+                                ? <video {...videoProps}>
                                     <source src={heroVideo1366} type="video/mp4" />
                                 </video>
-                                : breakpoints ? <video className="hero-video" width="1920" height="1080" muted autoPlay loop preload="auto">
+                                : breakpoints ? <video {...videoProps}>
                                     <source src={heroVideo} type="video/mp4" />
                                 </video>
-                                    : placeholderImage
+                                    : null
                 }
+                <div id="placeholderImage">
+                    <StaticImage className='img' src='../images/zahrada_hero_placeholder.png' alt='Foto zahrady z dronu' layout='fullWidth' placeholder='blurred' />
+                </div>
                 <div className="overlay"></div>
             </LayerWrapper>
 
@@ -68,37 +89,51 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             {/* <p className="text">Jedinečný projekt pro podporu soběstačnosti, s jedinečným modelem hospodaření</p> */}
 
             <section className="section-uvod">
-                <section className="section section-text co-nabizi">
-                    <p className="montserrat-subtitle " >
-                        {/* <strong>Zahrada Hojnosti na pozemku Nadačního fondu Kousek po kousku je naprosto unikátní projekt,</strong> který&nbsp;je&nbsp;připraven na&nbsp;vstup dalších dárců a&nbsp;filantropů. */}
-                        Budujeme Zahradu Hojnosti. Zahradu pro <strong>tělo i duši.</strong> Přidejte se. Vytvoříme spolu krásné, inspirativní místo pro psychickou i fyzickou relaxaci, které bude žít pro další a další generace.
+                <StaticImage className='img' src="../images/jahoda_right.png" alt='Ruka drzi rostlinku' layout='constrained' placeholder='blurred' />
+                {/* <section className="section section-text co-nabizi"> */}
+                <p className="montserrat-subtitle " >
+                    {/* <strong>Zahrada Hojnosti na pozemku Nadačního fondu Kousek po kousku je naprosto unikátní projekt,</strong> který&nbsp;je&nbsp;připraven na&nbsp;vstup dalších dárců a&nbsp;filantropů. */}
+                        Budujeme přírodní zahradu - Zahradu Hojnosti. Zahradu pro <strong>tělo i duši.</strong> Přidáte se? <strong>Vytvoříme společně krásné, inspirativní místo pro psychickou i fyzickou relaxaci, které bude žít pro další a další generace.</strong>
+                </p>
+                <p className="montserrat-subtitle">
+                    Vítáme všechny, kteří v ní najdou svůj kousek pro sebe. <strong>Kousek pohody, odpočinku, krásy, pohybu, přátelství...</strong>
+                </p>
+                <p className="montserrat-subtitle">
+                    Zahrada poskytne <strong>prostor pro hledání a hlubší poznání sebe sama,</strong> pro tvořivou práci, setkávání, pohyb a poznáván   í nového prostřednictvím workshopů.
                         </p>
-                    <p className="montserrat-subtitle">
-                        Vítáme všechny, kteří v ní najdou svůj kousek pro sebe. <strong>Kousek pohody, odpočinku, krásy, pohybu, přátelství...</strong>
-                    </p>
-                    <p className="montserrat-subtitle">
-                        Zahrada poskytne <strong>prostor pro hledání a hlubší poznání sebe sama,</strong> pro tvořivou práci, setkávání, pohyb a poznávání nového prostřednictvím workshopů.
-                        </p>
-                    {/* <p className="text">
+                {/* <p className="text">
                         Na&nbsp;pozemku Nadačního fondu Kousek po&nbsp;kousku ve&nbsp;Fulneku, o&nbsp;rozloze 16&nbsp;000&nbsp;m<sup>2</sup>, se postupně rodí výjimečné <strong>místo pro tělo, mysl a&nbsp;duši, harmonizační
                             a&nbsp;inspirativní prostor pro psychickou i fyzickou relaxaci.</strong> Zázemí zahrady umožní<strong> dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah</strong> pro&nbsp;všechny věkové skupiny i&nbsp;spoluúčast na&nbsp;výjimečném ekonomickém procesu.
                         Prostřednictvím samosběrů květin, bylin a&nbsp;plodů jedlé zahrady představí totiž NF naprosto <strong>unikátní způsob hospodaření pro dosažení soběstačnosti.</strong>
                     </p> */}
-                    {/* <h2 className="title co-nabizi">
+                {/* <h2 className="title co-nabizi">
                             Co nabízí?
                         </h2> */}
-                </section>
-                <StaticImage className='img' src="../images/jahoda.png" alt='Ruka drzi rostlinku' layout='constrained' placeholder='blurred' />
+                {/* </section> */}
             </section>
 
+
+
+
+            <section className="prinos">
+                <h2 className="title">Co Zahrada dává?</h2>
+                <LayerWrapper>
+                    <div style={{ height: '400px' }}></div>
+                    <div>
+                        <ZahradaCarousel />
+                    </div>
+                </LayerWrapper>
+            </section>
+
+
             <section className="section section-text tree-section">
-                {/* <LayerWrapper> */}
-                    <StaticImage className='img tree-img' src="../../assets/tree4.jpg" alt='' layout='constrained' placeholder='blurred' />
-                    <p className="montserrat-subtitle co-nabizi" style={{ marginTop: '0' }}>
+                <LayerWrapper>
+                    {/* <StaticImage className='img tree-img' src="../images/tree3.jpg" alt='' layout='fullWidth' placeholder='blurred' /> */}
+                    <p className="montserrat-subtitle co-nabizi" >
                         Spolupráce s přírodou je rovná. <strong>Za práci, péči a starostlivost přichází hojnost.</strong> Pokud ji chceme vidět, vnímáme ji všude. Už při zrodu nabízí zahrada půdu, prostor a zázemí.
                         Je povzbuzující terapií vidět, jak se i to nejmenší semínko snaží uchytit, každá květina na louce prezentovat svoji krásu. Je to výzva pro nás pro všechny.
                     </p>
-                {/* </LayerWrapper> */}
+                </LayerWrapper>
             </section>
 
             <section className="section section-text co-nabizi">
@@ -152,16 +187,6 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             </section>
 
 
-            <section className="prinos">
-                <h2 className="title">Co Zahrada nabídne?</h2>
-                <LayerWrapper>
-                    <div style={{ height: '400px' }}></div>
-                    <div>
-                        <ZahradaCarousel />
-                    </div>
-                </LayerWrapper>
-            </section>
-
 
 
 
@@ -178,7 +203,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                         <strong> Finanční zdroje se&nbsp;vrátí zpět do&nbsp;hospodaření Nadačního&nbsp;fondu a&nbsp;budou použity na&nbsp;další kousky dobra</strong> v&nbsp;rámci projektů Nadačního&nbsp;fondu Kousek po&nbsp;kousku a&nbsp;pro&nbsp;další rozvoj zahrady.
                     </p>
                 </section>
-                <StaticImage className='img' src="https://image.shutterstock.com/shutterstock/photos/583423603/display_1500/stock-photo-hand-holding-credit-card-isolated-on-white-583423603.jpg" alt='' layout='constrained' placeholder='blurred'/>
+                {/* <StaticImage className='img' src="https://image.shutterstock.com/shutterstock/photos/583423603/display_1500/stock-photo-hand-holding-credit-card-isolated-on-white-583423603.jpg" alt='' layout='constrained' placeholder='blurred'/> */}
             </section>
 
             <section className="section paragraph">
