@@ -26,27 +26,16 @@ const IndexPage = () => {
   const breakpoints = useBreakpoint();
   const placeholderImage = <StaticImage className='img' src='../images/hero_snapshot.png' alt='Fulnek - Tady jsme doma' layout='fullWidth' placeholder='none' />
 
-  let year = new Date().getFullYear() - 2011;
-  if (typeof year != "number" || year > 99) year = 10;
+
 
   // let pocetProjektu = 113;
 
-  const data = useStaticQuery(graphql`query Projekty {
+  const data = useStaticQuery(graphql`query Cisla {
     allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/projekty\//"}}) {
       edges {
         node {
-          rawMarkdownBody
           frontmatter {
-            id
-            description
-            position {
-              lat
-              lng
-            }
-            kouskovani
             price
-            title
-            year
           }
         }
       }
@@ -54,6 +43,16 @@ const IndexPage = () => {
   }
   `);
 
+  let year = new Date().getFullYear() - 2011;
+  if (typeof year != "number" || year > 99) year = 10;
+
+  let pocetProjektu: number = data.allMarkdownRemark.edges.length;
+  if (typeof pocetProjektu != "number" || pocetProjektu < 90 || pocetProjektu > 999) pocetProjektu = 113;
+  const oneMillion = 1000000
+  const ceny: number = data.allMarkdownRemark.edges
+    .map((edge: any) => edge.node.frontmatter.price)
+    .reduce((acc: number, val: number) => acc + val, 0)
+  const cenyText: string =   (ceny / oneMillion).to
   return (
     <Layout >
       <LayerWrapper className="main-page-hero hero">
