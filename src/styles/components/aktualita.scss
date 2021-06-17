@@ -100,7 +100,7 @@
 
 .aktuality-wrapper .aktualita .img {
   @media (min-width: 640px) {
-    height: 250px;
+    max-height: 250px;
     // object-fit: contain;
   }
 }
