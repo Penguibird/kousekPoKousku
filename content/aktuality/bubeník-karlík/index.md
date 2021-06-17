@@ -13,7 +13,7 @@ Slavíme 10let kousků DOBRA a začínají přicházet přání ![👍](https://
 
 První je Karlík ![💕](https://lh3.googleusercontent.com/iznUhUj91KSdBh7ZnWiyaLPacObRNvVVf4Wdjsko5U1UX5fO1512S5MkWmztw1EVIleEPspCchx37uGUVjhzo4MXgl_SeoQJHJLkQ5DOHaGlh0pddj5qIujg_YQ3evLEpKfZp7Q)Úžasný, že? 
 
-A co byste popřáli 𝐊𝐎𝐔𝐒𝐊𝐔 𝐏𝐎 𝐊𝐎𝐔𝐒𝐊𝐔 do dalších let Vy?
+A co byste popřáli Kousku po kousku do dalších let Vy?
 
 
 

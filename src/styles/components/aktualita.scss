@@ -58,7 +58,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
+  // justify-content: space-between;
   padding: 0.5em;
 
   font-size: 1em;
@@ -84,14 +84,24 @@
     margin-bottom: 0.5em;
     border-radius: 3px;
   }
+
+  .title {
+    text-transform: none;
+    font-size: 1.3em;
+  }
   p {
     font-size: 0.9em;
+  }
+
+  .button {
+    justify-self: flex-end  ;
   }
 }
 
 .aktuality-wrapper .aktualita .img {
   @media (min-width: 640px) {
-    max-height: 250px;
+    height: 250px;
+    // object-fit: contain;
   }
 }
 

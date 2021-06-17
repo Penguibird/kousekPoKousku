@@ -25,15 +25,23 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
 
     //     return _;
     // };
-    const prev = () => slider != null && slider.slider.goTo('prev');
-    const next = () => slider != null && slider.slider.goTo('next');
+    const prev = () => {
+        slider != null && slider.slider.goTo('prev');
+        // resize();
+    }
+    const next = () => {
+        slider != null && slider.slider.goTo('next');
+        // resize();
+    }
 
-    const aktuality = useAktuality();
+    const aktuality = useAktuality()
+        .slice(0, 20);
     // console.log(aktuality)
     // console.log(aktuality.map(a => a.date))
     // .sort((a: Aktualita, b: Aktualita) => a.date.getTime() - b.date.getTime());
     const resize = () => {
         if (slider) {
+            // @ts-ignore
             slider.slider.updateSliderHeight();
             // slider.slider.updateInnerWrapperHeight();
         }
@@ -64,13 +72,13 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
                 items: 1,
                 responsive: {
                     700: {
-                        autoHeight: false,
+                        autoHeight: true,
                         items: 2,
                     },
                     1000: {
                         items: 3,
                     },
-                    1400: {
+                    1700: {
                         items: 4,
                     },
                 }
@@ -98,7 +106,7 @@ const AktualitaComponent: React.FC<AktualitaProps> = ({ akt, resize }) => {
 
                 {/* maybe change to <img /> */}
                 {/* <StaticImage loading="eager" className="img" src="../images/hero_placeholder.png" alt="" layout="constrained" /> */}
-                <GatsbyImage objectFit='cover' objectPosition='top' className="img" image={akt.image.image} alt={akt.image.imageAlt}></GatsbyImage>
+                <GatsbyImage objectFit='contain' objectPosition='center' className="img" image={akt.image.image} alt={akt.image.imageAlt}></GatsbyImage>
 
                 <h3 className="title">{akt.title}</h3>
                 <p className="text" dangerouslySetInnerHTML={{ __html: akt.body }}></p>
@@ -108,8 +116,23 @@ const AktualitaComponent: React.FC<AktualitaProps> = ({ akt, resize }) => {
         </div>
     }
 
+    const newline = `
+    `;
     const longText = akt.body;
-    const shortText = akt.body.slice(0, cutOffLength) + '...'
+    const paragraphArr = akt.body.split(/\r?\n/);
+    const firstParagraph = paragraphArr[0] + newline + paragraphArr[1];
+
+
+    const trimEnd = (string: string) => {
+        if (/\r?\n/.test(string[string.length - 1])) {
+            string = string.slice(0, string.length - 2);
+        }
+        return string;
+    }
+
+    const shortText = firstParagraph.length > cutOffLength
+        ? firstParagraph.slice(0, cutOffLength) + '...'
+        : firstParagraph
     const [expanded, setExpanded] = useState(false);
 
     useEffect(() => {
@@ -121,11 +144,11 @@ const AktualitaComponent: React.FC<AktualitaProps> = ({ akt, resize }) => {
 
             {/* maybe change to <img /> */}
             {/* <StaticImage loading="eager" className="img" src="../images/hero_placeholder.png" alt="" layout="constrained" /> */}
-            <GatsbyImage objectFit='cover' objectPosition='top' className="img" image={akt.image.image} alt={akt.image.imageAlt}></GatsbyImage>
+            <GatsbyImage objectFit='contain' objectPosition='top' className="img" image={akt.image.image} alt={akt.image.imageAlt}></GatsbyImage>
 
             <h3 className="title">{akt.title}</h3>
             <p className="text" dangerouslySetInnerHTML={{ __html: expanded ? longText : shortText }}></p>
-            <button className="link vice-button" onClick={() => {
+            <button className="button vice-button" onClick={() => {
                 setExpanded(!expanded);
             }}>{expanded ? 'Méně' : 'Více'}</button>
             {/* {akt.link && (akt.link[0] == "/" ? <Link to={akt.link} className="aktuality-link link">Více</Link>
