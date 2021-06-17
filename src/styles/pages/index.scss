@@ -52,10 +52,10 @@ section.intro-section {
     gap: 5em;
     padding-left: 0;
     padding: 0 .3em;
-    margin: 5em auto 0;
+    margin: 8em auto 0;
   }
   .icon-wrapper {
-    margin-left: 7em;
+    // margin-left: 7em;
     @media (max-width: 780px) {
       margin-left: 0;
       
@@ -76,10 +76,17 @@ section.intro-section {
     .img {
       grid-area: img;
     }
-    .title {
+    .top-text {
       grid-area: header;
     }
-    .link, a {
+    div.top-text {
+      display: flex;
+      flex-direction: row;
+      // align-items: baseline;
+      align-items: center;
+      gap: 1ch;
+    }
+    .link  {
       grid-area: text;
     }
   }
@@ -110,9 +117,12 @@ section.intro-section {
   }
   
   a, .link {
+    @include Cavolini;
+    font-style: italic;
+    font-size: 1.2em;
+
     text-align: left;
-    font-size: 1em;
-    margin-top: .15em;
+    margin-top: .05em;
     font-weight: 600;
     display: block;
     color: $main-red;
@@ -125,46 +135,14 @@ section.intro-section {
   }
 }
 
-section.aktuality {
-  .section-title {
-    width: max-content;
-    max-width: 100%;
+section.subtitle {
+  padding-top: 6em;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 0;
+  .subtitle {
     margin: 0 auto;
-  }
-}
-
-
-section.galavecer {
-  background-image: url("../images/sako_final.jpg");
-  @media (max-width: 1300px) {
-    background-image: url("../images/sako_final.jpg"), linear-gradient(
-      135deg, rgb(100  100  100  / 78%), rgb(187 187 187 / 13%));
-  }
-  @media (max-width: 800px) {
-    .section-title {
-      color: white;
-    }
-    background-image: url("../images/sako_final.jpg"),linear-gradient(to bottom, rgba(220, 220, 220, 0.8), rgb(140 140 140 / 62%));;
-  }
-  background-blend-mode: multiply;
-  // background-image: url('../images/sako.jpg');
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-size: cover;
-  // filter: brightness(0.4);
-  .text {
-    color: $main-white;
-  }
-}
-
-section.aktuality {
-  padding: 2em 0;
-}
-
-section.call-to-action {
-  background-color: $main-yellow;
-  .title {
-    text-align: center;
+    font-size: 1.8em;
   }
 }
 
@@ -181,6 +159,7 @@ section.call-to-action {
   margin: 0;
 
   // margin-top: 4em;
+  margin-bottom: 2em;
 
   padding: 0;
   width: 100%;
@@ -225,6 +204,56 @@ section.call-to-action {
     }
   }
 }
+
+section.call-to-action {
+  padding-top: 6vw;
+  background-color: $main-yellow;
+  .title {
+    text-align: center;
+  }
+}
+
+
+
+
+section.aktuality {
+  .section-title {
+    width: max-content;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+
+section.galavecer {
+  background-image: url("../images/sako_final.jpg");
+  @media (max-width: 1300px) {
+    background-image: url("../images/sako_final.jpg"), linear-gradient(
+      135deg, rgb(100  100  100  / 78%), rgb(187 187 187 / 13%));
+  }
+  @media (max-width: 800px) {
+    .section-title {
+      color: white;
+    }
+    background-image: url("../images/sako_final.jpg"),linear-gradient(to bottom, rgba(220, 220, 220, 0.8), rgb(140 140 140 / 62%));;
+  }
+  background-blend-mode: multiply;
+  // background-image: url('../images/sako.jpg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+  // filter: brightness(0.4);
+  .text {
+    color: $main-white;
+  }
+}
+
+section.aktuality {
+  padding: 2em 0;
+}
+
+
+
 
 section#o-nadaci,
 section.o-nadaci {
