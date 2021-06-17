@@ -106,13 +106,16 @@ section.intro-section {
       background-color: $main-yellow;
     }
   }
+
+  
   p.title {
     font-size: 2em;
     text-align: left;
   }
   .claims p.title
   {
-    font-size: 1.4em;
+    font-weight: 500 !important;
+    font-size: 1.5em;
     text-transform: none;
   }
   

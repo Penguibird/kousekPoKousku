@@ -23,9 +23,8 @@ const prinosy: Prinos[] = [
         title: 'Společné tvoření',
         className: 'socialni',
         body: [
-            ` <strong>Podporujeme dobrovolnictví,</strong> věříme, že je to způsob, jak pozitivně ovlivnit sebe i svět kolem nás.
-             <strong>Víme, že sdílet radost z výsledku pomáhá.</strong> Zahrada podpoří přátelství lidí různých generací, kteří by se třeba jinde nepotkali,
-             stejně tak spolupráci, prohlubování vztahu k přírodě, práci a tělu. Komunitní tvoření, společný zájem, pospolitost bude pro mnohé nové, věříme, že o to zajímavější. 
+            ` Víme, že sdílet radost z výsledku, pomáhá. Budování a péče o zahradu podpoří přátelství lidí různých generací, kteří by se pravděpodobně jinde nepotkali,
+             stejně tak spolupráci, prohlubování vztahu k přírodě, práci a tělu. Komunitní tvoření, společný zájem, pospolitost bude pro mnohé nové, věříme, že o to zajímavější.
             `
         ],
         imageUrl: '../images/hero_placeholder.png',
@@ -37,8 +36,8 @@ const prinosy: Prinos[] = [
         title: "Pojďme tvořit a hýbat se",
         className: 'pohybovy',
         body: [
-            `<strong>Vědomé cvičení, workshopy na téma malování, fotografování, tvorba a vázání dekorací,</strong> běžných či příležitostných květinových vazeb, zpracování bylin v širokém pojetí,
-         užití v kuchyni, postupně i zdravé vaření podle makrobiotiky i dalších trendy stylů. To vše čeká Zahradu Hojnosti. `    ,
+            `Vědomé cvičení, workshopy na téma malování, fotografování, tvorba a vázání dekorací, běžných či příležitostných květinových vazeb, zpracování bylin v širokém pojetí,
+             užití v kuchyni, postupně i zdravé vaření podle makrobiotiky i dalších trendy stylů. To vše čeká Zahradu Hojnosti. `,
             `Učme se od přírody, bez ohledu na to, kolik je nám let.`
         ],
         imageUrl: '../images/zahrada_cviceni.jpg',
@@ -47,15 +46,14 @@ const prinosy: Prinos[] = [
 
     },
     {
-        title: "Učme se od matky přírody",
+        title: "Přijímáme moudrost přírody",
         className: 'edukativni',
         body: [
-            `Zahrada dětem a mladým v praxi poslouží pro představení zákonitostí přírody, koloběhu, ekosystému. Budou poznávat rostliny a květiny, učit se o jejich významu, účincích bylin. 
-            Podle odkazu <strong>Jana Ámose Komenského, který vyučoval své žáky v nedalekém Žákovském háji, využijme moudrost přírody v reálném prostředí.</strong>
-       Společně rozvineme mnoho vzdělávacích možností a projektů, které budou vznikat na míru, v závislosti na ročním období a koloběhu přírody.`,
-            `<strong>Podobně se mohou přidat dospělí.</strong> Ti se jistě zapojí i do výměny pěstitelských zkušeností, předávání rad a tipů o zpracování plodů,
-             bylin, ovoce, zavařování, výrobě tinktur, olejů, mastí atd.
-            `
+            `Zahrada poslouží dětem a mladým v praxi pochopit zákonitostí přírody, koloběhu, ekosystému. Budou poznávat rostliny a květiny, učit se o jejich významu, účincích bylin.
+             Podle odkazu Jana Ámose Komenského, který vyučoval své žáky v nedalekém Žákovském háji, využíváme moudrost přírody v reálném prostředí. 
+            Společně rozvineme mnoho vzdělávacích možností a projektů, které budou vznikat na míru, v závislosti na ročním období a koloběhu přírody.`,
+            `Podobně se mohou přidat dospělí. Ti se jistě zapojí i do výměny pěstitelských zkušeností,
+             předávání rad a tipů o zpracování plodů, bylin, ovoce, zavařování, výrobě tinktur, olejů, mastí atd.`
         ],
         image: < StaticImage className="img" loading="eager" src='../images/kniha.jpg' alt='Otevřená kniha na trávě' layout='constrained' placeholder="blurred" />
 
@@ -64,9 +62,9 @@ const prinosy: Prinos[] = [
         title: "Užijme si hojnost, kterou poskytne",
         className: 'samozber',
         body: [
-            `Až Zahrada nabídne svou hojnost, budeme pořádat samosběry z jejich darů. Tak se uzavře cyklus dát a sklidit v rámci jednoho roku, aby mohl započít další.`,
-            `Zahrada hojnosti má být místem, které bude stále vzkvétat, to znamená, že i její hospodaření je potřeba nastavit tak, aby byla soběstačná.
-             Samosběr bude kromě workshopů vytvářet prozatím zdroje příjmů, které se znovu vloží do další sezóny. `
+            `Až Zahrada nabídne svou hojnost, budeme pořádat samosběry z jejich darů. Tak se uzavře cyklus dát a sklidit v rámci jednoho roku, aby mohl započít další.
+             Její hospodaření nastavujeme tak, aby byla soběstačná. 
+            Samosběr bude spolu s workshopy vytvářet zdroje příjmů, které se znovu vloží do další sezóny. Zahrada hojnosti je místem, které vzkvétá. `
         ],
         image: < StaticImage className="img" loading="eager" src='../images/byliny.jpg' alt='Sesbírané byliny na stole' layout='constrained' placeholder="blurred" />
 

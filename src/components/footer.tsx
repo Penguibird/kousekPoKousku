@@ -22,6 +22,7 @@ const Footer = ({ }) => {
             </li> */}
         </ul>
         <p className="signature">© {(new Date()).getFullYear()} - Vojtěch Loskot, <a href="https://softwarovereznictvi.cz">Softwarové řeznictví</a> </p>
+        <p className="signature">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
     </footer>
 }
 
