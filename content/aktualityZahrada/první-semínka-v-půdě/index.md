@@ -1,5 +1,6 @@
 ---
 name: První semínka v půdě
+date: 15-06-2021
 image:
   image: zpráva-1-foto-2-.jpg
   imageAlt: Foto ze Zahrady Hojnosti z výsevu

@@ -649,9 +649,18 @@ section.financovani {
 }
 
 .small-map {
+  padding: 4vw 0 ;
+  .flex-row {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    gap: 2em;
+  }
   #map {
     height: 200px;
     width: 300px;
-    margin: 0 auto;
+    // margin: 0 auto;
   }
 }

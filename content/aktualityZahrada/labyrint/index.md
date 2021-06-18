@@ -1,5 +1,6 @@
 ---
 name: Labyrint
+date: 17-06-2021
 image:
   image: zpráva-3.png
   imageAlt: Foto z ptačí perspektivz labyrintu na Zahradě Hojnosti

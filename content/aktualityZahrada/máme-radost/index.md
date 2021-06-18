@@ -1,5 +1,6 @@
 ---
 name: Máme radost
+date: 18-06-2021
 image:
   image: zpráva-4.jpg
   imageAlt: Foto osazeného labyrintu na zahradě

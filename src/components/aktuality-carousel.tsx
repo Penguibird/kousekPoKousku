@@ -12,9 +12,10 @@ import { useEffect } from 'react';
 interface Props {
     aktuality: Aktualita[],
     green?: boolean,
+    bigger?: boolean,
 }
 
-const AktualityCarousel: React.FC<Props> = ({ aktuality, green = false }) => {
+const AktualityCarousel: React.FC<Props> = ({ aktuality, green = false, bigger = false }) => {
     let slider: TinySlider | null;
     // const windowSize = useWindowSize();
     // const getItemsCount = (ws: typeof windowSize) => {
@@ -85,7 +86,7 @@ const AktualityCarousel: React.FC<Props> = ({ aktuality, green = false }) => {
             }}
             ref={ts => slider = ts}
         >
-            {aktuality.map((akt: Aktualita, i: number) => (<AktualitaComponent green={green} akt={akt} key={i} resize={resize} />))}
+            {aktuality.map((akt: Aktualita, i: number) => (<AktualitaComponent green={green} bigger={bigger} akt={akt} key={i} resize={resize} />))}
         </TinySlider >
     </div >
 }
@@ -94,13 +95,14 @@ interface AktualitaProps {
     akt: Aktualita,
     resize: () => void,
     green: boolean,
+    bigger: boolean,
 }
 
 
 const cutOffLength = 200;
-const AktualitaComponent: React.FC<AktualitaProps> = ({ akt, resize, green }) => {
+const AktualitaComponent: React.FC<AktualitaProps> = ({ akt, resize, green, bigger }) => {
 
-    if (akt.body.length < cutOffLength) {
+    if (akt.body.length < cutOffLength || bigger) {
         return <div className="aktualita" >
             <div className="aktualita-inner" >
 

@@ -1,5 +1,6 @@
 ---
 name: Osazování svahu pokračuje
+date: 16-06-2021
 image:
   image: zpráva-2-foto.jpg
   imageAlt: Foto výsadby na zahradě
