@@ -45,7 +45,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
     }
     React.useLayoutEffect(() => {
         const video = document.querySelector('.hero-video');
-        if (video) video.addEventListener('loadedmetadata', () => {
+        if (video) video.addEventListener('loadeddata', () => {
             const target = document.getElementById('placeholderImage');
             console.log(target)
             if (target) target.style.display = 'none';
@@ -81,14 +81,14 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                 <div id="placeholderImage">
                     <StaticImage className='img' src='../images/zahrada_hero_placeholder.png' alt='Foto zahrady z dronu' layout='fullWidth' placeholder='blurred' />
                 </div>
-                <div className="overlay"></div>
+                {/* <div className="overlay"></div> */}
             </LayerWrapper>
 
 
             {/* Unused claim */}
             {/* <p className="text">Jedinečný projekt pro podporu soběstačnosti, s jedinečným modelem hospodaření</p> */}
 
-            <section className="section-uvod">
+            <section className="section-uvod" style={{ overflow: 'auto' }}>
                 <StaticImage className='img' src="../images/jahoda_right.png" alt='Ruka drzi rostlinku' layout='constrained' placeholder='blurred' />
                 {/* <section className="section section-text co-nabizi"> */}
                 <p className="montserrat-subtitle " >
@@ -125,16 +125,18 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                 </LayerWrapper>
             </section>
 
-
-            <section className="section section-text tree-section">
-                <LayerWrapper>
-                    {/* <StaticImage className='img tree-img' src="../images/tree3.jpg" alt='' layout='fullWidth' placeholder='blurred' /> */}
-                    <p className="montserrat-subtitle co-nabizi" >
-                        Spolupráce s přírodou je rovná. <strong>Za práci, péči a starostlivost přichází hojnost.</strong> Pokud ji chceme vidět, vnímáme ji všude. Už při zrodu nabízí zahrada půdu, prostor a zázemí.
+            <section className="section section-text section-centered">
+                <p className="montserrat-subtitle co-nabizi" >
+                    Spolupráce s přírodou je rovná. <strong>Za práci, péči a starostlivost přichází hojnost.</strong> Pokud ji chceme vidět, vnímáme ji všude. Už při zrodu nabízí zahrada půdu, prostor a zázemí.
                         Je povzbuzující terapií vidět, jak se i to nejmenší semínko snaží uchytit, každá květina na louce prezentovat svoji krásu. Je to výzva pro nás pro všechny.
                     </p>
-                </LayerWrapper>
             </section>
+
+            {/* <section className="section section-text tree-section">
+                <LayerWrapper>
+
+                </LayerWrapper>
+            </section> */}
 
             <section className="section section-text co-nabizi">
 
@@ -177,30 +179,45 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
             </section>
 
-            <section className="quote-section">
-                <figure className="quote-wrapper">
-                    <blockquote className="komensky">"Umění, kterak vyučovat a&nbsp;učit&nbsp;se, nesmí a&nbsp;nemůže se&nbsp;bráti odjinud, než&nbsp;od&nbsp;učitelky přírody"</blockquote>
-                    <figcaption className=""> - J.&nbsp;Á.&nbsp;Komenský</figcaption>
-                    {/* <blockquote className="bottom">Kéž&nbsp;Vám bude Zahrada hojnosti k&nbsp;tomuto sloužit…</blockquote> */}
-                </figure>
-                <StaticImage className="img" src='../images/komensky.jpg' alt='Jan amos komensky' placeholder="blurred" layout='constrained' />
+            <section className="tree-section section">
+                <LayerWrapper>
+                    <StaticImage className='img tree-img' src="../images/tree5.jpg" alt='' layout='fullWidth' placeholder='blurred' />
+
+                    <section className="quote-section">
+                        <figure className="quote-wrapper">
+                            <blockquote className="komensky">"Umění, kterak vyučovat a&nbsp;učit&nbsp;se, nesmí a&nbsp;nemůže se&nbsp;bráti odjinud, než&nbsp;od&nbsp;učitelky přírody"</blockquote>
+                            <figcaption className=""> - J.&nbsp;Á.&nbsp;Komenský</figcaption>
+                            {/* <blockquote className="bottom">Kéž&nbsp;Vám bude Zahrada hojnosti k&nbsp;tomuto sloužit…</blockquote> */}
+                        </figure>
+                        <StaticImage className="img" src='../images/komensky.jpg' alt='Jan amos komensky' placeholder="blurred" layout='constrained' />
+                    </section>
+                </LayerWrapper>
             </section>
 
 
 
 
 
-            <section className="section financovani">
+            <section className="financovani">
                 <section className="section section-text inner">
                     <h2 className="title">
-                        Financování
+                        Hospodaření
                         </h2>
+
                     <p className="text">
-                        Zda se&nbsp;časem zahrada stane soběstačnou, zvládne provoz a&nbsp;přitáhne další regionální dárce a&nbsp;filantropy.
-                        </p>
+                        <strong>Zahradu hojnosti spravuje a provozuje NF Kousek po kousku se záměrem soběstačnosti.</strong>
+                    </p>
                     <p className="text">
-                        <strong>Jedním ze&nbsp;zdrojů budou samosběry.</strong> Bude možné přijít na&nbsp;řez květin, sběr bylin, později i&nbsp;bobulovin a&nbsp;vše, co&nbsp;v&nbsp;hojnosti zahrada vydá. Při&nbsp;samosběru se&nbsp;nastaví minimální částka a&nbsp;bude na&nbsp;každém, zda plody přírody ocení klidně i sumou vyšší.
-                        <strong> Finanční zdroje se&nbsp;vrátí zpět do&nbsp;hospodaření Nadačního&nbsp;fondu a&nbsp;budou použity na&nbsp;další kousky dobra</strong> v&nbsp;rámci projektů Nadačního&nbsp;fondu Kousek po&nbsp;kousku a&nbsp;pro&nbsp;další rozvoj zahrady.
+                        <strong>Jedním ze zdrojů budou samosběry.</strong> Bude možné přijít na řez květin, sběr bylin, později i bobulovin a vše, co v hojnosti zahrada vydá.
+                        Při samosběru se nastaví minimální částka a bude na každém, zda plody přírody ocení klidně i sumou vyšší.
+                         Finanční zdroje se vrátí zpět do hospodaření Nadačního fondu a budou použity na další rozvoj zahrady.
+                    </p>
+                    <p className="text">
+                        <strong>Další zdroje přinese zapojení jednotlivců, skupin a firem.</strong> Každý může zakoupit svůj strom, část plotu, lavičku atd., které ponesou jejich jmenovku.
+                    </p>
+                    <p className="text">
+                        <strong>Věříme, že tento inovátorský projekt přitáhne další regionální dárce a filantropy.</strong>
+
                     </p>
                 </section>
                 {/* <StaticImage className='img' src="https://image.shutterstock.com/shutterstock/photos/583423603/display_1500/stock-photo-hand-holding-credit-card-isolated-on-white-583423603.jpg" alt='' layout='constrained' placeholder='blurred'/> */}

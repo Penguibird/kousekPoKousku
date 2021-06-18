@@ -167,7 +167,7 @@ const IndexPage = () => {
           <li className="icon-wrapper">
 
             <p className="title blue top-text">Už desátý&nbsp;rok podporujeme lokální projekty a aktivní, tvořivé lidi</p>
-            <Link className="red link" to="/projekty">Přečtěte&nbsp;si o&nbsp;nich</Link>
+            <Link className="red link" to="/aktualne-podporujeme">Přečtěte&nbsp;si o&nbsp;nich</Link>
             <svg className="img svg" height="511pt" viewBox="0 -24 511.999 511" width="511pt" xmlns="http://www.w3.org/2000/svg"><path d="M50 262.598c-5.52 0-10 4.48-10 10s4.48 10 10 10 10-4.48 10-10-4.48-10-10-10zm0 0" /><path d="M459.617 297.273l-94.273 32.41c.418-2.32.652-4.687.652-7.09 0-22.054-17.941-40-40-40h-64.758c-1.718 0-3.414-.44-4.91-1.284l-52.832-29.715a70.059 70.059 0 00-34.328-9h-70.89C94.151 230.957 83.034 222.598 70 222.598H10c-5.523 0-10 4.476-10 10v179.996c0 5.523 4.477 10 10 10h60c12.738 0 23.66-8.004 27.996-19.246 11.32 1.406 24.418 4.754 32.649 9.691l52.296 31.379a127.509 127.509 0 0065.606 18.176c18.312 0 36.055-3.844 52.738-11.422l186.645-82.184c20.672-8.386 30.879-33.187 19.062-55.047-8.691-16.086-29.047-23.242-47.375-16.668zM80 392.641c-.023 5.492-4.504 9.953-10 9.953H20V242.598h50c5.512 0 10 4.484 10 10zm400.332-42.149c-.105.04-.21.086-.316.13l-186.957 82.32c-14.082 6.406-29.059 9.652-44.512 9.652-19.485 0-38.61-5.297-55.313-15.324l-52.3-31.38c-11.196-6.714-27.227-10.808-40.934-12.449V262.598h69.168a50.029 50.029 0 0124.52 6.425l52.832 29.715a30.045 30.045 0 0014.718 3.86h64.758c11.027 0 20 8.968 20 20 0 10.988-8.976 20-20 20H224.34c-5.524 0-10 4.476-10 10 0 5.52 4.476 9.996 10 9.996h101.656a39.922 39.922 0 0018.746-4.684l121.59-41.797c8.961-3.234 19.094-.015 23.066 7.336 5.957 11.02 1.032 23-9.066 27.043zm0 0M291.246 243.055c1.883 1.629 4.215 2.441 6.55 2.441s4.673-.812 6.552-2.441c81.59-70.711 132.058-106.496 132.058-162.106C436.406 36.957 405.262.5 361.508.5c-28.735 0-50.738 16.563-64.91 41.418C282.457 17.118 260.477.5 231.699.5c-33.496 0-61.5 21.707-71.344 55.297-1.554 5.3 1.485 10.855 6.786 12.41 5.3 1.555 10.855-1.484 12.406-6.785C186.832 36.562 207.3 20.5 231.699 20.5c28.528 0 48.54 25.332 55.262 48.918a9.999 9.999 0 0019.273 0c.137-.488 14.028-48.918 55.274-48.918 31.297 0 54.898 25.984 54.898 60.45 0 44.484-43.484 76.554-118.617 141.335-45.777-39.312-82.14-66.984-102.809-94.055-3.351-4.39-9.625-5.234-14.015-1.882-4.39 3.351-5.23 9.625-1.883 14.02 23.297 30.51 62.625 59.745 112.164 102.687zm0 0" /><path d="M169 88.598c-5.52 0-10 4.48-10 10s4.48 10 10 10 10-4.48 10-10-4.48-10-10-10zm0 0" /></svg>
           </li>
           <li className="icon-wrapper">
@@ -215,6 +215,8 @@ const IndexPage = () => {
       </section>
 
 
+    
+
       <section className="section section-centered call-to-action">
         <h1 className="title">Připoj svůj kousek dobra</h1>
         <p>
@@ -228,13 +230,29 @@ const IndexPage = () => {
 
       </section>
 
+
+      <section className="section-zahrada">
+        <section className="section section-text right-align" id="zahrada">
+          <h2 className="section-title title">
+            Zahrada
+                    </h2>
+          <p className="text">Na&nbsp;pozemku Nadačního fondu Kousek po&nbsp;kousku ve&nbsp;Fulneku, o&nbsp;rozloze 16&nbsp;000&nbsp;m<sup>2</sup>, se postupně rodí výjimečné <strong>místo pro tělo, mysl a&nbsp;duši, harmonizační
+                a&nbsp;inspirativní prostor pro psychickou i fyzickou relaxaci.</strong> Zázemí zahrady umožní<strong> dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah</strong> pro&nbsp;všechny věkové skupiny i&nbsp;spoluúčast na&nbsp;výjimečném ekonomickém procesu.
+            Prostřednictvím samosběrů květin, bylin a&nbsp;plodů jedlé zahrady představí totiž NF naprosto <strong>unikátní způsob hospodaření pro dosažení soběstačnosti.</strong>
+          </p>
+          <Link className="button link" to="/eshop">Chci podpořit zahradu</Link>
+          <Link className="button filled" to="/zahrada-hojnosti">Více</Link>
+        </section>
+        <StaticImage className='img' src='../images/paprika_hor.png' alt='Ruce drzi rostlinku' layout='constrained' placeholder='blurred' />
+      </section>
+
       <section className="image-section">
         <section className="text-section section kouskovani">
           <h1 className="section-title">Kouskování</h1>
           <p className="subtitle">Dejte kouskům druhou šanci!</p>
           <p className="text">Udržitelnost je&nbsp;téma, kterému se&nbsp;dlouhodobě věnujeme. Ano, výroba oblečení má&nbsp;na životní prostředí svůj dopad. Pomůžeme, pokud naši osobní spotřebu redukujeme.</p>
           <p className="text">Do&nbsp;šatníku si&nbsp;pořizujme <strong>základní, kvalitní, nadčasové kousky, nejlépe z&nbsp;recyklovatelných materiálů.</strong> Zejména díky dobrým materiálům vydrží ve&nbsp;skvělé kondici a&nbsp;slouží dlouho, často i&nbsp;někomu druhému. Právě nákup z&nbsp;druhé ruky je jedním z&nbsp;principů zpomalení cyklu neboli <strong>slou&nbsp;módy</strong>.</p>
-          <p className="text">V Nadačním fondu Kousek po&nbsp;kousku máme s&nbsp;dobročinným bazarem pod&nbsp;značkou <strong>Kouskování</strong> dlouholeté zkušenosti. Veškeré kousky, které stále vypadají luxusně a&nbsp;z&nbsp;mnoha důvodů je&nbsp;již nevyužijete, rádi přijmeme a na&nbsp;našem eshopu nabídneme dál. Výtěžek pomůže dlouhodobě podporovanému projektu <Link to="/projekty#intervence"><strong>Intervence pro&nbsp;Autismus</strong></Link></p>
+          <p className="text">V Nadačním fondu Kousek po&nbsp;kousku máme s&nbsp;dobročinným bazarem pod&nbsp;značkou <strong>Kouskování</strong> dlouholeté zkušenosti. Veškeré kousky, které stále vypadají luxusně a&nbsp;z&nbsp;mnoha důvodů je&nbsp;již nevyužijete, rádi přijmeme a na&nbsp;našem eshopu nabídneme dál. Výtěžek pomůže dlouhodobě podporovanému projektu <Link to="/aktualne-podporujeme#intervence"><strong>Intervence pro&nbsp;Autismus</strong></Link></p>
           <div className="button-row">
             <Link to="/kouskovani" className="button">Chci darovat kousek</Link>
             <Link to="/eshop" className="button section-button buy-button filled">

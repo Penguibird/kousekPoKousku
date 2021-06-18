@@ -50,9 +50,9 @@ const Header: React.FC<Props> = ({ color, logo }) => {
                         {/* <li className="navbar-link" >
                             <Link to="/nadace-v-cislech">Nadace v číslech</Link>
                         </li> */}
-                        <li className="navbar-link" >
-                            <Link to="/projekty">Aktuálně podporujeme</Link>
-                        </li>
+                        {/* <li className="navbar-link" >
+                            <Link to="/aktualne-podporujeme">Aktuálně podporujeme</Link>
+                        </li> */}
                         <li className="navbar-link" >
                             <Link to="/media">Média</Link>
                         </li>
@@ -65,7 +65,7 @@ const Header: React.FC<Props> = ({ color, logo }) => {
                     <Link to="/aktuality">aktuality</Link>
                 </li>
                 <li className="navbar-link" >
-                    <Link to="/projekty">projekty</Link>
+                    <Link to="/aktualne-podporujeme">Aktuálně podporujeme</Link>
                 </li>
                 <li className="navbar-link" >
                     <Link to="/zadat">žádat</Link>

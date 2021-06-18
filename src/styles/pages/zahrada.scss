@@ -180,35 +180,49 @@ section.section.tree-section {
   padding-left: 0;
   padding-top: 0;
   padding-bottom: 0;
-  .img {
+  .tree-img {
     // transform: scaleX(-1);
     align-self: flex-start;
-    width: 100vw;
+    width: 60vw;
     
-    min-width: 100%;
+    // min-width: 100%;
     height: auto;
   }
 
-  p {
-    width: 100vw;
-    max-width: 100vw;
-    margin-top: 20vw;
-    &::after, &::before {
-      content: '';
-      width: 50%;
-      height: 100%;
-      // shape-margin: 10%;
+  section {
+    margin-top: 23vw;
+  }
 
+  @media (max-width: 950px) {
+    .tree-img {
+      width: 80vw;
     }
-    &::before {
-      float: left;
-      shape-outside: polygon(29.01% 24.12%, 27.2% 19.27%, 33.76% 13.38%, 40.91% 16.36%, 36.24% -7.67%, 0.79% -0.13%, 0.43% 54.27%, 27.04% 48.01%);
-        }
-    &::after {
-      float: right;
-      shape-outside: polygon(0 0, 100% 100%, 0 100%);
+    section {
+      margin-top: 50vw;
+      
     }
   }
+
+  // p {
+  //   width: 100vw;
+  //   max-width: 100vw;
+  //   margin-top: 20vw;
+  //   &::after, &::before {
+  //     content: '';
+  //     width: 50%;
+  //     height: 100%;
+  //     // shape-margin: 10%;
+
+  //   }
+  //   &::before {
+  //     float: left;
+  //     shape-outside: polygon(29.01% 24.12%, 27.2% 19.27%, 33.76% 13.38%, 40.91% 16.36%, 36.24% -7.67%, 0.79% -0.13%, 0.43% 54.27%, 27.04% 48.01%);
+  //       }
+  //   &::after {
+  //     float: right;
+  //     shape-outside: polygon(0 0, 100% 100%, 0 100%);
+  //   }
+  // }
 
   
 
@@ -514,6 +528,7 @@ section.quote-section {
     }
 
     blockquote {
+      font-size: 1.6em;
       margin-left: 0;
       margin-right: 0;
     }
