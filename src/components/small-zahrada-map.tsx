@@ -1,15 +1,15 @@
 import * as React from 'react';
-import {Fragment, useState, useEffect} from 'react';
+import { Fragment, useState, useEffect } from 'react';
 
 import { Loader, LoaderOptions } from "@googlemaps/js-api-loader";
-import {API_KEY, getIcon} from '../map'
+import { API_KEY, getIcon } from './map.tsx'
 // @ts-ignore
 import markerIcon from "../images/map_marker.svg";
 
 
 
 type SmallMapProps = {
-   
+
 }
 export default function SmallMap(props: SmallMapProps) {
     useEffect(() => {
@@ -18,17 +18,15 @@ export default function SmallMap(props: SmallMapProps) {
         const loader = new Loader({
             apiKey: API_KEY,
             version: "weekly",
-
-            
         });
         let map;
 
         loader.load().then(() => {
             map = new window.google.maps.Map(document.getElementById("map") as HTMLElement, {
-                // center: { lat: 49.71198812010327, lng: 17.914118207168002 }, //fulnek
-                center: { lat: 49.85967567710321, lng: 17.914118207168002 }, // MSK center
+                center: { lat: 49.71198812010327, lng: 17.914118207168002 }, //fulnek
+                // center: { lat: 49.85967567710321, lng: 17.914118207168002 }, // MSK center
 
-                zoom: 9,
+                zoom: 12,
                 // styles: grayStyle,
                 mapTypeControl: false,
                 streetViewControl: false,
@@ -55,10 +53,11 @@ export default function SmallMap(props: SmallMapProps) {
                 icon: getIcon(1),
                 map,
             })
-        }, [])
+        })
+    }, [])
 
 
-    return <section>
+    return <section className="small-map">
         {/* <h1 className="title-centered title title-center"></h1> */}
         <div className="flex-row">
             <div id="map"></div>
