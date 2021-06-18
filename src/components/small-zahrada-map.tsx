@@ -23,10 +23,11 @@ export default function SmallMap(props: SmallMapProps) {
 
         loader.load().then(() => {
             map = new window.google.maps.Map(document.getElementById("map") as HTMLElement, {
-                center: { lat: 49.71198812010327, lng: 17.914118207168002 }, //fulnek
+                // center: { lat: 49.71198812010327, lng: 17.914118207168002 }, //fulnek
+                center: { lat: 49.718729357197944, lng:  17.90409554493908 }, //zahrada
                 // center: { lat: 49.85967567710321, lng: 17.914118207168002 }, // MSK center
 
-                zoom: 12,
+                zoom: 14,
                 // styles: grayStyle,
                 mapTypeControl: false,
                 streetViewControl: false,
@@ -49,8 +50,9 @@ export default function SmallMap(props: SmallMapProps) {
             //     fulnekMarker.setVisible(visible);
             // });
             const marker = new window.google.maps.Marker({
-                position: { lat: 49.71198812010327, lng: 17.914118207168002 },
-                icon: getIcon(1),
+                
+                position: { lat: 49.718729357197944, lng:  17.90409554493908 },
+                icon: getIcon(40),
                 map,
             })
         })
@@ -62,9 +64,9 @@ export default function SmallMap(props: SmallMapProps) {
         <div className="flex-row">
             <div id="map"></div>
             <div className="adresa">
-                <p>Lorem ipsum</p>
-                <p>Lorem ipsum, paradi</p>
-                <p>777 99</p>
+                <p>Palackého 298</p>
+                <p>Fulnek</p>
+                <p>742 45</p>
             </div>
         </div>
     </section>

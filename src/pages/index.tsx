@@ -242,8 +242,10 @@ const IndexPage = () => {
                 a&nbsp;inspirativní prostor pro psychickou i fyzickou relaxaci.</strong> Zázemí zahrady umožní<strong> dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah</strong> pro&nbsp;všechny věkové skupiny i&nbsp;spoluúčast na&nbsp;výjimečném ekonomickém procesu.
             Prostřednictvím samosběrů květin, bylin a&nbsp;plodů jedlé zahrady představí totiž NF naprosto <strong>unikátní způsob hospodaření pro dosažení soběstačnosti.</strong>
           </p>
-          <Link className="button link" to="/eshop">Chci podpořit zahradu</Link>
-          <Link className="button filled" to="/zahrada-hojnosti">Více</Link>
+          <div className="button-row flex-row">
+            <Link className="button filled link" to="/eshop">Chci podpořit zahradu</Link>
+            <Link className="button " to="/zahrada-hojnosti">Více</Link>
+          </div>
         </section>
         <StaticImage className='img' src='../images/paprika_hor.png' alt='Ruce drzi rostlinku' layout='constrained' placeholder='blurred' />
       </section>
@@ -295,6 +297,9 @@ const IndexPage = () => {
             <AktualityCarousel aktuality={aktuality} />
           </div>
         </LayerWrapper>
+        <div className="flex-end">
+          <Link to='/aktuality' className=" link">Všechny aktuality</Link>
+        </div>
 
       </section>
 

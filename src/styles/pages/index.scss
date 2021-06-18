@@ -250,6 +250,21 @@ section.galavecer {
 
 section.aktuality {
   padding: 2em 0;
+  .flex-end {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    pad: 0 2em;
+    .link {
+      font-weight: 600;
+      font-size: 1.5em;
+      margin-right : 2em;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 section#o-nadaci,

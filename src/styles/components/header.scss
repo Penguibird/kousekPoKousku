@@ -254,6 +254,7 @@ nav li,
   padding: .8em 1.5em .65em;
 
   text-transform: uppercase;
+  text-align: center;
   transition: background-color 0.2s ease-in-out;
   &:hover, &:focus-within {
     background-color: darken($main-yellow, 3);
