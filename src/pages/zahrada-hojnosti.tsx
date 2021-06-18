@@ -23,7 +23,11 @@ import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 const ZahradaCarousel = Loadable(() => import('../components/zahrada-carousel'))
 const ZahradaGalerie = Loadable(() => import('../components/zahrada-galerie'))
 
+// import AktualityCarousel from "../components/aktuality-carousel";
+const AktualityCarousel = Loadable(() => import("../components/aktuality-carousel"))
 
+import SmallMap from '../components/small-zahrada-map';
+import useAktualityZahrada from '../functions/useAktualityZahrada'
 interface ZahradaPageProps {
 
 
@@ -51,6 +55,8 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             if (target) target.style.display = 'none';
         }, false)
     }, [breakpoints])
+
+    const aktuality: Aktualita[] = useAktualityZahrada();
     // console.log(images)
     return <Layout title="Zahrada hojnosti | Nadační fond Kousek po Kousku" headerProps={{ color: 'green', logo: 'zahrada' }}>
         <main className="zahrada">
@@ -251,9 +257,17 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                 </ol>
             </section>
 
-            <section className="gallery">
+            {/* <section className="gallery">
                 <ZahradaGalerie />
+            </section> */}
+
+            <section className="aktuality-zahrada">
+                <AktualityCarousel aktuality={aktuality} green />
             </section>
+
+            <SmallMap />
+
+
         </main >
     </Layout >
 }

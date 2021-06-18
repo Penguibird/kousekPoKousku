@@ -6,15 +6,15 @@ import TinySlider from "tiny-slider-react";
 
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { Aktualita } from '../functions/useAktuality';
-import useAktuality from '../functions/useAktuality';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
 interface Props {
-
+    aktuality: Aktualita[],
+    green?: boolean,
 }
 
-const AktualityCarousel: React.FC<Props> = ({ }) => {
+const AktualityCarousel: React.FC<Props> = ({ aktuality, green = false }) => {
     let slider: TinySlider | null;
     // const windowSize = useWindowSize();
     // const getItemsCount = (ws: typeof windowSize) => {
@@ -34,8 +34,7 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
         // resize();
     }
 
-    const aktuality = useAktuality()
-        .slice(0, 20);
+    // const aktuality = 
     // console.log(aktuality)
     // console.log(aktuality.map(a => a.date))
     // .sort((a: Aktualita, b: Aktualita) => a.date.getTime() - b.date.getTime());
@@ -86,19 +85,20 @@ const AktualityCarousel: React.FC<Props> = ({ }) => {
             }}
             ref={ts => slider = ts}
         >
-            {aktuality.map((akt: Aktualita, i: number) => (<AktualitaComponent akt={akt} key={i} resize={resize} />))}
+            {aktuality.map((akt: Aktualita, i: number) => (<AktualitaComponent green={green} akt={akt} key={i} resize={resize} />))}
         </TinySlider >
     </div >
 }
 
 interface AktualitaProps {
     akt: Aktualita,
-    resize: () => void;
+    resize: () => void,
+    green: boolean,
 }
 
 
 const cutOffLength = 200;
-const AktualitaComponent: React.FC<AktualitaProps> = ({ akt, resize }) => {
+const AktualitaComponent: React.FC<AktualitaProps> = ({ akt, resize, green }) => {
 
     if (akt.body.length < cutOffLength) {
         return <div className="aktualita" >
@@ -148,7 +148,7 @@ const AktualitaComponent: React.FC<AktualitaProps> = ({ akt, resize }) => {
 
             <h3 className="title">{akt.title}</h3>
             <p className="text" dangerouslySetInnerHTML={{ __html: expanded ? longText : shortText }}></p>
-            <button className="button vice-button" onClick={() => {
+            <button className={`button vice-button ${green ? 'green' : ''}`} onClick={() => {
                 setExpanded(!expanded);
             }}>{expanded ? 'Méně' : 'Více'}</button>
             {/* {akt.link && (akt.link[0] == "/" ? <Link to={akt.link} className="aktuality-link link">Více</Link>

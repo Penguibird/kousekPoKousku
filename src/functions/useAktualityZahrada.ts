@@ -14,14 +14,14 @@ export interface Aktualita {
   link?: string,
 }
 
-const useAktuality = () => {
+const useAktualityZahrada = () => {
 
   const {
     allMarkdownRemark: {
       edges
     }
-  } = useStaticQuery(graphql`query Aktuality {
-        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/aktuality\//"}}) {
+  } = useStaticQuery(graphql`query AktualityZahrada {
+        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/aktualityZahrada\//"}}) {
           edges {
             node {
               rawMarkdownBody
@@ -72,4 +72,4 @@ const useAktuality = () => {
   return aktuality;
 }
 
-export default useAktuality;
+export default useAktualityZahrada;

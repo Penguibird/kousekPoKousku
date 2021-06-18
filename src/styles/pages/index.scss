@@ -14,10 +14,9 @@
     max-width: 100%;
     text-align: center;
     margin: auto;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
 }
-
 
 section.intro-section {
   gap: 1em;
@@ -25,10 +24,10 @@ section.intro-section {
   //   font-size: 2em;
   // }
   padding: 0 0 2em;
-    // background-color: $main-yellow;
+  // background-color: $main-yellow;
   h1.title {
     font-weight: 800;
-    text-align: center ;
+    text-align: center;
     @media (max-width: 900px) {
       text-align: left;
     }
@@ -36,13 +35,11 @@ section.intro-section {
 
     line-height: 1.6em;
     color: $main-black;
-    
-    padding: .6em 1em 0;
+
+    padding: 0.6em 1em 0;
     margin: 2em auto 0;
     max-width: 60ch;
-
   }
-  
 
   ul.claims {
     list-style: none;
@@ -51,25 +48,24 @@ section.intro-section {
     align-items: flex-start;
     gap: 5em;
     padding-left: 0;
-    padding: 0 .3em;
+    padding: 0 0.3em;
     margin: 8em auto 0;
   }
   .icon-wrapper {
     // margin-left: 7em;
     @media (max-width: 780px) {
       margin-left: 0;
-      
     }
     text-align: right;
     align-self: flex-start;
     display: grid;
-    grid-template-columns:  auto 1fr;
-    grid-template-rows:auto auto auto auto;
-    grid-template-areas: 
-    'img .'
-    ' img header'
-    ' img text'
-    'img .';
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "img ."
+      " img header"
+      " img text"
+      "img .";
     place-items: start start;
     // column-gap: 3em;
     column-gap: 1em;
@@ -86,7 +82,7 @@ section.intro-section {
       align-items: center;
       gap: 1ch;
     }
-    .link  {
+    .link {
       grid-area: text;
     }
   }
@@ -94,7 +90,7 @@ section.intro-section {
   .img {
     width: 8vw;
     min-width: 60px;
-    margin-right: .5em;
+    margin-right: 0.5em;
     height: 5vw;
     min-height: 60px;
     &.svg {
@@ -107,25 +103,24 @@ section.intro-section {
     }
   }
 
-  
   p.title {
     font-size: 2em;
     text-align: left;
   }
-  .claims p.title
-  {
+  .claims p.title {
     font-weight: 500 !important;
     font-size: 1.5em;
     text-transform: none;
   }
-  
-  a, .link {
+
+  a,
+  .link {
     @include Cavolini;
     font-style: italic;
     font-size: 1.2em;
 
     text-align: left;
-    margin-top: .05em;
+    margin-top: 0.05em;
     font-weight: 600;
     display: block;
     color: $main-red;
@@ -134,7 +129,7 @@ section.intro-section {
     }
   }
   & > * + * {
-     margin-top: 5em;
+    margin-top: 5em;
   }
 }
 
@@ -148,8 +143,6 @@ section.subtitle {
     font-size: 1.8em;
   }
 }
-
-
 
 .cisla-infographic {
   list-style-type: none;
@@ -218,9 +211,6 @@ section.call-to-action {
   }
 }
 
-
-
-
 section.aktuality {
   .section-title {
     width: max-content;
@@ -229,24 +219,29 @@ section.aktuality {
   }
 }
 
+.galavecer-overlay {
+  background-image: linear-gradient(135deg, rgb(100 100 100 / 78%), rgb(187 187 187 / 13%));
+  @media (max-width: 1300px) {
+    background-image: linear-gradient(135deg, rgb(160 160 160 / 90%), rgb(187 187 187 / 42%));
+  }
+}
 
 section.galavecer {
-  background-image: url("../images/sako_final.jpg");
-  @media (max-width: 1300px) {
-    background-image: url("../images/sako_final.jpg"), linear-gradient(
-      135deg, rgb(100  100  100  / 78%), rgb(187 187 187 / 13%));
-  }
-  @media (max-width: 800px) {
-    .section-title {
-      color: white;
-    }
-    background-image: url("../images/sako_final.jpg"),linear-gradient(to bottom, rgba(220, 220, 220, 0.8), rgb(140 140 140 / 62%));;
-  }
-  background-blend-mode: multiply;
-  // background-image: url('../images/sako.jpg');
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-size: cover;
+  // background-image: url("../images/sako_final.jpg");
+  // @media (max-width: 1300px) {
+  //   background-image: url("../images/sako_final.jpg"), linear-gradient(
+  //     135deg, rgb(100  100  100  / 78%), rgb(187 187 187 / 13%));
+  // }
+  // @media (max-width: 800px) {
+  //   .section-title {
+  //     color: white;
+  //   }
+  //   background-image: url("../images/sako_final.jpg"),linear-gradient(to bottom, rgba(220, 220, 220, 0.8), rgb(140 140 140 / 62%));;
+  // }
+  // background-blend-mode: multiply;
+  // background-repeat: no-repeat;
+  // background-position: right top;
+  // background-size: cover;
   // filter: brightness(0.4);
   .text {
     color: $main-white;
@@ -256,9 +251,6 @@ section.galavecer {
 section.aktuality {
   padding: 2em 0;
 }
-
-
-
 
 section#o-nadaci,
 section.o-nadaci {

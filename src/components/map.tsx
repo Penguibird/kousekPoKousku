@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { useRef, useEffect, useState } from 'react';
-const API_KEY = "AIzaSyAY2Tat - yTfQzZbsSXkAMajLb8qsYsrXDU";
+export const API_KEY = "AIzaSyAY2Tat - yTfQzZbsSXkAMajLb8qsYsrXDU";
 import { Loader, LoaderOptions } from "@googlemaps/js-api-loader";
 
-import LayerWrapper from './layer-wrapper';
 
 // @ts-ignore
 import markerIcon from "../images/map_marker.svg";
+import LayerWrapper from './layer-wrapper';
 // @ts-ignore
 import mapOutline from '../images/map_outline_yellow.svg';
 import { useStaticQuery, graphql } from 'gatsby';
@@ -107,19 +107,19 @@ const projekty: Projekt[] = [
     },
 ]
 
+export const getIcon = (length: number): google.maps.Icon => {
+    const size = new window.google.maps.Size(length, length);
+    return {
+        size,
+        scaledSize: size,
+        url: markerIcon,
+    }
+}
 const Map: React.FC<MapProps> = ({ }) => {
     const additionalOptions: Partial<LoaderOptions> = {};
     let map: google.maps.Map;
     let markers: google.maps.Marker[] = [];
 
-    const getIcon = (length: number): google.maps.Icon => {
-        const size = new window.google.maps.Size(length, length);
-        return {
-            size,
-            scaledSize: size,
-            url: markerIcon,
-        }
-    }
 
     const data = useStaticQuery(graphql`query Projekty {
         allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/projekty\//"}}) {

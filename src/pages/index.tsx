@@ -22,12 +22,14 @@ const AktualityCarousel = Loadable(() => import("../components/aktuality-carouse
 import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 import { useStaticQuery, graphql } from 'gatsby';
 import { useEffect } from 'react';
+import useAktuality from "../functions/useAktuality";
 
 const IndexPage = () => {
   const breakpoints = useBreakpoint();
   const placeholderImage = <StaticImage className='img' src='../images/hero_snapshot.png' alt='Fulnek - Tady jsme doma' layout='fullWidth' placeholder='none' />
 
-
+  const aktuality = useAktuality()
+    .slice(0, 20);
 
   // let pocetProjektu = 113;
 
@@ -215,7 +217,7 @@ const IndexPage = () => {
       </section>
 
 
-    
+
 
       <section className="section section-centered call-to-action">
         <h1 className="title">Připoj svůj kousek dobra</h1>
@@ -263,31 +265,34 @@ const IndexPage = () => {
         <StaticImage style={{ filter: 'brightness(1.2)' }} className='section-image img' src="../images/kouskovani_saty.png" alt='Ruka podává šaty a boty' layout='constrained' placeholder='blurred' />
       </section>
 
-      <section className="text-section section galavecer">
-        <h1 className="section-title">Slavnostní galavečer</h1>
-        <p className="subtitle">Buďte u&nbsp;toho</p>
-        <p className="text">
-          Letošní rok je&nbsp;pro Nadační fond Kousek po&nbsp;kousku jubilejní. 10&nbsp;let kousků dobra připomeneme 16.&nbsp;října tohoto roku v&nbsp;kostele sv.&nbsp;Josefa ve&nbsp;Fulneku na&nbsp;Slavnostním Galavečeru. Zrekapitulujeme dosavadní počiny, připomeneme některé z&nbsp;podpořených projektů, přivítáme řadu hostů a&nbsp;prozradíme další plány.
-        </p>
-
-        <p className="text">Součástí Galavečera bude koncert popové houslistky <a className="inline" href="https://www.youtube.com/watch?v=-49HE-gAxok">Lucie Klasek &amp; The Stringz.</a></p>
-        {/* <a href="/" className="button section-button buy-button">
-          koupit vstupenku
-        </a> */}
-        <div className="button-row">
-          <Link to="/eshop" className="button filled">Chci koupit vstupenku</Link>
-          <Link to="/eshop" className="button section-button buy-button ">
-            Chci přispět
-            </Link>
-        </div>
-      </section>
+      <LayerWrapper>
+        <StaticImage objectFit="cover" objectPosition="right" className="img" src="../images/sako_final.jpg" alt='Muž v obleku upravující si manžety' layout='fullWidth' />
+        <div className="galavecer-overlay"></div>
+        <section className="text-section section galavecer">
+          <h1 className="section-title">Slavnostní galavečer</h1>
+          <p className="subtitle">Buďte u&nbsp;toho</p>
+          <p className="text">
+            Letošní rok je&nbsp;pro Nadační fond Kousek po&nbsp;kousku jubilejní. 10&nbsp;let kousků dobra připomeneme 16.&nbsp;října tohoto roku v&nbsp;kostele sv.&nbsp;Josefa ve&nbsp;Fulneku na&nbsp;Slavnostním Galavečeru. Zrekapitulujeme dosavadní počiny, připomeneme některé z&nbsp;podpořených projektů, přivítáme řadu hostů a&nbsp;prozradíme další plány.
+          </p>
+          <p className="text">Součástí Galavečera bude koncert popové houslistky <a className="inline" href="https://www.youtube.com/watch?v=-49HE-gAxok">Lucie Klasek &amp; The Stringz.</a></p>
+          {/* <a href="/" className="button section-button buy-button">
+            koupit vstupenku
+          </a> */}
+          <div className="button-row">
+            <Link to="/eshop" className="button filled">Chci koupit vstupenku</Link>
+            <Link to="/eshop" className="button section-button buy-button ">
+              Chci přispět
+              </Link>
+          </div>
+        </section>
+      </LayerWrapper>
 
       <section className="aktuality">
         <h1 className="section-title">Aktuality</h1>
         <LayerWrapper>
           <div style={{ height: '400px' }}></div>
           <div>
-            <AktualityCarousel />
+            <AktualityCarousel aktuality={aktuality} />
           </div>
         </LayerWrapper>
 

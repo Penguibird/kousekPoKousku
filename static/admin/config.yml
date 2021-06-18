@@ -31,6 +31,28 @@ collections:
       fields:
       - {label: 'Obrazek', name: 'image', widget: 'image'}
       - {label: 'Popis obrazku', name: 'imageAlt', widget: 'string'}
+  - name: 'aktualityZahrada'
+    label: 'Aktuality Zahrada'
+    folder: 'content/aktualityZahrada'
+    create: true
+    slug: 'index'
+    media_folder: ''
+    public_folder: ''
+    path: '{{name}}/index'
+    preview: false
+    identifier_field: name,
+    fields:
+    - { label: "ID", name: "id", widget: "id"}
+    - { label: "Nazev", name: 'name', widget: 'string'}
+    - {label: 'Datum', name: 'date', widget: 'dateTime', format: 'DD-MM-YYYY'}
+    - {label: 'Text', name: 'body', widget: 'markdown'}
+    - label: 'Obrazek'
+      name: 'image'
+      widget: 'object'
+      collapsed: true
+      fields:
+      - {label: 'Obrazek', name: 'image', widget: 'image'}
+      - {label: 'Popis obrazku', name: 'imageAlt', widget: 'string'}
   - name: 'projekty'
     label: 'Projekty'
     folder: 'content/projekty'

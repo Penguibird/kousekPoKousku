@@ -21,7 +21,7 @@ const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
         <section className="hero-projekty section">
             <h1 className="title hero-title">Aktuálně podporujeme</h1>
         </section>
-        
+
         {/* Tady byla zahrada */}
 
         <section className="section-klinika">
@@ -49,18 +49,23 @@ const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
         <section className="section-intervence" id="intervence">
             <section className="section section-text" >
                 <h2 className="section-title title">
-                    Intervence autistů
+                    Intervence pro autismus
                     </h2>
                 {/* <p className="subtitle">
                     Dicta qui aliquam nihil harum nulla optio nisi modi sequi.
                     </p> */}
                 <p className="text">
-                    Intervence pro autismus sdružuje rodiny, které s autismem žijí a speciální pedagogy, kteří mají s touto problematikou dlouhodobé zkušenosti. Vyměňují si poznatky, sdílejí radosti i starosti, vzájemně se podporují. Důležitým posláním je také informovat společnost. Připravit okolí na setkání s těmi, kteří neměli tolik štěstí a trpí některou z poruch autismu.  Snaží se vysvětlit jejich počínání, přiblížit jejich emoce, strachy a vnímání.
-                    </p>
+                    Posláním Intervence pro autismus je vytváření systematického procesu k pomoci řešení sociálních, vzdělávacích a adaptačních potíží osob s poruchou autistického spektra.
+                    Spolek nabízí pomoc rodinám, které s autismem žijí a pedagogům, kteří mají s touto problematikou nějaké zkušenosti.
+                    Vyměňují si poznatky, sdílejí radosti i starosti, radí se, vzájemně se podporují.  Intervence pro autismus pořádá aktivity, které přispívají ke zkvalitnění života lidí s autismem, spolupracuje s podobnými organizacemi nejen v Česku, organizuje semináře a přednášky pro veřejnost, chystá se vydávat brožury a publikace.
+               </p>
                 <p className="text">
-                    Kromě toho iniciátor projektu Jan František Valů vede v Polance nad Odrou Bydlení s autisty, kde dohlíží na dospělé mladé muže, vede je k samostatnému životu, dodává jim jistotu a ukazuje, jak se dá dennodenní život zvládat.  Jezdí plavat, do kina, divadla, na výlety, denně se věnují lehké práci, cvičení, procházkám.
-                    Rozhodli jsem se je dále podporovat. Morálně, komunitně a díky Vašim příspěvkům do Kouskování i finančně.
-                     </p>
+                    Intervenci pro autismus budeme nadále podporovat. Morálně, komunitně a díky Vašim příspěvkům do Kouskování i finančně.
+                    Proč? Lidí s některou z forem autismu, bohužel, přibývá. Největším problémem je, že se stávají terčem útoků na veřejnosti. Neznalost budí strach. Pojďme to kousek společně změnit.
+                    Pokud bude společnost informována, bude lépe připravena na setkání s těmi, kteří neměli tolik štěstí.
+                </p>
+                <p className="subtitle">Děkujeme, že pomáháte.</p>
+
             </section>
             <StaticImage className='img' src="../images/puzzle.png" alt='Ruka držící puzzle' layout='constrained' placeholder='blurred' />
         </section>
