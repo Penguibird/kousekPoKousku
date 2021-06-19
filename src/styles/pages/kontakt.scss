@@ -50,6 +50,20 @@ main.kontakt {
     }
   }
 
+
+  section.text {
+    padding: 3em 1em 0;
+    p {
+      font-size: 1.3em;
+      text-align: justify;
+      max-width: 65ch;
+      &+p {
+        margin-top: 2em;
+      }
+    }
+  }
+
+
   .lidi {
     display: flex;
     flex-direction: row;
@@ -58,7 +72,7 @@ main.kontakt {
     margin: 7em auto 5em;
     padding: 2em;
     & > * {
-      flex: 1 0 0;
+      flex: 0 0 0;
       width: 100%;
     }
     @media (max-width: 800px) {

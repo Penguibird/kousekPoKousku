@@ -244,9 +244,9 @@ nav li,
 }
 
 .navbar-link {
-    font-size: clamp(0.5rem, calc(0.2rem + 1.05vw), 1.4rem);
+    font-size: clamp(0.6rem, calc(0.2rem + 0.8vw), 1.2rem);
     // margin: 0 0.2em;
-    padding: 0.8em calc(2vw) 0.65em;
+    padding: 0.8em min(2vw, 1.5em) 0.65em;
 
     text-transform: uppercase;
     text-align: center;
