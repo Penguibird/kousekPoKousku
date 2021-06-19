@@ -31,8 +31,9 @@ const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
                     </h2>
                 {/* <p className="subtitle">Podpora služeb rozvoje Sociální kliniky v Moravskoslezském kraji</p> */}
 
-                <p>Nadační fond Kousek po kousku podporuje projekty, které souvisí s rovnováhou těla, mysli a duše.</p>
-                <p className="-text">Jedním z nich je spolupráce se Sociální klinikou, která poskytuje dostupnou terapeutickou službu všem, kteří se nacházejí v náročné životní situaci a nemohou si tyto služby z finančních důvodů dovolit. Přesto na sobě chtějí pracovat, hledají změnu a uvědomují si díl své zodpovědnosti. Více najdete na <a href=""><strong>www.socialniklinika.cz</strong></a>, kde se i objednáte na konzultaci.</p>
+                <p>Nadační fond Kousek po kousku podporuje projekty, které souvisí s&nbsp;rovnováhou těla, mysli a&nbsp;duše.</p>
+                <p className="-text">Jedním z&nbsp;nich je spolupráce se&nbsp;Sociální klinikou, která poskytuje dostupnou terapeutickou službu všem, kteří se nacházejí v&nbsp;náročné životní situaci a&nbsp;nemohou si tyto služby z&nbsp;finančních důvodů dovolit. 
+                Přesto na&nbsp;sobě chtějí pracovat, hledají změnu a&nbsp;uvědomují si&nbsp;díl své zodpovědnosti. Více najdete na&nbsp;<a href=""><strong>www.socialniklinika.cz</strong></a>, kde se&nbsp;i&nbsp;objednáte na&nbsp;konzultaci.</p>
 
                 <p>Využijte možnosti, na kterou přispívá i NF Kousek po kousku.
                     Nemusíte mít obavy. Zaplatíte jen to, co můžete.</p>

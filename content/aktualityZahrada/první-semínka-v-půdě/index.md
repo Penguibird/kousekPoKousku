@@ -7,4 +7,4 @@ image:
 ---
 25\. dubna 2021 jsme v zahradě Hojnosti vyseli první semínka! Začala nová etapa pozemku ve Fulneku. Každým semínkem vzniká nový život.
 
-Na svahu jsou vysety byliny – lichořeřišnice , měsíček lékařský, ostropestřec mariánský, třezalka tečkovaná, heřmánek pravý, len modrý. Jsme v očekávání, zda se vše uchytí.
+Část svahu porostou byliny – lichořeřišnice , měsíček lékařský, ostropestřec mariánský, třezalka tečkovaná, heřmánek pravý, len modrý. Jsme v očekávání, zda se vše uchytí.

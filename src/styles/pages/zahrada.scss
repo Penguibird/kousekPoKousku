@@ -660,6 +660,14 @@ section.financovani {
     @media (max-width: 768px) {
       flex-direction: column;
     }
+    &>* {
+      flex: 1 0 0;
+    }
+    
+  }
+  .map-wrapper {
+    display: flex;
+    justify-content: flex-end;
   }
   #map {
     height: 300px;
@@ -668,6 +676,10 @@ section.financovani {
     // margin: 0 auto;
   }
   .adresa { 
+
+    .title {
+      font-size: 1.4em;
+    }
     p {
       font-size: 1.2em;
       font-weight: 500;

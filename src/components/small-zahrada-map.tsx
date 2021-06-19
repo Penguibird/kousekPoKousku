@@ -62,8 +62,11 @@ export default function SmallMap(props: SmallMapProps) {
     return <section className="small-map">
         {/* <h1 className="title-centered title title-center"></h1> */}
         <div className="flex-row">
-            <div id="map"></div>
+            <div className="map-wrapper">
+                <div id="map"></div>
+            </div>
             <div className="adresa">
+                <p className="title green">Zahrada Hojnosti</p>
                 <p>Palackého 298</p>
                 <p>Fulnek</p>
                 <p>742 45</p>
