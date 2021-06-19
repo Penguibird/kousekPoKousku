@@ -255,13 +255,14 @@ section.aktuality {
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    pad: 0 2em;
+    // pad: 0  0 0;
     .link {
       font-weight: 600;
       font-size: 1.5em;
-      margin-right : 2em;
+      margin-right : 90px;
       &:hover {
         text-decoration: underline;
+     
       }
     }
   }

@@ -186,9 +186,9 @@ const IndexPage = () => {
         </ul>
       </section>
 
-      <section className="section subtitle">
+      {/* <section className="section subtitle">
         <p className="subtitle bigger"> Kousek po&nbsp;kousku toho společně zvládneme hodně</p>
-      </section>
+      </section> */}
 
       <section className="section section-center cisla">
 
@@ -227,6 +227,8 @@ const IndexPage = () => {
         <p>Jsme přesvědčeni, že prostředky, které vzejdou z&nbsp;regionu, mají znovu najít uplatnění v&nbsp;oblastních projektech.</p>
 
         {/* <p className="subtitle blue">Připojte se, ať&nbsp;už jakoukoli částkou, jakýmkoli způsobem. </p> */}
+        <p className="subtitle bigger" style={{color: 'white', fontSize: '1.7em'}}> Kousek po&nbsp;kousku toho společně zvládneme hodně</p>
+
         <p className="subtitle blue"> Děkujeme, že&nbsp;se připojíte</p>
         <Link to="/eshop" className="button filled bigger">Chci přispět</Link>
 
@@ -256,7 +258,7 @@ const IndexPage = () => {
           <p className="subtitle">Dejte kouskům druhou šanci!</p>
           <p className="text">Udržitelnost je&nbsp;téma, kterému se&nbsp;dlouhodobě věnujeme. Ano, výroba oblečení má&nbsp;na životní prostředí svůj dopad. Pomůžeme, pokud naši osobní spotřebu redukujeme.</p>
           <p className="text">Do&nbsp;šatníku si&nbsp;pořizujme <strong>základní, kvalitní, nadčasové kousky, nejlépe z&nbsp;recyklovatelných materiálů.</strong> Zejména díky dobrým materiálům vydrží ve&nbsp;skvělé kondici a&nbsp;slouží dlouho, často i&nbsp;někomu druhému. Právě nákup z&nbsp;druhé ruky je jedním z&nbsp;principů zpomalení cyklu neboli <strong>slou&nbsp;módy</strong>.</p>
-          <p className="text">V Nadačním fondu Kousek po&nbsp;kousku máme s&nbsp;dobročinným bazarem pod&nbsp;značkou <strong>Kouskování</strong> dlouholeté zkušenosti. Veškeré kousky, které stále vypadají luxusně a&nbsp;z&nbsp;mnoha důvodů je&nbsp;již nevyužijete, rádi přijmeme a na&nbsp;našem eshopu nabídneme dál. Výtěžek pomůže dlouhodobě podporovanému projektu <Link to="/aktualne-podporujeme#intervence"><strong>Intervence pro&nbsp;Autismus</strong></Link></p>
+          <p className="text">V Nadačním fondu Kousek po&nbsp;kousku máme s&nbsp;dobročinným bazarem pod&nbsp;značkou <strong>Kouskování</strong> dlouholeté zkušenosti. Veškeré kousky, které stále vypadají luxusně a&nbsp;z&nbsp;mnoha důvodů je&nbsp;již nevyužijete, rádi přijmeme a na&nbsp;našem eshopu nabídneme dál. Výtěžek pomůže dlouhodobě podporovanému projektu <Link to="/aktualne-podporujeme#intervence"><strong>Intervence pro&nbsp;autismus.</strong></Link></p>
           <div className="button-row">
             <Link to="/kouskovani" className="button">Chci darovat kousek</Link>
             <Link to="/eshop" className="button section-button buy-button filled">
@@ -298,7 +300,7 @@ const IndexPage = () => {
           </div>
         </LayerWrapper>
         <div className="flex-end">
-          <Link to='/aktuality' className=" link">Všechny aktuality</Link>
+          <Link to='/aktuality' className=" link">všechny aktuality</Link>
         </div>
 
       </section>

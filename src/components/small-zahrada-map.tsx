@@ -23,7 +23,7 @@ export default function SmallMap(props: SmallMapProps) {
 
         loader.load().then(() => {
             map = new window.google.maps.Map(document.getElementById("map") as HTMLElement, {
-                // center: { lat: 49.71198812010327, lng: 17.914118207168002 }, //fulnek
+                // center: { lat: 49.71198812010327, lng: 17.914118207168002 }, //fulneke
                 center: { lat: 49.718729357197944, lng:  17.90409554493908 }, //zahrada
                 // center: { lat: 49.85967567710321, lng: 17.914118207168002 }, // MSK center
 
