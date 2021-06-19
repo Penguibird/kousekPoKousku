@@ -133,6 +133,8 @@ header input[type="checkbox"] {
             margin-top: 0;
             top: 0;
             left: 0;
+            
+            margin-left: calc(4vw - 16px);
         }
 
         .sm {
@@ -244,7 +246,7 @@ nav li,
 .navbar-link {
     font-size: clamp(0.5rem, calc(0.2rem + 1.05vw), 1.4rem);
     // margin: 0 0.2em;
-    padding: 0.8em 1.5em 0.65em;
+    padding: 0.8em calc(2vw) 0.65em;
 
     text-transform: uppercase;
     text-align: center;
