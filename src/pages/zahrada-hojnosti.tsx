@@ -105,7 +105,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     Vítáme všechny, kteří v ní najdou svůj kousek pro sebe. <strong>Kousek pohody, odpočinku, krásy, pohybu, přátelství...</strong>
                 </p>
                 <p className="montserrat-subtitle">
-                    Zahrada poskytne <strong>prostor pro hledání a hlubší poznání sebe sama,</strong> pro tvořivou práci, setkávání, pohyb a poznáván   í nového prostřednictvím workshopů.
+                    Zahrada poskytne <strong>prostor pro hledání a hlubší poznání sebe sama,</strong> pro tvořivou práci, setkávání, pohyb a poznávání nového prostřednictvím workshopů.
                         </p>
                 {/* <p className="text">
                         Na&nbsp;pozemku Nadačního fondu Kousek po&nbsp;kousku ve&nbsp;Fulneku, o&nbsp;rozloze 16&nbsp;000&nbsp;m<sup>2</sup>, se postupně rodí výjimečné <strong>místo pro tělo, mysl a&nbsp;duši, harmonizační
@@ -134,7 +134,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             <section className="section section-text section-centered">
                 <p className="montserrat-subtitle co-nabizi" >
                     Spolupráce s přírodou je rovná. <strong>Za práci, péči a starostlivost přichází hojnost.</strong> Pokud ji chceme vidět, vnímáme ji všude. Už při zrodu nabízí zahrada půdu, prostor a zázemí.
-                        Je povzbuzující terapií vidět, jak se i to nejmenší semínko snaží uchytit, každá květina na louce prezentovat svoji krásu. Je to výzva pro nás pro všechny.
+                        Je povzbuzující terapií vidět, jak se i to nejmenší semínko snaží uchytit, každá květina na louce prezentovat svoji krásu. Je to výzva a inspirace pro nás pro všechny.
                     </p>
             </section>
 
@@ -151,7 +151,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     <li>
                         <h3>Půda</h3>
                         <p className="text">
-                            Půda poskytuje péči všemu, co po nutných terénních úpravách zbylo i novým semenům a rostlinám.
+                            Půda poskytuje péči všemu, co po nutných terénních úpravách zbylo, i novým semenům a rostlinám.
                             Jde o prostor více než 16&nbsp;000&nbsp;m<sup>2</sup>. Vzniká zde květinový labyrint, bylinná i okrasná část.
                             Postupně se bude okrasná i jedlá zahrada rozšiřovat, přibude jedlý les.</p>
                         <p className="text">V&nbsp;Zahradě&nbsp;Hojnosti je po&nbsp;úpravách stále nedostatek orné půdy. <strong>Víte&nbsp;o&nbsp;nějaké?</strong> Napište nám na&nbsp;<a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a></p>
@@ -187,7 +187,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
             <section className="tree-section section">
                 <LayerWrapper>
-                    <StaticImage className='img tree-img' src="../images/tree5.jpg" alt='' layout='fullWidth' placeholder='blurred' />
+                    <StaticImage className='img tree-img' src="../images/tree_final.jpg" alt='' layout='fullWidth' placeholder='blurred' />
 
                     <section className="quote-section">
                         <figure className="quote-wrapper">

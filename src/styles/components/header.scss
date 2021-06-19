@@ -1,4 +1,4 @@
-header {    
+header {
     position: sticky;
     top: 0;
     left: 0;
@@ -13,7 +13,7 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding: 0 2em;
+    padding: 0 1.5vw;
 
     .logo {
         position: absolute !important;
@@ -22,7 +22,7 @@ header {
         margin-top: 0.5em;
 
         min-width: 90px;
-        width: 12vw;
+        width: 10vw;
         max-width: 120px;
 
         height: auto;
@@ -31,16 +31,16 @@ header {
         color: inherit;
         text-decoration: unset;
     }
-    transition: background-color .3s ease-in-out, color .3s ease-in-out;
- 
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+    background-color: $main-yellow;
+    * {
+        color: $main-white !important;
+    }
+    .dropdown-content {
         background-color: $main-yellow;
-        * {
-            color: $main-white !important;
-        }
-        .dropdown-content {
-            background-color: $main-yellow;
-        }
-    
+    }
+
     .sm {
         display: none;
     }
@@ -61,7 +61,6 @@ header {
         min-width: 100%;
         padding: 0.7em 1em;
         margin: 0;
-   
     }
     label:hover ~ .dropdown-content,
     .dropdown-content:hover {
@@ -71,7 +70,7 @@ header {
 }
 
 header nav {
-    padding-left: 180px;
+    padding-left: max(100px, 9.5vw);
     ul {
         display: flex;
         flex-direction: row;
@@ -91,27 +90,25 @@ header nav {
     }
 }
 
-header  input[type="checkbox"] {
+header input[type="checkbox"] {
     width: 0;
     height: 0;
     position: absolute;
     top: -9999px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 920px) {
     header {
-        
         // flex-direction: row-reverse;
         // align-items: flex-start;
-
 
         display: grid;
         grid-template-columns: minmax(90px, 1fr) minmax(calc((100vw - 90px) - 50px), 1fr) minmax(50px, 1fr);
         grid-template-rows: 1fr auto;
         place-items: start start;
-        grid-template-areas: 
-        'logo nav   burger'
-        'eshop   eshop  eshop';
+        grid-template-areas:
+            "logo nav   burger"
+            "eshop   eshop  eshop";
 
         .logo {
             grid-area: logo;
@@ -127,21 +124,18 @@ header  input[type="checkbox"] {
             grid-area: burger;
         }
 
-
-        
         background-color: $main-yellow;
         * {
             color: $main-white !important;
         }
-        padding: 0 .5em 0 0;
+        padding: 0 0.5em 0 0;
         .logo {
             margin-top: 0;
             top: 0;
             left: 0;
         }
 
-        
-        .sm  {
+        .sm {
             display: block;
         }
         label {
@@ -151,14 +145,16 @@ header  input[type="checkbox"] {
             // top: 0;
             // right: 0;
         }
-       
 
-        .eshop-link, nav, nav > ul, .dropdown-content {
+        .eshop-link,
+        nav,
+        nav > ul,
+        .dropdown-content {
             // display: none;
-            // transform: translateY(-500px);     
+            // transform: translateY(-500px);
             opacity: 0;
             max-height: 0;
-            transition: opacity .2s ease-out, max-height .2s ease;
+            transition: opacity 0.2s ease-out, max-height 0.2s ease;
         }
         .eshop-link {
             display: none;
@@ -178,16 +174,16 @@ header  input[type="checkbox"] {
         }
         input[type="checkbox"]:checked ~ label .menu.closed {
             display: none;
-        } 
+        }
         input[type="checkbox"]:checked ~ label .menu.open {
             display: block;
         }
-        input[type="checkbox"]:checked ~ .eshop-link ,
+        input[type="checkbox"]:checked ~ .eshop-link,
         input[type="checkbox"]:checked ~ nav > ul,
         input[type="checkbox"]:checked ~ nav {
             // display: block;
             opacity: 1;
-            transform: translateY(0);     
+            transform: translateY(0);
             max-height: 100vh;
             // transition: opacity .2s ease, max-height .2s ease;
         }
@@ -199,7 +195,7 @@ header  input[type="checkbox"] {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            gap: 0;   
+            gap: 0;
         }
         .navbar-link {
             width: auto !important;
@@ -211,8 +207,8 @@ header  input[type="checkbox"] {
 
             opacity: 0 !important;
             max-height: 0vh;
-            height: auto ;
-            transition:  max-height .32s ease;
+            height: auto;
+            transition: max-height 0.32s ease;
             //opacity .1s ease-out,
         }
         input[name="dropdown-expand"]:checked ~ .dropdown-content {
@@ -225,39 +221,36 @@ header  input[type="checkbox"] {
             position: static;
             opacity: 1 !important;
             visibility: visible;
-            transform: translateY(0);     
+            transform: translateY(0);
             max-height: 100vh;
         }
     }
     li {
         margin-left: 0 !important;
     }
-
 }
-
-
-
-
 
 nav li a,
 nav li,
 .navbar-link {
-  color: $base-text-color;
-  font-weight: 500;
-  font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: .02ch;
+    color: $base-text-color;
+    font-weight: 500;
+    //   font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.02ch;
 }
 
 .navbar-link {
-  // margin: 0 0.2em;
-  padding: .8em 1.5em .65em;
+    font-size: clamp(0.5rem, calc(0.2rem + 1.05vw), 1.4rem);
+    // margin: 0 0.2em;
+    padding: 0.8em 1.5em 0.65em;
 
-  text-transform: uppercase;
-  text-align: center;
-  transition: background-color 0.2s ease-in-out;
-  &:hover, &:focus-within {
-    background-color: darken($main-yellow, 3);
-  }
+    text-transform: uppercase;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out;
+    &:hover,
+    &:focus-within {
+        background-color: darken($main-yellow, 3);
+    }
 }
-

@@ -33,7 +33,7 @@ const prinosy: Prinos[] = [
 
     },
     {
-        title: "Pojďme tvořit a hýbat se",
+        title: "Pohyb a kreativita",
         className: 'pohybovy',
         body: [
             `Vědomé cvičení, workshopy na téma malování, fotografování, tvorba a vázání dekorací, běžných či příležitostných květinových vazeb, zpracování bylin v širokém pojetí,
@@ -46,7 +46,7 @@ const prinosy: Prinos[] = [
 
     },
     {
-        title: "Přijímáme moudrost přírody",
+        title: "Moudrost přírody",
         className: 'edukativni',
         body: [
             `Zahrada poslouží dětem a mladým v praxi pochopit zákonitostí přírody, koloběhu, ekosystému. Budou poznávat rostliny a květiny, učit se o jejich významu, účincích bylin.
@@ -59,7 +59,7 @@ const prinosy: Prinos[] = [
 
     },
     {
-        title: "Užijme si hojnost, kterou poskytne",
+        title: "Hojnost",
         className: 'samozber',
         body: [
             `Až Zahrada nabídne svou hojnost, budeme pořádat samosběry z jejich darů. Tak se uzavře cyklus dát a sklidit v rámci jednoho roku, aby mohl započít další.
