@@ -8,7 +8,7 @@ const ONadaciPage = () => {
         <Layout title="Mise, vize, poslání | Nadační fond Kousek po Kousku" >
             <main className="o-nadaci">
                 <section className="hero">
-                    <h1 className="lone-title hero-title">O nadaci</h1>
+                    <h1 className="lone-title hero-title">O nadačním fondu</h1>
                 </section>
 
                 <section className="section-text section mise">
@@ -28,7 +28,7 @@ const ONadaciPage = () => {
                         Záměrem NF KpK je představit ostatním firmám z Moravskoslezského kraje výsledky své práce a inspirovat je k vlastním filantropickým a dárcovským počinům. Podpořit je v myšlence, aby se prostředky vytvořené zde v regionu, znovu vrátily do místních projektů.
                     </p>
                     <p className="text">Nadační fond Kousek po kousku nabízí na poli filantropie a dárcovství spolupráci, poskytuje zkušenosti, svou správu a v případě zájmu i možnost spolurozhodovat při výběru některých přihlášených projektů. </p>
-                    <p className="text">Mimo granty umožňuje i účast na vlastním, unikátním díle, kterým je Zahrada Hojnosti ve Fulneku.  Jde o dlouhodobý projekt, který má za sebou několik let příprav a první etapu výsevu a výsadby datovanou na jaře roku 2021.  Na pozemku Nadačního fondu Kousek po kousku o rozloze 16 000 m2 se postupně rodí výjimečné místo pro tělo, mysl a duši, harmonizační a inspirativní prostor pro psychickou i fyzickou relaxaci.  Zázemí zahrady umožní zapojení do dobrovolnických projektů, sociální a mezigenerační stmelování, edukační přesah pro všechny věkové skupiny i spoluúčast na výjimečném ekonomickém procesu. Prostřednictvím samosběrů květin, bylin a plodů jedlé zahrady představí totiž NF naprosto unikátní způsob hospodaření pro dosažení soběstačnosti. </p>
+                    <p className="text">Mimo granty umožňuje i účast na vlastním, unikátním díle, kterým je Zahrada Hojnosti ve Fulneku.  Jde o dlouhodobý projekt, který má za sebou několik let příprav a první etapu výsevu a výsadby datovanou na jaře roku 2021.  Na pozemku Nadačního fondu Kousek po kousku o rozloze 16 000 m2 se postupně rodí výjimečné místo pro tělo, mysl a duši, harmonizační a inspirativní prostor pro psychickou i fyzickou relaxaci.  Zázemí Zahrady umožní zapojení do dobrovolnických projektů, sociální a mezigenerační stmelování, edukační přesah pro všechny věkové skupiny i spoluúčast na výjimečném ekonomickém procesu. Prostřednictvím samosběrů květin, bylin a plodů jedlé Zahrady představí totiž NF naprosto unikátní způsob hospodaření pro dosažení soběstačnosti. </p>
                 </section>
 
                 <section className="section-text section poslani">

@@ -25,7 +25,7 @@ const KontaktPage: React.FC<KontaktPageProps> = ({ }) => {
                 </li>
                 <li className="clovek">
                     <h2 className="jmeno">Eva Loskotová</h2>
-                    <p className="popis">public relations &amp; komunikace</p>
+                    <p className="popis">PR &amp; komunikace</p>
                     <a href="mailto:eva.loskotova@kousekpokousku.cz">eva.loskotova@kousekpokousku.cz</a>
                     <a href="tel:+420776003455">+420 776 003 455</a>
                 </li>
@@ -40,7 +40,7 @@ const KontaktPage: React.FC<KontaktPageProps> = ({ }) => {
                 <div className="adresa-wrapper">
                     {/* <h1>Kontakt</h1> */}
                     {/* <p className="left">Adresa:</p> */}
-                    <p className="adresa">Malá strana 297,<br /> PSČ 742 13 <br /> Studénka Butovice</p>
+                    <p className="adresa">Malá strana 297<br /> PSČ  742 13 <br /> Studénka Butovice</p>
                     <p className="left">
                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none" /><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25c-.25-.16-.4-.43-.4-.72 0-.67.73-1.07 1.3-.72L12 11l6.7-4.19c.57-.35 1.3.05 1.3.72 0 .29-.15.56-.4.72z" /></svg>
                     </p>
@@ -56,16 +56,16 @@ const KontaktPage: React.FC<KontaktPageProps> = ({ }) => {
                 <li className="spravni-rada">
                     <h2 className="title">Členové správní rady</h2>
                     <ul className="">
+                        <li className="jmeno"><span className="titul">Ing.</span> Vladimír Vyhlídal<span className="titul">, MBA</span></li>
                         <li className="jmeno"><span className="titul">Ing.</span> Martina Mazancová</li>
                         <li className="jmeno">Ladislav Mazanec</li>
-                        <li className="jmeno"><span className="titul">Ing.</span> Vladimír Vyhlídal, MBA</li>
                     </ul>
                 </li>
                 <li className="dozorci-rada">
                     <h2 className="title">Členové dozorčí rady</h2>
                     <ul className="">
-                        <li className="jmeno"><span className="titul">Mgr.</span> Darina Dvořáková</li>
                         <li className="jmeno"><span className="titul">JUDr.</span> Karla Návedlová</li>
+                        <li className="jmeno"><span className="titul">Mgr.</span> Darina Dvořáková</li>
                         <li className="jmeno"><span className="titul">Mgr.</span> Romana Řezníčková</li>
                     </ul>
                 </li>

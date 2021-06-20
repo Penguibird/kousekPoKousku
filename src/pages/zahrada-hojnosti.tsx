@@ -36,7 +36,7 @@ interface ZahradaPageProps {
 
 const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
     const breakpoints = useBreakpoint();
-    const placeholderImage = <StaticImage className='img' src='../images/zahrada_hero_placeholder.png' alt='Foto zahrady z dronu' layout='fullWidth' placeholder='blurred' />
+    const placeholderImage = <StaticImage className='img' src='../images/zahrada_hero_placeholder.png' alt='Foto Zahrady z dronu' layout='fullWidth' placeholder='blurred' />
     const videoProps = {
         className: "hero-video",
         width: "1920",
@@ -62,7 +62,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
         <main className="zahrada">
             <LayerWrapper className="hero">
 
-                {/* <StaticImage className='img' src="../images/hero_placeholder.png" alt='Fotka zahrady' layout='constrained' placeholder='blurred' />
+                {/* <StaticImage className='img' src="../images/hero_placeholder.png" alt='Fotka Zahrady' layout='constrained' placeholder='blurred' />
                 <h1 className="title text-center">Zahrada Hojnosti</h1> */}
                 {breakpoints.noVideo
                     ? placeholderImage
@@ -85,7 +85,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                                     : null
                 }
                 <div id="placeholderImage">
-                    <StaticImage className='img' src='../images/zahrada_hero_placeholder.png' alt='Foto zahrady z dronu' layout='fullWidth' placeholder='blurred' />
+                    <StaticImage className='img' src='../images/zahrada_hero_placeholder.png' alt='Foto Zahrady z dronu' layout='fullWidth' placeholder='blurred' />
                 </div>
                 {/* <div className="overlay"></div> */}
             </LayerWrapper>
@@ -109,8 +109,8 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                         </p>
                 {/* <p className="text">
                         Na&nbsp;pozemku Nadačního fondu Kousek po&nbsp;kousku ve&nbsp;Fulneku, o&nbsp;rozloze 16&nbsp;000&nbsp;m<sup>2</sup>, se postupně rodí výjimečné <strong>místo pro tělo, mysl a&nbsp;duši, harmonizační
-                            a&nbsp;inspirativní prostor pro psychickou i fyzickou relaxaci.</strong> Zázemí zahrady umožní<strong> dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah</strong> pro&nbsp;všechny věkové skupiny i&nbsp;spoluúčast na&nbsp;výjimečném ekonomickém procesu.
-                        Prostřednictvím samosběrů květin, bylin a&nbsp;plodů jedlé zahrady představí totiž NF naprosto <strong>unikátní způsob hospodaření pro dosažení soběstačnosti.</strong>
+                            a&nbsp;inspirativní prostor pro psychickou i fyzickou relaxaci.</strong> Zázemí Zahrady umožní<strong> dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah</strong> pro&nbsp;všechny věkové skupiny i&nbsp;spoluúčast na&nbsp;výjimečném ekonomickém procesu.
+                        Prostřednictvím samosběrů květin, bylin a&nbsp;plodů jedlé Zahrady představí totiž NF naprosto <strong>unikátní způsob hospodaření pro dosažení soběstačnosti.</strong>
                     </p> */}
                 {/* <h2 className="title co-nabizi">
                             Co nabízí?
@@ -133,7 +133,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
             <section className="section section-text section-centered">
                 <p className="montserrat-subtitle co-nabizi" >
-                    Spolupráce s přírodou je rovná. <strong>Za práci, péči a starostlivost přichází hojnost.</strong> Pokud ji chceme vidět, vnímáme ji všude. Už při zrodu nabízí zahrada půdu, prostor a zázemí.
+                    Spolupráce s přírodou je rovná. <strong>Za práci, péči a starostlivost přichází hojnost.</strong> Pokud ji chceme vidět, vnímáme ji všude. Už při zrodu nabízí Zahrada půdu, prostor a zázemí.
                         Je povzbuzující terapií vidět, jak se i to nejmenší semínko snaží uchytit, každá květina na louce prezentovat svoji krásu. Je to výzva a inspirace pro nás pro všechny.
                     </p>
             </section>
@@ -149,36 +149,36 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
                 <ul className="flex-row">
                     <li>
-                        <h3>Půda</h3>
+                        <h3 className="title">Půda</h3>
                         <p className="text">
                             Půda poskytuje péči všemu, co po nutných terénních úpravách zbylo, i novým semenům a rostlinám.
                             Jde o prostor více než 16&nbsp;000&nbsp;m<sup>2</sup>. Vzniká zde květinový labyrint, bylinná i okrasná část.
-                            Postupně se bude okrasná i jedlá zahrada rozšiřovat, přibude jedlý les.</p>
+                            Postupně se bude okrasná i jedlá Zahrada rozšiřovat, přibude jedlý les.</p>
                         <p className="text">V&nbsp;Zahradě&nbsp;Hojnosti je po&nbsp;úpravách stále nedostatek orné půdy. <strong>Víte&nbsp;o&nbsp;nějaké?</strong> Napište nám na&nbsp;<a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a></p>
-                        <p className="subtitle green">Pomozte&nbsp;nám zajistit další půdu pro&nbsp;rostliny.</p>
+                        <p className="subtitle green"><strong>Pomozte&nbsp;nám zajistit další půdu pro&nbsp;rostliny.</strong></p>
                     </li>
                     <li>
-                        <h3>Prostor</h3>
+                        <h3 className="title">Prostor</h3>
                         <p className="text">
                             Prostor slouží ke&nbsp;sdílení, setkávání, tvoření jednotlivců i&nbsp;skupin. Všichni si&nbsp;mohou odzkoušet své limity při&nbsp;fyzické práci a&nbsp;zjistit, jaký díl radosti jim přináší.
-                            Dobrovolnictví v&nbsp;zahradě nabude všední význam. Jde o&nbsp;skvělý způsob, jak&nbsp;pozitivně ovlivnit sebe a&nbsp;svět kolem nás.
+                            Dobrovolnictví v&nbsp;Zahradě nabude všední význam. Jde o&nbsp;skvělý způsob, jak&nbsp;pozitivně ovlivnit sebe a&nbsp;svět kolem nás.
                             </p>
 
                         <p className="text">
                             <strong>Chcete&nbsp;se&nbsp;zapojit?</strong> Přihlaste&nbsp;se do FB&nbsp;skupiny <a href="">Dobrovolníci&nbsp;pro&nbsp;kousek</a>, kde sdělujeme aktuální informace o&nbsp;termínech a&nbsp;akcích, nebo napište na&nbsp;<a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>.
                         </p>
-                        <p className="subtitle green" >Rádi Vás přivítáme.</p>
+                        <p className="subtitle green" ><strong>Rádi Vás přivítáme</strong>.</p>
                     </li>
                     <li>
-                        <h3>Zázemí</h3>
+                        <h3 className="title">Zázemí</h3>
                         <p className="text">
                             Zahrada poskytne zázemí také pro&nbsp;různé druhy vědomého cvičení, pro&nbsp;harmonizaci, odpočinek a&nbsp;duševní pohodu. Pro hledání sama sebe, ztišení své duše, odpoutání se&nbsp;od&nbsp;každodenní reality.
-                            Je už&nbsp;na každém, zda relaxuje u&nbsp;fyzické práce, cvičení nebo si&nbsp;jen posedí pod stromem. Budeme připravovat i&nbsp;mnoho tematických workshopů o&nbsp;pěstování a&nbsp;zpracování bylin, výrobě mastí, krémů, tinktur a&nbsp;v&nbsp;dalších letech se&nbsp;okruh ještě rozšíří.
+                            Je už&nbsp;na každém, zda relaxuje u&nbsp;fyzické práce, cvičení nebo si&nbsp;jen posedí pod stromem. Připravujeme i&nbsp;mnoho tematických workshopů o&nbsp;pěstování a&nbsp;zpracování bylin, výrobě mastí, krémů, tinktur a&nbsp;dalších zázraků.
                             </p>
                         <p className="text"><strong>Máte vlastní námět?</strong> Přihlaste se na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a></p>
                         {/* <p className="subtitle green"> Už <strong>J.Á. Komenský</strong> tvrdil, že nejlepší učitelkou je sama příroda. A je to tak.</p> */}
                         <p className="subtitle green">
-                            Chcete workshop sami pořádat?
+                            <strong>Chcete workshop sami pořádat?</strong>
                         </p>
                     </li>
                 </ul>
@@ -187,12 +187,12 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
             <section className="tree-section section">
                 <LayerWrapper>
-                    <StaticImage className='img tree-img' src="../images/tree_final.jpg" alt='' layout='fullWidth' placeholder='blurred' />
+                    <StaticImage className='img tree-img' src="../images/tree_final.png" alt='' layout='fullWidth' placeholder='blurred' />
 
                     <section className="quote-section">
                         <figure className="quote-wrapper">
                             <blockquote className="komensky">"Umění, kterak vyučovat a&nbsp;učit&nbsp;se, nesmí a&nbsp;nemůže se&nbsp;bráti odjinud, než&nbsp;od&nbsp;učitelky přírody"</blockquote>
-                            <figcaption className=""> - J.&nbsp;Á.&nbsp;Komenský</figcaption>
+                            <figcaption className="">J.&nbsp;Á.&nbsp;Komenský</figcaption>
                             {/* <blockquote className="bottom">Kéž&nbsp;Vám bude Zahrada hojnosti k&nbsp;tomuto sloužit…</blockquote> */}
                         </figure>
                         <StaticImage className="img" src='../images/komensky.jpg' alt='Jan amos komensky' placeholder="blurred" layout='constrained' />
@@ -214,9 +214,9 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                         <strong>Zahradu hojnosti spravuje a provozuje NF Kousek po kousku se záměrem soběstačnosti.</strong>
                     </p>
                     <p className="text">
-                        <strong>Jedním ze zdrojů budou samosběry.</strong> Bude možné přijít na řez květin, sběr bylin, později i bobulovin a vše, co v hojnosti zahrada vydá.
+                        <strong>Jedním ze zdrojů budou samosběry.</strong> Bude možné přijít na řez květin, sběr bylin, později i bobulovin a vše, co v hojnosti Zahrada vydá.
                         Při samosběru se nastaví minimální částka a bude na každém, zda plody přírody ocení klidně i sumou vyšší.
-                         Finanční zdroje se vrátí zpět do hospodaření Nadačního fondu a budou použity na další rozvoj zahrady.
+                         Finanční zdroje se vrátí zpět do hospodaření Nadačního fondu a budou použity na další rozvoj Zahrady.
                     </p>
                     <p className="text">
                         <strong>Další zdroje přinese zapojení jednotlivců, skupin a firem.</strong> Každý může zakoupit svůj strom, část plotu, lavičku atd., které ponesou jejich jmenovku.
@@ -241,7 +241,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
             <section className="section section-text pravidla">
                 <h2 className="title">
-                    Desatero zahrady
+                    Desatero Zahrady
                     </h2>
                 <ol className="pravidla-list">
                     <li>Přistupuj s láskou ke všemu, co zde je a cti hojnost.</li>
@@ -253,7 +253,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     <li>Zapoj se do dobrovolnických prací a vyzkoušej své limity. </li>
                     <li>Zažij, jaké je tvořit rukama, zotav tělo i mysl.</li>
                     <li>Vše co Zahrada Hojnosti nabízí se vrací zpět, v podobě darů potřebným. </li>
-                    <li>Udržuj koloběh hojnosti. Přijď a nasbírej si při samosběru květiny, byliny, plody, zaplať za ně, ať se zahrada může dále rozvíjet. </li>
+                    <li>Udržuj koloběh hojnosti. Přijď a nasbírej si při samosběru květiny, byliny, plody, zaplať za ně, ať se Zahrada může dále rozvíjet. </li>
                 </ol>
             </section>
 

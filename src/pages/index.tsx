@@ -180,7 +180,7 @@ const IndexPage = () => {
           </li>
           <li className="icon-wrapper">
             <p className="title blue top-text">Umíme zprostředkovat podporu od&nbsp;firem i&nbsp;jednotlivců v&nbsp;našem kraji</p>
-            <Link className="red link" to="/eshop">Pomáhejte s námi</Link>
+            <Link className="red link" to="/kontakt">Pomáhejte s námi</Link>
             <svg className="img svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M404.267 315.41c-10.048-20.949-45.995-50.027-80.725-78.123-19.371-15.659-37.675-30.464-49.344-42.133-2.923-2.944-7.296-3.883-11.157-2.496-7.189 2.603-11.627 4.608-15.125 6.165-5.333 2.389-7.125 3.2-14.315 3.925a10.663 10.663 0 00-7.808 4.672c-15.083 22.549-30.699 20.629-41.131 17.131-3.328-1.109-3.925-2.539-4.245-3.904-2.24-9.365 9.003-31.168 23.573-45.739 34.667-34.688 52.544-43.371 90.304-26.496 42.837 19.157 85.76 34.155 86.187 34.304a10.654 10.654 0 0013.589-6.571c1.92-5.568-1.003-11.648-6.571-13.589-.427-.149-42.496-14.848-84.48-33.643-48.917-21.867-75.755-7.467-114.091 30.891-14.592 14.592-34.411 44.117-29.291 65.771 2.197 9.216 8.683 16.043 18.325 19.221 24.171 7.979 46.229.341 62.656-21.461 6.784-1.045 10.475-2.581 16.021-5.077a209.95 209.95 0 017.467-3.2c12.203 11.456 28.672 24.789 46.016 38.805 31.36 25.365 66.923 54.123 74.923 70.763 3.947 8.213-.299 13.568-3.179 16.021-4.224 3.627-10.005 4.779-13.141 2.581-3.456-2.368-7.957-2.517-11.52-.384a10.66 10.66 0 00-5.141 10.304c.725 6.784-5.483 10.667-8.171 12.011-6.827 3.456-13.952 2.859-16.619.384-2.987-2.773-7.275-3.584-11.072-2.176-3.797 1.429-6.443 4.928-6.827 8.981-.64 6.997-5.824 13.717-12.587 16.341-3.264 1.237-8 1.984-12.245-1.899a10.791 10.791 0 00-9.749-2.475 10.65 10.65 0 00-7.488 6.72c-.405 1.067-1.323 3.627-11.307 3.627-7.104 0-19.883-4.8-26.133-8.939-7.488-4.928-54.443-39.957-94.997-73.92-5.696-4.8-15.552-15.083-24.256-24.171-7.723-8.064-14.784-15.381-18.411-18.453-4.544-3.84-11.264-3.264-15.04 1.259-3.797 4.501-3.243 11.243 1.259 15.04 3.307 2.795 9.707 9.557 16.768 16.917 9.515 9.941 19.349 20.224 25.963 25.771 39.723 33.259 87.467 69.163 96.981 75.413 7.851 5.163 24.768 12.416 37.867 12.416 10.517 0 18.603-2.411 24.213-7.125 7.509 2.923 16.043 2.944 24.256-.256 9.707-3.755 17.685-11.328 22.208-20.501 8.405 1.792 18.027.533 26.773-3.861 8.555-4.309 14.741-10.901 17.813-18.603 8.491.448 17.237-2.56 24.469-8.768 12.247-10.474 15.617-26.772 8.535-41.471z" /><path d="M213.333 138.663h-96c-5.888 0-10.667 4.779-10.667 10.667s4.779 10.667 10.667 10.667h96c5.888 0 10.667-4.779 10.667-10.667s-4.779-10.667-10.667-10.667zM435.52 292.711c-3.307-4.885-9.92-6.229-14.805-2.901l-31.189 20.949c-4.885 3.285-6.187 9.92-2.901 14.805a10.717 10.717 0 008.875 4.715c2.027 0 4.096-.576 5.931-1.813l31.189-20.949c4.884-3.286 6.185-9.92 2.9-14.806zM369.301 343.613c-7.637-6.016-41.792-40.981-62.912-62.997-4.075-4.267-10.837-4.416-15.083-.32-4.267 4.075-4.395 10.837-.32 15.083 5.483 5.717 53.845 56.128 65.088 65.003a10.623 10.623 0 006.592 2.283c3.136 0 6.272-1.408 8.405-4.075 3.649-4.609 2.86-11.329-1.77-14.977zM326.677 365.01c-12.779-10.219-44.885-44.331-52.139-52.224-4.011-4.352-10.731-4.608-15.083-.64-4.331 3.989-4.629 10.752-.64 15.083.384.405 38.699 41.771 54.528 54.443a10.72 10.72 0 006.656 2.325c3.115 0 6.229-1.387 8.341-3.989 3.671-4.609 2.924-11.329-1.663-14.998zM284.224 386.493c-15.211-12.821-46.336-45.952-52.416-52.459-4.032-4.309-10.795-4.544-15.083-.512-4.309 4.032-4.523 10.773-.512 15.083 8.747 9.365 38.528 40.939 54.251 54.208a10.638 10.638 0 006.869 2.517c3.029 0 6.059-1.301 8.171-3.797 3.797-4.523 3.221-11.243-1.28-15.04z" /><path d="M124.672 120.253C106.389 102.93 33.28 97.319 11.307 96.018c-3.029-.149-5.824.853-7.957 2.88A10.662 10.662 0 000 106.663v192c0 5.888 4.779 10.667 10.667 10.667h64c4.608 0 8.704-2.965 10.133-7.36 1.557-4.779 38.315-117.589 43.157-173.056.278-3.243-.917-6.443-3.285-8.661zM66.88 287.997H21.333V118.098c34.283 2.709 71.275 8.597 84.715 15.125-5.653 46.72-31.232 129.728-39.168 154.774zM501.333 117.33c-83.755 0-130.219 21.44-132.16 22.336-2.773 1.301-4.843 3.712-5.696 6.635s-.427 6.059 1.173 8.661c13.184 21.227 54.464 139.115 62.4 167.872a10.665 10.665 0 0010.283 7.829h64c5.888 0 10.667-4.779 10.667-10.667v-192a10.657 10.657 0 00-10.667-10.666zm-10.666 192h-45.355c-10.112-32.939-39.979-118.827-56.64-154.325 16.277-5.525 51.243-15.019 101.995-16.213V309.33z" /></svg>
           </li>
         </ul>
@@ -227,7 +227,7 @@ const IndexPage = () => {
         <p>Jsme přesvědčeni, že prostředky, které vzejdou z&nbsp;regionu, mají znovu najít uplatnění v&nbsp;oblastních projektech.</p>
 
         {/* <p className="subtitle blue">Připojte se, ať&nbsp;už jakoukoli částkou, jakýmkoli způsobem. </p> */}
-        <p className="subtitle bigger" style={{color: 'white', fontSize: '1.7em'}}> Kousek po&nbsp;kousku toho společně zvládneme hodně</p>
+        <p className="subtitle bigger" style={{color: 'white', fontSize: '1.7em'}}> Kousek po&nbsp;kousku toho společně zvládneme kus</p>
 
         <p className="subtitle blue"> Děkujeme, že&nbsp;se připojíte</p>
         <Link to="/eshop" className="button filled bigger">Chci přispět</Link>
@@ -242,10 +242,10 @@ const IndexPage = () => {
                     </h2>
           <p className="text">Na&nbsp;pozemku Nadačního fondu Kousek po&nbsp;kousku ve&nbsp;Fulneku, o&nbsp;rozloze 16&nbsp;000&nbsp;m<sup>2</sup>, se postupně rodí výjimečné <strong>místo pro tělo, mysl a&nbsp;duši, harmonizační
                 a&nbsp;inspirativní prostor pro psychickou i fyzickou relaxaci.</strong> Zázemí zahrady umožní<strong> dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah</strong> pro&nbsp;všechny věkové skupiny i&nbsp;spoluúčast na&nbsp;výjimečném ekonomickém procesu.
-            Prostřednictvím samosběrů květin, bylin a&nbsp;plodů jedlé zahrady představí totiž NF naprosto <strong>unikátní způsob hospodaření pro dosažení soběstačnosti.</strong>
+            Prostřednictvím samosběrů květin, bylin a&nbsp;plodů jedlé Zahrady představí totiž NF naprosto <strong>unikátní způsob hospodaření pro dosažení soběstačnosti.</strong>
           </p>
           <div className="button-row flex-row">
-            <Link className="button filled link" to="/eshop">Chci podpořit zahradu</Link>
+            <Link className="button filled link" to="/eshop">Chci podpořit Zahradu</Link>
             <Link className="button " to="/zahrada-hojnosti">Více</Link>
           </div>
         </section>
@@ -255,10 +255,10 @@ const IndexPage = () => {
       <section className="image-section">
         <section className="text-section section kouskovani">
           <h1 className="section-title">Kouskování</h1>
-          <p className="subtitle">Dejte kouskům druhou šanci!</p>
+          <p className="subtitle">Dejme kouskům druhou šanci!</p>
           <p className="text">Udržitelnost je&nbsp;téma, kterému se&nbsp;dlouhodobě věnujeme. Ano, výroba oblečení má&nbsp;na životní prostředí svůj dopad. Pomůžeme, pokud naši osobní spotřebu redukujeme.</p>
           <p className="text">Do&nbsp;šatníku si&nbsp;pořizujme <strong>základní, kvalitní, nadčasové kousky, nejlépe z&nbsp;recyklovatelných materiálů.</strong> Zejména díky dobrým materiálům vydrží ve&nbsp;skvělé kondici a&nbsp;slouží dlouho, často i&nbsp;někomu druhému. Právě nákup z&nbsp;druhé ruky je jedním z&nbsp;principů zpomalení cyklu neboli <strong>slou&nbsp;módy</strong>.</p>
-          <p className="text">V Nadačním fondu Kousek po&nbsp;kousku máme s&nbsp;dobročinným bazarem pod&nbsp;značkou <strong>Kouskování</strong> dlouholeté zkušenosti. Veškeré kousky, které stále vypadají luxusně a&nbsp;z&nbsp;mnoha důvodů je&nbsp;již nevyužijete, rádi přijmeme a na&nbsp;našem eshopu nabídneme dál. Výtěžek pomůže dlouhodobě podporovanému projektu <Link to="/aktualne-podporujeme#intervence"><strong>Intervence pro&nbsp;autismus.</strong></Link></p>
+          <p className="text">V Nadačním fondu Kousek po&nbsp;kousku máme s&nbsp;dobročinným bazarem pod&nbsp;značkou <strong>Kouskování</strong> dlouholeté zkušenosti. Veškeré kousky, které stále vypadají krásně a&nbsp;z&nbsp;mnoha důvodů je&nbsp;již nevyužijete, rádi přijmeme a na&nbsp;našem eshopu nabídneme dál. Výtěžek pomůže dlouhodobě podporovanému projektu <Link to="/aktualne-podporujeme#intervence"><strong>Intervence pro&nbsp;autismus.</strong></Link></p>
           <div className="button-row">
             <Link to="/kouskovani" className="button">Chci darovat kousek</Link>
             <Link to="/eshop" className="button section-button buy-button filled">
@@ -274,7 +274,7 @@ const IndexPage = () => {
         <div className="galavecer-overlay"></div>
         <section className="text-section section galavecer">
           <h1 className="section-title">Slavnostní galavečer</h1>
-          <p className="subtitle">Buďte u&nbsp;toho</p>
+          <p className="subtitle">Buďte u&nbsp;toho!</p>
           <p className="text">
             Letošní rok je&nbsp;pro Nadační fond Kousek po&nbsp;kousku jubilejní. 10&nbsp;let kousků dobra připomeneme 16.&nbsp;října tohoto roku v&nbsp;kostele sv.&nbsp;Josefa ve&nbsp;Fulneku na&nbsp;Slavnostním Galavečeru. Zrekapitulujeme dosavadní počiny, připomeneme některé z&nbsp;podpořených projektů, přivítáme řadu hostů a&nbsp;prozradíme další plány.
           </p>

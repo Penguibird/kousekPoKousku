@@ -313,7 +313,7 @@ const Map: React.FC<MapProps> = ({ }) => {
                         <button className="projekt-title-button" onClick={highlightProjekt(i)}>
                             <h3 style={{ textAlign: 'left' }} className="projekt-title">{p.name} {p.kouskovani ? <span className="kouskovani-icon"></span> : null}</h3>
                         </button>
-                        <p className="money">{p.price} Kč</p>
+                        <p className="money">{p.price.toLocaleString('cs-CZ')} Kč</p>
                         <p className="description">{p.description && p.description !== "undefined" ? p.description : ""}</p>
                         {/* {p.kouskovani ? <p className="kouskovani-popis">Projekt byl podpořen z výtěžků Kouskování</p> : null} */}
                     </div>)

@@ -209,6 +209,9 @@ section.call-to-action {
   .title {
     text-align: center;
   }
+  .subtitle {
+    margin: .5em 0 0;
+  }
 }
 
 section.aktuality {
@@ -220,7 +223,7 @@ section.aktuality {
 }
 
 .galavecer-overlay {
-  background-image: linear-gradient(135deg, rgb(100 100 100 / 78%), rgb(187 187 187 / 13%));
+  background-image: linear-gradient(135deg, rgb(165 165 165 / 78%), rgb(187 187 187 / 13%));
   @media (max-width: 1300px) {
     background-image: linear-gradient(135deg, rgb(160 160 160 / 90%), rgb(187 187 187 / 42%));
   }

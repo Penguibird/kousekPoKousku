@@ -3,6 +3,16 @@ body {
     color: $base-text-color;
 }
 
+sup {
+    line-height: 0;
+
+    /* The following rules (or similar) likely come from browser 
+     * style and are not needed
+     */
+    font-size: 0.83em;
+    vertical-align: super;
+}
+
 h1 {
     font-size: 2.3rem;
 }
@@ -120,4 +130,10 @@ svg.arrow {
     object-fit: cover;
     object-position: center center;
     max-height: 800px;
+}
+
+.link-image {
+    &:hover {
+        filter: brightness(1.1);
+    }
 }
