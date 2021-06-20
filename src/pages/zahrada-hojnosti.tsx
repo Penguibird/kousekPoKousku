@@ -51,7 +51,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
         const video = document.querySelector('.hero-video');
         if (video) video.addEventListener('loadeddata', () => {
             const target = document.getElementById('placeholderImage');
-            console.log(target)
+            // console.log(target)
             if (target) target.style.display = 'none';
         }, false)
     }, [breakpoints])
@@ -133,7 +133,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
             <section className="section section-text section-centered">
                 <p className="montserrat-subtitle co-nabizi" >
-                    Spolupráce s přírodou je rovná. <strong>Za práci, péči a starostlivost přichází hojnost.</strong> Pokud ji chceme vidět, vnímáme ji všude. Už při zrodu nabízí Zahrada půdu, prostor a zázemí.
+                    Spolupráce s přírodou je rovná. <strong>Za práci, péči a starostlivost přichází hojnost.</strong> Pokud ji vidět chceme, vnímáme ji všude. Už při zrodu nabízí Zahrada půdu, prostor a zázemí.
                         Je povzbuzující terapií vidět, jak se i to nejmenší semínko snaží uchytit, každá květina na louce prezentovat svoji krásu. Je to výzva a inspirace pro nás pro všechny.
                     </p>
             </section>

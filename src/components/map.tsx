@@ -152,12 +152,12 @@ const Map: React.FC<MapProps> = ({ }) => {
     
         
         useEffect(() => {
-        const years = projekty.reduce((acc, v) => {
-            if (!acc[v.year]) acc[v.year] = [];
-            acc[v.year].push(v);
-            return acc;
-        }, [])
-        console.log(years);
+        // const years = projekty.reduce((acc, v) => {
+        //     if (!acc[v.year]) acc[v.year] = [];
+        //     acc[v.year].push(v);
+        //     return acc;
+        // }, [])
+        // console.log(years);
         // console.log(projekty)
         //#region loading map
         const loader = new Loader({

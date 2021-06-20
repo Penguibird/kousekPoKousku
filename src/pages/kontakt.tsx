@@ -32,7 +32,7 @@ const KontaktPage: React.FC<KontaktPageProps> = ({ }) => {
                 <li className="clovek">
                     <h2 className="jmeno">Ivana Ježová</h2>
                     <p className="popis">asistentka</p>
-                    <a href="mailto:iva.jezova@kousekpokousku.cz">iva.jezova@kousekpokousku.cz</a>
+                    <a href="mailto:info@kousekpokousku.cz">iva.jezova@kousekpokousku.cz</a>
                     <a href="tel:+420736426683">+420 736 426 683</a>
                 </li>
             </ul>
