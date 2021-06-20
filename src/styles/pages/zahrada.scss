@@ -400,29 +400,32 @@ section.prinos > .title {
   .carousel-nav-button {
     // width: 30px;
     // height: 5px;
-    height: 2em;
-    width: 2em;
+    height: 3em;
+    width: 3em;
     border-radius: 100vw;
 
     // background-color: rgb(228, 228, 228);
-
+    svg {
+      width: 100%;
+      height: auto;
+    }
     @include Cavolini;
     font-style: italic;
     font-weight: 600;
     font-size: 1.3em;
     color: $main-green;
 
-    &:hover {
-      background-color: rgb(223, 223, 223);
-    }
-    &:active {
-      background-color: rgb(208, 208, 208);
-    }
-    &.selected {
-      background-color: $main-green;
-      border: solid 2px $main-green;
-      color: white;
-    }
+    // &:hover {
+    //   background-color: rgb(223, 223, 223);
+    // }
+    // &:active {
+    //   background-color: rgb(208, 208, 208);
+    // }
+    // &.selected {
+    //   background-color: $main-green;
+    //   border: solid 2px $main-green;
+    //   color: white;
+    // }
   }
 }
 
