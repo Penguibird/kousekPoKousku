@@ -165,7 +165,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                             </p>
 
                         <p className="text">
-                            <strong>Chcete&nbsp;se&nbsp;zapojit?</strong> Přihlaste&nbsp;se do FB&nbsp;skupiny <a href="">Dobrovolníci&nbsp;pro&nbsp;kousek</a>, kde sdělujeme aktuální informace o&nbsp;termínech a&nbsp;akcích, nebo napište na&nbsp;<a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>.
+                            <strong>Chcete&nbsp;se&nbsp;zapojit?</strong> Přihlaste&nbsp;se do FB&nbsp;skupiny <a href="https://www.facebook.com/groups/1260444491039723">Dobrovolníci&nbsp;pro&nbsp;kousek</a>, kde sdělujeme aktuální informace o&nbsp;termínech a&nbsp;akcích, nebo napište na&nbsp;<a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>.
                         </p>
                         <p className="subtitle green" ><strong>Rádi Vás přivítáme</strong>.</p>
                     </li>
