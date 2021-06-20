@@ -2,7 +2,7 @@
 id: crM_fLS5v
 title: Muzem Nový Jičín
 price: 23133
-year: 2020
+year: 2015
 description: "  "
 locationName: ""
 position:
