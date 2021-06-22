@@ -214,29 +214,12 @@ section.section.tree-section {
       width: 75vw;
     }
     section {
-      margin-top: 50vw;
+      margin-top: 30vw;
     }
   }
 
   // p {
-  //   width: 100vw;
-  //   max-width: 100vw;
-  //   margin-top: 20vw;
-  //   &::after, &::before {
-  //     content: '';
-  //     width: 50%;
-  //     height: 100%;
-  //     // shape-margin: 10%;
-
-  //   }
-  //   &::before {
-  //     float: left;
-  //     shape-outside: polygon(29.01% 24.12%, 27.2% 19.27%, 33.76% 13.38%, 40.91% 16.36%, 36.24% -7.67%, 0.79% -0.13%, 0.43% 54.27%, 27.04% 48.01%);
-  //       }
-  //   &::after {
-  //     float: right;
-  //     shape-outside: polygon(0 0, 100% 100%, 0 100%);
-  //   }
+  //   
   // }
 }
 
@@ -466,6 +449,9 @@ section.paragraph {
     max-width: 900px;
 
     text-align: justify;
+    @media (max-width: 678px) {
+      text-align-last: left;
+    }
   }
 
   @media (max-width: 800px) {
@@ -530,6 +516,7 @@ section.quote-section {
   .img {
     max-width: 20vw;
   }
+  font-size: clamp(0.5rem, calc(0.2rem + 1.5vw), 1rem);
 
   @media (max-width: 800px) {
     align-items: center;
@@ -543,7 +530,10 @@ section.quote-section {
       font-size: 1.6em;
       margin-left: 0;
       margin-right: 0;
-    }
+      width: 100vw;
+      max-width: 100vw;
+      margin-top: 20vw;
+     
   }
 }
 
@@ -573,6 +563,22 @@ section.quote-section {
     text-align: center;
     line-height: 1.5em;
     margin-top: 0.5em;
+
+    &::after, &::before {
+      content: '';
+      width: 50%;
+      height: 100%;
+      // shape-margin: 10%;
+    }
+    &::before {
+      float: left;
+      shape-outside: polygon(29.01% 24.12%, 27.2% 19.27%, 33.76% 13.38%, 40.91% 16.36%, 36.24% -7.67%, 0.79% -0.13%, 0.43% 54.27%, 27.04% 48.01%);
+    }
+    // &::after {
+    //   float: right;
+    //   shape-outside: polygon(0 0, 100% 100%, 0 100%);
+    // }
+  }
   }
 
   blockquote.bottom {

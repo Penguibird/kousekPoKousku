@@ -16,6 +16,9 @@ main.o-nadaci {
             max-width: 60ch;
             line-height: 1.7em;
             text-align: justify;
+            @media (max-width: 678px) {
+                text-align-last: left;
+              }
         }
         *+.text {
             margin-top: 1.6em;

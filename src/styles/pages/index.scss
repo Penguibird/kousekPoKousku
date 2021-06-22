@@ -281,6 +281,9 @@ section.o-nadaci {
   p,
   .text {
     text-align: justify;
+    @media (max-width: 678px) {
+      text-align-last: left;
+    }
   }
   .button {
     display: block;
