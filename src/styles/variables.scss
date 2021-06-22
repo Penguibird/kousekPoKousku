@@ -22,10 +22,12 @@ $light-gray-background: #e8e8e8;
 @mixin  flexGap($value,  $column: false) {
     @if $column {
         &>*+* {
+            margin-left: 0 !important;
             margin-top: $value !important;
         }
     } @else {
         &>*+* {
+            margin-top: 0 !important;
             margin-left: $value !important;
         }
     }

@@ -2,7 +2,6 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  @include  flexGap(4em,  $column: true);
 
   width: 100vw;
   margin: 2em 0 0;
@@ -10,20 +9,21 @@ footer {
 
   font-size: 0.85rem;
   background-color: $main-yellow;
+  @include flexGap(4em, $column: true);
   ul {
     display: flex;
     flex-direction: row;
-    @include  flexGap(max(3em, 10vw),  $column: false);
     align-items: flex-start;
     justify-content: space-around;
     padding: 0 1em;
     list-style-type: none;
+    @include flexGap(max(3em, 10vw), $column: false);
     @media (max-width: 700px) {
       flex-direction: column;
-      @include  flexGap(2em,  $column: true);
       align-items: flex-start;
       align-self: flex-start;
       padding-left: 3em;
+      @include flexGap(2em, $column: true);
     }
 
     * {
@@ -40,6 +40,7 @@ footer {
     display: inline;
   }
   li {
+    flex: 1 0 0;
     h5 {
       font-size: 1.1em;
     }
@@ -62,17 +63,41 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    & > * + * {
-      margin-left: 1em;
-    }
+    justify-content: flex-end;
+    justify-self: flex-end;
+    // flex-wrap: wrap;
+    
     a {
-      width: 3em;
+      margin: .7em;
+      width: max-content;
+      // min-width: 3em;
+      // flex-grow: 1;
+      // flex-basis: 0;
       svg {
-        width: 100%;
+        width: 3em;
         height: auto;
       }
     }
+   
   }
+
+  .fb-group-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      color: white;
+      font-weight: 600;
+      text-align: center;
+    }
+    &:hover p {
+      text-decoration: underline;
+    }
+    & > * + * {
+      margin-top: 0.5em;
+    }
+  }
+
   .signature {
     color: darken(white, 4);
     font-weight: 600;
