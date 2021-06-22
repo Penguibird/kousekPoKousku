@@ -324,15 +324,15 @@ const IndexPage = () => {
 
       <section className="section section-text" id="o-nadaci">
         <h1 className="title">O&nbsp;nadačním fondu</h1>
-        <p className="text" style={{ textAlign: 'justify' }}>Každý člověk může kdykoliv během svého života zažívat radost, zapálení, touhu objevovat nové možnosti, realizovat je tvořivou cestou a tím zlepšovat sám sebe i svět kolem nás, tady a teď. </p>
+        <p className="text">Každý člověk může kdykoliv během svého života zažívat radost, zapálení, touhu objevovat nové možnosti, realizovat je tvořivou cestou a tím zlepšovat sám sebe i svět kolem nás, tady a teď. </p>
         <p className="text">Pomáháme chápat a přijímat nové životní pohledy, uchopit život do vlastních rukou a osvojit si skutečné životní hodnoty. Zároveň prožíváme radost a uspokojení z toho, co děláme. Každý v sobě máme něco jedinečného, a to pomáháme objevit. Všichni máme volbu. My jsme si zvolili dělat to, co nás naplňuje. Pomáhat lidem, sobě a světu kolem nás.
         <Link className="button" to="/mise-vize-poslani">Více o nadačním fondu</Link>
         </p>
       </section>
 
       <section className="section section-text section-projekty">
-          <h1 className="title">Aktuálně podporujeme</h1>
-          <p className="subtitle">V souladu s tématem hledání rovnováhy těla duše a mysli</p>
+        <h1 className="title">Aktuálně podporujeme</h1>
+        <p className="subtitle">V souladu s tématem hledání rovnováhy těla duše a mysli</p>
         <div className="projekty">
           <Link to="/zahrada-hojnosti" className="projekt-link zahrada">
             <StaticImage className='img' src="../images/jahoda.png" alt='' layout='constrained' placeholder='blurred' objectFit='contain' />

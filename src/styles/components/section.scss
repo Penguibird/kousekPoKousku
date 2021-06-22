@@ -4,7 +4,7 @@
 
   p {
     width: auto;
-    max-width: 70ch;
+    max-width: min( 90vw, 70ch);
   }
   .subtitle,
   .section-subtitle {

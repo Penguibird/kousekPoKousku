@@ -187,7 +187,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
             <section className="tree-section section">
                 <LayerWrapper>
-                    <StaticImage className='img tree-img' src="../images/tree_final.png" alt='' layout='fullWidth' placeholder='blurred' />
+                    <StaticImage className='img tree-img' src="../images/tree_final_final.png" alt='' layout='fullWidth' placeholder='blurred' />
 
                     <section className="quote-section">
                         <figure className="quote-wrapper">
