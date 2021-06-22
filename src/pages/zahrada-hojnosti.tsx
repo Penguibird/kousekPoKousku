@@ -195,7 +195,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                             <figcaption className="">J.&nbsp;A.&nbsp;Komenský</figcaption>
                             {/* <blockquote className="bottom">Kéž&nbsp;Vám bude Zahrada hojnosti k&nbsp;tomuto sloužit…</blockquote> */}
                         </figure>
-                        <StaticImage className="img" src='../images/komensky.jpg' alt='Jan amos komensky' placeholder="blurred" layout='constrained' />
+                        <StaticImage className="img" src='../images/komensky.jpg' alt='Jan amos komensky' placeholder="blurred" layout='constrained' imgStyle={{ filter: 'brightness(1.1)' }} />
                     </section>
                 </LayerWrapper>
             </section>

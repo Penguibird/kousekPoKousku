@@ -11,16 +11,33 @@ footer {
   background-color: $main-yellow;
   @include flexGap(4em, $column: true);
   ul {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
     padding: 0 1em;
     list-style-type: none;
-    @include flexGap(max(3em, 10vw), $column: false);
+    // display: flex;
+    // flex-direction: row;
+    // align-items: flex-start;
+    // justify-content: space-around;
+    // @include flexGap(max(3em, 10vw), $column: false);
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10em 1fr 1fr 10em;
+    grid-template-rows: auto;
+    gap: 2em;
+    .adresa {
+      grid-column: 2 / span 1;
+      justify-self: end;
+    }
+    .kontakt {
+      grid-column: 3 / span 1;
+    }
+    .links {
+      grid-column: 4 / span 1;
+    }
     @media (max-width: 700px) {
+      display: flex;
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center ;
       align-self: flex-start;
       padding-left: 3em;
       @include flexGap(2em, $column: true);
