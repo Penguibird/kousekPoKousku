@@ -309,54 +309,6 @@ const IndexPage = () => {
 
         </section>
 
-        <section className="section-klinika">
-            <section className="section section-text " id="klinika">
-                <h2 className="section-title title">
-                    Sociální klinika
-                    </h2>
-                {/* <p className="subtitle">Podpora služeb rozvoje Sociální kliniky v Moravskoslezském kraji</p> */}
-
-                <p>Nadační fond Kousek po kousku podporuje projekty, které souvisí s&nbsp;rovnováhou těla, mysli a&nbsp;duše.</p>
-                <p className="-text">Jedním z&nbsp;nich je spolupráce se&nbsp;Sociální klinikou, která poskytuje dostupnou terapeutickou službu všem, kteří se nacházejí v&nbsp;náročné životní situaci a&nbsp;nemohou si tyto služby z&nbsp;finančních důvodů dovolit. 
-                Přesto na&nbsp;sobě chtějí pracovat, hledají změnu a&nbsp;uvědomují si&nbsp;díl své zodpovědnosti. Více najdete na&nbsp;<a href=""><strong>www.socialniklinika.cz</strong></a>, kde se&nbsp;i&nbsp;objednáte na&nbsp;konzultaci.</p>
-
-                <p>Využijte možnosti, na kterou přispívá i NF Kousek po kousku.
-                    Nemusíte mít obavy. Zaplatíte jen to, co můžete.</p>
-
-                <p className="subtitle">Nadechnout se a jít dál. Držíme palce všem odhodlaným. </p>
-
-
-                {/* <a className="button link" href="https://www.socialniklinika.cz/">
-                    sociálni klinika.cz
-                    </a> */}
-            </section>
-            <StaticImage className='img' src="../images/logo_socialni_klinika.png" alt='Logo sociální kliniky' layout='constrained' placeholder='blurred' />
-        </section>
-        <section className="section-intervence" id="intervence">
-            <section className="section section-text" >
-                <h2 className="section-title title">
-                    Intervence pro autismus
-                    </h2>
-                {/* <p className="subtitle">
-                    Dicta qui aliquam nihil harum nulla optio nisi modi sequi.
-                    </p> */}
-                <p className="text">
-                    Posláním Intervence pro autismus je vytváření systematického procesu k pomoci řešení sociálních, vzdělávacích a adaptačních potíží osob s poruchou autistického spektra.
-                    Spolek nabízí pomoc rodinám, které s autismem žijí a pedagogům, kteří mají s touto problematikou nějaké zkušenosti.
-                    Vyměňují si poznatky, sdílejí radosti i starosti, radí se, vzájemně se podporují.  Intervence pro autismus pořádá aktivity, které přispívají ke zkvalitnění života lidí s autismem, spolupracuje s podobnými organizacemi nejen v Česku, organizuje semináře a přednášky pro veřejnost, chystá se vydávat brožury a publikace.
-               </p>
-                <p className="text">
-                    Intervenci pro autismus budeme nadále podporovat. Morálně, komunitně a díky Vašim příspěvkům do Kouskování i finančně.
-                    Proč? Lidí s některou z forem autismu, bohužel, přibývá. Největším problémem je, že se stávají terčem útoků na veřejnosti. Neznalost budí strach. Pojďme to kousek společně změnit.
-                    Pokud bude společnost informována, bude lépe připravena na setkání s těmi, kteří neměli tolik štěstí.
-                </p>
-                <p className="subtitle">Děkujeme, že pomáháte.</p>
-
-            </section>
-            <StaticImage className='img' src="../images/puzzle.png" alt='Ruka držící puzzle' layout='constrained' placeholder='blurred' />
-        </section>
-
-
 
         <section className="section section-text" id="o-nadaci">
           <h1 className="title">O&nbsp;nadačním fondu</h1>
