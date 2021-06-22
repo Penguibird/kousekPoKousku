@@ -108,7 +108,7 @@ section.intro-section {
     font-size: 2em;
     text-align: left;
   }
-  font-size: clamp(0.5rem, calc(0.2rem + 1.5vw), 1rem);
+  font-size: clamp(0.7rem, calc(0.2rem + 1.5vw), 1rem);
   .claims p.title {
     font-weight: 500 !important;
     font-size: 1.5em;
@@ -163,7 +163,7 @@ section.subtitle {
 
   padding: 0;
   width: 100%;
-  font-size: clamp(0.5rem, calc(0.2rem + 1.5vw), 1rem);
+  font-size: clamp(0.8rem, calc(0.3rem + 1.5vw), 1rem);
   max-width: 30em;
   // background-color: white;
   li.cislo.people {
