@@ -25,13 +25,13 @@ const MediaPage: React.FC<MediaPageProps> = ({ }) => {
 
             <section className="section section-center">
                 <h2 className="title">Klášterní kouskování 2019</h2>
-                <p>A máme za sebou další úspěšný, letos už 6 ročník Klášterního kouskování ve Fulneku, kde se díky Vám podařilo vybrat neuvěřitelných 91 495 korun!</p>
+                <p>A máme za sebou další úspěšný, letos už 6. ročník Klášterního kouskování ve Fulneku, kde se díky Vám podařilo vybrat neuvěřitelných 91 495 korun!</p>
                 <iframe width="500" height="380" src="https://www.youtube.com/embed/2eI66_Pu9ZA" allow="autoplay; encrypted-media" allowFullScreen></iframe>
             </section>
 
             <section className="section section-center">
                 <h2 className="title">Klášterní kouskování 2018</h2>
-                <p>A máme za sebou další úspěšný, letos už 5 ročník Klášterního kouskování ve Fulneku, kde se díky Vám podařilo vybrat neuvěřitelných 108 981 korun!</p>
+                <p>A máme za sebou další úspěšný, letos už 5. ročník Klášterního kouskování ve Fulneku, kde se díky Vám podařilo vybrat neuvěřitelných 108 981 korun!</p>
                 <iframe width="500" height="380" src="https://www.youtube.com/embed/gacnR3W1Q58" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </section>
 
@@ -43,7 +43,7 @@ const MediaPage: React.FC<MediaPageProps> = ({ }) => {
 
             <section className="section section-center">
                 <h2 className="title">Poděkování Matěje Čípa</h2>
-                <p>Jako poděkování a pozdrav z USA nám poslal Matěj Číp video pro 6. Ročník Klášterního kouskování, jehož téma bylo ZVUK.</p>
+                <p>Jako poděkování a pozdrav z USA nám poslal Matěj Číp video pro 6. ročník Klášterního kouskování, jehož téma bylo ZVUK.</p>
                 <iframe width="500" height="380" src="https://www.youtube.com/embed/n2vwNLD0R3o" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </section>
 

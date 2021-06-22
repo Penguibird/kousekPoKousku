@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: stretch;
   
-    gap: 2em;
+    @include  flexGap(2em,  $column: false);
     padding: 1em 0;
     
     flex: 1 0 auto;

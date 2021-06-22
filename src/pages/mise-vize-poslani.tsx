@@ -34,7 +34,7 @@ const ONadaciPage = () => {
                 <section className="section-text section poslani">
                     <h2 className="title">POSLÁNÍ</h2>
                     <ul className="list">
-                        <li>Konkrétními skutky dělat život lepší.</li>
+                        <li>Konkrétními skutky dělat život lepším.</li>
                         <li>Pomáhat těm, ke kterým nebyl osud milostivý.</li>
                         <li>Podporovat tvořivé a aktivní bytosti na jejich cestě.</li>
                         <li>Šířit myšlenky udržitelnosti a soběstačnosti.</li>
@@ -42,8 +42,8 @@ const ONadaciPage = () => {
                         <li>Inspirovat k dárcovství a filantropickým aktivitám.</li>
                         <li>Pokoušet se o změny ve společnosti vlastními, byť malými, činy.</li>
                         <li>Vytvářet hodnoty, které přetrvají staletí pro další generace.</li>
-                        <li>Být v souladu s přírodou, šetři ji, pečovat o ni a být příkladem pro ostatní</li>
-                        <li>Následovat odkaz J. Á. Komenského, zejména podporovat téma Škola hrou</li>
+                        <li>Být v souladu s přírodou, šetřit ji, pečovat o ni a být příkladem pro ostatní</li>
+                        <li>Následovat odkaz J. A. Komenského, zejména podporovat téma Škola hrou</li>
                         <li>Podporovat popularizaci historie Fulneku i za hranicemi regionu</li>
                     </ul>
                 </section>
@@ -54,7 +54,7 @@ const ONadaciPage = () => {
 
                     <p className="text">Nadační fond Kousek po kousku byl založen v prosinci roku 2011 za účelem s cílem podpory a rozvoje duchovních a humanitárních hodnot, podpory životního prostředí, chovu a ochrany zvířat, vzdělávání,
                      školství včetně volnočasových aktivit, vědy a výzkumu, sportu, sociálně-zdravotní oblasti, potřeb seniorů, zdravotnictví, kultury, umění, památek, lidových tradic, dále podpory regionu a evropských projektů neziskových organizací na výše uvedené účely.</p>
-                    <p className="text">Kousek po kousku vznikl z iniciace Martiny Mazancové, za velké podpory tatínka Martiny, zakladatele a původního majitele rodinné společnosti Pars Komponenty, s. r. o., pana Vladimíra Vyhlídala.</p>
+                    <p className="text">Kousek po kousku vznikl z iniciativy Martiny Mazancové, za velké podpory tatínka Martiny, zakladatele a původního majitele rodinné společnosti Pars Komponenty, s. r. o., pana Vladimíra Vyhlídala.</p>
                     <StaticImage className='img' src="../images/pan_vyhlida.jpg" alt='Pan Vyhlídal u stolu' layout='constrained' placeholder='blurred' />
 
                     <p className="text">První grantové kolo bylo vyhlášeno na jaře 2012 díky finančnímu příspěvku společnosti Pars Komponenty, s.r.o., která už před založením nadačního fondu splňovala kredit společensky zodpovědné firmy a měla za sebou podnikatelské úspěchy.</p>
@@ -64,8 +64,8 @@ const ONadaciPage = () => {
                         <li className=""><span className="year">2010</span> - finalista soutěže EY Podnikatel roku 2010 České republiky</li>
                         <li className=""><span className="year">2011</span> - Ocenění Krajské hospodářské komory Moravskoslezského kraje a Sdružení pro rozvoj Moravskoslezského kraje za přínos k&nbsp;rozvoji Moravskoslezského kraje – v kategorii Malá a střední firma</li>
                     </ul>
-                    <p className="text">Duší Nadačního fondu Kousek po kousku vždy byla a je  dcera zakladatele Martina Mazancová, která se s oporou svého manžela Ladislava Mazance, osobně věnuje všem podporovaným projektům a kousek po kousku vede aktivity NF směrem ke spolupráci s dalšími donátory a filantropy.
-                     Stojí také  za vlastním unikátním projektem Zahrady Hojnosti, ke kterému přistupuje s neobyčejným vizionářským pohledem a osobní angažovaností, s cílem vytvořit ve Fulneku jedinečné místo pro místní i návštěvníky města a kde zhmotní svou filantropickou ideu.</p>
+                    <p className="text">Duší Nadačního fondu Kousek po kousku vždy byla a je dcera zakladatele Martina Mazancová, která se s oporou svého manžela Ladislava Mazance osobně věnuje všem podporovaným projektům a kousek po kousku vede aktivity NF směrem ke spolupráci s dalšími donátory a filantropy.
+                     Stojí také  za vlastním unikátním projektem Zahrady Hojnosti, ke kterému přistupuje s neobyčejným vizionářským pohledem a osobní angažovaností. Jejím cílem je vytvořit ve Fulneku jedinečné místo pro místní i návštěvníky města, kde zhmotní svou filantropickou ideu.</p>
                 </section>
                 <section className="section images">
                     <StaticImage className='img' src="../images/martina_laptop.jpg" alt='Pan Vyhlídal u stolu' layout='constrained' placeholder='blurred' />

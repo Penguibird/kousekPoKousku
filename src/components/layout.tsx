@@ -15,7 +15,8 @@ interface Props {
 }
 
 const Layout: React.FC<Props> = ({ children, title, description, headerProps }) => {
-    const defaultDescription: string = "" as const;
+    const defaultDescription: string = `Věříme, že čemu je věnována pozornost, to se děje. Naše pozornost míří k podpoře těch, kterým mnohdy chybí jen malý kousek k cíli.
+     Kousek po kousku přispíváme lepšímu životu v našem, v Moravskoslezském kraji. Každý kousek se počítá Přidejte se!` as const;
     return (
         <Fragment>
             <Helmet>

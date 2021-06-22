@@ -18,3 +18,15 @@ $text-white: white;
 $gray: rgb(128, 128, 128);
 
 $light-gray-background: #e8e8e8;
+
+@mixin  flexGap($value,  $column: false) {
+    @if $column {
+        &>*+* {
+            margin-top: $value !important;
+        }
+    } @else {
+        &>*+* {
+            margin-left: $value !important;
+        }
+    }
+}

@@ -3,7 +3,7 @@ main.kouskovani-darovat {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: .5em;
+        @include  flexGap(.5em,  $column: true);
         margin: 1em auto 2.5em;
         strong {
             color: $main-black;

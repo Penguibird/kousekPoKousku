@@ -35,8 +35,8 @@ const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
                 <p className="-text">Jedním z&nbsp;nich je spolupráce se&nbsp;Sociální klinikou, která poskytuje dostupnou terapeutickou službu všem, kteří se nacházejí v&nbsp;náročné životní situaci a&nbsp;nemohou si tyto služby z&nbsp;finančních důvodů dovolit. 
                 Přesto na&nbsp;sobě chtějí pracovat, hledají změnu a&nbsp;uvědomují si&nbsp;díl své zodpovědnosti. Více najdete na&nbsp;<a href=""><strong>www.socialniklinika.cz</strong></a>, kde se&nbsp;i&nbsp;objednáte na&nbsp;konzultaci.</p>
 
-                <p>Využijte možnosti, na kterou přispívá i NF Kousek po kousku.
-                    Nemusíte mít obavy. Zaplatíte jen to, co můžete.</p>
+                <p>I vz můžete využít pomoci Sociální klinikz, kterou podporuje i NF Kousek po kousku.
+                    Bez obav. Zaplatíte jen to, co můžete.</p>
 
                 <p className="subtitle">Nadechnout se a jít dál. Držíme palce všem odhodlaným. </p>
 

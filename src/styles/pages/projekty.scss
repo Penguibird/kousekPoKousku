@@ -1,11 +1,10 @@
-
 .map-section {
   .title {
     margin: 0 auto;
     text-align: center;
     width: 100vw;
     background-color: $main-yellow;
-    padding: .5em 0;
+    padding: 0.5em 0;
   }
 }
 
@@ -16,9 +15,12 @@ section#zahrada .text {
 .section-zahrada {
   display: flex;
   flex-direction: row-reverse;
-  gap: 5em;
+  // @include  flexGap(5em,  $column: true);
+  & > * + * {
+    margin-right: 5em;
+  }
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   .section {
     width: auto;
   }
@@ -29,7 +31,7 @@ section#zahrada .text {
   @media (max-width: 800px) {
     flex-direction: column;
     align-items: flex-start;
-    gap: 0;
+    @include flexGap(0, $column: true);
     .img {
       margin-top: -2em;
       width: 60%;
@@ -41,7 +43,7 @@ section#zahrada .text {
 .section-klinika {
   display: flex;
   flex-direction: row;
-  gap: 5em;
+  @include flexGap(5em, $column: true);
   align-items: center;
   justify-content: flex-start;
   .section {
@@ -49,7 +51,7 @@ section#zahrada .text {
   }
   @media (max-width: 800px) {
     flex-direction: column;
-    gap: 0;
+    @include flexGap(0, $column: true);
     .img {
       width: 50%;
       margin-bottom: 2em;
@@ -60,7 +62,7 @@ section#zahrada .text {
 .section-intervence {
   display: flex;
   flex-direction: row;
-  gap: 5em;
+  @include flexGap(5em, $column: false);
   align-items: flex-end;
   justify-content: space-between;
   .section {
@@ -73,12 +75,10 @@ section#zahrada .text {
   }
   @media (max-width: 800px) {
     flex-direction: column;
-    gap: 0;
+    // @include flexGap(0, $column: true);
     .img {
       margin-top: -4em;
-
     }
-    
   }
 }
 

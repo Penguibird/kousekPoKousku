@@ -7,7 +7,7 @@ interface VyrocniZpravyPageProps {
 };
 
 const VyrocniZpravyPage: React.FC<VyrocniZpravyPageProps> = ({ }) => {
-    return <Layout  title="Ke stažení | Nadační fond Kousek po Kousku" >
+    return <Layout title="Ke stažení | Nadační fond Kousek po Kousku" >
         <main className="ke-stazeni">
             <section className="vyrocni-zpravy">
                 <h2>Výroční zprávy</h2>
@@ -15,6 +15,12 @@ const VyrocniZpravyPage: React.FC<VyrocniZpravyPageProps> = ({ }) => {
                     {[2, 3, 4, 5, 6, 7].reverse().map((n: number) => <li className="zprava" key="n">
                         <a href={`/ke-stazeni/vyrocni-zprava-nfkpk-201${n}.pdf`}>Výroční zpráva 201{n} (PDF)</a>
                     </li>)}
+                    <li className="zprava">
+                        <a href={`/ke-stazeni/VÝROČNÍ ZPRÁVA 2018.pdf`}>Výroční zpráva 2018 (PDF)</a>
+                    </li>
+                    <li className="zprava">
+                        <a href={`/ke-stazeni/VÝROČNÍ ZPRÁVA 2019.pdf`}>Výroční zpráva 2019 (PDF)</a>
+                    </li>
                 </ul>
             </section>
 

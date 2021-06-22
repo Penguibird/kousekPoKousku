@@ -21,7 +21,7 @@ header {
 
         margin-top: 0.5em;
 
-        min-width: 90px;
+        min-width: 60px;
         width: 10vw;
         max-width: 120px;
 
@@ -201,7 +201,7 @@ header input[type="checkbox"] {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            gap: 0;
+            @include  flexGap(0,  $column: true);
         }
         .navbar-link {
             width: auto !important;

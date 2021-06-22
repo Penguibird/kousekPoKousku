@@ -5,6 +5,7 @@
     'years projekty';
   grid-template-rows: 1fr 2fr;
   grid-template-columns: 200px 1fr;
+  // @include  flexGap(3em,  $column: true);
   gap: 3em;
   max-width: 1300px;
   margin: 0 auto;
@@ -31,7 +32,7 @@
 .map-projekty-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 1.5em;
+  @include  flexGap(1.5em,  $column: true);
   align-items: flex-start;
 }
 

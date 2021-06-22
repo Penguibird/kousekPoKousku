@@ -258,7 +258,7 @@ section.co-nabizi {
     align-items: flex-start;
     justify-content: space-evenly;
     flex: 1 1 auto;
-    gap: 4em;
+    @include  flexGap(4em,  $column: false);
 
     & > * {
       width: 100%;
@@ -393,7 +393,7 @@ section.prinos > .title {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 2em;
+  @include  flexGap(2em,  $column: false);
   justify-content: center;
   width: 100vw;
   padding: 0.5em 0;
@@ -444,7 +444,7 @@ section.paragraph {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: 1em;
+  @include  flexGap(1em,  $column: false);
   padding: 0 0 2em;
   .img {
     width: 40vw;
@@ -626,7 +626,7 @@ section.gallery {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 2em;
+  @include  flexGap(2em,  $column: false);
   flex-wrap: wrap;
   & > * {
     height: 100%;
@@ -642,7 +642,7 @@ section.financovani {
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  gap: 1em;
+  @include  flexGap(1em,  $column: false);
   padding-right: 0;
   @media (max-width: 900px) {
     .img {
@@ -659,7 +659,7 @@ section.financovani {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 2em;
+    @include  flexGap(2em,  $column: false);
     @media (max-width: 768px) {
       flex-direction: column;
     }

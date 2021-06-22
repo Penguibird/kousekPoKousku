@@ -1,9 +1,10 @@
 main.aktuality {
+  // @include  flexGap(2em,  $column: true);
   $gap: 2em;
   section.aktuality-grid {
     display: flex;
     flex-direction: row;
-    gap: $gap;
+    @include  flexGap($gap,  $column: false);
     align-items: start;
     justify-content: space-evenly;
     max-width: 1300px;
@@ -14,7 +15,7 @@ main.aktuality {
   .flex-column {
     display: flex;
     flex-direction: column;
-    gap: $gap;
+    @include  flexGap($gap,  $column: true);
     align-items: stretch;
     min-width: 25%;
   }

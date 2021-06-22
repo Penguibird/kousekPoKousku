@@ -2,14 +2,14 @@ main.zadat {
   section.main-section {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    @include  flexGap(2em,  $column: true);
     align-items: center;
     justify-content: space-around;
 
     padding-top: 8em;
 
     .subtitle {
-      font-size: 2.5em;
+      font-size: 1.5em;
     }
   }
 

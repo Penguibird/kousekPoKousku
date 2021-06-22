@@ -68,6 +68,6 @@ section.images {
     flex-direction: row;
     align-items: stretch;
     justify-content: center;
-    gap: 2em;
+    @include  flexGap(2em,  $column: false);
     padding: 0;
 }
