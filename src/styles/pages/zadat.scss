@@ -2,7 +2,7 @@ main.zadat {
   section.main-section {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    @include  flexGap(2em,  $column: true);
     align-items: center;
     justify-content: space-around;
 

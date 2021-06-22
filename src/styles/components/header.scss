@@ -201,7 +201,7 @@ header input[type="checkbox"] {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            gap: 0;
+            @include  flexGap(0,  $column: true);
         }
         .navbar-link {
             width: auto !important;

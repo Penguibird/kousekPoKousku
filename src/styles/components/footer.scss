@@ -2,7 +2,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4em;
+  @include  flexGap(4em,  $column: true);
 
   width: 100vw;
   margin: 2em 0 0;
@@ -13,14 +13,14 @@ footer {
   ul {
     display: flex;
     flex-direction: row;
-    gap: max(3em, 10vw);
+    @include  flexGap(max(3em, 10vw),  $column: false);
     align-items: flex-start;
     justify-content: space-around;
     padding: 0 1em;
     list-style-type: none;
     @media (max-width: 700px) {
       flex-direction: column;
-      gap: 2em;
+      @include  flexGap(2em,  $column: true);
       align-items: flex-start;
       align-self: flex-start;
       padding-left: 3em;

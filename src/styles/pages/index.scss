@@ -19,7 +19,7 @@
 }
 
 section.intro-section {
-  gap: 1em;
+  @include  flexGap(1em,  $column: true);
   // .subtitle {
   //   font-size: 2em;
   // }
@@ -47,7 +47,7 @@ section.intro-section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 5em;
+    @include  flexGap(5em,  $column: true);
     padding-left: 0;
     padding: 0 1em;
     margin: 8em auto 0;
@@ -68,7 +68,7 @@ section.intro-section {
       " img text"
       "img .";
     place-items: start start;
-    // column-gap: 3em;
+    // column-@include  flexGap(3em,  $column: true);
     column-gap: 1em;
     .img {
       grid-area: img;
@@ -81,7 +81,7 @@ section.intro-section {
       flex-direction: row;
       // align-items: baseline;
       align-items: center;
-      gap: 1ch;
+      @include  flexGap(1ch,  $column: false);
     }
     .link {
       grid-area: text;
@@ -152,7 +152,7 @@ section.subtitle {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  gap: 3em;
+  @include  flexGap(3em,  $column: false);
   flex-grow: 1;
   flex-basis: auto;
 
@@ -174,7 +174,7 @@ section.subtitle {
     display: flex;
     flex-direction: column;
     align-items: center;
-    // gap: ;
+    // @include  flexGap(,  $column: true);
     .img {
       color: $main-text-red;
       fill: $main-text-red;
@@ -193,7 +193,7 @@ section.subtitle {
       // margin-top: -0.5em;
       font-weight: 500;
       color: $main-black;
-      // gap: ;
+      // @include  flexGap(,  $column: true);
     }
     .cislo {
       font-size: 3em;
@@ -300,7 +300,7 @@ section.sponzori {
   .flex-row {
     align-items: center;
     justify-content: center;
-    gap: 8vw;
+    // @include  flexGap(8vw,  $column: false);
     & > * {
       width: max-content;
       max-width: 100%;

@@ -1,7 +1,7 @@
 main.kontakt {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  @include flexGap(1em, $column: true);
   align-items: center;
   padding: 4em 1em;
   font-size: 1rem;
@@ -41,8 +41,8 @@ main.kontakt {
       grid-column: 1 / span 1;
       color: $main-black;
       font-weight: 700;
-      place-self: start end;nd
-      svg {
+      place-self: start end;
+      nd svg {
         width: 30px;
         height: auto;
         fill: $main-black;
@@ -50,24 +50,22 @@ main.kontakt {
     }
   }
 
-
   section.text {
     padding: 3em 1em 0;
     p {
-      font-size: 1.3em;
+      font-size: clamp(1rem, 0.5rem + 1.3vw, 1.5rem);
       text-align: justify;
       max-width: 65ch;
-      &+p {
+      & + p {
         margin-top: 2em;
       }
     }
   }
 
-
   .lidi {
     display: flex;
     flex-direction: row;
-    gap: 4em;
+    @include flexGap(4em, $column: false);
     align-items: flex-start;
     margin: 7em auto 5em;
     padding: 2em;
@@ -90,14 +88,14 @@ main.kontakt {
   ul.rady {
     display: flex;
     flex-direction: row;
-    gap: 15vw;
+    @include flexGap(15vw, $column: false);
     align-items: flex-start;
     justify-content: center;
     width: 100%;
     margin-top: 3em;
     @media (max-width: 800px) {
       flex-direction: column;
-      gap: 3em;
+      @include flexGap(3em, $column: true);
       width: max-content;
     }
     li {
@@ -117,4 +115,21 @@ main.kontakt {
       }
     }
   }
+}
+
+main.kontakt .flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  // justify-content: space-around;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+main.kontakt #map {
+  width: 300px;
+  height: 200px;
+  max-width: 100%;
+  margin: 2em ;
 }

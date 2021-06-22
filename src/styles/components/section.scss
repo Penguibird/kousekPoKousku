@@ -34,10 +34,10 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 2em;
+    @include  flexGap(2em,  $column: false);
     @media (max-width: 40rem) {
       flex-direction: column;
-      gap: 0.3em;
+      @include  flexGap(0.3em,  $column: true);
     }
   }
 }
@@ -106,14 +106,15 @@ section .title {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 2em;
+    @include  flexGap(2em,  $column: false);
     flex: 1 0 auto;
-
+    
     & > * {
       width: 100%;
     }
     @media screen and (max-width: 1000px) {
       flex-direction: column;
+      @include  flexGap(2em,  $column: true);
     }
   }
 }
@@ -123,7 +124,7 @@ section .title {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 2em;
+  @include  flexGap(2em,  $column: false);
   .img, img, .section-image {
     width: 60%;
   }

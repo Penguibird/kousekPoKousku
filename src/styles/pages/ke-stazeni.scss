@@ -1,7 +1,7 @@
 main.ke-stazeni {
   display: flex;
   flex-direction: column;
-  gap: 5em;
+  @include  flexGap(5em,  $column: true);
   align-items: flex-start;
   justify-content: space-around;
   width: max-content;
