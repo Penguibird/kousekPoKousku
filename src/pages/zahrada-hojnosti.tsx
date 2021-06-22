@@ -42,19 +42,20 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
         width: "1920",
         height: "1080",
         muted: true,
+        playsInline: true,
         autoPlay: true,
         loop: true,
         preload: "auto",
 
     }
-    React.useLayoutEffect(() => {
-        const video = document.querySelector('.hero-video');
-        if (video) video.addEventListener('loadeddata', () => {
-            const target = document.getElementById('placeholderImage');
-            // console.log(target)
-            if (target) target.style.display = 'none';
-        }, false)
-    }, [breakpoints])
+    // React.useLayoutEffect(() => {
+    //     const video = document.querySelector('.hero-video');
+    //     if (video) video.addEventListener('loadeddata', () => {
+    //         const target = document.getElementById('placeholderImage');
+    //         // console.log(target)
+    //         if (target) target.style.display = 'none';
+    //     }, false)
+    // }, [breakpoints])
 
     const aktuality: Aktualita[] = useAktualityZahrada();
     // console.log(images)
@@ -82,11 +83,11 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                                 : breakpoints ? <video {...videoProps}>
                                     <source src={heroVideo} type="video/mp4" />
                                 </video>
-                                    : null
+                                    : placeholderImage
                 }
-                <div id="placeholderImage">
+                {/* <div id="placeholderImage">
                     <StaticImage className='img' src='../images/zahrada_hero_placeholder.png' alt='Foto Zahrady z dronu' layout='fullWidth' placeholder='blurred' />
-                </div>
+                </div> */}
                 {/* <div className="overlay"></div> */}
             </LayerWrapper>
 
@@ -176,7 +177,6 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                             Je už&nbsp;na každém, zda relaxuje u&nbsp;fyzické práce, cvičení nebo si&nbsp;jen posedí pod stromem. Připravujeme i&nbsp;mnoho tematických workshopů o&nbsp;pěstování a&nbsp;zpracování bylin, výrobě mastí, krémů, tinktur a&nbsp;dalších zázraků.
                             </p>
                         <p className="text"><strong>Máte vlastní námět?</strong> Přihlaste se na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a></p>
-                        {/* <p className="subtitle green"> Už <strong>J.Á. Komenský</strong> tvrdil, že nejlepší učitelkou je sama příroda. A je to tak.</p> */}
                         <p className="subtitle green">
                             <strong>Chcete workshop sami pořádat?</strong>
                         </p>
@@ -192,7 +192,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     <section className="quote-section">
                         <figure className="quote-wrapper">
                             <blockquote className="komensky">"Umění, kterak vyučovat a&nbsp;učit&nbsp;se, nesmí a&nbsp;nemůže se&nbsp;bráti odjinud, než&nbsp;od&nbsp;učitelky přírody"</blockquote>
-                            <figcaption className="">J.&nbsp;Á.&nbsp;Komenský</figcaption>
+                            <figcaption className="">J.&nbsp;A.&nbsp;Komenský</figcaption>
                             {/* <blockquote className="bottom">Kéž&nbsp;Vám bude Zahrada hojnosti k&nbsp;tomuto sloužit…</blockquote> */}
                         </figure>
                         <StaticImage className="img" src='../images/komensky.jpg' alt='Jan amos komensky' placeholder="blurred" layout='constrained' />

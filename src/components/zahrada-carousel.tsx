@@ -50,7 +50,7 @@ const prinosy: Prinos[] = [
         className: 'edukativni',
         body: [
             `Zahrada poslouží dětem a mladým v praxi pochopit zákonitostí přírody, koloběhu, ekosystému. Budou poznávat rostliny a květiny, učit se o jejich významu, účincích bylin.
-             Podle odkazu Jana Ámose Komenského, který vyučoval své žáky v nedalekém Žákovském háji, využíváme moudrost přírody v reálném prostředí. 
+             Podle odkazu Jana Amose Komenského, který vyučoval své žáky v nedalekém Žákovském háji, využíváme moudrost přírody v reálném prostředí. 
             Společně rozvineme mnoho vzdělávacích možností a projektů, které budou vznikat na míru, v závislosti na ročním období a koloběhu přírody.`,
             `Podobně se mohou přidat dospělí. Ti se jistě zapojí i do výměny pěstitelských zkušeností,
              předávání rad a tipů o zpracování plodů, bylin, ovoce, zavařování, výrobě tinktur, olejů, mastí a dalších zázraků.`

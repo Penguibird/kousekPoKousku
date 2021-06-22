@@ -25,13 +25,14 @@ section.intro-section {
   // }
   padding: 0 0 2em;
   // background-color: $main-yellow;
+  // font-size: clamp(0.5rem, calc(0.2rem + 1.5vw), 1rem);
   h1.title {
     font-weight: 800;
     text-align: center;
     @media (max-width: 900px) {
       text-align: left;
     }
-    font-size: clamp(1.8rem, 1rem + 2vw, 2.6rem);
+    font-size: clamp(1rem, 0.5rem + 2vw, 2.6rem);
 
     line-height: 1.6em;
     color: $main-black;
@@ -48,7 +49,7 @@ section.intro-section {
     align-items: flex-start;
     gap: 5em;
     padding-left: 0;
-    padding: 0 0.3em;
+    padding: 0 1em;
     margin: 8em auto 0;
   }
   .icon-wrapper {
@@ -107,6 +108,7 @@ section.intro-section {
     font-size: 2em;
     text-align: left;
   }
+  font-size: clamp(0.5rem, calc(0.2rem + 1.5vw), 1rem);
   .claims p.title {
     font-weight: 500 !important;
     font-size: 1.5em;
@@ -161,7 +163,7 @@ section.subtitle {
 
   padding: 0;
   width: 100%;
-  font-size: 1.2rem;
+  font-size: clamp(0.5rem, calc(0.2rem + 1.5vw), 1rem);
   max-width: 30em;
   // background-color: white;
   li.cislo.people {
@@ -210,7 +212,7 @@ section.call-to-action {
     text-align: center;
   }
   .subtitle {
-    margin: .5em 0 0;
+    margin: 0.5em 0 0;
   }
 }
 
@@ -262,10 +264,9 @@ section.aktuality {
     .link {
       font-weight: 600;
       font-size: 1.5em;
-      margin-right : 90px;
+      margin-right: 90px;
       &:hover {
         text-decoration: underline;
-     
       }
     }
   }
@@ -304,5 +305,16 @@ section.sponzori {
       width: max-content;
       max-width: 100%;
     }
+  }
+}
+
+.section-projekty {
+  .title, .subtitle {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .subtitle {
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
   }
 }

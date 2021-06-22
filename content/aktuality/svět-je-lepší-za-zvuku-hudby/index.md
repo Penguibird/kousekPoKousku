@@ -7,7 +7,7 @@ image:
 ---
 
 [https://www.youtube.com/watch?v=-49HE-gAxok](https://www.youtube.com/watch?v=-49HE-gAxok)
-Popová houslistka Lucie Klasek neuvěřitelně atraktivním způsobem propojuje klasiku s popem ![🎶](https://lh4.googleusercontent.com/0Y90BHpWNnirQs4p5pjDbUBQwV3ibrM2d-6uwE4Nm4JU9ZXKTDzTbWXxbIsyxy599Afilf7FW8qmWw_TlPfk0vxbLiiL8sBMgJRmiGfjv4XMLzFZCMUD6OfrG2KsgQWUP2uISII)![💕](https://lh3.googleusercontent.com/iznUhUj91KSdBh7ZnWiyaLPacObRNvVVf4Wdjsko5U1UX5fO1512S5MkWmztw1EVIleEPspCchx37uGUVjhzo4MXgl_SeoQJHJLkQ5DOHaGlh0pddj5qIujg_YQ3evLEpKfZp7Q)a zvuk jejich houslí umí pohladit i nejtemnější kouty duše. 
+Popová houslistka Lucie Klasek neuvěřitelně atraktivním způsobem propojuje klasiku s popem ![🎶](https://lh4.googleusercontent.com/0Y90BHpWNnirQs4p5pjDbUBQwV3ibrM2d-6uwE4Nm4JU9ZXKTDzTbWXxbIsyxy599Afilf7FW8qmWw_TlPfk0vxbLiiL8sBMgJRmiGfjv4XMLzFZCMUD6OfrG2KsgQWUP2uISII)![💕](https://lh3.googleusercontent.com/iznUhUj91KSdBh7ZnWiyaLPacObRNvVVf4Wdjsko5U1UX5fO1512S5MkWmztw1EVIleEPspCchx37uGUVjhzo4MXgl_SeoQJHJLkQ5DOHaGlh0pddj5qIujg_YQ3evLEpKfZp7Q)a zvuk jejích houslí umí pohladit i nejtemnější kouty duše. 
 
 Lucie pochází z Hrabyně. Vystudovala Janáčkovu konzervatoř v Ostravě a po své cestě do Ameriky, kam odjela za zkušenostmi, zakotvila ve Vídni, pak v Praze. 
 
