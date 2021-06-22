@@ -1,8 +1,8 @@
 footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 4em;
+  align-items: center;
 
   width: 100vw;
   margin: 2em 0 0;
@@ -25,9 +25,7 @@ footer {
       align-self: flex-start;
       padding-left: 3em;
     }
-    & > * {
-      // width: 100%;
-    }
+
     * {
       margin: 0;
     }
@@ -49,13 +47,31 @@ footer {
     a {
       font-size: 1em;
     }
+  }
+  .kontakt,
+  .adresa {
     & > * + * {
       margin-top: 0.5em;
       @media (max-width: 700px) {
         margin-top: 0.3em;
       }
     }
-    
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    & > * + * {
+      margin-left: 1em;
+    }
+    a {
+      width: 3em;
+      svg {
+        width: 100%;
+        height: auto;
+      }
+    }
   }
   .signature {
     color: darken(white, 4);
