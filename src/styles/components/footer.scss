@@ -5,7 +5,7 @@ footer {
 
   width: 100vw;
   margin: 2em 0 0;
-  padding: 1em 2em 0.1em;
+  padding: 1em calc(7vw - 20px) 0.1em;
 
   font-size: 0.85rem;
   background-color: $main-yellow;

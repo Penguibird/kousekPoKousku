@@ -271,8 +271,10 @@ const IndexPage = () => {
           <p className="subtitle">Dejme kouskům druhou šanci!</p>
           <p className="text">Udržitelnost je téma, ke kterému se dlouhodobě hlásíme. Dopady výroby oděvů nelze přehlížet. Už redukcí naší osobní spotřeby každý z nás významně pomůže.</p>
           <p className="text">Do&nbsp;šatníku si&nbsp;pořizujme <strong>základní, kvalitní, nadčasové kousky, nejlépe z&nbsp;recyklovatelných materiálů.</strong> Zejména díky dobrým materiálům vydrží ve&nbsp;skvělé kondici a&nbsp;slouží dlouho, často i&nbsp;někomu druhému. Právě nákup z&nbsp;druhé ruky je jedním z&nbsp;principů zpomalení cyklu neboli <strong>slou&nbsp;módy</strong>.</p>
-          <p className="text">V Nadačním fondu Kousek po kousku máme s dobročinným bazarem pod značkou Kouskování dlouholeté zkušenosti. <strong>7 let pořádání Klášterního kouskování vyneslo přes půl miliónu korun na další kousky pomoci</strong> a také stálý okruh desítek dobrovolníků.  <strong>Děkujeme!</strong></p>
-          <Link to="/kouskovani" className="button">Historie Kouskování</Link>
+          <p className="text">V Nadačním fondu Kousek po kousku máme s dobročinným bazarem pod značkou Kouskování dlouholeté zkušenosti. <strong>6 ročníků pořádání Klášterního kouskování vyneslo přes půl miliónu korun na další kousky pomoci</strong> a také stálý okruh desítek dobrovolníků. 
+          <strong>Děkujeme!</strong> <Link to="/kouskovani" className="link">Více o Klášterním kouskování</Link>
+
+          </p>
           <p className="text">
             Kouskování, stejně jako sekci uměleckých děl Ze šuplíku, budeme provozovat na našem nadačním e – shopu. Veškeré kousky, které stále vypadají krásně a z mnoha důvodů je už nevyužijete, rádi přijmeme a prostřednictvím e – shopu nabídneme dál. Výtěžek pomůže dlouhodobě podporovanému projektu <Link to="/aktualne-podporujeme#intervence"><strong>Intervence pro&nbsp;autismus.</strong></Link>
           </p>

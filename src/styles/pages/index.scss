@@ -321,3 +321,14 @@ section.sponzori {
     margin-bottom: 1.5em;
   }
 }
+
+
+.section.kouskovani .link {
+    // font-size: 1.1em;
+    color: $main-text-red;
+
+  font-weight: 700;
+  &:hover {
+    text-decoration: underline;
+  }
+}
