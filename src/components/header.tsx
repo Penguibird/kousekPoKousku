@@ -41,7 +41,7 @@ const Header: React.FC<Props> = ({ color, logo }) => {
         <nav>
             <ul>
                 <li className="dropdown">
-                    <label htmlFor="dropdown-expand" className="navbar-link">O&nbsp;nás</label>
+                    <label htmlFor="dropdown-expand" className="navbar-link" style={{textAlign: 'left'}}>O&nbsp;nás</label>
                     <input className="" type="checkbox" name="dropdown-expand" id="dropdown-expand" />
                     <ul className="dropdown-content">
                         <li className="navbar-link" >
@@ -58,6 +58,9 @@ const Header: React.FC<Props> = ({ color, logo }) => {
                         </li>
                         <li className="navbar-link">
                             <Link to="/ke-stazeni">Ke stažení</Link>
+                        </li>
+                        <li className="navbar-link">
+                            <Link to="/kouskovani">Historie Kouskování</Link>
                         </li>
                     </ul>
                 </li>

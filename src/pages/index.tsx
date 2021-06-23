@@ -271,12 +271,13 @@ const IndexPage = () => {
           <p className="subtitle">Dejme kouskům druhou šanci!</p>
           <p className="text">Udržitelnost je téma, ke kterému se dlouhodobě hlásíme. Dopady výroby oděvů nelze přehlížet. Už redukcí naší osobní spotřeby každý z nás významně pomůže.</p>
           <p className="text">Do&nbsp;šatníku si&nbsp;pořizujme <strong>základní, kvalitní, nadčasové kousky, nejlépe z&nbsp;recyklovatelných materiálů.</strong> Zejména díky dobrým materiálům vydrží ve&nbsp;skvělé kondici a&nbsp;slouží dlouho, často i&nbsp;někomu druhému. Právě nákup z&nbsp;druhé ruky je jedním z&nbsp;principů zpomalení cyklu neboli <strong>slou&nbsp;módy</strong>.</p>
-          <p className="text">V Nadačním fondu Kousek po kousku máme s dobročinným bazarem pod značkou Kouskování dlouholeté zkušenosti. 7 let pořádání Klášterního kouskování vyneslo přes půl miliónu korun na další kousky pomoci a také stálý okruh desítek dobrovolníků.  <strong>Děkujeme!</strong></p>
+          <p className="text">V Nadačním fondu Kousek po kousku máme s dobročinným bazarem pod značkou Kouskování dlouholeté zkušenosti. <strong>7 let pořádání Klášterního kouskování vyneslo přes půl miliónu korun na další kousky pomoci</strong> a také stálý okruh desítek dobrovolníků.  <strong>Děkujeme!</strong></p>
+          <Link to="/kouskovani" className="button">Historie Kouskování</Link>
           <p className="text">
             Kouskování, stejně jako sekci uměleckých děl Ze šuplíku, budeme provozovat na našem nadačním e – shopu. Veškeré kousky, které stále vypadají krásně a z mnoha důvodů je už nevyužijete, rádi přijmeme a prostřednictvím e – shopu nabídneme dál. Výtěžek pomůže dlouhodobě podporovanému projektu <Link to="/aktualne-podporujeme#intervence"><strong>Intervence pro&nbsp;autismus.</strong></Link>
           </p>
           <div className="button-row">
-            <Link to="/kouskovani" className="button">Chci darovat kousek</Link>
+            <Link to="/daruj-kousek" className="button">Chci darovat kousek</Link>
             <Link to="/eshop" className="button section-button buy-button filled">
               Chci koupit kousek
             </Link>
@@ -332,12 +333,12 @@ const IndexPage = () => {
 
       <section className="section section-text section-projekty">
         <h1 className="title">Aktuálně podporujeme</h1>
-        <p className="subtitle">V souladu s tématem hledání rovnováhy těla duše a mysli</p>
+        <p className="subtitle">... v souladu s tématem hledání rovnováhy těla, duše a mysli</p>
         <div className="projekty">
-          <Link to="/zahrada-hojnosti" className="projekt-link zahrada">
+          {/* <Link to="/zahrada-hojnosti" className="projekt-link zahrada">
             <StaticImage className='img' src="../images/jahoda.png" alt='' layout='constrained' placeholder='blurred' objectFit='contain' />
             <h2>Zahrada hojnosti</h2>
-          </Link>
+          </Link> */}
           <Link to="/projekty#klinika" className="projekt-link klinika">
             <StaticImage className='img' src="../images/handshake.png" alt='' layout='constrained' placeholder='blurred' objectFit='cover' />
             <h2>Sociální klinika</h2>

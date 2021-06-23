@@ -29,9 +29,9 @@ section.intro-section {
   h1.title {
     font-weight: 800;
     text-align: center;
-    @media (max-width: 900px) {
-      text-align: left;
-    }
+    // @media (max-width: 900px) {
+    //   text-align: left;
+    // }
     font-size: clamp(1rem, 0.5rem + 2vw, 2.6rem);
 
     line-height: 1.6em;

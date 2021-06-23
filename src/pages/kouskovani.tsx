@@ -1,30 +1,56 @@
 import * as React from 'react';
 //import {Fragment, useState, useEffect} from 'react';
 import Layout from './../components/layout';
-import { Link } from 'gatsby';
+import { useStaticQuery } from 'gatsby';
+import { graphql } from 'gatsby';
+import { IGatsbyImageData, GatsbyImage } from 'gatsby-plugin-image';
 
-interface KouskovaniPageProps {
+interface KouskovaniProps {
 
 };
+interface Vyrocka {
+    src: IGatsbyImageData,
+    year: string,
+}
 
-const KouskovaniPage: React.FC<KouskovaniPageProps> = ({ }) => {
-    return <Layout  title="Kouskování | Nadační fond Kousek po Kousku" >
-        <main className="kouskovani-darovat">
-            <section className="section section-center">
-                <p className="text" style={{ textAlign: 'justify' }}><strong>Děkujeme, že jste se rozhodli přispět kousky, kterým společně dáme další šanci a vrátíme je  do života. </strong>
-                 Oblečení v perfektním stavu, které na první pohled nejeví známky poškození, prosíme, čisté a vyžehlené doručte osobně, poštou nebo prostřednictvím kurýra na adresu:</p>
-                <p className="address">
-                    <p>Nadační fond Kousek po Kousku</p>
-                    <p>Malá strana 297</p>
-                    <p>742 13  Studénka-Butovice</p>
-                </p>
-                {/* Ve Studénce, kde je sklad Kouskování si můžete po dohodě své vybrané kousky také vyzvednout, nebo Vám balíček zašleme na uvedenou adresu.
-                Svým nákupem přispějete na další projekt. Všechny podpořené projekty najdete zde/ link na mappu. Ty, související s výtěžkem z Kouskování jsou označeny. */}
-                <p className="text " style={{ textAlign: 'justify' }}>Darováním svých kousků do Kouskování pomůžete dlouhodobě podporovanému projektu <Link to="/aktualne-podporujeme#intervence"><strong>Intervence pro autismus.</strong></Link> Všechny podpořené projekty najdete <Link to="/aktualne-podporujeme" >zde</Link>. Ty, související s výtěžkem z Kouskování jsou označeny.</p>
-                <p className="dekujeme subtitle">Děkujeme, že pomáháte</p>
+
+const Kouskovani: React.FC<KouskovaniProps> = ({ }) => {
+    const data = useStaticQuery(graphql`query vyrockyKouskovani {
+        allFile(
+            filter: {extension: {regex: "/(jpg)|(jpeg)|(png)/"}, dir: {regex: "/vyrockyKouskovani/"}}
+        ) {
+            edges {
+                node {
+                    name
+                    childrenImageSharp {
+                        gatsbyImageData
+                    }
+                }
+            }
+        }
+    }`)
+
+    const vyrocky: Vyrocka[] = data.allFile.edges
+        .map(({ node }) => ({ src: node.childrenImageSharp[0].gatsbyImageData, year: node.name }))
+        .sort((a: Vyrocka, b: Vyrocka) => Number.parseInt(a.year) - Number.parseInt(b.year))
+        .reverse()
+        ;
+
+
+    return <Layout>
+        <main className="kouskovani">
+            <section className="title section section-title yellow section-centered">
+                <h1 className="title">Historie Kouskování</h1>
+            </section>
+            <section className="kouskovani-column section section-centered">
+                {vyrocky.map(({ src, year }, i) => <div className="vyrocka" key={i} style={{ marginTop: '5em' }}>
+                    <h2 className="title text-center" style={{ margin: '1em' }}>{year}</h2>
+                    <GatsbyImage objectFit="contain" className="img" alt={`Vyrocni zprava za rok ${year}`} image={src} />
+                </div>
+                )}
             </section>
         </main>
     </Layout>
 }
 
-export default KouskovaniPage;
+export default Kouskovani;

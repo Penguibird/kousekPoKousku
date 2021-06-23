@@ -3,10 +3,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: stretch;
+    max-width: 1000px;
   
     @include  flexGap(2em,  $column: false);
     padding: 1em 0;
-    
+    margin: 0 auto;
     flex: 1 0 auto;
     align-items: stretch;
     width: 100%;
