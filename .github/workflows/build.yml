@@ -17,3 +17,12 @@ jobs:
         run: npm run build
         env:
           GATSBY_ENV: "prod"
+      
+      - name: deploy
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: ftp.jules.tojeono.cz
+          username: kousekpokousku.cz
+          password: ${{ secrets.ftp_password }}
+          local-dir: ./public/
+          server-dir: ./public_html/www/
