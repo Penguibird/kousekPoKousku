@@ -1,5 +1,6 @@
 ---
 name: Bolestná ztráta
+date: 16-07-2021
 image:
   image: sedmikrasky_foto.jpg
   imageAlt: Trs kopretin na louce
