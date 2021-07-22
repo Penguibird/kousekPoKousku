@@ -2,6 +2,7 @@ backend:
   name: github
   repo: penguibird/kousekPoKousku
   branch: master
+  site_domain: cms.netlify.com
 
 
 media_folder: static/img
