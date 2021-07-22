@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 
-const EshopPage = () => {
+const ShopPage = () => {
     React.useEffect(() => {
         window && window.location.replace("http://eshop.kousekpokousku.cz");
     },[])
@@ -15,4 +15,4 @@ const EshopPage = () => {
     )
 }
 
-export default EshopPage
+export default ShopPage

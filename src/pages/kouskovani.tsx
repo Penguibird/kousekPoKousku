@@ -40,7 +40,7 @@ const Kouskovani: React.FC<KouskovaniProps> = ({ }) => {
     return <Layout>
         <main className="kouskovani">
             <section className="title section section-title yellow section-centered">
-                <h1 className="title">Klášterní Kouskování</h1>
+                <h1 className="title center text-center">Klášterní Kouskování</h1>
             </section>
             <section className="kouskovani-column section section-centered">
                 {vyrocky.map(({ src, year }, i) => <div className="vyrocka" key={i} style={{ marginTop: '5em' }}>

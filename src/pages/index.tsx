@@ -243,7 +243,8 @@ const IndexPage = () => {
         <p className="subtitle bigger" style={{ color: 'white', fontSize: '1.7em' }}> Kousek po&nbsp;kousku toho společně zvládneme kus</p>
 
         <p className="subtitle blue"> Děkujeme, že&nbsp;se připojíte</p>
-        <Link to="/eshop" className="button filled bigger">Chci přispět</Link>
+        <a href="https://eshop.kousekpokousku.cz/chci-prispet-jsem-grand/" className="button filled bigger">Chci přispět</a>
+        
 
       </section>
 
@@ -258,7 +259,7 @@ const IndexPage = () => {
             Prostřednictvím samosběrů květin, bylin a&nbsp;plodů jedlé Zahrady představí totiž NF naprosto <strong>unikátní způsob hospodaření pro dosažení soběstačnosti.</strong>
           </p>
           <div className="button-row ">
-            <Link className="button filled link" to="/eshop">Chci podpořit Zahradu</Link>
+            <a className="button filled link" href="https://eshop.kousekpokousku.cz/">Chci podpořit Zahradu</a>
             <Link className="button " to="/zahrada-hojnosti">Více</Link>
           </div>
         </section>
@@ -280,9 +281,9 @@ const IndexPage = () => {
           </p>
           <div className="button-row">
             <Link to="/daruj-kousek" className="button">Chci darovat kousek</Link>
-            <Link to="/eshop" className="button section-button buy-button filled">
+            <a href="https://eshop.kousekpokousku.cz/kouskovani/" className="button section-button buy-button filled">
               Chci koupit kousek
-            </Link>
+            </a>
           </div>
         </section>
         <StaticImage style={{ filter: 'brightness(1.2)' }} className='section-image img' src="../images/kouskovani_saty.png" alt='Ruka podává šaty a boty' layout='constrained' placeholder='blurred' />
@@ -297,15 +298,15 @@ const IndexPage = () => {
           <p className="text">
             Letošní rok je&nbsp;pro Nadační fond Kousek po&nbsp;kousku jubilejní. 10&nbsp;let kousků dobra připomeneme 16.&nbsp;října tohoto roku v&nbsp;kostele sv.&nbsp;Josefa ve&nbsp;Fulneku na&nbsp;Slavnostním Galavečeru. Zrekapitulujeme dosavadní počiny, připomeneme některé z&nbsp;podpořených projektů, přivítáme řadu hostů a&nbsp;prozradíme další plány.
           </p>
-          <p className="text">Součástí Galavečera bude koncert popové houslistky <a className="inline" href="https://www.youtube.com/watch?v=-49HE-gAxok">Lucie Klasek &amp; The Stringz.</a></p>
+          <p className="text">Součástí Galavečera bude koncert popové houslistky <a className="inline" href="https://www.youtube.com/watch?v=-49HE-gAxok">Lucie Klasek &amp; The Stringz.</a> The Stringz zahrají pro Kousek ještě jednou, v&nbsp;neděli 17.&nbsp;října opět v kostele sv.&nbsp;Josefa ve&nbsp;Fulneku. Speciálním hostem nedělního Koncertu pro Kousek bude Tomáš Savka.</p>
           {/* <a href="/" className="button section-button buy-button">
             koupit vstupenku
           </a> */}
           <div className="button-row">
-            <Link to="/eshop" className="button filled">Chci koupit vstupenku</Link>
-            <Link to="/eshop" className="button section-button buy-button ">
-              Chci přispět
+            <Link to="/program" className="button section-button buy-button ">
+              Zobrazit program
               </Link>
+            <a href="https://eshop.kousekpokousku.cz/vstupenky" className="button filled">Chci koupit vstupenku</a>
           </div>
         </section>
       </LayerWrapper>

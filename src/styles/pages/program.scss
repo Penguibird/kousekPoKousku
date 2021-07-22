@@ -1,0 +1,50 @@
+$kouskovani-purple: #6b0fab;
+$kouskovani-orange: #f88a08;
+
+.section.program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  & > * + * {
+    margin-top: 0.5em;
+  }
+
+  time {
+    margin-top: 1.5em;
+    color: $kouskovani-orange;
+    font-weight: 800;
+    font-size: 1.4em;
+  }
+  p {
+    margin-bottom: 0;
+    font-size: 1em;
+    font-weight: 500;
+
+  }
+  .highlighted {
+    color: $kouskovani-purple;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  p.last {
+    a {
+      font-weight: 800;
+      color: $kouskovani-orange;
+    }
+  }
+}
+
+main.program {
+  .section-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .img {
+      max-width: 1200px;
+
+    }
+  }
+}

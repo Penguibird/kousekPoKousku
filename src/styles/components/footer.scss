@@ -29,9 +29,9 @@ footer {
     gap: 2em;
     .adresa {
       grid-column: 2 / span 1;
-      justify-self: end;
+      justify-self: end; 
     }
-    .kontakt {
+    .kontakt { 
       grid-column: 3 / span 1;
     }
     .links {

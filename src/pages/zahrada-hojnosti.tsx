@@ -59,7 +59,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
     const aktuality: Aktualita[] = useAktualityZahrada();
     // console.log(images)
-    return <Layout title="Zahrada hojnosti | Nadační fond Kousek po Kousku" headerProps={{ color: 'green', logo: 'zahrada' }}>
+    return <Layout title="Zahrada Hojnosti | Nadační fond Kousek po Kousku" headerProps={{ color: 'green', logo: 'zahrada' }}>
         <main className="zahrada">
             <LayerWrapper className="hero">
 
