@@ -2,7 +2,6 @@ backend:
   name: github
   repo: penguibird/kousekPoKousku
   branch: master
-  site_domain: kousekpokousku.cz
 
 
 media_folder: static/img
