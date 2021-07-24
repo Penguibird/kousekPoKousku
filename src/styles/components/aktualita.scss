@@ -41,15 +41,17 @@
   }
   a {
     font-weight: 600;
+    text-decoration: underline;
     &:hover {
-      text-decoration: underline;
-    }
+            filter: brightness(0.9);
+        }
   }
   .link {
     font-size: 1.1em;
+    text-decoration: underline;
     &:hover {
-      text-decoration: underline;
-    }
+            filter: brightness(0.9);
+        }
   }
 }
 

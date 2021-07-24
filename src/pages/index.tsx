@@ -298,7 +298,7 @@ const IndexPage = () => {
           <p className="text">
             Letošní rok je&nbsp;pro Nadační fond Kousek po&nbsp;kousku jubilejní. 10&nbsp;let kousků dobra připomeneme 16.&nbsp;října tohoto roku v&nbsp;kostele sv.&nbsp;Josefa ve&nbsp;Fulneku na&nbsp;Slavnostním Galavečeru. Zrekapitulujeme dosavadní počiny, připomeneme některé z&nbsp;podpořených projektů, přivítáme řadu hostů a&nbsp;prozradíme další plány.
           </p>
-          <p className="text">Součástí Galavečera bude koncert popové houslistky <a className="inline" href="https://www.youtube.com/watch?v=-49HE-gAxok">Lucie Klasek &amp; The Stringz.</a> The Stringz zahrají pro Kousek ještě jednou, v&nbsp;neděli 17.&nbsp;října opět v kostele sv.&nbsp;Josefa ve&nbsp;Fulneku. Speciálním hostem nedělního Koncertu pro Kousek bude Tomáš Savka.</p>
+          <p className="text">Součástí Galavečera bude koncert popové houslistky <a className="inline" href="https://www.youtube.com/watch?v=-49HE-gAxok">Lucie Klasek &amp; The Stringz.</a><br />The Stringz zahrají pro Kousek ještě jednou, v&nbsp;neděli 17.&nbsp;října opět v kostele sv.&nbsp;Josefa ve&nbsp;Fulneku. Speciálním hostem nedělního Koncertu pro Kousek bude Tomáš Savka.</p>
           {/* <a href="/" className="button section-button buy-button">
             koupit vstupenku
           </a> */}

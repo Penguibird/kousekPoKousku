@@ -96,8 +96,10 @@ main.zahrada {
       &:visited {
         color: darken($main-green, 6);
       }
+      text-decoration: underline;
       &:hover {
-        text-decoration: underline;
+        filter: brightness(0.9);
+
       }
     }
   }

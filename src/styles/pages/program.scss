@@ -32,6 +32,11 @@ $kouskovani-orange: #f88a08;
     a {
       font-weight: 800;
       color: $kouskovani-orange;
+      text-decoration: underline;
+      &:hover {
+        filter: brightness(0.9);
+
+      }
     }
   }
 }
@@ -42,6 +47,11 @@ main.program {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    a {
+      &:hover {
+        filter: none !important;
+      }
+    }
     .img {
       max-width: 1200px;
 

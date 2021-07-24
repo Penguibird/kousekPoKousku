@@ -114,8 +114,12 @@ p.text.green, p.blue, .subtitle.blue {
 
 main, section, .section {
 
-    a:not(.button):hover {
+    a:not(.button) {
         text-decoration: underline;
+
+        &:hover {
+            filter: brightness(0.9);
+        }
     }
 }
 

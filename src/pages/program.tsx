@@ -5,7 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 
 const ProgramPage = () => {
-    const title = 'Program slavnostního galavečera a&nbsp;koncertů The&nbsp;Stringz' as const;
+    const title = 'Program slavnostního galavečera a&nbsp;koncertu pro kousek' as const;
     return (
         <Layout title="Program slavnostního galavečera a&nbsp;koncertů The&nbsp;Stringz | Nadační fond Kousek po Kousku">
             <main className="program">
@@ -24,12 +24,12 @@ const ProgramPage = () => {
                     <p className="item"><span className="highlighted">Sociální klinika, intervence pro autismus, Zahrada Hojnosti</span></p>
                     <p className="item">Něco končí, aby <span className="highlighted">NĚCO</span> začalo</p>
                     <time dateTime="19:00">19:00</time>
-                    <p className="item"><span className="highlighted">koncert</span> popové houslistky <span className="highlighted">Lucie Klasek</span> a pop classical bandu <span className="highlighted">The Stringz</span></p>
-                    <p className="last">Vstupenky na galavečer a nadační certifikáty koupíte <a href="https://eshop.kousekpokousku.cz/">zde.</a></p>
+                    <p className="item"><span className="highlighted">koncert</span> popové houslistky <span className="highlighted">Lucie Klasek</span> a akustického tria <span className="highlighted">The Stringz</span></p>
+                    <p className="last">Vstupenky na galavečer koupíte <a className="link" href="https://eshop.kousekpokousku.cz/vstupenky">zde.</a></p>
                 </section>
                 <section className="section section-image">
                     <a href="/Program slavnostního galavečera.png">
-                        <StaticImage className='img' src="../images/Program slavnostního galavečera.png" alt='Program galavečera' layout='constrained' placeholder='blurred' />
+                        <StaticImage className='img' src="../../static/Program slavnostního galavečera.png" alt='Program galavečera' layout='constrained' placeholder='blurred' />
                     </a>
                 </section>
                 <section className="section section-image">

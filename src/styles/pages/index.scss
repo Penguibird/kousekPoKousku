@@ -126,9 +126,11 @@ section.intro-section {
     font-weight: 600;
     display: block;
     color: $main-text-red;
+    text-decoration: underline;
     &:hover {
-      text-decoration: underline;
-    }
+      filter: brightness(0.9);
+  }
+    
   }
   & > * + * {
     margin-top: 5em;
@@ -265,9 +267,11 @@ section.aktuality {
       font-weight: 600;
       font-size: 1.5em;
       margin-right: 90px;
+      text-decoration: underline;
       &:hover {
-        text-decoration: underline;
-      }
+        filter: brightness(0.9);
+    }
+      
     }
   }
 }
@@ -328,7 +332,8 @@ section.sponzori {
     color: $main-text-red;
 
   font-weight: 700;
+  text-decoration: underline;
   &:hover {
-    text-decoration: underline;
-  }
+    filter: brightness(0.9);
+}
 }

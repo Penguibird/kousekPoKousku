@@ -52,8 +52,10 @@ footer {
   }
   a {
     display: block;
+    text-decoration: underline;
     &:hover {
-      text-decoration: underline;
+      filter: brightness(0.9);
+
     }
   }
   p > a {
@@ -109,10 +111,14 @@ footer {
       color: white;
       font-weight: 600;
       text-align: center;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        filter: brightness(0.95);
     }
-    &:hover p {
-      text-decoration: underline;
     }
+    // &:hover p {
+    // }
     & > * + * {
       margin-top: 0.5em;
     }
@@ -124,5 +130,9 @@ footer {
     a {
       font-weight: 600;
     }
+  }
+
+  a.fb-group-link {
+    text-decoration: none;
   }
 }
