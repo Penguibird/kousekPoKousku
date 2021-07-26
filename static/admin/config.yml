@@ -2,7 +2,7 @@ backend:
   name: github
   repo: penguibird/kousekPoKousku
   branch: master
-  site_domain: cms.netlify.com
+  site_domain: https://my-github-auth-provider.herokuapp.com/
 
 
 media_folder: static/img
