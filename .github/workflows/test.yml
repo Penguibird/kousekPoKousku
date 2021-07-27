@@ -11,7 +11,7 @@ jobs:
       - name: Setup Ruby, JRuby and TruffleRuby
         uses: ruby/setup-ruby@v1.78.0
         with: 
-          ruby-version: 1.78.0
+          ruby-version: 2.6
         
       - name: Checkout
         uses: actions/checkout@master
