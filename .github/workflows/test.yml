@@ -15,8 +15,8 @@ jobs:
         
       - name: Checkout
         uses: actions/checkout@master
-      - name: Install
-        run: bundle install
+#       - name: Install
+#         run: bundle install
       - name: Percy Test
         run: npx percy snapshot _site/
         env:
