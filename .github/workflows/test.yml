@@ -10,6 +10,7 @@ jobs:
     steps:
       - name: Setup Ruby, JRuby and TruffleRuby
         uses: ruby/setup-ruby@v1.78.0
+        
       - name: Checkout
         uses: actions/checkout@master
       - name: Install
