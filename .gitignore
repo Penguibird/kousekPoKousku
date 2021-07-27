@@ -1,7 +1,7 @@
 node_modules/
 postDownloader/node_modules
 .cache/
-# public
+public
 assets
 .vscode
 www
