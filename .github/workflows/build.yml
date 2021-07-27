@@ -17,10 +17,21 @@ jobs:
         run: npm run build
         env:
           GATSBY_ENV: "prod"
+          
+      - name: upload-artifact
+        uses: actions/upload-artifact@v2
+        with:
+         name: public-folder
+         path: public
   test:
     needs: [build]
     runs-on: ubuntu-latest
     steps:
+      - name: download-artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: my-artifact
+          path: public
       - name: Setup Ruby, JRuby and TruffleRuby
         uses: ruby/setup-ruby@v1.78.0
         with: 
@@ -39,6 +50,12 @@ jobs:
     needs: [build, test]
     runs-on: ubuntu-latest
     steps:    
+      - name: download-artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: my-artifact
+          path: public
+          
       - name: deploy
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
