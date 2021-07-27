@@ -1,0 +1,15 @@
+name: deploy
+on: [push]
+jobs:
+  build-site:
+    runs-on: ubuntu-latest
+    steps:    
+      - name: deploy
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: ftp.jules.tojeono.cz
+          username: kousekpokousku.cz
+          password: ${{ secrets.ftp_password }}
+          local-dir: ./public/
+          server-dir: ./public_html/www/
+          dangerous-clean-slate: true
