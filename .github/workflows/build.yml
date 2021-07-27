@@ -17,6 +17,24 @@ jobs:
         run: npm run build
         env:
           GATSBY_ENV: "prod"
+  test:
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Ruby, JRuby and TruffleRuby
+        uses: ruby/setup-ruby@v1.78.0
+        with: 
+          ruby-version: 2.6
+        
+      - name: Checkout
+        uses: actions/checkout@master
+#       - name: Install
+#         run: bundle install
+      - name: Percy Test
+        run: npx percy snapshot _site/
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+
   deploy:
     needs: [build, test]
     runs-on: ubuntu-latest
