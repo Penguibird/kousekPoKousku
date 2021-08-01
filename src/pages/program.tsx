@@ -14,18 +14,21 @@ const ProgramPage = () => {
                 </section>
                 <section className="section program section-text section-centered center text-centered">
                     <time dateTime="17:00">17:00</time>
-                    <p className="item">Prodej z kolekce <span className="highlighted">7. klášterního kouskování a výstavy ze šuplíku</span></p>
+                    {/* <p className="item">Prodej z kolekce <span className="highlighted">7. klášterního kouskování a výstavy ze šuplíku</span></p> */}
+                    <p className="Vstup s VIP vstupenkou"></p>
+                    <p className="item"><span className="highlighted">Komentovaná prohlídka kostela sv. Josefa a jeho zázemí</span></p>
                     <time dateTime="18:00">18:00</time>
                     <p className="item">Zahájení <span className="highlighted">slavnostního galavečera</span></p>
                     <p className="item">Příběhy, které ovlivnil darovaný kousek</p>
                     <p className="item">Zajímaví hosté a vystoupení</p>
                     <p className="item">Fulnek – město <span className="highlighted">mystické</span> historie</p>
                     <p className="item">Představení aktuálně podpořených projektů:</p>
-                    <p className="item"><span className="highlighted">Sociální klinika, intervence pro autismus, Zahrada Hojnosti</span></p>
+                    <p className="item">Sociální <span className="highlighted">klinika, intervence</span> pro autismus, <span className="highlighted">Zahrada Hojnosti</span></p>
                     <p className="item">Něco končí, aby <span className="highlighted">NĚCO</span> začalo</p>
                     <time dateTime="19:00">19:00</time>
                     <p className="item"><span className="highlighted">koncert</span> popové houslistky <span className="highlighted">Lucie Klasek</span> a akustického tria <span className="highlighted">The Stringz</span></p>
-                    <p className="last">Vstupenky na galavečer koupíte <a className="link" href="https://eshop.kousekpokousku.cz/vstupenky">zde.</a></p>
+                    <p className="last" style={{marginTop: '2em'}}>Vstupenky:</p>
+                    <p className="last"><a className="link" href="https://eshop.kousekpokousku.cz/vstupenky">eshop.kousekpokousku.cz/vstupenky</a></p>
                 </section>
                 <section className="section section-image">
                     <a href="/Program slavnostního galavečera.png">

@@ -36,6 +36,14 @@
   border: $main-yellow 8px solid;
   border-radius: 4px;
 
+  .img-wrapper {
+    overflow: hidden;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
   .img {
     width: 100%;
     height: auto;
@@ -45,7 +53,7 @@
     }
     justify-self: center;
     transition: transform  0.6s cubic-bezier(0.07, 0.53, 0.18, 0.75), clip-path 0.6s cubic-bezier(0.07, 0.53, 0.18, 0.75);
-    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
+    // clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
 
     // margin: 1em;
   }
@@ -53,14 +61,14 @@
     &:hover {
       text-decoration: none;
       .img {
-        $scale: 1.2;
+        // $scale: 1.2;
         transform: scale(1.2);
         // $zero: 0%;
         // $hundred: 100%;
-        $clip-scale: (($scale - 1) * 0.44) + 1;
-        $zero: 100 - (100 / $clip-scale) * 1%;
-        $hundred: (100 / $clip-scale)  * 1%;
-        clip-path: polygon($zero $zero, $zero  $hundred,  $hundred $hundred ,  $hundred $zero);
+        // $clip-scale: (($scale - 1) * 0.44) + 1;
+        // $zero: 100 - (100 / $clip-scale) * 1%;
+        // $hundred: (100 / $clip-scale)  * 1%;
+        // clip-path: polygon($zero $zero, $zero  $hundred,  $hundred $hundred ,  $hundred $zero);
       }
     }
   &.klinika .img {
@@ -72,10 +80,10 @@
     transform: scale(1.2);
     // $zero: 0%;
     // $hundred: 100%;
-    $clip-scale: (($scale - 1) * 0.44) + 1;
-    $zero: 100 - (100 / $clip-scale) * 1%;
-    $hundred: (100 / $clip-scale)  * 1%;
-    clip-path: polygon($zero $zero, $zero  100%,  $hundred 100% ,  $hundred $zero);
+    // $clip-scale: (($scale - 1) * 0.44) + 1;
+    // $zero: 100 - (100 / $clip-scale) * 1%;
+    // $hundred: (100 / $clip-scale)  * 1%;
+    // clip-path: polygon($zero $zero, $zero  100%,  $hundred 100% ,  $hundred $zero);
   }
 
 
