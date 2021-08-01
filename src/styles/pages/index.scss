@@ -38,7 +38,7 @@ section.intro-section {
     color: $main-black;
 
     padding: 0.6em 1em 0;
-    margin: 2em auto 0;
+    margin: 2em auto 1.5em;
     max-width: 60ch;
   }
 
@@ -126,8 +126,9 @@ section.intro-section {
     font-weight: 600;
     display: block;
     color: $main-text-red;
-    text-decoration: underline;
+    text-decoration: none;
     &:hover {
+      text-decoration: underline;
       filter: brightness(0.9);
   }
     
