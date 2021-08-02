@@ -37,7 +37,7 @@ const Kouskovani: React.FC<KouskovaniProps> = ({ }) => {
         ;
 
 
-    return <Layout>
+    return <Layout title="Kouskování | Nadační fond Kousek po Kousku">
         <main className="kouskovani">
             <section className="title section section-title yellow section-centered">
                 <h1 className="title center text-center">Klášterní Kouskování</h1>

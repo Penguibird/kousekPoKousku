@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "My Gatsby Site",
+    title: "Kousek po Kousku",
+    siteUrl: `https://www.kousekpokousku.cz`,
   },
   plugins: [
     {
@@ -25,7 +26,7 @@ module.exports = {
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
-    // "gatsby-plugin-sitemap",
+    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
