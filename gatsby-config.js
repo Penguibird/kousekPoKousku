@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "My Gatsby Site",
+    title: "Kousek po Kousku",
+    siteUrl: `https://www.kousekpokousku.cz`,
   },
   plugins: [
     {
