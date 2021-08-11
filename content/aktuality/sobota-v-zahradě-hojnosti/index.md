@@ -1,5 +1,6 @@
 ---
 name: Sobota v Zahradě HOJNOSTI
+date: 11-08-2021
 image:
   image: zhrada-plakat-bylinkařka-.png
   imageAlt: Plakát s pozvánkou na akci
