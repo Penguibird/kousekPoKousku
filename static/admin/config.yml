@@ -2,9 +2,8 @@ backend:
   name: github
   repo: penguibird/kousekPoKousku
   branch: master
-  base_url: https://my-github-auth-provider.herokuapp.com
 
-
+locale: 'cs'
 media_folder: static/img
 public_folder: /img
 
@@ -17,17 +16,17 @@ collections:
     media_folder: ''
     public_folder: ''
     path: '{{name}}/index'
-    preview: false
-    identifier_field: name,
+    preview: true
+    identifier_field: 'name'
     fields:
     - { label: "ID", name: "id", widget: "id"}
     - { label: "Nazev", name: 'name', widget: 'string'}
-    - {label: 'Datum', name: 'date', widget: 'dateTime', format: 'DD-MM-YYYY'}
+    - {label: 'Datum', name: 'date', widget: 'datetime', format: 'DD-MM-YYYY'}
     - {label: 'Text', name: 'body', widget: 'markdown'}
     - label: 'Obrazek'
       name: 'image'
       widget: 'object'
-      collapsed: true
+      collapsed: false
       fields:
       - {label: 'Obrazek', name: 'image', widget: 'image'}
       - {label: 'Popis obrazku', name: 'imageAlt', widget: 'string'}
@@ -39,17 +38,17 @@ collections:
     media_folder: ''
     public_folder: ''
     path: '{{name}}/index'
-    preview: false
-    identifier_field: name,
+    preview: true
+    identifier_field: 'name'
     fields:
     - { label: "ID", name: "id", widget: "id"}
     - { label: "Nazev", name: 'name', widget: 'string'}
-    - {label: 'Datum', name: 'date', widget: 'dateTime', format: 'DD-MM-YYYY'}
+    - {label: 'Datum', name: 'date', widget: 'datetime', format: 'DD-MM-YYYY'}
     - {label: 'Text', name: 'body', widget: 'markdown'}
     - label: 'Obrazek'
       name: 'image'
       widget: 'object'
-      collapsed: true
+      collapsed: false
       fields:
       - {label: 'Obrazek', name: 'image', widget: 'image'}
       - {label: 'Popis obrazku', name: 'imageAlt', widget: 'string'}
@@ -61,8 +60,8 @@ collections:
     media_folder: ''
     public_folder: ''
     path: '{{title}}/index'
-    preview: false
-    # identifier_field: name,
+    preview: true
+    identifier_field: 'name'
     fields:
       - { label: "ID", name: "id", widget: "ncw-id"}
       - { label: 'Nazev', name: 'title', widget: 'string' }

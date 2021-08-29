@@ -160,3 +160,4 @@ const AktualitaComponent: React.FC<AktualitaProps> = ({ akt, resize, green, bigg
 }
 
 export default AktualityCarousel;
+export {AktualitaComponent}
