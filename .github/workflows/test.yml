@@ -1,6 +1,6 @@
 name: build
 on: 
-  push:
+  pull_request:
     branches:
     - main
 jobs:
@@ -9,10 +9,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install node
+      - name: Install nod
         uses: actions/setup-node@v2
         with:
           node-version: '14'
+
       - name: Install dependencies
         run: npm install
 
@@ -20,12 +21,13 @@ jobs:
         run: npm run build
         env:
           GATSBY_ENV: "prod"
+          
+      - name: Setup Ruby, JRuby and TruffleRuby
+        uses: ruby/setup-ruby@v1.78.0
+        with: 
+          ruby-version: 2.6
 
-      - name: deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
-        with:
-          server: ftp.jules.tojeono.cz
-          username: kousekpokousku.cz
-          password: ${{ secrets.ftp_password }}
-          local-dir: ./public/
-          server-dir: ./public_html/www/
+      - name: Percy Test
+        run: npx percy snapshot public/
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
