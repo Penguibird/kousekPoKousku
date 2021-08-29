@@ -20,7 +20,7 @@ jobs:
         run: npm run build
         env:
           GATSBY_ENV: "prod"
-          
+
       - name: deploy
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
