@@ -1,12 +1,15 @@
 name: build
-on: [push]
+on: 
+  push:
+    branches:
+    - main
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install nod
+      - name: Install node
         uses: actions/setup-node@v2
         with:
           node-version: '14'
@@ -18,46 +21,6 @@ jobs:
         env:
           GATSBY_ENV: "prod"
           
-      - name: upload-artifact
-        uses: actions/upload-artifact@v2
-        with:
-         name: public-folder
-         path: public
-  test:
-    needs: [build]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@master
-        
-      - name: download-artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: public-folder
-          path: public
-      - name: Setup Ruby, JRuby and TruffleRuby
-        uses: ruby/setup-ruby@v1.78.0
-        with: 
-          ruby-version: 2.6
-        
-      
-#       - name: Install
-#         run: bundle install
-      - name: Percy Test
-        run: npx percy snapshot public/
-        env:
-          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
-
-  deploy:
-    needs: [build, test]
-    runs-on: ubuntu-latest
-    steps:    
-      - name: download-artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: public-folder
-          path: public
-          
       - name: deploy
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
@@ -66,4 +29,3 @@ jobs:
           password: ${{ secrets.ftp_password }}
           local-dir: ./public/
           server-dir: ./public_html/www/
-          dangerous-clean-slate: true
