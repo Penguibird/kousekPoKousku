@@ -1,0 +1,33 @@
+name: build
+on: 
+  pull_request:
+    branches:
+    - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install nod
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: build
+        run: npm run build
+        env:
+          GATSBY_ENV: "prod"
+          
+      - name: Setup Ruby, JRuby and TruffleRuby
+        uses: ruby/setup-ruby@v1.78.0
+        with: 
+          ruby-version: 2.6
+
+      - name: Percy Test
+        run: npx percy snapshot public/
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
