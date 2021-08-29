@@ -1,7 +1,6 @@
 import CMS from 'netlify-cms-app';
 // import idWidget from 'netlify-cms-widget-simple-uuid';
 import { Widget as IdWidget } from '@ncwidgets/id'
-import { AktualitaComponent } from './../components/aktuality-carousel';
 import { cs } from 'netlify-cms-locales';
 
 
