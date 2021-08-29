@@ -23,33 +23,8 @@ jobs:
         with:
          name: public-folder
          path: public
-  test:
-    needs: [build]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@master
-        
-      - name: download-artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: public-folder
-          path: public
-      - name: Setup Ruby, JRuby and TruffleRuby
-        uses: ruby/setup-ruby@v1.78.0
-        with: 
-          ruby-version: 2.6
-        
-      
-#       - name: Install
-#         run: bundle install
-      - name: Percy Test
-        run: npx percy snapshot public/
-        env:
-          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
-
   deploy:
-    needs: [build, test]
+    needs: [build]
     runs-on: ubuntu-latest
     steps:    
       - name: download-artifact
