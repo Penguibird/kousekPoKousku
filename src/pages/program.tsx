@@ -27,7 +27,7 @@ const ProgramPage = () => {
                     <p className="item">Něco končí, aby <span className="highlighted">NĚCO</span> začalo</p>
                     <time dateTime="19:00">19:00</time>
                     <p className="item"><span className="highlighted">koncert</span> popové houslistky <span className="highlighted">Lucie Klasek</span> a akustického tria <span className="highlighted">The Stringz</span></p>
-                    <p className="last" style={{marginTop: '2em'}}>Vstupenky:</p>
+                    <p className="last" style={{ marginTop: '2em' }}>Vstupenky:</p>
                     <p className="last"><a className="link" href="https://eshop.kousekpokousku.cz/vstupenky">eshop.kousekpokousku.cz/vstupenky</a></p>
                 </section>
                 <section className="section section-image">
@@ -36,7 +36,7 @@ const ProgramPage = () => {
                     </a>
                 </section>
                 <section className="section section-image">
-                    <StaticImage className='img' src="../images/Koncert Stringz Plakát.png" layout='constrained' placeholder='blurred' alt='Nadační fond Kousek po Kousku ve spolupráci s Creative music lab uvádí Koncert pro Kousek. Tomáš Savka a The Stringz v kostele sv. Josefa ve fulneku. 17.10. 2021' />
+                    <StaticImage className='img' src="../images/Koncert pro KOUSEK.png" layout='constrained' placeholder='blurred' alt='Nadační fond Kousek po Kousku ve spolupráci s Creative music lab uvádí Koncert pro Kousek. Tomáš Savka a The Stringz v kostele sv. Josefa ve fulneku. 17.10. 2021' />
                 </section>
             </main>
         </Layout>
