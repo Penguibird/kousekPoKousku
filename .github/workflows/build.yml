@@ -23,7 +23,7 @@ jobs:
           GATSBY_ENV: "prod"
 
       - name: deploy
-        uses: Penguibird/FTP-Deploy-Action@4.2.0
+        uses: Penguibird/FTP-Deploy-Action@4.2.1
         with:
           server: ftp.jules.tojeono.cz
           username: kousekpokousku.cz
