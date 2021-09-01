@@ -2,6 +2,8 @@ backend:
   name: github
   repo: penguibird/kousekPoKousku
   branch: master
+  base_url: 'https://my-github-auth-provider.herokuapp.com'
+
 
 locale: 'cs'
 media_folder: static/img
