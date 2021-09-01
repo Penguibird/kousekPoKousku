@@ -11,21 +11,22 @@ CMS.registerWidget(IdWidget);
 
 
 
-if (process.env.NODE_ENV === 'development') {
-    CMS.init({
-        config: {
-            backend: {
-                site_domain: 'cms.netlify.com'
-            }
-        }
-    });
-} else {
-    CMS.init({
-        config: {
-            backend: {
-                base_url: 'https://my-github-auth-provider.herokuapp.com'
-            }
-        }
-    });
-}
+// if (process.env.NODE_ENV === 'development') {
+//     CMS.init({
+//         config: {
+//             backend: {
+//                 site_domain: 'cms.netlify.com'
+//             }
+//         }
+//     });
+// } else {
+//     CMS.init({
+//         config: {
+//             backend: {
+//                 base_url: 'https://my-github-auth-provider.herokuapp.com'
+//             }
+//         }
+//     });
+// }
 
+CMS.init();
