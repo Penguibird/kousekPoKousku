@@ -1,5 +1,5 @@
 ---
-name: Ostropeřec
+name: Ostropestřec
 date: 03-09-2021
 image:
   image: plakat-zahrada-ostropestřec-8.9..png
