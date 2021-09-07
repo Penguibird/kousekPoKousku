@@ -1,0 +1,35 @@
+/* -------------------------------- link back ------------------------------- */
+
+.link-back, .link-home {
+    font-size: 1.15rem;
+    margin-bottom: 2em;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    text-decoration: none !important;
+    ::before {
+    cont
+    ent: "<";
+    
+      padding-right: .3em;
+      font-size: 2em;
+      transition: transform .1s ease-in-out;
+      font-family: monospace;
+  
+    }
+    .highlight {
+      color: $main-green;
+      font-weight: 700;
+    }
+  
+    &:hover{
+      .icon {
+        transform: translateX(-.2em);
+      }
+      .text {
+        text-decoration: underline;
+      }
+    }
+  }
