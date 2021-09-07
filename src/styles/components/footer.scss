@@ -83,6 +83,7 @@ footer {
   }
 
   .links {
+    margin-top: -3em;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -157,10 +158,14 @@ footer {
     color: $main-white;
     font-weight: 500;
 
-    
+
     align-self: flex-start;
+    @media (max-width: 750px) {
+      align-self: center;
+    }
+
     & + * {
-      margin-top: 0 !important;
+      margin-top: -1em !important;
     }
   }
 }
