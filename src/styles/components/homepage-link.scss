@@ -9,23 +9,22 @@
     align-items: center;
   
     text-decoration: none !important;
-    ::before {
-    cont
-    ent: "<";
-    
+    &::before {
+      content: "<";
+      margin-top: -.12em;
       padding-right: .3em;
       font-size: 2em;
       transition: transform .1s ease-in-out;
       font-family: monospace;
-  
+        display: inline-block;
     }
-    .highlight {
+    .highlight.green {
       color: $main-green;
       font-weight: 700;
     }
   
     &:hover{
-      .icon {
+      &::before {
         transform: translateX(-.2em);
       }
       .text {

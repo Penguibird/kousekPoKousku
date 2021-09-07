@@ -152,4 +152,15 @@ footer {
   a.fb-group-link {
     text-decoration: none;
   }
+
+  .link-home {
+    color: $main-white;
+    font-weight: 500;
+
+    
+    align-self: flex-start;
+    & + * {
+      margin-top: 0 !important;
+    }
+  }
 }
