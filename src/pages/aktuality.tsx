@@ -1,6 +1,8 @@
 import * as React from 'react';
 import Layout from '../components/layout';
-import useAktuality, { Aktualita } from '../functions/useAktuality';
+import useAktuality from '../functions/useAktuality';
+import type Aktualita from '../types/aktualita'
+
 //import {Fragment, useState, useEffect} from 'react';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { useBreakpoint } from 'gatsby-plugin-breakpoints';

@@ -1,18 +1,7 @@
 import { useStaticQuery, graphql } from "gatsby";
 import { GatsbyImage } from 'gatsby-plugin-image';
 import moment from 'moment'
-
-export interface Aktualita {
-  title: string,
-  body: string,
-  image: {
-    image: React.ComponentProps<typeof GatsbyImage>['image'],
-
-    imageAlt: string,
-  },
-  date: Date,
-  link?: string,
-}
+import type Aktualita from '../types/aktualita'
 
 const useAktuality = () => {
 

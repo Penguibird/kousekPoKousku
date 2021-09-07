@@ -5,7 +5,7 @@ import TinySlider from "tiny-slider-react";
 // import Loadable from "@loadable/component"
 
 import { GatsbyImage } from 'gatsby-plugin-image';
-import { Aktualita } from '../functions/useAktuality';
+import type Aktualita from '../types/aktualita'
 import { useState } from 'react';
 import { useEffect } from 'react';
 
@@ -16,7 +16,7 @@ interface Props {
 }
 
 const AktualityCarousel: React.FC<Props> = ({ aktuality, green = false, bigger = false }) => {
-    let slider: TinySlider | null;
+    let slider: TinySlider |  null;
     // const windowSize = useWindowSize();
     // const getItemsCount = (ws: typeof windowSize) => {
     //     const _ = ws.width == undefined
@@ -27,10 +27,12 @@ const AktualityCarousel: React.FC<Props> = ({ aktuality, green = false, bigger =
     //     return _;
     // };
     const prev = () => {
+        // @ts-ignore
         slider != null && slider.slider.goTo('prev');
         // resize();
     }
     const next = () => {
+        // @ts-ignore
         slider != null && slider.slider.goTo('next');
         // resize();
     }
