@@ -28,6 +28,9 @@ const AktualityCarousel = Loadable(() => import("../components/aktuality-carouse
 
 import SmallMap from '../components/small-zahrada-map';
 import useAktualityZahrada from '../functions/useAktualityZahrada'
+
+import type Aktualita from '../types/aktualita'
+import { Link } from 'gatsby';
 interface ZahradaPageProps {
 
 
@@ -96,7 +99,9 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             {/* <p className="text">Jedinečný projekt pro podporu soběstačnosti, s jedinečným modelem hospodaření</p> */}
 
             <section className="section-uvod" style={{ overflow: 'auto' }}>
+
                 <StaticImage className='img' src="../images/jahoda_right.png" alt='Ruka drzi rostlinku' layout='constrained' placeholder='blurred' />
+            <Link className="link-back" to="/"><span className="text">Zpět na hlavní stránku NF <span className="highlight green">Kousek po Kousku</span></span></Link>
                 {/* <section className="section section-text co-nabizi"> */}
                 <p className="montserrat-subtitle " >
                     {/* <strong>Zahrada Hojnosti na pozemku Nadačního fondu Kousek po kousku je naprosto unikátní projekt,</strong> který&nbsp;je&nbsp;připraven na&nbsp;vstup dalších dárců a&nbsp;filantropů. */}

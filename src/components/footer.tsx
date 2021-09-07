@@ -1,7 +1,10 @@
 import * as React from 'react';
+import { Link } from 'gatsby';
 
 const Footer = ({ }) => {
     return <footer>
+        <Link className="link-home" to="/"> Zpět na domovskou stránku</Link>
+
         <ul className="items">
             <li className="adresa">
                 <h5>Naše adresa</h5>
@@ -35,8 +38,10 @@ const Footer = ({ }) => {
                 </a>
             </li>
         </ul>
-        <p className="signature">© {(new Date()).getFullYear()} - <a href="www.linkedin.com/in/vojtech-loskot">Vojtěch Loskot</a> </p>
-        {/* <p className="signature">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p> */}
+        <div className="bottom">
+            <p className="signature">© {(new Date()).getFullYear()} - <a href="https://www.linkedin.com/in/vojtech-loskot">Vojtěch Loskot</a> </p>
+
+        </div>{/* <p className="signature">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p> */}
     </footer>
 }
 
