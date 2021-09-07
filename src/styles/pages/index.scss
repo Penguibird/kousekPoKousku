@@ -38,7 +38,7 @@ section.intro-section {
     color: $main-black;
 
     padding: 0.6em 1em 0;
-    margin: 2em auto 1.5em;
+    margin: 3em auto;
     max-width: 60ch;
   }
 
@@ -49,8 +49,8 @@ section.intro-section {
     align-items: flex-start;
     @include  flexGap(5em,  $column: true);
     padding-left: 0;
-    padding: 0 1em;
-    margin: 8em auto 0;
+    padding: 0 2em;
+    margin: 8em auto 2em;
   }
   .icon-wrapper {
     // margin-left: 7em;
@@ -69,7 +69,7 @@ section.intro-section {
       "img .";
     place-items: start start;
     // column-@include  flexGap(3em,  $column: true);
-    column-gap: 1em;
+    column-gap: 2em;
     .img {
       grid-area: img;
     }
@@ -209,13 +209,13 @@ section.subtitle {
 }
 
 section.call-to-action {
-  padding-top: 6vw;
+  // padding-top: 6vw;
   background-color: $main-yellow;
   .title {
     text-align: center;
   }
   .subtitle {
-    margin: 0.5em 0 0;
+    margin: 0.8em 0 1.5rem;
   }
 }
 

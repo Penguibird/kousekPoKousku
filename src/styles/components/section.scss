@@ -1,6 +1,6 @@
 .section {
   width: 100%;
-  padding: 8vw 4vw 5vw;
+  padding: calc(4em + 4vw) calc(1em + 3vw) calc(2em + 3vw);
 
   p {
     width: auto;
@@ -129,6 +129,7 @@ section .title {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 2em;
   @include  flexGap(2em,  $column: false);
   .img, img, .section-image {
     width: 60%;
