@@ -91,6 +91,10 @@ main.kontakt {
     text-transform: uppercase;
   }
 
+  .zakladatel {
+    margin-top: 4em !important;
+  }
+
   ul.rady {
     display: flex;
     flex-direction: row;
@@ -98,7 +102,7 @@ main.kontakt {
     align-items: flex-start;
     justify-content: center;
     width: 100%;
-    margin-top: 7em !important;
+    margin-top: 3em !important;
     @media (max-width: 800px) {
       flex-direction: column;
       @include flexGap(3em, $column: true);

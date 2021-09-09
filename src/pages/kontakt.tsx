@@ -49,7 +49,7 @@ const KontaktPage: React.FC<KontaktPageProps> = ({ }) => {
         <main className="kontakt">
             <section className="text">
                 <p className="text">Umíme připravit a zrealizovat podporu na míru.
-                Pokud máte záměr, který je v souladu s Vaší životní filozofií nebo firemní kulturou, připravíme ho ve spolupráci s Vámi, dle Vašich představ.
+                    Pokud máte záměr, který je v souladu s Vaší životní filozofií nebo firemní kulturou, připravíme ho ve spolupráci s Vámi, dle Vašich představ.
                 </p>
                 <p className="text">Chcete podporovat nadané studenty? Osoby se zdravotním handicapem? Sportovní talenty nebo kluby? Zájmová sdružení? Znevýhodněné děti? Kontaktujte nás.
                 </p>
@@ -81,7 +81,7 @@ const KontaktPage: React.FC<KontaktPageProps> = ({ }) => {
                         {/* <h1>Kontakt</h1> */}
                         {/* <p className="left">Adresa:</p> */}
                         <p className="adresa">Malá strana 297<br /> PSČ  742 13 <br /> Studénka Butovice</p>
-                        
+
                         <p className="left">
                             <strong>IČO</strong>
                         </p>
@@ -103,11 +103,15 @@ const KontaktPage: React.FC<KontaktPageProps> = ({ }) => {
                 </div>
             </div>
 
+            <div className="zakladatel">
+                <h2 className="title">Zakladatel</h2>
+                <p className="jmeno"><span className="titul">Ing.</span> Vladimír Vyhlídal<span className="titul">, MBA</span></p>
+            </div>
+
             <ul className="rady">
                 <li className="spravni-rada">
                     <h2 className="title">Členové správní rady</h2>
                     <ul className="">
-                        {/* <li className="jmeno"><span className="titul">Ing.</span> Vladimír Vyhlídal<span className="titul">, MBA</span></li> */}
                         <li className="jmeno"><span className="titul">Ing.</span> Martina Mazancová</li>
                         <li className="jmeno">Ladislav Mazanec</li>
                     </ul>
