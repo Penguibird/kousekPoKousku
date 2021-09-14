@@ -6,7 +6,7 @@ image:
 ---
 **Chystáte se na koncert pro KOUSEK? Kdo jsou The STRINGZ?**
 
-**Lucie Klasek**, rodačka z Hrabyně, která je v Moravskoslezském kraji stále doma, i když většinu času tráví v Praze. Po studiích na Janáčkově konzervatoři v Ostravě projela kus světa, navnímávala hudební podhoubí v Americe a přes Vídeň se vrátila zpět plna nadšení k nevšednímu pojetí klasické hudby. Česká Vanessa Mae, jak je často přezdívaná,  zapůsobila na porotu Československo má talent v uskupení FEMME2FATALE. Hraje s bubeníky Olega Sokolova, s DJ, tanečníky a stále přichází s novou invencí, dává vystoupením další, vizuální rozměr. Největší láskou je její aktuální projekt - instrumentální trio The STRINGZ.
+**Lucie Klasek**, rodačka z Hrabyně, která je v Moravskoslezském kraji stále doma, i když většinu času tráví v Praze. Po studiích na Janáčkově konzervatoři v Ostravě projela kus světa, navnímávala hudební podhoubí v Americe a přes Vídeň se vrátila zpět plna nadšení k nevšednímu pojetí klasické hudby. Česká Vanessa Mae, jak je často přezdívaná,  zapůsobila na porotu Československo má talent v uskupení FEMME2FATALE. Hraje s bubeníky Olega Sokolova, s DJ, tanečníky a stále přichází s novou invencí, dávat vystoupením další, vizuální rozměr. Největší láskou je její aktuální projekt - instrumentální trio The STRINGZ.
 
 **Alexander Christianov** - fenomenální pianista a skladatel, který vystudoval kompozici u Borise Čajkovského v Moskvě.  Je vyhledávaným pedagogem a neotřelým jazmanem, ale hudbu miluje napříč žánry. Propojování starého a nového ho naprosto nadchlo. Uvidíte sami, jak na pódiu září a rozdává kus ze sebe.
 
