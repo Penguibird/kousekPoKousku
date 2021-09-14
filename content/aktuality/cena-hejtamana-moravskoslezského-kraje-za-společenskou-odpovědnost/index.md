@@ -1,6 +1,10 @@
 ---
 name: "Cena HEJTAMANA Moravskoslezského kraje za SPOLEČENSKOU ODPOVĚDNOST "
 date: 02-09-2021
+image:
+  image: cena-cena-hetmana.jpg
+  imageAlt: Cena hejtmana MSK za společenskou odpovědnost za rok 2020 pro Nadační
+    fond Kousek po kousku
 ---
 **2. září 2021 předal hejtman Moravskoslezského kraje Ivo Vondrák do rukou předsedkyně správní rady Ing. Martiny Mazancové Cenu hejtmana Moravskoslezského kraje za společenskou odpovědnost.**
 
@@ -8,6 +12,4 @@ date: 02-09-2021
 
 Přejeme si být nápomocni  všem, kteří  přemýšlí, jak a komu pomoci. Rádi s nimi budeme  sdílet naši desetiletou cestu poznání UMĚNÍ  DAROVAT, “ sděluje předsedkyně správní rady Ing. Martina Mazancová záměry Nadačního fondu a dodává: „Velice děkuji všem, kteří našemu nadačnímu fondu věnují, byť jen malý kousek pozornosti, podpory, zájmu. Jsme nadšeni, že se zapojuje stále více lidí. Práce je na tomto poli stále víc než dobrovolníků.“
 
-
-
-1. ![Cena hejtmana MSK za společenskou odpovědnost za rok 2020 pro Nadační fond Kousek po kousku](cena-cena-hetmana.jpg)
+1. ![]()
