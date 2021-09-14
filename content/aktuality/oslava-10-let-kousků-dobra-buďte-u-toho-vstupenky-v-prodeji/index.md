@@ -17,8 +17,8 @@ Uvidíme, které modely z Kouskování nakoupíme v nadačním eshopu.
 
 Přivítáme hosty, kteří přijdou nejen popřát a pobavíme se u mnoha vystoupení.
 
-V závěru si užijeme nevšední koncert Lucie Klasek a The Stringz, kteří nás provedou od klasiky až k rocku.
+V závěru si užijeme nevšední koncert Lucie Klasek/The STRINGZ, kteří nás provedou od klasiky až k rocku.
 
 Dobří lidé, dobroty a neotřelé prostředí fulneckého kláštera. 
 
-Tak co? Už máte svou vstupenku?  https://eshop.kousekpokousku.cz/vstupenky/
+**Tak co? Už máte svou vstupenku?  https://eshop.kousekpokousku.cz/vstupenky/**
