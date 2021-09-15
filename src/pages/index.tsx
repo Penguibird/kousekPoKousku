@@ -229,24 +229,30 @@ const IndexPage = () => {
         </ul>
       </section>
 
+      <LayerWrapper>
+        <StaticImage objectFit="cover" objectPosition="right" className="img" src="../images/sako_final.jpg" alt='Muž v obleku upravující si manžety' layout='fullWidth' />
+        <div className="galavecer-overlay"></div>
+        <section className="text-section section galavecer">
+          <h1 className="section-title">Slavnostní galavečer</h1>
+          <p className="subtitle">Buďte u&nbsp;toho!</p>
+          <p className="text">
+            Letošní rok je&nbsp;pro Nadační fond Kousek po&nbsp;kousku jubilejní. 10&nbsp;let kousků dobra připomeneme 16.&nbsp;října tohoto roku v&nbsp;kostele sv.&nbsp;Josefa ve&nbsp;Fulneku na&nbsp;Slavnostním Galavečeru. Zrekapitulujeme dosavadní počiny, připomeneme některé z&nbsp;podpořených projektů, přivítáme řadu hostů a&nbsp;prozradíme další plány.
+          </p>
+          <p className="text">Součástí Galavečera bude koncert popové houslistky <a className="inline" href="https://www.youtube.com/watch?v=-49HE-gAxok">Lucie Klasek &amp; The Stringz.</a><br />The Stringz zahrají pro Kousek ještě jednou, v&nbsp;neděli 17.&nbsp;října opět v kostele sv.&nbsp;Josefa ve&nbsp;Fulneku. Speciálním hostem nedělního Koncertu pro Kousek bude Tomáš Savka.</p>
+          {/* <a href="/" className="button section-button buy-button">
+            koupit vstupenku
+          </a> */}
+          <div className="button-row">
+            <Link to="/program" className="button section-button buy-button ">
+              Zobrazit program
+              </Link>
+            <a href="https://eshop.kousekpokousku.cz/vstupenky" className="button filled">Chci koupit vstupenku</a>
+          </div>
+        </section>
+      </LayerWrapper>
 
 
-
-      <section className="section section-centered call-to-action">
-        <h1 className="title">Připoj svůj kousek dobra</h1>
-        <p>
-          Věříme, že&nbsp;čemu je věnována pozornost, to&nbsp;se&nbsp;děje. Naše pozornost míří k&nbsp;podpoře lokálních projektů a&nbsp;míst, díky kterým je&nbsp;život lepší. K&nbsp;pomoci lidem, kteří tvoří v&nbsp;našem regionu.
-        </p>
-        <p>Jsme přesvědčeni, že prostředky, které vzejdou z&nbsp;regionu, mají znovu najít uplatnění v&nbsp;oblastních projektech.</p>
-
-        {/* <p className="subtitle blue">Připojte se, ať&nbsp;už jakoukoli částkou, jakýmkoli způsobem. </p> */}
-        <p className="subtitle bigger" style={{ color: 'white', fontSize: '1.7em' }}> Kousek po&nbsp;kousku toho společně zvládneme kus</p>
-
-        <p className="subtitle blue"> Děkujeme, že&nbsp;se připojíte</p>
-        <a href="https://eshop.kousekpokousku.cz/chci-prispet-jsem-grand/" className="button filled bigger">Chci přispět</a>
-        
-
-      </section>
+  
 
 
       <section className="section-zahrada">
@@ -264,7 +270,21 @@ const IndexPage = () => {
         </section>
         <StaticImage className='img' src='../images/paprika_hor.png' alt='Ruce drzi rostlinku' layout='constrained' placeholder='blurred' />
       </section>
+      <section className="section section-centered call-to-action">
+        <h1 className="title">Připoj svůj kousek dobra</h1>
+        <p>
+          Věříme, že&nbsp;čemu je věnována pozornost, to&nbsp;se&nbsp;děje. Naše pozornost míří k&nbsp;podpoře lokálních projektů a&nbsp;míst, díky kterým je&nbsp;život lepší. K&nbsp;pomoci lidem, kteří tvoří v&nbsp;našem regionu.
+        </p>
+        <p>Jsme přesvědčeni, že prostředky, které vzejdou z&nbsp;regionu, mají znovu najít uplatnění v&nbsp;oblastních projektech.</p>
 
+        {/* <p className="subtitle blue">Připojte se, ať&nbsp;už jakoukoli částkou, jakýmkoli způsobem. </p> */}
+        <p className="subtitle bigger" style={{ color: 'white', fontSize: '1.7em' }}> Kousek po&nbsp;kousku toho společně zvládneme kus</p>
+
+        <p className="subtitle blue"> Děkujeme, že&nbsp;se připojíte</p>
+        <a href="https://eshop.kousekpokousku.cz/chci-prispet-jsem-grand/" className="button filled bigger">Chci přispět</a>
+        
+
+      </section>
       <section className="image-section">
         <section className="text-section section kouskovani">
           <h1 className="section-title">Kouskování</h1>
@@ -288,27 +308,7 @@ const IndexPage = () => {
         <StaticImage style={{ filter: 'brightness(1.2)' }} className='section-image img' src="../images/kouskovani_saty.png" alt='Ruka podává šaty a boty' layout='constrained' placeholder='blurred' />
       </section>
 
-      <LayerWrapper>
-        <StaticImage objectFit="cover" objectPosition="right" className="img" src="../images/sako_final.jpg" alt='Muž v obleku upravující si manžety' layout='fullWidth' />
-        <div className="galavecer-overlay"></div>
-        <section className="text-section section galavecer">
-          <h1 className="section-title">Slavnostní galavečer</h1>
-          <p className="subtitle">Buďte u&nbsp;toho!</p>
-          <p className="text">
-            Letošní rok je&nbsp;pro Nadační fond Kousek po&nbsp;kousku jubilejní. 10&nbsp;let kousků dobra připomeneme 16.&nbsp;října tohoto roku v&nbsp;kostele sv.&nbsp;Josefa ve&nbsp;Fulneku na&nbsp;Slavnostním Galavečeru. Zrekapitulujeme dosavadní počiny, připomeneme některé z&nbsp;podpořených projektů, přivítáme řadu hostů a&nbsp;prozradíme další plány.
-          </p>
-          <p className="text">Součástí Galavečera bude koncert popové houslistky <a className="inline" href="https://www.youtube.com/watch?v=-49HE-gAxok">Lucie Klasek &amp; The Stringz.</a><br />The Stringz zahrají pro Kousek ještě jednou, v&nbsp;neděli 17.&nbsp;října opět v kostele sv.&nbsp;Josefa ve&nbsp;Fulneku. Speciálním hostem nedělního Koncertu pro Kousek bude Tomáš Savka.</p>
-          {/* <a href="/" className="button section-button buy-button">
-            koupit vstupenku
-          </a> */}
-          <div className="button-row">
-            <Link to="/program" className="button section-button buy-button ">
-              Zobrazit program
-              </Link>
-            <a href="https://eshop.kousekpokousku.cz/vstupenky" className="button filled">Chci koupit vstupenku</a>
-          </div>
-        </section>
-      </LayerWrapper>
+     
 
       <section className="aktuality">
         <h1 className="section-title">Aktuality</h1>
