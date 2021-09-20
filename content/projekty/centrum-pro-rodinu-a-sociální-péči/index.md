@@ -10,6 +10,6 @@ description: >-
 
   Tento projekt navazuje na úspěšnou spolupráci s Nadačním fondem Kousek po kousku v loňském roce. Tentokrát se budeme společně snažit přenést důležitou, velmi pomáhající a život ulehčující službu setkávání, vzdělávání a vzájemné podpory lidí pečujících dlouhodobě o své blízké do Fulnecka a jeho okolí.
 position:
-  lat: 49.83561327805432
-  lng: 49.83561327805432
+  lat: 49.83565
+  lng: 18.2951
 ---
