@@ -69,6 +69,8 @@
   border-radius: 0.8em;
   box-shadow: $box-shadow;
 
+  // height: 510px;
+
   $margin: 1rem;
   & {
     padding-bottom: $margin;
@@ -91,9 +93,15 @@
     text-transform: none;
     font-size: 1.3em;
   }
-  p {
-    font-size: 0.9em;
-    flex: 1;
+  .text {
+    overflow: hidden;
+    p {
+      font-size: 0.9em;
+      flex: 1;
+  
+      // height: 10em;
+      text-overflow: ellipsis;
+    }
   }
 
   .button {

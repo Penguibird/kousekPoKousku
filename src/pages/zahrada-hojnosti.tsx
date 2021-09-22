@@ -267,7 +267,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             </section> */}
 
             <section className="aktuality-zahrada">
-                <AktualityCarousel aktuality={aktuality} green bigger />
+                <AktualityCarousel aktuality={aktuality} green />
             </section>
 
             <SmallMap />
