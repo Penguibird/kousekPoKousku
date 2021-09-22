@@ -16,7 +16,7 @@ interface Props {
 }
 
 const AktualityCarousel: React.FC<Props> = ({ aktuality, green = false, bigger = false }) => {
-    let slider: TinySlider |  null;
+    let slider: TinySlider | null;
     // const windowSize = useWindowSize();
     // const getItemsCount = (ws: typeof windowSize) => {
     //     const _ = ws.width == undefined
@@ -100,61 +100,46 @@ interface AktualitaProps {
     bigger: boolean,
 }
 
+const AktualitaComponent: React.FC<AktualitaProps> = ({ akt, resize, green, bigger = false }) => {
 
-const cutOffLength = 200;
-const AktualitaComponent: React.FC<AktualitaProps> = ({ akt, resize, green, bigger }) => {
-
-    if (akt.body.length < cutOffLength || bigger) {
-        return <div className="aktualita" >
-            <div className="aktualita-inner" >
-
-                {/* maybe change to <img /> */}
-                {/* <StaticImage loading="eager" className="img" src="../images/hero_placeholder.png" alt="" layout="constrained" /> */}
-                <GatsbyImage objectFit='contain' objectPosition='top' className="img" image={akt.image.image} alt={akt.image.imageAlt}></GatsbyImage>
-
-                <h3 className="title">{akt.title}</h3>
-                <p className="text" dangerouslySetInnerHTML={{ __html: akt.body }}></p>
-                {/* {akt.link && (akt.link[0] == "/" ? <Link to={akt.link} className="aktuality-link link">Více</Link>
-        : <a className="aktuality-link link" href={akt.link}>Více</a>)} */}
-            </div>
-        </div>
-    }
-
-    const newline = `
-    `;
-    const longText = akt.body;
-    const paragraphArr = akt.body.split(/\r?\n/);
-    const firstParagraph = paragraphArr[0] + newline + paragraphArr[1];
-
-
-    const trimEnd = (string: string) => {
-        if (/\r?\n/.test(string[string.length - 1])) {
-            string = string.slice(0, string.length - 2);
-        }
-        return string;
-    }
-
-    const shortText = firstParagraph.length > cutOffLength
-        ? firstParagraph.slice(0, cutOffLength) + '...'
-        : firstParagraph
-    const [expanded, setExpanded] = useState(false);
+    const [expanded, setExpanded] = useState(bigger);
+    const [overflowing, setOverflowing] = useState(false)
+    const textWrapper = React.useRef<React.ElementRef<'div'>>(null);
+    const text = React.useRef<React.ElementRef<'div'>>(null);
 
     useEffect(() => {
         resize();
     }, [expanded])
 
+    React.useLayoutEffect(() => {
+        if (!textWrapper.current || !text.current) return;
+        if (text.current.clientHeight > textWrapper.current.clientHeight) {
+            console.log("Overflowing!!!")
+            setOverflowing(true)
+        }
+    })
+
     return <div className="aktualita" >
-        <div className="aktualita-inner" >
+        <div className="aktualita-inner">
 
             {/* maybe change to <img /> */}
             {/* <StaticImage loading="eager" className="img" src="../images/hero_placeholder.png" alt="" layout="constrained" /> */}
             <GatsbyImage objectFit='contain' objectPosition='top' className="img" image={akt.image.image} alt={akt.image.imageAlt}></GatsbyImage>
 
             <h3 className="title">{akt.title}</h3>
-            <p className="text" dangerouslySetInnerHTML={{ __html: expanded ? longText : shortText }}></p>
-            <button className={`button vice-button ${green ? 'green' : ''}`} onClick={() => {
+            <div className="text"
+                ref={textWrapper}
+                style={{
+                    height: expanded ? 'max-content' : '10em',
+                    columnWidth: '100vw',
+                    maxWidth: '90%',
+                }}
+            >
+                <p ref={text} dangerouslySetInnerHTML={{ __html: akt.body }} />
+            </div>
+            {overflowing && <button className={`button vice-button ${green ? 'green' : ''}`} onClick={() => {
                 setExpanded(!expanded);
-            }}>{expanded ? 'Méně' : 'Více'}</button>
+            }}>{expanded ? 'Méně' : 'Více'}</button>}
             {/* {akt.link && (akt.link[0] == "/" ? <Link to={akt.link} className="aktuality-link link">Více</Link>
         : <a className="aktuality-link link" href={akt.link}>Více</a>)} */}
         </div>
@@ -162,4 +147,4 @@ const AktualitaComponent: React.FC<AktualitaProps> = ({ akt, resize, green, bigg
 }
 
 export default AktualityCarousel;
-export {AktualitaComponent}
+export { AktualitaComponent }
