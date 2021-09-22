@@ -245,14 +245,14 @@ const IndexPage = () => {
           <div className="button-row">
             <Link to="/program" className="button section-button buy-button ">
               Zobrazit program
-              </Link>
+            </Link>
             <a href="https://eshop.kousekpokousku.cz/vstupenky" className="button filled">Chci koupit vstupenku</a>
           </div>
         </section>
       </LayerWrapper>
 
 
-  
+
 
 
       <section className="section-zahrada">
@@ -260,7 +260,7 @@ const IndexPage = () => {
           <h2 className="section-title title">
             Zahrada Hojnosti</h2>
           <p className="text">Na&nbsp;pozemku Nadačního fondu Kousek po&nbsp;kousku ve&nbsp;Fulneku, o&nbsp;rozloze 16&nbsp;000&nbsp;m<sup>2</sup>, se postupně rodí výjimečné <strong>místo pro tělo, mysl a&nbsp;duši, harmonizační
-                a&nbsp;inspirativní prostor pro psychickou i fyzickou relaxaci.</strong> Zázemí zahrady umožní<strong> dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah</strong> pro&nbsp;všechny věkové skupiny i&nbsp;spoluúčast na&nbsp;výjimečném ekonomickém procesu.
+            a&nbsp;inspirativní prostor pro psychickou i fyzickou relaxaci.</strong> Zázemí zahrady umožní<strong> dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah</strong> pro&nbsp;všechny věkové skupiny i&nbsp;spoluúčast na&nbsp;výjimečném ekonomickém procesu.
             Prostřednictvím samosběrů květin, bylin a&nbsp;plodů jedlé Zahrady představí totiž NF naprosto <strong>unikátní způsob hospodaření pro dosažení soběstačnosti.</strong>
           </p>
           <div className="button-row ">
@@ -282,7 +282,7 @@ const IndexPage = () => {
 
         <p className="subtitle blue"> Děkujeme, že&nbsp;se připojíte</p>
         <a href="https://eshop.kousekpokousku.cz/chci-prispet-jsem-grand/" className="button filled bigger">Chci přispět</a>
-        
+
 
       </section>
       <section className="image-section">
@@ -291,8 +291,8 @@ const IndexPage = () => {
           <p className="subtitle">Dejme kouskům druhou šanci!</p>
           <p className="text">Udržitelnost je téma, ke kterému se dlouhodobě hlásíme. Dopady výroby oděvů nelze přehlížet. Už redukcí naší osobní spotřeby každý z nás významně pomůže.</p>
           <p className="text">Do&nbsp;šatníku si&nbsp;pořizujme <strong>základní, kvalitní, nadčasové kousky, nejlépe z&nbsp;recyklovatelných materiálů.</strong> Zejména díky dobrým materiálům vydrží ve&nbsp;skvělé kondici a&nbsp;slouží dlouho, často i&nbsp;někomu druhému. Právě nákup z&nbsp;druhé ruky je jedním z&nbsp;principů zpomalení cyklu neboli <strong>slou&nbsp;módy</strong>.</p>
-          <p className="text">V Nadačním fondu Kousek po kousku máme s dobročinným bazarem pod značkou Kouskování dlouholeté zkušenosti. <strong>6 ročníků pořádání Klášterního kouskování vyneslo přes půl miliónu korun na další kousky pomoci</strong> a také stálý okruh desítek dobrovolníků. 
-          <strong>Děkujeme!</strong> <Link to="/kouskovani" className="link">Více o Klášterním kouskování</Link>
+          <p className="text">V Nadačním fondu Kousek po kousku máme s dobročinným bazarem pod značkou Kouskování dlouholeté zkušenosti. <strong>6 ročníků pořádání Klášterního kouskování vyneslo přes půl miliónu korun na další kousky pomoci</strong> a také stálý okruh desítek dobrovolníků.
+            <strong>Děkujeme!</strong> <Link to="/kouskovani" className="link">Více o Klášterním kouskování</Link>
 
           </p>
           <p className="text">
@@ -308,7 +308,7 @@ const IndexPage = () => {
         <StaticImage style={{ filter: 'brightness(1.2)' }} className='section-image img' src="../images/kouskovani_saty.png" alt='Ruka podává šaty a boty' layout='constrained' placeholder='blurred' />
       </section>
 
-     
+
 
       <section className="aktuality">
         <h1 className="section-title">Aktuality</h1>
@@ -329,7 +329,7 @@ const IndexPage = () => {
         <h1 className="title">O&nbsp;nadačním fondu</h1>
         <p className="text">Každý člověk může kdykoliv během svého života zažívat radost, zapálení, touhu objevovat nové možnosti, realizovat je tvořivou cestou a tím zlepšovat sám sebe i svět kolem nás, tady a teď. </p>
         <p className="text">Pomáháme chápat a přijímat nové životní pohledy, uchopit život do vlastních rukou a osvojit si skutečné životní hodnoty. Zároveň prožíváme radost a uspokojení z toho, co děláme. Každý v sobě máme něco jedinečného, a to pomáháme objevit. Všichni máme volbu. My jsme si zvolili dělat to, co nás naplňuje. Pomáhat lidem, sobě a světu kolem nás.
-        <Link className="button" to="/mise-vize-poslani">Více o nadačním fondu</Link>
+          <Link className="button" to="/mise-vize-poslani">Více o nadačním fondu</Link>
         </p>
       </section>
 
@@ -341,13 +341,13 @@ const IndexPage = () => {
             <StaticImage className='img' src="../images/jahoda.png" alt='' layout='constrained' placeholder='blurred' objectFit='contain' />
             <h2>Zahrada hojnosti</h2>
           </Link> */}
-          <Link to="/projekty#klinika" className="projekt-link klinika">
+          <Link to="/aktualne-podporujeme#klinika" className="projekt-link klinika">
             <div className="img-wrapper">
               <StaticImage className='img' src="../images/handshake.png" alt='' layout='constrained' placeholder='blurred' objectFit='cover' />
             </div>
             <h2>Sociální klinika</h2>
           </Link>
-          <Link to="/projekty#intervence" className="projekt-link intervence">
+          <Link to="/aktualne-podporujeme#intervence" className="projekt-link intervence">
             <div className="img-wrapper">
               <StaticImage className='img' src="../images/puzzle.png" alt='' layout='constrained' placeholder='blurred' objectFit='contain' />
             </div>
