@@ -111,8 +111,9 @@ const AktualitaComponent: React.FC<AktualitaProps> = ({ akt, resize, green, bigg
         resize();
     }, [expanded])
 
-    React.useLayoutEffect(() => {
+    React.useEffect(() => {
         if (!textWrapper.current || !text.current) return;
+        console.log(akt.title, text.current.clientHeight, textWrapper.current.clientHeight, text.current.clientHeight > textWrapper.current.clientHeight)
         if (text.current.clientHeight > textWrapper.current.clientHeight) {
             console.log("Overflowing!!!")
             setOverflowing(true)
