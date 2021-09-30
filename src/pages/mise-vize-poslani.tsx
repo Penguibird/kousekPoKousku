@@ -68,7 +68,7 @@ const ONadaciPage = () => {
                      Stojí také  za vlastním unikátním projektem Zahrady Hojnosti, ke kterému přistupuje s neobyčejným vizionářským pohledem a osobní angažovaností. Jejím cílem je vytvořit ve Fulneku jedinečné místo pro místní i návštěvníky města, kde zhmotní svou filantropickou ideu.</p>
                 </section>
                 <section className="section images">
-                    <StaticImage className='img' src="../images/martina_laptop.jpg" alt='Pan Vyhlídal u stolu' layout='constrained' placeholder='blurred' />
+                    <StaticImage className='img' src="../images/martina_video.jpg" alt='Pan Vyhlídal u stolu' layout='constrained' placeholder='blurred' />
                 </section>
             </main>
         </Layout>
