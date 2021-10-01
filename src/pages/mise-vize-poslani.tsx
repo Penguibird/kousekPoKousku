@@ -55,7 +55,7 @@ const ONadaciPage = () => {
                     <p className="text">Nadační fond Kousek po kousku byl založen v prosinci roku 2011 za účelem s cílem podpory a rozvoje duchovních a humanitárních hodnot, podpory životního prostředí, chovu a ochrany zvířat, vzdělávání,
                      školství včetně volnočasových aktivit, vědy a výzkumu, sportu, sociálně-zdravotní oblasti, potřeb seniorů, zdravotnictví, kultury, umění, památek, lidových tradic, dále podpory regionu a evropských projektů neziskových organizací na výše uvedené účely.</p>
                     <p className="text">Kousek po kousku vznikl z iniciativy Martiny Mazancové, za velké podpory tatínka Martiny, zakladatele a původního majitele rodinné společnosti Pars Komponenty, s. r. o., pana Vladimíra Vyhlídala.</p>
-                    <StaticImage className='img' src="../images/pan_vyhlida.jpg" alt='Pan Vyhlídal u stolu' layout='constrained' placeholder='blurred' />
+                    <StaticImage className='img' src="../images/pan_vyhlida.jpg" alt='Vladimír Vyhlídal' layout='constrained' placeholder='blurred' />
 
                     <p className="text">První grantové kolo bylo vyhlášeno na jaře 2012 díky finančnímu příspěvku společnosti Pars Komponenty, s.r.o., která už před založením nadačního fondu splňovala kredit společensky zodpovědné firmy a měla za sebou podnikatelské úspěchy.</p>
 
@@ -68,7 +68,7 @@ const ONadaciPage = () => {
                      Stojí také  za vlastním unikátním projektem Zahrady Hojnosti, ke kterému přistupuje s neobyčejným vizionářským pohledem a osobní angažovaností. Jejím cílem je vytvořit ve Fulneku jedinečné místo pro místní i návštěvníky města, kde zhmotní svou filantropickou ideu.</p>
                 </section>
                 <section className="section images">
-                    <StaticImage className='img' src="../images/martina_video.jpg" alt='Martina Mazancová' layout='constrained' placeholder='blurred' />
+                    <StaticImage className='img' src="../images/martina_video.png" alt='Martina Mazancová' layout='constrained' placeholder='blurred' />
                 </section>
             </main>
         </Layout>
