@@ -68,7 +68,7 @@ const ONadaciPage = () => {
                      Stojí také  za vlastním unikátním projektem Zahrady Hojnosti, ke kterému přistupuje s neobyčejným vizionářským pohledem a osobní angažovaností. Jejím cílem je vytvořit ve Fulneku jedinečné místo pro místní i návštěvníky města, kde zhmotní svou filantropickou ideu.</p>
                 </section>
                 <section className="section images">
-                    <StaticImage className='img' src="../images/martina_video.png" alt='Martina Mazancová' layout='constrained' placeholder='blurred' />
+                    <StaticImage className='img' src="../images/martina-venek.jpg" alt='Martina Mazancová' layout='constrained' placeholder='blurred' />
                 </section>
             </main>
         </Layout>
