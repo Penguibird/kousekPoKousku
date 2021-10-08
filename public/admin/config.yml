@@ -1,0 +1,89 @@
+backend:
+  name: github
+  repo: penguibird/kousekPoKousku
+  branch: master
+  base_url: 'https://my-github-auth-provider.herokuapp.com'
+
+
+locale: 'cs'
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'aktuality'
+    label: 'Aktuality'
+    folder: 'content/aktuality'
+    create: true
+    slug: 'index'
+    media_folder: ''
+    public_folder: ''
+    path: '{{name}}/index'
+    preview: true
+    identifier_field: 'name'
+    fields:
+    - { label: "ID", name: "id", widget: "id"}
+    - { label: "Nazev", name: 'name', widget: 'string'}
+    - {label: 'Datum', name: 'date', widget: 'datetime', format: 'DD-MM-YYYY'}
+    - {label: 'Text', name: 'body', widget: 'markdown'}
+    - label: 'Obrazek'
+      name: 'image'
+      widget: 'object'
+      collapsed: false
+      fields:
+      - {label: 'Obrazek', name: 'image', widget: 'image'}
+      - {label: 'Popis obrazku', name: 'imageAlt', widget: 'string'}
+  - name: 'aktualityZahrada'
+    label: 'Aktuality Zahrada'
+    folder: 'content/aktualityZahrada'
+    create: true
+    slug: 'index'
+    media_folder: ''
+    public_folder: ''
+    path: '{{name}}/index'
+    preview: true
+    identifier_field: 'name'
+    fields:
+    - { label: "ID", name: "id", widget: "id"}
+    - { label: "Nazev", name: 'name', widget: 'string'}
+    - {label: 'Datum', name: 'date', widget: 'datetime', format: 'DD-MM-YYYY'}
+    - {label: 'Text', name: 'body', widget: 'markdown'}
+    - label: 'Obrazek'
+      name: 'image'
+      widget: 'object'
+      collapsed: false
+      fields:
+      - {label: 'Obrazek', name: 'image', widget: 'image'}
+      - {label: 'Popis obrazku', name: 'imageAlt', widget: 'string'}
+  - name: 'projekty'
+    label: 'Projekty'
+    folder: 'content/projekty'
+    create: true
+    slug: 'index'
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}/index'
+    preview: true
+    identifier_field: 'name'
+    fields:
+      - { label: "ID", name: "id", widget: "ncw-id"}
+      - { label: 'Nazev', name: 'title', widget: 'string' }
+      - { label: 'Cena', name: 'price', widget: 'number' }
+      - { label: 'Rok', name: 'year', widget: 'number', value_type: 'int', min: 2000, max: 2100, step: 1, default: 2020, format: 'YYYY' }
+      - { label: 'Popis', name: 'description', widget: 'markdown' }
+      - label: 'Obrazek'
+        name: 'image'
+        widget: 'object'
+        collapsed: false
+        required: false
+        fields:
+        - {label: 'Obrazek', name: 'image', widget: 'image', required: false}
+        - {label: 'Popis obrazku', name: 'imageAlt', widget: 'string', required: false}
+      - {label: 'Podporen z kouskovani?', name: 'kouskovani', widget: 'boolean', required: false}
+      - {label: 'Nazev mista', name: 'locationName', widget: 'string', required: false}
+      - label: 'GPS souradnice'
+        name: 'position' 
+        widget: 'object'
+        collapsed: false
+        fields: 
+        - {label: 'Lat', name: 'lat', widget: 'number', value_type: 'float'}
+        - {label: 'Lng', name: 'lng', widget: 'number', value_type: 'float'}
