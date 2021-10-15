@@ -35,9 +35,9 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
             <p className="small">Dary na Jurtu je možné zaslat na speciální transparentní účet:
                 <strong> JURTA pro Zahradu HOJNOSTI ve Fulneku – č. 293203185/0300</strong>
             </p>
-            <p className="small">Nebo přes odkaz <a href="https://podpora.kousekpokousku.cz/zahrada-hojnosti">zde</a>, kde najdete darovací šeky s obrazem Magdalény Feilhauerové.</p>
+            <p className="small">Nebo přes odkaz <a href="https://podpora.kousekpokousku.cz/ze-zahrady-hojnosti">zde</a>, kde najdete darovací šeky s obrazem Magdalény Feilhauerové.</p>
             <div className="button-row">
-                <a href="https://podpora.kousekpokousku.cz/zahrada-hojnosti" className={"button filled " + (green && " green")}>Přispět</a>
+                <a href="https://podpora.kousekpokousku.cz/ze-zahrady-hojnosti" className={"button filled " + (green && " green")}>Přispět</a>
                 {green
                     ? null
                     : <Link to="/zahrada-hojnosti" className={"button  outlined " + (green && " green")}>Více o Zahradě</Link>
