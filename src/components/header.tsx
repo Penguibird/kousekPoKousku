@@ -81,7 +81,7 @@ const Header: React.FC<Props> = ({ color, logo }) => {
                 </li>
             </ul>
         </nav>
-        <a href="https://eshop.kousekpokousku.cz/" className={"eshop-link button  filled " + color ?? ''}>Chci přispět</a>
+        <a href="https://podpora.kousekpokousku.cz/" className={"eshop-link button  filled " + color ?? ''}>Chci přispět</a>
     </header>
 }
 

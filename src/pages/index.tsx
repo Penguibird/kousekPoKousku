@@ -23,6 +23,7 @@ import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 import { useStaticQuery, graphql } from 'gatsby';
 import { useEffect } from 'react';
 import useAktuality from "../functions/useAktuality";
+import JurtaSection from './../components/section-jurta';
 
 const IndexPage = () => {
   const breakpoints = useBreakpoint();
@@ -229,6 +230,8 @@ const IndexPage = () => {
         </ul>
       </section>
 
+      <JurtaSection green={false} />
+
       <LayerWrapper>
         <StaticImage objectFit="cover" objectPosition="right" className="img" src="../images/sako_final.jpg" alt='Muž v obleku upravující si manžety' layout='fullWidth' />
         <div className="galavecer-overlay"></div>
@@ -246,7 +249,7 @@ const IndexPage = () => {
             <Link to="/program" className="button section-button buy-button ">
               Zobrazit program
             </Link>
-            <a href="https://eshop.kousekpokousku.cz/vstupenky" className="button filled">Chci koupit vstupenku</a>
+            <a href="https://podpora.kousekpokousku.cz/vstupenky" className="button filled">Chci koupit vstupenku</a>
           </div>
         </section>
       </LayerWrapper>
@@ -264,7 +267,7 @@ const IndexPage = () => {
             Prostřednictvím samosběrů květin, bylin a&nbsp;plodů jedlé Zahrady představí totiž NF naprosto <strong>unikátní způsob hospodaření pro dosažení soběstačnosti.</strong>
           </p>
           <div className="button-row ">
-            <a className="button filled link" href="https://eshop.kousekpokousku.cz/">Chci podpořit Zahradu</a>
+            <a className="button filled link" href="https://podpora.kousekpokousku.cz/">Chci podpořit Zahradu</a>
             <Link className="button " to="/zahrada-hojnosti">Více</Link>
           </div>
         </section>
@@ -281,7 +284,7 @@ const IndexPage = () => {
         <p className="subtitle bigger" style={{ color: 'white', fontSize: '1.7em' }}> Kousek po&nbsp;kousku toho společně zvládneme kus</p>
 
         <p className="subtitle blue"> Děkujeme, že&nbsp;se připojíte</p>
-        <a href="https://eshop.kousekpokousku.cz/chci-prispet-jsem-grand/" className="button filled bigger">Chci přispět</a>
+        <a href="https://podpora.kousekpokousku.cz/chci-prispet-jsem-grand/" className="button filled bigger">Chci přispět</a>
 
 
       </section>
@@ -300,7 +303,7 @@ const IndexPage = () => {
           </p>
           <div className="button-row">
             <Link to="/daruj-kousek" className="button">Chci darovat kousek</Link>
-            <a href="https://eshop.kousekpokousku.cz/kouskovani/" className="button section-button buy-button filled">
+            <a href="https://podpora.kousekpokousku.cz/kouskovani/" className="button section-button buy-button filled">
               Chci koupit kousek
             </a>
           </div>

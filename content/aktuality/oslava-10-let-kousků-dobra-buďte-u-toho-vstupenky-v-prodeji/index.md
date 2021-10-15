@@ -21,4 +21,4 @@ V závěru si užijeme nevšední koncert Lucie Klasek/The STRINGZ, kteří nás
 
 Dobří lidé, dobroty a neotřelé prostředí fulneckého kláštera. 
 
-**Tak co? Už máte svou vstupenku?  https://eshop.kousekpokousku.cz/vstupenky/**
+**Tak co? Už máte svou vstupenku?  https://podpora.kousekpokousku.cz/vstupenky/**

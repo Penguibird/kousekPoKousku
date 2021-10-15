@@ -31,6 +31,7 @@ import useAktualityZahrada from '../functions/useAktualityZahrada'
 
 import type Aktualita from '../types/aktualita'
 import { Link } from 'gatsby';
+// import JurtaSection from './../components/section-jurta';
 interface ZahradaPageProps {
 
 
@@ -62,6 +63,70 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
 
     const aktuality: Aktualita[] = useAktualityZahrada();
     // console.log(images)
+
+    const number = 10000;
+
+    const approxeq = (v1: number, v2: number): boolean => {
+        const epsilon = 0.001;
+
+        return Math.abs(v1 - v2) < epsilon;
+    };
+
+    const animateValue = (obj: Element | null, start: number, end: number, duration: number, decimal: number = 0): void => {
+        if (window && obj) {
+            const stepperValueBoundary = decimal === 0
+                ? 1
+                : 1 / (decimal * 10);
+            const equal = decimal === 0
+                ? (a: number, b: number) => a === b
+                : approxeq;
+            let startTimestamp: number | null = null;
+            const step = (timestamp: number) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+
+                // Calculate how far along in the animation we are
+                const progress = Math.min((timestamp - startTimestamp) / (duration), 1);
+
+                // let t = (timestamp - startTimestamp);
+                // let c = ;
+                // let d = duration;
+                // let b = start;
+
+                // t = progress;
+
+                // let val =  
+
+
+                // From that calculate what number to show
+                obj.innerHTML = Math.round((progress * (end - start) + start)).toLocaleString("cs-CZ");
+                // obj.innerHTML = (-(end - start) * progress * (progress - 2) + start).toFixed(decimal).toString();
+
+                // If the animation isnt finished, queue up next animation
+                // * uses approxeq to deal with floating points
+                if (!equal(progress, 1)) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            // Kick off the animation
+            window.requestAnimationFrame(step);
+        }
+    }
+
+    const startValue = 0;
+    const animDuration = 1000;
+    React.useEffect(() => {
+        const observe = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateValue(document.getElementById('number'), startValue ?? 0, number, animDuration);
+                }
+            })
+        }, {});
+
+        const target = document.querySelector('section.section-jurta-2');
+        if (target) observe.observe(target);
+    }, [])
+
     return <Layout title="Zahrada Hojnosti | Nadační fond Kousek po Kousku" headerProps={{ color: 'green', logo: 'zahrada' }}>
         <main className="zahrada">
             <LayerWrapper className="hero">
@@ -101,18 +166,18 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             <section className="section-uvod" style={{ overflow: 'auto' }}>
 
                 <StaticImage className='img' src="../images/jahoda_right.png" alt='Ruka drzi rostlinku' layout='constrained' placeholder='blurred' />
-            <Link className="link-back" to="/"><span className="text">Zpět na hlavní stránku NF <span className="highlight green">Kousek po Kousku</span></span></Link>
+                <Link className="link-back" to="/"><span className="text">Zpět na hlavní stránku NF <span className="highlight green">Kousek po Kousku</span></span></Link>
                 {/* <section className="section section-text co-nabizi"> */}
                 <p className="montserrat-subtitle " >
                     {/* <strong>Zahrada Hojnosti na pozemku Nadačního fondu Kousek po kousku je naprosto unikátní projekt,</strong> který&nbsp;je&nbsp;připraven na&nbsp;vstup dalších dárců a&nbsp;filantropů. */}
-                        Budujeme přírodní zahradu - Zahradu Hojnosti. Zahradu pro <strong>tělo i duši.</strong> Přidáte se? <strong>Vytvoříme společně krásné, inspirativní místo pro psychickou i fyzickou relaxaci, které bude žít pro další a další generace.</strong>
+                    Budujeme přírodní zahradu - Zahradu Hojnosti. Zahradu pro <strong>tělo i duši.</strong> Přidáte se? <strong>Vytvoříme společně krásné, inspirativní místo pro psychickou i fyzickou relaxaci, které bude žít pro další a další generace.</strong>
                 </p>
                 <p className="montserrat-subtitle">
                     Vítáme všechny, kteří v ní najdou svůj kousek pro sebe. <strong>Kousek pohody, odpočinku, krásy, pohybu, přátelství...</strong>
                 </p>
                 <p className="montserrat-subtitle">
                     Zahrada poskytne <strong>prostor pro hledání a hlubší poznání sebe sama,</strong> pro tvořivou práci, setkávání, pohyb a poznávání nového prostřednictvím workshopů.
-                        </p>
+                </p>
                 {/* <p className="text">
                         Na&nbsp;pozemku Nadačního fondu Kousek po&nbsp;kousku ve&nbsp;Fulneku, o&nbsp;rozloze 16&nbsp;000&nbsp;m<sup>2</sup>, se postupně rodí výjimečné <strong>místo pro tělo, mysl a&nbsp;duši, harmonizační
                             a&nbsp;inspirativní prostor pro psychickou i fyzickou relaxaci.</strong> Zázemí Zahrady umožní<strong> dobrovolnické projekty, sociální a mezigenerační stmelování, edukační přesah</strong> pro&nbsp;všechny věkové skupiny i&nbsp;spoluúčast na&nbsp;výjimečném ekonomickém procesu.
@@ -124,7 +189,56 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                 {/* </section> */}
             </section>
 
+            {/* <JurtaSection green={true} />
+            
+            */}
 
+            <section className="text-section section section-jurta" style={{ paddingTop: 0 }}>
+                <div className="grid-top">
+                    <h1 className="section-title title">
+                        Jurta pro Zahradu HOJNOSTI
+                    </h1>
+                    <p className="text">
+                        <strong>Zahrada Hojnosti potřebuje celoroční zázemí.</strong> Pro setkávání, workshopy, cvičení i pro děti ze škol, které by mohly trávit nějaký čas mimo
+                        lavice.
+                    </p>
+                </div>
+                <StaticImage className='grid-img img section-image' src="../images/jurta_white.jpg" alt='Jurta - Magdaléna Feilhauerová' layout='constrained' placeholder='blurred' />
+                <div className="grid-bottom">
+                    <p className="text">
+                        Jurta o průměru 9 m s výhledem do Zahrady HOJNOSTI poskytne přístřeší a díky tomu
+                        možnost pozorovat přírodu bez omezení, za každého počasí.
+                        Díky Jurtě bude Zahrada Hojnosti žít v každé roční době.
+                        Bude sloužit všem generacím, které spojuje aktivní, tvořivý způsob života.
+                    </p>
+                </div>
+            </section>
+            <section className="section text-section center section-jurta-2">
+                {/* <div className="counter">
+                    <h2 className="green">Již jsme vybrali</h2>
+                    <p className="number"><span className="" id="number">10 000</span></p>
+                    <p style={{ fontWeight: 700 }}>korun českých</p>
+
+                </div> */}
+                <p
+                    className={"subtitle green"}
+                    style={{ marginBottom: '0', maxWidth: '50ch', fontSize: '1.7em' }}
+                >
+                    <strong>Přispět může každý.</strong>
+                </p>
+                <p className="text"
+                    style={{ marginBottom: '2em', marginTop: '0em', maxWidth: '50ch', fontSize: '1.3em' }}
+                > Kolik každý z nás daruje, přesně tolik vloží i Nadační fond Kousek po kousku.</p>
+                <div className="button-row">
+                    <a href="https://podpora.kousekpokousku.cz/zahrada-hojnosti" className={"button filled green bigger"}>Přispět</a>
+                </div>
+                <p className="small">Dary na Jurtu je možné zaslat také na speciální transparentní účet: <br />
+                    <strong> JURTA pro Zahradu HOJNOSTI ve Fulneku – č. 293203185/0300</strong>
+                    <br />
+                    Nebo přes odkaz <a href="https://podpora.kousekpokousku.cz/zahrada-hojnosti"><strong>zde</strong></a>,
+                    kde najdete darovací šeky s obrazem Magdalény Feilhauerové.
+                </p>
+            </section>
 
 
             <section className="prinos">
@@ -140,8 +254,8 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             <section className="section section-text section-centered">
                 <p className="montserrat-subtitle co-nabizi" >
                     Spolupráce s přírodou je rovná. <strong>Za práci, péči a starostlivost přichází hojnost.</strong> Pokud ji vidět chceme, vnímáme ji všude. Už při zrodu nabízí Zahrada půdu, prostor a zázemí.
-                        Je povzbuzující terapií vidět, jak se i to nejmenší semínko snaží uchytit, každá květina na louce prezentovat svoji krásu. Je to výzva a inspirace pro nás pro všechny.
-                    </p>
+                    Je povzbuzující terapií vidět, jak se i to nejmenší semínko snaží uchytit, každá květina na louce prezentovat svoji krásu. Je to výzva a inspirace pro nás pro všechny.
+                </p>
             </section>
 
             {/* <section className="section section-text tree-section">
@@ -168,7 +282,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                         <p className="text">
                             Prostor slouží ke&nbsp;sdílení, setkávání, tvoření jednotlivců i&nbsp;skupin. Všichni si&nbsp;mohou odzkoušet své limity při&nbsp;fyzické práci a&nbsp;zjistit, jaký díl radosti jim přináší.
                             Dobrovolnictví v&nbsp;Zahradě nabude všední význam. Jde o&nbsp;skvělý způsob, jak&nbsp;pozitivně ovlivnit sebe a&nbsp;svět kolem nás.
-                            </p>
+                        </p>
 
                         <p className="text">
                             <strong>Chcete&nbsp;se&nbsp;zapojit?</strong> Navštivte&nbsp;FB&nbsp;stránku <a href="https://www.facebook.com/dobrovolniciprozahraduhojnosti.cz/">Dobrovolníci&nbsp;Zahrady&nbsp;Hojnosti</a>, kde sdělujeme aktuální informace o&nbsp;termínech a&nbsp;akcích, nebo napište na&nbsp;<a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>.
@@ -180,7 +294,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                         <p className="text">
                             Zahrada poskytne zázemí také pro&nbsp;různé druhy vědomého cvičení, pro&nbsp;harmonizaci, odpočinek a&nbsp;duševní pohodu. Pro hledání sama sebe, ztišení své duše, odpoutání se&nbsp;od&nbsp;každodenní reality.
                             Je už&nbsp;na každém, zda relaxuje u&nbsp;fyzické práce, cvičení nebo si&nbsp;jen posedí pod stromem. Připravujeme i&nbsp;mnoho tematických workshopů o&nbsp;pěstování a&nbsp;zpracování bylin, výrobě mastí, krémů, tinktur a&nbsp;dalších zázraků.
-                            </p>
+                        </p>
                         <p className="text"><strong>Máte vlastní námět?</strong> Přihlaste se na <a className="mail" href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a></p>
                         <p className="subtitle green">
                             <strong>Chcete workshop sami pořádat?</strong>
@@ -213,7 +327,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                 <section className="section section-text inner">
                     <h2 className="title">
                         Hospodaření
-                        </h2>
+                    </h2>
 
                     <p className="text">
                         <strong>Zahradu hojnosti spravuje a provozuje NF Kousek po kousku se záměrem soběstačnosti.</strong>
@@ -221,7 +335,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     <p className="text">
                         <strong>Jedním ze zdrojů budou samosběry.</strong> Bude možné přijít na řez květin, sběr bylin, později i bobulovin a vše, co v hojnosti Zahrada vydá.
                         Při samosběru se nastaví minimální částka a bude na každém, zda plody přírody ocení klidně i sumou vyšší.
-                         Finanční zdroje se vrátí zpět do hospodaření Nadačního fondu a budou použity na další rozvoj Zahrady.
+                        Finanční zdroje se vrátí zpět do hospodaření Nadačního fondu a budou použity na další rozvoj Zahrady.
                     </p>
                     <p className="text">
                         <strong>Další zdroje přinese zapojení jednotlivců, skupin a firem.</strong> Každý může zakoupit svůj strom, část plotu, lavičku atd., které ponesou jejich jmenovku.
@@ -247,7 +361,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
             <section className="section section-text pravidla">
                 <h2 className="title">
                     Desatero Zahrady
-                    </h2>
+                </h2>
                 <ol className="pravidla-list">
                     <li>Přistupuj s láskou ke všemu, co zde je a cti hojnost.</li>
                     <li>I ty jsi přiložil ruku k dílu nebo se teprve tak stane. </li>

@@ -28,7 +28,7 @@ const ProgramPage = () => {
                     <time dateTime="19:00">19:00</time>
                     <p className="item"><span className="highlighted">koncert</span> popové houslistky <span className="highlighted">Lucie Klasek</span> a akustického tria <span className="highlighted">The Stringz</span></p>
                     <p className="last" style={{ marginTop: '2em' }}>Vstupenky:</p>
-                    <p className="last"><a className="link" href="https://eshop.kousekpokousku.cz/vstupenky">eshop.kousekpokousku.cz/vstupenky</a></p>
+                    <p className="last"><a className="link" href="https://podpora.kousekpokousku.cz/vstupenky">podpora.kousekpokousku.cz/vstupenky</a></p>
                 </section>
                 <section className="section section-image">
                     <a href="/Program slavnostního galavečera.png">

@@ -16,4 +16,4 @@ Koncert obohatí sólista Národního divadla Moravskoslezského - zpěvák, kte
 
 Zajímá Vás, jak zní styl, kterému se říká  crossover? V čem je jejich projev jiný? 
 
-**Pokud je neuslyšíte v sobotu při Slavnostním GALAVEČERU, uvidíme se společně v neděli v 18 hodin v kostele sv. Josefa na koncertě pro KOUSEK. Vstupenky** https://eshop.kousekpokousku.cz/vstupenky/
+**Pokud je neuslyšíte v sobotu při Slavnostním GALAVEČERU, uvidíme se společně v neděli v 18 hodin v kostele sv. Josefa na koncertě pro KOUSEK. Vstupenky** https://podpora.kousekpokousku.cz/vstupenky/
