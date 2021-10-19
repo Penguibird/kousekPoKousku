@@ -232,7 +232,7 @@ const IndexPage = () => {
 
       <JurtaSection green={false} />
 
-      <LayerWrapper>
+      {/* <LayerWrapper>
         <StaticImage objectFit="cover" objectPosition="right" className="img" src="../images/sako_final.jpg" alt='Muž v obleku upravující si manžety' layout='fullWidth' />
         <div className="galavecer-overlay"></div>
         <section className="text-section section galavecer">
@@ -244,7 +244,7 @@ const IndexPage = () => {
           <p className="text">Součástí Galavečera bude koncert popové houslistky <a className="inline" href="https://www.youtube.com/watch?v=-49HE-gAxok">Lucie Klasek &amp; The Stringz.</a><br />The Stringz zahrají pro Kousek ještě jednou, v&nbsp;neděli 17.&nbsp;října opět v kostele sv.&nbsp;Josefa ve&nbsp;Fulneku. Speciálním hostem nedělního Koncertu pro Kousek bude Tomáš Savka.</p>
           {/* <a href="/" className="button section-button buy-button">
             koupit vstupenku
-          </a> */}
+          </a>
           <div className="button-row">
             <Link to="/program" className="button section-button buy-button ">
               Zobrazit program
@@ -252,7 +252,7 @@ const IndexPage = () => {
             <a href="https://podpora.kousekpokousku.cz/vstupenky" className="button filled">Chci koupit vstupenku</a>
           </div>
         </section>
-      </LayerWrapper>
+      </LayerWrapper> */}
 
 
 
