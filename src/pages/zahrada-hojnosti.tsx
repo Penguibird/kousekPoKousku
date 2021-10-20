@@ -64,68 +64,8 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
     const aktuality: Aktualita[] = useAktualityZahrada();
     // console.log(images)
 
-    const number = 10000;
+  
 
-    const approxeq = (v1: number, v2: number): boolean => {
-        const epsilon = 0.001;
-
-        return Math.abs(v1 - v2) < epsilon;
-    };
-
-    const animateValue = (obj: Element | null, start: number, end: number, duration: number, decimal: number = 0): void => {
-        if (window && obj) {
-            const stepperValueBoundary = decimal === 0
-                ? 1
-                : 1 / (decimal * 10);
-            const equal = decimal === 0
-                ? (a: number, b: number) => a === b
-                : approxeq;
-            let startTimestamp: number | null = null;
-            const step = (timestamp: number) => {
-                if (!startTimestamp) startTimestamp = timestamp;
-
-                // Calculate how far along in the animation we are
-                const progress = Math.min((timestamp - startTimestamp) / (duration), 1);
-
-                // let t = (timestamp - startTimestamp);
-                // let c = ;
-                // let d = duration;
-                // let b = start;
-
-                // t = progress;
-
-                // let val =  
-
-
-                // From that calculate what number to show
-                obj.innerHTML = Math.round((progress * (end - start) + start)).toLocaleString("cs-CZ");
-                // obj.innerHTML = (-(end - start) * progress * (progress - 2) + start).toFixed(decimal).toString();
-
-                // If the animation isnt finished, queue up next animation
-                // * uses approxeq to deal with floating points
-                if (!equal(progress, 1)) {
-                    window.requestAnimationFrame(step);
-                }
-            };
-            // Kick off the animation
-            window.requestAnimationFrame(step);
-        }
-    }
-
-    const startValue = 0;
-    const animDuration = 1000;
-    React.useEffect(() => {
-        const observe = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    animateValue(document.getElementById('number'), startValue ?? 0, number, animDuration);
-                }
-            })
-        }, {});
-
-        const target = document.querySelector('section.section-jurta-2');
-        if (target) observe.observe(target);
-    }, [])
 
     return <Layout title="Zahrada Hojnosti | Nadační fond Kousek po Kousku" headerProps={{ color: 'green', logo: 'zahrada' }}>
         <main className="zahrada">
@@ -233,7 +173,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     <a href="https://podpora.kousekpokousku.cz/ze-zahrady-hojnosti" className={"button filled green bigger"}>Přispět</a>
                 </div>
                 <p className="small">Dary na Jurtu je možné zaslat také na speciální transparentní účet: <br />
-                    <strong> JURTA pro Zahradu HOJNOSTI ve Fulneku – č. 293203185/0300</strong>
+                    <strong> JURTA pro Zahradu HOJNOSTI ve Fulneku – č. 301075890/0300</strong>
                     <br />
                     Nebo přes odkaz <a href="https://podpora.kousekpokousku.cz/ze-zahrady-hojnosti"><strong>zde</strong></a>,
                     kde najdete darovací šeky s obrazem Magdalény Feilhauerové.

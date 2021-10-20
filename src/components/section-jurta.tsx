@@ -33,7 +33,7 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
                 Přispět může každý. Kolik každý z nás daruje, přesně tolik vloží i Nadační fond Kousek po kousku.
             </p>
             <p className="small">Dary na Jurtu je možné zaslat na speciální transparentní účet:
-                <strong> JURTA pro Zahradu HOJNOSTI ve Fulneku – č. 293203185/0300</strong>
+                <strong> JURTA pro Zahradu HOJNOSTI ve Fulneku – č. 301075890/0300</strong>
             </p>
             <p className="small">Nebo přes odkaz <a href="https://podpora.kousekpokousku.cz/ze-zahrady-hojnosti">zde</a>, kde najdete darovací šeky s obrazem Magdalény Feilhauerové.</p>
             <div className="button-row">
