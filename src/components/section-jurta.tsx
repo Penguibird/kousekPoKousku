@@ -27,6 +27,7 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
                 Díky Jurtě bude Zahrada Hojnosti žít v každé roční době.
                 Bude sloužit všem generacím, které spojuje aktivní, tvořivý způsob života.
             </p>
+            <Counter green={false} />
             <p
                 className={"subtitle " + (green && " green")}
                 style={{ marginBottom: '1em', maxWidth: '50ch' }}
@@ -44,7 +45,6 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
                     : <Link to="/zahrada-hojnosti" className={"button  outlined " + (green && " green")}>Více o Zahradě</Link>
                 }
             </div>
-            <Counter green={false} />
         </div>
     </section>
 

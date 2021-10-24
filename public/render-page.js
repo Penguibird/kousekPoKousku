@@ -5128,7 +5128,9 @@ const JurtaSection = ({
     className: "grid-bottom"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "text"
-  }, "Jurta o pr\u016Fm\u011Bru 9 m s\xA0v\xFDhledem do Zahrady HOJNOSTI poskytne p\u0159\xEDst\u0159e\u0161\xED a d\xEDky tomu mo\u017Enost pozorovat p\u0159\xEDrodu bez omezen\xED, za ka\u017Ed\xE9ho po\u010Das\xED. D\xEDky Jurt\u011B bude Zahrada Hojnosti \u017E\xEDt v\xA0ka\u017Ed\xE9 ro\u010Dn\xED dob\u011B. Bude slou\u017Eit v\u0161em generac\xEDm, kter\xE9 spojuje aktivn\xED, tvo\u0159iv\xFD zp\u016Fsob \u017Eivota."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, "Jurta o pr\u016Fm\u011Bru 9 m s\xA0v\xFDhledem do Zahrady HOJNOSTI poskytne p\u0159\xEDst\u0159e\u0161\xED a d\xEDky tomu mo\u017Enost pozorovat p\u0159\xEDrodu bez omezen\xED, za ka\u017Ed\xE9ho po\u010Das\xED. D\xEDky Jurt\u011B bude Zahrada Hojnosti \u017E\xEDt v\xA0ka\u017Ed\xE9 ro\u010Dn\xED dob\u011B. Bude slou\u017Eit v\u0161em generac\xEDm, kter\xE9 spojuje aktivn\xED, tvo\u0159iv\xFD zp\u016Fsob \u017Eivota."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_numberCounter__WEBPACK_IMPORTED_MODULE_2__.default, {
+    green: false
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "subtitle " + (green && " green"),
     style: {
       marginBottom: '1em',
@@ -5148,9 +5150,7 @@ const JurtaSection = ({
   }, "P\u0159isp\u011Bt"), green ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/zahrada-hojnosti",
     className: "button  outlined " + (green && " green")
-  }, "V\xEDce o Zahrad\u011B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_numberCounter__WEBPACK_IMPORTED_MODULE_2__.default, {
-    green: false
-  })));
+  }, "V\xEDce o Zahrad\u011B"))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (JurtaSection);
