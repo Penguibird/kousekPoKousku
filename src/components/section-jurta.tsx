@@ -2,6 +2,7 @@ import * as React from 'react';
 //import {Fragment, useState, useEffect} from 'react';
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
+import Counter from './numberCounter';
 
 interface JurtaSectionProps extends Partial<React.PropsWithChildren<React.ReactHTMLElement<HTMLDivElement>>> {
     green?: boolean
@@ -43,6 +44,7 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
                     : <Link to="/zahrada-hojnosti" className={"button  outlined " + (green && " green")}>Více o Zahradě</Link>
                 }
             </div>
+            <Counter green={false} />
         </div>
     </section>
 

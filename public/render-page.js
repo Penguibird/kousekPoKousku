@@ -14,7 +14,7 @@
 
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js")),
-  "component---src-pages-zahrada-hojnosti-tsx": preferDefault(__webpack_require__(/*! ./src/pages/zahrada-hojnosti.tsx */ "./src/pages/zahrada-hojnosti.tsx"))
+  "component---src-pages-index-tsx": preferDefault(__webpack_require__(/*! ./src/pages/index.tsx */ "./src/pages/index.tsx"))
   }
 
 
@@ -43,6 +43,28 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8a808"
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/1930538250.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1930538250.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEQElEQVQ4y3WTW2xTBRzG/3Ri9AFMvMS5sa5n3a0bjKuQIETFTFGUsI2L4DrHLm23tqc9l/acntNz6Tln7el1bXeBMW5DBUUEI4kk8GKiD8YnDTER4wsv8MQDMWKk7fmbodEX/SXf0z/58uX75wP4m+tfXAQzzgBW78FXVz8GPji2wv1u38rl2wuNjT3r1q9ztHe2wzPPPQuDB9+BC4vTMJ/RIejzwKj7PZhOJUDlQgBXP/0AskoE+OAwUF43lKZEGzl6xJaXaVCiQdi351UgHGu+cxDNC5s2b3DWN9THBw/tffnS2Vnn+ROzj6VU6cnx4aHVM6ZeJwTGbLB0vATlqTiUp0Qb5x+zLeQ14PzDkBbDrSofGuBDI9Mbe1x/2O2NP7k6iN+2vrgRh4/0Y14X7pdN9ReJCdyVGH9FpLxD8bAP4NrlC/DhXBbyCgvUuBvmMkr3TCq+NHx44MGObRuQ9g1ib+9rlbaWNdZg/26kA56HsfAkCmEvTgkUSmwQ1SiJMdL7o0RNhuD2rR/qLp+dX1XW+ZckyndG50PVYlLGocP78c3Xd1WlKFXp3/sWvrFrJ2YUzsppIhaTisUHRq2cylWLuvBQiwSrKjOJlPf9z2GxnFuailG/5lQOedKD2UQMEzG6Eqf9VkYVrJQqWCpPWYbIWCk5ioloAMO+oxjxj1qFBLcsFIIjd4f6ewn3QB+AJkQUXYhiUuIrKkdXTFWw0gkBE1zIijMBy4izqAmspQmMVU4nkPUfrbm6Omvbtm7GA3177o+5D37PTAxPjg8OwKG+fTbIZTINEsfelSNh1GNMzZA4zBqyFSF9yJFezBsy6gJjRYI+pP0eq6urAx3OlqqjpQXrGxu+AYC6KycL4HUfsA0dfBvgwomCfSat35bYMJYyyVrR1KyMJqEcpVFiSaT848j4x9GUOYsJjGP3WtfPTQ57jWghkGhx9K96ajXs37t7pc7RgIgAOU0oJmUeTx6f//3UsRkUGRJNRbBMhUdDZHG5t5KpLneIXHC0slA0Oxvsza+4urvKPWs7nnAQduju7nxktmP7FgCFowY0kcfzS6cxRvlrhsDWCoZi6QKLKSVm5Y24VUwpVSNGohaZ+NJUOKhf0wR2RzNs39INbW0EtLU7oanp+b8m5wmxQJHkTiYw8dnyh4tJBcvpRHUmk6iUTMXSY7Sl8eTDUlLEjxaykUtnSzA5Nvh4M+GwtbYS4GwloLXNCf8QFznwe7zABDyQ1aXsTD5dK5kJXCgkMSmxGA2MYToewnPzGbx4plS+cv44fHKmXLdp88ZH6drbneBydfxrePP6RWDIYF3POgKqd27C3LHTDTGWGskYyrWsFq+lZfZBTqbunCjoeCyfuHGqnITFolF348o5+E+YiREQIyzIfBTu3foaZucWgQlOwLfXL0MhnVqf1uUt0xr/9JRI7xboyV49RoEh0Cvgf/gTEw0H1CNMw/YAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/5419313478e0f3f843fe292e184a76d7/dd1b0/kouskovani_saty.png","srcSet":"/static/5419313478e0f3f843fe292e184a76d7/c9fe8/kouskovani_saty.png 845w,\\n/static/5419313478e0f3f843fe292e184a76d7/c4ed4/kouskovani_saty.png 1690w,\\n/static/5419313478e0f3f843fe292e184a76d7/dd1b0/kouskovani_saty.png 3380w","sizes":"(min-width: 3380px) 3380px, 100vw"},"sources":[{"srcSet":"/static/5419313478e0f3f843fe292e184a76d7/39feb/kouskovani_saty.webp 845w,\\n/static/5419313478e0f3f843fe292e184a76d7/7ced3/kouskovani_saty.webp 1690w,\\n/static/5419313478e0f3f843fe292e184a76d7/81eeb/kouskovani_saty.webp 3380w","type":"image/webp","sizes":"(min-width: 3380px) 3380px, 100vw"}]},"width":3380,"height":2470}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/1950030123.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1950030123.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"fullWidth","images":{"fallback":{"src":"/static/e1bea6cef0a32b8ca4c011c255fff2c9/afa5c/hero_snapshot.png","srcSet":"/static/e1bea6cef0a32b8ca4c011c255fff2c9/0dee1/hero_snapshot.png 750w,\\n/static/e1bea6cef0a32b8ca4c011c255fff2c9/8beaa/hero_snapshot.png 1080w,\\n/static/e1bea6cef0a32b8ca4c011c255fff2c9/d079a/hero_snapshot.png 1366w,\\n/static/e1bea6cef0a32b8ca4c011c255fff2c9/afa5c/hero_snapshot.png 1920w","sizes":"100vw"},"sources":[{"srcSet":"/static/e1bea6cef0a32b8ca4c011c255fff2c9/a66aa/hero_snapshot.webp 750w,\\n/static/e1bea6cef0a32b8ca4c011c255fff2c9/65dd5/hero_snapshot.webp 1080w,\\n/static/e1bea6cef0a32b8ca4c011c255fff2c9/4fad6/hero_snapshot.webp 1366w,\\n/static/e1bea6cef0a32b8ca4c011c255fff2c9/c512e/hero_snapshot.webp 1920w","type":"image/webp","sizes":"100vw"}]},"width":1,"height":0.5625}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/2122193908.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/2122193908.json ***!
@@ -65,91 +87,36 @@ module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/2460714953.json":
+/***/ "./.cache/caches/gatsby-plugin-image/2922641140.json":
 /*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/2460714953.json ***!
+  !*** ./.cache/caches/gatsby-plugin-image/2922641140.json ***!
   \***********************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAF3UlEQVRIx+WVa0zTVxjG37ZIKUVRRIag1CIUyqWwCqXQFqEUiwUqtOVOyx0EFMUbKIg4horCJo45RVAEdbp5QRTdJqA4LpmXZd6yOM3i5nXOOC/JNPb/P+9CTUz2YTHbvizZSd7kPck5v/Ock5PnAfh/j6vnz8CdG1fg4a3rcHHoC+jv3QsDJ/bByED334ddvzYEMv07lgpPdmEIlRxWiNaRCVMAUgqEYCoSw7xsPuhyPKCuyvh2YEVFJigzXCAyw4WhNDqDT7QNyPXOIFJzmIjXAXwBKuqlsPaD2aBbMvXtQHuVAGJNHgxNpgdoswV+EYZpe+ca3ZWh+imAeJYFAQDY/AwunayHq8fWwdOediDUk78GJmYrwVPBsRLIueAf5VjrKbdDXxX3kT5XLBLF2J4O1U1q31OWbln7oHsLC890MshAB4P07WSQvnYm6Wtlkv521hvg3S87wFVix+KFOUBalmwxTzIBBXKbV3Gp0++4hVth2gKvV88ObYn/ujQG8MJJwB+GAS+eABzsAjy9C3CgDXBw12vYq94OOFeeD58XqBk/rTDB9ZpFbUa1EPm+1pSbBwcnuXMpmXga9sw34cPOjT04fHg2Xu2fjpf73OnBLh7V1yag+tvC6YH2RfAN2MH3YVHwc00lMxOApQWAs6XZ+9PCpyLPi0vxhU60Z7AjhvD5pCwsnO4pz8G7HRvw3mcNjx92b3qKX7U+xr72F3hqB44VnAdnuBYSCVcMqUA31AKOHF+4tz4DbT2BEkqciDTWhTg7jieBLjwMFs4kWv8AKl8XSJevkODBlkX4YN9G/LVrPd7fXU/d2rbaDE+qKhmPli6Dh5vej72/eslRbN/0PE8lQjtXG+IXNgWnzrAjAEyc6MAlTm42xF/kjGEBjmRZnZZ++eAA/fzHA3RXeSHdmBpHGlPiiOUNTQBwLjf7wqhBi63yUOJvP4FwJljjRHsbwgIWsm3YyLWzQScPDnrpJpKkhBlYlTYLW9bkkda6BVgUIUNjgAgzAgMIbImfw+gsNEL/8rLFHXFq7JqrpIsUfmMnEWuGFdqyrZE9zgYdJ3GJdxSXuMXaoiGd/7ImKpjKUfhilMwDKzQKc1OsimqKjUTYVb6A0V23Cg5t2TA9Tej7e02IBONmuhGGlRXhsNjIZXPQzpaNDvbjiCCWTdQlPFSp3U9nS4MKTs4v4BuMYsHO/BTByKpi/+GqIgmszMqCPc0fwtGtH09IFM+6XS6ToJDnQI2fbIvs8awxpZiqCMbRlgpcVSnFyHnOtLuEiz668feqy+Lz8NQJL0SceLUmC253rnv9DwtVkawCjRpMGnX+kbx0NCZ4m/U5niQ/Q0xqjNGE9HYgjhwjBzdnkoj1kzEm14kOieTiwpxZeHnrGrx/uPkXHO76jh79tNcCHHhvBaNvfSUMbqu2H1lS8qI5ew4WJAnNNxuq8UnnZnLnozpyobqEbE2PpmZXTDarjC5UhJsrnSoVmKvnRZOls8Pxt+MtiN8eQCjW66EpMd4CRkQokcl1SYFBt+U8ARp8fKkUPz8q2d+PMvh40waBF8Yl8TBOKcB3Xd0xJzLUPLi2iOqrKqbJqe0UDnWZLaCtyToYaayx9LmiQKhrWO2gk8sGonxFKPXwQoWHJyYFiTFLEXo5P1LRawiaNary93up8RVic7ISByvTyc2NxeZHO1bSFsgnpjQ4UrvconBhWKhVjkEHQz37OeWGRElpglaxUJ+gXluQFYSI1jGu0yx76vMzvQs10ZXJoZJLxlAxLldJsSU5Ct+4TW1pCTgCQIIkGPI0c5mDPfthfrwGUmQySJGHwUpjKiASiBFOs1hUbXYKxAf4jYmwKk7Th6REyJvmiUU3/uSJh3fvBKMqCnI1MbDUlAEmlZKZGBLC1EslzLLEOGbjklLLLTo21UGJNoaZGBTIGpunzZ0DUj4fOlrq7f5RmPXs2Q5hrs4Q7eMJGysWQX5sNDNe5MNaV7fy3yfl5tVL3/RlyVrGfz/c/wA2s4Qk/VIgXwAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/7481a26d9235dd62950169c549fbae19/6cc2e/jahoda_right.png","srcSet":"/static/7481a26d9235dd62950169c549fbae19/1bd48/jahoda_right.png 936w,\\n/static/7481a26d9235dd62950169c549fbae19/3d02c/jahoda_right.png 1872w,\\n/static/7481a26d9235dd62950169c549fbae19/6cc2e/jahoda_right.png 3744w","sizes":"(min-width: 3744px) 3744px, 100vw"},"sources":[{"srcSet":"/static/7481a26d9235dd62950169c549fbae19/ca303/jahoda_right.webp 936w,\\n/static/7481a26d9235dd62950169c549fbae19/3a4a5/jahoda_right.webp 1872w,\\n/static/7481a26d9235dd62950169c549fbae19/5254a/jahoda_right.webp 3744w","type":"image/webp","sizes":"(min-width: 3744px) 3744px, 100vw"}]},"width":3744,"height":5328}');
+module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAABeklEQVQoz3WRy0vUYRSGn/nRBRPpBhljGBUiRowGKpTBQCDRpiRsFiXI+L1qLYKmq061CQIzMLQWrRKjjeD30v/RHxHBTCMy6aZtTOQMNRQuHs7LyzmHc+H7zEG2XrRMbz5v/VgtpEfm7+Tgag2CQbEJ1wlNupnQiBtTJ6ers4dvbz7d/7By79gNxqqdRyaX08iHkE8QfAr5eKMwQTEhOFUn1pH/sp47vbTxIB1+FNsmal8g0do7FBeQ55FfI88RYnHHyfSPXxntWVjPd618Dmch/6ktFdbyyBPIM8iPke8S4hLyZeQsilnk88jDyBdRHEC+guKlbb98IbP4bazn5tZo130+1HalQnyP4qPtZiHOIReRF5GfIT9B8S36neNl5DfIrwieQs4hj1MeylwvDWUKleEzha/n+m7VgPbxlQ7kjsaau5H3NXQnIe5BbkU+inyA4L0EtxCcEGJCaaCXcn/mWqm7b7Xc3ZtdHRyBlz///+gfvdMt6zm/AIr2u/OkLVw5AAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/22f540b2b47d3e25c1cdc533d98ccb22/35aec/logo_pars.png","srcSet":"/static/22f540b2b47d3e25c1cdc533d98ccb22/c7820/logo_pars.png 60w,\\n/static/22f540b2b47d3e25c1cdc533d98ccb22/dfa0c/logo_pars.png 119w,\\n/static/22f540b2b47d3e25c1cdc533d98ccb22/35aec/logo_pars.png 238w","sizes":"(min-width: 238px) 238px, 100vw"},"sources":[{"srcSet":"/static/22f540b2b47d3e25c1cdc533d98ccb22/6bb73/logo_pars.webp 60w,\\n/static/22f540b2b47d3e25c1cdc533d98ccb22/f33d5/logo_pars.webp 119w,\\n/static/22f540b2b47d3e25c1cdc533d98ccb22/6d13a/logo_pars.webp 238w","type":"image/webp","sizes":"(min-width: 238px) 238px, 100vw"}]},"width":238,"height":83}');
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/2481956559.json":
+/***/ "./.cache/caches/gatsby-plugin-image/3882051298.json":
 /*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/2481956559.json ***!
+  !*** ./.cache/caches/gatsby-plugin-image/3882051298.json ***!
   \***********************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC/klEQVQozwXBeUyTdwCA4Y9CMPLHsgOTqVtmmIjL4jmzushwU2EHXTpggCFbG7FqHGiLOhBKqbRACNgOrdLKoamgFiktzjmYtiAFjIhEFDOEMQGDI2jQgCRmHr93zyMND/rJN8axZm0on64PQ505D7s/CM9fYXSPfk3LzQLGpju4NdaK80oN6mw1Ku0X/Jj5Nlk5aTR33MRsOS50+mJ0hnIh7c/+gWj5AjbHy9CVSnhvSQw8ldH/NAj3iITh7Js09ahovpPHnqp8knJ2oNiWwHfbv+GPq7/hb6zl4D6tsNS4KLRWCenjVe/y0bJ3SN0VirFmPq7eEO7MBHF9SkbgcTBXJ4Nx+rdy9LKdjDNWkosOoMzLQFOxl8CwiVbHfjRxG4TZamdfXqGQVqx8j8+3hKNICWe3cREd/8q4+0yGdySIwecSUyzE2R6PxWPg5zNFJBwtJrGijO0OLS1/J3KhNp9CtVJYbA50OUYhxcQuo6A6hB0H3iejfAm9sxIDs6FUdi/BNxlF28Nkip27qWgyU3fhGBmn7SRVHSPnrJVrnfWcL8nCeyRX1LkayTpoElKs4hO2apby095ItKci8E+EcR+JXwNrsXRtwzOopdx9GL2rmr62c0z/c5uu6z4G+gIM3ujE12DhtEsvGi5eIe9QmZDWrYliw8bVJOoWs8e5kJretzh+eQG6SiUn2vXUB7QcuWSmqtHBg/42Wto8NF5qYnpmmkdzz7h9bwiP97yod3nJLbIJKSpiEQqVHJVNjikQTum15XxvUqI/l8bFG4ewOU04fIcxucvIPFlCTJmBU13dTD15wtDYKM2VJuy/qIV5Zyq69HQhyWPfICl7OWbfl7hHNtM6GU/nhJF7s0Z6RnX03DXy+PkJhmdK6XtUQmBCS/eQl0Dffdx1dqzpm8hPiRaaTStQxawUUrQmhDhDMDsb5lHd/wF1QxG0T37L7+NpNI1/xYMXamZfnWTutY2pl7sY/y+V0blcav8sIEUhR7lqMSmfRYrk9ZEkrPtQ/A9mKAFNTfsYZQAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/3f166df4ce65f58ee9a1a104c302dc93/195da/joga.png","srcSet":"/static/3f166df4ce65f58ee9a1a104c302dc93/3752a/joga.png 530w,\\n/static/3f166df4ce65f58ee9a1a104c302dc93/447b0/joga.png 1060w,\\n/static/3f166df4ce65f58ee9a1a104c302dc93/195da/joga.png 2120w","sizes":"(min-width: 2120px) 2120px, 100vw"},"sources":[{"srcSet":"/static/3f166df4ce65f58ee9a1a104c302dc93/0e46b/joga.webp 530w,\\n/static/3f166df4ce65f58ee9a1a104c302dc93/eab0a/joga.webp 1060w,\\n/static/3f166df4ce65f58ee9a1a104c302dc93/f5531/joga.webp 2120w","type":"image/webp","sizes":"(min-width: 2120px) 2120px, 100vw"}]},"width":2120,"height":1079}');
+module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAACk0lEQVQozwGIAnf9AOy1kgDw0bsA////ADEAAADJimsD2ayWBN23pASCHicAz5aDAOK+rwDIhXAD17arAe3o5ADiyLsA48y9AuLHtgPk1MoA48y/ANvw9QLgxLRUAOW3nJbuz7pO////EncAAADWknAA57ihAOfItwCMJScB0p6Mad23qDnUmYMA8eTfANqwngPn2M4A5dDCAObNvQDdyb4O4ci7aOLIutTjx7f/ALlxTP/FgmD/zItq5dSdf7PfsJeT5rymgOrQv1fXrJqVtndl/8mXiffbsKCD162lCuXArgDdzcMM482+PeTMvYnky7zf5Ma2/+C8qP/Nn4n/AHU/KO+CQib+jkwv/5RVOv+aXkb/qWpS/8yQdv/es57/06mb/Lx6av/Finr/zp6R0uPGuZvkyLng5Ma2/9+9q//UrJj/wZF7/6x3Yf+XZFHQAHteUxiEXE08kmdXbZdoV5uPW0q7h1FB15pUO/7Ff2b8p2ld/n9LP/52SkP7uYl6/8yikv/LoZL/wJKB/7B+a+ilcmC+l2ZWjIhfVkVEfrkEAG5PRAB9VEQAjV9PAH9INAAAAAAA////B59aT7CdVEP/pllC+bNzXvqZYlX9q21g/7KBda+meW5ml2tiQHlVURL/QAAAj1I7AIVbUAA2THMAAHlLOQGGVEECk2FOBIpONwKHLB0BtpGaALaMnRmbXFjWklpO/5NYR/+3eGX/snxye799YwCkd2wAlWZcAHZMRQAAXf8AmF9JA5dtYQOOaV8AALCKfQD///8A5N/fAKd+bwCVcFsAn2xqAqZ0fwCxkJ4RjGZibpBjWZmTYFdUAAAAAHYAAACugXUEpn1zAqF2agGdeG0AqpGOAKmSkACkhX8ANCdRz6x36IUAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/9480b33d79fcc63e39029c5744821c08/f22cd/handshake.png","srcSet":"/static/9480b33d79fcc63e39029c5744821c08/488ec/handshake.png 1404w,\\n/static/9480b33d79fcc63e39029c5744821c08/3a4ae/handshake.png 2808w,\\n/static/9480b33d79fcc63e39029c5744821c08/f22cd/handshake.png 5616w","sizes":"(min-width: 5616px) 5616px, 100vw"},"sources":[{"srcSet":"/static/9480b33d79fcc63e39029c5744821c08/e669c/handshake.webp 1404w,\\n/static/9480b33d79fcc63e39029c5744821c08/dd565/handshake.webp 2808w,\\n/static/9480b33d79fcc63e39029c5744821c08/9e3f3/handshake.webp 5616w","type":"image/webp","sizes":"(min-width: 5616px) 5616px, 100vw"}]},"width":5616,"height":2179}');
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/2493766020.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/2493766020.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"layout":"fullWidth","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAADG0lEQVQ4y6WTa0yTVxjH3+8mfptfFhOzzGQfNM44F0DERSOggniZQMZFrSWKogitMC0UscRCHDQUu1Zpx+wQC01AHWixQqLxhkVhZnhJXy5Fxuouxmhcgrzv+1tasMPEJc79k5PnOclzfuef8zxHaPU0UVqtIU0dj76qjJVJcWTlbKLebiM1exNafR55ujRGx/2EpCCH4/iTx1y44uK1JGkSRVEQUlQL2VG0gdStKXy+6lPS1ZtxtbqJSViKpeEbfD/5yNGmUl6zC3HwISPDo/z1coL6RjNb9kRjdxv47WkgAhYKSlSMPQlgtpj5aMEHxKxZQEOzFZuzDnuThbsDvfTd97GtIIna73WIQ4/48ZKLqjodVdZC1mUsZ232x3TfauTFy2cIFdVGBh6JxCXEEZvwGZW1RtztzWhK9zNvyRzsZ6yII35i1i1k/rJZZO5NQGPIwt3eSFTShyRmLCFf/xXLUuZS7y5GONlk4VbvHXL25RK1ejHaw3vC1i0OE+l58dh+MGE0l7E2PZas/C/wD/+MpkJFkVFFu7eJxSvnkrYzkXJrJvf8XQiaw2o6u7sZHBphp0ZNcUUB7vYWDDUlmL8zcqXnEuXVX6Mq3EL2/uUMiD00ttrJLV1D3akykrfGkFu8nRaPhafPgwhtHieKpNDZ1UmBbi/6Sh3asmKiExexUb2CG33esOOOrgtk7Iujsn4Xo+ODXO/10nWzjYfifVZtWEF89jyGfulHuHH7WmgWcJ8/zVBAZGx8jFMtDlznnAR/f8zEq4kwUJYV+h9cI/jHPx19rRNOE66O41NdPttxHpvThPeqB/3RQ9TYjnHV533jQGi+ZkpWZGRZml7KdI00BdxRuB6NQc3FyxcxnTQwGHjApDSJJIWK5QgsFKf28huXhOLMXIhNnk3ViXzu3Oth9FfxX1297fDbcuGT6Fk0tFRztK6Ec5dPT38jKfyuMwvfVUJyZhRFR3YT/+VSDlSmTDdA/s+gCPBbhw2rw0x5jZY2j+P/Ax3NteiMB1ifs4jgn8MR4PtK8Af68d3to8J0kLGgGBmL93X4N2AlFW4XwYvYAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/51b6226c3c04a4df260f9a5351fa8f5e/a36d6/tree_final_final.png","srcSet":"/static/51b6226c3c04a4df260f9a5351fa8f5e/57da1/tree_final_final.png 750w,\\n/static/51b6226c3c04a4df260f9a5351fa8f5e/4011d/tree_final_final.png 1080w,\\n/static/51b6226c3c04a4df260f9a5351fa8f5e/8a5ce/tree_final_final.png 1366w,\\n/static/51b6226c3c04a4df260f9a5351fa8f5e/a36d6/tree_final_final.png 1875w","sizes":"100vw"},"sources":[{"srcSet":"/static/51b6226c3c04a4df260f9a5351fa8f5e/b47c1/tree_final_final.webp 750w,\\n/static/51b6226c3c04a4df260f9a5351fa8f5e/886bc/tree_final_final.webp 1080w,\\n/static/51b6226c3c04a4df260f9a5351fa8f5e/f3f5e/tree_final_final.webp 1366w,\\n/static/51b6226c3c04a4df260f9a5351fa8f5e/bd6be/tree_final_final.webp 1875w","type":"image/webp","sizes":"100vw"}]},"width":1,"height":0.7978666666666666}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/2967750178.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/2967750178.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMFAgb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHZ4jA1QefmFQf/xAAcEAACAgIDAAAAAAAAAAAAAAABAgADEhMiIzL/2gAIAQEAAQUCd8Yr85aDty7Y7sWbyLrFH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABoQAQACAwEAAAAAAAAAAAAAAAEAEAIRURL/2gAIAQEABj8CDs8rvlYsKVa0ZT//xAAcEAEAAgIDAQAAAAAAAAAAAAABESEAMRBBYVH/2gAIAQEAAT8hBSXhqCRK4MFIa1rJfOyug4RjJMeYkFt7ycGPbz//2gAMAwEAAgADAAAAEFPPAP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EAB0QAAICAgMBAAAAAAAAAAAAAAERITEAURBBkdH/2gAIAQEAAT8QP4AybQA1hhDCKExqOFVTZofXg6IwFDYU64L8ksiXWsQLrnJwWMhSAh6M/9k="},"images":{"fallback":{"src":"/static/fa1a693b0f0f2c4b337ff9ef3b2be8d4/a89ca/komensky.jpg","srcSet":"/static/fa1a693b0f0f2c4b337ff9ef3b2be8d4/96deb/komensky.jpg 150w,\\n/static/fa1a693b0f0f2c4b337ff9ef3b2be8d4/0fdf4/komensky.jpg 300w,\\n/static/fa1a693b0f0f2c4b337ff9ef3b2be8d4/a89ca/komensky.jpg 600w","sizes":"(min-width: 600px) 600px, 100vw"},"sources":[{"srcSet":"/static/fa1a693b0f0f2c4b337ff9ef3b2be8d4/c65bc/komensky.webp 150w,\\n/static/fa1a693b0f0f2c4b337ff9ef3b2be8d4/078c3/komensky.webp 300w,\\n/static/fa1a693b0f0f2c4b337ff9ef3b2be8d4/6d09e/komensky.webp 600w","type":"image/webp","sizes":"(min-width: 600px) 600px, 100vw"}]},"width":600,"height":600}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/3236689753.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3236689753.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQP/2gAMAwEAAhADEAAAAbp7nMkD/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAECEBESMf/aAAgBAQABBQLFqaRsS7//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwGI/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Bh//EABoQAAICAwAAAAAAAAAAAAAAAAAhEBEiMnH/2gAIAQEABj8CnWx5dEj/xAAZEAADAQEBAAAAAAAAAAAAAAAAAREhUUH/2gAIAQEAAT8hhImEXRZGrdbFLzvadUkPw//aAAwDAQACAAMAAAAQGC//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPxCR/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAx/9oACAECAQE/EAJs/8QAGhABAQADAQEAAAAAAAAAAAAAAREAITFRQf/aAAgBAQABPxA2FTzEgXV5ca/GEOyXXKe8NioeEmIfoENDP//Z"},"images":{"fallback":{"src":"/static/5162bc77dd5e60ea50a1504d160b08ac/acacc/kniha.jpg","srcSet":"/static/5162bc77dd5e60ea50a1504d160b08ac/ef8fd/kniha.jpg 360w,\\n/static/5162bc77dd5e60ea50a1504d160b08ac/05c97/kniha.jpg 721w,\\n/static/5162bc77dd5e60ea50a1504d160b08ac/acacc/kniha.jpg 1441w","sizes":"(min-width: 1441px) 1441px, 100vw"},"sources":[{"srcSet":"/static/5162bc77dd5e60ea50a1504d160b08ac/ce5b5/kniha.webp 360w,\\n/static/5162bc77dd5e60ea50a1504d160b08ac/17c71/kniha.webp 721w,\\n/static/5162bc77dd5e60ea50a1504d160b08ac/76e10/kniha.webp 1441w","type":"image/webp","sizes":"(min-width: 1441px) 1441px, 100vw"}]},"width":1441,"height":956}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/3788630019.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3788630019.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"layout":"fullWidth","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACqklEQVQozwGfAmD9ALfI2bfI27LD1pyst3+Ok4WRmHuIjG1/fmp8fGl8fmd8fWJ2f3OJi3GGknmLmHiNmHaLlXaOj3iUi3uXjgB2hYxbbHdEVVo1QURBTE5PW1pOXFVJWFRWYGJaYmlMWmBWYGNEUlNSW2FkaHRgY3VeZnBfbG5ib2pXalsAfHh9g4KJdXN6V1pSUVhPTVNNW2FhYmZnQEdCYmZgYGJjWl1hW11bXmFhX2VeWF9RWmZOXGtVcnlpZ3pUAIWAequapG5sbl9dVlhbTFBZRmFmWlpjSUtSQ09WTFVXSlZdSk9gPllwPk5gODtMMT1PM1hxOlt2OGJ8OgBZX0BoZGNQT05iXFZRXUJNV0FZXk40QSdIUzNDTzNLXDJCVCo0Qyg/Ti41QC0mLyYkLSg7RzY7RDU5RDIAP1EaXGQ4VVo2VF8xMj4jW2dGhItnREw5TVU6c3hebGxiY2ZZRkxBKjQmRVMvQU4oQEsuTFs1RVAzVWY8ADlJHFJkJ0tXJUJPH0ZVJVVyKVh2K152MldqNFxlQruwn9G+use8s52UlFhVVy0yNTQ6ODI6LyowJkxZMwA+USE+TSArMSAsOBhZay9lei1zg0KzrZWtpJiypJ/Qw7/VzM7PwcHMurO7raedkZGPg4VVUFVDRDk+RywAS1g3oZmFYV1VGSMOcndTwLaiwbSozry408C81sO71MG5zr22yLWsvKmcwbKr1srKopmHaGtBbXNBX28rADM8Jn95a3d2XiozGXR2Wcu7rL6tmrWkjaCPc6SMdZGEZHJzRGxwQXV4THt8VXmBVWNwO1dnKlptJV5wJAANERANEQscIRE9SSBRWi89QSc9RSg2OiUpMR46RCcaHhUXHBYWGhUlKxw/TCc+SiFGWCNSZSdXaSxYaS6ZFP36HWWXSAAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/68e0c8ee8215723bfde90c6fd31ceed1/afa5c/zahrada_hero_placeholder.png","srcSet":"/static/68e0c8ee8215723bfde90c6fd31ceed1/0dee1/zahrada_hero_placeholder.png 750w,\\n/static/68e0c8ee8215723bfde90c6fd31ceed1/8beaa/zahrada_hero_placeholder.png 1080w,\\n/static/68e0c8ee8215723bfde90c6fd31ceed1/d079a/zahrada_hero_placeholder.png 1366w,\\n/static/68e0c8ee8215723bfde90c6fd31ceed1/afa5c/zahrada_hero_placeholder.png 1920w","sizes":"100vw"},"sources":[{"srcSet":"/static/68e0c8ee8215723bfde90c6fd31ceed1/a66aa/zahrada_hero_placeholder.webp 750w,\\n/static/68e0c8ee8215723bfde90c6fd31ceed1/65dd5/zahrada_hero_placeholder.webp 1080w,\\n/static/68e0c8ee8215723bfde90c6fd31ceed1/4fad6/zahrada_hero_placeholder.webp 1366w,\\n/static/68e0c8ee8215723bfde90c6fd31ceed1/c512e/zahrada_hero_placeholder.webp 1920w","type":"image/webp","sizes":"100vw"}]},"width":1,"height":0.5625}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/3788707773.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3788707773.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgAEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHsjQYMqv/EABkQAQACAwAAAAAAAAAAAAAAAAECAxAREv/aAAgBAQABBQJmC2mh6M//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAAAEQEgIZH/2gAIAQEABj8CQ94OKf/EABwQAQACAQUAAAAAAAAAAAAAAAEAERAhMUFRYf/aAAgBAQABPyFCrsgQjXtVofAe47x//9oADAMBAAIAAwAAABCzD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABYRAAMAAAAAAAAAAAAAAAAAABARIf/aAAgBAgEBPxCsf//EABkQAQADAQEAAAAAAAAAAAAAAAEAETEhUf/aAAgBAQABPxAZqo5t+QeYBRE3hydodJxWSh0JQNAOQyf/2Q=="},"images":{"fallback":{"src":"/static/42e0d938a5fa0ff69f1c4bcf76a235b9/fc550/byliny.jpg","srcSet":"/static/42e0d938a5fa0ff69f1c4bcf76a235b9/d3f99/byliny.jpg 360w,\\n/static/42e0d938a5fa0ff69f1c4bcf76a235b9/77116/byliny.jpg 720w,\\n/static/42e0d938a5fa0ff69f1c4bcf76a235b9/fc550/byliny.jpg 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/42e0d938a5fa0ff69f1c4bcf76a235b9/2bc1d/byliny.webp 360w,\\n/static/42e0d938a5fa0ff69f1c4bcf76a235b9/f28b1/byliny.webp 720w,\\n/static/42e0d938a5fa0ff69f1c4bcf76a235b9/c317d/byliny.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":684}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/443149709.json":
+/***/ "./.cache/caches/gatsby-plugin-image/870963943.json":
 /*!**********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/443149709.json ***!
+  !*** ./.cache/caches/gatsby-plugin-image/870963943.json ***!
   \**********************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC5klEQVQozx3J209TBwDA4fMHDDVqQoYQ1LiAOK8gVgaSdtRqIFx0A8ugUESkMApRClJOgco2iggNYIGDrcIAW7k0kNZAwEvjWEag4soiMSEGRnyQmPk0Tdxifka/10+wjz7ANjBBUnISIeHBJCrTEbsfsFuWQVxKLlW228SnZLL9y1043LM0OaY4XdqKt3uM+Y4BkotyiM5NI+abQyQciUKwO724pvz02vuIiYmktcvFhO8FsRl6jspTkZ/8lq8iIti6bStuzxTr6y85lXOR2hITi+6HWI16NLosDhzbT8ieHQiuyVkGO9t47Wrhfm8rj51DTFgtVFWaidgfS3BwCGFhoWzZHESv1MMnxRfyuWmqZnnxL9ovaTAUKqizaKkx5SI4ByX0WjWuq0W8n/fy3/N53gV+563fR4OuiE2bt7AzPJSgoC8oLMjn/41VHlrNLNUVEnC2kZQYhan8LK/8v/L6iRdhabKf3Lw0YuOj8HVXsdJZhr+tmkBHHWv2ZvJUCoJDQjmw7xBZJ2RsjEms9Zj5W6rhn8Ak1QYd59Uq3s6N82rEhvA+4MWgz+Z0ppy1p9N8eDbDYlMhnsxIlhvOcE2TRpIygYXhBl7Ya1geaufNnAfWfoN/V/nT/4iBTpE34xIr1koEz/ViLhelokxPpN8psfJslo05N0/NKUwXx1J2LhFjSxyPPN9jr4/DP2JlfWaU4e56Zu6088R3D//MPVrK1VSojyHcqs/HIebRWJKBpVqLVKflhqjl4lk5KbIoVPKDlBll5FzYS7YqhpW+Fv7oMCHqCxh3DWHruo1Br0OpOIz5ihph4GcdTaXp3BS1uCxl2K5okIwaKrKVHD0Syb6I3ZxQhJOsicRw6TuGf8yiUa3E47iO1aij4gcVd5v1uC2l3GnUIbhEDc3lanprz9Osz6JKm/o5fFItY62VJCtkhIXuIP7415yUR/NTqZrpLpF5h8hCn5lVbxcvJ3tYHPyFW2IBHwFIMO/lRCM7ywAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/ad1db56d65c26fe7b684df39d862292b/9e2d4/deda.png","srcSet":"/static/ad1db56d65c26fe7b684df39d862292b/f0c79/deda.png 360w,\\n/static/ad1db56d65c26fe7b684df39d862292b/46903/deda.png 720w,\\n/static/ad1db56d65c26fe7b684df39d862292b/9e2d4/deda.png 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/ad1db56d65c26fe7b684df39d862292b/95072/deda.webp 360w,\\n/static/ad1db56d65c26fe7b684df39d862292b/7116d/deda.webp 720w,\\n/static/ad1db56d65c26fe7b684df39d862292b/f0eba/deda.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":733}');
+module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC90lEQVQ4y5XQXUjTexzH8Y//pK6CIOyqiK67qLviHDAIKujCE4RR2UV0OIdTFJY9P5weEEMK7GnDnCc9J7ScpbMyxWlKTed0U9uWS6ftwel0W3Pq2trD///7HIpzjhwwqjd8r75fXhdfYIE+PLmHxLANSacVSacN6RHrf5OqK8V3FW2tQYpEnMR0/g5p+v6Pi4x5+6X45tUZAayCHyshh9Z9O8jnf4Ek0iTkA9mY1m6De1ce+Gn38zGJOfuRHPF/vvlq7aXFSOs0iG/I+gykzu7dFNNf181pSu4QWMUtO8HjJ6WUywnF9+broPbcIUSfVUvJvj7MGDq3+w/mMFqRxcIDF/jq8VY/eW4NeRqpCbXE2CSEEF/G2lRXoPltD4YaKjJn2h+APY8P1zYZ2fLrxo9nVDmJwoYScqKzlqbTiBpuSSIRguLtXxjrKStCvFuL63k/4YclS1B55sjSioO5vcF+C2dHbshTf6xVAi3tIjbQQnqt6+mzQx61SMJtXhgcrbqK4PNSWCqvZb6tu4ve+zdz63/P50t1UZoRJ2dayxl+UZ0af6giw64yijhkl01SxgagTNn/jzUWHkLHtVNw193OCLdVwqVTLx9r1Ay1FZ+gveYOOfba732kNkVMDQzp7pIBZzfj7xF5qoHy3gsx3I65ubl50FZ2Cu42Izikl+g3YfZl1YNE/zPWF+wOR7oekZP2an3B7l0xq54xo1ZODDSR4aEdDA5CeEyZ4p0BitsIOTjyz/9uF2D4z4uL7OpjsNw8sjVuqmXM8tTn0JxvTg+2ku9M+QAWjzfd+8CJfib7nlB4ewLypC1LjPdB8fZIiqd7Huwqyc8o35cNVe6GZZ6aIocyqGewWaMLNNxwy44XjJobs4W1Cbbyy7rk8CsmrY3JtLX5E9oc0l/OSE31QvGY5kG/9orkqTwJa/nZwmhnteCoweHQnFfNGmtC6bcdo/7WqhXm0kvoKD66L2ysj9BndscMD52Kq3ta+My/CK8RwmWQ/gX/BqZH7copNqXWAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/1d9b3ef50004b929301f26762d7775ed/9a6d1/puzzle.png","srcSet":"/static/1d9b3ef50004b929301f26762d7775ed/e9566/puzzle.png 320w,\\n/static/1d9b3ef50004b929301f26762d7775ed/62bab/puzzle.png 640w,\\n/static/1d9b3ef50004b929301f26762d7775ed/9a6d1/puzzle.png 1280w","sizes":"(min-width: 1280px) 1280px, 100vw"},"sources":[{"srcSet":"/static/1d9b3ef50004b929301f26762d7775ed/dde70/puzzle.webp 320w,\\n/static/1d9b3ef50004b929301f26762d7775ed/62859/puzzle.webp 640w,\\n/static/1d9b3ef50004b929301f26762d7775ed/f121e/puzzle.webp 1280w","type":"image/webp","sizes":"(min-width: 1280px) 1280px, 100vw"}]},"width":1280,"height":853}');
 
 /***/ }),
 
@@ -1323,314 +1290,6 @@ exports.resolve = resolve;
 exports.insertParams = insertParams;
 exports.validateRedirect = validateRedirect;
 exports.shallowCompare = shallowCompare;
-
-/***/ }),
-
-/***/ "./node_modules/@googlemaps/js-api-loader/dist/index.esm.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/@googlemaps/js-api-loader/dist/index.esm.js ***!
-  \******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "DEFAULT_ID": () => (/* binding */ DEFAULT_ID),
-/* harmony export */   "Loader": () => (/* binding */ Loader)
-/* harmony export */ });
-// do not edit .js files directly - edit src/index.jst
-
-
-
-var fastDeepEqual = function equal(a, b) {
-  if (a === b) return true;
-
-  if (a && b && typeof a == 'object' && typeof b == 'object') {
-    if (a.constructor !== b.constructor) return false;
-
-    var length, i, keys;
-    if (Array.isArray(a)) {
-      length = a.length;
-      if (length != b.length) return false;
-      for (i = length; i-- !== 0;)
-        if (!equal(a[i], b[i])) return false;
-      return true;
-    }
-
-
-
-    if (a.constructor === RegExp) return a.source === b.source && a.flags === b.flags;
-    if (a.valueOf !== Object.prototype.valueOf) return a.valueOf() === b.valueOf();
-    if (a.toString !== Object.prototype.toString) return a.toString() === b.toString();
-
-    keys = Object.keys(a);
-    length = keys.length;
-    if (length !== Object.keys(b).length) return false;
-
-    for (i = length; i-- !== 0;)
-      if (!Object.prototype.hasOwnProperty.call(b, keys[i])) return false;
-
-    for (i = length; i-- !== 0;) {
-      var key = keys[i];
-
-      if (!equal(a[key], b[key])) return false;
-    }
-
-    return true;
-  }
-
-  // true if both NaN, false otherwise
-  return a!==a && b!==b;
-};
-
-/**
- * Copyright 2019 Google LLC. All Rights Reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at.
- *
- *      Http://www.apache.org/licenses/LICENSE-2.0.
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-const DEFAULT_ID = "__googleMapsScriptId";
-/**
- * [[Loader]] makes it easier to add Google Maps JavaScript API to your application
- * dynamically using
- * [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
- * It works by dynamically creating and appending a script node to the the
- * document head and wrapping the callback function so as to return a promise.
- *
- * ```
- * const loader = new Loader({
- *   apiKey: "",
- *   version: "weekly",
- *   libraries: ["places"]
- * });
- *
- * loader.load().then(() => {
- *   const map = new google.maps.Map(...)
- * })
- * ```
- */
-class Loader {
-    /**
-     * Creates an instance of Loader using [[LoaderOptions]]. No defaults are set
-     * using this library, instead the defaults are set by the Google Maps
-     * JavaScript API server.
-     *
-     * ```
-     * const loader = Loader({apiKey, version: 'weekly', libraries: ['places']});
-     * ```
-     */
-    constructor({ apiKey, channel, client, id = DEFAULT_ID, libraries = [], language, region, version, mapIds, nonce, retries = 3, url = "https://maps.googleapis.com/maps/api/js", }) {
-        this.CALLBACK = "__googleMapsCallback";
-        this.callbacks = [];
-        this.done = false;
-        this.loading = false;
-        this.errors = [];
-        this.version = version;
-        this.apiKey = apiKey;
-        this.channel = channel;
-        this.client = client;
-        this.id = id || DEFAULT_ID; // Do not allow empty string
-        this.libraries = libraries;
-        this.language = language;
-        this.region = region;
-        this.mapIds = mapIds;
-        this.nonce = nonce;
-        this.retries = retries;
-        this.url = url;
-        if (Loader.instance) {
-            if (!fastDeepEqual(this.options, Loader.instance.options)) {
-                throw new Error(`Loader must not be called again with different options. ${JSON.stringify(this.options)} !== ${JSON.stringify(Loader.instance.options)}`);
-            }
-            return Loader.instance;
-        }
-        Loader.instance = this;
-    }
-    get options() {
-        return {
-            version: this.version,
-            apiKey: this.apiKey,
-            channel: this.channel,
-            client: this.client,
-            id: this.id,
-            libraries: this.libraries,
-            language: this.language,
-            region: this.region,
-            mapIds: this.mapIds,
-            nonce: this.nonce,
-            url: this.url,
-        };
-    }
-    get failed() {
-        return this.done && !this.loading && this.errors.length >= this.retries + 1;
-    }
-    /**
-     * CreateUrl returns the Google Maps JavaScript API script url given the [[LoaderOptions]].
-     *
-     * @ignore
-     */
-    createUrl() {
-        let url = this.url;
-        url += `?callback=${this.CALLBACK}`;
-        if (this.apiKey) {
-            url += `&key=${this.apiKey}`;
-        }
-        if (this.channel) {
-            url += `&channel=${this.channel}`;
-        }
-        if (this.client) {
-            url += `&client=${this.client}`;
-        }
-        if (this.libraries.length > 0) {
-            url += `&libraries=${this.libraries.join(",")}`;
-        }
-        if (this.language) {
-            url += `&language=${this.language}`;
-        }
-        if (this.region) {
-            url += `&region=${this.region}`;
-        }
-        if (this.version) {
-            url += `&v=${this.version}`;
-        }
-        if (this.mapIds) {
-            url += `&map_ids=${this.mapIds.join(",")}`;
-        }
-        return url;
-    }
-    /**
-     * Load the Google Maps JavaScript API script and return a Promise.
-     */
-    load() {
-        return this.loadPromise();
-    }
-    /**
-     * Load the Google Maps JavaScript API script and return a Promise.
-     *
-     * @ignore
-     */
-    loadPromise() {
-        return new Promise((resolve, reject) => {
-            this.loadCallback((err) => {
-                if (!err) {
-                    resolve();
-                }
-                else {
-                    reject(err);
-                }
-            });
-        });
-    }
-    /**
-     * Load the Google Maps JavaScript API script with a callback.
-     */
-    loadCallback(fn) {
-        this.callbacks.push(fn);
-        this.execute();
-    }
-    /**
-     * Set the script on document.
-     */
-    setScript() {
-        if (document.getElementById(this.id)) {
-            // TODO wrap onerror callback for cases where the script was loaded elsewhere
-            this.callback();
-            return;
-        }
-        const url = this.createUrl();
-        const script = document.createElement("script");
-        script.id = this.id;
-        script.type = "text/javascript";
-        script.src = url;
-        script.onerror = this.loadErrorCallback.bind(this);
-        script.defer = true;
-        script.async = true;
-        if (this.nonce) {
-            script.nonce = this.nonce;
-        }
-        document.head.appendChild(script);
-    }
-    deleteScript() {
-        const script = document.getElementById(this.id);
-        if (script) {
-            script.remove();
-        }
-    }
-    /**
-     * Reset the loader state.
-     */
-    reset() {
-        this.deleteScript();
-        this.done = false;
-        this.loading = false;
-        this.errors = [];
-        this.onerrorEvent = null;
-    }
-    resetIfRetryingFailed() {
-        if (this.failed) {
-            this.reset();
-        }
-    }
-    loadErrorCallback(e) {
-        this.errors.push(e);
-        if (this.errors.length <= this.retries) {
-            const delay = this.errors.length * Math.pow(2, this.errors.length);
-            console.log(`Failed to load Google Maps script, retrying in ${delay} ms.`);
-            setTimeout(() => {
-                this.deleteScript();
-                this.setScript();
-            }, delay);
-        }
-        else {
-            this.onerrorEvent = e;
-            this.callback();
-        }
-    }
-    setCallback() {
-        window.__googleMapsCallback = this.callback.bind(this);
-    }
-    callback() {
-        this.done = true;
-        this.loading = false;
-        this.callbacks.forEach((cb) => {
-            cb(this.onerrorEvent);
-        });
-        this.callbacks = [];
-    }
-    execute() {
-        this.resetIfRetryingFailed();
-        if (this.done) {
-            this.callback();
-        }
-        else {
-            // short circuit and warn if google.maps is already loaded
-            if (window.google && window.google.maps && window.google.maps.version) {
-                console.warn("Google Maps already loaded outside @googlemaps/js-api-loader." +
-                    "This may result in undesirable behavior as options and script parameters may not match.");
-                this.callback();
-                return;
-            }
-            if (this.loading) ;
-            else {
-                this.loading = true;
-                this.setCallback();
-                this.setScript();
-            }
-        }
-    }
-}
-
-
-//# sourceMappingURL=index.esm.js.map
-
 
 /***/ }),
 
@@ -5325,590 +4984,10 @@ const Layout = ({
 
 /***/ }),
 
-/***/ "./src/components/map.tsx":
-/*!********************************!*\
-  !*** ./src/components/map.tsx ***!
-  \********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "API_KEY": () => (/* binding */ API_KEY),
-/* harmony export */   "getIcon": () => (/* binding */ getIcon),
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _public_page_data_sq_d_2712254591_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/2712254591.json */ "./public/page-data/sq/d/2712254591.json");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _googlemaps_js_api_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @googlemaps/js-api-loader */ "./node_modules/@googlemaps/js-api-loader/dist/index.esm.js");
-/* harmony import */ var _images_map_marker_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/map_marker.svg */ "./src/images/map_marker.svg");
-/* harmony import */ var _layer_wrapper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./layer-wrapper */ "./src/components/layer-wrapper.tsx");
-
-
-
-const API_KEY = "AIzaSyAY2Tat - yTfQzZbsSXkAMajLb8qsYsrXDU";
- // @ts-ignore
-
-
- // @ts-ignore
-
-const projekty = [{
-  id: 'a',
-  position: {
-    lat: 49.85967567710321,
-    lng: 17.914118207168002
-  },
-  name: 'Sample Projekt',
-  price: 10000,
-  description: 'Dolorum et atque et incidunt dolorem est minima. Dolorum et atque et incidunt dolorem est minima. Dolorum et atque et incidunt dolorem est minima.',
-  year: 2013,
-  locationName: 'Vesnice'
-}, {
-  id: 'b',
-  position: {
-    lat: 49.85967567710321,
-    lng: 17.834118207168002
-  },
-  name: 'Sample Projekt 2',
-  price: 30000,
-  description: 'Dolorum et atque et incidunt dolorem est minima. Dolorum et atque et incidunt dolorem est minima. Dolorum et atque et incidunt dolorem est minima.',
-  year: 2013,
-  locationName: 'Dira'
-}, {
-  id: 'c',
-  position: {
-    lat: 49.85967567710321,
-    lng: 17.5165634118207168002
-  },
-  name: 'Sample Projekt 2',
-  price: 30000,
-  description: 'Dolorum et atque et incidunt dolorem est minima. Dolorum et atque et incidunt dolorem est minima. Dolorum et atque et incidunt dolorem est minima.',
-  year: 2013,
-  locationName: 'Dira'
-}, {
-  id: 'd',
-  position: {
-    lat: 49.5324167567710321,
-    lng: 17.834118207168002
-  },
-  name: 'Sample Projekt 2',
-  price: 30000,
-  description: 'Dolorum et atque et incidunt dolorem est minima. Dolorum et atque et incidunt dolorem est minima. Dolorum et atque et incidunt dolorem est minima.',
-  year: 2013,
-  locationName: 'Dira'
-}, {
-  id: 'e',
-  position: {
-    lat: 49.85967567710321,
-    lng: 17.866642118207168002
-  },
-  name: 'Sample Projekt 2',
-  price: 30000,
-  description: 'Dolorum et atque et incidunt dolorem est minima. Dolorum et atque et incidunt dolorem est minima. Dolorum et atque et incidunt dolorem est minima.',
-  year: 2014,
-  locationName: 'Dira'
-}, {
-  id: 'f',
-  position: {
-    lat: 49.6577567710321,
-    lng: 18.834118207168002
-  },
-  name: 'Sample Projekt 2',
-  price: 30000,
-  description: 'Dolorum et atque et incidunt dolorem est minima. Dolorum et atque et incidunt dolorem est minima. Dolorum et atque et incidunt dolorem est minima.',
-  year: 2014,
-  locationName: 'Dira'
-}, {
-  id: 'g',
-  position: {
-    lat: 49.684567710321,
-    lng: 17.54618207168002
-  },
-  name: 'Sample Projekt 2',
-  price: 30000,
-  description: 'Dolorum et atque et incidunt dolorem est minima. Dolorum et atque et incidunt dolorem est minima. Dolorum et atque et incidunt dolorem est minima.',
-  year: 2014,
-  locationName: 'Dira'
-}];
-const getIcon = length => {
-  const size = new window.google.maps.Size(length, length);
-  return {
-    size,
-    scaledSize: size,
-    url: _images_map_marker_svg__WEBPACK_IMPORTED_MODULE_3__.default
-  };
-};
-
-const Map = ({}) => {
-  const additionalOptions = {};
-  let map;
-  let markers = [];
-  const data = _public_page_data_sq_d_2712254591_json__WEBPACK_IMPORTED_MODULE_0__.data; // console.log(data)
-
-  const projekty = data.allMarkdownRemark.edges.map(edge => ({
-    name: edge.node.frontmatter.title,
-    ...edge.node.frontmatter
-  })).sort((a, b) => b.year - a.year).reverse();
-  (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(() => {
-    // const years = projekty.reduce((acc, v) => {
-    //     if (!acc[v.year]) acc[v.year] = [];
-    //     acc[v.year].push(v);
-    //     return acc;
-    // }, [])
-    // console.log(years);
-    // console.log(projekty)
-    //#region loading map
-    const loader = new _googlemaps_js_api_loader__WEBPACK_IMPORTED_MODULE_2__.Loader({
-      apiKey: API_KEY,
-      version: "weekly",
-      ...additionalOptions
-    });
-    loader.load().then(() => {
-      map = new window.google.maps.Map(document.getElementById("map"), {
-        // center: { lat: 49.71198812010327, lng: 17.914118207168002 }, //fulnek
-        center: {
-          lat: 49.85967567710321,
-          lng: 17.914118207168002
-        },
-        // MSK center
-        zoom: 9,
-        styles: grayStyle,
-        mapTypeControl: false,
-        streetViewControl: false
-      }); // highlight Fulnek
-
-      const fulnekMarker = new window.google.maps.Marker({
-        position: {
-          lat: 49.71198812010327,
-          lng: 17.914118207168002
-        },
-        label: {
-          fontSize: '20px',
-          text: 'Fulnek'
-        },
-        icon: getIcon(1),
-        map
-      });
-      google.maps.event.addListener(map, 'zoom_changed', () => {
-        const zoom = map.getZoom();
-        const visible = zoom == undefined ? false : zoom < 10;
-        fulnekMarker.setVisible(visible);
-      });
-      markers = projekty.map((projekt, i) => {
-        const marker = new window.google.maps.Marker({
-          position: projekt.position,
-          // icon: '../images/map_marker.svg',
-          icon: getIcon(35),
-          map: map
-        });
-        marker.addListener('click', highlightProjekt(i));
-        return marker;
-      }); // , 18.436931
-      // , 17.686974
-      // 49.880670, 17.146264
-      // 49.550606, 18.859233
-      // const imageBounds = {
-      //     north: 50.327999,
-      //     south: 49.392601,
-      //     east: 18.859233,
-      //     west: 17.146264,
-      // };
-      // const regionOverlay = new google.maps.GroundOverlay(
-      //     mapOutline,
-      //     imageBounds
-      // );
-      // regionOverlay.setMap(map);
-    }); //#endregion loading map
-  }, []);
-
-  const selectYear = year => () => {
-    var _document$getElementB;
-
-    (_document$getElementB = document.getElementById(year.toString() + "-anchor")) === null || _document$getElementB === void 0 ? void 0 : _document$getElementB.scrollIntoView({
-      behavior: 'smooth'
-    });
-    setHighlighter(years.indexOf(year));
-  };
-
-  const years = projekty.reduce((acc, p) => {
-    if (p.year && !acc.includes(p.year)) acc.push(p.year);
-    return acc;
-  }, []);
-  let lastSelectedMarker = null;
-
-  const highlightProjekt = i => {
-    // console.log("MAP", map)
-    return () => {
-      var _document$getElementB2, _lastSelectedMarker;
-
-      // todo highlighting of projekts
-      const marker = markers[i];
-      map.setCenter(marker.getPosition());
-      map.setZoom(11); // todo test how small
-      // window.scrollTo({
-      //     behavior: 'smooth',
-      //     top: document.getElementById('map')?.offsetTop
-      // })
-      // location.hash = "#" + 'mapSection';
-
-      (_document$getElementB2 = document.getElementById('map')) === null || _document$getElementB2 === void 0 ? void 0 : _document$getElementB2.scrollIntoView({
-        behavior: 'smooth'
-      });
-      (_lastSelectedMarker = lastSelectedMarker) === null || _lastSelectedMarker === void 0 ? void 0 : _lastSelectedMarker.setIcon(getIcon(35));
-      marker.setIcon(getIcon(45));
-      lastSelectedMarker = marker;
-      setTimeout(() => {
-        marker.setAnimation(google.maps.Animation.BOUNCE);
-        setTimeout(() => {
-          marker.setAnimation(null);
-        }, 750);
-      }, 500);
-      const projekt = projekty[i]; // document.getElementById(projekt.id)?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-
-      var target = document.getElementById(projekt.id); // console.log({ target })
-
-      var targetParent = target === null || target === void 0 ? void 0 : target.parentElement;
-
-      if (targetParent && targetParent.scrollTop && target) {
-        targetParent.scrollTo({
-          top: target.offsetTop - targetParent.offsetTop - 40,
-          behavior: 'smooth'
-        });
-      }
-    };
-  };
-
-  const scrollHandler = e => {
-    var _selectedYear;
-
-    const projekty = e.target;
-    let selectedYear;
-    years.forEach((year, i) => {
-      var _document$getElementB3;
-
-      let _ = (_document$getElementB3 = document.getElementById(year.toString())) === null || _document$getElementB3 === void 0 ? void 0 : _document$getElementB3.offsetTop;
-
-      if (_ && projekty.scrollTop + projekty.offsetTop + 1 >= _) selectedYear = i; // console.log(_)
-    });
-    setHighlighter((_selectedYear = selectedYear) !== null && _selectedYear !== void 0 ? _selectedYear : '0');
-  };
-
-  const setHighlighter = n => {
-    var _document$getElementB4;
-
-    (_document$getElementB4 = document.getElementById("highlight")) === null || _document$getElementB4 === void 0 ? void 0 : _document$getElementB4.style.setProperty("--offset", n + '');
-  }; // const [selectedYear, setSelectedYear] = useState();
-
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
-    className: "map-wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_layer_wrapper__WEBPACK_IMPORTED_MODULE_4__.default, {
-    className: "map"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
-    style: {
-      height: '498px'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
-    className: "mapp",
-    id: "map"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_layer_wrapper__WEBPACK_IMPORTED_MODULE_4__.default, {
-    className: "year-wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
-    className: "year-highlight"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
-    className: "highlight",
-    id: "highlight"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
-    className: "year-list"
-  }, years.reverse().map(year => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("button", {
-    onClick: selectYear(year),
-    key: year,
-    id: "year-selector-" + year.toString()
-  }, year)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
-    className: "map-projekty-wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
-    className: "map-projekty",
-    onScroll: scrollHandler
-  }, projekty.reduce((acc, p, i, arr) => {
-    //add things
-    acc.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
-      className: "Projekt",
-      key: p.id,
-      id: p.id
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("button", {
-      className: "projekt-title-button",
-      onClick: highlightProjekt(i)
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h3", {
-      style: {
-        textAlign: 'left'
-      },
-      className: "projekt-title"
-    }, p.name, " ", p.kouskovani ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("span", {
-      className: "kouskovani-icon"
-    }) : null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
-      className: "money"
-    }, p.price.toLocaleString('cs-CZ'), " K\u010D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
-      className: "description"
-    }, p.description && p.description !== "undefined" ? p.description : ""))); // Add Year seperator yellow stripes if needed
-
-    const isLast = i == arr.length - 1;
-    const yearDoesntMatchNext = !isLast && p.year && arr[i + 1].year && p.year !== arr[i + 1].year;
-
-    if (isLast || yearDoesntMatchNext) {
-      var _p$year, _p$year2;
-
-      // const p = arr[i - 1];
-      acc.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
-        className: "year-seperator",
-        style: {
-          marginTop: 0
-        },
-        key: p.year,
-        id: (_p$year = p.year) === null || _p$year === void 0 ? void 0 : _p$year.toString()
-      }, p.year));
-      acc.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
-        key: p.year + "anchor",
-        style: {
-          height: 0,
-          visibility: 'collapse',
-          margin: 0
-        },
-        className: "year-anchor",
-        id: ((_p$year2 = p.year) === null || _p$year2 === void 0 ? void 0 : _p$year2.toString()) + "-anchor"
-      }));
-    }
-
-    return acc;
-  }, []).reverse()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
-    className: "text-legend"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("span", {
-    className: "kouskovani-icon"
-  }), " - Projekt byl podpo\u0159en z v\xFDt\u011B\u017Ek\u016F Kouskov\xE1n\xED.")));
-};
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Map);
-const grayStyle = [{
-  "featureType": "administrative",
-  "elementType": "geometry",
-  "stylers": [{
-    "color": "#a7a7a7"
-  }]
-}, {
-  "featureType": "administrative",
-  "elementType": "labels.text.fill",
-  "stylers": [{
-    "visibility": "on"
-  }, {
-    "color": "#737373"
-  }]
-}, {
-  "featureType": "landscape",
-  "elementType": "geometry.fill",
-  "stylers": [{
-    "visibility": "on"
-  }, {
-    "color": "#efefef"
-  }]
-}, {
-  "featureType": "poi",
-  "elementType": "geometry.fill",
-  "stylers": [{
-    "visibility": "on"
-  }, {
-    "color": "#dadada"
-  }]
-}, {
-  "featureType": "poi",
-  "elementType": "labels",
-  "stylers": [{
-    "visibility": "off"
-  }]
-}, {
-  "featureType": "poi",
-  "elementType": "labels.icon",
-  "stylers": [{
-    "visibility": "off"
-  }]
-}, {
-  "featureType": "road",
-  "elementType": "geometry.stroke",
-  "stylers": [{
-    "weight": "0.16"
-  }, {
-    "visibility": "off"
-  }]
-}, {
-  "featureType": "road",
-  "elementType": "labels.text.fill",
-  "stylers": [{
-    "color": "#696969"
-  }]
-}, {
-  "featureType": "road",
-  "elementType": "labels.icon",
-  "stylers": [{
-    "visibility": "off"
-  }]
-}, {
-  "featureType": "road.highway",
-  "elementType": "geometry.fill",
-  "stylers": [{
-    "color": "#ffffff"
-  }]
-}, {
-  "featureType": "road.highway",
-  "elementType": "geometry.stroke",
-  "stylers": [{
-    "visibility": "off"
-  }, {
-    "color": "#b7b7b7"
-  }]
-}, {
-  "featureType": "road.highway.controlled_access",
-  "elementType": "geometry.stroke",
-  "stylers": [{
-    "visibility": "off"
-  }]
-}, {
-  "featureType": "road.arterial",
-  "elementType": "geometry.fill",
-  "stylers": [{
-    "color": "#ffffff"
-  }]
-}, {
-  "featureType": "road.arterial",
-  "elementType": "geometry.stroke",
-  "stylers": [{
-    "visibility": "off"
-  }, {
-    "color": "#d6d6d6"
-  }]
-}, {
-  "featureType": "road.local",
-  "elementType": "geometry.fill",
-  "stylers": [{
-    "visibility": "off"
-  }, {
-    "color": "#ffffff"
-  }, {
-    "weight": 1.8
-  }]
-}, {
-  "featureType": "road.local",
-  "elementType": "geometry.stroke",
-  "stylers": [{
-    "visibility": "off"
-  }, {
-    "color": "#d7d7d7"
-  }]
-}, {
-  "featureType": "transit",
-  "elementType": "all",
-  "stylers": [{
-    "color": "#808080"
-  }, {
-    "visibility": "off"
-  }]
-}, {
-  "featureType": "water",
-  "elementType": "geometry.fill",
-  "stylers": [{
-    "color": "#d3d3d3"
-  }]
-}];
-
-/***/ }),
-
-/***/ "./src/components/small-zahrada-map.tsx":
-/*!**********************************************!*\
-  !*** ./src/components/small-zahrada-map.tsx ***!
-  \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ SmallMap)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _googlemaps_js_api_loader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @googlemaps/js-api-loader */ "./node_modules/@googlemaps/js-api-loader/dist/index.esm.js");
-/* harmony import */ var _map_tsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./map.tsx */ "./src/components/map.tsx");
-
-
-
- // @ts-ignore
-
-function SmallMap(props) {
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    // console.log(projekty)
-    //#region loading map
-    const loader = new _googlemaps_js_api_loader__WEBPACK_IMPORTED_MODULE_1__.Loader({
-      apiKey: _map_tsx__WEBPACK_IMPORTED_MODULE_2__.API_KEY,
-      version: "weekly"
-    });
-    let map;
-    loader.load().then(() => {
-      map = new window.google.maps.Map(document.getElementById("map"), {
-        // center: { lat: 49.71198812010327, lng: 17.914118207168002 }, //fulneke
-        center: {
-          lat: 49.718729357197944,
-          lng: 17.90409554493908
-        },
-        //zahrada
-        // center: { lat: 49.85967567710321, lng: 17.914118207168002 }, // MSK center
-        zoom: 14,
-        // styles: grayStyle,
-        mapTypeControl: false,
-        streetViewControl: false
-      }); // highlight Fulnek
-      // const fulnekMarker = new window.google.maps.Marker({
-      //     position: { lat: 49.71198812010327, lng: 17.914118207168002 },
-      //     label: {
-      //         fontSize: '20px',
-      //         text: 'Fulnek',
-      //     },
-      //     icon: getIcon(1),
-      //     map,
-      // });
-      // google.maps.event.addListener(map, 'zoom_changed', () => {
-      //     const zoom = map.getZoom();
-      //     const visible: boolean = zoom == undefined ? false : zoom < 10;
-      //     fulnekMarker.setVisible(visible);
-      // });
-
-      const marker = new window.google.maps.Marker({
-        position: {
-          lat: 49.718729357197944,
-          lng: 17.90409554493908
-        },
-        icon: (0,_map_tsx__WEBPACK_IMPORTED_MODULE_2__.getIcon)(40),
-        map
-      });
-    });
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "small-map"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "flex-row"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "map-wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "map"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "adresa"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "title green"
-  }, "Zahrada Hojnosti"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Palack\xE9ho 298"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Fulnek"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "742 45"))));
-}
-
-/***/ }),
-
-/***/ "./src/components/zahrada-carousel.tsx":
-/*!*********************************************!*\
-  !*** ./src/components/zahrada-carousel.tsx ***!
-  \*********************************************/
+/***/ "./src/components/numberCounter.tsx":
+/*!******************************************!*\
+  !*** ./src/components/numberCounter.tsx ***!
+  \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -5918,492 +4997,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-/* harmony import */ var tiny_slider_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tiny-slider-react */ "./node_modules/tiny-slider-react/build/index.js");
-/* harmony import */ var _layer_wrapper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layer-wrapper */ "./src/components/layer-wrapper.tsx");
-/* harmony import */ var _functions_useWindowSize__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../functions/useWindowSize */ "./src/functions/useWindowSize.ts");
-
-
-
- // import Loadable from "@loadable/component"
-
-
-
-const prinosy = [{
-  title: 'Společné tvoření',
-  className: 'socialni',
-  body: [` Víme, že sdílet radost z výsledku, pomáhá. Budování a péče o Zahradu podpoří přátelství lidí různých generací, kteří by se pravděpodobně jinde nepotkali,
-             stejně tak spolupráci, prohlubování vztahu k přírodě, práci a tělu. Komunitní tvoření, společný zájem, pospolitost bude pro mnohé nové, věříme, že o to zajímavější.
-            `],
-  imageUrl: '../images/hero_placeholder.png',
-  imageAlt: '',
-  image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    className: "img",
-    loading: "eager",
-    src: "../images/deda.png",
-    alt: "D\u011Bda s vnukem s\xE1zej\xED na Zahrad\u011B",
-    layout: "constrained",
-    placeholder: "blurred",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/443149709.json */ "./.cache/caches/gatsby-plugin-image/443149709.json")
-  })
-}, {
-  title: "Pohyb a kreativita",
-  className: 'pohybovy',
-  body: [`Vědomé cvičení, workshopy na téma malování, fotografování, tvorba a vázání dekorací, běžných či příležitostných květinových vazeb, zpracování bylin v širokém pojetí,
-             užití v kuchyni, postupně i zdravé vaření. To vše čeká Zahradu Hojnosti. `, `Učme se od přírody, bez ohledu na to, kolik je nám let.`],
-  imageUrl: '../images/zahrada_cviceni.jpg',
-  imageAlt: 'Zena cvici jogu',
-  image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    className: "img",
-    loading: "eager",
-    src: "../images/joga.png",
-    alt: "\u017Dena cvi\u010D\xED j\xF3gu v parku",
-    layout: "constrained",
-    placeholder: "blurred",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2481956559.json */ "./.cache/caches/gatsby-plugin-image/2481956559.json")
-  })
-}, {
-  title: "Moudrost přírody",
-  className: 'edukativni',
-  body: [`Zahrada poslouží dětem a mladým v praxi pochopit zákonitostí přírody, koloběhu, ekosystému. Budou poznávat rostliny a květiny, učit se o jejich významu, účincích bylin.
-             Podle odkazu Jana Amose Komenského, který vyučoval své žáky v nedalekém Žákovském háji, využíváme moudrost přírody v reálném prostředí. 
-            Společně rozvineme mnoho vzdělávacích možností a projektů, které budou vznikat na míru, v závislosti na ročním období a koloběhu přírody.`, `Podobně se mohou přidat dospělí. Ti se jistě zapojí i do výměny pěstitelských zkušeností,
-             předávání rad a tipů o zpracování plodů, bylin, ovoce, zavařování, výrobě tinktur, olejů, mastí a dalších zázraků.`],
-  image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    className: "img",
-    loading: "eager",
-    src: "../images/kniha.jpg",
-    alt: "Otev\u0159en\xE1 kniha na tr\xE1v\u011B",
-    layout: "constrained",
-    placeholder: "blurred",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3236689753.json */ "./.cache/caches/gatsby-plugin-image/3236689753.json")
-  })
-}, {
-  title: "Hojnost",
-  className: 'samozber',
-  body: [`Až Zahrada nabídne svou hojnost, budeme pořádat samosběry z jejich darů. Tak se uzavře cyklus dát a sklidit v rámci jednoho roku, aby mohl započít další.
-             Její hospodaření nastavujeme tak, aby byla soběstačná. 
-            Samosběr bude spolu s workshopy vytvářet zdroje příjmů, které se znovu vloží do další sezóny. Zahrada hojnosti je místem, které vzkvétá. `],
-  image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    className: "img",
-    loading: "eager",
-    src: "../images/byliny.jpg",
-    alt: "Sesb\xEDran\xE9 byliny na stole",
-    layout: "constrained",
-    placeholder: "blurred",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3788707773.json */ "./.cache/caches/gatsby-plugin-image/3788707773.json")
-  })
-}];
-const romanNumerals = ["", 'I', 'II', 'III', 'IV', 'V', 'VI'];
-
-const ZahradaCarousel = ({}) => {
-  let slider;
-  const windowSize = (0,_functions_useWindowSize__WEBPACK_IMPORTED_MODULE_3__.default)(); // const getItemsCount = (ws: typeof windowSize) => {
-  //     const _ = ws.width == undefined
-  //         ? 2
-  //         : Math.floor((ws.width + (ws.width > 600 ? - 180 : 0)) / 350);
-  //     console.log(ws, _)
-  //     return _;
-  // };
-
-  const prev = () => slider != null && slider.slider.goTo('prev');
-
-  const next = () => slider != null && slider.slider.goTo('next');
-
-  const goTo = i => () => slider != null && slider.slider.goTo(i);
-
-  const {
-    0: selectedIndex,
-    1: setSelectedIndex
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(1);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "carousel-navigation"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    onClick: prev,
-    className: "slider-button prev"
-  }, "<"), prinosy.map((p, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    key: i,
-    className: `${ true ? 'carousel-nav-button ' : 0}${i} ${i + 1 == selectedIndex ? 'selected' : ''}`,
-    onClick: goTo(i)
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Leaf, {
-    filled: i + 1 == selectedIndex
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    onClick: next,
-    className: "slider-button next"
-  }, ">")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_layer_wrapper__WEBPACK_IMPORTED_MODULE_2__.default, {
-    className: "zahrada-carousel zahrada-carousel-wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "slider-layer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(tiny_slider_react__WEBPACK_IMPORTED_MODULE_1__.default, {
-    settings: {
-      autoplay: false,
-      arrowKeys: false,
-      // autoWidth: true,
-      // fixedWidth: windowSize.width,
-      autoHeight: true,
-      //TODO Check
-      mouseDrag: true,
-      // lazyload: true,
-      nav: false,
-      controls: false,
-      items: 1,
-      rewind: false // startIndex: 0,
-      // responsive: {
-      // 800: {
-      //     autoHeight: false,
-      // }
-      // }
-
-    },
-    ref: ts => slider = ts,
-    onIndexChanged: e => {
-      setSelectedIndex(e.index);
-    }
-  }, prinosy.map((p, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    key: i,
-    className: `zahrada-prinos zahrada-prinos-${i} ${p.className}`
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_layer_wrapper__WEBPACK_IMPORTED_MODULE_2__.default, {
-    key: i,
-    className: "inner-slide"
-  }, p.image, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: `prinos ${i} ${p.className}`
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    className: "title"
-  }, p.title), p.body.map((text, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    key: i,
-    className: "text",
-    dangerouslySetInnerHTML: {
-      __html: text
-    }
-  })))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "button-layer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    onClick: prev,
-    className: "slider-button prev"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
-    className: "arrow",
-    xmlns: "http://www.w3.org/2000/svg",
-    height: "24px",
-    viewBox: "0 0 24 24",
-    width: "24px",
-    fill: "#000000"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-    d: "M0 0h24v24H0V0z",
-    fill: "none",
-    opacity: ".87"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-    d: "M17.51 3.87L15.73 2.1 5.84 12l9.9 9.9 1.77-1.77L9.38 12l8.13-8.13z"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    onClick: next,
-    className: "slider-button next"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
-    className: "arrow",
-    xmlns: "http://www.w3.org/2000/svg",
-    enableBackground: "new 0 0 24 24",
-    height: "24px",
-    viewBox: "0 0 24 24",
-    width: "24px",
-    fill: "#000000"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("g", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-    d: "M0,0h24v24H0V0z",
-    fill: "none"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("g", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("polygon", {
-    points: "6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"
-  })))))));
-};
-
-const Leaf = ({
-  filled
-}) => filled ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
-  viewBox: "0 0 412 412",
-  width: "412",
-  height: "412",
-  viewBox: "0 0 412 412",
-  fill: "none",
-  xmlns: "http://www.w3.org/2000/svg"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("circle", {
-  cx: "206",
-  cy: "206",
-  r: "201",
-  fill: "#118A07",
-  stroke: "#118A07",
-  strokeWidth: "10"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-  d: "M278.076 71.0947C278.076 71.0947 252.083 96.3068 223.971 106.471C15.7961 181.751 103.592 328.449 106.457 328.933C106.457 328.933 118.13 308.609 133.899 297.017C233.963 223.473 254.301 138.821 254.301 138.821C254.301 138.821 231.846 240.685 142.825 304.067C123.163 318.059 110.53 344.934 104.894 379.366C104.894 379.366 115.8 387.01 121.793 385.485C124.131 370.238 131.368 349.94 139.629 336.898C264.047 351.707 304.797 251.477 310.12 216.528C322.684 133.985 278.076 71.0947 278.076 71.0947Z",
-  fill: "white"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-  d: "M278.076 71.0947L282.154 68.202L278.78 63.4457L274.594 67.5057L278.076 71.0947ZM223.971 106.471L222.271 101.769L222.271 101.769L223.971 106.471ZM106.457 328.933L105.624 333.863L109.058 334.442L110.792 331.423L106.457 328.933ZM133.899 297.017L130.938 292.988L130.937 292.988L133.899 297.017ZM254.301 138.821L259.183 139.897C259.774 137.218 258.096 134.564 255.423 133.948C252.75 133.333 250.08 134.986 249.439 137.653L254.301 138.821ZM142.825 304.067L145.724 308.141L145.725 308.14L142.825 304.067ZM104.894 379.366L99.9595 378.559L99.4522 381.658L102.024 383.461L104.894 379.366ZM121.793 385.485L123.026 390.331L126.234 389.515L126.736 386.243L121.793 385.485ZM139.629 336.898L140.22 331.933L137.091 331.56L135.405 334.222L139.629 336.898ZM310.12 216.528L315.063 217.281L315.063 217.28L310.12 216.528ZM278.076 71.0947C274.594 67.5057 274.595 67.5052 274.595 67.5048C274.595 67.5048 274.596 67.5045 274.596 67.5045C274.596 67.5045 274.595 67.5049 274.594 67.5057C274.593 67.5072 274.59 67.5102 274.585 67.5147C274.576 67.5237 274.56 67.5388 274.538 67.5596C274.495 67.6012 274.427 67.6662 274.335 67.7532C274.152 67.9272 273.874 68.1893 273.506 68.5299C272.771 69.2111 271.679 70.2051 270.278 71.4339C267.474 73.8933 263.441 77.2833 258.549 80.9837C248.704 88.4304 235.642 96.9346 222.271 101.769L225.671 111.174C240.412 105.844 254.402 96.6594 264.582 88.959C269.702 85.0857 273.924 81.5375 276.872 78.952C278.347 77.6583 279.506 76.6033 280.302 75.866C280.7 75.4973 281.007 75.2078 281.218 75.0075C281.324 74.9074 281.405 74.8295 281.462 74.7751C281.49 74.748 281.512 74.7266 281.528 74.7114C281.536 74.7037 281.542 74.6976 281.547 74.693C281.55 74.6907 281.552 74.6888 281.553 74.6872C281.554 74.6864 281.555 74.6856 281.555 74.6852C281.556 74.6844 281.557 74.6838 278.076 71.0947ZM222.271 101.769C169.651 120.798 135.297 144.496 113.597 169.656C91.8531 194.866 83.0262 221.3 81.0902 245.349C79.1606 269.319 84.0817 290.783 89.629 306.244C92.4064 313.985 95.361 320.278 97.7447 324.696C98.9332 326.9 100.003 328.68 100.863 329.964C101.285 330.594 101.706 331.179 102.102 331.657C102.291 331.885 102.556 332.188 102.873 332.481C103.03 332.625 103.284 332.846 103.617 333.066C103.871 333.233 104.588 333.688 105.624 333.863L107.289 324.002C108.28 324.17 108.943 324.599 109.131 324.723C109.399 324.901 109.578 325.06 109.65 325.127C109.798 325.263 109.854 325.34 109.8 325.274C109.709 325.164 109.499 324.889 109.172 324.4C108.532 323.445 107.625 321.95 106.546 319.949C104.393 315.958 101.645 310.123 99.0415 302.867C93.8269 288.333 89.2729 268.327 91.058 246.152C92.8368 224.056 100.915 199.671 121.169 176.187C141.466 152.654 174.204 129.785 225.671 111.173L222.271 101.769ZM106.457 328.933C110.792 331.423 110.792 331.424 110.792 331.424C110.792 331.424 110.791 331.425 110.791 331.425C110.791 331.425 110.791 331.425 110.791 331.425C110.791 331.424 110.792 331.423 110.794 331.42C110.798 331.414 110.804 331.403 110.813 331.388C110.831 331.357 110.86 331.307 110.9 331.239C110.979 331.104 111.102 330.897 111.267 330.625C111.595 330.082 112.089 329.281 112.733 328.279C114.023 326.272 115.907 323.47 118.267 320.319C123.03 313.957 129.548 306.421 136.861 301.045L130.937 292.988C122.481 299.205 115.278 307.627 110.262 314.325C107.733 317.703 105.713 320.707 104.321 322.873C103.624 323.957 103.082 324.835 102.711 325.448C102.526 325.755 102.382 325.996 102.283 326.164C102.234 326.248 102.195 326.314 102.168 326.36C102.155 326.384 102.144 326.402 102.136 326.416C102.132 326.423 102.129 326.428 102.126 326.433C102.125 326.435 102.124 326.437 102.123 326.438C102.123 326.439 102.122 326.44 102.122 326.441C102.121 326.441 102.121 326.442 106.457 328.933ZM136.86 301.046C187.515 263.816 218.057 223.721 235.95 192.847C244.894 177.414 250.675 164.29 254.23 154.981C256.008 150.326 257.23 146.625 258.013 144.064C258.404 142.783 258.686 141.788 258.873 141.101C258.966 140.757 259.036 140.491 259.083 140.305C259.107 140.212 259.125 140.138 259.139 140.086C259.145 140.059 259.15 140.038 259.154 140.022C259.156 140.014 259.158 140.007 259.159 140.001C259.16 139.999 259.161 139.996 259.161 139.994C259.162 139.991 259.162 139.989 254.301 138.821C249.439 137.653 249.439 137.651 249.44 137.649C249.44 137.649 249.44 137.648 249.44 137.648C249.44 137.648 249.44 137.649 249.439 137.651C249.438 137.655 249.436 137.665 249.432 137.679C249.425 137.708 249.413 137.758 249.395 137.827C249.36 137.966 249.303 138.184 249.223 138.478C249.063 139.067 248.81 139.962 248.45 141.14C247.73 143.496 246.581 146.982 244.888 151.413C241.504 160.275 235.946 172.91 227.298 187.833C210.006 217.671 180.347 256.674 130.938 292.988L136.86 301.046ZM254.301 138.821C249.418 137.745 249.418 137.743 249.418 137.742C249.418 137.743 249.418 137.742 249.418 137.742C249.418 137.743 249.418 137.746 249.417 137.75C249.415 137.757 249.412 137.771 249.407 137.792C249.398 137.832 249.383 137.896 249.363 137.984C249.322 138.16 249.258 138.431 249.17 138.793C248.993 139.516 248.719 140.601 248.336 142.015C247.57 144.841 246.372 148.979 244.655 154.153C241.221 164.506 235.721 178.991 227.476 195.434C210.973 228.349 183.572 268.918 139.925 299.994L145.725 308.14C191.099 275.834 219.436 233.78 236.415 199.917C244.912 182.971 250.589 168.029 254.147 157.302C255.927 151.936 257.178 147.62 257.988 144.629C258.393 143.133 258.688 141.968 258.884 141.168C258.981 140.768 259.054 140.459 259.104 140.246C259.129 140.139 259.148 140.057 259.161 139.998C259.167 139.969 259.172 139.946 259.176 139.929C259.178 139.921 259.18 139.914 259.181 139.909C259.181 139.906 259.182 139.903 259.182 139.902C259.183 139.899 259.183 139.897 254.301 138.821ZM139.926 299.993C118.67 315.119 105.683 343.586 99.9595 378.559L109.828 380.174C115.376 346.281 127.656 320.998 145.724 308.141L139.926 299.993ZM104.894 379.366C102.024 383.461 102.025 383.461 102.026 383.462C102.026 383.462 102.027 383.463 102.028 383.463C102.029 383.464 102.03 383.465 102.032 383.466C102.035 383.468 102.039 383.471 102.044 383.474C102.053 383.481 102.065 383.489 102.079 383.499C102.108 383.519 102.147 383.546 102.196 383.579C102.294 383.646 102.432 383.74 102.606 383.856C102.954 384.087 103.447 384.408 104.055 384.785C105.263 385.535 106.957 386.528 108.878 387.479C110.779 388.419 113.027 389.382 115.325 390C117.53 390.594 120.315 391.021 123.026 390.331L120.561 380.639C120.275 380.712 119.449 380.755 117.924 380.344C116.492 379.959 114.89 379.296 113.314 378.516C111.76 377.747 110.353 376.924 109.328 376.289C108.82 375.973 108.414 375.709 108.142 375.528C108.006 375.438 107.904 375.368 107.84 375.324C107.807 375.302 107.785 375.286 107.772 375.277C107.765 375.273 107.761 375.27 107.76 375.269C107.759 375.269 107.759 375.269 107.76 375.269C107.76 375.269 107.761 375.27 107.761 375.27C107.761 375.27 107.762 375.271 107.762 375.271C107.763 375.271 107.764 375.272 104.894 379.366ZM126.736 386.243C128.978 371.613 135.994 351.98 143.853 339.573L135.405 334.222C126.741 347.9 119.283 368.862 116.851 384.728L126.736 386.243ZM139.038 341.863C202.863 349.46 245.695 327.498 273.146 298.83C300.376 270.395 312.273 235.599 315.063 217.281L305.177 215.775C302.644 232.406 291.505 265.2 265.924 291.914C240.565 318.397 200.813 339.145 140.22 331.933L139.038 341.863ZM315.063 217.28C321.507 174.944 313.282 137.712 303.502 111.131C298.608 97.8309 293.31 87.156 289.222 79.7857C287.177 76.099 285.432 73.2344 284.188 71.2765C283.566 70.2975 283.068 69.5448 282.721 69.0289C282.547 68.771 282.411 68.5722 282.316 68.434C282.268 68.3648 282.23 68.3108 282.203 68.2721C282.19 68.2528 282.179 68.2372 282.17 68.2255C282.166 68.2197 282.163 68.2148 282.16 68.2109C282.159 68.2089 282.157 68.2067 282.156 68.2057C282.155 68.2037 282.154 68.202 278.076 71.0947C273.997 73.9875 273.996 73.9862 273.996 73.9852C273.996 73.9852 273.995 73.9844 273.995 73.9844C273.995 73.9843 273.996 73.9851 273.997 73.9869C273.999 73.9905 274.005 73.998 274.013 74.0091C274.028 74.0315 274.054 74.069 274.091 74.1213C274.163 74.2261 274.276 74.3906 274.426 74.6134C274.726 75.0591 275.175 75.7381 275.748 76.6399C276.894 78.4438 278.536 81.1374 280.477 84.6363C284.36 91.6373 289.429 101.844 294.117 114.584C303.5 140.084 311.297 175.568 305.177 215.775L315.063 217.28Z",
-  fill: "#118A07"
-})) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
-  viewBox: "0 0 412 412",
-  width: "412",
-  height: "412",
-  viewBox: "0 0 412 412",
-  fill: "none",
-  xmlns: "http://www.w3.org/2000/svg"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-  d: "M278.075 71.0947C278.075 71.0947 252.083 96.3068 223.971 106.471C15.7959 181.751 105.636 332.017 108.5 332.5C108.5 332.5 118.13 308.609 133.899 297.017C233.963 223.473 254.3 138.821 254.3 138.821C254.3 138.821 231.846 240.685 142.824 304.067C123.163 318.059 110.135 342.567 104.5 377C104.5 377 116.007 384.525 122 383C124.337 367.753 131.368 349.94 139.628 336.898C264.047 351.707 304.796 251.477 310.12 216.528C322.684 133.985 278.075 71.0947 278.075 71.0947Z",
-  stroke: "#118A07",
-  strokeWidth: "14",
-  strokeLinejoin: "round"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("circle", {
-  cx: "206",
-  cy: "206",
-  r: "201",
-  stroke: "#118A07",
-  strokeWidth: "10"
-}));
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ZahradaCarousel);
-
-/***/ }),
-
-/***/ "./src/components/zahrada-galerie.tsx":
-/*!********************************************!*\
-  !*** ./src/components/zahrada-galerie.tsx ***!
-  \********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _public_page_data_sq_d_1790044199_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/1790044199.json */ "./public/page-data/sq/d/1790044199.json");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-
  //import {Fragment, useState, useEffect} from 'react';
-
-// import TinySlider from 'tiny-slider-react';
 
 ;
 
-const ZahradaGalerie = ({}) => {
-  // let slider: TinySlider | null;
-  // const prev = () => slider != null && slider.slider.goTo('prev');
-  // const next = () => slider != null && slider.slider.goTo('next');
-  const data = _public_page_data_sq_d_1790044199_json__WEBPACK_IMPORTED_MODULE_0__.data; // @ts-ignore
-
-  const images = data.allFile.edges.map(({
-    node
-  }) => ({
-    src: node.childrenImageSharp[0].gatsbyImageData,
-    alt: node.name
-  })).sort((a, b) => a.alt.localeCompare(b.alt)); // console.log(data)
-  // console.log(images);
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
-    className: "gallery-wrapper"
-  }, images.map((image, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
-    className: "image-wrapper",
-    key: i
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.GatsbyImage, {
-    className: "img",
-    image: image.src,
-    alt: image.alt
-  }))));
-};
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ZahradaGalerie);
-
-/***/ }),
-
-/***/ "./src/functions/useAktualityZahrada.ts":
-/*!**********************************************!*\
-  !*** ./src/functions/useAktualityZahrada.ts ***!
-  \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _public_page_data_sq_d_2282705134_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/2282705134.json */ "./public/page-data/sq/d/2282705134.json");
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_1__);
-
-
-
-const useAktualityZahrada = () => {
-  const {
-    allMarkdownRemark: {
-      edges
-    }
-  } = _public_page_data_sq_d_2282705134_json__WEBPACK_IMPORTED_MODULE_0__.data;
-
-  const getLink = link => {
-    if (/kousekpokousku\.cz/.test(link)) {
-      let arr = link.split('.cz');
-      return arr[arr.length - 1];
-    }
-
-    return link;
-  };
-
-  const aktuality = edges.map(edge => edge.node).map(node => {
-    var _node$frontmatter, _node$frontmatter$ima, _node$frontmatter$ima2, _node$frontmatter$ima3;
-
-    return {
-      title: node.frontmatter.name,
-      body: node.html.replace('/n', ''),
-      //@ts-ignore
-      date: moment__WEBPACK_IMPORTED_MODULE_1___default()(node.frontmatter.date, 'DD-MM-YYYY').toDate(),
-      link: node.frontmatter.link ? getLink(node.frontmatter.link) : undefined,
-      image: {
-        image: (_node$frontmatter = node.frontmatter) === null || _node$frontmatter === void 0 ? void 0 : (_node$frontmatter$ima = _node$frontmatter.image) === null || _node$frontmatter$ima === void 0 ? void 0 : (_node$frontmatter$ima2 = _node$frontmatter$ima.image) === null || _node$frontmatter$ima2 === void 0 ? void 0 : (_node$frontmatter$ima3 = _node$frontmatter$ima2.childImageSharp) === null || _node$frontmatter$ima3 === void 0 ? void 0 : _node$frontmatter$ima3.gatsbyImageData,
-        imageAlt: node.frontmatter.image.imageAlt
-      }
-    };
-  }).sort((a, b) => a.date.getTime() - b.date.getTime()).reverse();
-  return aktuality;
-};
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (useAktualityZahrada);
-
-/***/ }),
-
-/***/ "./src/functions/useWindowSize.ts":
-/*!****************************************!*\
-  !*** ./src/functions/useWindowSize.ts ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
- // Define general type for useWindowSize hook, which includes width and height
-
-// Hook
-function useWindowSize() {
-  // Initialize state with undefined width/height so server and client renders match
-  // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
-  const {
-    0: windowSize,
-    1: setWindowSize
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({
-    width: undefined,
-    height: undefined
-  });
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    // Handler to call on window resize
-    function handleResize() {
-      // Set window width/height to state
-      setWindowSize({
-        width: window.innerWidth,
-        height: window.innerHeight
-      });
-    } // Add event listener
-
-
-    window.addEventListener("resize", handleResize); // Call handler right away so state gets updated with initial window size
-
-    handleResize(); // Remove event listener on cleanup
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []); // Empty array ensures that effect is only run on mount
-
-  return windowSize;
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (useWindowSize);
-
-/***/ }),
-
-/***/ "./src/pages/zahrada-hojnosti.tsx":
-/*!****************************************!*\
-  !*** ./src/pages/zahrada-hojnosti.tsx ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../components/layout */ "./src/components/layout.tsx");
-/* harmony import */ var _components_layer_wrapper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../components/layer-wrapper */ "./src/components/layer-wrapper.tsx");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-/* harmony import */ var _loadable_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @loadable/component */ "./node_modules/@loadable/component/dist/loadable.esm.js");
-/* harmony import */ var _images_videos_zahrada_final_mp4__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/videos/zahrada_final.mp4 */ "./src/images/videos/zahrada_final.mp4");
-/* harmony import */ var _images_videos_zahrada_final_1366_mp4__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/videos/zahrada_final_1366.mp4 */ "./src/images/videos/zahrada_final_1366.mp4");
-/* harmony import */ var _images_videos_zahrada_final_768_mp4__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/videos/zahrada_final_768.mp4 */ "./src/images/videos/zahrada_final_768.mp4");
-/* harmony import */ var _images_videos_zahrada_final_360_mp4__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/videos/zahrada_final_360.mp4 */ "./src/images/videos/zahrada_final_360.mp4");
-/* harmony import */ var gatsby_plugin_breakpoints__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! gatsby-plugin-breakpoints */ "./node_modules/gatsby-plugin-breakpoints/index.js");
-/* harmony import */ var _components_small_zahrada_map__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/small-zahrada-map */ "./src/components/small-zahrada-map.tsx");
-/* harmony import */ var _functions_useAktualityZahrada__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../functions/useAktualityZahrada */ "./src/functions/useAktualityZahrada.ts");
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-
- //import {Fragment, useState, useEffect} from 'react';
-
-
-
-
- // @ts-ignore
-// @ts-ignore
-
- // @ts-ignore
-
- // @ts-ignore
-
- // @ts-ignore
-
-
- // import ZahradaCarousel from '../components/zahrada-carousel'
-
-const ZahradaCarousel = (0,_loadable_component__WEBPACK_IMPORTED_MODULE_3__.default)(() => Promise.resolve().then(() => _interopRequireWildcard(__webpack_require__(/*! ../components/zahrada-carousel */ "./src/components/zahrada-carousel.tsx"))));
-const ZahradaGalerie = (0,_loadable_component__WEBPACK_IMPORTED_MODULE_3__.default)(() => Promise.resolve().then(() => _interopRequireWildcard(__webpack_require__(/*! ../components/zahrada-galerie */ "./src/components/zahrada-galerie.tsx")))); // import AktualityCarousel from "../components/aktuality-carousel";
-
-const AktualityCarousel = (0,_loadable_component__WEBPACK_IMPORTED_MODULE_3__.default)(() => Promise.resolve().then(() => _interopRequireWildcard(__webpack_require__(/*! ../components/aktuality-carousel */ "./src/components/aktuality-carousel.tsx"))));
-
-
- // import JurtaSection from './../components/section-jurta';
-
-;
-
-const ZahradaPage = ({}) => {
-  const breakpoints = (0,gatsby_plugin_breakpoints__WEBPACK_IMPORTED_MODULE_8__.useBreakpoint)();
-  const placeholderImage = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_12__.StaticImage, {
-    className: "img",
-    src: "../images/zahrada_hero_placeholder.png",
-    alt: "Foto Zahrady z dronu",
-    layout: "fullWidth",
-    placeholder: "blurred",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3788630019.json */ "./.cache/caches/gatsby-plugin-image/3788630019.json")
-  });
-  const videoProps = {
-    className: "hero-video",
-    width: "1920",
-    height: "1080",
-    muted: true,
-    playsInline: true,
-    autoPlay: true,
-    loop: true,
-    preload: "auto"
-  }; // React.useLayoutEffect(() => {
-  //     const video = document.querySelector('.hero-video');
-  //     if (video) video.addEventListener('loadeddata', () => {
-  //         const target = document.getElementById('placeholderImage');
-  //         // console.log(target)
-  //         if (target) target.style.display = 'none';
-  //     }, false)
-  // }, [breakpoints])
-
-  const aktuality = (0,_functions_useAktualityZahrada__WEBPACK_IMPORTED_MODULE_10__.default)(); // console.log(images)
-
-  const number = 10000;
-
+const Counter = ({
+  children,
+  green = true,
+  ...props
+}) => {
   const approxeq = (v1, v2) => {
     const epsilon = 0.001;
     return Math.abs(v1 - v2) < epsilon;
@@ -6443,75 +5045,79 @@ const ZahradaPage = ({}) => {
   const startValue = 0;
   const animDuration = 1000;
   react__WEBPACK_IMPORTED_MODULE_0__.useEffect(() => {
-    const observe = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          animateValue(document.getElementById('number'), startValue !== null && startValue !== void 0 ? startValue : 0, number, animDuration);
-        }
-      });
-    }, {});
-    const target = document.querySelector('section.section-jurta-2');
-    if (target) observe.observe(target);
+    fetch("https://us-central1-kousekpokousku.cloudfunctions.net/readValue").then(res => res.text()).then(text => {
+      const number = Number.parseInt(text);
+      console.log("animating number counter to value", number);
+      console.log("Na jurtu vybrano", number);
+      const observe = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            animateValue(document.getElementById('JurtaNumber'), startValue !== null && startValue !== void 0 ? startValue : 0, number, animDuration);
+          }
+        });
+      }, {});
+      const target = document.querySelector('#counter');
+      if (target) observe.observe(target);
+    });
   }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__.default, {
-    title: "Zahrada Hojnosti | Nada\u010Dn\xED fond Kousek po Kousku",
-    headerProps: {
-      color: 'green',
-      logo: 'zahrada'
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
-    className: "zahrada"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layer_wrapper__WEBPACK_IMPORTED_MODULE_2__.default, {
-    className: "hero"
-  }, breakpoints.noVideo ? placeholderImage : breakpoints.xs ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("video", videoProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("source", {
-    src: _images_videos_zahrada_final_360_mp4__WEBPACK_IMPORTED_MODULE_7__.default,
-    type: "video/mp4"
-  })) : breakpoints.sm ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("video", videoProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("source", {
-    src: _images_videos_zahrada_final_768_mp4__WEBPACK_IMPORTED_MODULE_6__.default,
-    type: "video/mp4"
-  })) : breakpoints.md ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("video", videoProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("source", {
-    src: _images_videos_zahrada_final_1366_mp4__WEBPACK_IMPORTED_MODULE_5__.default,
-    type: "video/mp4"
-  })) : breakpoints ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("video", videoProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("source", {
-    src: _images_videos_zahrada_final_mp4__WEBPACK_IMPORTED_MODULE_4__.default,
-    type: "video/mp4"
-  })) : placeholderImage), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "section-uvod",
-    style: {
-      overflow: 'auto'
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_12__.StaticImage, {
-    className: "img",
-    src: "../images/jahoda_right.png",
-    alt: "Ruka drzi rostlinku",
-    layout: "constrained",
-    placeholder: "blurred",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2460714953.json */ "./.cache/caches/gatsby-plugin-image/2460714953.json")
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_11__.Link, {
-    className: "link-back",
-    to: "/"
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", Object.assign({
+    id: "counter",
+    className: "counter " + (green ? " green" : " red")
+  }, props), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: green ? "green" : ""
+  }, "Ji\u017E jsme vybrali"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "number"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "text"
-  }, "Zp\u011Bt na hlavn\xED str\xE1nku NF ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "highlight green"
-  }, "Kousek po Kousku"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "montserrat-subtitle "
-  }, "Budujeme p\u0159\xEDrodn\xED zahradu - Zahradu Hojnosti. Zahradu pro ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "t\u011Blo i du\u0161i."), " P\u0159id\xE1te se? ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Vytvo\u0159\xEDme spole\u010Dn\u011B kr\xE1sn\xE9, inspirativn\xED m\xEDsto pro psychickou i fyzickou relaxaci, kter\xE9 bude \u017E\xEDt pro dal\u0161\xED a dal\u0161\xED generace.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "montserrat-subtitle"
-  }, "V\xEDt\xE1me v\u0161echny, kte\u0159\xED v n\xED najdou sv\u016Fj kousek pro sebe. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Kousek pohody, odpo\u010Dinku, kr\xE1sy, pohybu, p\u0159\xE1telstv\xED...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "montserrat-subtitle"
-  }, "Zahrada poskytne ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "prostor pro hled\xE1n\xED a hlub\u0161\xED pozn\xE1n\xED sebe sama,"), " pro tvo\u0159ivou pr\xE1ci, setk\xE1v\xE1n\xED, pohyb a pozn\xE1v\xE1n\xED nov\xE9ho prost\u0159ednictv\xEDm workshop\u016F.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "text-section section section-jurta",
+    className: "",
+    id: "JurtaNumber"
+  }, "10 000")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     style: {
-      paddingTop: 0
+      fontWeight: 700
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, "korun \u010Desk\xFDch"));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Counter);
+
+/***/ }),
+
+/***/ "./src/components/section-jurta.tsx":
+/*!******************************************!*\
+  !*** ./src/components/section-jurta.tsx ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var _numberCounter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./numberCounter */ "./src/components/numberCounter.tsx");
+ //import {Fragment, useState, useEffect} from 'react';
+
+
+
+
+;
+
+const JurtaSection = ({
+  children,
+  green = true,
+  ...props
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", Object.assign({
+    className: "text-section section section-jurta"
+  }, props), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "grid-top"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "section-title title"
   }, "Jurta pro Zahradu HOJNOSTI"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "text"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Zahrada Hojnosti pot\u0159ebuje celoro\u010Dn\xED z\xE1zem\xED."), " Pro setk\xE1v\xE1n\xED, workshopy, cvi\u010Den\xED i pro d\u011Bti ze \u0161kol, kter\xE9 by mohly tr\xE1vit n\u011Bjak\xFD \u010Das mimo lavice.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_12__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Zahrada Hojnosti pot\u0159ebuje celoro\u010Dn\xED z\xE1zem\xED."), " Pro setk\xE1v\xE1n\xED, workshopy, cvi\u010Den\xED i pro d\u011Bti ze \u0161kol, kter\xE9 by mohly tr\xE1vit n\u011Bjak\xFD \u010Das mimo lavice.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
     className: "grid-img img section-image",
     src: "../images/jurta_white.jpg",
     alt: "Jurta - Magdal\xE9na Feilhauerov\xE1",
@@ -6522,182 +5128,592 @@ const ZahradaPage = ({}) => {
     className: "grid-bottom"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "text"
-  }, "Jurta o pr\u016Fm\u011Bru 9 m s\xA0v\xFDhledem do Zahrady HOJNOSTI poskytne p\u0159\xEDst\u0159e\u0161\xED a d\xEDky tomu mo\u017Enost pozorovat p\u0159\xEDrodu bez omezen\xED, za ka\u017Ed\xE9ho po\u010Das\xED. D\xEDky Jurt\u011B bude Zahrada Hojnosti \u017E\xEDt v\xA0ka\u017Ed\xE9 ro\u010Dn\xED dob\u011B. Bude slou\u017Eit v\u0161em generac\xEDm, kter\xE9 spojuje aktivn\xED, tvo\u0159iv\xFD zp\u016Fsob \u017Eivota."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "section text-section center section-jurta-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "counter"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
-    className: "green"
-  }, "Ji\u017E jsme vybrali"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "number"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "",
-    id: "number"
-  }, "10 000")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, "Jurta o pr\u016Fm\u011Bru 9 m s\xA0v\xFDhledem do Zahrady HOJNOSTI poskytne p\u0159\xEDst\u0159e\u0161\xED a d\xEDky tomu mo\u017Enost pozorovat p\u0159\xEDrodu bez omezen\xED, za ka\u017Ed\xE9ho po\u010Das\xED. D\xEDky Jurt\u011B bude Zahrada Hojnosti \u017E\xEDt v\xA0ka\u017Ed\xE9 ro\u010Dn\xED dob\u011B. Bude slou\u017Eit v\u0161em generac\xEDm, kter\xE9 spojuje aktivn\xED, tvo\u0159iv\xFD zp\u016Fsob \u017Eivota."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "subtitle " + (green && " green"),
     style: {
-      fontWeight: 700
+      marginBottom: '1em',
+      maxWidth: '50ch'
     }
-  }, "korun \u010Desk\xFDch")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "subtitle green",
-    style: {
-      marginBottom: '0',
-      maxWidth: '50ch',
-      fontSize: '1.7em'
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "P\u0159isp\u011Bt m\u016F\u017Ee ka\u017Ed\xFD.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "text",
-    style: {
-      marginBottom: '2em',
-      marginTop: '0em',
-      maxWidth: '50ch',
-      fontSize: '1.3em'
-    }
-  }, " Kolik ka\u017Ed\xFD z\xA0n\xE1s daruje, p\u0159esn\u011B tolik vlo\u017E\xED i Nada\u010Dn\xED fond Kousek po kousku."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, "P\u0159isp\u011Bt m\u016F\u017Ee ka\u017Ed\xFD. Kolik ka\u017Ed\xFD z\xA0n\xE1s daruje, p\u0159esn\u011B tolik vlo\u017E\xED i Nada\u010Dn\xED fond Kousek po kousku."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "small"
+  }, "Dary na Jurtu je mo\u017En\xE9 zaslat na speci\xE1ln\xED transparentn\xED \xFA\u010Det:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, " JURTA pro Zahradu HOJNOSTI ve Fulneku \u2013 \u010D. 301075890/0300")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "small"
+  }, "Nebo p\u0159es odkaz ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://podpora.kousekpokousku.cz/ze-zahrady-hojnosti"
+  }, "zde"), ", kde najdete darovac\xED \u0161eky s obrazem Magdal\xE9ny Feilhauerov\xE9."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "button-row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "https://podpora.kousekpokousku.cz",
-    className: "button filled green bigger"
-  }, "P\u0159isp\u011Bt")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "small"
-  }, "Dary na Jurtu je mo\u017En\xE9 zaslat tak\xE9 na speci\xE1ln\xED transparentn\xED \xFA\u010Det: ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, " JURTA pro Zahradu HOJNOSTI ve Fulneku \u2013 \u010D. 293203185/0300"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "Nebo p\u0159es odkaz ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "https://podpora.kousekpokousku.cz"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "zde")), ", kde najdete darovac\xED \u0161eky s obrazem Magdal\xE9ny Feilhauerov\xE9.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "prinos"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
-    className: "title"
-  }, "Co Zahrada d\xE1v\xE1?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layer_wrapper__WEBPACK_IMPORTED_MODULE_2__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    style: {
-      height: '400px'
+    href: "https://podpora.kousekpokousku.cz/ze-zahrady-hojnosti",
+    className: "button filled " + (green && " green")
+  }, "P\u0159isp\u011Bt"), green ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "/zahrada-hojnosti",
+    className: "button  outlined " + (green && " green")
+  }, "V\xEDce o Zahrad\u011B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_numberCounter__WEBPACK_IMPORTED_MODULE_2__.default, {
+    green: false
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (JurtaSection);
+
+/***/ }),
+
+/***/ "./src/functions/useAktuality.ts":
+/*!***************************************!*\
+  !*** ./src/functions/useAktuality.ts ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _public_page_data_sq_d_2361911367_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/2361911367.json */ "./public/page-data/sq/d/2361911367.json");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+const useAktuality = () => {
+  const {
+    allMarkdownRemark: {
+      edges
     }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(ZahradaCarousel, null)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "section section-text section-centered"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "montserrat-subtitle co-nabizi"
-  }, "Spolupr\xE1ce s p\u0159\xEDrodou je rovn\xE1. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Za pr\xE1ci, p\xE9\u010Di a starostlivost p\u0159ich\xE1z\xED hojnost."), " Pokud ji vid\u011Bt chceme, vn\xEDm\xE1me ji v\u0161ude. U\u017E p\u0159i zrodu nab\xEDz\xED Zahrada p\u016Fdu, prostor a z\xE1zem\xED. Je povzbuzuj\xEDc\xED terapi\xED vid\u011Bt, jak se i to nejmen\u0161\xED sem\xEDnko sna\u017E\xED uchytit, ka\u017Ed\xE1 kv\u011Btina na louce prezentovat svoji kr\xE1su. Je to v\xFDzva a inspirace pro n\xE1s pro v\u0161echny.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "section section-text co-nabizi"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-    className: "flex-row"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    className: "title"
-  }, "P\u016Fda"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "text"
-  }, "P\u016Fda poskytuje p\xE9\u010Di v\u0161emu, co po nutn\xFDch ter\xE9nn\xEDch \xFAprav\xE1ch zbylo, i nov\xFDm semen\u016Fm a rostlin\xE1m. Jde o prostor v\xEDce ne\u017E 16\xA0000\xA0m", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("sup", null, "2"), ". Vznik\xE1 zde kv\u011Btinov\xFD labyrint, bylinn\xE1 i okrasn\xE1 \u010D\xE1st. Postupn\u011B se bude okrasn\xE1 i jedl\xE1 Zahrada roz\u0161i\u0159ovat, p\u0159ibude jedl\xFD les."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "text"
-  }, "V\xA0Zahrad\u011B\xA0Hojnosti je po\xA0\xFAprav\xE1ch st\xE1le nedostatek orn\xE9 p\u016Fdy. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "V\xEDte\xA0o\xA0n\u011Bjak\xE9?"), " Napi\u0161te n\xE1m na\xA0", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    className: "mail",
-    href: "mailto:info@kousekpokousku.cz"
-  }, "info@kousekpokousku.cz")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "subtitle green"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Pomozte\xA0n\xE1m zajistit dal\u0161\xED p\u016Fdu pro\xA0rostliny."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    className: "title"
-  }, "Prostor"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "text"
-  }, "Prostor slou\u017E\xED ke\xA0sd\xEDlen\xED, setk\xE1v\xE1n\xED, tvo\u0159en\xED jednotlivc\u016F i\xA0skupin. V\u0161ichni si\xA0mohou odzkou\u0161et sv\xE9 limity p\u0159i\xA0fyzick\xE9 pr\xE1ci a\xA0zjistit, jak\xFD d\xEDl radosti jim p\u0159in\xE1\u0161\xED. Dobrovolnictv\xED v\xA0Zahrad\u011B nabude v\u0161edn\xED v\xFDznam. Jde o\xA0skv\u011Bl\xFD zp\u016Fsob, jak\xA0pozitivn\u011B ovlivnit sebe a\xA0sv\u011Bt kolem n\xE1s."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "text"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Chcete\xA0se\xA0zapojit?"), " Nav\u0161tivte\xA0FB\xA0str\xE1nku ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "https://www.facebook.com/dobrovolniciprozahraduhojnosti.cz/"
-  }, "Dobrovoln\xEDci\xA0Zahrady\xA0Hojnosti"), ", kde sd\u011Blujeme aktu\xE1ln\xED informace o\xA0term\xEDnech a\xA0akc\xEDch, nebo napi\u0161te na\xA0", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    className: "mail",
-    href: "mailto:info@kousekpokousku.cz"
-  }, "info@kousekpokousku.cz"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "subtitle green"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "R\xE1di V\xE1s p\u0159iv\xEDt\xE1me"), ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    className: "title"
-  }, "Z\xE1zem\xED"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "text"
-  }, "Zahrada poskytne z\xE1zem\xED tak\xE9 pro\xA0r\u016Fzn\xE9 druhy v\u011Bdom\xE9ho cvi\u010Den\xED, pro\xA0harmonizaci, odpo\u010Dinek a\xA0du\u0161evn\xED pohodu. Pro hled\xE1n\xED sama sebe, zti\u0161en\xED sv\xE9 du\u0161e, odpout\xE1n\xED se\xA0od\xA0ka\u017Edodenn\xED reality. Je u\u017E\xA0na ka\u017Ed\xE9m, zda relaxuje u\xA0fyzick\xE9 pr\xE1ce, cvi\u010Den\xED nebo si\xA0jen posed\xED pod stromem. P\u0159ipravujeme i\xA0mnoho tematick\xFDch workshop\u016F o\xA0p\u011Bstov\xE1n\xED a\xA0zpracov\xE1n\xED bylin, v\xFDrob\u011B mast\xED, kr\xE9m\u016F, tinktur a\xA0dal\u0161\xEDch z\xE1zrak\u016F."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "text"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "M\xE1te vlastn\xED n\xE1m\u011Bt?"), " P\u0159ihlaste se na ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    className: "mail",
-    href: "mailto:info@kousekpokousku.cz"
-  }, "info@kousekpokousku.cz")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "subtitle green"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Chcete workshop sami po\u0159\xE1dat?"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "tree-section section"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layer_wrapper__WEBPACK_IMPORTED_MODULE_2__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_12__.StaticImage, {
-    className: "img tree-img",
-    src: "../images/tree_final_final.png",
-    alt: "",
-    layout: "fullWidth",
-    placeholder: "blurred",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2493766020.json */ "./.cache/caches/gatsby-plugin-image/2493766020.json")
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "quote-section"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("figure", {
-    className: "quote-wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("blockquote", {
-    className: "komensky"
-  }, "\"Um\u011Bn\xED, kterak vyu\u010Dovat a\xA0u\u010Dit\xA0se, nesm\xED a\xA0nem\u016F\u017Ee se\xA0br\xE1ti odjinud, ne\u017E\xA0od\xA0u\u010Ditelky p\u0159\xEDrody\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("figcaption", {
-    className: ""
-  }, "J.\xA0A.\xA0Komensk\xFD")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_12__.StaticImage, {
+  } = _public_page_data_sq_d_2361911367_json__WEBPACK_IMPORTED_MODULE_0__.data;
+
+  const getLink = link => {
+    if (/kousekpokousku\.cz/.test(link)) {
+      let arr = link.split('.cz');
+      return arr[arr.length - 1];
+    }
+
+    return link;
+  };
+
+  const aktuality = edges.map(edge => edge.node).map(node => {
+    var _node$frontmatter, _node$frontmatter$ima, _node$frontmatter$ima2, _node$frontmatter$ima3;
+
+    return {
+      title: node.frontmatter.name,
+      body: node.html.replace('/n', ''),
+      //@ts-ignore
+      date: moment__WEBPACK_IMPORTED_MODULE_1___default()(node.frontmatter.date, 'DD-MM-YYYY').toDate(),
+      link: node.frontmatter.link ? getLink(node.frontmatter.link) : undefined,
+      image: {
+        image: (_node$frontmatter = node.frontmatter) === null || _node$frontmatter === void 0 ? void 0 : (_node$frontmatter$ima = _node$frontmatter.image) === null || _node$frontmatter$ima === void 0 ? void 0 : (_node$frontmatter$ima2 = _node$frontmatter$ima.image) === null || _node$frontmatter$ima2 === void 0 ? void 0 : (_node$frontmatter$ima3 = _node$frontmatter$ima2.childImageSharp) === null || _node$frontmatter$ima3 === void 0 ? void 0 : _node$frontmatter$ima3.gatsbyImageData,
+        imageAlt: node.frontmatter.image.imageAlt
+      }
+    };
+  }).sort((a, b) => a.date.getTime() - b.date.getTime()).reverse();
+  return aktuality;
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (useAktuality);
+
+/***/ }),
+
+/***/ "./src/pages/index.tsx":
+/*!*****************************!*\
+  !*** ./src/pages/index.tsx ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _public_page_data_sq_d_2705609646_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/2705609646.json */ "./public/page-data/sq/d/2705609646.json");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_layer_wrapper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layer-wrapper */ "./src/components/layer-wrapper.tsx");
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.tsx");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _loadable_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @loadable/component */ "./node_modules/@loadable/component/dist/loadable.esm.js");
+/* harmony import */ var _images_videos_hero_final_mp4__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/videos/hero_final.mp4 */ "./src/images/videos/hero_final.mp4");
+/* harmony import */ var _images_videos_homepage_1366_4Mb_mp4__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/videos/homepage_1366_4Mb.mp4 */ "./src/images/videos/homepage_1366_4Mb.mp4");
+/* harmony import */ var _images_videos_homepage_768_4Mb_mp4__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../images/videos/homepage_768_4Mb.mp4 */ "./src/images/videos/homepage_768_4Mb.mp4");
+/* harmony import */ var _images_videos_homepage_360_4Mb_mp4__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../images/videos/homepage_360_4Mb.mp4 */ "./src/images/videos/homepage_360_4Mb.mp4");
+/* harmony import */ var gatsby_plugin_breakpoints__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! gatsby-plugin-breakpoints */ "./node_modules/gatsby-plugin-breakpoints/index.js");
+/* harmony import */ var _functions_useAktuality__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../functions/useAktuality */ "./src/functions/useAktuality.ts");
+/* harmony import */ var _components_section_jurta__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./../components/section-jurta */ "./src/components/section-jurta.tsx");
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+
+
+
+
+
+
+ // @ts-ignore
+
+ // @ts-ignore
+
+ // @ts-ignore
+
+ // @ts-ignore
+
+ // @ts-ignore
+
+// import AktualityCarousel from "../components/aktuality-carousel";
+const AktualityCarousel = (0,_loadable_component__WEBPACK_IMPORTED_MODULE_5__.default)(() => Promise.resolve().then(() => _interopRequireWildcard(__webpack_require__(/*! ../components/aktuality-carousel */ "./src/components/aktuality-carousel.tsx")))); // import Map from './../components/map';
+// const Map = Loadable(() => import('./../components/map'))
+
+
+
+
+
+
+const IndexPage = () => {
+  const breakpoints = (0,gatsby_plugin_breakpoints__WEBPACK_IMPORTED_MODULE_10__.useBreakpoint)();
+  const placeholderImage = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__.StaticImage, {
     className: "img",
-    src: "../images/komensky.jpg",
-    alt: "Jan amos komensky",
-    placeholder: "blurred",
-    layout: "constrained",
-    imgStyle: {
-      filter: 'brightness(1.1)'
-    },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2967750178.json */ "./.cache/caches/gatsby-plugin-image/2967750178.json")
-  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "financovani"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "section section-text inner"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
-    className: "title"
-  }, "Hospoda\u0159en\xED"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    src: "../images/hero_snapshot.png",
+    alt: "Fulnek - Tady jsme doma",
+    layout: "fullWidth",
+    placeholder: "none",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1950030123.json */ "./.cache/caches/gatsby-plugin-image/1950030123.json")
+  });
+  const aktuality = (0,_functions_useAktuality__WEBPACK_IMPORTED_MODULE_11__.default)().slice(0, 20); // let pocetProjektu = 113;
+
+  const data = _public_page_data_sq_d_2705609646_json__WEBPACK_IMPORTED_MODULE_0__.data;
+  let year = new Date().getFullYear() - 2011;
+
+  if (typeof year != "number" || year > 99) {
+    console.log("Error loading info from projekty db, using fallback value.", year);
+    year = 10;
+  }
+
+  let pocetProjektu = data.allMarkdownRemark.edges.length;
+
+  if (typeof pocetProjektu != "number" || pocetProjektu < 90 || pocetProjektu > 999) {
+    console.log("Error loading info from projekty db, using fallback value.", pocetProjektu);
+    pocetProjektu = 113;
+  }
+
+  const oneMillion = 1000000;
+  let cena = data.allMarkdownRemark.edges.map(edge => edge.node.frontmatter.price).reduce((acc, val) => acc + val, 0);
+  cena = cena / oneMillion;
+
+  if (typeof cena != "number" || cena > 1000 || cena < 1) {
+    console.log("Error loading info from projekty db, using fallback value.", cena);
+    cena = 3.1;
+  }
+
+  let cenyText = cena.toFixed(1);
+
+  const approxeq = (v1, v2) => {
+    const epsilon = 0.001;
+    return Math.abs(v1 - v2) < epsilon;
+  };
+
+  const animateValue = (obj, start, end, duration, decimal = 0) => {
+    if (window && obj) {
+      const stepperValueBoundary = decimal === 0 ? 1 : 1 / (decimal * 10);
+      const equal = decimal === 0 ? (a, b) => a === b : approxeq;
+      let startTimestamp = null;
+
+      const step = timestamp => {
+        if (!startTimestamp) startTimestamp = timestamp; // Calculate how far along in the animation we are
+
+        const progress = Math.min((timestamp - startTimestamp) / duration, 1); // let t = (timestamp - startTimestamp);
+        // let c = ;
+        // let d = duration;
+        // let b = start;
+        // t = progress;
+        // let val =  
+        // From that calculate what number to show
+
+        obj.innerHTML = (progress * (end - start) + start).toFixed(decimal).toString(); // obj.innerHTML = (-(end - start) * progress * (progress - 2) + start).toFixed(decimal).toString();
+        // If the animation isnt finished, queue up next animation
+        // * uses approxeq to deal with floating points
+
+        if (!equal(progress, 1)) {
+          window.requestAnimationFrame(step);
+        }
+      }; // Kick off the animation
+
+
+      window.requestAnimationFrame(step);
+    }
+  };
+
+  const startValue = 0;
+  const animDuration = 1000;
+  (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(() => {
+    const observe = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateValue(document.getElementById('year'), startValue !== null && startValue !== void 0 ? startValue : 0, year, animDuration);
+          animateValue(document.getElementById('pocetProjektu'), startValue !== null && startValue !== void 0 ? startValue : 0, pocetProjektu, animDuration);
+          animateValue(document.getElementById('cenyText'), startValue !== null && startValue !== void 0 ? startValue : 0, Number.parseFloat(cenyText), animDuration, 1);
+        }
+      });
+    }, {});
+    const target = document.querySelector('section.cisla');
+    if (target) observe.observe(target);
+  }, []); // React.useLayoutEffect(() => {
+  //   const video = document.querySelector('.hero-video');
+  //   if (video) video.addEventListener('loadeddata', () => {
+  //     const target = document.getElementById('placeholderImage');
+  //     // console.log(target)
+  //     if (target) target.style.display = 'none';
+  //   }, false)
+  // }, [breakpoints])
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_3__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components_layer_wrapper__WEBPACK_IMPORTED_MODULE_2__.default, {
+    className: "main-page-hero hero"
+  }, breakpoints.noVideo ? placeholderImage : breakpoints.xs ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("video", {
+    className: "hero-video",
+    width: "1920",
+    height: "1080",
+    muted: true,
+    autoPlay: true,
+    loop: true,
+    preload: "auto",
+    playsInline: true
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("source", {
+    src: _images_videos_homepage_360_4Mb_mp4__WEBPACK_IMPORTED_MODULE_9__.default,
+    type: "video/mp4"
+  })) : breakpoints.sm ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("video", {
+    className: "hero-video",
+    width: "1920",
+    height: "1080",
+    muted: true,
+    autoPlay: true,
+    loop: true,
+    preload: "auto",
+    playsInline: true
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("source", {
+    src: _images_videos_homepage_768_4Mb_mp4__WEBPACK_IMPORTED_MODULE_8__.default,
+    type: "video/mp4"
+  })) : breakpoints.md ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("video", {
+    className: "hero-video",
+    width: "1920",
+    height: "1080",
+    muted: true,
+    autoPlay: true,
+    loop: true,
+    preload: "auto",
+    playsInline: true
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("source", {
+    src: _images_videos_homepage_1366_4Mb_mp4__WEBPACK_IMPORTED_MODULE_7__.default,
+    type: "video/mp4"
+  })) : breakpoints ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("video", {
+    className: "hero-video",
+    width: "1920",
+    height: "1080",
+    muted: true,
+    autoPlay: true,
+    loop: true,
+    preload: "auto",
+    playsInline: true
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("source", {
+    src: _images_videos_hero_final_mp4__WEBPACK_IMPORTED_MODULE_6__.default,
+    type: "video/mp4"
+  })) : placeholderImage), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("section", {
+    className: "text-section section intro-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h1", {
+    className: "title",
+    style: {
+      fontWeight: 500
+    }
+  }, "Kousek po\xA0kousku p\u0159isp\xEDv\xE1me k\xA0lep\u0161\xEDmu \u017Eivotu v\xA0na\u0161em, Moravskoslezsk\xE9m kraji"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("ul", {
+    className: "claims"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", {
+    className: "icon-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
+    className: "title blue top-text"
+  }, "U\u017E des\xE1t\xFD\xA0rok podporujeme lok\xE1ln\xED projekty a aktivn\xED, tvo\u0159iv\xE9 lidi"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
+    className: "red link",
+    to: "/aktualne-podporujeme"
+  }, "P\u0159e\u010Dt\u011Bte\xA0si o\xA0nich"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("svg", {
+    className: "img svg",
+    height: "511pt",
+    viewBox: "0 -24 511.999 511",
+    width: "511pt",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("path", {
+    d: "M50 262.598c-5.52 0-10 4.48-10 10s4.48 10 10 10 10-4.48 10-10-4.48-10-10-10zm0 0"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("path", {
+    d: "M459.617 297.273l-94.273 32.41c.418-2.32.652-4.687.652-7.09 0-22.054-17.941-40-40-40h-64.758c-1.718 0-3.414-.44-4.91-1.284l-52.832-29.715a70.059 70.059 0 00-34.328-9h-70.89C94.151 230.957 83.034 222.598 70 222.598H10c-5.523 0-10 4.476-10 10v179.996c0 5.523 4.477 10 10 10h60c12.738 0 23.66-8.004 27.996-19.246 11.32 1.406 24.418 4.754 32.649 9.691l52.296 31.379a127.509 127.509 0 0065.606 18.176c18.312 0 36.055-3.844 52.738-11.422l186.645-82.184c20.672-8.386 30.879-33.187 19.062-55.047-8.691-16.086-29.047-23.242-47.375-16.668zM80 392.641c-.023 5.492-4.504 9.953-10 9.953H20V242.598h50c5.512 0 10 4.484 10 10zm400.332-42.149c-.105.04-.21.086-.316.13l-186.957 82.32c-14.082 6.406-29.059 9.652-44.512 9.652-19.485 0-38.61-5.297-55.313-15.324l-52.3-31.38c-11.196-6.714-27.227-10.808-40.934-12.449V262.598h69.168a50.029 50.029 0 0124.52 6.425l52.832 29.715a30.045 30.045 0 0014.718 3.86h64.758c11.027 0 20 8.968 20 20 0 10.988-8.976 20-20 20H224.34c-5.524 0-10 4.476-10 10 0 5.52 4.476 9.996 10 9.996h101.656a39.922 39.922 0 0018.746-4.684l121.59-41.797c8.961-3.234 19.094-.015 23.066 7.336 5.957 11.02 1.032 23-9.066 27.043zm0 0M291.246 243.055c1.883 1.629 4.215 2.441 6.55 2.441s4.673-.812 6.552-2.441c81.59-70.711 132.058-106.496 132.058-162.106C436.406 36.957 405.262.5 361.508.5c-28.735 0-50.738 16.563-64.91 41.418C282.457 17.118 260.477.5 231.699.5c-33.496 0-61.5 21.707-71.344 55.297-1.554 5.3 1.485 10.855 6.786 12.41 5.3 1.555 10.855-1.484 12.406-6.785C186.832 36.562 207.3 20.5 231.699 20.5c28.528 0 48.54 25.332 55.262 48.918a9.999 9.999 0 0019.273 0c.137-.488 14.028-48.918 55.274-48.918 31.297 0 54.898 25.984 54.898 60.45 0 44.484-43.484 76.554-118.617 141.335-45.777-39.312-82.14-66.984-102.809-94.055-3.351-4.39-9.625-5.234-14.015-1.882-4.39 3.351-5.23 9.625-1.883 14.02 23.297 30.51 62.625 59.745 112.164 102.687zm0 0"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("path", {
+    d: "M169 88.598c-5.52 0-10 4.48-10 10s4.48 10 10 10 10-4.48 10-10-4.48-10-10-10zm0 0"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", {
+    className: "icon-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
+    className: "title blue top-text"
+  }, "Budujeme vlastn\xED nada\u010Dn\xED projekt, Zahradu Hojnosti "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
+    className: "red link",
+    to: "/zahrada-hojnosti"
+  }, "Zjistit v\xEDce"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("svg", {
+    className: "img svg",
+    viewBox: "0 0 512 512",
+    height: "512",
+    width: "512",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("path", {
+    d: "M71.858 408.115L120 432.181V486c0 5.523 4.478 10 10 10h106c5.522 0 10-4.477 10-10V355.45c0-30.637-22.983-56.045-53.391-59.093-.118-.033-42.3-6.619-61.87-26.189l-22.458-22.448C100.725 240.163 90.681 236 80 236v-80c0-22.056-17.944-40-40-40S0 133.944 0 156v135.84c0 24.158 6.714 47.791 19.415 68.342a129.925 129.925 0 0052.443 47.933zM20 156c0-11.028 8.972-20 20-20s20 8.972 20 20v85.361c-12.196 7.052-20 20.2-20 34.639 0 10.68 4.162 20.723 11.719 28.28l51.21 51.22c3.903 3.905 10.236 3.907 14.142.001 3.905-3.905 3.906-10.236.001-14.142l-51.21-51.221A19.863 19.863 0 0160 276c0-8.464 5.357-16.044 13.332-18.861l.009-.004h.001c6.896-2.444 15.077-.994 20.799 4.728l22.458 22.449c23.186 23.185 73.843 31.91 73.944 31.938A39.27 39.27 0 01226 355.45V476h-86v-50a10 10 0 00-5.528-8.944l-53.669-26.83C43.299 371.47 20 333.771 20 291.84zM246 246c0 5.523 4.478 10 10 10s10-4.477 10-10v-30h38.28C360.369 216 406 170.369 406 114.28V66a10 10 0 00-17.071-7.071C377.921 69.938 363.286 76 347.72 76c-33.445 0-63.169 16.227-81.72 41.219V26c0-5.523-4.478-10-10-10s-10 4.477-10 10v51.22C227.449 52.228 197.725 36 164.28 36c-15.566 0-30.201-6.062-41.209-17.071a9.998 9.998 0 00-10.898-2.168A10.003 10.003 0 00106 26v48.28C106 130.369 151.631 176 207.72 176H246zM347.72 96c13.625 0 26.72-3.458 38.28-9.959v28.239c0 45.061-36.659 81.72-81.72 81.72H286l56-42c4.418-3.313 5.313-9.582 2-14s-9.581-5.315-14-2l-64 48v-8.28C266 132.66 302.659 96 347.72 96zM126 74.28V46.041C137.561 52.542 150.655 56 164.28 56 209.341 56 246 92.66 246 137.72V146l-64-48c-4.418-3.313-10.686-2.418-14 2-3.313 4.418-2.418 10.687 2 14l56 42h-18.28C162.659 156 126 119.341 126 74.28z"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("circle", {
+    cx: "459",
+    cy: "384",
+    r: "10"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("path", {
+    d: "M472 116c-22.056 0-40 17.944-40 40v80c-10.681 0-20.725 4.162-28.279 11.717l-22.462 22.452c-19.137 19.139-61.695 26.152-61.796 26.181-30.48 3.056-53.463 28.463-53.463 59.101V486c0 5.523 4.478 10 10 10h106c5.522 0 10-4.477 10-10v-53.819l32.73-16.362c4.939-2.47 6.942-8.476 4.473-13.417-2.469-4.939-8.473-6.942-13.416-4.473l-38.259 19.125A10.006 10.006 0 00372 426v50h-86V355.45c0-20.321 15.243-37.174 35.529-39.208.101-.028 49.426-7.485 73.87-31.93l22.462-22.452c5.724-5.724 13.913-7.166 20.797-4.726h.001l.009.004C446.643 259.957 452 267.537 452 276c0 5.338-2.082 10.359-5.861 14.14l-51.21 51.22c-3.905 3.906-3.904 10.237.001 14.142 3.904 3.904 10.237 3.905 14.142-.001l51.21-51.22C467.838 296.724 472 286.68 472 276c0-14.439-7.804-27.587-20-34.639V156c0-11.028 8.972-20 20-20s20 8.972 20 20v135.84c0 18.296-4.617 36.46-13.353 52.528-2.639 4.852-.844 10.924 4.009 13.562 4.851 2.637 10.925.843 13.562-4.009C506.543 334.931 512 313.464 512 291.84V156c0-22.056-17.944-40-40-40z"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", {
+    className: "icon-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
+    className: "title blue top-text"
+  }, "Um\xEDme zprost\u0159edkovat podporu od\xA0firem i\xA0jednotlivc\u016F v\xA0na\u0161em kraji"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
+    className: "red link",
+    to: "/kontakt"
+  }, "Pom\xE1hejte s n\xE1mi"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("svg", {
+    className: "img svg",
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 512 512"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("path", {
+    d: "M404.267 315.41c-10.048-20.949-45.995-50.027-80.725-78.123-19.371-15.659-37.675-30.464-49.344-42.133-2.923-2.944-7.296-3.883-11.157-2.496-7.189 2.603-11.627 4.608-15.125 6.165-5.333 2.389-7.125 3.2-14.315 3.925a10.663 10.663 0 00-7.808 4.672c-15.083 22.549-30.699 20.629-41.131 17.131-3.328-1.109-3.925-2.539-4.245-3.904-2.24-9.365 9.003-31.168 23.573-45.739 34.667-34.688 52.544-43.371 90.304-26.496 42.837 19.157 85.76 34.155 86.187 34.304a10.654 10.654 0 0013.589-6.571c1.92-5.568-1.003-11.648-6.571-13.589-.427-.149-42.496-14.848-84.48-33.643-48.917-21.867-75.755-7.467-114.091 30.891-14.592 14.592-34.411 44.117-29.291 65.771 2.197 9.216 8.683 16.043 18.325 19.221 24.171 7.979 46.229.341 62.656-21.461 6.784-1.045 10.475-2.581 16.021-5.077a209.95 209.95 0 017.467-3.2c12.203 11.456 28.672 24.789 46.016 38.805 31.36 25.365 66.923 54.123 74.923 70.763 3.947 8.213-.299 13.568-3.179 16.021-4.224 3.627-10.005 4.779-13.141 2.581-3.456-2.368-7.957-2.517-11.52-.384a10.66 10.66 0 00-5.141 10.304c.725 6.784-5.483 10.667-8.171 12.011-6.827 3.456-13.952 2.859-16.619.384-2.987-2.773-7.275-3.584-11.072-2.176-3.797 1.429-6.443 4.928-6.827 8.981-.64 6.997-5.824 13.717-12.587 16.341-3.264 1.237-8 1.984-12.245-1.899a10.791 10.791 0 00-9.749-2.475 10.65 10.65 0 00-7.488 6.72c-.405 1.067-1.323 3.627-11.307 3.627-7.104 0-19.883-4.8-26.133-8.939-7.488-4.928-54.443-39.957-94.997-73.92-5.696-4.8-15.552-15.083-24.256-24.171-7.723-8.064-14.784-15.381-18.411-18.453-4.544-3.84-11.264-3.264-15.04 1.259-3.797 4.501-3.243 11.243 1.259 15.04 3.307 2.795 9.707 9.557 16.768 16.917 9.515 9.941 19.349 20.224 25.963 25.771 39.723 33.259 87.467 69.163 96.981 75.413 7.851 5.163 24.768 12.416 37.867 12.416 10.517 0 18.603-2.411 24.213-7.125 7.509 2.923 16.043 2.944 24.256-.256 9.707-3.755 17.685-11.328 22.208-20.501 8.405 1.792 18.027.533 26.773-3.861 8.555-4.309 14.741-10.901 17.813-18.603 8.491.448 17.237-2.56 24.469-8.768 12.247-10.474 15.617-26.772 8.535-41.471z"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("path", {
+    d: "M213.333 138.663h-96c-5.888 0-10.667 4.779-10.667 10.667s4.779 10.667 10.667 10.667h96c5.888 0 10.667-4.779 10.667-10.667s-4.779-10.667-10.667-10.667zM435.52 292.711c-3.307-4.885-9.92-6.229-14.805-2.901l-31.189 20.949c-4.885 3.285-6.187 9.92-2.901 14.805a10.717 10.717 0 008.875 4.715c2.027 0 4.096-.576 5.931-1.813l31.189-20.949c4.884-3.286 6.185-9.92 2.9-14.806zM369.301 343.613c-7.637-6.016-41.792-40.981-62.912-62.997-4.075-4.267-10.837-4.416-15.083-.32-4.267 4.075-4.395 10.837-.32 15.083 5.483 5.717 53.845 56.128 65.088 65.003a10.623 10.623 0 006.592 2.283c3.136 0 6.272-1.408 8.405-4.075 3.649-4.609 2.86-11.329-1.77-14.977zM326.677 365.01c-12.779-10.219-44.885-44.331-52.139-52.224-4.011-4.352-10.731-4.608-15.083-.64-4.331 3.989-4.629 10.752-.64 15.083.384.405 38.699 41.771 54.528 54.443a10.72 10.72 0 006.656 2.325c3.115 0 6.229-1.387 8.341-3.989 3.671-4.609 2.924-11.329-1.663-14.998zM284.224 386.493c-15.211-12.821-46.336-45.952-52.416-52.459-4.032-4.309-10.795-4.544-15.083-.512-4.309 4.032-4.523 10.773-.512 15.083 8.747 9.365 38.528 40.939 54.251 54.208a10.638 10.638 0 006.869 2.517c3.029 0 6.059-1.301 8.171-3.797 3.797-4.523 3.221-11.243-1.28-15.04z"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("path", {
+    d: "M124.672 120.253C106.389 102.93 33.28 97.319 11.307 96.018c-3.029-.149-5.824.853-7.957 2.88A10.662 10.662 0 000 106.663v192c0 5.888 4.779 10.667 10.667 10.667h64c4.608 0 8.704-2.965 10.133-7.36 1.557-4.779 38.315-117.589 43.157-173.056.278-3.243-.917-6.443-3.285-8.661zM66.88 287.997H21.333V118.098c34.283 2.709 71.275 8.597 84.715 15.125-5.653 46.72-31.232 129.728-39.168 154.774zM501.333 117.33c-83.755 0-130.219 21.44-132.16 22.336-2.773 1.301-4.843 3.712-5.696 6.635s-.427 6.059 1.173 8.661c13.184 21.227 54.464 139.115 62.4 167.872a10.665 10.665 0 0010.283 7.829h64c5.888 0 10.667-4.779 10.667-10.667v-192a10.657 10.657 0 00-10.667-10.666zm-10.666 192h-45.355c-10.112-32.939-39.979-118.827-56.64-154.325 16.277-5.525 51.243-15.019 101.995-16.213V309.33z"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", {
+    className: "icon-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
+    className: "title blue top-text"
+  }, "Inspirujeme k\xA0dobrovolnictv\xED a\xA0p\u0159ipom\xEDn\xE1me, \u017Ee\xA0nezi\u0161tn\xE1 pomoc pat\u0159\xED k\xA0\u017Eivotu"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("a", {
+    className: "red link",
+    href: "https://www.facebook.com/dobrovolniciprozahraduhojnosti.cz/"
+  }, "Zapojte se"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("svg", {
+    className: "img svg",
+    viewBox: "0 0 512 512",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("path", {
+    d: "M209.137 15.169c-14.507-11.731-33.508-11.826-45.041.102-13.676 14.175-13.679 37.264-.006 51.471a5.8 5.8 0 00.135.137l36.856 36.517c.193.192.397.373.61.542l.223.178c1.792 1.428 3.823 3.047 6.913 3.176a8.117 8.117 0 00.612 0c3.125-.125 5.164-1.75 6.963-3.185l.213-.169a7.68 7.68 0 00.611-.544l32.405-32.151 4.421-4.364.128-.13c13.71-14.21 13.708-37.306.002-51.476-11.52-11.947-30.533-11.851-45.045-.104zm34.307 41.103L209.15 90.275l-29.967-29.707-4.348-4.292c-8.083-8.469-8.066-22.172.05-30.584 7.153-7.4 18.761-4.393 26.065 2.207.535.481.967.889 1.322 1.225 1.488 1.406 3.526 3.333 6.866 3.333 3.37 0 5.386-1.918 6.857-3.319.354-.336.787-.75 1.345-1.251 7.298-6.593 18.906-9.604 26.052-2.192 8.139 8.413 8.155 22.113.052 30.577zM210.548 227.262c-10.016-3.842-21.288-2.244-30.925 4.382a41.932 41.932 0 00-4.443 3.521v-92.406c0-14.167-11.526-25.693-25.693-25.693-3.814 0-7.438.836-10.696 2.333-.201-14.011-11.648-25.345-25.69-25.345-10.944 0-20.313 6.887-24.008 16.559a25.533 25.533 0 00-12.377-3.183c-14.183 0-25.721 11.526-25.721 25.693v20.388a22.521 22.521 0 00-7.661-1.334c-12.667 0-23.369 10.391-23.369 22.691l.028 132.5c.13 20.356 6.417 31.749 12.878 38.734-4.204 1.988-7.126 6.258-7.126 11.208v57.726a7.5 7.5 0 0015 0v-55.128h142.189v136.951H40.745V452.5a7.5 7.5 0 00-15 0v46.957c0 6.839 5.563 12.403 12.402 12.403H185.56c6.823 0 12.374-5.564 12.374-12.403V357.31c0-4.85-2.798-9.047-6.856-11.085 5.151-8.508 8.564-17.368 10.171-26.464 4.604-26.108 11.122-43.253 15.881-55.771 3.463-9.11 5.751-15.129 5.79-20.681.051-7.473-4.11-12.871-12.372-16.047zm-7.438 31.397c-4.691 12.341-11.781 30.99-16.632 58.494-1.683 9.523-5.923 18.844-12.602 27.754H54.905c-1.228-1.095-2.595-2.083-4.002-3.099-6.652-4.8-15.762-11.374-15.91-34.489l-.028-132.452c0-4.024 3.989-7.689 8.369-7.689 4.224 0 7.661 3.449 7.661 7.689v41.374a7.5 7.5 0 0015 0v-83.117c0-5.896 4.809-10.693 10.721-10.693 5.896 0 10.693 4.797 10.693 10.693v84.59a7.5 7.5 0 0015 0v-97.938c0-5.912 4.797-10.722 10.693-10.722s10.693 4.81 10.693 10.722v91.618a7.5 7.5 0 0015 0v-68.636c0-5.896 4.797-10.693 10.693-10.693s10.693 4.797 10.693 10.693v123.223c-16.187 8.771-30.721 23.598-34.129 35.269a7.5 7.5 0 007.202 9.604 7.503 7.503 0 007.196-5.4c1.925-6.592 13.855-20.377 30.391-28.06 2.609-1.212 4.34-3.924 4.34-6.802 0-11.079 4.838-21.019 12.941-26.59 5.506-3.785 11.722-4.783 17.051-2.739 1.938.745 2.578 1.309 2.724 1.457.509 2.007-2.303 9.405-4.787 15.939zM478.468 357.567c-5.003-5.177-11.109-8.593-17.729-10.292v-59.962c0-5.356-3.238-9.965-7.853-11.975 5.836-9.461 9.682-19.306 11.451-29.398 5.055-28.605 12.197-47.392 17.412-61.109 3.762-9.896 6.248-16.435 6.291-22.38.057-7.854-4.34-13.536-13.073-16.89-10.724-4.115-22.808-2.396-33.149 4.714a45.248 45.248 0 00-5.96 4.898V52.53c0-15.105-12.289-27.394-27.393-27.394-4.458 0-8.669 1.07-12.393 2.967v-.71C396.072 12.289 383.783 0 368.679 0c-11.967 0-22.168 7.698-25.902 18.397a27.22 27.22 0 00-13.912-3.803c-15.104 0-27.393 12.289-27.393 27.394v23.323a23.952 23.952 0 00-9.078-1.776c-13.481 0-24.871 11.026-24.871 24.081l.057 144.879c.133 22.78 7.391 35.182 14.614 42.659-4.862 1.896-8.323 6.625-8.323 12.16v92.468a7.5 7.5 0 0015 0V289.26h12.526l.016.001.015-.001h144.311v57.038c-9.732 1.099-19.648 5.439-28.234 12.98-19.362-16.996-45.443-17.772-60.936-1.709-18.086 18.725-18.088 49.216-.004 67.972l.12.122 51.63 51.178c.192.19.394.37.605.539l.397.317c2.349 1.878 4.568 3.652 7.968 3.751a8.07 8.07 0 00.434 0c3.413-.098 5.677-1.911 7.867-3.666l.504-.403c.211-.168.414-.349.606-.539l19.043-18.877V497H288.87v-82.588a7.5 7.5 0 00-15 0v84.534c0 7.198 5.843 13.054 13.026 13.054h160.816c7.183 0 13.026-5.856 13.026-13.054v-55.852l17.603-17.419c.045-.044.089-.089.132-.134 18.085-18.756 18.083-49.248-.005-67.974zm-43.001-83.307H304.759c-1.369-1.248-2.911-2.37-4.507-3.522-7.395-5.338-17.523-12.649-17.673-38.29l-.057-144.835c0-4.751 4.705-9.078 9.871-9.078 5.005 0 9.078 4.072 9.078 9.078v45.285a7.5 7.5 0 0015 0v-90.91c0-6.834 5.56-12.394 12.393-12.394s12.393 5.56 12.393 12.394v92.497a7.5 7.5 0 0015 0V27.394c0-6.834 5.572-12.394 12.421-12.394 6.833 0 12.393 5.56 12.393 12.394V127.57a7.5 7.5 0 0015 0V52.53c0-6.834 5.56-12.394 12.393-12.394s12.393 5.56 12.393 12.394v135.137c-17.704 9.471-33.652 25.644-37.36 38.346a7.5 7.5 0 1014.399 4.203c2.142-7.338 15.346-22.642 33.617-31.118 2.612-1.211 4.344-3.924 4.344-6.804 0-12.347 5.405-23.435 14.458-29.659 6.208-4.268 13.237-5.388 19.276-3.07 3.458 1.328 3.454 1.968 3.448 2.777-.024 3.247-2.358 9.386-5.312 17.159-5.121 13.471-12.86 33.828-18.165 63.839-1.856 10.598-6.599 20.984-14.095 30.92zm32.271 140.805l-50.233 49.765-50.2-49.76c-12.486-13.015-12.47-34.117.056-47.084 11.292-11.709 29.386-7.222 40.687 2.955.791.709 1.421 1.31 1.935 1.799 1.787 1.7 3.998 3.803 7.474 3.803h.097c3.476 0 5.687-2.104 7.474-3.804.514-.489 1.144-1.09 1.945-1.808 6.95-6.259 16.484-10.357 25.427-9.855.196.022.396.031.597.038 5.365.427 10.491 2.537 14.684 6.876 12.52 12.962 12.538 34.06.057 47.075z"
+  })), "            "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("section", {
+    className: "section section-center cisla"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("ul", {
+    className: "cisla-infographic"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", {
+    className: "cislo roky"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("svg", {
+    className: "img calendar",
+    xmlns: "http://www.w3.org/2000/svg",
+    height: "24px",
+    viewBox: "0 0 24 24",
+    width: "24px",
+    fill: "#000000"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("path", {
+    d: "M0 0h24v24H0z",
+    fill: "none"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("path", {
+    d: "M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("span", {
+    className: "cislo",
+    id: "year"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("span", {
+    className: "popis"
+  }, "let"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", {
+    className: "cislo people"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("svg", {
+    className: "img people",
+    xmlns: "http://www.w3.org/2000/svg",
+    enableBackground: "new 0 0 24 24",
+    height: "24px",
+    viewBox: "0 0 24 24",
+    width: "24px",
+    fill: "#000000"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("rect", {
+    fill: "none",
+    height: "24",
+    width: "24"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("g", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("path", {
+    d: "M12,12.75c1.63,0,3.07,0.39,4.24,0.9c1.08,0.48,1.76,1.56,1.76,2.73L18,18H6l0-1.61c0-1.18,0.68-2.26,1.76-2.73 C8.93,13.14,10.37,12.75,12,12.75z M4,13c1.1,0,2-0.9,2-2c0-1.1-0.9-2-2-2s-2,0.9-2,2C2,12.1,2.9,13,4,13z M5.13,14.1 C4.76,14.04,4.39,14,4,14c-0.99,0-1.93,0.21-2.78,0.58C0.48,14.9,0,15.62,0,16.43V18l4.5,0v-1.61C4.5,15.56,4.73,14.78,5.13,14.1z M20,13c1.1,0,2-0.9,2-2c0-1.1-0.9-2-2-2s-2,0.9-2,2C18,12.1,18.9,13,20,13z M24,16.43c0-0.81-0.48-1.53-1.22-1.85 C21.93,14.21,20.99,14,20,14c-0.39,0-0.76,0.04-1.13,0.1c0.4,0.68,0.63,1.46,0.63,2.29V18l4.5,0V16.43z M12,6c1.66,0,3,1.34,3,3 c0,1.66-1.34,3-3,3s-3-1.34-3-3C9,7.34,10.34,6,12,6z"
+  }))), "            ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("span", {
+    className: "cislo",
+    id: "pocetProjektu"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("span", {
+    className: "popis"
+  }, "projekt\u016F"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", {
+    className: "cislo penize"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("svg", {
+    className: "img wallet",
+    xmlns: "http://www.w3.org/2000/svg",
+    height: "24px",
+    viewBox: "0 0 24 24",
+    width: "24px",
+    fill: "#000000"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("path", {
+    d: "M0 0h24v24H0V0z",
+    fill: "none"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("path", {
+    d: "M10 16V8c0-1.1.89-2 2-2h9V5c0-1.1-.9-2-2-2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-1h-9c-1.11 0-2-.9-2-2zm3-8c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h9V8h-9zm3 5.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("span", {
+    className: "cislo",
+    id: "cenyText"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("span", {
+    className: "popis"
+  }, "mili\xF3n\u016F K\u010D"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components_section_jurta__WEBPACK_IMPORTED_MODULE_12__.default, {
+    green: false
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("section", {
+    className: "section-zahrada"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("section", {
+    className: "section section-text right-align",
+    id: "zahrada"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h2", {
+    className: "section-title title"
+  }, "Zahrada Hojnosti"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
     className: "text"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Zahradu hojnosti spravuje a provozuje NF Kousek po kousku se z\xE1m\u011Brem sob\u011Bsta\u010Dnosti.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "text"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Jedn\xEDm ze zdroj\u016F budou samosb\u011Bry."), " Bude mo\u017En\xE9 p\u0159ij\xEDt na \u0159ez kv\u011Btin, sb\u011Br bylin, pozd\u011Bji i bobulovin a v\u0161e, co v hojnosti Zahrada vyd\xE1. P\u0159i samosb\u011Bru se nastav\xED minim\xE1ln\xED \u010D\xE1stka a bude na ka\u017Ed\xE9m, zda plody p\u0159\xEDrody ocen\xED klidn\u011B i sumou vy\u0161\u0161\xED. Finan\u010Dn\xED zdroje se vr\xE1t\xED zp\u011Bt do hospoda\u0159en\xED Nada\u010Dn\xEDho fondu a budou pou\u017Eity na dal\u0161\xED rozvoj Zahrady."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "text"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Dal\u0161\xED zdroje p\u0159inese zapojen\xED jednotlivc\u016F, skupin a firem."), " Ka\u017Ed\xFD m\u016F\u017Ee zakoupit sv\u016Fj strom, \u010D\xE1st plotu, lavi\u010Dku atd., kter\xE9 ponesou jejich jmenovku."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "text"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "V\u011B\u0159\xEDme, \u017Ee tento inov\xE1torsk\xFD projekt p\u0159it\xE1hne dal\u0161\xED region\xE1ln\xED d\xE1rce a filantropy.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "section paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_12__.StaticImage, {
+  }, "Na\xA0pozemku Nada\u010Dn\xEDho fondu Kousek po\xA0kousku ve\xA0Fulneku, o\xA0rozloze 16\xA0000\xA0m", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("sup", null, "2"), ", se postupn\u011B rod\xED v\xFDjime\u010Dn\xE9 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("strong", null, "m\xEDsto pro t\u011Blo, mysl a\xA0du\u0161i, harmoniza\u010Dn\xED a\xA0inspirativn\xED prostor pro psychickou i fyzickou relaxaci."), " Z\xE1zem\xED zahrady umo\u017En\xED", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("strong", null, " dobrovolnick\xE9 projekty, soci\xE1ln\xED a mezigenera\u010Dn\xED stmelov\xE1n\xED, eduka\u010Dn\xED p\u0159esah"), " pro\xA0v\u0161echny v\u011Bkov\xE9 skupiny i\xA0spolu\xFA\u010Dast na\xA0v\xFDjime\u010Dn\xE9m ekonomick\xE9m procesu. Prost\u0159ednictv\xEDm samosb\u011Br\u016F kv\u011Btin, bylin a\xA0plod\u016F jedl\xE9 Zahrady p\u0159edstav\xED toti\u017E NF naprosto ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("strong", null, "unik\xE1tn\xED zp\u016Fsob hospoda\u0159en\xED pro dosa\u017Een\xED sob\u011Bsta\u010Dnosti.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
+    className: "button-row "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("a", {
+    className: "button filled link",
+    href: "https://podpora.kousekpokousku.cz/"
+  }, "Chci podpo\u0159it Zahradu"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
+    className: "button ",
+    to: "/zahrada-hojnosti"
+  }, "V\xEDce"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__.StaticImage, {
     className: "img",
     src: "../images/paprika_hor.png",
-    alt: "Ruka dr\u017E\xEDc\xED rostlinku papriky",
+    alt: "Ruce drzi rostlinku",
     layout: "constrained",
     placeholder: "blurred",
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2356720090.json */ "./.cache/caches/gatsby-plugin-image/2356720090.json")
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "lone-paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "P\u0159ejeme si\xA0dlouhodob\u011B spolu vytv\xE1\u0159et podm\xEDnky pro spole\u010Dnost, kter\xE1 \u017Eije v hojnosti autentick\xFDch projev\u016F,"), " s v\u011Bdom\xEDm sv\xE9ho odpov\u011Bdn\xE9ho jedn\xE1n\xED, s um\u011Bn\xEDm radovat se z ka\u017Edodenn\xEDho \u017Eit\xED a chut\xED tvo\u0159it v radosti, co\u017E je", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, " nejv\u011Bt\u0161\xED dar"), ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "section section-text pravidla"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("section", {
+    className: "section section-centered call-to-action"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h1", {
     className: "title"
-  }, "Desatero Zahrady"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ol", {
-    className: "pravidla-list"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "P\u0159istupuj s l\xE1skou ke v\u0161emu, co zde je a cti hojnost."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "I ty jsi p\u0159ilo\u017Eil ruku k d\xEDlu nebo se teprve tak stane. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "P\u0159ijmi pr\xE1ci druh\xFDch i svou a dary, kter\xE9 vznikly pod veden\xEDm p\u0159\xEDrody."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Vezmi pro sebe to, co neovlivn\xED hojnost druh\xFDm."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Vyu\u017Eij prostor pro relaxaci, meditaci, zklidn\u011Bn\xED."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Vyu\u017Eij \u010Dist\xE9 energie pro na\u010Derp\xE1n\xED nov\xFDch sil. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Zapoj se do dobrovolnick\xFDch prac\xED a vyzkou\u0161ej sv\xE9 limity. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Za\u017Eij, jak\xE9 je tvo\u0159it rukama, zotav t\u011Blo i mysl."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "V\u0161e co Zahrada Hojnosti nab\xEDz\xED se vrac\xED zp\u011Bt, v podob\u011B dar\u016F pot\u0159ebn\xFDm. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Udr\u017Euj kolob\u011Bh hojnosti. P\u0159ij\u010F a nasb\xEDrej si p\u0159i samosb\u011Bru kv\u011Btiny, byliny, plody, zapla\u0165 za n\u011B, a\u0165 se Zahrada m\u016F\u017Ee d\xE1le rozv\xEDjet. "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "aktuality-zahrada"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(AktualityCarousel, {
-    aktuality: aktuality,
-    green: true
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_small_zahrada_map__WEBPACK_IMPORTED_MODULE_9__.default, null)));
+  }, "P\u0159ipoj sv\u016Fj kousek dobra"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", null, "V\u011B\u0159\xEDme, \u017Ee\xA0\u010Demu je v\u011Bnov\xE1na pozornost, to\xA0se\xA0d\u011Bje. Na\u0161e pozornost m\xED\u0159\xED k\xA0podpo\u0159e lok\xE1ln\xEDch projekt\u016F a\xA0m\xEDst, d\xEDky kter\xFDm je\xA0\u017Eivot lep\u0161\xED. K\xA0pomoci lidem, kte\u0159\xED tvo\u0159\xED v\xA0na\u0161em regionu."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", null, "Jsme p\u0159esv\u011Bd\u010Deni, \u017Ee prost\u0159edky, kter\xE9 vzejdou z\xA0regionu, maj\xED znovu naj\xEDt uplatn\u011Bn\xED v\xA0oblastn\xEDch projektech."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
+    className: "subtitle bigger",
+    style: {
+      color: 'white',
+      fontSize: '1.7em'
+    }
+  }, " Kousek po\xA0kousku toho spole\u010Dn\u011B zvl\xE1dneme kus"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
+    className: "subtitle blue"
+  }, " D\u011Bkujeme, \u017Ee\xA0se p\u0159ipoj\xEDte"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("a", {
+    href: "https://podpora.kousekpokousku.cz/chci-prispet-jsem-grand/",
+    className: "button filled bigger"
+  }, "Chci p\u0159isp\u011Bt")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("section", {
+    className: "image-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("section", {
+    className: "text-section section kouskovani"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h1", {
+    className: "section-title"
+  }, "Kouskov\xE1n\xED"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
+    className: "subtitle"
+  }, "Dejme kousk\u016Fm druhou \u0161anci!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
+    className: "text"
+  }, "Udr\u017Eitelnost je t\xE9ma, ke kter\xE9mu se dlouhodob\u011B hl\xE1s\xEDme. Dopady v\xFDroby od\u011Bv\u016F nelze p\u0159ehl\xED\u017Eet. U\u017E redukc\xED na\u0161\xED osobn\xED spot\u0159eby ka\u017Ed\xFD z n\xE1s v\xFDznamn\u011B pom\u016F\u017Ee."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
+    className: "text"
+  }, "Do\xA0\u0161atn\xEDku si\xA0po\u0159izujme ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("strong", null, "z\xE1kladn\xED, kvalitn\xED, nad\u010Dasov\xE9 kousky, nejl\xE9pe z\xA0recyklovateln\xFDch materi\xE1l\u016F."), " Zejm\xE9na d\xEDky dobr\xFDm materi\xE1l\u016Fm vydr\u017E\xED ve\xA0skv\u011Bl\xE9 kondici a\xA0slou\u017E\xED dlouho, \u010Dasto i\xA0n\u011Bkomu druh\xE9mu. Pr\xE1v\u011B n\xE1kup z\xA0druh\xE9 ruky je jedn\xEDm z\xA0princip\u016F zpomalen\xED cyklu neboli ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("strong", null, "slou\xA0m\xF3dy"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
+    className: "text"
+  }, "V Nada\u010Dn\xEDm fondu Kousek po kousku m\xE1me s dobro\u010Dinn\xFDm bazarem pod zna\u010Dkou Kouskov\xE1n\xED dlouholet\xE9 zku\u0161enosti. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("strong", null, "6 ro\u010Dn\xEDk\u016F po\u0159\xE1d\xE1n\xED Kl\xE1\u0161tern\xEDho kouskov\xE1n\xED vyneslo p\u0159es p\u016Fl mili\xF3nu korun na dal\u0161\xED kousky pomoci"), " a tak\xE9 st\xE1l\xFD okruh des\xEDtek dobrovoln\xEDk\u016F.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("strong", null, "D\u011Bkujeme!"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
+    to: "/kouskovani",
+    className: "link"
+  }, "V\xEDce o Kl\xE1\u0161tern\xEDm kouskov\xE1n\xED")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
+    className: "text"
+  }, "Kouskov\xE1n\xED, stejn\u011B jako sekci um\u011Bleck\xFDch d\u011Bl Ze \u0161upl\xEDku, budeme provozovat na na\u0161em nada\u010Dn\xEDm e \u2013 shopu. Ve\u0161ker\xE9 kousky, kter\xE9 st\xE1le vypadaj\xED kr\xE1sn\u011B a z mnoha d\u016Fvod\u016F je u\u017E nevyu\u017Eijete, r\xE1di p\u0159ijmeme a prost\u0159ednictv\xEDm e \u2013 shopu nab\xEDdneme d\xE1l. V\xFDt\u011B\u017Eek pom\u016F\u017Ee dlouhodob\u011B podporovan\xE9mu projektu ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
+    to: "/aktualne-podporujeme#intervence"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("strong", null, "Intervence pro\xA0autismus."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
+    className: "button-row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
+    to: "/daruj-kousek",
+    className: "button"
+  }, "Chci darovat kousek"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("a", {
+    href: "https://podpora.kousekpokousku.cz/kouskovani/",
+    className: "button section-button buy-button filled"
+  }, "Chci koupit kousek"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__.StaticImage, {
+    style: {
+      filter: 'brightness(1.2)'
+    },
+    className: "section-image img",
+    src: "../images/kouskovani_saty.png",
+    alt: "Ruka pod\xE1v\xE1 \u0161aty a boty",
+    layout: "constrained",
+    placeholder: "blurred",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1930538250.json */ "./.cache/caches/gatsby-plugin-image/1930538250.json")
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("section", {
+    className: "aktuality"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h1", {
+    className: "section-title"
+  }, "Aktuality"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components_layer_wrapper__WEBPACK_IMPORTED_MODULE_2__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
+    style: {
+      height: '400px'
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(AktualityCarousel, {
+    aktuality: aktuality
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
+    className: "flex-end"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
+    to: "/aktuality",
+    className: " link"
+  }, "v\u0161echny aktuality"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("section", {
+    className: "section section-text",
+    id: "o-nadaci"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h1", {
+    className: "title"
+  }, "O\xA0nada\u010Dn\xEDm fondu"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
+    className: "text"
+  }, "Ka\u017Ed\xFD \u010Dlov\u011Bk m\u016F\u017Ee kdykoliv b\u011Bhem sv\xE9ho \u017Eivota za\u017E\xEDvat radost, zap\xE1len\xED, touhu objevovat nov\xE9 mo\u017Enosti, realizovat je tvo\u0159ivou cestou a t\xEDm zlep\u0161ovat s\xE1m sebe i sv\u011Bt kolem n\xE1s, tady a te\u010F. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
+    className: "text"
+  }, "Pom\xE1h\xE1me ch\xE1pat a p\u0159ij\xEDmat nov\xE9 \u017Eivotn\xED pohledy, uchopit \u017Eivot do vlastn\xEDch rukou a osvojit si skute\u010Dn\xE9 \u017Eivotn\xED hodnoty. Z\xE1rove\u0148 pro\u017E\xEDv\xE1me radost a uspokojen\xED z toho, co d\u011Bl\xE1me. Ka\u017Ed\xFD v sob\u011B m\xE1me n\u011Bco jedine\u010Dn\xE9ho, a to pom\xE1h\xE1me objevit. V\u0161ichni m\xE1me volbu. My jsme si zvolili d\u011Blat to, co n\xE1s napl\u0148uje. Pom\xE1hat lidem, sob\u011B a sv\u011Btu kolem n\xE1s.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
+    className: "button",
+    to: "/mise-vize-poslani"
+  }, "V\xEDce o nada\u010Dn\xEDm fondu"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("section", {
+    className: "section section-text section-projekty"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h1", {
+    className: "title"
+  }, "Aktu\xE1ln\u011B podporujeme"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", {
+    className: "subtitle"
+  }, "... v souladu s t\xE9matem hled\xE1n\xED rovnov\xE1hy t\u011Bla, du\u0161e a mysli"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
+    className: "projekty"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
+    to: "/aktualne-podporujeme#klinika",
+    className: "projekt-link klinika"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
+    className: "img-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__.StaticImage, {
+    className: "img",
+    src: "../images/handshake.png",
+    alt: "",
+    layout: "constrained",
+    placeholder: "blurred",
+    objectFit: "cover",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3882051298.json */ "./.cache/caches/gatsby-plugin-image/3882051298.json")
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h2", null, "Soci\xE1ln\xED klinika")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
+    to: "/aktualne-podporujeme#intervence",
+    className: "projekt-link intervence"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
+    className: "img-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__.StaticImage, {
+    className: "img",
+    src: "../images/puzzle.png",
+    alt: "",
+    layout: "constrained",
+    placeholder: "blurred",
+    objectFit: "contain",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/870963943.json */ "./.cache/caches/gatsby-plugin-image/870963943.json")
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h2", null, "Intervence autist\u016F")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("section", {
+    className: "section sponzori"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h2", {
+    className: "title text-center"
+  }, "Partne\u0159i"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("ul", {
+    className: "flex-row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__.StaticImage, {
+    className: "img",
+    src: "../images/logo_pars.png",
+    alt: "Pars Komponenty",
+    layout: "constrained",
+    placeholder: "blurred",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2922641140.json */ "./.cache/caches/gatsby-plugin-image/2922641140.json")
+  })))));
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ZahradaPage);
-/* <section className="section section-text intro">
-
-</section> */
-
-/* <section className="section section-text kde ">
-    <h2 className="title">Kde? </h2>
-    <p className="subtitle"><strong>Zahrada hojnosti se rozprostírá ve Fulneku na Novojičínsku,</strong> na ulici Palackého, nedaleko Kapucínského kláštera.</p>
-    <p className="text">
-        Na protějším kopci se rozprostírá Žákovský háj, kam chodil vyučovat své žáky Jan Ámos Komenský.
-        Kousek od Zahrady hojnosti  stojí i Dětský domov Loreta, v jehož podzemí byla potvrzena existence zaniklé Loretánské kaple, nazývané Svatá chýše.
-        Santa Casy se bez výjimek stavěly na zcela výjimečných místech s prokázanými tzv. telurickými proudy. Ty vznikají pohybem podzemních vod, posuvem půdy nebo na geologických zlomech.
-        Telurické proudy jsou podle historických zdrojů projevem života, často se označují jako meridiány Země. Jsou popisovány jako energetické toky, které zásobují krajinu pozitivní energií.
-    </p>
-    <p className="text">
-        Fulnek je na základě těchto doložených faktů bezpochyb mystickým místem. Je povzbuzován zvláštní, jedinečnou energií.
-        Síle energetických jevů věřili už v 15. století a její pozitiva plně využívali.
-    </p>
-
-</section> */
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
 
 /***/ }),
 
@@ -46305,10 +45321,10 @@ var tns = function(options) {
 
 /***/ }),
 
-/***/ "./src/images/map_marker.svg":
-/*!***********************************!*\
-  !*** ./src/images/map_marker.svg ***!
-  \***********************************/
+/***/ "./src/images/videos/hero_final.mp4":
+/*!******************************************!*\
+  !*** ./src/images/videos/hero_final.mp4 ***!
+  \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -46316,43 +45332,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTU0LjYzNiIgaGVpZ2h0PSIyMjguNjI2IiB2aWV3Qm94PSIwIDAgMTU0LjYzNiAyMjguNjI2Ij4NCiAgPGRlZnM+DQogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSItMC4xNyIgeTE9IjAuMjEyIiB4Mj0iMS4xNTgiIHkyPSIwLjUzNiIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giPg0KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmZiNTE0Ii8+DQogICAgICA8c3RvcCBvZmZzZXQ9IjAuNDY0IiBzdG9wLWNvbG9yPSIjZmZiMzEzIi8+DQogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmNjkwMDEiLz4NCiAgICA8L2xpbmVhckdyYWRpZW50Pg0KICA8L2RlZnM+DQogIDxnIGlkPSJHcm91cF8zIiBkYXRhLW5hbWU9Ikdyb3VwIDMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNC4yMjMgLTExLjQ4MykiPg0KICAgIDxwYXRoIGlkPSJQYXRoXzI0IiBkYXRhLW5hbWU9IlBhdGggMjQiIGQ9Ik03My42NDgsMjIuOEE3Ni44LDc2LjgsMCwwLDAsNDUuNTM5LDEyNy43MDdsNjMuNzUzLDExMC40MjhjMS41MjIsMi42MzIsMy45ODksMi42MzIsNS41LDBsNjMuNzYzLTExMC40MjhBNzYuOCw3Ni44LDAsMCwwLDE1MC40NDYsMjIuOEMxMzguMzMyLDE1LjgsODUuNzY2LDE1LjgsNzMuNjQ4LDIyLjhaIiBmaWxsPSJub25lIi8+DQogICAgPHBhdGggaWQ9IlBhdGhfMjYiIGRhdGEtbmFtZT0iUGF0aCAyNiIgZD0iTTExMS4wMzYsMTEuNDgzQTc2LjgyNSw3Ni44MjUsMCwwLDAsNDQuNTI0LDEyNi42OTVsNjMuNzYsMTEwLjQzMmMxLjUyMSwyLjYzMSwzLjk4NCwyLjYzMSw1LjUsMGw2My43NTktMTEwLjQzMmE3Ni44MjQsNzYuODI0LDAsMCwwLTY2LjUxLTExNS4yMTJaIiBmaWxsPSJ1cmwoI2xpbmVhci1ncmFkaWVudCkiLz4NCiAgICA8ZyBpZD0iR3JvdXBfMiIgZGF0YS1uYW1lPSJHcm91cCAyIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG11bHRpcGx5O2lzb2xhdGlvbjogaXNvbGF0ZSI+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yNyIgZGF0YS1uYW1lPSJQYXRoIDI3IiBkPSJNMTE0LjY1MSwxNi40Yy00MC4wMjksMC03Mi40ODYsMzEuODgxLTcyLjQ4Niw3MS4yMTRzMzIuNDU3LDcxLjIwOSw3Mi40ODYsNzEuMjA5LDcyLjQ4OC0zMS44OCw3Mi40ODgtNzEuMjA5UzE1NC42ODgsMTYuNCwxMTQuNjUxLDE2LjRaIiBmaWxsPSJub25lIi8+DQogICAgPC9nPg0KICAgIDxwYXRoIGlkPSJQYXRoXzI4IiBkYXRhLW5hbWU9IlBhdGggMjgiIGQ9Ik05OS43NzgsMjQuODE4YTUyLjMyNyw1Mi4zMjcsMCwxLDAsNTIuMzI4LDUyLjMyNkE1Mi4zMjUsNTIuMzI1LDAsMCwwLDk5Ljc3OCwyNC44MThaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMS4yNTggMTEuMjU4KSIgZmlsbD0iI2ZmZiIvPg0KICA8L2c+DQo8L3N2Zz4NCiAgICA=");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/hero_final-7790cea14218d336d02aa5f981ad1166.mp4");
 
 /***/ }),
 
-/***/ "./src/images/videos/zahrada_final.mp4":
-/*!*********************************************!*\
-  !*** ./src/images/videos/zahrada_final.mp4 ***!
-  \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/zahrada_final-efe975d1d5659e938bec91e705bd05f1.mp4");
-
-/***/ }),
-
-/***/ "./src/images/videos/zahrada_final_1366.mp4":
-/*!**************************************************!*\
-  !*** ./src/images/videos/zahrada_final_1366.mp4 ***!
-  \**************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/zahrada_final_1366-b8804ece6ffeda5004d64f4a1d1cf905.mp4");
-
-/***/ }),
-
-/***/ "./src/images/videos/zahrada_final_360.mp4":
+/***/ "./src/images/videos/homepage_1366_4Mb.mp4":
 /*!*************************************************!*\
-  !*** ./src/images/videos/zahrada_final_360.mp4 ***!
+  !*** ./src/images/videos/homepage_1366_4Mb.mp4 ***!
   \*************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -46361,14 +45347,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/zahrada_final_360-2133d1917a94d4a6a61f4849b1805f45.mp4");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/homepage_1366_4Mb-563136a64c6a1a584ce368dc0b5642cd.mp4");
 
 /***/ }),
 
-/***/ "./src/images/videos/zahrada_final_768.mp4":
-/*!*************************************************!*\
-  !*** ./src/images/videos/zahrada_final_768.mp4 ***!
-  \*************************************************/
+/***/ "./src/images/videos/homepage_360_4Mb.mp4":
+/*!************************************************!*\
+  !*** ./src/images/videos/homepage_360_4Mb.mp4 ***!
+  \************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -46376,40 +45362,44 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/zahrada_final_768-45dc91f0a1988001aee2cf6f82c254e3.mp4");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/homepage_360_4Mb-7807686eb26e3cf72b63cf284e519139.mp4");
 
 /***/ }),
 
-/***/ "./public/page-data/sq/d/1790044199.json":
+/***/ "./src/images/videos/homepage_768_4Mb.mp4":
+/*!************************************************!*\
+  !*** ./src/images/videos/homepage_768_4Mb.mp4 ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/homepage_768_4Mb-4b246399d68f44ebdf7129ca236f2049.mp4");
+
+/***/ }),
+
+/***/ "./public/page-data/sq/d/2361911367.json":
 /*!***********************************************!*\
-  !*** ./public/page-data/sq/d/1790044199.json ***!
+  !*** ./public/page-data/sq/d/2361911367.json ***!
   \***********************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"allFile":{"edges":[{"node":{"name":"od Martiny vzniká labyrint","childrenImageSharp":[{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#b8c8d8","images":{"fallback":{"src":"/static/dda1c65f4d08adb946aaa596d841e770/81bb2/od%20Martiny%20vznik%C3%A1%20labyrint.png","srcSet":"/static/dda1c65f4d08adb946aaa596d841e770/ce13a/od%20Martiny%20vznik%C3%A1%20labyrint.png 160w,\\n/static/dda1c65f4d08adb946aaa596d841e770/5bd2d/od%20Martiny%20vznik%C3%A1%20labyrint.png 320w,\\n/static/dda1c65f4d08adb946aaa596d841e770/81bb2/od%20Martiny%20vznik%C3%A1%20labyrint.png 640w","sizes":"(min-width: 640px) 640px, 100vw"},"sources":[{"srcSet":"/static/dda1c65f4d08adb946aaa596d841e770/79906/od%20Martiny%20vznik%C3%A1%20labyrint.webp 160w,\\n/static/dda1c65f4d08adb946aaa596d841e770/8c64a/od%20Martiny%20vznik%C3%A1%20labyrint.webp 320w,\\n/static/dda1c65f4d08adb946aaa596d841e770/ffef7/od%20Martiny%20vznik%C3%A1%20labyrint.webp 640w","type":"image/webp","sizes":"(min-width: 640px) 640px, 100vw"}]},"width":640,"height":480}}]}},{"node":{"name":"od Martiny - semínka detail","childrenImageSharp":[{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#d8e8f8","images":{"fallback":{"src":"/static/d4ccc51279cfecaacb21318792e54b9a/81bb2/od%20Martiny%20-%20sem%C3%ADnka%20detail.png","srcSet":"/static/d4ccc51279cfecaacb21318792e54b9a/ce13a/od%20Martiny%20-%20sem%C3%ADnka%20detail.png 160w,\\n/static/d4ccc51279cfecaacb21318792e54b9a/5bd2d/od%20Martiny%20-%20sem%C3%ADnka%20detail.png 320w,\\n/static/d4ccc51279cfecaacb21318792e54b9a/81bb2/od%20Martiny%20-%20sem%C3%ADnka%20detail.png 640w","sizes":"(min-width: 640px) 640px, 100vw"},"sources":[{"srcSet":"/static/d4ccc51279cfecaacb21318792e54b9a/79906/od%20Martiny%20-%20sem%C3%ADnka%20detail.webp 160w,\\n/static/d4ccc51279cfecaacb21318792e54b9a/8c64a/od%20Martiny%20-%20sem%C3%ADnka%20detail.webp 320w,\\n/static/d4ccc51279cfecaacb21318792e54b9a/ffef7/od%20Martiny%20-%20sem%C3%ADnka%20detail.webp 640w","type":"image/webp","sizes":"(min-width: 640px) 640px, 100vw"}]},"width":640,"height":480}}]}},{"node":{"name":"od Martiny louka sad","childrenImageSharp":[{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#384818","images":{"fallback":{"src":"/static/468a65f49911a02c226130f48e13e1c3/81bb2/od%20Martiny%20louka%20sad.png","srcSet":"/static/468a65f49911a02c226130f48e13e1c3/ce13a/od%20Martiny%20louka%20sad.png 160w,\\n/static/468a65f49911a02c226130f48e13e1c3/5bd2d/od%20Martiny%20louka%20sad.png 320w,\\n/static/468a65f49911a02c226130f48e13e1c3/81bb2/od%20Martiny%20louka%20sad.png 640w","sizes":"(min-width: 640px) 640px, 100vw"},"sources":[{"srcSet":"/static/468a65f49911a02c226130f48e13e1c3/79906/od%20Martiny%20louka%20sad.webp 160w,\\n/static/468a65f49911a02c226130f48e13e1c3/8c64a/od%20Martiny%20louka%20sad.webp 320w,\\n/static/468a65f49911a02c226130f48e13e1c3/ffef7/od%20Martiny%20louka%20sad.webp 640w","type":"image/webp","sizes":"(min-width: 640px) 640px, 100vw"}]},"width":640,"height":480}}]}},{"node":{"name":"od Martiny - semínka, šup do půdy","childrenImageSharp":[{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#888878","images":{"fallback":{"src":"/static/83fe98e48b2d4e1e61405fabf3cc3d10/81bb2/od%20Martiny%20-%20sem%C3%ADnka%2C%20%C5%A1up%20do%20p%C5%AFdy.png","srcSet":"/static/83fe98e48b2d4e1e61405fabf3cc3d10/ce13a/od%20Martiny%20-%20sem%C3%ADnka%2C%20%C5%A1up%20do%20p%C5%AFdy.png 160w,\\n/static/83fe98e48b2d4e1e61405fabf3cc3d10/5bd2d/od%20Martiny%20-%20sem%C3%ADnka%2C%20%C5%A1up%20do%20p%C5%AFdy.png 320w,\\n/static/83fe98e48b2d4e1e61405fabf3cc3d10/81bb2/od%20Martiny%20-%20sem%C3%ADnka%2C%20%C5%A1up%20do%20p%C5%AFdy.png 640w","sizes":"(min-width: 640px) 640px, 100vw"},"sources":[{"srcSet":"/static/83fe98e48b2d4e1e61405fabf3cc3d10/79906/od%20Martiny%20-%20sem%C3%ADnka%2C%20%C5%A1up%20do%20p%C5%AFdy.webp 160w,\\n/static/83fe98e48b2d4e1e61405fabf3cc3d10/8c64a/od%20Martiny%20-%20sem%C3%ADnka%2C%20%C5%A1up%20do%20p%C5%AFdy.webp 320w,\\n/static/83fe98e48b2d4e1e61405fabf3cc3d10/ffef7/od%20Martiny%20-%20sem%C3%ADnka%2C%20%C5%A1up%20do%20p%C5%AFdy.webp 640w","type":"image/webp","sizes":"(min-width: 640px) 640px, 100vw"}]},"width":640,"height":480}}]}},{"node":{"name":"od martiny jahůdky","childrenImageSharp":[{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#284808","images":{"fallback":{"src":"/static/a0ec9b6f6485c160891210243670dab0/81bb2/od%20martiny%20jah%C5%AFdky.png","srcSet":"/static/a0ec9b6f6485c160891210243670dab0/ce13a/od%20martiny%20jah%C5%AFdky.png 160w,\\n/static/a0ec9b6f6485c160891210243670dab0/5bd2d/od%20martiny%20jah%C5%AFdky.png 320w,\\n/static/a0ec9b6f6485c160891210243670dab0/81bb2/od%20martiny%20jah%C5%AFdky.png 640w","sizes":"(min-width: 640px) 640px, 100vw"},"sources":[{"srcSet":"/static/a0ec9b6f6485c160891210243670dab0/79906/od%20martiny%20jah%C5%AFdky.webp 160w,\\n/static/a0ec9b6f6485c160891210243670dab0/8c64a/od%20martiny%20jah%C5%AFdky.webp 320w,\\n/static/a0ec9b6f6485c160891210243670dab0/ffef7/od%20martiny%20jah%C5%AFdky.webp 640w","type":"image/webp","sizes":"(min-width: 640px) 640px, 100vw"}]},"width":640,"height":480}}]}},{"node":{"name":"Zvlcsnap-2021-06-06-18h35m44s198","childrenImageSharp":[{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#988888","images":{"fallback":{"src":"/static/64c1486a0068ee0da50d67897dd7c884/afa5c/Zvlcsnap-2021-06-06-18h35m44s198.png","srcSet":"/static/64c1486a0068ee0da50d67897dd7c884/2fe1e/Zvlcsnap-2021-06-06-18h35m44s198.png 480w,\\n/static/64c1486a0068ee0da50d67897dd7c884/9bec7/Zvlcsnap-2021-06-06-18h35m44s198.png 960w,\\n/static/64c1486a0068ee0da50d67897dd7c884/afa5c/Zvlcsnap-2021-06-06-18h35m44s198.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/64c1486a0068ee0da50d67897dd7c884/3a3a2/Zvlcsnap-2021-06-06-18h35m44s198.webp 480w,\\n/static/64c1486a0068ee0da50d67897dd7c884/bde8a/Zvlcsnap-2021-06-06-18h35m44s198.webp 960w,\\n/static/64c1486a0068ee0da50d67897dd7c884/c512e/Zvlcsnap-2021-06-06-18h35m44s198.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":1080}}]}},{"node":{"name":"zAHRADA - CELKOVÝ POHLED","childrenImageSharp":[{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#181818","images":{"fallback":{"src":"/static/2d4b2880026d8a47b1fadac35fd095a1/6c153/zAHRADA%20-%20CELKOV%C3%9D%20POHLED.png","srcSet":"/static/2d4b2880026d8a47b1fadac35fd095a1/967e7/zAHRADA%20-%20CELKOV%C3%9D%20POHLED.png 449w,\\n/static/2d4b2880026d8a47b1fadac35fd095a1/babc2/zAHRADA%20-%20CELKOV%C3%9D%20POHLED.png 898w,\\n/static/2d4b2880026d8a47b1fadac35fd095a1/6c153/zAHRADA%20-%20CELKOV%C3%9D%20POHLED.png 1795w","sizes":"(min-width: 1795px) 1795px, 100vw"},"sources":[{"srcSet":"/static/2d4b2880026d8a47b1fadac35fd095a1/3c08f/zAHRADA%20-%20CELKOV%C3%9D%20POHLED.webp 449w,\\n/static/2d4b2880026d8a47b1fadac35fd095a1/f5dca/zAHRADA%20-%20CELKOV%C3%9D%20POHLED.webp 898w,\\n/static/2d4b2880026d8a47b1fadac35fd095a1/51a2c/zAHRADA%20-%20CELKOV%C3%9D%20POHLED.webp 1795w","type":"image/webp","sizes":"(min-width: 1795px) 1795px, 100vw"}]},"width":1795,"height":1010}}]}},{"node":{"name":"A","childrenImageSharp":[{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/7323a7169f1065357fa645b9c2150764/68a6f/A.jpg","srcSet":"/static/7323a7169f1065357fa645b9c2150764/dfcd4/A.jpg 1008w,\\n/static/7323a7169f1065357fa645b9c2150764/b97c6/A.jpg 2016w,\\n/static/7323a7169f1065357fa645b9c2150764/68a6f/A.jpg 4032w","sizes":"(min-width: 4032px) 4032px, 100vw"},"sources":[{"srcSet":"/static/7323a7169f1065357fa645b9c2150764/80cfb/A.webp 1008w,\\n/static/7323a7169f1065357fa645b9c2150764/66d80/A.webp 2016w,\\n/static/7323a7169f1065357fa645b9c2150764/5cc0d/A.webp 4032w","type":"image/webp","sizes":"(min-width: 4032px) 4032px, 100vw"}]},"width":4032,"height":3024}}]}}]}}}');
+module.exports = JSON.parse('{"data":{"allMarkdownRemark":{"edges":[{"node":{"rawMarkdownBody":"Nadační fond Kousek po kousku a Comenius Fulnek pořádají 23. května od 14:00 v Kostele sv. Josefa ve Fulneku za podpory Harper´s Bazaar Charity dobročinný bazar s oblečením a doplňky již od pouhé stokoruny.\\r\\n\\r\\nKoupí přispějete na záchranu kláštera u Kostela sv. Josefa ve Fulneku ve správě Muzea Novojičínska, p. o., oživení místního historického dědictví a aktivity Mobilního hospice Ondrášek.\\r\\n\\r\\nVíce informací naleznete již brzy zde anebo na Facebook stránce Nadačního fondu kousek po kousku.\\r\\n","html":"<p>Nadační fond Kousek po kousku a Comenius Fulnek pořádají 23. května od 14:00 v Kostele sv. Josefa ve Fulneku za podpory Harper´s Bazaar Charity dobročinný bazar s oblečením a doplňky již od pouhé stokoruny.</p>\\n<p>Koupí přispějete na záchranu kláštera u Kostela sv. Josefa ve Fulneku ve správě Muzea Novojičínska, p. o., oživení místního historického dědictví a aktivity Mobilního hospice Ondrášek.</p>\\n<p>Více informací naleznete již brzy zde anebo na Facebook stránce Nadačního fondu kousek po kousku.</p>","frontmatter":{"name":"2. ročník Klášterního kouskování již 23. května!","date":"21-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/82662b9b9059e029efdb957fbbaa6e6c/5bc09/web-kouskovani-obr2.jpg","srcSet":"/static/82662b9b9059e029efdb957fbbaa6e6c/cff8d/web-kouskovani-obr2.jpg 75w,\\n/static/82662b9b9059e029efdb957fbbaa6e6c/dcad2/web-kouskovani-obr2.jpg 150w,\\n/static/82662b9b9059e029efdb957fbbaa6e6c/5bc09/web-kouskovani-obr2.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/82662b9b9059e029efdb957fbbaa6e6c/41cff/web-kouskovani-obr2.webp 75w,\\n/static/82662b9b9059e029efdb957fbbaa6e6c/7d637/web-kouskovani-obr2.webp 150w,\\n/static/82662b9b9059e029efdb957fbbaa6e6c/8b278/web-kouskovani-obr2.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":316}}},"imageAlt":"2. ročník Klášterního kouskování již 23. května!"}}}},{"node":{"rawMarkdownBody":"Milí přátelé Nadačního fondu Kousek po kousku, máme pro vás skvělou zprávu. \\r\\nNaše pozvání zahrát si  v kostele sv. Josefa přijal multiinstrumentalista Vojta Violinist. \\r\\n14. 11. 2019 od 18. hodiny zněla kostelem krásná hudba  keltských houslí, didgeridoo a dalších ethnonástrojů, která vykouzlila překrásnou atmosféru.\\r\\n\\r\\nDíky vám, návštěvníkům benefičního koncertu se nám podařilo nashromáždit částku 22 150,-Kč. Moc vám děkujeme. Věříme, že jste si užili krásný podvečer a zároveň jste podpořili dobrou věc.\\r\\n&#8220;pokračování v odkazu&#8221;\\r\\n -PRO CELÝ ČLÁNEK + FOTOGRAFIE A VIDEO KLIKNI ZDE\\r\\n","html":"<p>Milí přátelé Nadačního fondu Kousek po kousku, máme pro vás skvělou zprávu.\\r\\nNaše pozvání zahrát si  v kostele sv. Josefa přijal multiinstrumentalista Vojta Violinist.\\r\\n14. 11. 2019 od 18. hodiny zněla kostelem krásná hudba  keltských houslí, didgeridoo a dalších ethnonástrojů, která vykouzlila překrásnou atmosféru.</p>\\n<p>Díky vám, návštěvníkům benefičního koncertu se nám podařilo nashromáždit částku 22 150,-Kč. Moc vám děkujeme. Věříme, že jste si užili krásný podvečer a zároveň jste podpořili dobrou věc.\\r\\n“pokračování v odkazu”\\r\\n-PRO CELÝ ČLÁNEK + FOTOGRAFIE A VIDEO KLIKNI ZDE</p>","frontmatter":{"name":"Benefiční koncert - Vojta Violinist","date":"25-05-2021","link":"https://www.facebook.com/NFKousekPoKousku/posts/2590509054370976","image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#282818","images":{"fallback":{"src":"/static/12fc9fb5b702114327bbbda4d35aec0b/3fbde/plakt-fulnek-vojta-violinist.jpg","srcSet":"/static/12fc9fb5b702114327bbbda4d35aec0b/1564b/plakt-fulnek-vojta-violinist.jpg 75w,\\n/static/12fc9fb5b702114327bbbda4d35aec0b/5db49/plakt-fulnek-vojta-violinist.jpg 150w,\\n/static/12fc9fb5b702114327bbbda4d35aec0b/3fbde/plakt-fulnek-vojta-violinist.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/12fc9fb5b702114327bbbda4d35aec0b/0653c/plakt-fulnek-vojta-violinist.webp 75w,\\n/static/12fc9fb5b702114327bbbda4d35aec0b/f8095/plakt-fulnek-vojta-violinist.webp 150w,\\n/static/12fc9fb5b702114327bbbda4d35aec0b/22003/plakt-fulnek-vojta-violinist.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":424}}},"imageAlt":"Benefiční koncert - Vojta Violinist"}}}},{"node":{"rawMarkdownBody":"**2. září 2021 předal hejtman Moravskoslezského kraje Ivo Vondrák do rukou předsedkyně správní rady Ing. Martiny Mazancové Cenu hejtmana Moravskoslezského kraje za společenskou odpovědnost.**\\r\\n\\r\\n„ Ocenění vnímáme jako povzbuzení do další práce. Rádi budeme dál inspirovat okolí, lidi, kterým není život lhostejný a věříme, že ještě  v širším spektru a kontextu. Jsme přesvědčeni, že prostředky, které vzejdou z regionu, mají znovu pomáhat tady u nás.  Je mnoho těch, kteří už se zapojili. Těm, co začínají, nabízíme spolupráci na námi podporovaných aktivitách, společnou přípravu podpory na míru nebo možnost zapojit se do vlastního nadačního projektu Zahrada Hojnosti. \\r\\n\\r\\nPřejeme si být nápomocni  všem, kteří  přemýšlí, jak a komu pomoci. Rádi s nimi budeme  sdílet naši desetiletou cestu poznání UMĚNÍ  DAROVAT, “ sděluje předsedkyně správní rady Ing. Martina Mazancová záměry Nadačního fondu a dodává: „Velice děkuji všem, kteří našemu nadačnímu fondu věnují, byť jen malý kousek pozornosti, podpory, zájmu. Jsme nadšeni, že se zapojuje stále více lidí. Práce je na tomto poli stále víc než dobrovolníků.“\\r\\n\\r\\n1. ![]()","html":"<p><strong>2. září 2021 předal hejtman Moravskoslezského kraje Ivo Vondrák do rukou předsedkyně správní rady Ing. Martiny Mazancové Cenu hejtmana Moravskoslezského kraje za společenskou odpovědnost.</strong></p>\\n<p>„ Ocenění vnímáme jako povzbuzení do další práce. Rádi budeme dál inspirovat okolí, lidi, kterým není život lhostejný a věříme, že ještě  v širším spektru a kontextu. Jsme přesvědčeni, že prostředky, které vzejdou z regionu, mají znovu pomáhat tady u nás.  Je mnoho těch, kteří už se zapojili. Těm, co začínají, nabízíme spolupráci na námi podporovaných aktivitách, společnou přípravu podpory na míru nebo možnost zapojit se do vlastního nadačního projektu Zahrada Hojnosti.</p>\\n<p>Přejeme si být nápomocni  všem, kteří  přemýšlí, jak a komu pomoci. Rádi s nimi budeme  sdílet naši desetiletou cestu poznání UMĚNÍ  DAROVAT, “ sděluje předsedkyně správní rady Ing. Martina Mazancová záměry Nadačního fondu a dodává: „Velice děkuji všem, kteří našemu nadačnímu fondu věnují, byť jen malý kousek pozornosti, podpory, zájmu. Jsme nadšeni, že se zapojuje stále více lidí. Práce je na tomto poli stále víc než dobrovolníků.“</p>\\n<ol>\\n<li><img src=\\"\\" alt=\\"\\"></li>\\n</ol>","frontmatter":{"name":"Cena HEJTAMANA Moravskoslezského kraje za SPOLEČENSKOU ODPOVĚDNOST ","date":"02-09-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#d8d8d8","images":{"fallback":{"src":"/static/f3bc5d7f2288bb5b4cf3a9f05a289903/97a19/cena-cena-hetmana.jpg","srcSet":"/static/f3bc5d7f2288bb5b4cf3a9f05a289903/73bb6/cena-cena-hetmana.jpg 120w,\\n/static/f3bc5d7f2288bb5b4cf3a9f05a289903/f9edd/cena-cena-hetmana.jpg 240w,\\n/static/f3bc5d7f2288bb5b4cf3a9f05a289903/97a19/cena-cena-hetmana.jpg 480w","sizes":"(min-width: 480px) 480px, 100vw"},"sources":[{"srcSet":"/static/f3bc5d7f2288bb5b4cf3a9f05a289903/507b0/cena-cena-hetmana.webp 120w,\\n/static/f3bc5d7f2288bb5b4cf3a9f05a289903/8d565/cena-cena-hetmana.webp 240w,\\n/static/f3bc5d7f2288bb5b4cf3a9f05a289903/21b1a/cena-cena-hetmana.webp 480w","type":"image/webp","sizes":"(min-width: 480px) 480px, 100vw"}]},"width":480,"height":480}}},"imageAlt":"Cena hejtmana MSK za společenskou odpovědnost za rok 2020 pro Nadační fond Kousek po kousku"}}}},{"node":{"rawMarkdownBody":"[Video Karlíka](https://www.facebook.com/NFKousekPoKousku/videos/762376441116081)\\r\\nRok 2021 je pro Kousek po kousku rokem bilancování.\\r\\n\\r\\nSlavíme 10let kousků DOBRA a začínají přicházet přání ![👍](https://lh6.googleusercontent.com/9j9FQ-bctKngSzQYnSQ8b-nJBMZ7kw-6QAcpDJe96MsG8ZB8Gs-cp-ze_Fe5Z5KyOXihpFndQp5XADyLnQhM6oLL6xipwL8gPtIY1mcbjHxiG6J954DML19W5ZsKoXWOXVqWjh8)![🌟](https://lh4.googleusercontent.com/2dNlxpPKSBNpii62Md-dQoGLHqZawVxklNniKPmOFgxabMwpnXk-Azosfb-n_NSVnxBsTYAFDivnmEZDTRgPjFiMTQ1_VQjiRDBjzZzyb-y4xGyNNJzI_dDV65UMmnb2jQ4739I)![💓](https://lh5.googleusercontent.com/uU7YNqOQaAWGLPMQf6Q9-kWvbwttH54mXemYDNb1EzkfXHsbwctHlZbZiyefmgdokne2mocARNqXODUblMtjR0GCDUbiFDcNQk2XxU2soM5z-d1cjy_ExiNC3IIjh_kIn2ek7Eo)\\r\\n\\r\\nPrvní je Karlík ![💕](https://lh3.googleusercontent.com/iznUhUj91KSdBh7ZnWiyaLPacObRNvVVf4Wdjsko5U1UX5fO1512S5MkWmztw1EVIleEPspCchx37uGUVjhzo4MXgl_SeoQJHJLkQ5DOHaGlh0pddj5qIujg_YQ3evLEpKfZp7Q)Úžasný, že? \\r\\n\\r\\nA co byste popřáli Kousku po kousku do dalších let Vy?\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n<!--EndFragment-->","html":"<p><a href=\\"https://www.facebook.com/NFKousekPoKousku/videos/762376441116081\\">Video Karlíka</a>\\r\\nRok 2021 je pro Kousek po kousku rokem bilancování.</p>\\n<p>Slavíme 10let kousků DOBRA a začínají přicházet přání <img src=\\"https://lh6.googleusercontent.com/9j9FQ-bctKngSzQYnSQ8b-nJBMZ7kw-6QAcpDJe96MsG8ZB8Gs-cp-ze_Fe5Z5KyOXihpFndQp5XADyLnQhM6oLL6xipwL8gPtIY1mcbjHxiG6J954DML19W5ZsKoXWOXVqWjh8\\" alt=\\"👍\\"><img src=\\"https://lh4.googleusercontent.com/2dNlxpPKSBNpii62Md-dQoGLHqZawVxklNniKPmOFgxabMwpnXk-Azosfb-n_NSVnxBsTYAFDivnmEZDTRgPjFiMTQ1_VQjiRDBjzZzyb-y4xGyNNJzI_dDV65UMmnb2jQ4739I\\" alt=\\"🌟\\"><img src=\\"https://lh5.googleusercontent.com/uU7YNqOQaAWGLPMQf6Q9-kWvbwttH54mXemYDNb1EzkfXHsbwctHlZbZiyefmgdokne2mocARNqXODUblMtjR0GCDUbiFDcNQk2XxU2soM5z-d1cjy_ExiNC3IIjh_kIn2ek7Eo\\" alt=\\"💓\\"></p>\\n<p>První je Karlík <img src=\\"https://lh3.googleusercontent.com/iznUhUj91KSdBh7ZnWiyaLPacObRNvVVf4Wdjsko5U1UX5fO1512S5MkWmztw1EVIleEPspCchx37uGUVjhzo4MXgl_SeoQJHJLkQ5DOHaGlh0pddj5qIujg_YQ3evLEpKfZp7Q\\" alt=\\"💕\\">Úžasný, že? </p>\\n<p>A co byste popřáli Kousku po kousku do dalších let Vy?</p>\\n<!--EndFragment-->","frontmatter":{"name":"Karlík","date":"07-06-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/d6cd7b483e6c987d3fea81cc2cda4a6d/38022/screenshot-2021-06-07-132752.jpg","srcSet":"/static/d6cd7b483e6c987d3fea81cc2cda4a6d/e3352/screenshot-2021-06-07-132752.jpg 362w,\\n/static/d6cd7b483e6c987d3fea81cc2cda4a6d/55363/screenshot-2021-06-07-132752.jpg 725w,\\n/static/d6cd7b483e6c987d3fea81cc2cda4a6d/38022/screenshot-2021-06-07-132752.jpg 1449w","sizes":"(min-width: 1449px) 1449px, 100vw"},"sources":[{"srcSet":"/static/d6cd7b483e6c987d3fea81cc2cda4a6d/b4d5b/screenshot-2021-06-07-132752.webp 362w,\\n/static/d6cd7b483e6c987d3fea81cc2cda4a6d/c5308/screenshot-2021-06-07-132752.webp 725w,\\n/static/d6cd7b483e6c987d3fea81cc2cda4a6d/9c03b/screenshot-2021-06-07-132752.webp 1449w","type":"image/webp","sizes":"(min-width: 1449px) 1449px, 100vw"}]},"width":1449,"height":819}}},"imageAlt":"Bubeník Karlík"}}}},{"node":{"rawMarkdownBody":"Oznámení rodiny\\r\\n„S hlubokým zármutkem v srdci oznamujeme, že dne 11. července 2021 navždy odešel náš\\r\\ntatínek Vladimír Vyhlídal. Do posledních dní byl aktivní a i čas, kdy si už neužíval plné zdraví, trávil stejně\\r\\njako celý život. Prací a zájmem o dění kolem sebe. Děkujeme všem za projevenou soustrast“,\\r\\ninformovala dcera Martina Mazancová a syn Kamil Vyhlídal.\\r\\n\\r\\n\\r\\nIng. Vladimír Vyhlídal založil Pars Komponenty s. r. o. v roce 1999. Firmu sám vedl do roku\\r\\n2006, v čele společnosti aktivně stál do roku 2013, kdy proběhla generační výměna a do vedení Pars\\r\\nKomponenty nastoupila další generace.\\r\\n\\r\\n\\r\\nVladimír Vyhlídal měl v oboru výrobců kolejových vozidel nesporně vysoký kredit a byl\\r\\nzkušeným odborníkem. Za jeho vedení byl Pars Komponenty v roce 2006 vyhlášen Štikou roku, v roce\\r\\n2010 se on sám stal finalistou soutěže EY Podnikatel roku České republiky a rok na to získal Pars\\r\\nKomponenty s.r.o. Ocenění Krajské hospodářské komory Moravskoslezského kraje a Sdružení pro\\r\\nrozvoj Moravskoslezského kraje za přínos k rozvoji Moravskoslezského kraje – v kategorii Malá a\\r\\nstřední firma.\\r\\n\\r\\n\\r\\nByl zároveň spoluzakladatelem Nadačního fondu Kousek po kousku, který podporuje lidi a život\\r\\nv Moravskoslezském kraji. Jeho rozvoji se s plným nasazením, od samotného vzniku doposud, věnuje\\r\\ndcera Martina Mazancová.\\r\\n\\r\\n\\r\\nVladimír Vyhlídal v posledních letech věnoval NF celkem přes 10 milionů korun. Z části prvního\\r\\npříspěvku zakoupil NF Kousek po kousku pozemek a následný dar přispěl, aby se na něm začal budovat\\r\\njedinečný projekt přírodní zahrady – Zahrady Hojnosti ve Fulneku. Do posledních dní tam velmi\\r\\nintenzivně pracoval a zanechal v zahradě odkaz píle, vytrvalosti, houževnatosti, smyslu pro pořádek,\\r\\nkrásu a pro všechny pevný základ tvořivé energie.\\r\\n\\r\\n\\r\\n„Ano, po tatínkovi zde zůstává mnoho pro ostatní. V životě se uměl postavit k práci, rozdělit\\r\\nse, pomáhat mu bylo přirozené. Rodině, okruhu přátel, zaměstnancům a díky NF všem, kteří pomoc\\r\\npotřebovali“, dodala M. Mazancová.\\r\\n","html":"<p>Oznámení rodiny\\r\\n„S hlubokým zármutkem v srdci oznamujeme, že dne 11. července 2021 navždy odešel náš\\r\\ntatínek Vladimír Vyhlídal. Do posledních dní byl aktivní a i čas, kdy si už neužíval plné zdraví, trávil stejně\\r\\njako celý život. Prací a zájmem o dění kolem sebe. Děkujeme všem za projevenou soustrast“,\\r\\ninformovala dcera Martina Mazancová a syn Kamil Vyhlídal.</p>\\n<p>Ing. Vladimír Vyhlídal založil Pars Komponenty s. r. o. v roce 1999. Firmu sám vedl do roku\\r\\n2006, v čele společnosti aktivně stál do roku 2013, kdy proběhla generační výměna a do vedení Pars\\r\\nKomponenty nastoupila další generace.</p>\\n<p>Vladimír Vyhlídal měl v oboru výrobců kolejových vozidel nesporně vysoký kredit a byl\\r\\nzkušeným odborníkem. Za jeho vedení byl Pars Komponenty v roce 2006 vyhlášen Štikou roku, v roce\\r\\n2010 se on sám stal finalistou soutěže EY Podnikatel roku České republiky a rok na to získal Pars\\r\\nKomponenty s.r.o. Ocenění Krajské hospodářské komory Moravskoslezského kraje a Sdružení pro\\r\\nrozvoj Moravskoslezského kraje za přínos k rozvoji Moravskoslezského kraje – v kategorii Malá a\\r\\nstřední firma.</p>\\n<p>Byl zároveň spoluzakladatelem Nadačního fondu Kousek po kousku, který podporuje lidi a život\\r\\nv Moravskoslezském kraji. Jeho rozvoji se s plným nasazením, od samotného vzniku doposud, věnuje\\r\\ndcera Martina Mazancová.</p>\\n<p>Vladimír Vyhlídal v posledních letech věnoval NF celkem přes 10 milionů korun. Z části prvního\\r\\npříspěvku zakoupil NF Kousek po kousku pozemek a následný dar přispěl, aby se na něm začal budovat\\r\\njedinečný projekt přírodní zahrady – Zahrady Hojnosti ve Fulneku. Do posledních dní tam velmi\\r\\nintenzivně pracoval a zanechal v zahradě odkaz píle, vytrvalosti, houževnatosti, smyslu pro pořádek,\\r\\nkrásu a pro všechny pevný základ tvořivé energie.</p>\\n<p>„Ano, po tatínkovi zde zůstává mnoho pro ostatní. V životě se uměl postavit k práci, rozdělit\\r\\nse, pomáhat mu bylo přirozené. Rodině, okruhu přátel, zaměstnancům a díky NF všem, kteří pomoc\\r\\npotřebovali“, dodala M. Mazancová.</p>","frontmatter":{"name":"Bolestná ztráta","date":"16-07-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#081808","images":{"fallback":{"src":"/static/ec7c166f337f5b9c930e58db7c35c277/818f3/sedmikrasky_foto.jpg","srcSet":"/static/ec7c166f337f5b9c930e58db7c35c277/3c367/sedmikrasky_foto.jpg 512w,\\n/static/ec7c166f337f5b9c930e58db7c35c277/24f4c/sedmikrasky_foto.jpg 1024w,\\n/static/ec7c166f337f5b9c930e58db7c35c277/818f3/sedmikrasky_foto.jpg 2048w","sizes":"(min-width: 2048px) 2048px, 100vw"},"sources":[{"srcSet":"/static/ec7c166f337f5b9c930e58db7c35c277/d689f/sedmikrasky_foto.webp 512w,\\n/static/ec7c166f337f5b9c930e58db7c35c277/67ded/sedmikrasky_foto.webp 1024w,\\n/static/ec7c166f337f5b9c930e58db7c35c277/24224/sedmikrasky_foto.webp 2048w","type":"image/webp","sizes":"(min-width: 2048px) 2048px, 100vw"}]},"width":2048,"height":2048}}},"imageAlt":"Trs kopretin na louce"}}}},{"node":{"rawMarkdownBody":"Nevíte co dát svým nejbližším jako dárek k narozeninám nebo jen tak pro radost? Chcete pomoci šikovným lidem z Vašeho okolí a jejich obecně prospěšným aktivitám? Přispějte Nadačnímu fondu, aby mohl i nadále podporovat dobročinné projekty z nejbližšího okolí, a dostanete od nás &#8220;Certifikát granda&#8221;. Záleží pak už jen na Vás, koho certifikátem obdarujete, tj. na jaké jméno certifikát vystavíme. Oba certifikáty (s texty v mužském a v ženském rodě) si můžete prohlédnout na tomto webu v sekci &#8220;Chcete dávat&#8221;.\\r\\n","html":"<p>Nevíte co dát svým nejbližším jako dárek k narozeninám nebo jen tak pro radost? Chcete pomoci šikovným lidem z Vašeho okolí a jejich obecně prospěšným aktivitám? Přispějte Nadačnímu fondu, aby mohl i nadále podporovat dobročinné projekty z nejbližšího okolí, a dostanete od nás “Certifikát granda”. Záleží pak už jen na Vás, koho certifikátem obdarujete, tj. na jaké jméno certifikát vystavíme. Oba certifikáty (s texty v mužském a v ženském rodě) si můžete prohlédnout na tomto webu v sekci “Chcete dávat”.</p>","frontmatter":{"name":"Certifikát granda pod každého dárce Nadačního fondu Kousek po kousku!","date":"01-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/9a7335b9629d8ddcfec5d2a72d4f8192/30d4e/cerfikatm-web.jpg","srcSet":"/static/9a7335b9629d8ddcfec5d2a72d4f8192/22a0b/cerfikatm-web.jpg 75w,\\n/static/9a7335b9629d8ddcfec5d2a72d4f8192/2c2c4/cerfikatm-web.jpg 150w,\\n/static/9a7335b9629d8ddcfec5d2a72d4f8192/30d4e/cerfikatm-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/9a7335b9629d8ddcfec5d2a72d4f8192/644cc/cerfikatm-web.webp 75w,\\n/static/9a7335b9629d8ddcfec5d2a72d4f8192/0f8a4/cerfikatm-web.webp 150w,\\n/static/9a7335b9629d8ddcfec5d2a72d4f8192/73868/cerfikatm-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":209}}},"imageAlt":"Certifikát granda pod každého dárce Nadačního fondu Kousek po kousku!"}}}},{"node":{"rawMarkdownBody":"Nadační fond Kousek po kousku podporuje už druhým rokem neziskovou organizaci Dejme dětem šanci pomáhající dětem z dětských domovů po celé ČR k co nejsnadnějšími startu do samostatného života po opuštění bran dětského domova.\\r\\n\\r\\nKonkrétně jsme se spojili a společně financujeme studium středních škol a výučních oborů vybraným nadaným a pracovitým mladým dospělým z dětského domova Loreta ve Fulneku.\\r\\n\\r\\nPokud máte zájem se taky zapojit, a usnadnit tak první krok těm, co za začátku života neměli tolik štěstí, podívejte se na www.dejmedetemsanci.cz.\\r\\n","html":"<p>Nadační fond Kousek po kousku podporuje už druhým rokem neziskovou organizaci Dejme dětem šanci pomáhající dětem z dětských domovů po celé ČR k co nejsnadnějšími startu do samostatného života po opuštění bran dětského domova.</p>\\n<p>Konkrétně jsme se spojili a společně financujeme studium středních škol a výučních oborů vybraným nadaným a pracovitým mladým dospělým z dětského domova Loreta ve Fulneku.</p>\\n<p>Pokud máte zájem se taky zapojit, a usnadnit tak první krok těm, co za začátku života neměli tolik štěstí, podívejte se na <a href=\\"http://www.dejmedetemsanci.cz\\">www.dejmedetemsanci.cz</a>.</p>","frontmatter":{"name":"Dejme dětem šanci!","date":"06-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/3f8f1e3df5d069112fbf206e72792080/3fbde/dejme-dtem-anci-web.jpg","srcSet":"/static/3f8f1e3df5d069112fbf206e72792080/1564b/dejme-dtem-anci-web.jpg 75w,\\n/static/3f8f1e3df5d069112fbf206e72792080/5db49/dejme-dtem-anci-web.jpg 150w,\\n/static/3f8f1e3df5d069112fbf206e72792080/3fbde/dejme-dtem-anci-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/3f8f1e3df5d069112fbf206e72792080/0653c/dejme-dtem-anci-web.webp 75w,\\n/static/3f8f1e3df5d069112fbf206e72792080/f8095/dejme-dtem-anci-web.webp 150w,\\n/static/3f8f1e3df5d069112fbf206e72792080/22003/dejme-dtem-anci-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":424}}},"imageAlt":"Dejme dětem šanci!"}}}},{"node":{"rawMarkdownBody":"Už tuto neděli 27. listopadu proběhne ve fulneckém Kostele sv. Josefa první adventní koncert roku 2016.\\r\\n\\r\\nA začneme ve velkém &#8211; houslovým recitálem Pavla Šporcla!\\r\\n\\r\\nNadační fond Kousek po kousku má radost, že zvuková technika, která se díky jeho nadační pomoci před lety do kostela pořídila se opět krásně zužitkuje a rozezní!\\r\\n","html":"<p>Už tuto neděli 27. listopadu proběhne ve fulneckém Kostele sv. Josefa první adventní koncert roku 2016.</p>\\n<p>A začneme ve velkém – houslovým recitálem Pavla Šporcla!</p>\\n<p>Nadační fond Kousek po kousku má radost, že zvuková technika, která se díky jeho nadační pomoci před lety do kostela pořídila se opět krásně zužitkuje a rozezní!</p>","frontmatter":{"name":"Doba adventních koncertů v Kostele sv. Josefa ve Fulneku je tu!","date":"09-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/9e92675fbe21b171b1b7b01b6ffc99f0/3fbde/adventni-koncert-web.jpg","srcSet":"/static/9e92675fbe21b171b1b7b01b6ffc99f0/1564b/adventni-koncert-web.jpg 75w,\\n/static/9e92675fbe21b171b1b7b01b6ffc99f0/5db49/adventni-koncert-web.jpg 150w,\\n/static/9e92675fbe21b171b1b7b01b6ffc99f0/3fbde/adventni-koncert-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/9e92675fbe21b171b1b7b01b6ffc99f0/0653c/adventni-koncert-web.webp 75w,\\n/static/9e92675fbe21b171b1b7b01b6ffc99f0/f8095/adventni-koncert-web.webp 150w,\\n/static/9e92675fbe21b171b1b7b01b6ffc99f0/22003/adventni-koncert-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":424}}},"imageAlt":"Doba adventních koncertů v Kostele sv. Josefa ve Fulneku je tu!"}}}},{"node":{"rawMarkdownBody":"Nadační fond Kousek po kousku ze od listopadu zapojil do programu Darujme.cz provozovaného Nadací Via. Díky tomuto programu můžete jednoduše darovat na Vámi vybrané aktivity podporované naším Nadačním fondem pomocí jednoduchého &#8220;darovacího tlačítka&#8221; umístěného na tomto webu v sekci &#8220;Chcete dávat&#8221;. Dary v min. výši 1000 Kč zároveň snižují Váš daňový základ! Vyzkoušejte naše darovací tlačítko a uvidíte, jak je to jednoduché.\\r\\n","html":"<p>Nadační fond Kousek po kousku ze od listopadu zapojil do programu Darujme.cz provozovaného Nadací Via. Díky tomuto programu můžete jednoduše darovat na Vámi vybrané aktivity podporované naším Nadačním fondem pomocí jednoduchého “darovacího tlačítka” umístěného na tomto webu v sekci “Chcete dávat”. Dary v min. výši 1000 Kč zároveň snižují Váš daňový základ! Vyzkoušejte naše darovací tlačítko a uvidíte, jak je to jednoduché.</p>","frontmatter":{"name":"Darujte jednoduše a bezpečně přes naše darovací tlačítko. Každý kousek se počítá!","date":"27-02-2021","link":null,"image":{"image":{"childImageSharp":null},"imageAlt":"Darujte jednoduše a bezpečně přes naše darovací tlačítko. Každý kousek se počítá!"}}}},{"node":{"rawMarkdownBody":"Již nyní jsou přípravy na další ročník dobročinného bazaru &#8220;Klášterní kouskování&#8221; v plném proudu. Akce stejně jako minulý rok napomůže k financování projektové dokumentace nutné pro obnovu a oživení Kapucínského kláštera ve Fulneku. Zatím pro Vás máme datum: 23. května! A také vítězný obrázek &#8220;budoucí vize kláštera&#8221; Magdalény Feilhauerové z loňské výtvarné soutěže.\\r\\n\\r\\nSpoustu dalších krásných klášterních obrázků naleznete na naší facebookové stránce stejně jako již brzy další podrobnější informace ke květnovému Klášternímu kouskování.\\r\\n","html":"<p>Již nyní jsou přípravy na další ročník dobročinného bazaru “Klášterní kouskování” v plném proudu. Akce stejně jako minulý rok napomůže k financování projektové dokumentace nutné pro obnovu a oživení Kapucínského kláštera ve Fulneku. Zatím pro Vás máme datum: 23. května! A také vítězný obrázek “budoucí vize kláštera” Magdalény Feilhauerové z loňské výtvarné soutěže.</p>\\n<p>Spoustu dalších krásných klášterních obrázků naleznete na naší facebookové stránce stejně jako již brzy další podrobnější informace ke květnovému Klášternímu kouskování.</p>","frontmatter":{"name":"Další ročník Klášterního kouskování proběhne tentokrát 23. května!","date":"22-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#c8c8d8","images":{"fallback":{"src":"/static/afc3631364194fc7ac3753e04b5e3b52/9407f/300-vitezny-obrazek-klaster.jpg","srcSet":"/static/afc3631364194fc7ac3753e04b5e3b52/1cc5d/300-vitezny-obrazek-klaster.jpg 75w,\\n/static/afc3631364194fc7ac3753e04b5e3b52/9969f/300-vitezny-obrazek-klaster.jpg 150w,\\n/static/afc3631364194fc7ac3753e04b5e3b52/9407f/300-vitezny-obrazek-klaster.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/afc3631364194fc7ac3753e04b5e3b52/d912e/300-vitezny-obrazek-klaster.webp 75w,\\n/static/afc3631364194fc7ac3753e04b5e3b52/7ac8f/300-vitezny-obrazek-klaster.webp 150w,\\n/static/afc3631364194fc7ac3753e04b5e3b52/6728e/300-vitezny-obrazek-klaster.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":171}}},"imageAlt":"Další ročník Klášterního kouskování proběhne tentokrát 23. května!"}}}},{"node":{"rawMarkdownBody":"V adventním čase v sobotu  9.12. 2017 za spolupořadatelství Nadačního fondu Kousek po kousku proběhla v Praze na staroměstském náměstí charitativní akce  “Rozlévání svařeného vína“.\\r\\n\\r\\nCílem této charitativní akce bylo ze získaných drobných finančních příspěvků podpořit “vyjímečného člověka” z řad mladých lidi s handicapem a to jeho konkrétní terapeutický program.\\r\\n\\r\\nNa celé akci se aktivně podílela i Mgr. Lucie Friedrichová,\\r\\nkterá dne 25.12.2017 tragicky zahynula ve Vysokých Tatrách.\\r\\nByla příkladem člověka, který umí dát i pomáhat a to vše s láskou.\\r\\n\\r\\nSdílela hodnoty, které se v Nadačním fondu Kousek po Kousku\\r\\nsnažíme po mnoho let naplňovat. I díky Lucce se sám podařilo získat částku 7 500,- Kč.\\r\\n\\r\\nDěkujeme ti Lucko, navždy zůstaneš v našich srdcích.\\r\\nS úctou, za Nadační fond Kousek po Kousku, Petr Řehák\\r\\n","html":"<p>V adventním čase v sobotu  9.12. 2017 za spolupořadatelství Nadačního fondu Kousek po kousku proběhla v Praze na staroměstském náměstí charitativní akce  “Rozlévání svařeného vína“.</p>\\n<p>Cílem této charitativní akce bylo ze získaných drobných finančních příspěvků podpořit “vyjímečného člověka” z řad mladých lidi s handicapem a to jeho konkrétní terapeutický program.</p>\\n<p>Na celé akci se aktivně podílela i Mgr. Lucie Friedrichová,\\r\\nkterá dne 25.12.2017 tragicky zahynula ve Vysokých Tatrách.\\r\\nByla příkladem člověka, který umí dát i pomáhat a to vše s láskou.</p>\\n<p>Sdílela hodnoty, které se v Nadačním fondu Kousek po Kousku\\r\\nsnažíme po mnoho let naplňovat. I díky Lucce se sám podařilo získat částku 7 500,- Kč.</p>\\n<p>Děkujeme ti Lucko, navždy zůstaneš v našich srdcích.\\r\\nS úctou, za Nadační fond Kousek po Kousku, Petr Řehák</p>","frontmatter":{"name":"Dobročinné rozlévání svařeného vína s Nadačním fondem Kousek po kousku","date":"25-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#181828","images":{"fallback":{"src":"/static/79a44b499d562c50786b3326d1878b79/abeaa/rozlevani-web.jpg","srcSet":"/static/79a44b499d562c50786b3326d1878b79/3391c/rozlevani-web.jpg 75w,\\n/static/79a44b499d562c50786b3326d1878b79/02bb7/rozlevani-web.jpg 150w,\\n/static/79a44b499d562c50786b3326d1878b79/abeaa/rozlevani-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/79a44b499d562c50786b3326d1878b79/7a784/rozlevani-web.webp 75w,\\n/static/79a44b499d562c50786b3326d1878b79/7be42/rozlevani-web.webp 150w,\\n/static/79a44b499d562c50786b3326d1878b79/ec391/rozlevani-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":217}}},"imageAlt":"Dobročinné rozlévání svařeného vína s Nadačním fondem Kousek po kousku"}}}},{"node":{"rawMarkdownBody":"Už jste slyšeli o novém zajímavém dokumentárním cyklu České televize Filantrop?\\r\\n\\r\\nV rámci tohoto pořadu se postupně představí čeští filantropové &#8211; lidé, kteří darují čas, peníze a jiné hmotné statky na charitativní účely- jako například Karel Janeček, manžele Baudišovi a další.\\r\\n\\r\\nDíl představující Nadační fond Kousek po kousku a práci Martiny Mazancové se bude vysílat na ČT 2 po 18. hodině v první adventní neděli 27.listopadu.\\r\\n\\r\\nPokud ale chcete vidět v televizi Martinu už dříve, podívejte se ve čtvrtek 3. listopadu na pořad Sama doma, kde bude o dokumentu Filantrop a Nadačním fondu Kousek po kousku hovořit více.\\r\\n\\r\\nA ještě malá ukázka z dílu cyklu Filantrop o Martině Mazancové: https://www.youtube.com/watch?v=Bpz0GwBU2NU\\r\\n","html":"<p>Už jste slyšeli o novém zajímavém dokumentárním cyklu České televize Filantrop?</p>\\n<p>V rámci tohoto pořadu se postupně představí čeští filantropové – lidé, kteří darují čas, peníze a jiné hmotné statky na charitativní účely- jako například Karel Janeček, manžele Baudišovi a další.</p>\\n<p>Díl představující Nadační fond Kousek po kousku a práci Martiny Mazancové se bude vysílat na ČT 2 po 18. hodině v první adventní neděli 27.listopadu.</p>\\n<p>Pokud ale chcete vidět v televizi Martinu už dříve, podívejte se ve čtvrtek 3. listopadu na pořad Sama doma, kde bude o dokumentu Filantrop a Nadačním fondu Kousek po kousku hovořit více.</p>\\n<p>A ještě malá ukázka z dílu cyklu Filantrop o Martině Mazancové: <a href=\\"https://www.youtube.com/watch?v=Bpz0GwBU2NU\\">https://www.youtube.com/watch?v=Bpz0GwBU2NU</a></p>","frontmatter":{"name":"Filantrop - nový dokumentární cyklus České televize o dobročinnosti v Čechách i s Martinou Mazancovou!","date":"07-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/ba5a34729e6c31a9d4cb9923785bc12e/d924c/martina-web.jpg","srcSet":"/static/ba5a34729e6c31a9d4cb9923785bc12e/d4afa/martina-web.jpg 75w,\\n/static/ba5a34729e6c31a9d4cb9923785bc12e/05e34/martina-web.jpg 150w,\\n/static/ba5a34729e6c31a9d4cb9923785bc12e/d924c/martina-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/ba5a34729e6c31a9d4cb9923785bc12e/e0f0e/martina-web.webp 75w,\\n/static/ba5a34729e6c31a9d4cb9923785bc12e/e80bb/martina-web.webp 150w,\\n/static/ba5a34729e6c31a9d4cb9923785bc12e/a8059/martina-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":225}}},"imageAlt":"Filantrop - nový dokumentární cyklus České televize o dobročinnosti v Čechách i s Martinou Mazancovou!"}}}},{"node":{"rawMarkdownBody":"&#8230;.celé pdf\\r\\n","html":"<p>….celé pdf</p>","frontmatter":{"name":"DÍKY VÁM","date":"01-05-2021","link":"pdf/poděkování_2018v7.pdf","image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/3b39b7bf6696e7f14a8d41426dffde8d/93715/podkovn-2018v7.png","srcSet":"/static/3b39b7bf6696e7f14a8d41426dffde8d/9597a/podkovn-2018v7.png 75w,\\n/static/3b39b7bf6696e7f14a8d41426dffde8d/10edb/podkovn-2018v7.png 150w,\\n/static/3b39b7bf6696e7f14a8d41426dffde8d/93715/podkovn-2018v7.png 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/3b39b7bf6696e7f14a8d41426dffde8d/0653c/podkovn-2018v7.webp 75w,\\n/static/3b39b7bf6696e7f14a8d41426dffde8d/f8095/podkovn-2018v7.webp 150w,\\n/static/3b39b7bf6696e7f14a8d41426dffde8d/22003/podkovn-2018v7.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":424}}},"imageAlt":"DÍKY VÁM"}}}},{"node":{"rawMarkdownBody":"&#8230;\\r\\n","html":"<p>…</p>","frontmatter":{"name":"Filozofie obchůdku","date":"15-05-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/4fa08e021365ac3a79d4d0a171b0e62b/3fbde/filozofiekouseka4final-04prava-tomank.jpg","srcSet":"/static/4fa08e021365ac3a79d4d0a171b0e62b/1564b/filozofiekouseka4final-04prava-tomank.jpg 75w,\\n/static/4fa08e021365ac3a79d4d0a171b0e62b/5db49/filozofiekouseka4final-04prava-tomank.jpg 150w,\\n/static/4fa08e021365ac3a79d4d0a171b0e62b/3fbde/filozofiekouseka4final-04prava-tomank.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/4fa08e021365ac3a79d4d0a171b0e62b/0653c/filozofiekouseka4final-04prava-tomank.webp 75w,\\n/static/4fa08e021365ac3a79d4d0a171b0e62b/f8095/filozofiekouseka4final-04prava-tomank.webp 150w,\\n/static/4fa08e021365ac3a79d4d0a171b0e62b/22003/filozofiekouseka4final-04prava-tomank.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":424}}},"imageAlt":"Filozofie obchůdku"}}}},{"node":{"rawMarkdownBody":"Děkujeme velmi všem a těšíme se zase někdy příště při organizace nějaké další akce Nadačního fondu Kousek po kousku!\\r\\n","html":"<p>Děkujeme velmi všem a těšíme se zase někdy příště při organizace nějaké další akce Nadačního fondu Kousek po kousku!</p>","frontmatter":{"name":"Děkujeme všem za pomoc a příspěvky během Klášterního Kouskování! Bylo vybráno celkem  69 400 Kč!","date":"23-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/2596d1749d0dfc266a819986d45cf3c7/91bc3/kousk-podek-web.jpg","srcSet":"/static/2596d1749d0dfc266a819986d45cf3c7/a30cf/kousk-podek-web.jpg 75w,\\n/static/2596d1749d0dfc266a819986d45cf3c7/eb539/kousk-podek-web.jpg 150w,\\n/static/2596d1749d0dfc266a819986d45cf3c7/91bc3/kousk-podek-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/2596d1749d0dfc266a819986d45cf3c7/bd17b/kousk-podek-web.webp 75w,\\n/static/2596d1749d0dfc266a819986d45cf3c7/31d4a/kousk-podek-web.webp 150w,\\n/static/2596d1749d0dfc266a819986d45cf3c7/d4782/kousk-podek-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":550}}},"imageAlt":"Děkujeme všem za pomoc a příspěvky během Klášterního Kouskování! Bylo vybráno celkem  69 400 Kč!"}}}},{"node":{"rawMarkdownBody":"Soutěž SIA (Social Impact Award) podporuje odvážné nápadité studenty, kteří chtějí podnikat a zároveň i pomáhat.\\r\\n\\r\\nLetos i za podpory Nadačního fondu Kousek po kousku, který na slavnostním vyhlášení výsledků v pražském Impact Hubu zastoupila Martina Mazancová, když předala jednu z hlavních cen.\\r\\n\\r\\nOceněný projekt NáZnak se snaží rozšířit zájem o znakovou řeč, zlepšit integraci neslyšících a zároveň destigmatizovat strach z komunikace s nimi.\\r\\n\\r\\nVíce o dalších oceněných projektech a skvělých nápadech mladých začínajících podnikatelů se dozvíte na stránkách soutěže www.socialimpactaward.cz\\r\\n","html":"<p>Soutěž SIA (Social Impact Award) podporuje odvážné nápadité studenty, kteří chtějí podnikat a zároveň i pomáhat.</p>\\n<p>Letos i za podpory Nadačního fondu Kousek po kousku, který na slavnostním vyhlášení výsledků v pražském Impact Hubu zastoupila Martina Mazancová, když předala jednu z hlavních cen.</p>\\n<p>Oceněný projekt NáZnak se snaží rozšířit zájem o znakovou řeč, zlepšit integraci neslyšících a zároveň destigmatizovat strach z komunikace s nimi.</p>\\n<p>Více o dalších oceněných projektech a skvělých nápadech mladých začínajících podnikatelů se dozvíte na stránkách soutěže <a href=\\"http://www.socialimpactaward.cz\\">www.socialimpactaward.cz</a></p>","frontmatter":{"name":"Finále soutěže SIA o podnikání, co zároveň pomáhá, za podpory Nadačního fondu Kousek po kousku!","date":"03-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/4038fb41f52c87d25d54208880465f3c/d924c/sia-web.jpg","srcSet":"/static/4038fb41f52c87d25d54208880465f3c/d4afa/sia-web.jpg 75w,\\n/static/4038fb41f52c87d25d54208880465f3c/05e34/sia-web.jpg 150w,\\n/static/4038fb41f52c87d25d54208880465f3c/d924c/sia-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/4038fb41f52c87d25d54208880465f3c/e0f0e/sia-web.webp 75w,\\n/static/4038fb41f52c87d25d54208880465f3c/e80bb/sia-web.webp 150w,\\n/static/4038fb41f52c87d25d54208880465f3c/a8059/sia-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":225}}},"imageAlt":"Finále soutěže SIA o podnikání, co zároveň pomáhá, za podpory Nadačního fondu Kousek po kousku!"}}}},{"node":{"rawMarkdownBody":"Fulnečka je již tradiční hudební festival pro celou rodinu, který se každoročně koná v krásném prostahrady Městského kulturního centra ve Fulneku. Nadační fond Kousek po kousku má radost, že mohl letos přispět také svým kouskem. Protože každý kousek se počítá!\\r\\n","html":"<p>Fulnečka je již tradiční hudební festival pro celou rodinu, který se každoročně koná v krásném prostahrady Městského kulturního centra ve Fulneku. Nadační fond Kousek po kousku má radost, že mohl letos přispět také svým kouskem. Protože každý kousek se počítá!</p>","frontmatter":{"name":"Fulnečka se rychle blíží! Již 30. srpna!","date":"10-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/450f7609d1e5f30a985aba8cc55ce658/e75e2/fulnecka.jpg","srcSet":"/static/450f7609d1e5f30a985aba8cc55ce658/7e22a/fulnecka.jpg 75w,\\n/static/450f7609d1e5f30a985aba8cc55ce658/af852/fulnecka.jpg 150w,\\n/static/450f7609d1e5f30a985aba8cc55ce658/e75e2/fulnecka.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/450f7609d1e5f30a985aba8cc55ce658/db4f0/fulnecka.webp 75w,\\n/static/450f7609d1e5f30a985aba8cc55ce658/48e83/fulnecka.webp 150w,\\n/static/450f7609d1e5f30a985aba8cc55ce658/94275/fulnecka.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":500}}},"imageAlt":"Fulnečka se rychle blíží! Již 30. srpna!"}}}},{"node":{"rawMarkdownBody":"Veškeré fotografie, nejen z hlavního mola, jsou dostupné ZDE\\r\\n","html":"<p>Veškeré fotografie, nejen z hlavního mola, jsou dostupné ZDE</p>","frontmatter":{"name":"Fotografie z Klášterního kouskování 2019","date":"24-05-2021","link":"http://kouskovani.weebly.com/fotogalerie-2019.html","image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#e8e8e8","images":{"fallback":{"src":"/static/e3b049b78e035ba1fd511fce1ef50d7f/ebc74/klkousk-1.png","srcSet":"/static/e3b049b78e035ba1fd511fce1ef50d7f/19c9a/klkousk-1.png 75w,\\n/static/e3b049b78e035ba1fd511fce1ef50d7f/cfa78/klkousk-1.png 150w,\\n/static/e3b049b78e035ba1fd511fce1ef50d7f/ebc74/klkousk-1.png 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/e3b049b78e035ba1fd511fce1ef50d7f/71bf6/klkousk-1.webp 75w,\\n/static/e3b049b78e035ba1fd511fce1ef50d7f/d2d2e/klkousk-1.webp 150w,\\n/static/e3b049b78e035ba1fd511fce1ef50d7f/df6be/klkousk-1.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":196}}},"imageAlt":"Fotografie z Klášterního kouskování 2019"}}}},{"node":{"rawMarkdownBody":"Správní rada Nadačního fondu se rozhodla přesunout termín letošního grantového kola tentokrát do podzimních měsíců. Téma a obsah grantového kola bude oficiálně vyhlášeno 23. května 2015 během slavnostního zahájení Klášterního kouskování, dobročinného bazaru spolupořádaného Nadačním fondem Kousek po kousku. Zájemci pak budou mít možnost vypracovat své žádosti až do konce srpna 2015. Během září zasedne Správní rada k rozhodnutí a od října se budou moci podpořené projekty rozjet. Děkujeme za Vaši trpělivost a těšíme se na Vaše nové nápady na podzim!\\r\\n","html":"<p>Správní rada Nadačního fondu se rozhodla přesunout termín letošního grantového kola tentokrát do podzimních měsíců. Téma a obsah grantového kola bude oficiálně vyhlášeno 23. května 2015 během slavnostního zahájení Klášterního kouskování, dobročinného bazaru spolupořádaného Nadačním fondem Kousek po kousku. Zájemci pak budou mít možnost vypracovat své žádosti až do konce srpna 2015. Během září zasedne Správní rada k rozhodnutí a od října se budou moci podpořené projekty rozjet. Děkujeme za Vaši trpělivost a těšíme se na Vaše nové nápady na podzim!</p>","frontmatter":{"name":"Grantové kolo Nadačního fondu Kousek po Kousku letos poprvé na podzim!","date":"20-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#181808","images":{"fallback":{"src":"/static/b0e812a1a03b40d55fae56d38bced923/e2364/listi.jpg","srcSet":"/static/b0e812a1a03b40d55fae56d38bced923/77ce8/listi.jpg 75w,\\n/static/b0e812a1a03b40d55fae56d38bced923/f1a3a/listi.jpg 150w,\\n/static/b0e812a1a03b40d55fae56d38bced923/e2364/listi.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/b0e812a1a03b40d55fae56d38bced923/0987d/listi.webp 75w,\\n/static/b0e812a1a03b40d55fae56d38bced923/70dfd/listi.webp 150w,\\n/static/b0e812a1a03b40d55fae56d38bced923/a31ea/listi.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":199}}},"imageAlt":"Grantové kolo Nadačního fondu Kousek po Kousku letos poprvé na podzim!"}}}},{"node":{"rawMarkdownBody":"Dne 19.6.2019 v kostele sv. Josefa ve Fulneku, proběhlo slavnostní setkání a předání grantů z Klášterního kouskování 2019.\\r\\nFotografie z předávání grantů 2019 najdete ZDE\\r\\n","html":"<p>Dne 19.6.2019 v kostele sv. Josefa ve Fulneku, proběhlo slavnostní setkání a předání grantů z Klášterního kouskování 2019.\\r\\nFotografie z předávání grantů 2019 najdete ZDE</p>","frontmatter":{"name":"Fotografie z předávání grantů 2019","date":"26-05-2021","link":"http://kouskovani.weebly.com/p345edaacutevaacuteniacute-grant367-2019.html","image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#a8a8a8","images":{"fallback":{"src":"/static/8bb32819d90def7a76a66e8e9e1cd584/945cd/grant2019.jpg","srcSet":"/static/8bb32819d90def7a76a66e8e9e1cd584/d4afa/grant2019.jpg 75w,\\n/static/8bb32819d90def7a76a66e8e9e1cd584/a4582/grant2019.jpg 150w,\\n/static/8bb32819d90def7a76a66e8e9e1cd584/945cd/grant2019.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/8bb32819d90def7a76a66e8e9e1cd584/e0f0e/grant2019.webp 75w,\\n/static/8bb32819d90def7a76a66e8e9e1cd584/b8b26/grant2019.webp 150w,\\n/static/8bb32819d90def7a76a66e8e9e1cd584/3af5b/grant2019.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":224.00000000000003}}},"imageAlt":"Fotografie z předávání grantů 2019"}}}},{"node":{"rawMarkdownBody":"A je tu nový den.\\r\\n\\r\\nKaždý den je tu pro nás.\\r\\n\\r\\nA je jen na nás jak jej prožijeme a prosvítíme.\\r\\n","html":"<p>A je tu nový den.</p>\\n<p>Každý den je tu pro nás.</p>\\n<p>A je jen na nás jak jej prožijeme a prosvítíme.</p>","frontmatter":{"name":"I.","date":"30-05-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#b8b8a8","images":{"fallback":{"src":"/static/b1ef89f3cbe000b58797de2640839d19/48244/ONE.jpg","srcSet":"/static/b1ef89f3cbe000b58797de2640839d19/633db/ONE.jpg 75w,\\n/static/b1ef89f3cbe000b58797de2640839d19/9096e/ONE.jpg 150w,\\n/static/b1ef89f3cbe000b58797de2640839d19/48244/ONE.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/b1ef89f3cbe000b58797de2640839d19/b46c4/ONE.webp 75w,\\n/static/b1ef89f3cbe000b58797de2640839d19/82fd5/ONE.webp 150w,\\n/static/b1ef89f3cbe000b58797de2640839d19/170fc/ONE.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":313}}},"imageAlt":"I."}}}},{"node":{"rawMarkdownBody":"OBLEČ SVĚTLO\\r\\n\\r\\nI  MY  tvoříme, radujeme  se a šíříme zvuk a světlo.\\r\\n\\r\\nNyní můžete skrze instagramové portfolium nakupovat krásné kousky darované Vámi \\r\\na těšit SEBE i své okolí po celý rok.\\r\\n","html":"<p>OBLEČ SVĚTLO</p>\\n<p>I  MY  tvoříme, radujeme  se a šíříme zvuk a světlo.</p>\\n<p>Nyní můžete skrze instagramové portfolium nakupovat krásné kousky darované Vámi\\r\\na těšit SEBE i své okolí po celý rok.</p>","frontmatter":{"name":"II.","date":"29-05-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#b8b8a8","images":{"fallback":{"src":"/static/240277fc4bf03fe573b8a3ccdd47fbad/48244/TWO.jpg","srcSet":"/static/240277fc4bf03fe573b8a3ccdd47fbad/633db/TWO.jpg 75w,\\n/static/240277fc4bf03fe573b8a3ccdd47fbad/9096e/TWO.jpg 150w,\\n/static/240277fc4bf03fe573b8a3ccdd47fbad/48244/TWO.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/240277fc4bf03fe573b8a3ccdd47fbad/b46c4/TWO.webp 75w,\\n/static/240277fc4bf03fe573b8a3ccdd47fbad/82fd5/TWO.webp 150w,\\n/static/240277fc4bf03fe573b8a3ccdd47fbad/170fc/TWO.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":313}}},"imageAlt":"II."}}}},{"node":{"rawMarkdownBody":"6. prosince byl v rámci série adventních koncertů, konaných již tradičně v krásných prostorách Kostela sv. Josefa ve Fulneku odhalen historický model města Fulneku v originálním uměleckém provedení výtvarníka Bronislava Hrubého.\\r\\n\\r\\nProjekt iniciovaný fulneckým výtvarníkem Milanem Raškou umožňuje za pomoci keramiky, dřeva a kovu nahlédnout skrze oko umělce do Fulneku první poloviny 18. století, do doby první v archivu zachované podoby města.(Konkrétně kronikové kresby Felixe Jaschkeho.)\\r\\n\\r\\nUnikátní model vznikl díky podpoře Nadačního fondu Kousek po kousku a všech, kteří přispěli nákupem v rámci našeho dobročinného bazaru Klášterní kouskování. Část výtěžku z obou ročníků putovala právě na realizaci modelu.\\r\\n\\r\\nNáš nesmírný dík pak patří vedle samotného iniciátora projektu Milana Rašky i jeho realizátorovi Bronislavu Hrubému, který daroval potřebný materiál, svůj čas i práci.\\r\\n\\r\\nPojízdný model bude na počest desetiletého výročí rekonstrukce Kostela sv. Josefa umístěn první rok právě v jeho prostorách, následně je však bude možno spatřit i v dalších historických objektech města Fulneku.\\r\\n\\r\\nDoufáme též, že se tento krásný model bude postupem času rozrůstat i o další historické dominanty města, na které prozatím nevybyly finanční prostředky.  Model by se tak mohl za pomoci nás všech stát živým, stále se vyvíjejícím historicko-uměleckým dílem.\\r\\n","html":"<ol start=\\"6\\">\\n<li>prosince byl v rámci série adventních koncertů, konaných již tradičně v krásných prostorách Kostela sv. Josefa ve Fulneku odhalen historický model města Fulneku v originálním uměleckém provedení výtvarníka Bronislava Hrubého.</li>\\n</ol>\\n<p>Projekt iniciovaný fulneckým výtvarníkem Milanem Raškou umožňuje za pomoci keramiky, dřeva a kovu nahlédnout skrze oko umělce do Fulneku první poloviny 18. století, do doby první v archivu zachované podoby města.(Konkrétně kronikové kresby Felixe Jaschkeho.)</p>\\n<p>Unikátní model vznikl díky podpoře Nadačního fondu Kousek po kousku a všech, kteří přispěli nákupem v rámci našeho dobročinného bazaru Klášterní kouskování. Část výtěžku z obou ročníků putovala právě na realizaci modelu.</p>\\n<p>Náš nesmírný dík pak patří vedle samotného iniciátora projektu Milana Rašky i jeho realizátorovi Bronislavu Hrubému, který daroval potřebný materiál, svůj čas i práci.</p>\\n<p>Pojízdný model bude na počest desetiletého výročí rekonstrukce Kostela sv. Josefa umístěn první rok právě v jeho prostorách, následně je však bude možno spatřit i v dalších historických objektech města Fulneku.</p>\\n<p>Doufáme též, že se tento krásný model bude postupem času rozrůstat i o další historické dominanty města, na které prozatím nevybyly finanční prostředky.  Model by se tak mohl za pomoci nás všech stát živým, stále se vyvíjejícím historicko-uměleckým dílem.</p>","frontmatter":{"name":"Historický model města Fulneku slavnostně odhalen za pomoci Nadačního fondu Kousek po Kousku","date":"28-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/3f7850b518aec06fa16a13f6d9f6a00d/a0d9b/model-web.jpg","srcSet":"/static/3f7850b518aec06fa16a13f6d9f6a00d/356db/model-web.jpg 75w,\\n/static/3f7850b518aec06fa16a13f6d9f6a00d/fee89/model-web.jpg 150w,\\n/static/3f7850b518aec06fa16a13f6d9f6a00d/a0d9b/model-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/3f7850b518aec06fa16a13f6d9f6a00d/c9a73/model-web.webp 75w,\\n/static/3f7850b518aec06fa16a13f6d9f6a00d/f5103/model-web.webp 150w,\\n/static/3f7850b518aec06fa16a13f6d9f6a00d/dc425/model-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":169}}},"imageAlt":"Historický model města Fulneku slavnostně odhalen za pomoci Nadačního fondu Kousek po Kousku"}}}},{"node":{"rawMarkdownBody":"Už několik let podporuje i svým kouskem Nadační fond Kousek po kousku také Kuratorium Zámku Bílovec. Tato skvělá nezisková organizace pravidelně oživuje krásný bílovecký zámek divadlem, výstavami, koncerty a nejrůznějšími akcemi pro děti i dospělé.\\r\\n\\r\\nS konkrétními akcemi i historií zámku se můžete seznámit na jejich webových stránkách www.zamekbilovec.estranky.cz\\r\\n","html":"<p>Už několik let podporuje i svým kouskem Nadační fond Kousek po kousku také Kuratorium Zámku Bílovec. Tato skvělá nezisková organizace pravidelně oživuje krásný bílovecký zámek divadlem, výstavami, koncerty a nejrůznějšími akcemi pro děti i dospělé.</p>\\n<p>S konkrétními akcemi i historií zámku se můžete seznámit na jejich webových stránkách <a href=\\"http://www.zamekbilovec.estranky.cz\\">www.zamekbilovec.estranky.cz</a></p>","frontmatter":{"name":"I letos pokračujeme v podpoře Zámku Bílovec!","date":"08-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#c87818","images":{"fallback":{"src":"/static/ebcbd546eacdfe843763e9abb9c2df90/81bf6/divadlo-web.jpg","srcSet":"/static/ebcbd546eacdfe843763e9abb9c2df90/77ce8/divadlo-web.jpg 75w,\\n/static/ebcbd546eacdfe843763e9abb9c2df90/f1a3a/divadlo-web.jpg 150w,\\n/static/ebcbd546eacdfe843763e9abb9c2df90/81bf6/divadlo-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/ebcbd546eacdfe843763e9abb9c2df90/0987d/divadlo-web.webp 75w,\\n/static/ebcbd546eacdfe843763e9abb9c2df90/70dfd/divadlo-web.webp 150w,\\n/static/ebcbd546eacdfe843763e9abb9c2df90/9b21f/divadlo-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":200}}},"imageAlt":"I letos pokračujeme v podpoře Zámku Bílovec!"}}}},{"node":{"rawMarkdownBody":"Těšíme se viděnou na dalším ročníku Klášterního kouskování v roce 2021\\r\\n\\r\\ndo té doby na KLIKanou\\r\\n\\r\\nVíce na   www.instagram.com/kouskovani\\r\\n\\r\\nOd srdce Váš kouskovací tým\\r\\n","html":"<p>Těšíme se viděnou na dalším ročníku Klášterního kouskování v roce 2021</p>\\n<p>do té doby na KLIKanou</p>\\n<p>Více na   <a href=\\"http://www.instagram.com/kouskovani\\">www.instagram.com/kouskovani</a></p>\\n<p>Od srdce Váš kouskovací tým</p>","frontmatter":{"name":"III.","date":"28-05-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#c8b898","images":{"fallback":{"src":"/static/e1fe872e3feed1254b26144fd2e41b18/48244/THREE.jpg","srcSet":"/static/e1fe872e3feed1254b26144fd2e41b18/633db/THREE.jpg 75w,\\n/static/e1fe872e3feed1254b26144fd2e41b18/9096e/THREE.jpg 150w,\\n/static/e1fe872e3feed1254b26144fd2e41b18/48244/THREE.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/e1fe872e3feed1254b26144fd2e41b18/b46c4/THREE.webp 75w,\\n/static/e1fe872e3feed1254b26144fd2e41b18/82fd5/THREE.webp 150w,\\n/static/e1fe872e3feed1254b26144fd2e41b18/170fc/THREE.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":313}}},"imageAlt":"III."}}}},{"node":{"rawMarkdownBody":"Babičky a dědečkové z Domova pro seniory v Bílovci napsali Ježíškovi svá přání. V našem nadačním fondu jsme se rozhodli Ježíškovi pomoci a to tím, že jsme 20.12.2018 nadělili dárky a společně jsme si zazpívali koledy… V očích klientů domova jsme viděli velikou radost a to udělalo na oplátku obrovskou radost nám.\\r\\n\\r\\nSpolečně s Vámi jsme naplnili vánoční poselství vzájemného sdílení radosti. Díky vám babičky a dědečkové nebyli o Vánocích sami&#8230;\\r\\n\\r\\nVíce fotek na našem FACEBOOKU ZDE KLIKNI.\\r\\n","html":"<p>Babičky a dědečkové z Domova pro seniory v Bílovci napsali Ježíškovi svá přání. V našem nadačním fondu jsme se rozhodli Ježíškovi pomoci a to tím, že jsme 20.12.2018 nadělili dárky a společně jsme si zazpívali koledy… V očích klientů domova jsme viděli velikou radost a to udělalo na oplátku obrovskou radost nám.</p>\\n<p>Společně s Vámi jsme naplnili vánoční poselství vzájemného sdílení radosti. Díky vám babičky a dědečkové nebyli o Vánocích sami…</p>\\n<p>Více fotek na našem FACEBOOKU ZDE KLIKNI.</p>","frontmatter":{"name":"Ježíšek naděloval v bíloveckém domově pro seniory…","date":"18-05-2021","link":"https://www.facebook.com/NFKousekPoKousku/","image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/18b991283064d258e9721c84cf7a9296/81bf6/img4676.jpg","srcSet":"/static/18b991283064d258e9721c84cf7a9296/77ce8/img4676.jpg 75w,\\n/static/18b991283064d258e9721c84cf7a9296/f1a3a/img4676.jpg 150w,\\n/static/18b991283064d258e9721c84cf7a9296/81bf6/img4676.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/18b991283064d258e9721c84cf7a9296/0987d/img4676.webp 75w,\\n/static/18b991283064d258e9721c84cf7a9296/70dfd/img4676.webp 150w,\\n/static/18b991283064d258e9721c84cf7a9296/9b21f/img4676.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":200}}},"imageAlt":"Ježíšek naděloval v bíloveckém domově pro seniory…"}}}},{"node":{"rawMarkdownBody":"Vzpomínáte na krásné taneční vystoupení Karolínky Dejové společně s její kamarádkou Eliškou Jeřábkovou na letošním Klášterním kouskování?\\r\\n\\r\\nKarolínce jsme všichni společně přispěli na přídavný motor na vozík a vypadá to vypadá, že příští rok se můžeme dočkat tanečního vystoupení ve stylu street dance, jehož kurzu se Karolínka zúčastnila v rámci doprovodné akce televizní soutěže Star Dance.\\r\\n\\r\\nPochybuje ještě někdo, že je Karolínka hvězda?\\r\\n","html":"<p>Vzpomínáte na krásné taneční vystoupení Karolínky Dejové společně s její kamarádkou Eliškou Jeřábkovou na letošním Klášterním kouskování?</p>\\n<p>Karolínce jsme všichni společně přispěli na přídavný motor na vozík a vypadá to vypadá, že příští rok se můžeme dočkat tanečního vystoupení ve stylu street dance, jehož kurzu se Karolínka zúčastnila v rámci doprovodné akce televizní soutěže Star Dance.</p>\\n<p>Pochybuje ještě někdo, že je Karolínka hvězda?</p>","frontmatter":{"name":"Karolínka Dejová tančí se svým vozíčkem dál!","date":"10-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8c8a8","images":{"fallback":{"src":"/static/8c0a26b02f241b316b99b59688f7b91f/d924c/kaja2-web.jpg","srcSet":"/static/8c0a26b02f241b316b99b59688f7b91f/d4afa/kaja2-web.jpg 75w,\\n/static/8c0a26b02f241b316b99b59688f7b91f/05e34/kaja2-web.jpg 150w,\\n/static/8c0a26b02f241b316b99b59688f7b91f/d924c/kaja2-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/8c0a26b02f241b316b99b59688f7b91f/e0f0e/kaja2-web.webp 75w,\\n/static/8c0a26b02f241b316b99b59688f7b91f/e80bb/kaja2-web.webp 150w,\\n/static/8c0a26b02f241b316b99b59688f7b91f/a8059/kaja2-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":225}}},"imageAlt":"Karolínka Dejová tančí se svým vozíčkem dál!"}}}},{"node":{"rawMarkdownBody":"Část z výtěžku letošního Kouskování poputuje ke Karolínce Dejové a její rodině, která nyní šetří na přídavný motor k jejímu invalidnímu vozíku, který by jí usnadnil pohyb mimo domov.\\r\\n\\r\\nKája se totiž sice narodila se svalovou dystrofií a hypotonií, to ji však v žádném případě nemůže zastavit v jejím tančení, malování či hraní na flétnu.\\r\\n\\r\\nPřijďte se podívat na Kouskování, kde Karolínka – mimo jiné také držitelka ceny Zlatý oříšek pro talentované děti &#8211; osobně zatančí s Eliškou Jeřábkovou.\\r\\n\\r\\nCelý článek, který o Karolínce vyšel v časopise Překvapení, si můžete přečíst na našich Facebookových stránkách anebo na www.klasternikouskovani.cz.\\r\\n","html":"<p>Část z výtěžku letošního Kouskování poputuje ke Karolínce Dejové a její rodině, která nyní šetří na přídavný motor k jejímu invalidnímu vozíku, který by jí usnadnil pohyb mimo domov.</p>\\n<p>Kája se totiž sice narodila se svalovou dystrofií a hypotonií, to ji však v žádném případě nemůže zastavit v jejím tančení, malování či hraní na flétnu.</p>\\n<p>Přijďte se podívat na Kouskování, kde Karolínka – mimo jiné také držitelka ceny Zlatý oříšek pro talentované děti – osobně zatančí s Eliškou Jeřábkovou.</p>\\n<p>Celý článek, který o Karolínce vyšel v časopise Překvapení, si můžete přečíst na našich Facebookových stránkách anebo na <a href=\\"http://www.klasternikouskovani.cz\\">www.klasternikouskovani.cz</a>.</p>","frontmatter":{"name":"Karolínka Dejová a Klášterní Kouskování 2016","date":"30-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/f66e743cb7ff654c6657d3571d112f7e/88208/web-karolinka.jpg","srcSet":"/static/f66e743cb7ff654c6657d3571d112f7e/4b5f8/web-karolinka.jpg 75w,\\n/static/f66e743cb7ff654c6657d3571d112f7e/31e39/web-karolinka.jpg 150w,\\n/static/f66e743cb7ff654c6657d3571d112f7e/88208/web-karolinka.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/f66e743cb7ff654c6657d3571d112f7e/ef3ba/web-karolinka.webp 75w,\\n/static/f66e743cb7ff654c6657d3571d112f7e/5c839/web-karolinka.webp 150w,\\n/static/f66e743cb7ff654c6657d3571d112f7e/e03f6/web-karolinka.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":245}}},"imageAlt":"Karolínka Dejová a Klášterní Kouskování 2016"}}}},{"node":{"rawMarkdownBody":"www.klasternikouskovani.cz\\r\\n","html":"<p><a href=\\"http://www.klasternikouskovani.cz\\">www.klasternikouskovani.cz</a></p>","frontmatter":{"name":"Klášterní kouskování","date":"30-04-2021","link":"http://kouskovani.weebly.com/","image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/dba59a7be8bed3653491c8e130dac754/1814f/plakata3.jpg","srcSet":"/static/dba59a7be8bed3653491c8e130dac754/3187d/plakata3.jpg 75w,\\n/static/dba59a7be8bed3653491c8e130dac754/46685/plakata3.jpg 150w,\\n/static/dba59a7be8bed3653491c8e130dac754/1814f/plakata3.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/dba59a7be8bed3653491c8e130dac754/b1852/plakata3.webp 75w,\\n/static/dba59a7be8bed3653491c8e130dac754/a30a2/plakata3.webp 150w,\\n/static/dba59a7be8bed3653491c8e130dac754/deaca/plakata3.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":212}}},"imageAlt":"Klášterní kouskování"}}}},{"node":{"rawMarkdownBody":"Nadační fond Kousek po kousku a o. s. Comenius Fulnek pořádají v Kostele sv. Josefa ve Fulneku dobročinný bazar s oblečením a dalšími hezkými věcmi, jejichž koupí přispějete na záchranu kláštera a oživení dalších místních památek, které potřebují naši pomoc.\\r\\n\\r\\nSoučástí programu bude i výtvarná soutěž dětí fulneckých ZŠ „Jak si představujete klášter v novém kabátě?“ Obrázky budou prodejné a výtěžek z nich opět poputuje na záchranu kláštera.\\r\\n\\r\\nPřijďte si vybrat módní kousky, co zahřejí Vaše tělo i duši a pomůžou k záchraně kláštera!\\r\\n\\r\\nVíce informací naleznete na: http://www.kousekpokousku.cz/pdf/klasterni-kouskovani-tiskova-zprava.pdf nebo na naší facebookové stránce.\\r\\n","html":"<p>Nadační fond Kousek po kousku a o. s. Comenius Fulnek pořádají v Kostele sv. Josefa ve Fulneku dobročinný bazar s oblečením a dalšími hezkými věcmi, jejichž koupí přispějete na záchranu kláštera a oživení dalších místních památek, které potřebují naši pomoc.</p>\\n<p>Součástí programu bude i výtvarná soutěž dětí fulneckých ZŠ „Jak si představujete klášter v novém kabátě?“ Obrázky budou prodejné a výtěžek z nich opět poputuje na záchranu kláštera.</p>\\n<p>Přijďte si vybrat módní kousky, co zahřejí Vaše tělo i duši a pomůžou k záchraně kláštera!</p>\\n<p>Více informací naleznete na: <a href=\\"http://www.kousekpokousku.cz/pdf/klasterni-kouskovani-tiskova-zprava.pdf\\">http://www.kousekpokousku.cz/pdf/klasterni-kouskovani-tiskova-zprava.pdf</a> nebo na naší facebookové stránce.</p>","frontmatter":{"name":"Klášterní Kouskování! V sobotu 31. května a v neděli 1. června v Kostele sv. Josefa ve Fulneku","date":"04-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/f15f9d568414473aca2dd53584f04328/1ad3a/radka-barevny-klaster-web.jpg","srcSet":"/static/f15f9d568414473aca2dd53584f04328/c61c3/radka-barevny-klaster-web.jpg 75w,\\n/static/f15f9d568414473aca2dd53584f04328/1ca2e/radka-barevny-klaster-web.jpg 150w,\\n/static/f15f9d568414473aca2dd53584f04328/1ad3a/radka-barevny-klaster-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/f15f9d568414473aca2dd53584f04328/0e31b/radka-barevny-klaster-web.webp 75w,\\n/static/f15f9d568414473aca2dd53584f04328/71832/radka-barevny-klaster-web.webp 150w,\\n/static/f15f9d568414473aca2dd53584f04328/87fa9/radka-barevny-klaster-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":452}}},"imageAlt":"Klášterní Kouskování! V sobotu 31. května a v neděli 1. června v Kostele sv. Josefa ve Fulneku"}}}},{"node":{"rawMarkdownBody":"A zatímco už pilně připravujeme další ročník Klášterního kouskování, které se uskuteční opět na jaře příštího roku, podělíme se s Vámi ještě o fotku Karolínky Dejové, která se i díky Vaší podpoře Klášterního Kouskování už zvesela prohání na vozíku s novým přídavným motorem.\\r\\n\\r\\nZákulisní informace tvrdí, že nejradši prý projíždí kaluže:)\\r\\n\\r\\nZkuste se podívat na www.klasternikouskovani.cz, kde najdete více informací, a zapojte se do Klášterního Kouskování 2017 i Vy! Možností je spousta!\\r\\n","html":"<p>A zatímco už pilně připravujeme další ročník Klášterního kouskování, které se uskuteční opět na jaře příštího roku, podělíme se s Vámi ještě o fotku Karolínky Dejové, která se i díky Vaší podpoře Klášterního Kouskování už zvesela prohání na vozíku s novým přídavným motorem.</p>\\n<p>Zákulisní informace tvrdí, že nejradši prý projíždí kaluže:)</p>\\n<p>Zkuste se podívat na <a href=\\"http://www.klasternikouskovani.cz\\">www.klasternikouskovani.cz</a>, kde najdete více informací, a zapojte se do Klášterního Kouskování 2017 i Vy! Možností je spousta!</p>","frontmatter":{"name":"Klášterní kouskování opět pomáhá!","date":"04-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#989898","images":{"fallback":{"src":"/static/0f6bb556f9a9103d3bcb9db338cbc500/d924c/karolina-web.jpg","srcSet":"/static/0f6bb556f9a9103d3bcb9db338cbc500/d4afa/karolina-web.jpg 75w,\\n/static/0f6bb556f9a9103d3bcb9db338cbc500/05e34/karolina-web.jpg 150w,\\n/static/0f6bb556f9a9103d3bcb9db338cbc500/d924c/karolina-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/0f6bb556f9a9103d3bcb9db338cbc500/e0f0e/karolina-web.webp 75w,\\n/static/0f6bb556f9a9103d3bcb9db338cbc500/e80bb/karolina-web.webp 150w,\\n/static/0f6bb556f9a9103d3bcb9db338cbc500/a8059/karolina-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":225}}},"imageAlt":"Klášterní kouskování opět pomáhá!"}}}},{"node":{"rawMarkdownBody":"Už se to blíží ! :) PRO CELÝ OBRÁZEK KLIKNI ZDE\\r\\n","html":"<p>Už se to blíží ! :) PRO CELÝ OBRÁZEK KLIKNI ZDE</p>","frontmatter":{"name":"Klášterní kouskování 2019","date":"23-05-2021","link":"https://www.facebook.com/NFKousekPoKousku/photos/rpp.402995219789048/2206808682741017/?type=3&theater","image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/44bf549242e7356f537f67c187e0decf/1814f/plakt300x200.jpg","srcSet":"/static/44bf549242e7356f537f67c187e0decf/3187d/plakt300x200.jpg 75w,\\n/static/44bf549242e7356f537f67c187e0decf/46685/plakt300x200.jpg 150w,\\n/static/44bf549242e7356f537f67c187e0decf/1814f/plakt300x200.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/44bf549242e7356f537f67c187e0decf/b1852/plakt300x200.webp 75w,\\n/static/44bf549242e7356f537f67c187e0decf/a30a2/plakt300x200.webp 150w,\\n/static/44bf549242e7356f537f67c187e0decf/deaca/plakt300x200.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":212}}},"imageAlt":"Klášterní kouskování 2019"}}}},{"node":{"rawMarkdownBody":"Nadační fond Kousek po kousku chce moc poděkovat všem, kteří se jakýmkoliv způsobem zapojili do úspěšného Klášterního Kouskování.\\r\\n\\r\\nVýsledná získaná částka 60 000 Kč je pro nás velkým povzbuzením do budoucna i hřejivým vyjádřením Vaši důvěry v naši činnost.\\r\\n\\r\\nCelý text oficiálního poděkování je umístěn na Našich facebokových stránkách &#8220;Nadační fond Kousek po kousku&#8221;.\\r\\n","html":"<p>Nadační fond Kousek po kousku chce moc poděkovat všem, kteří se jakýmkoliv způsobem zapojili do úspěšného Klášterního Kouskování.</p>\\n<p>Výsledná získaná částka 60 000 Kč je pro nás velkým povzbuzením do budoucna i hřejivým vyjádřením Vaši důvěry v naši činnost.</p>\\n<p>Celý text oficiálního poděkování je umístěn na Našich facebokových stránkách “Nadační fond Kousek po kousku”.</p>","frontmatter":{"name":"Klášterní Kouskování přineslo přesně 60 000 Kč na podporu fulneckého kláštera!","date":"08-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/66149e81a59e734c085a6787061375f8/81bf6/web-kousko-fotka.jpg","srcSet":"/static/66149e81a59e734c085a6787061375f8/77ce8/web-kousko-fotka.jpg 75w,\\n/static/66149e81a59e734c085a6787061375f8/f1a3a/web-kousko-fotka.jpg 150w,\\n/static/66149e81a59e734c085a6787061375f8/81bf6/web-kousko-fotka.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/66149e81a59e734c085a6787061375f8/0987d/web-kousko-fotka.webp 75w,\\n/static/66149e81a59e734c085a6787061375f8/70dfd/web-kousko-fotka.webp 150w,\\n/static/66149e81a59e734c085a6787061375f8/9b21f/web-kousko-fotka.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":200}}},"imageAlt":"Klášterní Kouskování přineslo přesně 60 000 Kč na podporu fulneckého kláštera!"}}}},{"node":{"rawMarkdownBody":"Televizní stanice Polar přijela se svým štábem přímo na Klášterní kouskování a natočila krásnou reportáž, kterou můžete shlédnout na adrese níže. Kolik sousedů poznáte?\\r\\n\\r\\nhttp://www.polar.cz/zpravy/archiv/1/\\r\\nnovojicinsko/novy-jicin/clanek/15946/klasterni-kouskovani-do-fulneku-prineslo-modu\\r\\n","html":"<p>Televizní stanice Polar přijela se svým štábem přímo na Klášterní kouskování a natočila krásnou reportáž, kterou můžete shlédnout na adrese níže. Kolik sousedů poznáte?</p>\\n<p><a href=\\"http://www.polar.cz/zpravy/archiv/1/\\">http://www.polar.cz/zpravy/archiv/1/</a>\\r\\nnovojicinsko/novy-jicin/clanek/15946/klasterni-kouskovani-do-fulneku-prineslo-modu</p>","frontmatter":{"name":"Klášterní kouskování v televizi!","date":"05-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/5875648e8a09e42b8371e84544eb5c13/d9018/web-kousko3.jpg","srcSet":"/static/5875648e8a09e42b8371e84544eb5c13/41768/web-kousko3.jpg 75w,\\n/static/5875648e8a09e42b8371e84544eb5c13/9a01e/web-kousko3.jpg 150w,\\n/static/5875648e8a09e42b8371e84544eb5c13/d9018/web-kousko3.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/5875648e8a09e42b8371e84544eb5c13/e7b25/web-kousko3.webp 75w,\\n/static/5875648e8a09e42b8371e84544eb5c13/9b568/web-kousko3.webp 150w,\\n/static/5875648e8a09e42b8371e84544eb5c13/a7df1/web-kousko3.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":280}}},"imageAlt":"Klášterní kouskování v televizi!"}}}},{"node":{"rawMarkdownBody":"Než se nám podaří spočítat tu báječnou částku, kterou jsme letos i díky Vám vybrali, můžete se mezitím podívat, co o nás píší třeba v Novojičínském deníku!\\r\\n\\r\\nhttp://novojicinsky.denik.cz/zpravy_region/\\r\\nklasterni-kouskovani-opet-pomaha-20160522.html\\r\\n\\r\\nZa moc milý článek se spoustou hezkých fotek děkujeme Simoně Mikšové!\\r\\n","html":"<p>Než se nám podaří spočítat tu báječnou částku, kterou jsme letos i díky Vám vybrali, můžete se mezitím podívat, co o nás píší třeba v Novojičínském deníku!</p>\\n<p><a href=\\"http://novojicinsky.denik.cz/zpravy_region/\\">http://novojicinsky.denik.cz/zpravy_region/</a>\\r\\nklasterni-kouskovani-opet-pomaha-20160522.html</p>\\n<p>Za moc milý článek se spoustou hezkých fotek děkujeme Simoně Mikšové!</p>","frontmatter":{"name":"Klášterní kouskování také v místním tisku!","date":"31-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/d9a0d575d57c4d97fe25f2bda03d4f17/d924c/web-kouskovani-nj20164galerie-980.jpg","srcSet":"/static/d9a0d575d57c4d97fe25f2bda03d4f17/d4afa/web-kouskovani-nj20164galerie-980.jpg 75w,\\n/static/d9a0d575d57c4d97fe25f2bda03d4f17/05e34/web-kouskovani-nj20164galerie-980.jpg 150w,\\n/static/d9a0d575d57c4d97fe25f2bda03d4f17/d924c/web-kouskovani-nj20164galerie-980.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/d9a0d575d57c4d97fe25f2bda03d4f17/e0f0e/web-kouskovani-nj20164galerie-980.webp 75w,\\n/static/d9a0d575d57c4d97fe25f2bda03d4f17/e80bb/web-kouskovani-nj20164galerie-980.webp 150w,\\n/static/d9a0d575d57c4d97fe25f2bda03d4f17/a8059/web-kouskovani-nj20164galerie-980.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":225}}},"imageAlt":"Klášterní kouskování také v místním tisku!"}}}},{"node":{"rawMarkdownBody":"Již nyní můžete podpořit další projekt. Přejete si dávat?\\r\\n","html":"<p>Již nyní můžete podpořit další projekt. Přejete si dávat?</p>","frontmatter":{"name":"Kousek pohodlí","date":"06-05-2021","link":"http://www.kousekpokousku.cz/chcete-davat-vozicek.html","image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/c007b0feda8d84ddaac347de72cc9a2e/146e2/vozicek-300.png","srcSet":"/static/c007b0feda8d84ddaac347de72cc9a2e/97c4b/vozicek-300.png 75w,\\n/static/c007b0feda8d84ddaac347de72cc9a2e/04701/vozicek-300.png 150w,\\n/static/c007b0feda8d84ddaac347de72cc9a2e/146e2/vozicek-300.png 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/c007b0feda8d84ddaac347de72cc9a2e/5d3dd/vozicek-300.webp 75w,\\n/static/c007b0feda8d84ddaac347de72cc9a2e/56e33/vozicek-300.webp 150w,\\n/static/c007b0feda8d84ddaac347de72cc9a2e/e96f7/vozicek-300.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":326}}},"imageAlt":"Kousek pohodlí"}}}},{"node":{"rawMarkdownBody":"**Chystáte se na koncert pro KOUSEK? Kdo jsou The STRINGZ?**\\r\\n\\r\\n**Lucie Klasek**, rodačka z Hrabyně, která je v Moravskoslezském kraji stále doma, i když většinu času tráví v Praze. Po studiích na Janáčkově konzervatoři v Ostravě projela kus světa, navnímávala hudební podhoubí v Americe a přes Vídeň se vrátila zpět plna nadšení k nevšednímu pojetí klasické hudby. Česká Vanessa Mae, jak je často přezdívaná,  zapůsobila na porotu Československo má talent v uskupení FEMME2FATALE. Hraje s bubeníky Olega Sokolova, s DJ, tanečníky a stále přichází s novou invencí, dávat vystoupením další, vizuální rozměr. Největší láskou je její aktuální projekt - instrumentální trio The STRINGZ.\\r\\n\\r\\n**Alexander Christianov** - fenomenální pianista a skladatel, který vystudoval kompozici u Borise Čajkovského v Moskvě.  Je vyhledávaným pedagogem a neotřelým jazmanem, ale hudbu miluje napříč žánry. Propojování starého a nového ho naprosto nadchlo. Uvidíte sami, jak na pódiu září a rozdává kus ze sebe.\\r\\n\\r\\n**Ladislav Mariáš** je další rodák moravskoslezský, který kvůli práci a studiu tráví víc času v Praze, ale v rodném Jistebníku je stále doma. Pochází z muzikantské rodiny a od malička nevybočuje z řady a hraje. Jeho tatínek  vyučuje v ZUŠ v Bílovci. Láďa vystudoval obor violoncello na HAMU .Je členem Plzeňské filharmonie. \\r\\n\\r\\nKoncert obohatí sólista Národního divadla Moravskoslezského - zpěvák, kterého s The STRINGZ pojí láska ke swingu a muzikálům - pan **Tomáš Savka!**\\r\\n\\r\\nZajímá Vás, jak zní styl, kterému se říká  crossover? V čem je jejich projev jiný? \\r\\n\\r\\n**Pokud je neuslyšíte v sobotu při Slavnostním GALAVEČERU, uvidíme se společně v neděli v 18 hodin v kostele sv. Josefa na koncertě pro KOUSEK. Vstupenky** https://podpora.kousekpokousku.cz/vstupenky/","html":"<p><strong>Chystáte se na koncert pro KOUSEK? Kdo jsou The STRINGZ?</strong></p>\\n<p><strong>Lucie Klasek</strong>, rodačka z Hrabyně, která je v Moravskoslezském kraji stále doma, i když většinu času tráví v Praze. Po studiích na Janáčkově konzervatoři v Ostravě projela kus světa, navnímávala hudební podhoubí v Americe a přes Vídeň se vrátila zpět plna nadšení k nevšednímu pojetí klasické hudby. Česká Vanessa Mae, jak je často přezdívaná,  zapůsobila na porotu Československo má talent v uskupení FEMME2FATALE. Hraje s bubeníky Olega Sokolova, s DJ, tanečníky a stále přichází s novou invencí, dávat vystoupením další, vizuální rozměr. Největší láskou je její aktuální projekt - instrumentální trio The STRINGZ.</p>\\n<p><strong>Alexander Christianov</strong> - fenomenální pianista a skladatel, který vystudoval kompozici u Borise Čajkovského v Moskvě.  Je vyhledávaným pedagogem a neotřelým jazmanem, ale hudbu miluje napříč žánry. Propojování starého a nového ho naprosto nadchlo. Uvidíte sami, jak na pódiu září a rozdává kus ze sebe.</p>\\n<p><strong>Ladislav Mariáš</strong> je další rodák moravskoslezský, který kvůli práci a studiu tráví víc času v Praze, ale v rodném Jistebníku je stále doma. Pochází z muzikantské rodiny a od malička nevybočuje z řady a hraje. Jeho tatínek  vyučuje v ZUŠ v Bílovci. Láďa vystudoval obor violoncello na HAMU .Je členem Plzeňské filharmonie.</p>\\n<p>Koncert obohatí sólista Národního divadla Moravskoslezského - zpěvák, kterého s The STRINGZ pojí láska ke swingu a muzikálům - pan <strong>Tomáš Savka!</strong></p>\\n<p>Zajímá Vás, jak zní styl, kterému se říká  crossover? V čem je jejich projev jiný?</p>\\n<p><strong>Pokud je neuslyšíte v sobotu při Slavnostním GALAVEČERU, uvidíme se společně v neděli v 18 hodin v kostele sv. Josefa na koncertě pro KOUSEK. Vstupenky</strong> <a href=\\"https://podpora.kousekpokousku.cz/vstupenky/\\">https://podpora.kousekpokousku.cz/vstupenky/</a></p>","frontmatter":{"name":"KONCERT PRO KOUSEK","date":"09-09-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#c8d8d8","images":{"fallback":{"src":"/static/5f816f8ffea7152a622623bbb3866612/a615d/koncert-pro-kousek.png","srcSet":"/static/5f816f8ffea7152a622623bbb3866612/d6c56/koncert-pro-kousek.png 471w,\\n/static/5f816f8ffea7152a622623bbb3866612/417d5/koncert-pro-kousek.png 942w,\\n/static/5f816f8ffea7152a622623bbb3866612/a615d/koncert-pro-kousek.png 1884w","sizes":"(min-width: 1884px) 1884px, 100vw"},"sources":[{"srcSet":"/static/5f816f8ffea7152a622623bbb3866612/77f48/koncert-pro-kousek.webp 471w,\\n/static/5f816f8ffea7152a622623bbb3866612/6690c/koncert-pro-kousek.webp 942w,\\n/static/5f816f8ffea7152a622623bbb3866612/79330/koncert-pro-kousek.webp 1884w","type":"image/webp","sizes":"(min-width: 1884px) 1884px, 100vw"}]},"width":1884,"height":942}}},"imageAlt":null}}}},{"node":{"rawMarkdownBody":"Po úspěšném 1. ročníku &#8220;Klášterního kouskování&#8221; pořádaného letos v květnu Nadačním fondem Kousek po kousku se nám naskytla příležitost propojit naši myšlenku s podobnou akcí Báry Nesvadbové &#8220;Charity bazaar&#8221;, probíhající ve dni 24.11.2014 v Praze.\\r\\n\\r\\nKousky hadříků, které po pražské akci zůstanou, budou k prodeji na následujícím jarním Kouskování, proto jsme se rozhodly Bářině akci pomoci i my- tzn. na podzim přispějeme kousky do Prahy a na jaře  pomůže Praha zase nám.\\r\\n\\r\\nPropojením s podobnou akcí na opačném konci republiky bude mít naše jarní Klášterní kouskování větší rozměr, a může tak přinést ještě větší výtěžek na pomoc zaáchrany kláštera ve Fulneku.\\r\\n\\r\\nZapojte se prosím a darujte kousky hadříků! \\r\\nV případě zájmu nás laskavě kontaktujte do 14.11.2014.\\r\\n\\r\\nDěkujeme!\\r\\n\\r\\nNadační fond Kousek po kousku\\r\\n","html":"<p>Po úspěšném 1. ročníku “Klášterního kouskování” pořádaného letos v květnu Nadačním fondem Kousek po kousku se nám naskytla příležitost propojit naši myšlenku s podobnou akcí Báry Nesvadbové “Charity bazaar”, probíhající ve dni 24.11.2014 v Praze.</p>\\n<p>Kousky hadříků, které po pražské akci zůstanou, budou k prodeji na následujícím jarním Kouskování, proto jsme se rozhodly Bářině akci pomoci i my- tzn. na podzim přispějeme kousky do Prahy a na jaře  pomůže Praha zase nám.</p>\\n<p>Propojením s podobnou akcí na opačném konci republiky bude mít naše jarní Klášterní kouskování větší rozměr, a může tak přinést ještě větší výtěžek na pomoc zaáchrany kláštera ve Fulneku.</p>\\n<p>Zapojte se prosím a darujte kousky hadříků!\\r\\nV případě zájmu nás laskavě kontaktujte do 14.11.2014.</p>\\n<p>Děkujeme!</p>\\n<p>Nadační fond Kousek po kousku</p>","frontmatter":{"name":"Kouskománie – unikátní oblečení za jedinečné ceny!","date":"17-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/6af8fb4724266ecd86260c4d38dddc82/2ee34/charita-web-final.jpg","srcSet":"/static/6af8fb4724266ecd86260c4d38dddc82/114e3/charita-web-final.jpg 75w,\\n/static/6af8fb4724266ecd86260c4d38dddc82/e40f1/charita-web-final.jpg 150w,\\n/static/6af8fb4724266ecd86260c4d38dddc82/2ee34/charita-web-final.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/6af8fb4724266ecd86260c4d38dddc82/ca302/charita-web-final.webp 75w,\\n/static/6af8fb4724266ecd86260c4d38dddc82/b6ab7/charita-web-final.webp 150w,\\n/static/6af8fb4724266ecd86260c4d38dddc82/54ccb/charita-web-final.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":332}}},"imageAlt":"Kouskománie – unikátní oblečení za jedinečné ceny!"}}}},{"node":{"rawMarkdownBody":"Kouskování 2019 se pomalu blíží tak ho nezmeškej a přijď se podívat a podpořit kousek dobra. A to 18 až 22 května v kostele Sv. Josefa ve Fulneku.\\r\\n\\r\\nTěšíme se na Vás.\\r\\n","html":"<p>Kouskování 2019 se pomalu blíží tak ho nezmeškej a přijď se podívat a podpořit kousek dobra. A to 18 až 22 května v kostele Sv. Josefa ve Fulneku.</p>\\n<p>Těšíme se na Vás.</p>","frontmatter":{"name":"KOUSKOVÁNÍ 2019","date":"21-05-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/a8b6ab50675deba14dea0b1274bcd043/463bf/vstiek.png","srcSet":"/static/a8b6ab50675deba14dea0b1274bcd043/8f2a6/vstiek.png 75w,\\n/static/a8b6ab50675deba14dea0b1274bcd043/8878f/vstiek.png 150w,\\n/static/a8b6ab50675deba14dea0b1274bcd043/463bf/vstiek.png 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/a8b6ab50675deba14dea0b1274bcd043/d83cf/vstiek.webp 75w,\\n/static/a8b6ab50675deba14dea0b1274bcd043/ab2b3/vstiek.webp 150w,\\n/static/a8b6ab50675deba14dea0b1274bcd043/f96ad/vstiek.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":113}}},"imageAlt":"KOUSKOVÁNÍ 2019"}}}},{"node":{"rawMarkdownBody":"Zajímá Vás, co se stalo s oblečením, které se nepodařilo prodat během pár dnů Klášterního kouskování ve Fulneku?\\r\\n\\r\\nNadační fond Kousek po kousku se spojil se svým partenerem z minulých let, neziskovou organizací ADRA, a ovdvezl neprodané oblečení do jejího nově otevřeného charitativního obchodu v Ostravě-Vítkovicích. Tam zase snad dobře poslouží dalším lidem.\\r\\n","html":"<p>Zajímá Vás, co se stalo s oblečením, které se nepodařilo prodat během pár dnů Klášterního kouskování ve Fulneku?</p>\\n<p>Nadační fond Kousek po kousku se spojil se svým partenerem z minulých let, neziskovou organizací ADRA, a ovdvezl neprodané oblečení do jejího nově otevřeného charitativního obchodu v Ostravě-Vítkovicích. Tam zase snad dobře poslouží dalším lidem.</p>","frontmatter":{"name":"Kouskování pomáhá dál i po svém ukončení!","date":"24-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8e8c8","images":{"fallback":{"src":"/static/ee2db035b2f82bb0d47fe9409a056cc9/cdddd/hadry-web.jpg","srcSet":"/static/ee2db035b2f82bb0d47fe9409a056cc9/c61c3/hadry-web.jpg 75w,\\n/static/ee2db035b2f82bb0d47fe9409a056cc9/fa2a5/hadry-web.jpg 150w,\\n/static/ee2db035b2f82bb0d47fe9409a056cc9/cdddd/hadry-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/ee2db035b2f82bb0d47fe9409a056cc9/0e31b/hadry-web.webp 75w,\\n/static/ee2db035b2f82bb0d47fe9409a056cc9/4c6e4/hadry-web.webp 150w,\\n/static/ee2db035b2f82bb0d47fe9409a056cc9/8e42d/hadry-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":450}}},"imageAlt":"Kouskování pomáhá dál i po svém ukončení!"}}}},{"node":{"rawMarkdownBody":"Kniha &#8220;Dům v zahradě páně&#8221; o historii Kapucínského kláštera ve Funeka autora Zdeňka Orlity je už k dostání k zakoupení například ve fulneckém informačním centru anebo přímo v Kostele sv. Josefa př Kapucínském klášteře ve Fulneku.\\r\\n\\r\\nNadační fond Kousek po kousku je hrdým partnerem této krásné knihy, která byla podpořena i díky všem, kteří přispěli během loňského Klášterního kouskování.\\r\\n","html":"<p>Kniha “Dům v zahradě páně” o historii Kapucínského kláštera ve Funeka autora Zdeňka Orlity je už k dostání k zakoupení například ve fulneckém informačním centru anebo přímo v Kostele sv. Josefa př Kapucínském klášteře ve Fulneku.</p>\\n<p>Nadační fond Kousek po kousku je hrdým partnerem této krásné knihy, která byla podpořena i díky všem, kteří přispěli během loňského Klášterního kouskování.</p>","frontmatter":{"name":"Krásná kniha o historii Kapucínského kláštera podpořena i loňským Kouskováním je na světě!","date":"15-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#887878","images":{"fallback":{"src":"/static/823571419b6a50e73d40caad31e83deb/d924c/orlita-web.jpg","srcSet":"/static/823571419b6a50e73d40caad31e83deb/d4afa/orlita-web.jpg 75w,\\n/static/823571419b6a50e73d40caad31e83deb/05e34/orlita-web.jpg 150w,\\n/static/823571419b6a50e73d40caad31e83deb/d924c/orlita-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/823571419b6a50e73d40caad31e83deb/e0f0e/orlita-web.webp 75w,\\n/static/823571419b6a50e73d40caad31e83deb/e80bb/orlita-web.webp 150w,\\n/static/823571419b6a50e73d40caad31e83deb/a8059/orlita-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":225}}},"imageAlt":"Krásná kniha o historii Kapucínského kláštera podpořena i loňským Kouskováním je na světě!"}}}},{"node":{"rawMarkdownBody":"Děkujeme moc všem!\\r\\n","html":"<p>Děkujeme moc všem!</p>","frontmatter":{"name":"Letošní Klášterní kouskování vůbec nejúspěšnější!","date":"18-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/41c69c7ee9e9dd88781b5c0b0758d93f/44f27/podkovn-2017-web.jpg","srcSet":"/static/41c69c7ee9e9dd88781b5c0b0758d93f/1564b/podkovn-2017-web.jpg 75w,\\n/static/41c69c7ee9e9dd88781b5c0b0758d93f/01146/podkovn-2017-web.jpg 150w,\\n/static/41c69c7ee9e9dd88781b5c0b0758d93f/44f27/podkovn-2017-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/41c69c7ee9e9dd88781b5c0b0758d93f/0653c/podkovn-2017-web.webp 75w,\\n/static/41c69c7ee9e9dd88781b5c0b0758d93f/3b676/podkovn-2017-web.webp 150w,\\n/static/41c69c7ee9e9dd88781b5c0b0758d93f/d7497/podkovn-2017-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":425}}},"imageAlt":"Letošní Klášterní kouskování vůbec nejúspěšnější!"}}}},{"node":{"rawMarkdownBody":"V roce 2012 podpořená Eva Liberdová spolupracuje s Nadačním fondem Kousek po kousku i letos, když se jako lektorka zapojila do rozsáhlého vzdělávacího projektu &#8220;Nebojme se komunikace se sluchově postiženými.&#8221; Kurzy pro zájemce z řad státní správy, neziskových organizací či veřejnosti probíhají ještě stále po celé Severní Moravě. Více informací na www.orbipontes.cz.\\r\\n","html":"<p>V roce 2012 podpořená Eva Liberdová spolupracuje s Nadačním fondem Kousek po kousku i letos, když se jako lektorka zapojila do rozsáhlého vzdělávacího projektu “Nebojme se komunikace se sluchově postiženými.” Kurzy pro zájemce z řad státní správy, neziskových organizací či veřejnosti probíhají ještě stále po celé Severní Moravě. Více informací na <a href=\\"http://www.orbipontes.cz\\">www.orbipontes.cz</a>.</p>","frontmatter":{"name":"Lepší komunikace se sluchově postiženými","date":"20-02-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#e8f8f8","images":{"fallback":{"src":"/static/6e225323180ae836fa3e334406e4e0cf/922ba/eva-liberdova-web2.jpg","srcSet":"/static/6e225323180ae836fa3e334406e4e0cf/3187d/eva-liberdova-web2.jpg 75w,\\n/static/6e225323180ae836fa3e334406e4e0cf/2c2c4/eva-liberdova-web2.jpg 150w,\\n/static/6e225323180ae836fa3e334406e4e0cf/922ba/eva-liberdova-web2.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/6e225323180ae836fa3e334406e4e0cf/b1852/eva-liberdova-web2.webp 75w,\\n/static/6e225323180ae836fa3e334406e4e0cf/0f8a4/eva-liberdova-web2.webp 150w,\\n/static/6e225323180ae836fa3e334406e4e0cf/4105b/eva-liberdova-web2.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":210}}},"imageAlt":"Lepší komunikace se sluchově postiženými"}}}},{"node":{"rawMarkdownBody":"V srpnu letošního roku se i díky podpoře Nadačního fondu Kousek po kousku uskutečnila unikátní 19-ti denní  expedice 5 handbikerů &#8211; sedících cyklistů a 11-ti členného doprovodného týmu z Brém až na Gibraltar. Pokud se chcete dozvědět více o této inspirující cestě, budete mít příležitost na festivalu &#8220;Cyklocestování&#8221; ve Frýdku-Místku (24.-26. ledna 2014) a v Hradci Králové (1.-2. února 2014).\\r\\n","html":"<p>V srpnu letošního roku se i díky podpoře Nadačního fondu Kousek po kousku uskutečnila unikátní 19-ti denní  expedice 5 handbikerů – sedících cyklistů a 11-ti členného doprovodného týmu z Brém až na Gibraltar. Pokud se chcete dozvědět více o této inspirující cestě, budete mít příležitost na festivalu “Cyklocestování” ve Frýdku-Místku (24.-26. ledna 2014) a v Hradci Králové (1.-2. února 2014).</p>","frontmatter":{"name":"Matěj Kužílek a další handbikeři vypráví o cestě na Gibraltar","date":"24-02-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#88c8e8","images":{"fallback":{"src":"/static/2ea236a8089d4cf74bc9ff40f7622fa2/d924c/gibraltar-web.jpg","srcSet":"/static/2ea236a8089d4cf74bc9ff40f7622fa2/d4afa/gibraltar-web.jpg 75w,\\n/static/2ea236a8089d4cf74bc9ff40f7622fa2/05e34/gibraltar-web.jpg 150w,\\n/static/2ea236a8089d4cf74bc9ff40f7622fa2/d924c/gibraltar-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/2ea236a8089d4cf74bc9ff40f7622fa2/e0f0e/gibraltar-web.webp 75w,\\n/static/2ea236a8089d4cf74bc9ff40f7622fa2/e80bb/gibraltar-web.webp 150w,\\n/static/2ea236a8089d4cf74bc9ff40f7622fa2/a8059/gibraltar-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":225}}},"imageAlt":"Matěj Kužílek a další handbikeři vypráví o cestě na Gibraltar"}}}},{"node":{"rawMarkdownBody":"Více informací o Matěji a o tom jak ho podpořit naleznete zde.\\r\\n","html":"<p>Více informací o Matěji a o tom jak ho podpořit naleznete zde.</p>","frontmatter":{"name":"Mimořádná výzva na podporu studia Cimbálu pro Matěje Čípa v USA.","date":"04-05-2021","link":"http://www.kousekpokousku.cz/chcete-davat.html","image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#180808","images":{"fallback":{"src":"/static/2bcbfdd4712b156f46f382adbb1ffbfb/f8bb4/cipmaly4.png","srcSet":"/static/2bcbfdd4712b156f46f382adbb1ffbfb/a17ad/cipmaly4.png 75w,\\n/static/2bcbfdd4712b156f46f382adbb1ffbfb/79bc7/cipmaly4.png 150w,\\n/static/2bcbfdd4712b156f46f382adbb1ffbfb/f8bb4/cipmaly4.png 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/2bcbfdd4712b156f46f382adbb1ffbfb/7a784/cipmaly4.webp 75w,\\n/static/2bcbfdd4712b156f46f382adbb1ffbfb/79414/cipmaly4.webp 150w,\\n/static/2bcbfdd4712b156f46f382adbb1ffbfb/6dae9/cipmaly4.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":216}}},"imageAlt":"Mimořádná výzva na podporu studia Cimbálu pro Matěje Čípa v USA."}}}},{"node":{"rawMarkdownBody":"Ano, už jsme zmiňovali&#8230;\\r\\nSlavnostní GALAVEČER proběhne nakonec 16. října. Věříme, že podzim už bude pro nás pro všechny přívětivější.\\r\\n","html":"<p>Ano, už jsme zmiňovali…\\r\\nSlavnostní GALAVEČER proběhne nakonec 16. října. Věříme, že podzim už bude pro nás pro všechny přívětivější.</p>","frontmatter":{"name":"Nadační akce přesunuta!","date":"06-06-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/2ecb2c21447f2d51dc8d532475421729/0fdf4/pozvnka-jen-1.strana.jpg","srcSet":"/static/2ecb2c21447f2d51dc8d532475421729/91a6d/pozvnka-jen-1.strana.jpg 75w,\\n/static/2ecb2c21447f2d51dc8d532475421729/96deb/pozvnka-jen-1.strana.jpg 150w,\\n/static/2ecb2c21447f2d51dc8d532475421729/0fdf4/pozvnka-jen-1.strana.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/2ecb2c21447f2d51dc8d532475421729/18188/pozvnka-jen-1.strana.webp 75w,\\n/static/2ecb2c21447f2d51dc8d532475421729/c65bc/pozvnka-jen-1.strana.webp 150w,\\n/static/2ecb2c21447f2d51dc8d532475421729/078c3/pozvnka-jen-1.strana.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":300}}},"imageAlt":"Nadační akce přesunuta!"}}}},{"node":{"rawMarkdownBody":"Vlastní stůl pro model města Fulneku jsme zadali zhotovit místnímu stolaři, který se postará o to, aby byl funkční, bytelný i krásný.  Také tento stůl bude pořízen z Klášterního kouskování 2018!\\r\\n","html":"<p>Vlastní stůl pro model města Fulneku jsme zadali zhotovit místnímu stolaři, který se postará o to, aby byl funkční, bytelný i krásný.  Také tento stůl bude pořízen z Klášterního kouskování 2018!</p>","frontmatter":{"name":"Model města Fulneku má svůj vlastní stůl","date":"08-05-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8a828","images":{"fallback":{"src":"/static/09efb6b11b9bedbbd2d809afa5802638/4fa1d/kousek-po-kousku-v2-150px-2.jpg","srcSet":"/static/09efb6b11b9bedbbd2d809afa5802638/30aed/kousek-po-kousku-v2-150px-2.jpg 38w,\\n/static/09efb6b11b9bedbbd2d809afa5802638/633db/kousek-po-kousku-v2-150px-2.jpg 75w,\\n/static/09efb6b11b9bedbbd2d809afa5802638/4fa1d/kousek-po-kousku-v2-150px-2.jpg 150w","sizes":"(min-width: 150px) 150px, 100vw"},"sources":[{"srcSet":"/static/09efb6b11b9bedbbd2d809afa5802638/e61a4/kousek-po-kousku-v2-150px-2.webp 38w,\\n/static/09efb6b11b9bedbbd2d809afa5802638/b46c4/kousek-po-kousku-v2-150px-2.webp 75w,\\n/static/09efb6b11b9bedbbd2d809afa5802638/9614f/kousek-po-kousku-v2-150px-2.webp 150w","type":"image/webp","sizes":"(min-width: 150px) 150px, 100vw"}]},"width":150,"height":155}}},"imageAlt":"Model města Fulneku má svůj vlastní stůl"}}}},{"node":{"rawMarkdownBody":"Nadační fond Kousek po kousku naděloval i o Vánocích, když se členka naší dozorčí rady Karla Návedlová zastavila o Vánocich pozdravit a potěšit drobnými dárky klienty Sociálního zařízení města Bílovce. Usměvy na tvářích obdarovaných naznačovaly, že se snad dobrá věc podařila. O činnosti tohoto důležitého a nápomocného bíloveckého zařízení se můžete více dozvědět na jejich webových stránkách www.dsbilovec.cz.\\r\\n","html":"<p>Nadační fond Kousek po kousku naděloval i o Vánocích, když se členka naší dozorčí rady Karla Návedlová zastavila o Vánocich pozdravit a potěšit drobnými dárky klienty Sociálního zařízení města Bílovce. Usměvy na tvářích obdarovaných naznačovaly, že se snad dobrá věc podařila. O činnosti tohoto důležitého a nápomocného bíloveckého zařízení se můžete více dozvědět na jejich webových stránkách <a href=\\"http://www.dsbilovec.cz\\">www.dsbilovec.cz</a>.</p>","frontmatter":{"name":"Nadační fond Kousek po kousku naděloval i o Vánocích","date":"24-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/5854ada987bd14dbd970cb92332f2c17/81bf6/nf-web-karla.jpg","srcSet":"/static/5854ada987bd14dbd970cb92332f2c17/77ce8/nf-web-karla.jpg 75w,\\n/static/5854ada987bd14dbd970cb92332f2c17/f1a3a/nf-web-karla.jpg 150w,\\n/static/5854ada987bd14dbd970cb92332f2c17/81bf6/nf-web-karla.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/5854ada987bd14dbd970cb92332f2c17/0987d/nf-web-karla.webp 75w,\\n/static/5854ada987bd14dbd970cb92332f2c17/70dfd/nf-web-karla.webp 150w,\\n/static/5854ada987bd14dbd970cb92332f2c17/9b21f/nf-web-karla.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":200}}},"imageAlt":"Nadační fond Kousek po kousku naděloval i o Vánocích"}}}},{"node":{"rawMarkdownBody":"Mezi jedny z nejaktivnějších letos podpořených žadatelů v rámci našeho jarního grantového kola patří Magdaléna Feilhauerová, které Nadační fond Kousek po kousku přispívá na její studia Střední uměleckoprůmyslové školy v Uherském Hradišti.\\r\\n\\r\\nNa fotografii Magdaléna zkrášluje novou Komenského kavárnu ve Fulneku, mimo to ale také stihla třeba namalovat dětem tygří obličeje v rámci doprovodného programu další Nadačním fondem podpořen akce &#8220;Fulnečky&#8221;.\\r\\n\\r\\nKomenského kavárna Fulnek zase poskytla Nadačnímu fondu sladký dar pro vítěze dětské obrázkové soutěže v rámci Klášterního kouskování, dobročinné akce na podporu revitalizace Kapucínské kláštera ve Fulneku. No není to hezké, když si všichni navzájem pomáháme?\\r\\n","html":"<p>Mezi jedny z nejaktivnějších letos podpořených žadatelů v rámci našeho jarního grantového kola patří Magdaléna Feilhauerová, které Nadační fond Kousek po kousku přispívá na její studia Střední uměleckoprůmyslové školy v Uherském Hradišti.</p>\\n<p>Na fotografii Magdaléna zkrášluje novou Komenského kavárnu ve Fulneku, mimo to ale také stihla třeba namalovat dětem tygří obličeje v rámci doprovodného programu další Nadačním fondem podpořen akce “Fulnečky”.</p>\\n<p>Komenského kavárna Fulnek zase poskytla Nadačnímu fondu sladký dar pro vítěze dětské obrázkové soutěže v rámci Klášterního kouskování, dobročinné akce na podporu revitalizace Kapucínské kláštera ve Fulneku. No není to hezké, když si všichni navzájem pomáháme?</p>","frontmatter":{"name":"Nadační fond Kousek po kousku podporuje i mladé talenty!","date":"15-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#786858","images":{"fallback":{"src":"/static/7be3cdbb67446fc4909fc618751eed2c/dcaf8/magda-web.jpg","srcSet":"/static/7be3cdbb67446fc4909fc618751eed2c/bc8ca/magda-web.jpg 75w,\\n/static/7be3cdbb67446fc4909fc618751eed2c/10292/magda-web.jpg 150w,\\n/static/7be3cdbb67446fc4909fc618751eed2c/dcaf8/magda-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/7be3cdbb67446fc4909fc618751eed2c/bef47/magda-web.webp 75w,\\n/static/7be3cdbb67446fc4909fc618751eed2c/83645/magda-web.webp 150w,\\n/static/7be3cdbb67446fc4909fc618751eed2c/4fdb9/magda-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":400}}},"imageAlt":"Nadační fond Kousek po kousku podporuje i mladé talenty!"}}}},{"node":{"rawMarkdownBody":"Správní rada Nadačního fondu schválila na svém červnovém zasedání podporu hned 13 dobročinných projektů ze severomoravského regionu. Mezi podpořenými byly jak neziskové organizace, tak i neformální spolky či talentovaní jednotlivci. Přispěli jsme na vzdělávání, kulturní akce i sociální a zdravotní pomoc. Kompletní seznam všech podpořených projektů včetně krátkých anotací s popisem jejich základních aktivit, naleznete na našich webových stránkách v sekci &#8220;projekty&#8221;.\\r\\n","html":"<p>Správní rada Nadačního fondu schválila na svém červnovém zasedání podporu hned 13 dobročinných projektů ze severomoravského regionu. Mezi podpořenými byly jak neziskové organizace, tak i neformální spolky či talentovaní jednotlivci. Přispěli jsme na vzdělávání, kulturní akce i sociální a zdravotní pomoc. Kompletní seznam všech podpořených projektů včetně krátkých anotací s popisem jejich základních aktivit, naleznete na našich webových stránkách v sekci “projekty”.</p>","frontmatter":{"name":"Nadační fond podpořil dalších 13 skvělých dobročinných projektů ze severomoravského regionu!","date":"09-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8a828","images":{"fallback":{"src":"/static/d403d5bf12d210b4610578d4a1f74ef6/8955e/logo-web.jpg","srcSet":"/static/d403d5bf12d210b4610578d4a1f74ef6/633db/logo-web.jpg 75w,\\n/static/d403d5bf12d210b4610578d4a1f74ef6/4fa1d/logo-web.jpg 150w,\\n/static/d403d5bf12d210b4610578d4a1f74ef6/8955e/logo-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/d403d5bf12d210b4610578d4a1f74ef6/b46c4/logo-web.webp 75w,\\n/static/d403d5bf12d210b4610578d4a1f74ef6/9614f/logo-web.webp 150w,\\n/static/d403d5bf12d210b4610578d4a1f74ef6/785ca/logo-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":310}}},"imageAlt":"Nadační fond podpořil dalších 13 skvělých dobročinných projektů ze severomoravského regionu!"}}}},{"node":{"rawMarkdownBody":"Nadační fond Kousek po Kousku Vás zve na přednášku JANA MÜHLFEITA a KATKY NOVOTNÉ dne 10. dubna 2018 17:30 v KAPUCÍNSKÉM KLÁŠTEŘE VE FULNEKU s názvem  “ODEMYKÁNÍ DĚTSKÉHO POTENCIÁLU”\\r\\n\\r\\nMalé info pro návštěvníky:\\r\\n\\r\\n-200KČ / OSOBA\\r\\n\\r\\n-Přednáška je vhodná pro děti nad 10 let\\r\\n\\r\\n-Vstupenky si můžete zakoupit přímo na místě nebo rezervovat emailem, kde prosím uveďte kolik vás přijde\\r\\n\\r\\n-Vstupenky jsou bez místenky.\\r\\n Proto se řídíme starým pořekadlem “Kdo dřív příjde, ten dřív mele”.\\r\\n Klášter ve Fulneku je ze 17. století a vejde se do něj asi jenom 250 kousků :-)\\r\\n\\r\\n-Platit lze jen  v hotovosti přímo v Klášteře\\r\\n\\r\\n-Protože přednáška začíná v 17.30 hod., bude moc fajn, když přijdete s časovým předstihem.\\r\\n\\r\\nDěkujeme a těšíme se na Vás.\\r\\n\\r\\nNadační fond Kousek po kousku\\r\\n\\r\\n-Rezervační email:   info@kousekpokousku.cz\\r\\n","html":"<p>Nadační fond Kousek po Kousku Vás zve na přednášku JANA MÜHLFEITA a KATKY NOVOTNÉ dne 10. dubna 2018 17:30 v KAPUCÍNSKÉM KLÁŠTEŘE VE FULNEKU s názvem  “ODEMYKÁNÍ DĚTSKÉHO POTENCIÁLU”</p>\\n<p>Malé info pro návštěvníky:</p>\\n<p>-200KČ / OSOBA</p>\\n<p>-Přednáška je vhodná pro děti nad 10 let</p>\\n<p>-Vstupenky si můžete zakoupit přímo na místě nebo rezervovat emailem, kde prosím uveďte kolik vás přijde</p>\\n<p>-Vstupenky jsou bez místenky.\\r\\nProto se řídíme starým pořekadlem “Kdo dřív příjde, ten dřív mele”.\\r\\nKlášter ve Fulneku je ze 17. století a vejde se do něj asi jenom 250 kousků :-)</p>\\n<p>-Platit lze jen  v hotovosti přímo v Klášteře</p>\\n<p>-Protože přednáška začíná v 17.30 hod., bude moc fajn, když přijdete s časovým předstihem.</p>\\n<p>Děkujeme a těšíme se na Vás.</p>\\n<p>Nadační fond Kousek po kousku</p>\\n<p>-Rezervační email:   <a href=\\"mailto:info@kousekpokousku.cz\\">info@kousekpokousku.cz</a></p>","frontmatter":{"name":"NFKPK VÁS ZVE NA PŘEDNÁŠKU ODEMYKÁNÍ DĚTSKÉHO POTENCIÁLU","date":"27-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/ac343ad19843d7fca24a993ef003a16e/81bf6/rsz2921613316584524109099837690712441881100288o.jpg","srcSet":"/static/ac343ad19843d7fca24a993ef003a16e/77ce8/rsz2921613316584524109099837690712441881100288o.jpg 75w,\\n/static/ac343ad19843d7fca24a993ef003a16e/f1a3a/rsz2921613316584524109099837690712441881100288o.jpg 150w,\\n/static/ac343ad19843d7fca24a993ef003a16e/81bf6/rsz2921613316584524109099837690712441881100288o.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/ac343ad19843d7fca24a993ef003a16e/0987d/rsz2921613316584524109099837690712441881100288o.webp 75w,\\n/static/ac343ad19843d7fca24a993ef003a16e/70dfd/rsz2921613316584524109099837690712441881100288o.webp 150w,\\n/static/ac343ad19843d7fca24a993ef003a16e/9b21f/rsz2921613316584524109099837690712441881100288o.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":200}}},"imageAlt":"NFKPK VÁS ZVE NA PŘEDNÁŠKU ODEMYKÁNÍ DĚTSKÉHO POTENCIÁLU"}}}},{"node":{"rawMarkdownBody":"Matěj už má zabaleno a i díky Vám vyráží za svým snem.\\r\\nSleduj jeho dobrodružnou cestu s námi na \\r\\nfacebookových stránkách.\\r\\n","html":"<p>Matěj už má zabaleno a i díky Vám vyráží za svým snem.\\r\\nSleduj jeho dobrodružnou cestu s námi na\\r\\nfacebookových stránkách.</p>","frontmatter":{"name":"Novinka na facebooku Nadačního fondu","date":"05-05-2021","link":"https://www.facebook.com/NFKousekPoKousku/","image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#181818","images":{"fallback":{"src":"/static/c4d98991a89dc323a66d10003fe3873d/56645/matejfcb.png","srcSet":"/static/c4d98991a89dc323a66d10003fe3873d/bebdb/matejfcb.png 75w,\\n/static/c4d98991a89dc323a66d10003fe3873d/0265b/matejfcb.png 150w,\\n/static/c4d98991a89dc323a66d10003fe3873d/56645/matejfcb.png 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/c4d98991a89dc323a66d10003fe3873d/15caa/matejfcb.webp 75w,\\n/static/c4d98991a89dc323a66d10003fe3873d/e87e8/matejfcb.webp 150w,\\n/static/c4d98991a89dc323a66d10003fe3873d/51cc1/matejfcb.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":386}}},"imageAlt":"Novinka na facebooku Nadačního fondu"}}}},{"node":{"rawMarkdownBody":"Zajímá Vás, co jsme všechno podpořili v minulém roce? Projděte si naši výroční zprávu za rok 2013, kterou pro nás jako nehmotný dar graficky zpracoval Martin Rusek. Najdete v ni nejen, kam a na co putovaly naše příspěvky, ale i mnoho zajímavých fotografií z jednotlivých projektů. Kompletní výroční zprávu v pdf formátu naleznete zde Příjemné čtení!\\r\\n","html":"<p>Zajímá Vás, co jsme všechno podpořili v minulém roce? Projděte si naši výroční zprávu za rok 2013, kterou pro nás jako nehmotný dar graficky zpracoval Martin Rusek. Najdete v ni nejen, kam a na co putovaly naše příspěvky, ale i mnoho zajímavých fotografií z jednotlivých projektů. Kompletní výroční zprávu v pdf formátu naleznete zde Příjemné čtení!</p>","frontmatter":{"name":"Nová výroční zpráva Nadačního fondu Kousek po kousku za rok 2014","date":"16-03-2021","link":"http://www.kousekpokousku.cz/pdf/vyrocni-zprava-NFKPK-2013.pdf","image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/f3ef21e92c600afb92604a7c2ca5cb88/922ba/vyrocka-web.jpg","srcSet":"/static/f3ef21e92c600afb92604a7c2ca5cb88/3187d/vyrocka-web.jpg 75w,\\n/static/f3ef21e92c600afb92604a7c2ca5cb88/2c2c4/vyrocka-web.jpg 150w,\\n/static/f3ef21e92c600afb92604a7c2ca5cb88/922ba/vyrocka-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/f3ef21e92c600afb92604a7c2ca5cb88/b1852/vyrocka-web.webp 75w,\\n/static/f3ef21e92c600afb92604a7c2ca5cb88/0f8a4/vyrocka-web.webp 150w,\\n/static/f3ef21e92c600afb92604a7c2ca5cb88/4105b/vyrocka-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":210}}},"imageAlt":"Nová výroční zpráva Nadačního fondu Kousek po kousku za rok 2014"}}}},{"node":{"rawMarkdownBody":"Než se Správní rada stihne sejít a rozhodnout o letošní podpoře pro zaslané grantové žádosti. Připomeňme si obrazem několik vloni podpořených úspěšných projektů.\\r\\n\\r\\nTato fotka pochází ze skvělé květnové akce Fulnek zručný a tvůrčí připravený Světlanou Markovou a jejími kolegyněmi z fulneckého Klubu paličkářek. Děkujeme!\\r\\n","html":"<p>Než se Správní rada stihne sejít a rozhodnout o letošní podpoře pro zaslané grantové žádosti. Připomeňme si obrazem několik vloni podpořených úspěšných projektů.</p>\\n<p>Tato fotka pochází ze skvělé květnové akce Fulnek zručný a tvůrčí připravený Světlanou Markovou a jejími kolegyněmi z fulneckého Klubu paličkářek. Děkujeme!</p>","frontmatter":{"name":"Obrazová vzpomínka na v minulém grantovém kole podpořené projekty - Fulnek tvůrčí a zručný","date":"22-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#181818","images":{"fallback":{"src":"/static/653944354d238290f9f7ea904a33446b/81bf6/fulnek-tvurci-web.jpg","srcSet":"/static/653944354d238290f9f7ea904a33446b/77ce8/fulnek-tvurci-web.jpg 75w,\\n/static/653944354d238290f9f7ea904a33446b/f1a3a/fulnek-tvurci-web.jpg 150w,\\n/static/653944354d238290f9f7ea904a33446b/81bf6/fulnek-tvurci-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/653944354d238290f9f7ea904a33446b/0987d/fulnek-tvurci-web.webp 75w,\\n/static/653944354d238290f9f7ea904a33446b/70dfd/fulnek-tvurci-web.webp 150w,\\n/static/653944354d238290f9f7ea904a33446b/9b21f/fulnek-tvurci-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":200}}},"imageAlt":"Obrazová vzpomínka na v minulém grantovém kole podpořené projekty - Fulnek tvůrčí a zručný"}}}},{"node":{"rawMarkdownBody":"Nevšední kniha barevných básní místní autorky Marie Farné byla trefně pojmenována &#8220;Paleta bezejmenného malíře&#8221;. Více jak dvacítka krátkých básní je doplněna jednoduchými ilustracemi Milana Farného. Úvodní strana sbírky pak byla vybarvena žáky ZŠ Slunečnice ve Studénce. Zájemci o sbírku se mohou obrátit na občasnké sdružení Morfé anebo na náš Nadační fond Kousek po kousku.\\r\\n","html":"<p>Nevšední kniha barevných básní místní autorky Marie Farné byla trefně pojmenována “Paleta bezejmenného malíře”. Více jak dvacítka krátkých básní je doplněna jednoduchými ilustracemi Milana Farného. Úvodní strana sbírky pak byla vybarvena žáky ZŠ Slunečnice ve Studénce. Zájemci o sbírku se mohou obrátit na občasnké sdružení Morfé anebo na náš Nadační fond Kousek po kousku.</p>","frontmatter":{"name":"Občanské sdružení Morfé vydalo za pomoci Nadačního fondu Kousek po kousku sbírku básní  Marie Farné","date":"11-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#988878","images":{"fallback":{"src":"/static/3adc55c2ba0761359ce6f5466fbd2e0b/dcaf8/basne-1.jpg","srcSet":"/static/3adc55c2ba0761359ce6f5466fbd2e0b/bc8ca/basne-1.jpg 75w,\\n/static/3adc55c2ba0761359ce6f5466fbd2e0b/10292/basne-1.jpg 150w,\\n/static/3adc55c2ba0761359ce6f5466fbd2e0b/dcaf8/basne-1.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/3adc55c2ba0761359ce6f5466fbd2e0b/bef47/basne-1.webp 75w,\\n/static/3adc55c2ba0761359ce6f5466fbd2e0b/83645/basne-1.webp 150w,\\n/static/3adc55c2ba0761359ce6f5466fbd2e0b/4fdb9/basne-1.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":400}}},"imageAlt":"Občanské sdružení Morfé vydalo za pomoci Nadačního fondu Kousek po kousku sbírku básní  Marie Farné"}}}},{"node":{"rawMarkdownBody":"Známe výsledky letošního grantového kola Nadačního fondu Kousek po kousku!Bylo podpořeno celkem 12 projektů v celkové částce přes 300 000 Kč!Všem úspěšným žadatelům moc gratulujeme a těšíme se spolupráci.\\r\\n\\r\\nVíce o všech podpořených projektech a jejich obsahu se dozvíte v sekci projekty.Jedním z podpořených projektů je i oslava 10. výročí obnovení Kostela sv. Josefa ve Fulneku připravená Comenius Fulnek.\\r\\n","html":"<p>Známe výsledky letošního grantového kola Nadačního fondu Kousek po kousku!Bylo podpořeno celkem 12 projektů v celkové částce přes 300 000 Kč!Všem úspěšným žadatelům moc gratulujeme a těšíme se spolupráci.</p>\\n<p>Více o všech podpořených projektech a jejich obsahu se dozvíte v sekci projekty.Jedním z podpořených projektů je i oslava 10. výročí obnovení Kostela sv. Josefa ve Fulneku připravená Comenius Fulnek.</p>","frontmatter":{"name":"Oficiální výsledky letošního grantového kola jsou vyhlášeny!","date":"26-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/156bf25b8791177f6e859884155759bc/a0d9b/kostel-web.jpg","srcSet":"/static/156bf25b8791177f6e859884155759bc/356db/kostel-web.jpg 75w,\\n/static/156bf25b8791177f6e859884155759bc/fee89/kostel-web.jpg 150w,\\n/static/156bf25b8791177f6e859884155759bc/a0d9b/kostel-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/156bf25b8791177f6e859884155759bc/c9a73/kostel-web.webp 75w,\\n/static/156bf25b8791177f6e859884155759bc/f5103/kostel-web.webp 150w,\\n/static/156bf25b8791177f6e859884155759bc/dc425/kostel-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":169}}},"imageAlt":"Oficiální výsledky letošního grantového kola jsou vyhlášeny!"}}}},{"node":{"rawMarkdownBody":"Podívejte se i na naše facebookové stránky &#8220;Nadační fond Kousek po kousku&#8221;, kde najdete poděkování ve větším rozlišení, a kam budeme postupně dodávat další fotky a informace k proběhlému Klášternímu kouskování.\\r\\n","html":"<p>Podívejte se i na naše facebookové stránky “Nadační fond Kousek po kousku”, kde najdete poděkování ve větším rozlišení, a kam budeme postupně dodávat další fotky a informace k proběhlému Klášternímu kouskování.</p>","frontmatter":{"name":"Oficiální poděkování organizátorek Klášterního kouskování","date":"07-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/2b34a80dc5c612e74ebaf555ede83ea3/a0d17/podekovani-web.jpg","srcSet":"/static/2b34a80dc5c612e74ebaf555ede83ea3/15cdc/podekovani-web.jpg 75w,\\n/static/2b34a80dc5c612e74ebaf555ede83ea3/293e5/podekovani-web.jpg 150w,\\n/static/2b34a80dc5c612e74ebaf555ede83ea3/a0d17/podekovani-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/2b34a80dc5c612e74ebaf555ede83ea3/ee8bf/podekovani-web.webp 75w,\\n/static/2b34a80dc5c612e74ebaf555ede83ea3/445ab/podekovani-web.webp 150w,\\n/static/2b34a80dc5c612e74ebaf555ede83ea3/85424/podekovani-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":600}}},"imageAlt":"Oficiální poděkování organizátorek Klášterního kouskování"}}}},{"node":{"rawMarkdownBody":"Oslavte s Nadačním fondem Kousek po kousku 10 let. \\r\\n\\r\\n**Co už prozradíme?** \\r\\n\\r\\nSvou účastí, zakoupením vstupenky, podpoříme snažení mnoha desítek dobrovolníků.\\r\\n\\r\\nUslyšíme, jak kousek z nadačního fondu některým z nás změnil a nasměroval život.\\r\\n\\r\\nUvidíme, které modely z Kouskování nakoupíme v nadačním eshopu.\\r\\n\\r\\nPřivítáme hosty, kteří přijdou nejen popřát a pobavíme se u mnoha vystoupení.\\r\\n\\r\\nV závěru si užijeme nevšední koncert Lucie Klasek/The STRINGZ, kteří nás provedou od klasiky až k rocku.\\r\\n\\r\\nDobří lidé, dobroty a neotřelé prostředí fulneckého kláštera. \\r\\n\\r\\n**Tak co? Už máte svou vstupenku?  https://podpora.kousekpokousku.cz/vstupenky/**","html":"<p>Oslavte s Nadačním fondem Kousek po kousku 10 let.</p>\\n<p><strong>Co už prozradíme?</strong></p>\\n<p>Svou účastí, zakoupením vstupenky, podpoříme snažení mnoha desítek dobrovolníků.</p>\\n<p>Uslyšíme, jak kousek z nadačního fondu některým z nás změnil a nasměroval život.</p>\\n<p>Uvidíme, které modely z Kouskování nakoupíme v nadačním eshopu.</p>\\n<p>Přivítáme hosty, kteří přijdou nejen popřát a pobavíme se u mnoha vystoupení.</p>\\n<p>V závěru si užijeme nevšední koncert Lucie Klasek/The STRINGZ, kteří nás provedou od klasiky až k rocku.</p>\\n<p>Dobří lidé, dobroty a neotřelé prostředí fulneckého kláštera.</p>\\n<p><strong>Tak co? Už máte svou vstupenku?  <a href=\\"https://podpora.kousekpokousku.cz/vstupenky/\\">https://podpora.kousekpokousku.cz/vstupenky/</a></strong></p>","frontmatter":{"name":"OSLAVA 10 LET KOUSKŮ DOBRA BUĎTE U TOHO! VSTUPENKY V PRODEJI!","date":"07-09-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/b85e9e00f9f9d393b08f2a89e3efad62/c11fe/program-galave%C4%8Der.png","srcSet":"/static/b85e9e00f9f9d393b08f2a89e3efad62/0fd76/program-galave%C4%8Der.png 500w,\\n/static/b85e9e00f9f9d393b08f2a89e3efad62/a145d/program-galave%C4%8Der.png 1000w,\\n/static/b85e9e00f9f9d393b08f2a89e3efad62/c11fe/program-galave%C4%8Der.png 2000w","sizes":"(min-width: 2000px) 2000px, 100vw"},"sources":[{"srcSet":"/static/b85e9e00f9f9d393b08f2a89e3efad62/cd5ef/program-galave%C4%8Der.webp 500w,\\n/static/b85e9e00f9f9d393b08f2a89e3efad62/0f033/program-galave%C4%8Der.webp 1000w,\\n/static/b85e9e00f9f9d393b08f2a89e3efad62/c0e95/program-galave%C4%8Der.webp 2000w","type":"image/webp","sizes":"(min-width: 2000px) 2000px, 100vw"}]},"width":2000,"height":1000}}},"imageAlt":"Pozvánka a program SLAVNOSTNÍHO GALAVEČERA - 16. října"}}}},{"node":{"rawMarkdownBody":"Kolem účinků i zpracování Ostropestřce mariánského koluje mnoho mýtů. Je čas odhalit pravdu s přední bylinkářkou Míšou Brošovou.\\r\\n\\r\\nPřijďte si poslechnout informace přímo od ní! Věřte, stojí to za to. Mimoto si v praxi zkusíte, jak se ostropestřec sklízí, zpracovává a jak z něj připravit tu správnou „medicínu“. Taky s ní odejdete  \\r\\n\\r\\nTěšíme se na Vás v Zahradě HOJNOSTI ve Fulneku.","html":"<p>Kolem účinků i zpracování Ostropestřce mariánského koluje mnoho mýtů. Je čas odhalit pravdu s přední bylinkářkou Míšou Brošovou.</p>\\n<p>Přijďte si poslechnout informace přímo od ní! Věřte, stojí to za to. Mimoto si v praxi zkusíte, jak se ostropestřec sklízí, zpracovává a jak z něj připravit tu správnou „medicínu“. Taky s ní odejdete  </p>\\n<p>Těšíme se na Vás v Zahradě HOJNOSTI ve Fulneku.</p>","frontmatter":{"name":"Ostropestřec","date":"03-09-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/046bf762fc98abcd124d3b116acbb0cb/9c1c5/plakat-zahrada-ostropest%C5%99ec-8.9..png","srcSet":"/static/046bf762fc98abcd124d3b116acbb0cb/4d208/plakat-zahrada-ostropest%C5%99ec-8.9..png 413w,\\n/static/046bf762fc98abcd124d3b116acbb0cb/fa115/plakat-zahrada-ostropest%C5%99ec-8.9..png 827w,\\n/static/046bf762fc98abcd124d3b116acbb0cb/9c1c5/plakat-zahrada-ostropest%C5%99ec-8.9..png 1653w","sizes":"(min-width: 1653px) 1653px, 100vw"},"sources":[{"srcSet":"/static/046bf762fc98abcd124d3b116acbb0cb/ffbc5/plakat-zahrada-ostropest%C5%99ec-8.9..webp 413w,\\n/static/046bf762fc98abcd124d3b116acbb0cb/67d54/plakat-zahrada-ostropest%C5%99ec-8.9..webp 827w,\\n/static/046bf762fc98abcd124d3b116acbb0cb/0de36/plakat-zahrada-ostropest%C5%99ec-8.9..webp 1653w","type":"image/webp","sizes":"(min-width: 1653px) 1653px, 100vw"}]},"width":1653,"height":1650.0000000000002}}},"imageAlt":"Plakát - pozvánka na kurz s bylinářkou 8.9. 16:30 v Zahradě Hojnosti"}}}},{"node":{"rawMarkdownBody":"S radostí vyhlašujeme už 6. grantové kolo Nadačního fondu Kousek po kousku.\\r\\n\\r\\nUzávěrka příjmu žádostí je 4. září 2017 a žádat si můžete až o 50 000 Kč!\\r\\n\\r\\nKompletní informace včetně formulářů žádosti naleznete na těchto stánkách v sekci &#8220;Chcete žádat&#8221;\\r\\n","html":"<p>S radostí vyhlašujeme už 6. grantové kolo Nadačního fondu Kousek po kousku.</p>\\n<p>Uzávěrka příjmu žádostí je 4. září 2017 a žádat si můžete až o 50 000 Kč!</p>\\n<p>Kompletní informace včetně formulářů žádosti naleznete na těchto stánkách v sekci “Chcete žádat”</p>","frontmatter":{"name":"Nové grantové kolo s uzávěrkou 4. září 2017 vyhlášeno!","date":"19-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8b818","images":{"fallback":{"src":"/static/14c9ce3e560314a4894d6e16bc020fdb/8955e/kousek-web.jpg","srcSet":"/static/14c9ce3e560314a4894d6e16bc020fdb/633db/kousek-web.jpg 75w,\\n/static/14c9ce3e560314a4894d6e16bc020fdb/4fa1d/kousek-web.jpg 150w,\\n/static/14c9ce3e560314a4894d6e16bc020fdb/8955e/kousek-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/14c9ce3e560314a4894d6e16bc020fdb/b46c4/kousek-web.webp 75w,\\n/static/14c9ce3e560314a4894d6e16bc020fdb/9614f/kousek-web.webp 150w,\\n/static/14c9ce3e560314a4894d6e16bc020fdb/785ca/kousek-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":310}}},"imageAlt":"Nové grantové kolo s uzávěrkou 4. září 2017 vyhlášeno!"}}}},{"node":{"rawMarkdownBody":"Viz. Obrázek\\r\\n","html":"<p>Viz. Obrázek</p>","frontmatter":{"name":"Otevírací doba obchůdku KOUSEK","date":"16-05-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/34754fc88dc445e3f33de87717e8b0bc/3fbde/prodejn-doba3.jpg","srcSet":"/static/34754fc88dc445e3f33de87717e8b0bc/1564b/prodejn-doba3.jpg 75w,\\n/static/34754fc88dc445e3f33de87717e8b0bc/5db49/prodejn-doba3.jpg 150w,\\n/static/34754fc88dc445e3f33de87717e8b0bc/3fbde/prodejn-doba3.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/34754fc88dc445e3f33de87717e8b0bc/0653c/prodejn-doba3.webp 75w,\\n/static/34754fc88dc445e3f33de87717e8b0bc/f8095/prodejn-doba3.webp 150w,\\n/static/34754fc88dc445e3f33de87717e8b0bc/22003/prodejn-doba3.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":424}}},"imageAlt":"Otevírací doba obchůdku KOUSEK"}}}},{"node":{"rawMarkdownBody":"Bílovecký zámek ve spolupráci s tamní základní uměleckou školou ukončil svou letošní sezónu pro veřejnost 24. října velkým &#8220;Podzimním pohádkovým zámkem&#8221;. Akci navštívilo přes 600 malých i velkých návštěvníků. Nadační fond Kousek po kousku je rád, že mohl být taky při tom.\\r\\n","html":"<p>Bílovecký zámek ve spolupráci s tamní základní uměleckou školou ukončil svou letošní sezónu pro veřejnost 24. října velkým “Podzimním pohádkovým zámkem”. Akci navštívilo přes 600 malých i velkých návštěvníků. Nadační fond Kousek po kousku je rád, že mohl být taky při tom.</p>","frontmatter":{"name":"Podzimní pohádkový zámek","date":"21-02-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#b87838","images":{"fallback":{"src":"/static/349ff37233f1c4c6e8b46bcc453ba99f/5938e/zamek-bilovec-web-5.jpg","srcSet":"/static/349ff37233f1c4c6e8b46bcc453ba99f/d4afa/zamek-bilovec-web-5.jpg 75w,\\n/static/349ff37233f1c4c6e8b46bcc453ba99f/0dcd2/zamek-bilovec-web-5.jpg 151w,\\n/static/349ff37233f1c4c6e8b46bcc453ba99f/5938e/zamek-bilovec-web-5.jpg 301w","sizes":"(min-width: 301px) 301px, 100vw"},"sources":[{"srcSet":"/static/349ff37233f1c4c6e8b46bcc453ba99f/e0f0e/zamek-bilovec-web-5.webp 75w,\\n/static/349ff37233f1c4c6e8b46bcc453ba99f/b087c/zamek-bilovec-web-5.webp 151w,\\n/static/349ff37233f1c4c6e8b46bcc453ba99f/b743b/zamek-bilovec-web-5.webp 301w","type":"image/webp","sizes":"(min-width: 301px) 301px, 100vw"}]},"width":301,"height":224}}},"imageAlt":"Podzimní pohádkový zámek"}}}},{"node":{"rawMarkdownBody":"Otevíráme pro Vás KOUSEK PROSTORU, KTERÝ POTĚŠÍ ŠATNÍK A TŘEBA I VAŠE SRDCE. \\r\\n22.11.2018 v 16:30 v Dobročinném obchůdku, těšíme se na Vás ! :)\\r\\n","html":"<p>Otevíráme pro Vás KOUSEK PROSTORU, KTERÝ POTĚŠÍ ŠATNÍK A TŘEBA I VAŠE SRDCE.\\r\\n22.11.2018 v 16:30 v Dobročinném obchůdku, těšíme se na Vás ! :)</p>","frontmatter":{"name":"OTEVÍRÁME KOUSEK !","date":"14-05-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8b818","images":{"fallback":{"src":"/static/b8468ccb4ac2294f7d10abb3204340e4/0e480/pozvankaoteviramekousekokkreslici-platno-1-kopie.jpg","srcSet":"/static/b8468ccb4ac2294f7d10abb3204340e4/7aa1d/pozvankaoteviramekousekokkreslici-platno-1-kopie.jpg 75w,\\n/static/b8468ccb4ac2294f7d10abb3204340e4/ff040/pozvankaoteviramekousekokkreslici-platno-1-kopie.jpg 150w,\\n/static/b8468ccb4ac2294f7d10abb3204340e4/0e480/pozvankaoteviramekousekokkreslici-platno-1-kopie.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/b8468ccb4ac2294f7d10abb3204340e4/61789/pozvankaoteviramekousekokkreslici-platno-1-kopie.webp 75w,\\n/static/b8468ccb4ac2294f7d10abb3204340e4/bb60e/pozvankaoteviramekousekokkreslici-platno-1-kopie.webp 150w,\\n/static/b8468ccb4ac2294f7d10abb3204340e4/d5b94/pozvankaoteviramekousekokkreslici-platno-1-kopie.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":120}}},"imageAlt":"OTEVÍRÁME KOUSEK !"}}}},{"node":{"rawMarkdownBody":"V mimořádné výzvě bylo vybráno \\r\\n44 022,40 Kč! Všem moc děkujeme. Poděkování od Matěje naleznete zde.\\r\\n","html":"<p>V mimořádné výzvě bylo vybráno\\r\\n44 022,40 Kč! Všem moc děkujeme. Poděkování od Matěje naleznete zde.</p>","frontmatter":{"name":"Poděkování s cimbálem za oceán","date":"07-05-2021","link":"http://www.kousekpokousku.cz/chcete-davat.html","image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#e8e8e8","images":{"fallback":{"src":"/static/9ec843643d40c41cf42dfe3237c81be5/90b3e/cip1.png","srcSet":"/static/9ec843643d40c41cf42dfe3237c81be5/b822e/cip1.png 75w,\\n/static/9ec843643d40c41cf42dfe3237c81be5/8454b/cip1.png 150w,\\n/static/9ec843643d40c41cf42dfe3237c81be5/90b3e/cip1.png 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/9ec843643d40c41cf42dfe3237c81be5/86fd1/cip1.webp 75w,\\n/static/9ec843643d40c41cf42dfe3237c81be5/d8e1d/cip1.webp 150w,\\n/static/9ec843643d40c41cf42dfe3237c81be5/8a724/cip1.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":409}}},"imageAlt":"Poděkování s cimbálem za oceán"}}}},{"node":{"rawMarkdownBody":"Matěj Číp z Hodslavic požádal v roce 2018 o chybějící kousek financí, aby mohl se svým cimbálem odletět za oceán a začít studovat hru na cimbál ve Spojených státech. Vše klaplo a Matěj o sobě dává pravidelně vědět . Moc rádi se dělíme o jeho úspěchy i radosti.\\r\\nMatěji, ani netušíte, jak moc pro nás Vaše úspěchy a sdílení znamenají.\\r\\nMoc Vám držíme pěsti , děkujeme a zdravíme ","html":"<p>Matěj Číp z Hodslavic požádal v roce 2018 o chybějící kousek financí, aby mohl se svým cimbálem odletět za oceán a začít studovat hru na cimbál ve Spojených státech. Vše klaplo a Matěj o sobě dává pravidelně vědět . Moc rádi se dělíme o jeho úspěchy i radosti.\\r\\nMatěji, ani netušíte, jak moc pro nás Vaše úspěchy a sdílení znamenají.\\r\\nMoc Vám držíme pěsti , děkujeme a zdravíme</p>","frontmatter":{"name":"Pozdrav z Ameriky od Matěje Čípa","date":"05-06-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#d8d8d8","images":{"fallback":{"src":"/static/424551b49c6d055b77f46fcc7567e92a/f2a20/fotka-z-usa-matj-2.jpg","srcSet":"/static/424551b49c6d055b77f46fcc7567e92a/84a69/fotka-z-usa-matj-2.jpg 75w,\\n/static/424551b49c6d055b77f46fcc7567e92a/57878/fotka-z-usa-matj-2.jpg 150w,\\n/static/424551b49c6d055b77f46fcc7567e92a/f2a20/fotka-z-usa-matj-2.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/424551b49c6d055b77f46fcc7567e92a/71bf6/fotka-z-usa-matj-2.webp 75w,\\n/static/424551b49c6d055b77f46fcc7567e92a/6d886/fotka-z-usa-matj-2.webp 150w,\\n/static/424551b49c6d055b77f46fcc7567e92a/cf1f6/fotka-z-usa-matj-2.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":194}}},"imageAlt":"Pohlednice od Matěje Čípa"}}}},{"node":{"rawMarkdownBody":"Fotkou z loňského ročníku Vás zveme na letošní Pohádkové bruslení s Vendulou Ostřanskou, instruktorkou zumby a dalších pohybových aktivit nejen pro děti. Vendula pomáhá rozhýbávat děti po celém Novojičínsku a Nadační fond Kousek po kousku je rád, že může pomoci, aby její programy byly dostupné pro všechny děti bez rozdílu. Přijďte se 27.12 od 17:00 podívat na pohádkový zimní stadión v Novém Jičíně a sami uvidíte, jak dokáže pohyb a dobrý nápad děti rozparádit!\\r\\n","html":"<p>Fotkou z loňského ročníku Vás zveme na letošní Pohádkové bruslení s Vendulou Ostřanskou, instruktorkou zumby a dalších pohybových aktivit nejen pro děti. Vendula pomáhá rozhýbávat děti po celém Novojičínsku a Nadační fond Kousek po kousku je rád, že může pomoci, aby její programy byly dostupné pro všechny děti bez rozdílu. Přijďte se 27.12 od 17:00 podívat na pohádkový zimní stadión v Novém Jičíně a sami uvidíte, jak dokáže pohyb a dobrý nápad děti rozparádit!</p>","frontmatter":{"name":"Pohádkové bruslení s Vendou 27. prosince v Novém Jičíně","date":"25-02-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#181818","images":{"fallback":{"src":"/static/b224c2b5d1d19525ca6c3f726ce755ed/5343e/pohadkove-brusleni-web.jpg","srcSet":"/static/b224c2b5d1d19525ca6c3f726ce755ed/cff8d/pohadkove-brusleni-web.jpg 75w,\\n/static/b224c2b5d1d19525ca6c3f726ce755ed/dcad2/pohadkove-brusleni-web.jpg 150w,\\n/static/b224c2b5d1d19525ca6c3f726ce755ed/5343e/pohadkove-brusleni-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/b224c2b5d1d19525ca6c3f726ce755ed/41cff/pohadkove-brusleni-web.webp 75w,\\n/static/b224c2b5d1d19525ca6c3f726ce755ed/7d637/pohadkove-brusleni-web.webp 150w,\\n/static/b224c2b5d1d19525ca6c3f726ce755ed/993f4/pohadkove-brusleni-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":315}}},"imageAlt":"Pohádkové bruslení s Vendou 27. prosince v Novém Jičíně"}}}},{"node":{"rawMarkdownBody":"V ostravském klubu Fiducia byla pokřtěna nevšední kniha historika Vojtěcha Vlčka &#8220;Ostrava za ostnatými dráty&#8221; obsahující rozhovory s pamětníky nacistické a komunistické perzekuce. Obsáhlá publikace o více než 400 stranách přináší řadu unikátních dobových dokumentů z archivů, fotografií a dalších atraktivních materiálů, přičemž mnohé jsou veřejně publikovány poprvé. Nadační fond Kousek po kousku je rád, že i on mohl přispět svým kouskem k takto unikátnímu historickému projektu.\\r\\n","html":"<p>V ostravském klubu Fiducia byla pokřtěna nevšední kniha historika Vojtěcha Vlčka “Ostrava za ostnatými dráty” obsahující rozhovory s pamětníky nacistické a komunistické perzekuce. Obsáhlá publikace o více než 400 stranách přináší řadu unikátních dobových dokumentů z archivů, fotografií a dalších atraktivních materiálů, přičemž mnohé jsou veřejně publikovány poprvé. Nadační fond Kousek po kousku je rád, že i on mohl přispět svým kouskem k takto unikátnímu historickému projektu.</p>","frontmatter":{"name":"Pokřtěna kniha Ostrava za ostnatými dráty","date":"28-02-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#b8c8c8","images":{"fallback":{"src":"/static/918d52be46634003c337f8fadd21967b/e68a0/ostravazaostdratytitulka.jpg","srcSet":"/static/918d52be46634003c337f8fadd21967b/e8c51/ostravazaostdratytitulka.jpg 75w,\\n/static/918d52be46634003c337f8fadd21967b/766ad/ostravazaostdratytitulka.jpg 150w,\\n/static/918d52be46634003c337f8fadd21967b/e68a0/ostravazaostdratytitulka.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/918d52be46634003c337f8fadd21967b/8549f/ostravazaostdratytitulka.webp 75w,\\n/static/918d52be46634003c337f8fadd21967b/e098a/ostravazaostdratytitulka.webp 150w,\\n/static/918d52be46634003c337f8fadd21967b/73300/ostravazaostdratytitulka.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":488}}},"imageAlt":"Pokřtěna kniha Ostrava za ostnatými dráty"}}}},{"node":{"rawMarkdownBody":"Zahájení výstavy proběhne společně s otevřením obchůdku KOUSEK ve čtvrtek 22.11.2018 v 16.30h na Malé Straně 297 ve Studénce tak neváhej a doraž ! :)\\r\\n","html":"<p>Zahájení výstavy proběhne společně s otevřením obchůdku KOUSEK ve čtvrtek 22.11.2018 v 16.30h na Malé Straně 297 ve Studénce tak neváhej a doraž ! :)</p>","frontmatter":{"name":"Pozvánka na výstavu ze ŠUPLÍKU!","date":"13-05-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/aab15893d666be8a8fb96af146aa817c/33c7e/pozvankazesuplikunovaoprkreslici-platno-1.jpg","srcSet":"/static/aab15893d666be8a8fb96af146aa817c/a0ccf/pozvankazesuplikunovaoprkreslici-platno-1.jpg 75w,\\n/static/aab15893d666be8a8fb96af146aa817c/faf26/pozvankazesuplikunovaoprkreslici-platno-1.jpg 150w,\\n/static/aab15893d666be8a8fb96af146aa817c/33c7e/pozvankazesuplikunovaoprkreslici-platno-1.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/aab15893d666be8a8fb96af146aa817c/83a02/pozvankazesuplikunovaoprkreslici-platno-1.webp 75w,\\n/static/aab15893d666be8a8fb96af146aa817c/cd748/pozvankazesuplikunovaoprkreslici-platno-1.webp 150w,\\n/static/aab15893d666be8a8fb96af146aa817c/37f38/pozvankazesuplikunovaoprkreslici-platno-1.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":153}}},"imageAlt":"Pozvánka na výstavu ze ŠUPLÍKU!"}}}},{"node":{"rawMarkdownBody":"Další část výtěžku z Klášterního kouskování 2018 putoval na výtvarný workshop PROMĚNY MĚSTA pro žáky II. stupně na obou základních školách ve Fulneku. Vedla ho Magdaléna Feilhauerová a zúčastnilo se ho 140 žáků, kteří přicházeli s nápady o budoucí podobě města. Zde jsou některé z návrhů: muzeum látek v areálu Retexu; stěna pro legální graffiti a skatepark v areálu Romo; místa odpočinku (lavičky) na Jelením kopci; bludiště z živých keřů na zámku; občerstvení KFC v bývalé jídelně Romo… :-)\\r\\n","html":"<p>Další část výtěžku z Klášterního kouskování 2018 putoval na výtvarný workshop PROMĚNY MĚSTA pro žáky II. stupně na obou základních školách ve Fulneku. Vedla ho Magdaléna Feilhauerová a zúčastnilo se ho 140 žáků, kteří přicházeli s nápady o budoucí podobě města. Zde jsou některé z návrhů: muzeum látek v areálu Retexu; stěna pro legální graffiti a skatepark v areálu Romo; místa odpočinku (lavičky) na Jelením kopci; bludiště z živých keřů na zámku; občerstvení KFC v bývalé jídelně Romo… :-)</p>","frontmatter":{"name":"PROMĚNY MĚSTA","date":"11-05-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8a828","images":{"fallback":{"src":"/static/09efb6b11b9bedbbd2d809afa5802638/4fa1d/kousek-po-kousku-v2-150px-3.jpg","srcSet":"/static/09efb6b11b9bedbbd2d809afa5802638/30aed/kousek-po-kousku-v2-150px-3.jpg 38w,\\n/static/09efb6b11b9bedbbd2d809afa5802638/633db/kousek-po-kousku-v2-150px-3.jpg 75w,\\n/static/09efb6b11b9bedbbd2d809afa5802638/4fa1d/kousek-po-kousku-v2-150px-3.jpg 150w","sizes":"(min-width: 150px) 150px, 100vw"},"sources":[{"srcSet":"/static/09efb6b11b9bedbbd2d809afa5802638/e61a4/kousek-po-kousku-v2-150px-3.webp 38w,\\n/static/09efb6b11b9bedbbd2d809afa5802638/b46c4/kousek-po-kousku-v2-150px-3.webp 75w,\\n/static/09efb6b11b9bedbbd2d809afa5802638/9614f/kousek-po-kousku-v2-150px-3.webp 150w","type":"image/webp","sizes":"(min-width: 150px) 150px, 100vw"}]},"width":150,"height":155}}},"imageAlt":"PROMĚNY MĚSTA"}}}},{"node":{"rawMarkdownBody":"Přečtěte si první výroční zprávu Nadačního fondu Kousek po kousku, kde mimo jiné naleznete fotky a popis všech 16 podpořených projektů v roce 2012. Celou výroční zprávu naleznete ve formátu pdf v dolní sekci ke stažení nebo zde. Graficky ji připravil Martin Rusek se svou dcerou Sofií, autorkou doprovodných kreseb.\\r\\n","html":"<p>Přečtěte si první výroční zprávu Nadačního fondu Kousek po kousku, kde mimo jiné naleznete fotky a popis všech 16 podpořených projektů v roce 2012. Celou výroční zprávu naleznete ve formátu pdf v dolní sekci ke stažení nebo zde. Graficky ji připravil Martin Rusek se svou dcerou Sofií, autorkou doprovodných kreseb.</p>","frontmatter":{"name":"První výroční zpráva","date":"23-02-2021","link":"http://www.kousekpokousku.cz/pdf/vyrocni-zprava-NFKPK-2012.pdf","image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/15f5546977ea458d1794d8d1c509c6f5/b4570/vyr-3.jpg","srcSet":"/static/15f5546977ea458d1794d8d1c509c6f5/3315f/vyr-3.jpg 76w,\\n/static/15f5546977ea458d1794d8d1c509c6f5/8e325/vyr-3.jpg 151w,\\n/static/15f5546977ea458d1794d8d1c509c6f5/b4570/vyr-3.jpg 302w","sizes":"(min-width: 302px) 302px, 100vw"},"sources":[{"srcSet":"/static/15f5546977ea458d1794d8d1c509c6f5/532e3/vyr-3.webp 76w,\\n/static/15f5546977ea458d1794d8d1c509c6f5/e1739/vyr-3.webp 151w,\\n/static/15f5546977ea458d1794d8d1c509c6f5/81914/vyr-3.webp 302w","type":"image/webp","sizes":"(min-width: 302px) 302px, 100vw"}]},"width":302,"height":226}}},"imageAlt":"První výroční zpráva"}}}},{"node":{"rawMarkdownBody":"Přijďte si vyrobit věnec z přírodních materiálů na stůl nebo dveře.\\r\\n\\r\\nKdy? \\r\\núterý   27.11.2018 _ 9.30 &#8211; 12.30 14.00 &#8211; 17.00\\r\\nstředa  28.11.2018 _ 9.30 &#8211; 12.30 14.00 &#8211; 17.00\\r\\nčtvrtek 29.11.2018 _ 9.30 &#8211; 12.30 14.00 &#8211; 17.00\\r\\n\\r\\nKde?\\r\\nDobročinný Obchůdek KOUSEK, Malá strana 297, Studénka.\\r\\n\\r\\nKaždá dílna je max pro 10 osob. Zaplatíte jen cenu spotřebovaného materiálu. Kurzem Vás provede zkušená floristka.\\r\\nPro přihlášení volejte na tel. číslo 702 022 975 nebo pište na email: info@kousekpokousku.cz\\r\\n","html":"<p>Přijďte si vyrobit věnec z přírodních materiálů na stůl nebo dveře.</p>\\n<p>Kdy?\\r\\núterý   27.11.2018 _ 9.30 – 12.30 14.00 – 17.00\\r\\nstředa  28.11.2018 _ 9.30 – 12.30 14.00 – 17.00\\r\\nčtvrtek 29.11.2018 _ 9.30 – 12.30 14.00 – 17.00</p>\\n<p>Kde?\\r\\nDobročinný Obchůdek KOUSEK, Malá strana 297, Studénka.</p>\\n<p>Každá dílna je max pro 10 osob. Zaplatíte jen cenu spotřebovaného materiálu. Kurzem Vás provede zkušená floristka.\\r\\nPro přihlášení volejte na tel. číslo 702 022 975 nebo pište na email: <a href=\\"mailto:info@kousekpokousku.cz\\">info@kousekpokousku.cz</a></p>","frontmatter":{"name":"Pozvánka na Dílničky v obchůdku KOUSEK!","date":"12-05-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/67a2ca8981e0121a646c9daaaeacb6f4/3fbde/dilnickykousekpozvankakreslici-platno-1.jpg","srcSet":"/static/67a2ca8981e0121a646c9daaaeacb6f4/1564b/dilnickykousekpozvankakreslici-platno-1.jpg 75w,\\n/static/67a2ca8981e0121a646c9daaaeacb6f4/5db49/dilnickykousekpozvankakreslici-platno-1.jpg 150w,\\n/static/67a2ca8981e0121a646c9daaaeacb6f4/3fbde/dilnickykousekpozvankakreslici-platno-1.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/67a2ca8981e0121a646c9daaaeacb6f4/0653c/dilnickykousekpozvankakreslici-platno-1.webp 75w,\\n/static/67a2ca8981e0121a646c9daaaeacb6f4/f8095/dilnickykousekpozvankakreslici-platno-1.webp 150w,\\n/static/67a2ca8981e0121a646c9daaaeacb6f4/22003/dilnickykousekpozvankakreslici-platno-1.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":424}}},"imageAlt":"Pozvánka na Dílničky v obchůdku KOUSEK!"}}}},{"node":{"rawMarkdownBody":"Jedním z grantistů, který nám dělá velkou radost, je už nějaký čas Magdaléna Feilhauerová &#8211; místní mladá talentovaná umělkyně, které jsme v minulosti přispívali na náročné studium střední umělecké školy v Uherském Hradišti. Letos jsme Magdalénu podpořili v jejím skvělém nápadu vyrobit zábavné vzdělávací materiály pro místní děti při návštěvě různých fulneckých pamětihodností a muzea, tak jak je tomu ve světě již dávno běžné.\\r\\n\\r\\nO tom, že Fulnecko není Magdaléně vůbec lhostejné, svědčí i spousta krasných vymalovaných prostor (jako např. autobusová zastávka, kavárna, škola či mateřská školka), které výrazně ožily pod jejíma kreativníma rukama.\\r\\n\\r\\nBudeme se těšit na další realizace a nápady!\\r\\n","html":"<p>Jedním z grantistů, který nám dělá velkou radost, je už nějaký čas Magdaléna Feilhauerová – místní mladá talentovaná umělkyně, které jsme v minulosti přispívali na náročné studium střední umělecké školy v Uherském Hradišti. Letos jsme Magdalénu podpořili v jejím skvělém nápadu vyrobit zábavné vzdělávací materiály pro místní děti při návštěvě různých fulneckých pamětihodností a muzea, tak jak je tomu ve světě již dávno běžné.</p>\\n<p>O tom, že Fulnecko není Magdaléně vůbec lhostejné, svědčí i spousta krasných vymalovaných prostor (jako např. autobusová zastávka, kavárna, škola či mateřská školka), které výrazně ožily pod jejíma kreativníma rukama.</p>\\n<p>Budeme se těšit na další realizace a nápady!</p>","frontmatter":{"name":"Představujeme dalšího držitele letošního nadačního příspěvku - Magdalénu Feilhauerovou!","date":"11-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#c8b858","images":{"fallback":{"src":"/static/1ad6f8e17c6f19f4854475ec78696904/dcaf8/magda-web-1.jpg","srcSet":"/static/1ad6f8e17c6f19f4854475ec78696904/bc8ca/magda-web-1.jpg 75w,\\n/static/1ad6f8e17c6f19f4854475ec78696904/10292/magda-web-1.jpg 150w,\\n/static/1ad6f8e17c6f19f4854475ec78696904/dcaf8/magda-web-1.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/1ad6f8e17c6f19f4854475ec78696904/bef47/magda-web-1.webp 75w,\\n/static/1ad6f8e17c6f19f4854475ec78696904/83645/magda-web-1.webp 150w,\\n/static/1ad6f8e17c6f19f4854475ec78696904/4fdb9/magda-web-1.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":400}}},"imageAlt":"Představujeme dalšího držitele letošního nadačního příspěvku - Magdalénu Feilhauerovou!"}}}},{"node":{"rawMarkdownBody":"Máme pro Vás skvělou zprávu v pátek 6.12.2019 jsme na vánočním večírku předali částku 20 000 Kč zástupcům spolku Intervence pro autismus. Klienti spolku peníze využijí na rehabilitaci.\\r\\n\\r\\nVěříme, že rehabilitace přispěje ke zdraví a pohodě :)\\r\\n","html":"<p>Máme pro Vás skvělou zprávu v pátek 6.12.2019 jsme na vánočním večírku předali částku 20 000 Kč zástupcům spolku Intervence pro autismus. Klienti spolku peníze využijí na rehabilitaci.</p>\\n<p>Věříme, že rehabilitace přispěje ke zdraví a pohodě :)</p>","frontmatter":{"name":"Předání finančního daru 20 000 Kč","date":"27-05-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#282828","images":{"fallback":{"src":"/static/a57a44d06a31cdaf8a3ead3e2d62480c/d924c/img20191206201846-kopie.jpg","srcSet":"/static/a57a44d06a31cdaf8a3ead3e2d62480c/d4afa/img20191206201846-kopie.jpg 75w,\\n/static/a57a44d06a31cdaf8a3ead3e2d62480c/05e34/img20191206201846-kopie.jpg 150w,\\n/static/a57a44d06a31cdaf8a3ead3e2d62480c/d924c/img20191206201846-kopie.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/a57a44d06a31cdaf8a3ead3e2d62480c/e0f0e/img20191206201846-kopie.webp 75w,\\n/static/a57a44d06a31cdaf8a3ead3e2d62480c/e80bb/img20191206201846-kopie.webp 150w,\\n/static/a57a44d06a31cdaf8a3ead3e2d62480c/a8059/img20191206201846-kopie.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":225}}},"imageAlt":"Předání finančního daru 20 000 Kč"}}}},{"node":{"rawMarkdownBody":"Nadační fond Kousek po kousku a Comenius Fulnek vás zvou od 21. &#8211; do 24. května 2016 na již tradiční dobročinný bazar s oblečením a doplňky již do pouhé stokoruny.\\r\\n\\r\\nKoupí přispějete na dohotovení historického modelu města Fulnek, na podporu vydání Knihy „Dům v zahradě Páně. Fulnecký klášter v proměnách staletí“. Další část poputuje Karolínce na motor k Invalidnímu vozíku a poslední část bude věnována vzdělávacímu programu pro studenty Social Impact Award.\\r\\n\\r\\nNěkterá lákadla víkendové doprovodného programu:\\r\\n\\r\\nVystoupení taneční skupiny dětí pod taktovkou Venduly Pavlicové.\\r\\nTanec Panenky s invalidním vozíčkem v podání Karolínky Dejové a Elišky Jeřábkové.\\r\\nTradičně netradiční Módní přehlídka Lenky Sršňové.\\r\\nPásmo animovaných filmů pro děti v oratoři od AniPromítačky.\\r\\nPo celé odpoledne zajištěn prodej občerstvení díky laskavé pomoci seniorů z Fulneku.\\r\\n\\r\\nVíce informací a fotografií naleznete na našich FB stránkách a webu http://www.klasternikouskovani.cz/.\\r\\n\\r\\nTěšíme se na Vás!\\r\\n","html":"<p>Nadační fond Kousek po kousku a Comenius Fulnek vás zvou od 21. – do 24. května 2016 na již tradiční dobročinný bazar s oblečením a doplňky již do pouhé stokoruny.</p>\\n<p>Koupí přispějete na dohotovení historického modelu města Fulnek, na podporu vydání Knihy „Dům v zahradě Páně. Fulnecký klášter v proměnách staletí“. Další část poputuje Karolínce na motor k Invalidnímu vozíku a poslední část bude věnována vzdělávacímu programu pro studenty Social Impact Award.</p>\\n<p>Některá lákadla víkendové doprovodného programu:</p>\\n<p>Vystoupení taneční skupiny dětí pod taktovkou Venduly Pavlicové.\\r\\nTanec Panenky s invalidním vozíčkem v podání Karolínky Dejové a Elišky Jeřábkové.\\r\\nTradičně netradiční Módní přehlídka Lenky Sršňové.\\r\\nPásmo animovaných filmů pro děti v oratoři od AniPromítačky.\\r\\nPo celé odpoledne zajištěn prodej občerstvení díky laskavé pomoci seniorů z Fulneku.</p>\\n<p>Více informací a fotografií naleznete na našich FB stránkách a webu <a href=\\"http://www.klasternikouskovani.cz/\\">http://www.klasternikouskovani.cz/</a>.</p>\\n<p>Těšíme se na Vás!</p>","frontmatter":{"name":"Přijďte si opět vybrat módní kousky, co zahřejí Vaše  tělo i duši a pomůžou k záchraně kláštera!","date":"29-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/de6af0b6fed52c912b23390be91d064e/1814f/web-pozvanka.jpg","srcSet":"/static/de6af0b6fed52c912b23390be91d064e/3187d/web-pozvanka.jpg 75w,\\n/static/de6af0b6fed52c912b23390be91d064e/46685/web-pozvanka.jpg 150w,\\n/static/de6af0b6fed52c912b23390be91d064e/1814f/web-pozvanka.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/de6af0b6fed52c912b23390be91d064e/b1852/web-pozvanka.webp 75w,\\n/static/de6af0b6fed52c912b23390be91d064e/a30a2/web-pozvanka.webp 150w,\\n/static/de6af0b6fed52c912b23390be91d064e/deaca/web-pozvanka.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":212}}},"imageAlt":"Přijďte si opět vybrat módní kousky, co zahřejí Vaše  tělo i duši a pomůžou k záchraně kláštera!"}}}},{"node":{"rawMarkdownBody":"Líbí se Vám, co Nadační Kousek po kousku dělá? Chcete se zapojit? Anebo prostě jen potřebujete vyřešit vánoční dárek&#8230;\\r\\n\\r\\nMáme pro Vás nápadité řešení!\\r\\n\\r\\nPřipravili jsem pro Vás stejně jako loňský rok dárkové &#8220;Certifikáty granda&#8221; v mužském i ženském rodě.\\r\\n\\r\\nPokud se rozhodnete přispět na činnost našeho Nadačního fondu libovolným finančním kouskem v minimální výší 200 Kč, vystavíme Vám originální certifikát, a to buď na jméno Vaše nebo Vámi obdarovaného. Certifikát tak může někomu viset na stěně jako nevšední vánoční dárek, který zároveň pomohl.\\r\\n\\r\\nV případě jakýchkoliv dotazů nás neváhejte kontaktovat na info@kousekpokousku.cz.\\r\\n\\r\\nA pro ty, kteří chtějí přispět bleskově, máme v sekci &#8220;Chcete dávat&#8221; připraveno jednoduché darovací tlačítko.\\r\\n\\r\\nPřejeme Vám už teď kousek vánoční pohody a žádný předvánoční stres!\\r\\n","html":"<p>Líbí se Vám, co Nadační Kousek po kousku dělá? Chcete se zapojit? Anebo prostě jen potřebujete vyřešit vánoční dárek…</p>\\n<p>Máme pro Vás nápadité řešení!</p>\\n<p>Připravili jsem pro Vás stejně jako loňský rok dárkové “Certifikáty granda” v mužském i ženském rodě.</p>\\n<p>Pokud se rozhodnete přispět na činnost našeho Nadačního fondu libovolným finančním kouskem v minimální výší 200 Kč, vystavíme Vám originální certifikát, a to buď na jméno Vaše nebo Vámi obdarovaného. Certifikát tak může někomu viset na stěně jako nevšední vánoční dárek, který zároveň pomohl.</p>\\n<p>V případě jakýchkoliv dotazů nás neváhejte kontaktovat na <a href=\\"mailto:info@kousekpokousku.cz\\">info@kousekpokousku.cz</a>.</p>\\n<p>A pro ty, kteří chtějí přispět bleskově, máme v sekci “Chcete dávat” připraveno jednoduché darovací tlačítko.</p>\\n<p>Přejeme Vám už teď kousek vánoční pohody a žádný předvánoční stres!</p>","frontmatter":{"name":"Přispějte taky kouskem! Nadační fond Kousek po Kousku hledá nové partnery, pomocníky a dárce!","date":"13-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/67604f986249af15e59a844fdc89668b/30d4e/cerfikat-web.jpg","srcSet":"/static/67604f986249af15e59a844fdc89668b/22a0b/cerfikat-web.jpg 75w,\\n/static/67604f986249af15e59a844fdc89668b/2c2c4/cerfikat-web.jpg 150w,\\n/static/67604f986249af15e59a844fdc89668b/30d4e/cerfikat-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/67604f986249af15e59a844fdc89668b/644cc/cerfikat-web.webp 75w,\\n/static/67604f986249af15e59a844fdc89668b/0f8a4/cerfikat-web.webp 150w,\\n/static/67604f986249af15e59a844fdc89668b/73868/cerfikat-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":209}}},"imageAlt":"Přispějte taky kouskem! Nadační fond Kousek po Kousku hledá nové partnery, pomocníky a dárce!"}}}},{"node":{"rawMarkdownBody":"Fráze? Nikoli!\\r\\n\\r\\n**Světová zdravotnická organizace / WHO / definuje ZDRAVÍ jako stav úplného tělesného, duševního a sociálního blaha nebo také stav úplné tělesné, duševní a sociální pohody.**\\r\\n\\r\\n \\r\\n\\r\\nAno, být v rovnováze – znamená cítit se skvěle. Hledejme ji. Vyvažujme. Co pro ni děláme? Mnohdy stačit uvědomit si, kde je pomyslný střed a kde jsme my.  \\r\\n\\r\\n \\r\\n\\r\\nRovnováze se věnují i stěžejní projekty NF letošního roku. Sociální klinika, Intervence pro AUTISMUS i vlastní nadační projekt Zahrada HOJNOSTI, která má mimo jiné i významný terapeutický kontext.","html":"<p>Fráze? Nikoli!</p>\\n<p><strong>Světová zdravotnická organizace / WHO / definuje ZDRAVÍ jako stav úplného tělesného, duševního a sociálního blaha nebo také stav úplné tělesné, duševní a sociální pohody.</strong></p>\\n<p> </p>\\n<p>Ano, být v rovnováze – znamená cítit se skvěle. Hledejme ji. Vyvažujme. Co pro ni děláme? Mnohdy stačit uvědomit si, kde je pomyslný střed a kde jsme my.  </p>\\n<p> </p>\\n<p>Rovnováze se věnují i stěžejní projekty NF letošního roku. Sociální klinika, Intervence pro AUTISMUS i vlastní nadační projekt Zahrada HOJNOSTI, která má mimo jiné i významný terapeutický kontext.</p>","frontmatter":{"name":"ROVNOVÁHA","date":"08-06-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#789848","images":{"fallback":{"src":"/static/c216fe134757262daa7dd3a54009c3a8/dfa87/sn%C3%ADmek1.jpg","srcSet":"/static/c216fe134757262daa7dd3a54009c3a8/28478/sn%C3%ADmek1.jpg 504w,\\n/static/c216fe134757262daa7dd3a54009c3a8/67016/sn%C3%ADmek1.jpg 1008w,\\n/static/c216fe134757262daa7dd3a54009c3a8/dfa87/sn%C3%ADmek1.jpg 2016w","sizes":"(min-width: 2016px) 2016px, 100vw"},"sources":[{"srcSet":"/static/c216fe134757262daa7dd3a54009c3a8/f5c6d/sn%C3%ADmek1.webp 504w,\\n/static/c216fe134757262daa7dd3a54009c3a8/f2138/sn%C3%ADmek1.webp 1008w,\\n/static/c216fe134757262daa7dd3a54009c3a8/7efed/sn%C3%ADmek1.webp 2016w","type":"image/webp","sizes":"(min-width: 2016px) 2016px, 100vw"}]},"width":2016,"height":1134}}},"imageAlt":"Dualita a její rovnováha"}}}},{"node":{"rawMarkdownBody":"Spolek Comenius Fulnek pracuje v těchto dnech díky podpoře nadačního fondu Kousek po kousku na vytvoření audioprůvodce městem Fulnek v rámci projektu s názvem Cesta města.\\r\\n\\r\\nOd zahájení projektu byly vytvořeny texty k vybraným fulneckým památkám a zajímavostem (např. Památník J.A.K, Knurrův palác, zámek, morový sloup apod.), které byly přeloženy do angličtiny, němčiny, francouzštiny a polštiny. Následně budou rodilými mluvčími namluveny  tak, aby v nové turistické sezóně mohl audioprůvodce sloužit českým i zahraničním návštěvníkům Fulneku.\\r\\n\\r\\nO dalším vývoj tohoto inovativního, krásného projektu Vás budeme i nadále informovat!\\r\\n","html":"<p>Spolek Comenius Fulnek pracuje v těchto dnech díky podpoře nadačního fondu Kousek po kousku na vytvoření audioprůvodce městem Fulnek v rámci projektu s názvem Cesta města.</p>\\n<p>Od zahájení projektu byly vytvořeny texty k vybraným fulneckým památkám a zajímavostem (např. Památník J.A.K, Knurrův palác, zámek, morový sloup apod.), které byly přeloženy do angličtiny, němčiny, francouzštiny a polštiny. Následně budou rodilými mluvčími namluveny  tak, aby v nové turistické sezóně mohl audioprůvodce sloužit českým i zahraničním návštěvníkům Fulneku.</p>\\n<p>O dalším vývoj tohoto inovativního, krásného projektu Vás budeme i nadále informovat!</p>","frontmatter":{"name":"Rodí se nový audioprůvodce městem Fulnek!","date":"18-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#e8d8c8","images":{"fallback":{"src":"/static/14cb6e9eedc94a82b8933204f5b6f330/d924c/fotka-na-web-final.jpg","srcSet":"/static/14cb6e9eedc94a82b8933204f5b6f330/d4afa/fotka-na-web-final.jpg 75w,\\n/static/14cb6e9eedc94a82b8933204f5b6f330/05e34/fotka-na-web-final.jpg 150w,\\n/static/14cb6e9eedc94a82b8933204f5b6f330/d924c/fotka-na-web-final.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/14cb6e9eedc94a82b8933204f5b6f330/e0f0e/fotka-na-web-final.webp 75w,\\n/static/14cb6e9eedc94a82b8933204f5b6f330/e80bb/fotka-na-web-final.webp 150w,\\n/static/14cb6e9eedc94a82b8933204f5b6f330/a8059/fotka-na-web-final.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":225}}},"imageAlt":"Rodí se nový audioprůvodce městem Fulnek!"}}}},{"node":{"rawMarkdownBody":"V listopadu se v oratoři kostela sv. Josefa ve Fulneku uskutečnilo v rámci Nadačním fondem podpořeného projektu &#8220;Fulnek žije, ne že ne!&#8221; a za účasti fulnecké starostky Jany Mocové setkání fulneckých spolků. Přítomní zástupci představili svou činnost a vzniklo snad i několik budoucích spoluprací. Pokud máte zájem dozvědět se více a získat kontakty na jednotlivé spolky, kontaktujte prosím organizátorku Terezu Klevarovou na info@comeniusfulnek.cz.\\r\\n","html":"<p>V listopadu se v oratoři kostela sv. Josefa ve Fulneku uskutečnilo v rámci Nadačním fondem podpořeného projektu “Fulnek žije, ne že ne!” a za účasti fulnecké starostky Jany Mocové setkání fulneckých spolků. Přítomní zástupci představili svou činnost a vzniklo snad i několik budoucích spoluprací. Pokud máte zájem dozvědět se více a získat kontakty na jednotlivé spolky, kontaktujte prosím organizátorku Terezu Klevarovou na <a href=\\"mailto:info@comeniusfulnek.cz\\">info@comeniusfulnek.cz</a>.</p>","frontmatter":{"name":"Setkání fulneckých spolků","date":"22-02-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#887868","images":{"fallback":{"src":"/static/c66ef84cac66ee5ecd34d23697ba6bef/81bf6/setkani-spolku-web.jpg","srcSet":"/static/c66ef84cac66ee5ecd34d23697ba6bef/77ce8/setkani-spolku-web.jpg 75w,\\n/static/c66ef84cac66ee5ecd34d23697ba6bef/f1a3a/setkani-spolku-web.jpg 150w,\\n/static/c66ef84cac66ee5ecd34d23697ba6bef/81bf6/setkani-spolku-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/c66ef84cac66ee5ecd34d23697ba6bef/0987d/setkani-spolku-web.webp 75w,\\n/static/c66ef84cac66ee5ecd34d23697ba6bef/70dfd/setkani-spolku-web.webp 150w,\\n/static/c66ef84cac66ee5ecd34d23697ba6bef/9b21f/setkani-spolku-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":200}}},"imageAlt":"Setkání fulneckých spolků"}}}},{"node":{"rawMarkdownBody":"V únoru proběhlo již tradiční setkání zástupců Nadačního fondu s grantisty a jejich podpořenými projekty.\\r\\n\\r\\nDěkujeme moc všem, kteří si našli čas a prezentovali, co se jim v uplynulých letech i díky našemu nadačnímu kousku povedlo. Bylo to jako vždy velmi inspirující a motivační.\\r\\n\\r\\nDěkujeme taky moc Muzeu Novojičínska, které nám vždy laskavě propůjčí krásné prostory oratoře v Kostele sv. Josefa ve Fulneku pro naše setkávání.\\r\\n","html":"<p>V únoru proběhlo již tradiční setkání zástupců Nadačního fondu s grantisty a jejich podpořenými projekty.</p>\\n<p>Děkujeme moc všem, kteří si našli čas a prezentovali, co se jim v uplynulých letech i díky našemu nadačnímu kousku povedlo. Bylo to jako vždy velmi inspirující a motivační.</p>\\n<p>Děkujeme taky moc Muzeu Novojičínska, které nám vždy laskavě propůjčí krásné prostory oratoře v Kostele sv. Josefa ve Fulneku pro naše setkávání.</p>","frontmatter":{"name":"Setkání s grantisty Nadačního fondu Kousek po kousku","date":"17-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#787868","images":{"fallback":{"src":"/static/18321dca7c3ce43f5a52296e88202656/0fdf4/setkani-web.jpg","srcSet":"/static/18321dca7c3ce43f5a52296e88202656/91a6d/setkani-web.jpg 75w,\\n/static/18321dca7c3ce43f5a52296e88202656/96deb/setkani-web.jpg 150w,\\n/static/18321dca7c3ce43f5a52296e88202656/0fdf4/setkani-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/18321dca7c3ce43f5a52296e88202656/18188/setkani-web.webp 75w,\\n/static/18321dca7c3ce43f5a52296e88202656/c65bc/setkani-web.webp 150w,\\n/static/18321dca7c3ce43f5a52296e88202656/078c3/setkani-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":300}}},"imageAlt":"Setkání s grantisty Nadačního fondu Kousek po kousku"}}}},{"node":{"rawMarkdownBody":"V roce 2015 se nám podařilo díky Vaší skvělé podpoře realizovat první část modelu města Fulneku z 18.století, který je v současnosti přístupný veřejnosti v Kostele sv. Josefa. Na modelu se stále pracuje. Každý ročník (2016, 2017 a 2018) se model města Fulneku z 18 století rozšiřuje a my se tak můžeme těšit na tohle úžasné dílo. Na obrázku můžete vidět historický model kláštera z 18. století.\\r\\n","html":"<p>V roce 2015 se nám podařilo díky Vaší skvělé podpoře realizovat první část modelu města Fulneku z 18.století, který je v současnosti přístupný veřejnosti v Kostele sv. Josefa. Na modelu se stále pracuje. Každý ročník (2016, 2017 a 2018) se model města Fulneku z 18 století rozšiřuje a my se tak můžeme těšit na tohle úžasné dílo. Na obrázku můžete vidět historický model kláštera z 18. století.</p>","frontmatter":{"name":"Rozšíření historického modelu města Fulnek","date":"02-05-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#888888","images":{"fallback":{"src":"/static/c20b414d30fe5a0d44b1f03df1449b05/d924c/img20180605155413.jpg","srcSet":"/static/c20b414d30fe5a0d44b1f03df1449b05/d4afa/img20180605155413.jpg 75w,\\n/static/c20b414d30fe5a0d44b1f03df1449b05/05e34/img20180605155413.jpg 150w,\\n/static/c20b414d30fe5a0d44b1f03df1449b05/d924c/img20180605155413.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/c20b414d30fe5a0d44b1f03df1449b05/e0f0e/img20180605155413.webp 75w,\\n/static/c20b414d30fe5a0d44b1f03df1449b05/e80bb/img20180605155413.webp 150w,\\n/static/c20b414d30fe5a0d44b1f03df1449b05/a8059/img20180605155413.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":225}}},"imageAlt":"Rozšíření historického modelu města Fulnek"}}}},{"node":{"rawMarkdownBody":"\\r\\n[https://www.youtube.com/watch?v=-49HE-gAxok](https://www.youtube.com/watch?v=-49HE-gAxok)\\r\\nPopová houslistka Lucie Klasek neuvěřitelně atraktivním způsobem propojuje klasiku s popem ![🎶](https://lh4.googleusercontent.com/0Y90BHpWNnirQs4p5pjDbUBQwV3ibrM2d-6uwE4Nm4JU9ZXKTDzTbWXxbIsyxy599Afilf7FW8qmWw_TlPfk0vxbLiiL8sBMgJRmiGfjv4XMLzFZCMUD6OfrG2KsgQWUP2uISII)![💕](https://lh3.googleusercontent.com/iznUhUj91KSdBh7ZnWiyaLPacObRNvVVf4Wdjsko5U1UX5fO1512S5MkWmztw1EVIleEPspCchx37uGUVjhzo4MXgl_SeoQJHJLkQ5DOHaGlh0pddj5qIujg_YQ3evLEpKfZp7Q)a zvuk jejích houslí umí pohladit i nejtemnější kouty duše. \\r\\n\\r\\nLucie pochází z Hrabyně. Vystudovala Janáčkovu konzervatoř v Ostravě a po své cestě do Ameriky, kam odjela za zkušenostmi, zakotvila ve Vídni, pak v Praze. \\r\\n\\r\\nPořád je ale srdcem na severu Moravy a dlouho si přála natočit klip doma – v Beskydech. \\r\\n\\r\\nKdyž k realizaci došlo, účastnil se i Moravskoslezský kraj a kousek přišel také z Nadačního fondu Kousek po kousku.  STORM A. Vivaldiho v originální aranži se zhmotnil do obrazu pod Lysou, na Hukvaldech i zřícenině Vikštejn. \\r\\n\\r\\nNejen díky spolupráci Lucie zahraje na SLAVNOSTNÍM GALAVEČERU při příležitosti 10 let kousků dobra. Koncert Lucie Klasek & The Stringz v sobotu 16. října – v kostele sv. Josefa ve Fulneku - proběhne v rámci Slavnostního galavečera a znovu ještě samostatně v neděli 17.10. 2021. ","html":"<p><a href=\\"https://www.youtube.com/watch?v=-49HE-gAxok\\">https://www.youtube.com/watch?v=-49HE-gAxok</a>\\r\\nPopová houslistka Lucie Klasek neuvěřitelně atraktivním způsobem propojuje klasiku s popem <img src=\\"https://lh4.googleusercontent.com/0Y90BHpWNnirQs4p5pjDbUBQwV3ibrM2d-6uwE4Nm4JU9ZXKTDzTbWXxbIsyxy599Afilf7FW8qmWw_TlPfk0vxbLiiL8sBMgJRmiGfjv4XMLzFZCMUD6OfrG2KsgQWUP2uISII\\" alt=\\"🎶\\"><img src=\\"https://lh3.googleusercontent.com/iznUhUj91KSdBh7ZnWiyaLPacObRNvVVf4Wdjsko5U1UX5fO1512S5MkWmztw1EVIleEPspCchx37uGUVjhzo4MXgl_SeoQJHJLkQ5DOHaGlh0pddj5qIujg_YQ3evLEpKfZp7Q\\" alt=\\"💕\\">a zvuk jejích houslí umí pohladit i nejtemnější kouty duše. </p>\\n<p>Lucie pochází z Hrabyně. Vystudovala Janáčkovu konzervatoř v Ostravě a po své cestě do Ameriky, kam odjela za zkušenostmi, zakotvila ve Vídni, pak v Praze. </p>\\n<p>Pořád je ale srdcem na severu Moravy a dlouho si přála natočit klip doma – v Beskydech. </p>\\n<p>Když k realizaci došlo, účastnil se i Moravskoslezský kraj a kousek přišel také z Nadačního fondu Kousek po kousku.  STORM A. Vivaldiho v originální aranži se zhmotnil do obrazu pod Lysou, na Hukvaldech i zřícenině Vikštejn. </p>\\n<p>Nejen díky spolupráci Lucie zahraje na SLAVNOSTNÍM GALAVEČERU při příležitosti 10 let kousků dobra. Koncert Lucie Klasek &#x26; The Stringz v sobotu 16. října – v kostele sv. Josefa ve Fulneku - proběhne v rámci Slavnostního galavečera a znovu ještě samostatně v neděli 17.10. 2021. </p>","frontmatter":{"name":"Podpořili jsme bouři strun","date":"09-06-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/d919933ef3bd810b07fb2edc08c2b15a/50a65/safe_image.jpg","srcSet":"/static/d919933ef3bd810b07fb2edc08c2b15a/2071f/safe_image.jpg 125w,\\n/static/d919933ef3bd810b07fb2edc08c2b15a/ee285/safe_image.jpg 250w,\\n/static/d919933ef3bd810b07fb2edc08c2b15a/50a65/safe_image.jpg 500w","sizes":"(min-width: 500px) 500px, 100vw"},"sources":[{"srcSet":"/static/d919933ef3bd810b07fb2edc08c2b15a/971ea/safe_image.webp 125w,\\n/static/d919933ef3bd810b07fb2edc08c2b15a/907fe/safe_image.webp 250w,\\n/static/d919933ef3bd810b07fb2edc08c2b15a/5933c/safe_image.webp 500w","type":"image/webp","sizes":"(min-width: 500px) 500px, 100vw"}]},"width":500,"height":260}}},"imageAlt":"The stringz"}}}},{"node":{"rawMarkdownBody":"ZVEME VÁS na Zahradu HOJNOSTI ![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f49a.png)![🌼](https://static.xx.fbcdn.net/images/emoji.php/v9/t9b/1/16/1f33c.png)![🍀](https://static.xx.fbcdn.net/images/emoji.php/v9/t87/1/16/1f340.png), na historicky první WORKSHOP ! Pokud věříte v sílu a moc bylin, využijte příležitosti načerpat zkušenosti od úžasné odbornice Míši Brošové. Jde o setkání ze seriálu Rok (s) bylinkářkou a jsme rádi, že proběhne právě u nás.\\r\\n\\r\\nV SOBOTU 14.8.2021 v Zahradě HOJNOSTI ![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f49a.png)![🌼](https://static.xx.fbcdn.net/images/emoji.php/v9/t9b/1/16/1f33c.png)![🍀](https://static.xx.fbcdn.net/images/emoji.php/v9/t87/1/16/1f340.png)\\r\\n\\r\\n09:00 - 12:00 ![✔](https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/2714.png) prohlídka a samosběr\\r\\n\\r\\n12:00 - 14:00 ![✔](https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/2714.png) výroba MĚSÍČKOVÉ masti s bylinkářkou Míšou\\r\\n\\r\\nDopoledne je ZDARMA, workshop od 12ti hodin stojí 300 Kč. V ceně je materiál, pomůcky, výklad a podpora dalšího rozvoje Zahrady HOJNOSTI. Měsíček si sami natrháte, a pod vedením Míši, vyrobíte vlastní zázrak z přírody, který nemá chybět v žádné domácnosti. Nezapomeňte na pevnou obuv a ochranu proti sluníčku, pokud bude ![😎](https://static.xx.fbcdn.net/images/emoji.php/v9/t83/1/16/1f60e.png) a taky něco na psaní, aby Vám cenné informace zůstaly napořád. Ostatní je zajištěno.\\r\\n\\r\\nJestli chcete vědět, kdo je Míša Brošová, hledejte na FB misa.cotoumisbylinami a věřte, ta fakt umí ![🌿](https://static.xx.fbcdn.net/images/emoji.php/v9/t1e/1/16/1f33f.png)![👏](https://static.xx.fbcdn.net/images/emoji.php/v9/tfe/1/16/1f44f.png)\\r\\n\\r\\nO Zahradě HOJNOSTI čtěte zde ![👉](https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png) [https://www.kousekpokousku.cz/zahrada-hojnosti](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.kousekpokousku.cz%2Fzahrada-hojnosti%3Ffbclid%3DIwAR1pzoqOWt7uvug01HKxw9zFYCGq1xao8Y6LWF6q5oLPa4pUxXCVfFkrvcw&h=AT3tJOy34asMiayQ2kkrR8w6w7FpzGnpxtdwB7Cf0hL8QHi1SL2syih3qCluixtfJR0rybgj6W8b-sLXYgVOglvV3unpjVK7ibcU0D9iz2OnNTIT9a58yFLSVX9RHYcTBJ9K&__tn__=-UK-y-R&c[0]=AT2mJFU71DRtpu61dML7k_dVd76uI-ArMRqotE5sl90XTFnaNqbXZa1COiZv8LPEAdLF7CBmhTo6Aox4s3qWRWIaWx-2k_ndD7ZAw0IMq6AOofGSQG2Zq3y2RVyLxz8XhjgNAXxqlLotGElrtffWytPewECzbrUGYhodJGagqqvqSnQxND2tCMZEbyrCjVqL6WgoZzE)\\r\\n\\r\\nPokud se chcete přidat k podpoře Zahradě Hojnosti, můžete ![👉](https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png) [https://podpora.kousekpokousku.cz/ze-zahrady-hojnosti/](https://l.facebook.com/l.php?u=https%3A%2F%2Fpodpora.kousekpokousku.cz%2Fze-zahrady-hojnosti%2F%3Ffbclid%3DIwAR15YWwhj9cQViZdN1_EipDuJyxo-00RtWxSwRBCWnSx9UOIxZ5VJ1Nwnzs&h=AT2JXKbvfwAZHZthtRrF-WDgG1PHm7LVv56qwJxqUkvYDfl8wHvsove2rChpgJfWbQpztJ8fE05wBJr7HcbkE17Uy-lyXORXcfn5bsZ43EI558_K1rVUXdkw3QjkoseLId9N&__tn__=-UK-y-R&c[0]=AT2mJFU71DRtpu61dML7k_dVd76uI-ArMRqotE5sl90XTFnaNqbXZa1COiZv8LPEAdLF7CBmhTo6Aox4s3qWRWIaWx-2k_ndD7ZAw0IMq6AOofGSQG2Zq3y2RVyLxz8XhjgNAXxqlLotGElrtffWytPewECzbrUGYhodJGagqqvqSnQxND2tCMZEbyrCjVqL6WgoZzE)\\r\\n","html":"<p>ZVEME VÁS na Zahradu HOJNOSTI <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f49a.png\\" alt=\\"💚\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t9b/1/16/1f33c.png\\" alt=\\"🌼\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t87/1/16/1f340.png\\" alt=\\"🍀\\">, na historicky první WORKSHOP ! Pokud věříte v sílu a moc bylin, využijte příležitosti načerpat zkušenosti od úžasné odbornice Míši Brošové. Jde o setkání ze seriálu Rok (s) bylinkářkou a jsme rádi, že proběhne právě u nás.</p>\\n<p>V SOBOTU 14.8.2021 v Zahradě HOJNOSTI <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f49a.png\\" alt=\\"💚\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t9b/1/16/1f33c.png\\" alt=\\"🌼\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t87/1/16/1f340.png\\" alt=\\"🍀\\"></p>\\n<p>09:00 - 12:00 <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/2714.png\\" alt=\\"✔\\"> prohlídka a samosběr</p>\\n<p>12:00 - 14:00 <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/2714.png\\" alt=\\"✔\\"> výroba MĚSÍČKOVÉ masti s bylinkářkou Míšou</p>\\n<p>Dopoledne je ZDARMA, workshop od 12ti hodin stojí 300 Kč. V ceně je materiál, pomůcky, výklad a podpora dalšího rozvoje Zahrady HOJNOSTI. Měsíček si sami natrháte, a pod vedením Míši, vyrobíte vlastní zázrak z přírody, který nemá chybět v žádné domácnosti. Nezapomeňte na pevnou obuv a ochranu proti sluníčku, pokud bude <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t83/1/16/1f60e.png\\" alt=\\"😎\\"> a taky něco na psaní, aby Vám cenné informace zůstaly napořád. Ostatní je zajištěno.</p>\\n<p>Jestli chcete vědět, kdo je Míša Brošová, hledejte na FB misa.cotoumisbylinami a věřte, ta fakt umí <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t1e/1/16/1f33f.png\\" alt=\\"🌿\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tfe/1/16/1f44f.png\\" alt=\\"👏\\"></p>\\n<p>O Zahradě HOJNOSTI čtěte zde <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png\\" alt=\\"👉\\"> <a href=\\"https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.kousekpokousku.cz%2Fzahrada-hojnosti%3Ffbclid%3DIwAR1pzoqOWt7uvug01HKxw9zFYCGq1xao8Y6LWF6q5oLPa4pUxXCVfFkrvcw&#x26;h=AT3tJOy34asMiayQ2kkrR8w6w7FpzGnpxtdwB7Cf0hL8QHi1SL2syih3qCluixtfJR0rybgj6W8b-sLXYgVOglvV3unpjVK7ibcU0D9iz2OnNTIT9a58yFLSVX9RHYcTBJ9K&#x26;__tn__=-UK-y-R&#x26;c%5B0%5D=AT2mJFU71DRtpu61dML7k_dVd76uI-ArMRqotE5sl90XTFnaNqbXZa1COiZv8LPEAdLF7CBmhTo6Aox4s3qWRWIaWx-2k_ndD7ZAw0IMq6AOofGSQG2Zq3y2RVyLxz8XhjgNAXxqlLotGElrtffWytPewECzbrUGYhodJGagqqvqSnQxND2tCMZEbyrCjVqL6WgoZzE\\">https://www.kousekpokousku.cz/zahrada-hojnosti</a></p>\\n<p>Pokud se chcete přidat k podpoře Zahradě Hojnosti, můžete <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png\\" alt=\\"👉\\"> <a href=\\"https://l.facebook.com/l.php?u=https%3A%2F%2Fpodpora.kousekpokousku.cz%2Fze-zahrady-hojnosti%2F%3Ffbclid%3DIwAR15YWwhj9cQViZdN1_EipDuJyxo-00RtWxSwRBCWnSx9UOIxZ5VJ1Nwnzs&#x26;h=AT2JXKbvfwAZHZthtRrF-WDgG1PHm7LVv56qwJxqUkvYDfl8wHvsove2rChpgJfWbQpztJ8fE05wBJr7HcbkE17Uy-lyXORXcfn5bsZ43EI558_K1rVUXdkw3QjkoseLId9N&#x26;__tn__=-UK-y-R&#x26;c%5B0%5D=AT2mJFU71DRtpu61dML7k_dVd76uI-ArMRqotE5sl90XTFnaNqbXZa1COiZv8LPEAdLF7CBmhTo6Aox4s3qWRWIaWx-2k_ndD7ZAw0IMq6AOofGSQG2Zq3y2RVyLxz8XhjgNAXxqlLotGElrtffWytPewECzbrUGYhodJGagqqvqSnQxND2tCMZEbyrCjVqL6WgoZzE\\">https://podpora.kousekpokousku.cz/ze-zahrady-hojnosti/</a></p>","frontmatter":{"name":"Sobota v Zahradě HOJNOSTI","date":"11-08-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/b9bd5d930914809769ccfea6ca4a2300/cfe7a/zhrada-plakat-bylinka%C5%99ka-.png","srcSet":"/static/b9bd5d930914809769ccfea6ca4a2300/f2284/zhrada-plakat-bylinka%C5%99ka-.png 349w,\\n/static/b9bd5d930914809769ccfea6ca4a2300/700bf/zhrada-plakat-bylinka%C5%99ka-.png 698w,\\n/static/b9bd5d930914809769ccfea6ca4a2300/cfe7a/zhrada-plakat-bylinka%C5%99ka-.png 1396w","sizes":"(min-width: 1396px) 1396px, 100vw"},"sources":[{"srcSet":"/static/b9bd5d930914809769ccfea6ca4a2300/546d1/zhrada-plakat-bylinka%C5%99ka-.webp 349w,\\n/static/b9bd5d930914809769ccfea6ca4a2300/70079/zhrada-plakat-bylinka%C5%99ka-.webp 698w,\\n/static/b9bd5d930914809769ccfea6ca4a2300/2da55/zhrada-plakat-bylinka%C5%99ka-.webp 1396w","type":"image/webp","sizes":"(min-width: 1396px) 1396px, 100vw"}]},"width":1396,"height":1394}}},"imageAlt":"Plakát s pozvánkou na akci"}}}},{"node":{"rawMarkdownBody":"Nadační fond Kousek po kousku co nejsrdečněji zve na slavnostní předávání trojrozměrného historického modelu města Fulnek realizovaného za pomocí dochovaných archivních kreseb, které se uskuteční v rámci nadcházejícího adventního koncertu v Kostele sv.Josefa ve Fulneku tuto neděli 6. prosince od 16:00.\\r\\n\\r\\nNa realizaci jedinečného modelu přispěl Nadační fond Kousek po kousku společně se všemi z Vás, kteří si zakoupili nějaký ten módní kousek v rámci dobročinného bazaru Klášterní kouskování.\\r\\n\\r\\nZa Vaši přízeň Vám moc děkujeme!\\r\\n","html":"<p>Nadační fond Kousek po kousku co nejsrdečněji zve na slavnostní předávání trojrozměrného historického modelu města Fulnek realizovaného za pomocí dochovaných archivních kreseb, které se uskuteční v rámci nadcházejícího adventního koncertu v Kostele sv.Josefa ve Fulneku tuto neděli 6. prosince od 16:00.</p>\\n<p>Na realizaci jedinečného modelu přispěl Nadační fond Kousek po kousku společně se všemi z Vás, kteří si zakoupili nějaký ten módní kousek v rámci dobročinného bazaru Klášterní kouskování.</p>\\n<p>Za Vaši přízeň Vám moc děkujeme!</p>","frontmatter":{"name":"Slavnostní předání historického modelu města Fulnek 6.12. před adventním koncertem v Kostele sv. Josefa ve Fulneku","date":"27-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#e8d8c8","images":{"fallback":{"src":"/static/c2b6815f3684af08ad94bd7b9999721f/d924c/web-nf.jpg","srcSet":"/static/c2b6815f3684af08ad94bd7b9999721f/d4afa/web-nf.jpg 75w,\\n/static/c2b6815f3684af08ad94bd7b9999721f/05e34/web-nf.jpg 150w,\\n/static/c2b6815f3684af08ad94bd7b9999721f/d924c/web-nf.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/c2b6815f3684af08ad94bd7b9999721f/e0f0e/web-nf.webp 75w,\\n/static/c2b6815f3684af08ad94bd7b9999721f/e80bb/web-nf.webp 150w,\\n/static/c2b6815f3684af08ad94bd7b9999721f/a8059/web-nf.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":225}}},"imageAlt":"Slavnostní předání historického modelu města Fulnek 6.12. před adventním koncertem v Kostele sv. Josefa ve Fulneku"}}}},{"node":{"rawMarkdownBody":"Vážení přátelé,\\r\\n\\r\\ndovolte, aby jsme Vás touto cestou pozvali na akci TECHNICKÉ DĚDICTVÍ. Akce se koná 01.09.2018 od 9:00 do 18:00 hod. na letišti Leoše Janáčka v Mošnově.\\r\\n\\r\\nVíce informací na:  technickededictvi.cz\\r\\n","html":"<p>Vážení přátelé,</p>\\n<p>dovolte, aby jsme Vás touto cestou pozvali na akci TECHNICKÉ DĚDICTVÍ. Akce se koná 01.09.2018 od 9:00 do 18:00 hod. na letišti Leoše Janáčka v Mošnově.</p>\\n<p>Více informací na:  technickededictvi.cz</p>","frontmatter":{"name":"TECHNICKÉ DĚDICTVÍ","date":"03-05-2021","link":"https://technickededictvi.cz/","image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8e8","images":{"fallback":{"src":"/static/050b84453b6ffd1788ce1cb5b1e8f58d/7df7c/tech.dedictvi-2.png","srcSet":"/static/050b84453b6ffd1788ce1cb5b1e8f58d/14f3f/tech.dedictvi-2.png 75w,\\n/static/050b84453b6ffd1788ce1cb5b1e8f58d/791cf/tech.dedictvi-2.png 151w,\\n/static/050b84453b6ffd1788ce1cb5b1e8f58d/7df7c/tech.dedictvi-2.png 301w","sizes":"(min-width: 301px) 301px, 100vw"},"sources":[{"srcSet":"/static/050b84453b6ffd1788ce1cb5b1e8f58d/d83fd/tech.dedictvi-2.webp 75w,\\n/static/050b84453b6ffd1788ce1cb5b1e8f58d/0f511/tech.dedictvi-2.webp 151w,\\n/static/050b84453b6ffd1788ce1cb5b1e8f58d/6f2ee/tech.dedictvi-2.webp 301w","type":"image/webp","sizes":"(min-width: 301px) 301px, 100vw"}]},"width":301,"height":277}}},"imageAlt":"TECHNICKÉ DĚDICTVÍ"}}}},{"node":{"rawMarkdownBody":"20. května se ve fulneckém Kostele sv. Josefa při Kapucínksém klášteře uskuteční už 4. ročník dobročinného bazaru Klášterní kouskování spolupořádaného našim Nadačním fondem a spolkem Comenius Fulnek.\\r\\n\\r\\nZapište si tedy datum do diářů a my Vás budeme o dalších novinkách informovat zde anebo na naší FB stránce.\\r\\n\\r\\nFoto: Martin Hollain\\r\\n","html":"<ol start=\\"20\\">\\n<li>května se ve fulneckém Kostele sv. Josefa při Kapucínksém klášteře uskuteční už 4. ročník dobročinného bazaru Klášterní kouskování spolupořádaného našim Nadačním fondem a spolkem Comenius Fulnek.</li>\\n</ol>\\n<p>Zapište si tedy datum do diářů a my Vás budeme o dalších novinkách informovat zde anebo na naší FB stránce.</p>\\n<p>Foto: Martin Hollain</p>","frontmatter":{"name":"Už 4. ročník Klášterního kouskování se blíží!","date":"16-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8d8a8","images":{"fallback":{"src":"/static/14f210cb312b09ee30991b403ff91dd1/81bf6/kouskovani-web.jpg","srcSet":"/static/14f210cb312b09ee30991b403ff91dd1/77ce8/kouskovani-web.jpg 75w,\\n/static/14f210cb312b09ee30991b403ff91dd1/f1a3a/kouskovani-web.jpg 150w,\\n/static/14f210cb312b09ee30991b403ff91dd1/81bf6/kouskovani-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/14f210cb312b09ee30991b403ff91dd1/0987d/kouskovani-web.webp 75w,\\n/static/14f210cb312b09ee30991b403ff91dd1/70dfd/kouskovani-web.webp 150w,\\n/static/14f210cb312b09ee30991b403ff91dd1/9b21f/kouskovani-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":200}}},"imageAlt":"Už 4. ročník Klášterního kouskování se blíží!"}}}},{"node":{"rawMarkdownBody":"Během letošních letních měsíců proběhlo hned několik regionálních akcí podpořených Nadačním fondem Kousek po kousku.\\r\\n\\r\\nZačali jsme tradičním vzdělávacím workshopem &#8220;Lefuškou&#8221; v prostorách Kostela sv. Josefa ve Fulneku, pokračovali oblíbenou slatinskou akcí &#8220;Jako za mlada&#8221; a zakončili to zvesela hudební &#8220;Fulnečkou&#8221;, kde jinde než ve Fulneku, z které pochází i naše fotografie s hrdým logem Nadačního fondu Kousek po kousku v pozadí.\\r\\n","html":"<p>Během letošních letních měsíců proběhlo hned několik regionálních akcí podpořených Nadačním fondem Kousek po kousku.</p>\\n<p>Začali jsme tradičním vzdělávacím workshopem “Lefuškou” v prostorách Kostela sv. Josefa ve Fulneku, pokračovali oblíbenou slatinskou akcí “Jako za mlada” a zakončili to zvesela hudební “Fulnečkou”, kde jinde než ve Fulneku, z které pochází i naše fotografie s hrdým logem Nadačního fondu Kousek po kousku v pozadí.</p>","frontmatter":{"name":"Tento způsob léta zdá se mi poněkud Kousek po kousku!","date":"12-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/047dcc6344ff65c2f53f6275d3885fdf/bae6a/fulnecka-2-web.jpg","srcSet":"/static/047dcc6344ff65c2f53f6275d3885fdf/20ed2/fulnecka-2-web.jpg 75w,\\n/static/047dcc6344ff65c2f53f6275d3885fdf/b20e8/fulnecka-2-web.jpg 150w,\\n/static/047dcc6344ff65c2f53f6275d3885fdf/bae6a/fulnecka-2-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/047dcc6344ff65c2f53f6275d3885fdf/8b44d/fulnecka-2-web.webp 75w,\\n/static/047dcc6344ff65c2f53f6275d3885fdf/4de68/fulnecka-2-web.webp 150w,\\n/static/047dcc6344ff65c2f53f6275d3885fdf/fdf0b/fulnecka-2-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":203.99999999999997}}},"imageAlt":"Tento způsob léta zdá se mi poněkud Kousek po kousku!"}}}},{"node":{"rawMarkdownBody":"Přihlašte se se svými nápady a projekty do aktuálního grantového kola s uzávěrkou 7. září 2016!\\r\\n\\r\\nVíce informací naleznete na našem webu v sekci &#8220;Chcete žádat&#8221; nebo se případně obraťte na hlavní koordinátorku Nadačního fondu Elišku Děckou eliska@kousekpokousku.cz.\\r\\n\\r\\nPozor: Foto pouze ilustrační!:) Těšíme se na Vaše nápady!\\r\\n","html":"<p>Přihlašte se se svými nápady a projekty do aktuálního grantového kola s uzávěrkou 7. září 2016!</p>\\n<p>Více informací naleznete na našem webu v sekci “Chcete žádat” nebo se případně obraťte na hlavní koordinátorku Nadačního fondu Elišku Děckou <a href=\\"mailto:eliska@kousekpokousku.cz\\">eliska@kousekpokousku.cz</a>.</p>\\n<p>Pozor: Foto pouze ilustrační!:) Těšíme se na Vaše nápady!</p>","frontmatter":{"name":"Vyhlašujeme další otevřené grantové kolo!","date":"02-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8e8d8","images":{"fallback":{"src":"/static/7d10bad68ff48bd53b4f710b9cd3e857/0fdf4/truhla-web.jpg","srcSet":"/static/7d10bad68ff48bd53b4f710b9cd3e857/91a6d/truhla-web.jpg 75w,\\n/static/7d10bad68ff48bd53b4f710b9cd3e857/96deb/truhla-web.jpg 150w,\\n/static/7d10bad68ff48bd53b4f710b9cd3e857/0fdf4/truhla-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/7d10bad68ff48bd53b4f710b9cd3e857/18188/truhla-web.webp 75w,\\n/static/7d10bad68ff48bd53b4f710b9cd3e857/c65bc/truhla-web.webp 150w,\\n/static/7d10bad68ff48bd53b4f710b9cd3e857/078c3/truhla-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":300}}},"imageAlt":"Vyhlašujeme další otevřené grantové kolo!"}}}},{"node":{"rawMarkdownBody":"Nadační fond Kousek po kousku vyhlásil nové grantové kolo pro rok 2014. Uzávěrka příjmu žádostí je 15. dubna. Více informací o tom, kdo všechno si může žádat a na jaké aktivity, se dozvíte v sekci &#8220;Chcete žádat?&#8221;, kde jsou kromě formulářů pro žadatele například i odpovědi na často kladené dotazy.\\r\\n","html":"<p>Nadační fond Kousek po kousku vyhlásil nové grantové kolo pro rok 2014. Uzávěrka příjmu žádostí je 15. dubna. Více informací o tom, kdo všechno si může žádat a na jaké aktivity, se dozvíte v sekci “Chcete žádat?”, kde jsou kromě formulářů pro žadatele například i odpovědi na často kladené dotazy.</p>","frontmatter":{"name":"Vyhlášeno nové grantové kolo!","date":"02-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/d049bca0c8a660a153b556ce7124f593/ae1ac/formular-web.jpg","srcSet":"/static/d049bca0c8a660a153b556ce7124f593/22a0b/formular-web.jpg 75w,\\n/static/d049bca0c8a660a153b556ce7124f593/cf3e4/formular-web.jpg 150w,\\n/static/d049bca0c8a660a153b556ce7124f593/ae1ac/formular-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/d049bca0c8a660a153b556ce7124f593/644cc/formular-web.webp 75w,\\n/static/d049bca0c8a660a153b556ce7124f593/bfe8f/formular-web.webp 150w,\\n/static/d049bca0c8a660a153b556ce7124f593/99b11/formular-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":207}}},"imageAlt":"Vyhlášeno nové grantové kolo!"}}}},{"node":{"rawMarkdownBody":"Nadační fond Kousek po kousku s radostí vyhlašuje již své 4. grantové kolo! Kompletní text vyhlášení, formuláře a podrobné informace pro žadatele naleznete v sekci &#8220;Chcete žádat&#8221; na tomto webu. V případě jakýchkoliv dotazů nás neváhejte kontaktovat. Těšíme se na Vaše žádosti a nápady:)\\r\\n","html":"<p>Nadační fond Kousek po kousku s radostí vyhlašuje již své 4. grantové kolo! Kompletní text vyhlášení, formuláře a podrobné informace pro žadatele naleznete v sekci “Chcete žádat” na tomto webu. V případě jakýchkoliv dotazů nás neváhejte kontaktovat. Těšíme se na Vaše žádosti a nápady:)</p>","frontmatter":{"name":"Vyhlášeno nové grantové kolo s uzávěrkou 31. srpna 2015!","date":"25-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/2cb6e6bfcd381ad4af7b94e4d56c25fe/dcaf8/form-fb-2015.jpg","srcSet":"/static/2cb6e6bfcd381ad4af7b94e4d56c25fe/bc8ca/form-fb-2015.jpg 75w,\\n/static/2cb6e6bfcd381ad4af7b94e4d56c25fe/10292/form-fb-2015.jpg 150w,\\n/static/2cb6e6bfcd381ad4af7b94e4d56c25fe/dcaf8/form-fb-2015.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/2cb6e6bfcd381ad4af7b94e4d56c25fe/bef47/form-fb-2015.webp 75w,\\n/static/2cb6e6bfcd381ad4af7b94e4d56c25fe/83645/form-fb-2015.webp 150w,\\n/static/2cb6e6bfcd381ad4af7b94e4d56c25fe/4fdb9/form-fb-2015.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":400}}},"imageAlt":"Vyhlášeno nové grantové kolo s uzávěrkou 31. srpna 2015!"}}}},{"node":{"rawMarkdownBody":"Už druhým rokem i za pomoci kousku od našeho Nadačního fondu objíždí školy i mateřské školky v moravskoslezském regionu nezisková organizace Theatr Ludem, která pomoci živého, hravého a navýsost interaktivního vzdělávání formou zábavných workshopů seznamuje děti s loutkovým divadlem i místní historií a mnoha dalšími podnětnými příběhy.\\r\\n\\r\\nTheatr ludem názorně ukazuje, že vzdělávání může být i &#8220;kopec&#8221; legrace!\\r\\n\\r\\nVíce na www.theatrludem.cz\\r\\n","html":"<p>Už druhým rokem i za pomoci kousku od našeho Nadačního fondu objíždí školy i mateřské školky v moravskoslezském regionu nezisková organizace Theatr Ludem, která pomoci živého, hravého a navýsost interaktivního vzdělávání formou zábavných workshopů seznamuje děti s loutkovým divadlem i místní historií a mnoha dalšími podnětnými příběhy.</p>\\n<p>Theatr ludem názorně ukazuje, že vzdělávání může být i “kopec” legrace!</p>\\n<p>Více na <a href=\\"http://www.theatrludem.cz\\">www.theatrludem.cz</a></p>","frontmatter":{"name":"Vzdělávání pomocí loutkového divadla - Theatr Ludem","date":"12-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#b87848","images":{"fallback":{"src":"/static/960f2c5b44345324c1d10f66216bf0c2/d924c/thaeatr-web.jpg","srcSet":"/static/960f2c5b44345324c1d10f66216bf0c2/d4afa/thaeatr-web.jpg 75w,\\n/static/960f2c5b44345324c1d10f66216bf0c2/05e34/thaeatr-web.jpg 150w,\\n/static/960f2c5b44345324c1d10f66216bf0c2/d924c/thaeatr-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/960f2c5b44345324c1d10f66216bf0c2/e0f0e/thaeatr-web.webp 75w,\\n/static/960f2c5b44345324c1d10f66216bf0c2/e80bb/thaeatr-web.webp 150w,\\n/static/960f2c5b44345324c1d10f66216bf0c2/a8059/thaeatr-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":225}}},"imageAlt":"Vzdělávání pomocí loutkového divadla - Theatr Ludem"}}}},{"node":{"rawMarkdownBody":"Celkem bylo podpořeno 9 krásných projektů, mezi nimi například i léčebná hipoterapie organizovaná pro děti s handicapem Speciální ZŠ a MŠ v Novém Jičíně na tamním ranči Hermelín.\\r\\n\\r\\nVíce informací nejen o tomto projektu naleznete na tomto v sekce &#8220;Projekty&#8221;.\\r\\n","html":"<p>Celkem bylo podpořeno 9 krásných projektů, mezi nimi například i léčebná hipoterapie organizovaná pro děti s handicapem Speciální ZŠ a MŠ v Novém Jičíně na tamním ranči Hermelín.</p>\\n<p>Více informací nejen o tomto projektu naleznete na tomto v sekce “Projekty”.</p>","frontmatter":{"name":"Výsledky podzimního grantového kola jsou tady!","date":"05-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/9d0f5df65b715d50e1612404be0425e3/d924c/kone-web.jpg","srcSet":"/static/9d0f5df65b715d50e1612404be0425e3/d4afa/kone-web.jpg 75w,\\n/static/9d0f5df65b715d50e1612404be0425e3/05e34/kone-web.jpg 150w,\\n/static/9d0f5df65b715d50e1612404be0425e3/d924c/kone-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/9d0f5df65b715d50e1612404be0425e3/e0f0e/kone-web.webp 75w,\\n/static/9d0f5df65b715d50e1612404be0425e3/e80bb/kone-web.webp 150w,\\n/static/9d0f5df65b715d50e1612404be0425e3/a8059/kone-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":225}}},"imageAlt":"Výsledky podzimního grantového kola jsou tady!"}}}},{"node":{"rawMarkdownBody":"Nadační fond Kousek po kousku podpořil z Klášterního kouskování 2018 výstavbu výletiště s krytým posezením a ohništěm, kam může zavítat na výlet, na piknik kdokoliv – i vy! Výletiště se nachází v malebné místní části „Hluboké“ a budete překvapeni krásným výhledem na Beskydy, na louky a lesy okolo.  Dojdete k němu z Kostelce, když odbočíte na polní cestu u sakrálního dřevěného obrazu sv. Františka.\\r\\n","html":"<p>Nadační fond Kousek po kousku podpořil z Klášterního kouskování 2018 výstavbu výletiště s krytým posezením a ohništěm, kam může zavítat na výlet, na piknik kdokoliv – i vy! Výletiště se nachází v malebné místní části „Hluboké“ a budete překvapeni krásným výhledem na Beskydy, na louky a lesy okolo.  Dojdete k němu z Kostelce, když odbočíte na polní cestu u sakrálního dřevěného obrazu sv. Františka.</p>","frontmatter":{"name":"Výletiště v Děrném už je hotové","date":"10-05-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#e8f8f8","images":{"fallback":{"src":"/static/b0fd980679d3c523478e702813a65f78/81bf6/2018-10-0715-56-25.jpg","srcSet":"/static/b0fd980679d3c523478e702813a65f78/77ce8/2018-10-0715-56-25.jpg 75w,\\n/static/b0fd980679d3c523478e702813a65f78/f1a3a/2018-10-0715-56-25.jpg 150w,\\n/static/b0fd980679d3c523478e702813a65f78/81bf6/2018-10-0715-56-25.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/b0fd980679d3c523478e702813a65f78/0987d/2018-10-0715-56-25.webp 75w,\\n/static/b0fd980679d3c523478e702813a65f78/70dfd/2018-10-0715-56-25.webp 150w,\\n/static/b0fd980679d3c523478e702813a65f78/9b21f/2018-10-0715-56-25.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":200}}},"imageAlt":"Výletiště v Děrném už je hotové"}}}},{"node":{"rawMarkdownBody":"Jménem jednoho z našich úspěšných grantistů občanského sdružení Comenius Fulnek Vás srdečně zveme na výstavu do kostela sv. Jiří ve Vrchách, která trvá až do 8. března. Otevřeno každou neděli od 10:00 do 12:00.\\r\\n","html":"<p>Jménem jednoho z našich úspěšných grantistů občanského sdružení Comenius Fulnek Vás srdečně zveme na výstavu do kostela sv. Jiří ve Vrchách, která trvá až do 8. března. Otevřeno každou neděli od 10:00 do 12:00.</p>","frontmatter":{"name":"Výstava k 200. výročí úmrtí fulneckého rodáka Jana Jiřího Frömela v kostele sv. Jiří ve Vrchách","date":"19-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8d8","images":{"fallback":{"src":"/static/7eef2a799c828a9ab6f3430e7bb5cec1/29960/obrazek-vrchy-web.jpg","srcSet":"/static/7eef2a799c828a9ab6f3430e7bb5cec1/c4fe4/obrazek-vrchy-web.jpg 75w,\\n/static/7eef2a799c828a9ab6f3430e7bb5cec1/03025/obrazek-vrchy-web.jpg 150w,\\n/static/7eef2a799c828a9ab6f3430e7bb5cec1/29960/obrazek-vrchy-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/7eef2a799c828a9ab6f3430e7bb5cec1/0d7e7/obrazek-vrchy-web.webp 75w,\\n/static/7eef2a799c828a9ab6f3430e7bb5cec1/004cd/obrazek-vrchy-web.webp 150w,\\n/static/7eef2a799c828a9ab6f3430e7bb5cec1/ff167/obrazek-vrchy-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":430}}},"imageAlt":"Výstava k 200. výročí úmrtí fulneckého rodáka Jana Jiřího Frömela v kostele sv. Jiří ve Vrchách"}}}},{"node":{"rawMarkdownBody":"Až do května příštího roku máte jedinečnou příležitost seznámit se s historií fulneckého zámku v kostele sv. Josefa ve Fulneku na výstavě &#8220;Zámek ve Fulneku &#8211; Dominanta Kravařska&#8221; podpořené i Nadačním fondem Kousek po kousku. Přijďte se seznámit s historií Vašeho nejbližšího okolí.\\r\\n","html":"<p>Až do května příštího roku máte jedinečnou příležitost seznámit se s historií fulneckého zámku v kostele sv. Josefa ve Fulneku na výstavě “Zámek ve Fulneku – Dominanta Kravařska” podpořené i Nadačním fondem Kousek po kousku. Přijďte se seznámit s historií Vašeho nejbližšího okolí.</p>","frontmatter":{"name":"Výstava o fulneckém zámku v Kostele sv. Josefa","date":"26-02-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#182858","images":{"fallback":{"src":"/static/0f1ce3bf3f5ac562094b2d808556f923/1814f/fulnek-zamek-na-web.jpg","srcSet":"/static/0f1ce3bf3f5ac562094b2d808556f923/3187d/fulnek-zamek-na-web.jpg 75w,\\n/static/0f1ce3bf3f5ac562094b2d808556f923/46685/fulnek-zamek-na-web.jpg 150w,\\n/static/0f1ce3bf3f5ac562094b2d808556f923/1814f/fulnek-zamek-na-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/0f1ce3bf3f5ac562094b2d808556f923/b1852/fulnek-zamek-na-web.webp 75w,\\n/static/0f1ce3bf3f5ac562094b2d808556f923/a30a2/fulnek-zamek-na-web.webp 150w,\\n/static/0f1ce3bf3f5ac562094b2d808556f923/deaca/fulnek-zamek-na-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":212}}},"imageAlt":"Výstava o fulneckém zámku v Kostele sv. Josefa"}}}},{"node":{"rawMarkdownBody":"Další kousek z Klášterního kouskování 2018 byl i díky vám poskytnut rodičům roční Terezky, kteří ji mohli doprovázet při náročném operačním zákroku v Motole. Po této operaci jsou nutné dioptrické brýle, které byly také zakoupeny díky Klášternímu kouskování 2018.\\r\\n","html":"<p>Další kousek z Klášterního kouskování 2018 byl i díky vám poskytnut rodičům roční Terezky, kteří ji mohli doprovázet při náročném operačním zákroku v Motole. Po této operaci jsou nutné dioptrické brýle, které byly také zakoupeny díky Klášternímu kouskování 2018.</p>","frontmatter":{"name":"Terezka už má operaci za sebou","date":"09-05-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/f226bd3be2dc60ca1e500461003b22d4/6c28b/img20180921124020-1.jpg","srcSet":"/static/f226bd3be2dc60ca1e500461003b22d4/ad181/img20180921124020-1.jpg 75w,\\n/static/f226bd3be2dc60ca1e500461003b22d4/2c796/img20180921124020-1.jpg 150w,\\n/static/f226bd3be2dc60ca1e500461003b22d4/6c28b/img20180921124020-1.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/f226bd3be2dc60ca1e500461003b22d4/dda9f/img20180921124020-1.webp 75w,\\n/static/f226bd3be2dc60ca1e500461003b22d4/2aae9/img20180921124020-1.webp 150w,\\n/static/f226bd3be2dc60ca1e500461003b22d4/c14c9/img20180921124020-1.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":395}}},"imageAlt":"Terezka už má operaci za sebou"}}}},{"node":{"rawMarkdownBody":"Během měsíce října probíhá v Městském kulturním centru Fulnek výstava &#8220;Jánské koupele v krajce dříve a dnes&#8221;. Vystavené práce vznikly v rámci Klubu paličkování Fulnek, který je jedním z letos podpořených projektů v rámci již tradičního jarního grantového kola Nadačního fondu Kousek po kousku.\\r\\n","html":"<p>Během měsíce října probíhá v Městském kulturním centru Fulnek výstava “Jánské koupele v krajce dříve a dnes”. Vystavené práce vznikly v rámci Klubu paličkování Fulnek, který je jedním z letos podpořených projektů v rámci již tradičního jarního grantového kola Nadačního fondu Kousek po kousku.</p>","frontmatter":{"name":"Výstava Klubu paličkování Fulnek","date":"14-03-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/5a7ff70a37577f236548590ebe5ea451/922ba/krajky-web.jpg","srcSet":"/static/5a7ff70a37577f236548590ebe5ea451/3187d/krajky-web.jpg 75w,\\n/static/5a7ff70a37577f236548590ebe5ea451/2c2c4/krajky-web.jpg 150w,\\n/static/5a7ff70a37577f236548590ebe5ea451/922ba/krajky-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/5a7ff70a37577f236548590ebe5ea451/b1852/krajky-web.webp 75w,\\n/static/5a7ff70a37577f236548590ebe5ea451/0f8a4/krajky-web.webp 150w,\\n/static/5a7ff70a37577f236548590ebe5ea451/4105b/krajky-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":210}}},"imageAlt":"Výstava Klubu paličkování Fulnek"}}}},{"node":{"rawMarkdownBody":"Děkujeme moc všem za krásnou výslednou vybranou částku.\\r\\n\\r\\nVíce informací a mnoho krásných fotek od Martina Holaina z letošního úspěšného ročníku naleznete na FB stránkách Nadačního fondu a www.klasternikouskovani.cz.\\r\\n","html":"<p>Děkujeme moc všem za krásnou výslednou vybranou částku.</p>\\n<p>Více informací a mnoho krásných fotek od Martina Holaina z letošního úspěšného ročníku naleznete na FB stránkách Nadačního fondu a <a href=\\"http://www.klasternikouskovani.cz\\">www.klasternikouskovani.cz</a>.</p>","frontmatter":{"name":"Výtěžek letošního Klášterního kouskování činí rekordních 77 405 Kč!","date":"01-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/13b6e4984ef39eb4e50e4a9bd9942d74/bd8e2/web-podekovani.jpg","srcSet":"/static/13b6e4984ef39eb4e50e4a9bd9942d74/5e85c/web-podekovani.jpg 75w,\\n/static/13b6e4984ef39eb4e50e4a9bd9942d74/1658a/web-podekovani.jpg 150w,\\n/static/13b6e4984ef39eb4e50e4a9bd9942d74/bd8e2/web-podekovani.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/13b6e4984ef39eb4e50e4a9bd9942d74/9a560/web-podekovani.webp 75w,\\n/static/13b6e4984ef39eb4e50e4a9bd9942d74/8ff01/web-podekovani.webp 150w,\\n/static/13b6e4984ef39eb4e50e4a9bd9942d74/b9692/web-podekovani.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":490.99999999999994}}},"imageAlt":"Výtěžek letošního Klášterního kouskování činí rekordních 77 405 Kč!"}}}},{"node":{"rawMarkdownBody":"Zapište si prosím do svých diářů, že další ročník, již pátý, Klášterního kouskování se bude konat 26. a 30. května.\\r\\n\\r\\nRádi byste akci podpořili? Můžete:\\r\\n\\r\\nVěnovat kousek ze svého šatníků, kousek svého času, kousek svých dovedností nebo cokoliv Vás napadne jiného.\\r\\n\\r\\nDejte nám vědět na info@kousekpokousku.cz a my se s Vámi rádi domluvíme.\\r\\n\\r\\nKaždý kousek se počítá!\\r\\n\\r\\nwww.klasternikouskovani.cz\\r\\n","html":"<p>Zapište si prosím do svých diářů, že další ročník, již pátý, Klášterního kouskování se bude konat 26. a 30. května.</p>\\n<p>Rádi byste akci podpořili? Můžete:</p>\\n<p>Věnovat kousek ze svého šatníků, kousek svého času, kousek svých dovedností nebo cokoliv Vás napadne jiného.</p>\\n<p>Dejte nám vědět na <a href=\\"mailto:info@kousekpokousku.cz\\">info@kousekpokousku.cz</a> a my se s Vámi rádi domluvíme.</p>\\n<p>Každý kousek se počítá!</p>\\n<p><a href=\\"http://www.klasternikouskovani.cz\\">www.klasternikouskovani.cz</a></p>","frontmatter":{"name":"Známe už termín dalšího Klášterního kouskování! Uvidíme se 26. a 27. května 2018!","date":"26-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/c449f12b037c7549647017d1b67db642/a312f/sireni-terminu-kk-2018a5-kopie-3.jpg","srcSet":"/static/c449f12b037c7549647017d1b67db642/9be92/sireni-terminu-kk-2018a5-kopie-3.jpg 74w,\\n/static/c449f12b037c7549647017d1b67db642/92c60/sireni-terminu-kk-2018a5-kopie-3.jpg 148w,\\n/static/c449f12b037c7549647017d1b67db642/a312f/sireni-terminu-kk-2018a5-kopie-3.jpg 296w","sizes":"(min-width: 296px) 296px, 100vw"},"sources":[{"srcSet":"/static/c449f12b037c7549647017d1b67db642/8da14/sireni-terminu-kk-2018a5-kopie-3.webp 74w,\\n/static/c449f12b037c7549647017d1b67db642/36688/sireni-terminu-kk-2018a5-kopie-3.webp 148w,\\n/static/c449f12b037c7549647017d1b67db642/61f31/sireni-terminu-kk-2018a5-kopie-3.webp 296w","type":"image/webp","sizes":"(min-width: 296px) 296px, 100vw"}]},"width":296,"height":97}}},"imageAlt":"Známe už termín dalšího Klášterního kouskování! Uvidíme se 26. a 27. května 2018!"}}}},{"node":{"rawMarkdownBody":"Nezlobte a pojďte si hrát! Vyzkoušet si originální hudební nástroje můžete až do 7. listopadu na báječné inetraktivní výstavě Orbis Pictu Play, pořádané spolkem Comenius Fulnek.\\r\\n\\r\\nPodpořeno i naším Nadačním fondem Kousek po kousku.\\r\\n","html":"<p>Nezlobte a pojďte si hrát! Vyzkoušet si originální hudební nástroje můžete až do 7. listopadu na báječné inetraktivní výstavě Orbis Pictu Play, pořádané spolkem Comenius Fulnek.</p>\\n<p>Podpořeno i naším Nadačním fondem Kousek po kousku.</p>","frontmatter":{"name":"Výstava Orbis Pictus Play v Kapucínském klášteře zahájena!","date":"23-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#886848","images":{"fallback":{"src":"/static/adcde074b9f7b99a3a43f474067c5095/26528/orbis-web.jpg","srcSet":"/static/adcde074b9f7b99a3a43f474067c5095/1cc5d/orbis-web.jpg 75w,\\n/static/adcde074b9f7b99a3a43f474067c5095/fee89/orbis-web.jpg 150w,\\n/static/adcde074b9f7b99a3a43f474067c5095/26528/orbis-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/adcde074b9f7b99a3a43f474067c5095/d912e/orbis-web.webp 75w,\\n/static/adcde074b9f7b99a3a43f474067c5095/f5103/orbis-web.webp 150w,\\n/static/adcde074b9f7b99a3a43f474067c5095/5d6c3/orbis-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":170}}},"imageAlt":"Výstava Orbis Pictus Play v Kapucínském klášteře zahájena!"}}}},{"node":{"rawMarkdownBody":"Více fotek naleznete na našem facebooku ZDE KLIKNI.\\r\\n","html":"<p>Více fotek naleznete na našem facebooku ZDE KLIKNI.</p>","frontmatter":{"name":"Výstava ze šuplíku - GALERIE V OBCHŮDKU","date":"20-05-2021","link":"https://www.facebook.com/media/set/?set=a.2060148847407002&type=1&l=adb0473434","image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#787878","images":{"fallback":{"src":"/static/9c55897657f18c2087c9a71e8a6cff1d/dcaf8/img20190118080127.jpg","srcSet":"/static/9c55897657f18c2087c9a71e8a6cff1d/bc8ca/img20190118080127.jpg 75w,\\n/static/9c55897657f18c2087c9a71e8a6cff1d/10292/img20190118080127.jpg 150w,\\n/static/9c55897657f18c2087c9a71e8a6cff1d/dcaf8/img20190118080127.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/9c55897657f18c2087c9a71e8a6cff1d/bef47/img20190118080127.webp 75w,\\n/static/9c55897657f18c2087c9a71e8a6cff1d/83645/img20190118080127.webp 150w,\\n/static/9c55897657f18c2087c9a71e8a6cff1d/4fdb9/img20190118080127.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":400}}},"imageAlt":"Výstava ze šuplíku - GALERIE V OBCHŮDKU"}}}},{"node":{"rawMarkdownBody":"Interaktivní výstava inspirovaná myšlenkami Jana Amose Komenského bude slavnostně zahájena 7. září 2017, tak se přijďte podívat!\\r\\n\\r\\nPodpořeno také částí výtěžku z letošního Klášterního kouskování.\\r\\n","html":"<p>Interaktivní výstava inspirovaná myšlenkami Jana Amose Komenského bude slavnostně zahájena 7. září 2017, tak se přijďte podívat!</p>\\n<p>Podpořeno také částí výtěžku z letošního Klášterního kouskování.</p>","frontmatter":{"name":"Zveme na výstavu Orbis Pictus podpořenou z letošního Klášterního kouskování!","date":"20-04-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/90d87cdb451367027f8961cba703bd7e/4f03a/orbis-vystava-klaster-web.jpg","srcSet":"/static/90d87cdb451367027f8961cba703bd7e/7cbf4/orbis-vystava-klaster-web.jpg 75w,\\n/static/90d87cdb451367027f8961cba703bd7e/11072/orbis-vystava-klaster-web.jpg 150w,\\n/static/90d87cdb451367027f8961cba703bd7e/4f03a/orbis-vystava-klaster-web.jpg 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/90d87cdb451367027f8961cba703bd7e/55b48/orbis-vystava-klaster-web.webp 75w,\\n/static/90d87cdb451367027f8961cba703bd7e/35c2f/orbis-vystava-klaster-web.webp 150w,\\n/static/90d87cdb451367027f8961cba703bd7e/8d769/orbis-vystava-klaster-web.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":374}}},"imageAlt":"Zveme na výstavu Orbis Pictus podpořenou z letošního Klášterního kouskování!"}}}}]}}}');
 
 /***/ }),
 
-/***/ "./public/page-data/sq/d/2282705134.json":
+/***/ "./public/page-data/sq/d/2705609646.json":
 /*!***********************************************!*\
-  !*** ./public/page-data/sq/d/2282705134.json ***!
+  !*** ./public/page-data/sq/d/2705609646.json ***!
   \***********************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"allMarkdownRemark":{"edges":[{"node":{"rawMarkdownBody":"OSTROPESTŘEC - takový bodlák a tolik bohatství \\r\\n\\r\\nJak je ale nejlépe použít semínka, která mají tak blahodárné účinky!\\r\\n\\r\\nVe středu 8. září bude ve fulnecké Zahradě HOJNOSTI![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png)![🌼](https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1.5/16/1f33c.png)![🌿](https://static.xx.fbcdn.net/images/emoji.php/v9/t77/1.5/16/1f33f.png) další kurz s bylinkářkou / seriál Rok (s) bylinkářkou @[Míša Cotoumísbylinami](https://www.facebook.com/misa.cotoumisbylinami?__cft__[0]=AZU--Xdc8XCkJKHjZMOnBrNtww_tKw6odCGZ1wPDDyhwixPI7mfNMuMn4IODe97137iM4xa1Eo4HNBWslJqC0WAVWT9s_frpXE5s7reyYVCakHy989c-Z8d1zyNJEISZ_6ijnzQqwsBGgwHwo8jxWxrWJsYKXSUDpXPsZvBbac92O7Kj1_DaXi_p06obBBeLLv0&__tn__=-]K-R) - téma Ostropestřec -  OD SBĚRU AŽ PO TINKTURU !\\r\\n\\r\\nObujte pevné boty ![👞](https://static.xx.fbcdn.net/images/emoji.php/v9/t75/1.5/16/1f45e.png), vemte rukavice ![🧤](https://static.xx.fbcdn.net/images/emoji.php/v9/td9/1.5/16/1f9e4.png) a přijďte v 16:30 h na Zahradu HOJNOSTI ![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png) Palackého 298, Fulnek\\r\\n\\r\\nZjistíte, jak je to s nejčastějšími mýty o ostropestřci, k čemu je vlastně dobrý a jak jej použít. Ostropestřec sesbíráme, zpracujeme a vyrobíme \\"medicínu\\". Tu si rovnou odnesete s sebou, navíc bohatší o cenné a zaručené rady a třeba i o pár nových známých ![👩](https://static.xx.fbcdn.net/images/emoji.php/v9/te8/1.5/16/1f469.png)![👨](https://static.xx.fbcdn.net/images/emoji.php/v9/t67/1.5/16/1f468.png)![🧑](https://static.xx.fbcdn.net/images/emoji.php/v9/tb7/1.5/16/1f9d1.png)![👦](https://static.xx.fbcdn.net/images/emoji.php/v9/t65/1.5/16/1f466.png)\\r\\n\\r\\nCena workshopu je 300 Kč, v ceně - materiál, odborné vedení a podpora Zahrady HOJNOSTI ![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png) TĚŠÍME SE![💕](https://static.xx.fbcdn.net/images/emoji.php/v9/tc1/1.5/16/1f495.png)","html":"<p>OSTROPESTŘEC - takový bodlák a tolik bohatství</p>\\n<p>Jak je ale nejlépe použít semínka, která mají tak blahodárné účinky!</p>\\n<p>Ve středu 8. září bude ve fulnecké Zahradě HOJNOSTI<img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png\\" alt=\\"💚\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1.5/16/1f33c.png\\" alt=\\"🌼\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t77/1.5/16/1f33f.png\\" alt=\\"🌿\\"> další kurz s bylinkářkou / seriál Rok (s) bylinkářkou @<a href=\\"https://www.facebook.com/misa.cotoumisbylinami?__cft__%5B0%5D=AZU--Xdc8XCkJKHjZMOnBrNtww_tKw6odCGZ1wPDDyhwixPI7mfNMuMn4IODe97137iM4xa1Eo4HNBWslJqC0WAVWT9s_frpXE5s7reyYVCakHy989c-Z8d1zyNJEISZ_6ijnzQqwsBGgwHwo8jxWxrWJsYKXSUDpXPsZvBbac92O7Kj1_DaXi_p06obBBeLLv0&#x26;__tn__=-%5DK-R\\">Míša Cotoumísbylinami</a> - téma Ostropestřec -  OD SBĚRU AŽ PO TINKTURU !</p>\\n<p>Obujte pevné boty <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t75/1.5/16/1f45e.png\\" alt=\\"👞\\">, vemte rukavice <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/td9/1.5/16/1f9e4.png\\" alt=\\"🧤\\"> a přijďte v 16:30 h na Zahradu HOJNOSTI <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png\\" alt=\\"💚\\"> Palackého 298, Fulnek</p>\\n<p>Zjistíte, jak je to s nejčastějšími mýty o ostropestřci, k čemu je vlastně dobrý a jak jej použít. Ostropestřec sesbíráme, zpracujeme a vyrobíme \\"medicínu\\". Tu si rovnou odnesete s sebou, navíc bohatší o cenné a zaručené rady a třeba i o pár nových známých <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/te8/1.5/16/1f469.png\\" alt=\\"👩\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t67/1.5/16/1f468.png\\" alt=\\"👨\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tb7/1.5/16/1f9d1.png\\" alt=\\"🧑\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t65/1.5/16/1f466.png\\" alt=\\"👦\\"></p>\\n<p>Cena workshopu je 300 Kč, v ceně - materiál, odborné vedení a podpora Zahrady HOJNOSTI <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png\\" alt=\\"💚\\"> TĚŠÍME SE<img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tc1/1.5/16/1f495.png\\" alt=\\"💕\\"></p>","frontmatter":{"name":"Další kurz s bylinkářkou - Jak nejlépe efektivně zpracovat semena OSTROPESTŘCE","date":"01-09-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/046bf762fc98abcd124d3b116acbb0cb/9c1c5/plakat-zahrada-ostropest%C5%99ec-8.9..png","srcSet":"/static/046bf762fc98abcd124d3b116acbb0cb/4d208/plakat-zahrada-ostropest%C5%99ec-8.9..png 413w,\\n/static/046bf762fc98abcd124d3b116acbb0cb/fa115/plakat-zahrada-ostropest%C5%99ec-8.9..png 827w,\\n/static/046bf762fc98abcd124d3b116acbb0cb/9c1c5/plakat-zahrada-ostropest%C5%99ec-8.9..png 1653w","sizes":"(min-width: 1653px) 1653px, 100vw"},"sources":[{"srcSet":"/static/046bf762fc98abcd124d3b116acbb0cb/ffbc5/plakat-zahrada-ostropest%C5%99ec-8.9..webp 413w,\\n/static/046bf762fc98abcd124d3b116acbb0cb/67d54/plakat-zahrada-ostropest%C5%99ec-8.9..webp 827w,\\n/static/046bf762fc98abcd124d3b116acbb0cb/0de36/plakat-zahrada-ostropest%C5%99ec-8.9..webp 1653w","type":"image/webp","sizes":"(min-width: 1653px) 1653px, 100vw"}]},"width":1653,"height":1650.0000000000002}}},"imageAlt":"Pozvánka na workshop Jak nejlépe efektivně zpracovat semena OSTROPESTŘCE"}}}},{"node":{"rawMarkdownBody":"12\\\\. května – první výsadba. K dalším semínkům přibylo cca 100 růží a 300 levandulí. Osazujeme svah a začínáme tvořit Labyrint. Postupně přibývají další a další sazenice. Levandulí bude určitě už příští týden přes tisíc. Ano, je to velká plocha.","html":"<p>12. května – první výsadba. K dalším semínkům přibylo cca 100 růží a 300 levandulí. Osazujeme svah a začínáme tvořit Labyrint. Postupně přibývají další a další sazenice. Levandulí bude určitě už příští týden přes tisíc. Ano, je to velká plocha.</p>","frontmatter":{"name":"Osazování svahu pokračuje","date":"16-06-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#181808","images":{"fallback":{"src":"/static/842de6672363913ab813b5f19a7b5652/dbc78/zpr%C3%A1va-2-foto.jpg","srcSet":"/static/842de6672363913ab813b5f19a7b5652/8b617/zpr%C3%A1va-2-foto.jpg 1068w,\\n/static/842de6672363913ab813b5f19a7b5652/e0125/zpr%C3%A1va-2-foto.jpg 2136w,\\n/static/842de6672363913ab813b5f19a7b5652/dbc78/zpr%C3%A1va-2-foto.jpg 4272w","sizes":"(min-width: 4272px) 4272px, 100vw"},"sources":[{"srcSet":"/static/842de6672363913ab813b5f19a7b5652/a71eb/zpr%C3%A1va-2-foto.webp 1068w,\\n/static/842de6672363913ab813b5f19a7b5652/faeff/zpr%C3%A1va-2-foto.webp 2136w,\\n/static/842de6672363913ab813b5f19a7b5652/8e1f3/zpr%C3%A1va-2-foto.webp 4272w","type":"image/webp","sizes":"(min-width: 4272px) 4272px, 100vw"}]},"width":4272,"height":2848}}},"imageAlt":"Foto výsadby na Zahradě"}}}},{"node":{"rawMarkdownBody":"Bylo to skvělé, prohlídka, Vy, workshop, informace, @misa.cotoumisbylinami\\r\\n\\r\\nProstě nádherná atmosféra, cenné informace a výsledek? Ten nám pokaždé připomene tuhle hezkou sobotu, když budeme sahat do lékárničky pro měsíčkovou mast.","html":"<p>Bylo to skvělé, prohlídka, Vy, workshop, informace, @misa.cotoumisbylinami</p>\\n<p>Prostě nádherná atmosféra, cenné informace a výsledek? Ten nám pokaždé připomene tuhle hezkou sobotu, když budeme sahat do lékárničky pro měsíčkovou mast.</p>","frontmatter":{"name":"Měsíček lékařský - výroba masti v Zahradě HOJNOSTI","date":"15-08-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#b84808","images":{"fallback":{"src":"/static/a6198bfccc7941f215a466c62fad345a/863ef/mast-2-.jpg","srcSet":"/static/a6198bfccc7941f215a466c62fad345a/d4d2a/mast-2-.jpg 512w,\\n/static/a6198bfccc7941f215a466c62fad345a/669f3/mast-2-.jpg 1024w,\\n/static/a6198bfccc7941f215a466c62fad345a/863ef/mast-2-.jpg 2048w","sizes":"(min-width: 2048px) 2048px, 100vw"},"sources":[{"srcSet":"/static/a6198bfccc7941f215a466c62fad345a/a79fe/mast-2-.webp 512w,\\n/static/a6198bfccc7941f215a466c62fad345a/2d898/mast-2-.webp 1024w,\\n/static/a6198bfccc7941f215a466c62fad345a/de790/mast-2-.webp 2048w","type":"image/webp","sizes":"(min-width: 2048px) 2048px, 100vw"}]},"width":2048,"height":1536}}},"imageAlt":"Měsíček lékařský sklizený v Zahradě HOJNOSTI a vyrobená mast do domácí lékárnicky. "}}}},{"node":{"rawMarkdownBody":"Labyrint vznikl ze zbytků kamenů, které na pozemku zůstaly po terénních úpravách. Začalo se od středu levandulemi a postupně se vysázelo cca 50 druhů letniček – krásenky, cínie, šalvěj, vysévaly se jiřinky, okrasný mák, proso, laskavec a další. Vše se na radu odbornice, zahradnice Míši, překrývá netkanou fólii, která zajistí ochranu před ptáčky, rychlým vysycháním i nočními výkyvy teplot.","html":"<p>Labyrint vznikl ze zbytků kamenů, které na pozemku zůstaly po terénních úpravách. Začalo se od středu levandulemi a postupně se vysázelo cca 50 druhů letniček – krásenky, cínie, šalvěj, vysévaly se jiřinky, okrasný mák, proso, laskavec a další. Vše se na radu odbornice, zahradnice Míši, překrývá netkanou fólii, která zajistí ochranu před ptáčky, rychlým vysycháním i nočními výkyvy teplot.</p>","frontmatter":{"name":"Labyrint","date":"17-06-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#988888","images":{"fallback":{"src":"/static/fb5a23d6b70de1cd425cd41d0e813d9b/afa5c/zpr%C3%A1va-3.png","srcSet":"/static/fb5a23d6b70de1cd425cd41d0e813d9b/2fe1e/zpr%C3%A1va-3.png 480w,\\n/static/fb5a23d6b70de1cd425cd41d0e813d9b/9bec7/zpr%C3%A1va-3.png 960w,\\n/static/fb5a23d6b70de1cd425cd41d0e813d9b/afa5c/zpr%C3%A1va-3.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/fb5a23d6b70de1cd425cd41d0e813d9b/3a3a2/zpr%C3%A1va-3.webp 480w,\\n/static/fb5a23d6b70de1cd425cd41d0e813d9b/bde8a/zpr%C3%A1va-3.webp 960w,\\n/static/fb5a23d6b70de1cd425cd41d0e813d9b/c512e/zpr%C3%A1va-3.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":1080}}},"imageAlt":"Foto z ptačí perspektivz labyrintu na Zahradě Hojnosti"}}}},{"node":{"rawMarkdownBody":"ZVEME VÁS na Zahradu HOJNOSTI ![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f49a.png)![🌼](https://static.xx.fbcdn.net/images/emoji.php/v9/t9b/1/16/1f33c.png)![🍀](https://static.xx.fbcdn.net/images/emoji.php/v9/t87/1/16/1f340.png), na historicky první WORKSHOP ! Pokud věříte v sílu a moc bylin, využijte příležitosti načerpat zkušenosti od úžasné odbornice Míši Brošové. Jde o setkání ze seriálu Rok (s) bylinkářkou a jsme rádi, že proběhne právě u nás.\\r\\n\\r\\nV SOBOTU 14.8.2021 v Zahradě HOJNOSTI ![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f49a.png)![🌼](https://static.xx.fbcdn.net/images/emoji.php/v9/t9b/1/16/1f33c.png)![🍀](https://static.xx.fbcdn.net/images/emoji.php/v9/t87/1/16/1f340.png)\\r\\n\\r\\n09:00 - 12:00 ![✔](https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/2714.png) prohlídka a samosběr\\r\\n\\r\\n12:00 - 14:00 ![✔](https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/2714.png) výroba MĚSÍČKOVÉ masti s bylinkářkou Míšou\\r\\n\\r\\nDopoledne je ZDARMA, workshop od 12ti hodin stojí 300 Kč. V ceně je materiál, pomůcky, výklad a podpora dalšího rozvoje Zahrady HOJNOSTI. Měsíček si sami natrháte, a pod vedením Míši, vyrobíte vlastní zázrak z přírody, který nemá chybět v žádné domácnosti. Nezapomeňte na pevnou obuv a ochranu proti sluníčku, pokud bude ![😎](https://static.xx.fbcdn.net/images/emoji.php/v9/t83/1/16/1f60e.png) a taky něco na psaní, aby Vám cenné informace zůstaly napořád. Ostatní je zajištěno.\\r\\n\\r\\nJestli chcete vědět, kdo je Míša Brošová, hledejte na FB misa.cotoumisbylinami a věřte, ta fakt umí ![🌿](https://static.xx.fbcdn.net/images/emoji.php/v9/t1e/1/16/1f33f.png)![👏](https://static.xx.fbcdn.net/images/emoji.php/v9/tfe/1/16/1f44f.png)\\r\\n\\r\\nO Zahradě HOJNOSTI čtěte zde ![👉](https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png) [https://www.kousekpokousku.cz/zahrada-hojnosti](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.kousekpokousku.cz%2Fzahrada-hojnosti%3Ffbclid%3DIwAR1pzoqOWt7uvug01HKxw9zFYCGq1xao8Y6LWF6q5oLPa4pUxXCVfFkrvcw&h=AT3tJOy34asMiayQ2kkrR8w6w7FpzGnpxtdwB7Cf0hL8QHi1SL2syih3qCluixtfJR0rybgj6W8b-sLXYgVOglvV3unpjVK7ibcU0D9iz2OnNTIT9a58yFLSVX9RHYcTBJ9K&__tn__=-UK-y-R&c[0]=AT2mJFU71DRtpu61dML7k_dVd76uI-ArMRqotE5sl90XTFnaNqbXZa1COiZv8LPEAdLF7CBmhTo6Aox4s3qWRWIaWx-2k_ndD7ZAw0IMq6AOofGSQG2Zq3y2RVyLxz8XhjgNAXxqlLotGElrtffWytPewECzbrUGYhodJGagqqvqSnQxND2tCMZEbyrCjVqL6WgoZzE)\\r\\n\\r\\nPokud se chcete přidat k podpoře Zahradě Hojnosti, můžete ![👉](https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png) [https://podpora.kousekpokousku.cz/ze-zahrady-hojnosti/](https://l.facebook.com/l.php?u=https%3A%2F%2Fpodpora.kousekpokousku.cz%2Fze-zahrady-hojnosti%2F%3Ffbclid%3DIwAR15YWwhj9cQViZdN1_EipDuJyxo-00RtWxSwRBCWnSx9UOIxZ5VJ1Nwnzs&h=AT2JXKbvfwAZHZthtRrF-WDgG1PHm7LVv56qwJxqUkvYDfl8wHvsove2rChpgJfWbQpztJ8fE05wBJr7HcbkE17Uy-lyXORXcfn5bsZ43EI558_K1rVUXdkw3QjkoseLId9N&__tn__=-UK-y-R&c[0]=AT2mJFU71DRtpu61dML7k_dVd76uI-ArMRqotE5sl90XTFnaNqbXZa1COiZv8LPEAdLF7CBmhTo6Aox4s3qWRWIaWx-2k_ndD7ZAw0IMq6AOofGSQG2Zq3y2RVyLxz8XhjgNAXxqlLotGElrtffWytPewECzbrUGYhodJGagqqvqSnQxND2tCMZEbyrCjVqL6WgoZzE)\\r\\n","html":"<p>ZVEME VÁS na Zahradu HOJNOSTI <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f49a.png\\" alt=\\"💚\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t9b/1/16/1f33c.png\\" alt=\\"🌼\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t87/1/16/1f340.png\\" alt=\\"🍀\\">, na historicky první WORKSHOP ! Pokud věříte v sílu a moc bylin, využijte příležitosti načerpat zkušenosti od úžasné odbornice Míši Brošové. Jde o setkání ze seriálu Rok (s) bylinkářkou a jsme rádi, že proběhne právě u nás.</p>\\n<p>V SOBOTU 14.8.2021 v Zahradě HOJNOSTI <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f49a.png\\" alt=\\"💚\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t9b/1/16/1f33c.png\\" alt=\\"🌼\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t87/1/16/1f340.png\\" alt=\\"🍀\\"></p>\\n<p>09:00 - 12:00 <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/2714.png\\" alt=\\"✔\\"> prohlídka a samosběr</p>\\n<p>12:00 - 14:00 <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/2714.png\\" alt=\\"✔\\"> výroba MĚSÍČKOVÉ masti s bylinkářkou Míšou</p>\\n<p>Dopoledne je ZDARMA, workshop od 12ti hodin stojí 300 Kč. V ceně je materiál, pomůcky, výklad a podpora dalšího rozvoje Zahrady HOJNOSTI. Měsíček si sami natrháte, a pod vedením Míši, vyrobíte vlastní zázrak z přírody, který nemá chybět v žádné domácnosti. Nezapomeňte na pevnou obuv a ochranu proti sluníčku, pokud bude <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t83/1/16/1f60e.png\\" alt=\\"😎\\"> a taky něco na psaní, aby Vám cenné informace zůstaly napořád. Ostatní je zajištěno.</p>\\n<p>Jestli chcete vědět, kdo je Míša Brošová, hledejte na FB misa.cotoumisbylinami a věřte, ta fakt umí <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t1e/1/16/1f33f.png\\" alt=\\"🌿\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tfe/1/16/1f44f.png\\" alt=\\"👏\\"></p>\\n<p>O Zahradě HOJNOSTI čtěte zde <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png\\" alt=\\"👉\\"> <a href=\\"https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.kousekpokousku.cz%2Fzahrada-hojnosti%3Ffbclid%3DIwAR1pzoqOWt7uvug01HKxw9zFYCGq1xao8Y6LWF6q5oLPa4pUxXCVfFkrvcw&#x26;h=AT3tJOy34asMiayQ2kkrR8w6w7FpzGnpxtdwB7Cf0hL8QHi1SL2syih3qCluixtfJR0rybgj6W8b-sLXYgVOglvV3unpjVK7ibcU0D9iz2OnNTIT9a58yFLSVX9RHYcTBJ9K&#x26;__tn__=-UK-y-R&#x26;c%5B0%5D=AT2mJFU71DRtpu61dML7k_dVd76uI-ArMRqotE5sl90XTFnaNqbXZa1COiZv8LPEAdLF7CBmhTo6Aox4s3qWRWIaWx-2k_ndD7ZAw0IMq6AOofGSQG2Zq3y2RVyLxz8XhjgNAXxqlLotGElrtffWytPewECzbrUGYhodJGagqqvqSnQxND2tCMZEbyrCjVqL6WgoZzE\\">https://www.kousekpokousku.cz/zahrada-hojnosti</a></p>\\n<p>Pokud se chcete přidat k podpoře Zahradě Hojnosti, můžete <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png\\" alt=\\"👉\\"> <a href=\\"https://l.facebook.com/l.php?u=https%3A%2F%2Fpodpora.kousekpokousku.cz%2Fze-zahrady-hojnosti%2F%3Ffbclid%3DIwAR15YWwhj9cQViZdN1_EipDuJyxo-00RtWxSwRBCWnSx9UOIxZ5VJ1Nwnzs&#x26;h=AT2JXKbvfwAZHZthtRrF-WDgG1PHm7LVv56qwJxqUkvYDfl8wHvsove2rChpgJfWbQpztJ8fE05wBJr7HcbkE17Uy-lyXORXcfn5bsZ43EI558_K1rVUXdkw3QjkoseLId9N&#x26;__tn__=-UK-y-R&#x26;c%5B0%5D=AT2mJFU71DRtpu61dML7k_dVd76uI-ArMRqotE5sl90XTFnaNqbXZa1COiZv8LPEAdLF7CBmhTo6Aox4s3qWRWIaWx-2k_ndD7ZAw0IMq6AOofGSQG2Zq3y2RVyLxz8XhjgNAXxqlLotGElrtffWytPewECzbrUGYhodJGagqqvqSnQxND2tCMZEbyrCjVqL6WgoZzE\\">https://podpora.kousekpokousku.cz/ze-zahrady-hojnosti/</a></p>","frontmatter":{"name":"Sobota v Zahradě HOJNOSTI","date":"11-08-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/b9bd5d930914809769ccfea6ca4a2300/cfe7a/zhrada-plakat-bylinka%C5%99ka-.png","srcSet":"/static/b9bd5d930914809769ccfea6ca4a2300/f2284/zhrada-plakat-bylinka%C5%99ka-.png 349w,\\n/static/b9bd5d930914809769ccfea6ca4a2300/700bf/zhrada-plakat-bylinka%C5%99ka-.png 698w,\\n/static/b9bd5d930914809769ccfea6ca4a2300/cfe7a/zhrada-plakat-bylinka%C5%99ka-.png 1396w","sizes":"(min-width: 1396px) 1396px, 100vw"},"sources":[{"srcSet":"/static/b9bd5d930914809769ccfea6ca4a2300/546d1/zhrada-plakat-bylinka%C5%99ka-.webp 349w,\\n/static/b9bd5d930914809769ccfea6ca4a2300/70079/zhrada-plakat-bylinka%C5%99ka-.webp 698w,\\n/static/b9bd5d930914809769ccfea6ca4a2300/2da55/zhrada-plakat-bylinka%C5%99ka-.webp 1396w","type":"image/webp","sizes":"(min-width: 1396px) 1396px, 100vw"}]},"width":1396,"height":1394}}},"imageAlt":"Plakát s pozvánkou na akci"}}}},{"node":{"rawMarkdownBody":"25\\\\. dubna 2021 jsme v Zahradě Hojnosti vyseli první semínka! Začala nová etapa pozemku ve Fulneku. Každým semínkem vzniká nový život.\\r\\n\\r\\nČást svahu porostou byliny – lichořeřišnice , měsíček lékařský, ostropestřec mariánský, třezalka tečkovaná, heřmánek pravý, len modrý. Jsme v očekávání, zda se vše uchytí.","html":"<p>25. dubna 2021 jsme v Zahradě Hojnosti vyseli první semínka! Začala nová etapa pozemku ve Fulneku. Každým semínkem vzniká nový život.</p>\\n<p>Část svahu porostou byliny – lichořeřišnice , měsíček lékařský, ostropestřec mariánský, třezalka tečkovaná, heřmánek pravý, len modrý. Jsme v očekávání, zda se vše uchytí.</p>","frontmatter":{"name":"První semínka v půdě","date":"15-06-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#b8c8d8","images":{"fallback":{"src":"/static/5abdfe096db512f11d71cb35c8a61aca/6203f/zpr%C3%A1va-1-foto-2-.jpg","srcSet":"/static/5abdfe096db512f11d71cb35c8a61aca/5e339/zpr%C3%A1va-1-foto-2-.jpg 114w,\\n/static/5abdfe096db512f11d71cb35c8a61aca/1ff8e/zpr%C3%A1va-1-foto-2-.jpg 227w,\\n/static/5abdfe096db512f11d71cb35c8a61aca/6203f/zpr%C3%A1va-1-foto-2-.jpg 454w","sizes":"(min-width: 454px) 454px, 100vw"},"sources":[{"srcSet":"/static/5abdfe096db512f11d71cb35c8a61aca/17f87/zpr%C3%A1va-1-foto-2-.webp 114w,\\n/static/5abdfe096db512f11d71cb35c8a61aca/99b0f/zpr%C3%A1va-1-foto-2-.webp 227w,\\n/static/5abdfe096db512f11d71cb35c8a61aca/d1ef0/zpr%C3%A1va-1-foto-2-.webp 454w","type":"image/webp","sizes":"(min-width: 454px) 454px, 100vw"}]},"width":454,"height":216.00000000000003}}},"imageAlt":"Foto ze Zahrady Hojnosti z výsevu"}}}},{"node":{"rawMarkdownBody":"Máme radost! V Zahradě Hojnosti začíná žít vše, co jsme jí zatím dali. Pod plachtami vzniklo mikroklima, které pomohlo semínkům vzpomenout si na základní informaci – vzklíčit do života. Každá rostlinka se tetelí a ukazuje světu. Poctivě zaléváme. Nemůžeme tomu uvěřit. Zahrada hojnosti vzkvétá. Jsme na začátku.","html":"<p>Máme radost! V Zahradě Hojnosti začíná žít vše, co jsme jí zatím dali. Pod plachtami vzniklo mikroklima, které pomohlo semínkům vzpomenout si na základní informaci – vzklíčit do života. Každá rostlinka se tetelí a ukazuje světu. Poctivě zaléváme. Nemůžeme tomu uvěřit. Zahrada hojnosti vzkvétá. Jsme na začátku.</p>","frontmatter":{"name":"Máme radost","date":"18-06-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/0701298c086f6936173f4219bcc7986e/fae27/zpr%C3%A1va-4.jpg","srcSet":"/static/0701298c086f6936173f4219bcc7986e/6c903/zpr%C3%A1va-4.jpg 756w,\\n/static/0701298c086f6936173f4219bcc7986e/44670/zpr%C3%A1va-4.jpg 1512w,\\n/static/0701298c086f6936173f4219bcc7986e/fae27/zpr%C3%A1va-4.jpg 3024w","sizes":"(min-width: 3024px) 3024px, 100vw"},"sources":[{"srcSet":"/static/0701298c086f6936173f4219bcc7986e/dd945/zpr%C3%A1va-4.webp 756w,\\n/static/0701298c086f6936173f4219bcc7986e/76fb3/zpr%C3%A1va-4.webp 1512w,\\n/static/0701298c086f6936173f4219bcc7986e/7d916/zpr%C3%A1va-4.webp 3024w","type":"image/webp","sizes":"(min-width: 3024px) 3024px, 100vw"}]},"width":3024,"height":4032}}},"imageAlt":"Foto osazeného labyrintu na zahradě"}}}},{"node":{"rawMarkdownBody":"**Zveme na - pravděpodobně - poslední akci letošní sezóny v Zahradě HOJNOSTI 💚🌼🌿**\\r\\n\\r\\nV sobotu v 10 h dopoledne začne výsadba 11ti MORUŠÍ s Mirkem Sedláčkem, který je velkým odborníkem a fandou Moruší. U práce⛏ bude povídat, odpovídat na Vaše dotazy a je na Vás, jestli přijdete pomoct nebo se jen podívat 👀.\\r\\n\\r\\nPřijede znovu také úžasná Miša Brošová a téma sobotního workshopu bude jak jinak - podzimní, bude se točit kolem semínek. Jak správně sesbírat, sušit či ne, jak uskladňovat, abychom je na jaře zase mohli vysévat do země. Pokud nějaká máte ze své zahrady, přineste, můžeme vyměňovat, aby se druhy rozšířily.\\r\\n\\r\\nKdo jste Míšu zažili, víte, že její zkušenosti jsou opravdu obrovské, vědomosti hluboké a její výklad jednoznačně obohacující 👌\\\\\\r\\nOd 12 do 15 h se můžete přidat ke skupince workshopu.\\r\\n\\r\\nVyužijte možnosti potkat se s odborníky ve svém oboru. Těšíme se na Zahradě HOJNOSTI ve FULNEKU, na Palackého 297.","html":"<p><strong>Zveme na - pravděpodobně - poslední akci letošní sezóny v Zahradě HOJNOSTI 💚🌼🌿</strong></p>\\n<p>V sobotu v 10 h dopoledne začne výsadba 11ti MORUŠÍ s Mirkem Sedláčkem, který je velkým odborníkem a fandou Moruší. U práce⛏ bude povídat, odpovídat na Vaše dotazy a je na Vás, jestli přijdete pomoct nebo se jen podívat 👀.</p>\\n<p>Přijede znovu také úžasná Miša Brošová a téma sobotního workshopu bude jak jinak - podzimní, bude se točit kolem semínek. Jak správně sesbírat, sušit či ne, jak uskladňovat, abychom je na jaře zase mohli vysévat do země. Pokud nějaká máte ze své zahrady, přineste, můžeme vyměňovat, aby se druhy rozšířily.</p>\\n<p>Kdo jste Míšu zažili, víte, že její zkušenosti jsou opravdu obrovské, vědomosti hluboké a její výklad jednoznačně obohacující 👌<br>\\nOd 12 do 15 h se můžete přidat ke skupince workshopu.</p>\\n<p>Využijte možnosti potkat se s odborníky ve svém oboru. Těšíme se na Zahradě HOJNOSTI ve FULNEKU, na Palackého 297.</p>","frontmatter":{"name":"Výsadba MORUŠÍ a kurz - JAK PŘIPRAVIT SEMENA PRO JARNÍ VÝSEV","date":"20-09-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/95a58b4ba7817c29637796f45112d306/f793e/zahrada-moru%C5%A1e-1.png","srcSet":"/static/95a58b4ba7817c29637796f45112d306/f4c0e/zahrada-moru%C5%A1e-1.png 413w,\\n/static/95a58b4ba7817c29637796f45112d306/2145e/zahrada-moru%C5%A1e-1.png 825w,\\n/static/95a58b4ba7817c29637796f45112d306/f793e/zahrada-moru%C5%A1e-1.png 1650w","sizes":"(min-width: 1650px) 1650px, 100vw"},"sources":[{"srcSet":"/static/95a58b4ba7817c29637796f45112d306/b3ea4/zahrada-moru%C5%A1e-1.webp 413w,\\n/static/95a58b4ba7817c29637796f45112d306/974f0/zahrada-moru%C5%A1e-1.webp 825w,\\n/static/95a58b4ba7817c29637796f45112d306/abe36/zahrada-moru%C5%A1e-1.webp 1650w","type":"image/webp","sizes":"(min-width: 1650px) 1650px, 100vw"}]},"width":1650,"height":1650}}},"imageAlt":null}}}},{"node":{"rawMarkdownBody":"Účastnice workshopu si odnesly informace a medicínu na celou zimu. Opět přijela @Mísa.cotoumisbylinami  \\r\\n\\r\\nVěděli jste, že i její maminka, babička pracovaly s bylinami? Informace od Míši jsou opravdu generacemi odzkoušené a co víc, Míša se svým manželem pracují s vědeckými podklady, nechávají zjišťovat v laboratořích množství léčivých látek pro své účely. Jak sama Míša říká, to že se uleví synovci a známému známého není relevantní důkaz. \\r\\n\\r\\nVyužijte toho, že na Zahradu HOJNOSTI zveme kapacity z oboru a přijďte načerpat informace.","html":"<p>Účastnice workshopu si odnesly informace a medicínu na celou zimu. Opět přijela @Mísa.cotoumisbylinami</p>\\n<p>Věděli jste, že i její maminka, babička pracovaly s bylinami? Informace od Míši jsou opravdu generacemi odzkoušené a co víc, Míša se svým manželem pracují s vědeckými podklady, nechávají zjišťovat v laboratořích množství léčivých látek pro své účely. Jak sama Míša říká, to že se uleví synovci a známému známého není relevantní důkaz.</p>\\n<p>Využijte toho, že na Zahradu HOJNOSTI zveme kapacity z oboru a přijďte načerpat informace.</p>","frontmatter":{"name":"Ostropestřec ze Zahrady HOJNOSTI sklizen","date":"09-09-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#383838","images":{"fallback":{"src":"/static/1a09c32c2a50d7a2decd3e7bb25db431/863ef/sem%C3%ADnka.jpg","srcSet":"/static/1a09c32c2a50d7a2decd3e7bb25db431/d4d2a/sem%C3%ADnka.jpg 512w,\\n/static/1a09c32c2a50d7a2decd3e7bb25db431/669f3/sem%C3%ADnka.jpg 1024w,\\n/static/1a09c32c2a50d7a2decd3e7bb25db431/863ef/sem%C3%ADnka.jpg 2048w","sizes":"(min-width: 2048px) 2048px, 100vw"},"sources":[{"srcSet":"/static/1a09c32c2a50d7a2decd3e7bb25db431/a79fe/sem%C3%ADnka.webp 512w,\\n/static/1a09c32c2a50d7a2decd3e7bb25db431/2d898/sem%C3%ADnka.webp 1024w,\\n/static/1a09c32c2a50d7a2decd3e7bb25db431/de790/sem%C3%ADnka.webp 2048w","type":"image/webp","sizes":"(min-width: 2048px) 2048px, 100vw"}]},"width":2048,"height":1536}}},"imageAlt":"Semínka ostropestřce ze Zahrady HOJNOSTI"}}}}]}}}');
-
-/***/ }),
-
-/***/ "./public/page-data/sq/d/2712254591.json":
-/*!***********************************************!*\
-  !*** ./public/page-data/sq/d/2712254591.json ***!
-  \***********************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"data":{"allMarkdownRemark":{"edges":[{"node":{"rawMarkdownBody":"","frontmatter":{"id":"739d0913-9b4a-4a0a-847e-b19edbd96a24","description":"Klobouky pro swingovou partičku","position":{"lat":49.71203549952499,"lng":17.9046791661948},"kouskovani":true,"price":3991,"title":"Aktiv rodičů při ZUŠ Fulnek","year":2017}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"2fdb071b-d6b9-442e-8bf2-4286c433aa03","description":"Pořízení zvukové techniky pro potřebu výuky kapel a souborů na ZUŠ ve FulneKU","position":{"lat":49.71203549952499,"lng":17.9046791661948},"kouskovani":true,"price":5000,"title":"Aktiv rodičů při ZUŠ ve Fulneku","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"7d981606-d110-44dc-82b1-c95618eb28df","description":"Tento příspěvek Nadačního fondu pomůže ke vzniku nového spolku, který bude nadále kreativně vytvářet a propagovat chytré elektronické knihy pro děti jako je například nedávno dokončený Lesokraj, příběh, díky kterému jsou děti motivovány hrou k četbě a rozvíjejí hlubší vnímání psaného textu. Informace o stažení aplikace, která je pro všechny zájemce dostupná zdarma, naleznete na www.lesokraj.cz.","position":{"lat":49.586873458829054,"lng":17.2490028962186},"kouskovani":false,"price":10000,"title":"Aplikace Lesokraj, která pomáhá dětem učit se číst","year":2015}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"0be4cb5c-0460-41f5-a5ba-fbf61d2adaa3","description":"Obsahem projektu je tvorba vzdělávací metodiky a realizace divadelních workshopů přímo ke konkrétním představením pro žáky základních a studenty středních škol, kteří navštíví Národní divadlo moravskoslezské v Ostravě v rámci školní výuky. Interaktivní workshopy jsou otevřeny pro všechny zájemce z regionu. Díky nim už pro děti nebude návštěva divadla nikdy nuda!","position":{"lat":49.836203321232034,"lng":18.2882095846894},"kouskovani":false,"price":90000,"title":"Ateliér pro děti a mládež","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"c0a4c444-d666-4092-b23f-d98d33061d7e","description":"Díky podpoře Nadačního fondu se budou moci po celý školní rok děti z různých škol regionu vzdělávat v oblasti divadla a vnímání divadelního představení zábavnou a interaktivní formou pod vedením Mgr. Terezy Vyvíjalové. Divadelní vzdělávání dnes již běžné po celé Evropě, tak bude konečně dostupné i dětem z našeho regionu, pro které návštěva divadla už nikdy nebude nuda ale jen dobrodružství.","position":{"lat":49.836203321232034,"lng":18.2882095846894},"kouskovani":false,"price":100000,"title":"Ateliér pro děti a mládež při Národním divadle moravskoslezském","year":2012}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"8050b644-d842-42fb-8592-711c859d5f3b","description":"Projekt navazuje na dvouletou úspěšnou spolupráci Nadačního fondu s Ateliériem, která napomohla k samotnému vzniku organizace a k nastartování systematického interaktivního vzdělávání v oblasti divadla pro studenty základních i středních škol celého Ostravska. V tomto projektu si budou moct studenti poprvé vyzkoušet nikoliv jen jednorázovou, ale i dlouhodobější spolupráci s divadelními lektory, z které vznikne nový divadelní tvar.","position":{"lat":49.836203321232034,"lng":18.2882095846894},"kouskovani":false,"price":24000,"title":"Ateliér pro děti a mládež při Národním divadle moravskoslezském ORFF – společně k divadelnímu tvaru!","year":2014}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"377c2c23-fe89-455a-b6f5-8dba9ce46991","description":"Náplní tohoto projektu je podpůrná práce s rodinami, které pečují o děti se zdravotním postižením. Cílem je vytvořit pro pečující osoby bezpečné prostředí, kde mohou otevřeně sdílet své obavy, těžkosti a problémy, které při své každodenní péči o děti s postižením řeší. A za podpory ostatních rodičů a zejména odborných zaměstnanců hledat možnosti jejich řešení.","position":{"lat":49.81003678636713,"lng":18.2487708245592},"kouskovani":false,"price":10000,"title":"Centrum pro rodinu a sociální péči z. s. Tematické setkávání pečujících","year":2014}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"1z36_jJNz","description":"**Tematické setkávání pečujících a průzkum potřebnosti a zájmu o službu \\"Rodinného průvodce\\" ve Fulneku a okolí.**\\n\\nTento projekt navazuje na úspěšnou spolupráci s Nadačním fondem Kousek po kousku v loňském roce. Tentokrát se budeme společně snažit přenést důležitou, velmi pomáhající a život ulehčující službu setkávání, vzdělávání a vzájemné podpory lidí pečujících dlouhodobě o své blízké do Fulnecka a jeho okolí.","position":{"lat":49.83565,"lng":18.2951},"kouskovani":null,"price":40000,"title":"Centrum pro rodinu a sociální péči","year":2015}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"e33858f7-ee4c-409c-bc14-575d51d37bd2","description":"Tento nadační příspěvek pomáhá k profesionálnímu rozjezdu šicí dílny, která bude vyrábět módní doplňky a potřeby pro osoby se zdravotním postižením. Jako například kabelky, tašky, kapsáře a potahy na různé druhy kompenzačních pomůcek. V tuto chvíli je takovéto zboží na trhu v podstatě nesehnatelné, lidé si nemohou vybrat podle svého vkusu barvu ani materiál. Tento projekt tak chce svými výrobky podpořit pozitivnější sebepojetí osob se zdravotním postižením a dopomoci jim cítit se krásní takoví, jací jsou.","position":{"lat":49.81003678636713,"lng":18.2487708245592},"kouskovani":false,"price":30000,"title":"Centrum pro rodinu a sociální péči Šicí dílna Nezbytné maličkosti","year":2016}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"9aab2b74-c586-4869-b6b0-5c4f755645e3","description":"Fandíme rodině","position":{"lat":49.81003678636713,"lng":18.2487708245592},"kouskovani":true,"price":30000,"title":"Centrum pro rodinu a sociální péči – příspěvek na akci","year":2017}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"2a07c08e-db9a-471a-a745-27672dccc42b","description":"Integrační klub BRÁNA doprovází mladé lidi se zdravotním postižením na cestě k jejich osamostatnění. Pro fungování klubu jsou nezbytní mladí dobrovolníci, kteří jsou pro své vrstevníky s hendikepem parťáky, kamarády a zároveň se díky nim snadněji začleňují do společnosti. Darovaná částka přispěje na celoroční zajištění pitného a svačinkového režimu pro 25 dobrovolníků.","position":{"lat":49.81003678636713,"lng":18.2487708245592},"kouskovani":false,"price":5000,"title":"Centrum pro rodinu a sociální péči z. s., Ostrava - Integrační klub BRÁNA","year":2018}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"2fa97fa4-b7c5-4e6f-921e-690f9c9c6d0a","description":"Projekt podporuje rozvoj dobrovolnictví a aktivní účast veřejnosti v neziskových aktivitách, a to konkrétně skrze organizaci a propagaci charitativních burz s použitým oblečením, které sice někde už dosloužilo, avšak jinde může stále pomoct k dobré věci.","position":{"lat":49.68549503791408,"lng":18.3505340152704},"kouskovani":false,"price":50000,"title":"Charitativní burzy – podpora dobrovolnictví ADRA Frýdek-Místek","year":2012}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"0e976c4e-8d65-4923-8c43-77bd437fb5fa","description":"Cirkus! Dance Studio se specializuje na výuku akrobatického tance na tyči a organizuje celorepublikovou soutěž Pole Princess 2019 pro děti od 6 do 17 let. Třetí ročník soutěže se bude konat v Bernarticích nad Odrou a krom soutěže v akrobatickém tanci na tyči bude přidána také divize „akrobatické šály“. Finanční dar slouží jako příspěvek na instalaci a uchycení soutěžních tyčí.","position":{"lat":49.594770781645714,"lng":18.009353857755},"kouskovani":false,"price":3000,"title":"Circus! Dance Studio, z. s. Pole Priness 2019","year":2018}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"e927fa75-2b4e-4d1f-a084-a3494c082b4c","description":"Tento příspěvek přispěje k realizaci celostátní soutěže pro dívky v nově se rozvíjejícím sportu pole dance, vyžadující velko fyzickou sílu a koordinaci pohybů. Díky příspěvku Nadačního fondu si budou moci i ty nejmenší dívky vyzkoušet soutěž s náčiním ve stejné kvalitě, tak jako profesionální dospělé sportovkyně, ke kterým vzhlíží.","position":{"lat":49.594770781645714,"lng":18.009353857755},"kouskovani":false,"price":20000,"title":"Circus! Dance Studio, z. s. Pole Priness","year":2017}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"142ccb93-5809-4c4d-80d9-e65a40786c6e","description":"Tento projekt připomene výročí 400 let příchodu J. A. Komenského do Fulneku (1618-2018). Chce připomenout jeho mimořádné myšlenky, činnost a odkaz formou různorodých kulturních aktivit v podobě koncertů, přednášek, workshopů apod. Projekt je také mimořádný tím, že je realizován v rámci spolupráce organizací, spolků a aktivních jednotlivců na území Fulnecka a jeho jednotlivé aktivity jsou zajišťovány členy spolku dobrovolnickou formou.","position":{"lat":49.71563066776303,"lng":17.9039049597685},"kouskovani":false,"price":20000,"title":"Comenius Fulnek, z. s. Vivat Comenius","year":2017}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"193931c5-df9e-4aa2-b0c5-0a89e5371281","description":"Projekt podporuje celoroční činnost fulnecké neziskové organizace Comenius, která se kromě vlastních aktivit (jako například uspořádání výstavy přibližující bohatou historii města) snaží ve spolupráci s ostatními občanskými organizacemi a neformální spolky o oživení kulturního komunitního života na Fulnecku.","position":{"lat":49.7155766635126,"lng":17.90343241451815},"kouskovani":false,"price":100000,"title":"Comenius Fulnek  Fulnek žije – a ne že ne","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"982f77d4-0e53-4000-bc50-f5f729609fb5","description":"Domov pro seniory – podpora záměru postavit novou budovu","position":{"lat":49.7177888394657,"lng":18.036382518003595},"kouskovani":true,"price":10000,"title":"Charita Studénka","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"8ac91d23-8c7d-45b0-b882-bdc4cbdf7bcd","description":"Tento projekt neziskové organizace Comenius Fulnek navazuje na již dlouhodobou spolupráci s Nadačním fondem Kousek po kousku zaměřující se na oživení kostela sv. Josefa skrze nejrůznější kulturní, společenské a vzdělávací aktivity. V tomto případě se zaměřením na kulaté výročí obnovení kostela za pomocí několika akcí a výstav.","position":{"lat":49.71560985655201,"lng":17.9038620444259},"kouskovani":false,"price":50000,"title":"Comenius Fulnek 10. výročí obnovení kostela sv. Josefa","year":2015}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"994a2985-10cb-406f-a97c-e8319febbb98","description":"Jak už název samotného projektu napovídá, jeho hlavním výstupem bude vznik originálního moderního průvodcovského systému audio-provázení městem Fulnek. Návštěvníci i místní budou moci za pomoci jednoduchého audio zařízení (mp3 přehrávač k zapůjčení například v informačním centru) sami putovat městem a poslechnout si zajímavé informace ke konkrétním zastavením, tak jak je připravili uznávaní historici Fulnecka.","position":{"lat":49.71560985655201,"lng":17.9038620444259},"kouskovani":false,"price":100000,"title":"Comenius Fulnek o. s. Audioprůvodce Fulnek","year":2014}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"37c227b3-6925-49fc-9776-af0c97c34726","description":"Tento celorepublikový stipendijní program poskytuje komplexní finanční podporu při studiu, a usnadňuje tak dětem a mladým lidem z dětských domovů přípravu na jejich budoucí povolání a samostatný život, motivuje je a posiluje jejich osobnostní rozvoj. Dítěti z dětského domova je často znemožněno věnovat se oboru, který by rádo studovalo, protože se škola, na které se zvolený obor vyučuje, nenachází v blízkosti jeho dětského domova a domov nemá prostředky na úhradu ubytování na internátě či na náklady spojené s dopravou do školy. A zde právě přichází na pomoc tento stipendijní program. Nadační fond podpořil konkrétně studium jedné nadané dívky z dětského domova ve Fulneku.","position":{"lat":49.70742382392442,"lng":18.0500718895889},"kouskovani":false,"price":20000,"title":"Dejme dětem šanci Stipendijní program na rok 2016/2017","year":2016}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"uektFuVnK","description":"Adventní koncert v kostele sv. Josefa\\r\\n","position":{"lat":49.715658416030664,"lng":17.903872773243744},"kouskovani":true,"price":20000,"title":"Comenius Fulnek, z.s. Adventní koncert","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"8bedea28-706c-49e1-ad70-808ff07a65b1","description":"Tímto příspěvkem ve formě studijního stipendia pomáhá Nadační fond Kousek po kousku k lepšímu startu do dospělého života dvěma mladým nadaným dívkám z dětského domova Loreta ve Fulneku. Ty tak budou moci dojíždět na své vybrané střední školy v Odrách a Ostravě.","position":{"lat":49.70742382392442,"lng":18.0500718895889},"kouskovani":false,"price":46000,"title":"Dejme dětem šanci Stipendijní program pro školní rok 2015/2016","year":2015}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"33e13541-f908-4c49-8b50-b818531844de","description":"Roční Terezce život nadělil epilepsii a cukrovku. Příspěvek získaný díky Klášternímu kouskování 2018 byl použit na ubytování ve fakultní nemocnici Motol pro rodiče, kteří Terezku při náročné operaci očí doprovázeli a také na nové dioptrické brýle.","position":{"lat":49.79658404348435,"lng":18.2633004642562},"kouskovani":true,"price":10000,"title":"Dioptrické brýle a doprovod pro TEREZKU","year":2018}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"92639c3e-00df-48c5-8526-992183eef312","description":"Komentované prohlídky města Fulnek","position":{"lat":49.7155766635126,"lng":17.90343241451816},"kouskovani":true,"price":5000,"title":"Comenius Fulnek, z.s.","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"71c89b86-3414-485f-818c-4caf4811baaa","description":"Za názvem tohoto projektu se skrývá kulturně vzdělávací celoroční program sestávající z koncertů, výstav, přednášek, představení, přehlídek atd. Akce je již tradičně konají převážně v  prostředí krásného fulneckého Kostela sv. Josefa při Kapucínském klášteře. Díky již dlouhodobé realizaci tohoto programu se postupně podařilo proměnit tento kostel v nový kulturní stánek – centrum společenského a kulturního dění, kam přicházejí místní i přijíždějí hosté z celého regionu.","position":{"lat":49.71560985655201,"lng":17.9038620444259},"kouskovani":false,"price":20000,"title":"Comenius Fulnek EDU & ART FULNEK","year":2016}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"3ea93373-0f37-4c33-a04a-1a8522af8275","description":"undefined","position":{"lat":49.714735292199116,"lng":17.8981621900457},"kouskovani":true,"price":23133,"title":"Další kousek pro podporu vzniku historického modelu města Fulnek z 18. století","year":2015}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"875f7e8c-60ad-43cd-a69a-6f1c1a0ffacb","description":"undefined","position":{"lat":50.09810643895227,"lng":14.399911811901},"kouskovani":false,"price":3000,"title":"Dobročinná aukce Nadace Via","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"ed6ea007-81a4-484d-8f7d-7107f091ff4f","description":"Tento nadační příspěvek napomůže k realizaci originální mapy ostravských výletů pro pěší, kdy každá trasa bude dostupná hromadnou dopravou. Mapa má za cíl objevit Ostravanům i návštěvníkům Ostravy především méně známá, ale atraktivní místa Ostravy. V současné době město žádnou takovou výletní mapu pro pěší, která by nabízela hromadnou dopravou dostupné trasy, jež vedou i mimo značky za atraktivními, byť mnohdy méně známými pamětihodnostmi, nemá.","position":{"lat":49.83536476276143,"lng":18.2910938387789},"kouskovani":false,"price":5000,"title":"Fiducia Mapa ostravských výletů aneb zažijte naše město jinak","year":2016}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"b794e12c-9ddf-447f-a2e3-e139c63f0c26","description":"Tento příspěvek navazuje na již dřívější dlouhodobou podporu speciální školy v Novém Jičíně, která již několikrát dokázala, že se snaží pro své žáky s nejrůznějšími handicapy udělat vždy maximum. Součástí tohoto maxima je i každodenní ranní svoz žáků přímo z jejich domovů až přímo do školy. I přes přispění rodičů i ze strany školy stále chybí peníze na pohonné hmoty a právě tady přišel na pomoc se svým kouskem Nadační fond.","position":{"lat":49.5962740842879,"lng":18.0171515847308},"kouskovani":false,"price":30000,"title":"Děcko o.p.s. Zajištění denní speciální dopravy dětem a žákům s těžším zdravotním postižením v rámci okresu Nový Jičín","year":2015}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"cdf11168-fe60-4008-9410-0a387957aeb2","description":"Projekt podporuje další činnost již po mnoho let velmi aktivního Dělnického domu v Odrách, který se stal místem kulturního i vzdělávacího setkání nejen místních občanů všech generací, (od mateřskou školkou povinných až po seniory). Díky zakoupení dataprojektoru bude moci Dělnický dům pokračovat ve filmovém klubu, projekcích pro děti i veřejných besedách na nejrůznější téma.","position":{"lat":49.6620821590685,"lng":17.8267868296465},"kouskovani":false,"price":80000,"title":"Dělnický dům v Odrách Promítejme dál","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"722174a2-65f6-4a8d-a317-07952f061b02","description":"Projekt přispívá svým kouskem do již rozběhnutých aktivit obce Hladké Životice vedoucích k oživení místního kulturního života, v tomto případě konkrétně skrze založení ochotnického divadelního spolku. Nadační příspěvek napomůže k nákupu nezbytné nové opony do zrekonstruovaného kulturního sálu.","position":{"lat":49.68473823841318,"lng":17.9545833125016},"kouskovani":false,"price":20000,"title":"Hladké Životice Za naši vesnici kulturnější","year":2014}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"3bb8c992-9c95-4453-9d4f-11b2af696ee8","description":"Pro pořízení elektrinickou bicí soupravu. Karlík je v pěstounské péči a neměl to štěstí strávit první rok života s jednou nejbližší osobou, což u něj způsobilo poruchu attachmentu, která se natrvalo projevuje v jeho chování a bude pro něj traumatizující po celý život. V bubnech a kytaře našel soustředění.","position":{"lat":49.72593207375234,"lng":17.9257468204167},"kouskovani":false,"price":9000,"title":"Finanční dar pro Karlíka Feilhauera","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"e19138a9-b47a-42f8-9434-488a43c9116f","description":"Projekt přispívá svým „kouskem“ k realizaci unikátního knižního projektu, který pomocí osobních rozhovorů mapuje vzpomínky ostravských pamětníků z období nacismu a komunismu. Výsledná publikace nazvaná „Ostrava za ostnatým drátem“ bude unikátním počinem, na němž se podílí řada historiků a místních osobností z oblasti kultury. I díky Nadačnímu fondu bude moci vzniknout kvalitní a reprezentativní kniha zachycující důležité historické momenty Ostravsky z pohledu nás, místních obyvatel.","position":{"lat":50.02852228641668,"lng":16.5958501891504},"kouskovani":false,"price":10000,"title":"Fiducia o.s. Kniha historika Vojtěcha Vlčka: Ostrava za ostnatými dráty","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"96be5bf8-d9d6-46e3-8b40-0bb69246e66e","description":"Podpora činnosti","position":{"lat":49.716860958042396,"lng":17.9069223272338},"kouskovani":true,"price":3000,"title":"Klub paličkování Fulnek","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"984269c3-4bac-45cd-9741-706609d7e3ca","description":"Projekt pokračuje v úspěšné loni započaté spolupráci s Kuratoriem zámku Bílovce, který se snaží za pomoci mnoha, převážně dobrovolných vzdělávacích i kulturních aktivit, oživit nevšední prostory bíloveckého zámku. Kousek našeho nadačního fondu přispěje konkrétně k lepšímu materiálnímu vybavení pro pořádání výstav.","position":{"lat":49.7555714421134,"lng":18.016494992850447},"kouskovani":false,"price":10000,"title":"Kuratorium zámku Bílovce, o.s. Vracíme zámku život","year":2014}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"50a96c8b-1677-4fcb-bba5-b94729a916c0","description":"Tímto příspěvkem chce Nadační fond Kousek po kousku přispět k rozjezdu nové neziskové organizace ErgoTerapeuti, která se bude zaměřovat na provozování tzv. ergoterapie – terapie skrze nejrůznější pro tělo i mysl pozitivní činnosti jako jsou například artetarepie či hipoterapie. Tyto techniky dokáží výrazně zkvalitnit životy handicapovaných dětí i dospělých. Nadační fond Kousek po kousku přispěje k nákupu specializovaných pomůcek nutných pro jednotlivé terapeutické aktivity.","position":{"lat":50.06096565874009,"lng":14.4493231000401},"kouskovani":false,"price":15000,"title":"Ergoterapeuti dětem","year":2015}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"361ed268-ddd3-4327-9c61-13d5c2b524c6","description":"Cílem projektu je založit tradici pravidelné letní fulnecké školy (LEFUŠKY), vzdělávací akce pro širokou veřejnost se zaměřením na výchovu předškolních dětí, osobní rozvoj a komunitní rozvoj (co všechno můžeme dělat, aby se nám na malém městě žilo společně dobře). Díky nadačnímu příspěvku budou moci zájemcům přednášet špičkoví lektoři z celé ČR.","position":{"lat":49.71428001171857,"lng":17.9135027904641},"kouskovani":false,"price":100000,"title":"LEFUŠKA Marek Hermann","year":2012}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"b7bca42d-cbcf-463c-8735-0974267ed5e1","description":"Koupě promítacího plátna","position":{"lat":49.71549613172129,"lng":17.9034647658632},"kouskovani":true,"price":24974,"title":"Kousek výtěžku přispěl na koupi promítacího plátna pro fulnecký klášter","year":2017}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"18d45ba2-3511-4295-9979-5407b528f847","description":"Tento kousek Nadačního fondu přispívá k organizaci již tradiční společensko-kulturní akce „Jako za mlada“, která je letos navíc postavena jako „inkubátor“ mladých nebo studentských kapel / umělců, kteří budou mít mnohdy poprvé možnost vystoupit na takto profesionálně zorganizované akci za značné podpory pořadatelů. Pořadatelé tak chtějí ukázat, že není třeba navštěvovat podobné akce jen pasivně, není nic složitého aktivně se zapojit.","position":{"lat":49.79085539860603,"lng":17.9788929441013},"kouskovani":false,"price":20000,"title":"Jiří Šindler Letní akce Jako za mlada","year":2014}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"8a055315-5305-4e88-a996-712ffe317bb6","description":"Příspěvek nadačního fondu napomůže k organizaci vzdělávacího tábora, kterého se zároveň budou moci zúčastnit i děti bez diabetu, čímž tábor mimo jiné napomůže i k odstranění případných předsudků a k integraci nemocných dětí.","position":{"lat":49.83475325926909,"lng":18.2867949098263},"kouskovani":false,"price":26000,"title":"Letní edukační tábor pro děti s cukrovkou Občanské sdružení Dítě s diabetem","year":2012}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"8e4f6967-1a4c-49d5-8584-43211428dc8e","description":"Tento příspěvek napomáhá k proměně bíloveckého zámku v kulturní centrum regionu, kde se konají nejrůznější vzdělávací a kulturní akce jako například výstavy, divadelní představení apod. Vystupování na zámku nebo na nádvoří s kulisou krásné zámecké budovy má jedinečnou atmosféru, a tak každoročně přitahuje mnoho diváků ze širokého okolí. Letošní projekt navazuje na více jak 300 letou tradici zámeckých představení a koncertů.","position":{"lat":49.7555714421134,"lng":18.016494992850447},"kouskovani":false,"price":5000,"title":"Kuratorium zámku Bílovec Zámecká divadelní a hudební společnost","year":2016}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"2753ca72-6edb-4bf6-b0f0-b08e6485716e","description":"Přispěvek poskytnut na rehabilitaci klientů","position":{"lat":49.78701499878916,"lng":18.1674333982316},"kouskovani":false,"price":20000,"title":"Intervence pro autismus","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"8fc68985-56bb-4691-b55a-46a4e9d4c91c","description":"Další mimořádný dar poskytl Nadační fond Kousek po kousku nadanému studentu Matěji Čípovi jako příspěvek na podporu studia vysoké školy ve hře na cimbál v USA. Příspěvek mu pomůže zaplatit náklady na školné.","position":{"lat":49.53821952186404,"lng":18.0240606989253},"kouskovani":false,"price":20000,"title":"Matěj Číp, Hodslavice","year":2018}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"2Qpa8bhrq","description":"Tento kousek Magdaléně Feilhauerové navazuje na již tradiční podporu Nadačního fondu talentovaných jedinců z našeho regionu, kteří se navíc aktivně zapojují do místního komunitního života. Díky tomuto příspěvku získá Magdaléna lepší materiální podmínky pro své studium na Střední uměleckoprůmyslové škole v Uherském Hradišti, a bude tak moci zase někdy výtvarně oživit například další zastávku.\\r\\n\\r\\n","position":{"lat":49.06822301742216,"lng":17.465546627199142},"kouskovani":null,"price":30000,"title":"Magdaléna Feilhauerová Studium střední uměleckoprůmyslové školy","year":2014}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"nj0MtVCl_","description":"Další mimořádný dar poskytl Nadační fond Kousek po kousku nadanému studentu Matěji Čípovi jako příspěvek na podporu studia vysoké školy ve hře na cimbál v USA. Příspěvek mu pomůže zaplatit náklady na školné.\\r\\n\\r\\n","position":{"lat":49.70744429954289,"lng":18.050101637009934},"kouskovani":null,"price":44022,"title":"Matěj Číp, Mimořádná výzva - S cimbálem za oceán","year":2018}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"74f0f787-94be-40dc-85ed-5ab693e273a1","description":"Projekt se připojuje svým „kouskem“ k podpoře unikátní dobrodružné expedice pěti mladých tělesně postižených sportovců, kteří na speciálních kolech pro vozíčkáře (tzv. handbicích) projedou celou Evropu od nejsevernějšího místa v Brémách až po nejjižnější Gibraltar. Po ukončení cesty budou odvážní sportovci své zážitky a zkušenosti sdílet se zájemci na veřejných debatách v regionu Věříme, že jejich příběh poslouží jako motivace a vzor pro ostatní především mladé tělesně postižení, kteří při besedách na vlastní oči uvidí a uslyší, co vše lze dokázat.","position":{"lat":49.79658404348435,"lng":18.2633004642562},"kouskovani":false,"price":25000,"title":"Matěj Kužílek Expedice Nordkapp – Gibraltar 2013, handbike bez hranic","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"a624668d-7b9e-4920-8099-080cc6361b4a","description":"Mobilní hospic Ondrášek je již dlouhodobým partnerem Nadačního fondu Kousek po kousku, který si váží jeho tolik důležité činnosti – péče o nevyléčitelně nemocné přímo v prostředí svých domovů ve společnosti rodiny a blízkých. Nadační fond Kousek po kousku věnoval Ondráškovi v roce 2015 již třetinu výtěžku z dobročinného bazaru Klášterní kouskování. Tímto navazujícím příspěvkem chce vyjádřit svou přetrvávající podporu této v našem kraji jedinečné organizaci.","position":{"lat":49.79280412731234,"lng":18.2349357338131},"kouskovani":false,"price":5000,"title":"Mobílní hospic Ondrášek Domácí hospicová péče pro děti a dospělé","year":2015}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"fa54002e-4ba8-4df1-bcb5-dd000200557e","description":"Pro tento projekt našla Magdaléna inspiraci v dětských programech zahraničních galerií, které navštívila díky dřívější studijní stipendijní podpoře od našeho nadačního fondu. Za pomoci tohoto příspěvku by tak ráda vytvořila obdobné pracovní listy (knihu) i pro děti z Fulnecka a okolí, aby je tak formou hry, kvízů, komiksu apod. motivovala zajímat se více o historii a kulturu v jejich nejbližším okolí.","position":{"lat":49.72586880641972,"lng":17.926031300295},"kouskovani":false,"price":10000,"title":"Magdaléna Feilhauerová Kniha jako společně tvořená historie","year":2016}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"4c6b1780-07fc-48d9-aa98-92c81fb6175a","description":"undefined","position":{"lat":49.79280412731234,"lng":18.2349357338131},"kouskovani":true,"price":23133,"title":"Mobílní hospic Ondrášek","year":2015}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"158e6d6d-a0be-4b2e-b1d4-10b942a19626","description":"Tento příspěvek pomáhá k pokrytí studijních nákladů mladé místní talentované umělkyně Magdalény Feilhauerové. Magdaléna už v minulosti několikrát prokázala, že jí místní komunitní život není lhostejný, když se zapojila do akcí jako třeba zvelebování autobusových zastávek, malování obličejů pro děti na zábavných akcích a mnoha dalších.","position":{"lat":49.06824410472743,"lng":17.46553589838146},"kouskovani":false,"price":50000,"title":"Magdaléna Feilhauerová Studium střední uměleckoprůmyslové školy a studium na zahraniční škole","year":2015}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"fd6ec888-fd8e-4e3d-9c0d-cd6f8fe04f03","description":"Projekt přispívá svým „kouskem“ ke vzniku a oživení nového unikátního prostoru pro mladou kulturu ve Studénce. Bývalý kryt se postupně zaplní profesionálními i amatérskými umělci, budou se zde uskutečňovat, workshopy, besedy i další vzdělávací akce pro návštěvníky z celého regionu.","position":{"lat":49.71019081517456,"lng":18.0699070626634},"kouskovani":false,"price":10000,"title":"Morfe, o.s. Multifunkční alternativní centrum Kryt","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"e7a9e34a-fd4b-40f9-ab56-910646728835","description":"Rozšíření historického modelu města Fulnek z 18.století v uměleckém zpracování Broňkem Hrubým, který je v současné době umístěn v Kostele sv. Josefa (v klášteře ve Fulneku)","position":{"lat":49.71509426055534,"lng":17.9071717367691},"kouskovani":true,"price":30000,"title":"Model kláštera","year":2018}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"cf8f1f17-4132-47cf-a36a-56a4718325a5","description":"Vznik ideové studie obnovy a funkčního využití kapucínského kláštera ve Fulneku. V projektu bylo navrženo například využití konventu kláštera pro lapidárium, expozice, depozitáře, knihovny s badatelnou a konferenční sál.","position":{"lat":49.59348877465269,"lng":18.0104137651793},"kouskovani":true,"price":30000,"title":"Muzeum Nový Jičín","year":2014}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"4a1802f6-9b93-42c8-99b1-d29ad8a3930d","description":"Projekt přispívá k jednodušší organizaci populárního hudebního festivalu Fulnečka, který se každoročně koná počátkem září v prostorách zahrady Městského kulturního centra ve Fulneku. Díky své multi-žánrovosti láká a propojuje nejrůznější návštěvnické skupiny z celého okolí.","position":{"lat":49.716860958042396,"lng":17.9069223272338},"kouskovani":false,"price":15000,"title":"Měststké kulturní centrum Fulnek Festival Fulnečka 2014","year":2014}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"d3cP7u-v4","description":"Účelem, pro který je Nadační fond běh PRO zřízen, je podpora hendikepovaných a sociálně slabých lidí. Nadační fond pořádá zejména benefiční běhy, jejichž výtěžek bude použit na zlepšení jejich životní úrovně. V roce 2020 se běželo pro Matyho.\\r\\n\\r\\n","position":{"lat":49.70744429954289,"lng":18.050101637009934},"kouskovani":null,"price":10000,"title":"NADAČNÍ FOND BĚH PRO","year":2020}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"6ec10f5f-71a8-47f6-9f15-70d0ecb9e796","description":"Projekt pomáhá svým kouskem ke kvalitnější péči o umírající a jejich blízké v jejich domácím prostředí. Díky pomoci odborných lékařů (vybavených moderními mobilními přístroji), kteří za pacienty dojíždějí, tak mají lidé možnost volby jak strávit poslední část svého života.\\r\\n\\r\\n","position":{"lat":49.79280412731234,"lng":18.2349357338131},"kouskovani":false,"price":50000,"title":"Mobilní hospic Ondrášek, o.p.s. Hospicová péče o umírající v jejich domovech","year":2014}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"18717ddc-092b-4806-bf67-3d343b5c428d","description":"Tento projekt usiluje za pomoci širokého zapojení aktivních místních občanů a jejich dobrovolné práce o vylepšení veřejného prostoru ve Vlkovicích, především ve prospěch dětí a mládeže, stejně tak ale i seniorů a všech obyvatel, kteří ocení pěkné místo k organizaci místních akcí, volnočasových aktivit a scházení se se sousedy.","position":{"lat":49.72095968403211,"lng":17.852701183877},"kouskovani":false,"price":50000,"title":"Místečko radosti Sbor dobrovolných hasičů Vlkovice","year":2012}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"6b00d60a-0e35-46b2-acb2-ca4e413920cd","description":"Projekt podporuje místní aktivní občany, kteří již po mnoho let díky dobrovolnické práci ve svém volném čase udržují místní tradice a organizují nejrůznější společenské akce, které slouží ke kulturnímu setkávání a upevňování místní komunity napříč generacemi či zájmy. Nadační fond jim chce tímto „kouskem“ vyjádřit podporu a přispět k jejich obětavé činnosti.","position":{"lat":49.82273078611105,"lng":49.725733110178744},"kouskovani":false,"price":10000,"title":"Osadní výbor Děrné Dožinky 2013","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"cf8f1f17-4132-47cf-a36a-56a4718325a5","description":" ","position":{"lat":49.59348877465269,"lng":18.0104137651793},"kouskovani":true,"price":23133,"title":"Muzeum Nový Jičín","year":2015}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"9ad9f26e-1281-402f-8990-aa8ffb19d9cd","description":"Projekt navazuje na loňskou velmi úspěšnou spolupráci Oderského tria s nadačním fondem, díky které se uskutečnil skvělý tábor pro místní holky a kluky s mnoha vzácnými sportovními hosty (nejrůznějších odvětví i věkových skupin), kteří pro děti připravili besedy a vyprávěli o cestě za svými úspěchy.","position":{"lat":49.66157621740873,"lng":17.8295979982206},"kouskovani":false,"price":10000,"title":"Oderské trio Sportovně edukační kemp oderských nadějí spojený s prázdninovým týdnem sportu","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"a1543389-cf5d-4fde-8ede-d80b309a0892","description":"Projekt navazuje na loni započatou spolupráci s Mgr. Evou Liberdovou, odbornicí publikující a přednášející na téma od narození neslyšících a během života ohluchlých lidí a jejich různorodých potřeb. V rámci tohoto projektu bude Eva Liberdová vzdělávat zaměstnance veřejné správy, zdravotníky, pedagogy a další v co nejefektivnější komunikaci s těmito skupinami. Díky tomuto projektu tak snad padnou další předsudky a zmizí zbytečná nedorozumění ztrpčující každodenní život.","position":{"lat":49.59690016198643,"lng":18.0123075846905},"kouskovani":false,"price":50000,"title":"Orbi Pontes Nebojme se komunikace s lidmi se sluchovým postižením","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"4ce1c6d6-ba73-4fbf-9874-fc63fd13b2f0","description":"Tento kousek pomůže zaběhnutému a oblíbenému centru Skřítek v Odrách pro rodiny s dětmi s hlavním zaměřením na zdravý životní styl, který návštěvníkům zprostředkovává zejména skrze vlastní zkušenosti nebo organizací přednášek. Nadační fond přispěje na nákup cvičebních pomůcek pro děti.","position":{"lat":49.65794787856502,"lng":17.8241435350221},"kouskovani":false,"price":8000,"title":"Petra Dokoupilová Rodinné centrum Skřítek","year":2014}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"00530f59-3b73-4577-a325-0b9d7ca72bd9","description":"Lesní škola a školka Bezinka – příspěvek na zateplení budovy","position":{"lat":49.65259840791714,"lng":18.307642051559},"kouskovani":true,"price":8000,"title":"Otevřený rodič, z.s.","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"fc307e12-7339-4e63-bae1-737eaf392f76","description":"Příspěvek poskytnut na lyžařský výcvik. Dominika a jeho čtyři sourozence opustila matka a děti byly v Klokánku. Trvalo delší dobu, než je jejich otec s novou ženou dostal do péče. jeho otec nemá dostatečné finance. O finanční dar požádala paní ředitelka školy, která by si moc přála, aby si Dominik mohl s žáky své třídy užít radosti na lyžařském výcviku.","position":{"lat":49.70742382392442,"lng":18.0500718895889},"kouskovani":false,"price":3400,"title":"Podpora pro lyžařský výcvik - Dominik Novotný","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"mJ-HHzY0c","description":" ","position":{"lat":52,"lng":18.438109198171826},"kouskovani":null,"price":30000,"title":"Podpoření videoprojektu Beskydy - Lucie Klásek","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"0f955827-df8c-42b1-9459-3b6991c3cb1a","description":"Tento originální projekt si získal podporu Nadačního fondu díky svému zajímavému nápadu na zviditelnění zemské hranice procházející Fulnekem formou zážitkové hry pro návštěvníky. Projekt využívá současného trendu aktivního kulturního turismu pro zviditelnění Fulnecka a probuzení zájmu o jeho kulturní dědictví.","position":{"lat":49.70742382392442,"lng":18.0500718895889},"kouskovani":false,"price":48000,"title":"Petr Moc Questing na zemské hranici","year":2015}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"9e4af8b8-122a-405a-b231-764445bbb765","description":"Cílem projektu Pohyblivý svátek je vytvoření nového programového cyklu zavedeného ostravského kulturního klubu Fiducia, v kterém budou veřejnosti každý poslední čtvrtek v měsíci představeni mladí začínající autoři a vědci našeho regionu. Na jednotlivých programových cyklech budou spolupracovat i regionální univerzitami, díky čemuž bude mít veřejnost konečně příležitost seznamovat se kontinuálně s mladými talenty našeho regionu.","position":{"lat":50.02852228641668,"lng":16.5958501891504},"kouskovani":false,"price":50000,"title":"Pohyblivý svátek Občanské sdružení Fiducia","year":2012}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"37da3b5b-3934-41ee-a052-5217983140e1","description":"Kousek nadačního fondu v tomto případě napomůže k financování náročného lyžařského tréninku dvou mladých reprezentantů z našeho regionu, kteří již v minulosti na mnoha závodech a především svým poctivým přístupem v rámci dlouhodobé přípravy dokázali, že dokáží pro své lyžařské úspěchy leccos obětovat. Nadační fond rád podpoří mladé sportovce, kteří se mohou být v budoucnu vzory pro další děti a mládež.","position":{"lat":49.79658404348435,"lng":18.2633004642562},"kouskovani":false,"price":40000,"title":"Podpora reprezentantů Moravskoslezkého kraje Barbory a Matěje Průdkových","year":2012}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"286eef22-3502-46be-8b65-6a183f14c26c","description":"Kousek nadačního fondu přispěje k organizaci dětského sportovně zaměřeného tábora v Odrách, připraveného za účasti mnoha místních aktivních občanů a ve spolupráci s tamními školami.","position":{"lat":49.66157621740873,"lng":17.8295979982206},"kouskovani":false,"price":21500,"title":"Prázdninový kemp oderských nadějí Občanské sdružení Oderské trio","year":2012}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"7cb6a975-a18f-4b51-9eae-99acdf571828","description":"Přispěvek na invalidní vozík","position":{"lat":49.59994230295908,"lng":18.1506251682809},"kouskovani":true,"price":40000,"title":"Příspěvek na koupi motoru k invalidnímu vozíku pro Karolínku Dejovou z Kopřivnice.","year":2016}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"5678502c-0bc2-4833-915e-9ce70a740061","description":"Mezi námi děvčaty, Podzimní víkendovka, Puťák","position":{"lat":49.83101604334554,"lng":18.256962353568},"kouskovani":true,"price":6000,"title":"Podpora děkanátních akcí pro mládež","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"73c6c29e-1db6-4db0-aecb-83f181de479d","description":"undefined","position":{"lat":49.714735292199116,"lng":17.8981621900457},"kouskovani":true,"price":30000,"title":"První kousek pro vznik Historického modelu města Fulneku z 18.století","year":2014}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"cd52001d-8ae3-4759-9812-622ad5128f47","description":"Nadační příspěvek poslouží k profesionalizaci zvukového zázemí pro pořádání nejrůznějších hudebních kulturních akcí v kostele sv. Josefa ve Fulneku. Podpoří tak místní kulturní život, který se v posledních letech za pomocí aktivních místních občanů výrazně rozvíjel právě v prostorách kostela sv. Josefa.","position":{"lat":49.59348877465269,"lng":18.0104137651793},"kouskovani":false,"price":200000,"title":"Slyšíme se? Muzeum Novojičínska","year":2012}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"5ec632fc-d9eb-4279-9cbe-00474cabb6f8","description":"Projekt je zaměřen na vzdělávání pedagogů mateřských škol, tak aby usnadnil plnohodnotné zapojení dětí s diabetem do kolektivu například v rámci sportovních aktivit apod. Zároveň seznámí blíže pedagogy s problematikou této nemoci a naučí je poradit si v nejrůznějších každodenních situacích s diabetem spojených.","position":{"lat":49.83475325926909,"lng":18.2867949098263},"kouskovani":false,"price":40000,"title":"Rovný přístup k dětem s diabetem mellitus Občanské sdružení Dítě s diabetem","year":2012}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"d0f1ad8f-98f2-498c-af1f-ff20c3b454e9","description":"Nadační fond Kousek po kousku se zapojil do projektu „Sociální automobil“, kdy jsme částkou 24 200 Kč přispěli na pořízení automobilu Dacia Dokker určený pro Domov pro seniory v Bílovci.","position":{"lat":49.761122671699454,"lng":18.0188749094372},"kouskovani":false,"price":24200,"title":"Sociální automobil, Bílovec","year":2018}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"5e437073-7b53-47cb-a630-97f1f51f0daf","description":"Nadační příspěvek poslouží v tomto případě k finanční podpoře nákladného zahraničního studia mezinárodní politiky a zpravodajské služby na Univerzitě Aberystwyth ve Velké Británii nadějného studenta z našeho regionu Davida Kuděly, který již za své předchozí studium získal řadu akademických úspěchů.","position":{"lat":49.82427693537621,"lng":18.2982345016522},"kouskovani":false,"price":100000,"title":"Podpora studia David Kuděla","year":2012}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"fa06755b-f19b-4b5b-b00a-cf915024dfd8","description":"Muzeum Nový Jičín","position":{"lat":49.59350644313978,"lng":18.0104317270817},"kouskovani":true,"price":15000,"title":"Příspěvek na tisk knihy Dům v Zahradě Páně – Fulnecký klášter v proměnách století.","year":2016}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"22cabf20-d7f5-452a-abbd-456ac9e8b6b0","description":"Kompenzační pomůcka pro seniory","position":{"lat":49.761122671699454,"lng":18.0188749094372},"kouskovani":true,"price":5000,"title":"Sociální zařízení města Bílovce","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"83c76dee-c162-4886-a800-f38ecddc870d","description":"Léčebné pedagogicko-psychologické ježdění na koni – hipoterapie je moderní rehabilitační metoda s komplexním působením na lidský organismus. Přenášením pohybu koňského hřbetu na lidské tělo dochází ke stimulaci centrálního nervového systému. V psychické oblasti vyvolává hipoterapie u dětí především radost, uvolnění, spokojenost a přispívá k dobré náladě. U dětí s velmi těžkým postižením je možné pozorovat určité změny až po delším časovém úseku. Díky našemu nadačnímu příspěvku budou moci děti z novojičínské speciální MŠ a ZŠ pokračovat v rehabilitaci i celý letošní školní rok.","position":{"lat":49.59633948668176,"lng":18.0170330188713},"kouskovani":false,"price":20000,"title":"Speciální MŠ a ZŠ Nový Jičín Hipoterapie","year":2016}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"97f6cf1d-d954-4722-9610-c0dd2c8e355d","description":"Projekt přispívá svým „kouskem“ k pokrytí organizačních nákladů unikátního ragbyového turnaje vozíčkářů, který může motivovat mnoho dalších mladých sportovců s postižením z celého regionu, kteří se protentokrát zúčastní třeba jen zatím jako diváci.","position":{"lat":49.82273078611105,"lng":18.1262722406755},"kouskovani":false,"price":10000,"title":"Sportovní klub SK Ostrava XV. ročník mezinárodního turnaje ragby vozíčkářů Ostrava Cup 2013","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"b85bfb2e-a8c0-4d3b-9879-075d1dc650e7","description":"Kousek našeho nadačního fondu přispěje v tomto projektu k realizaci interaktivní smyslové zahrady s nejrůznějšími herními a vzdělávacími prvky určenými speciálně pro děti s těžkými kombinovanými postiženími. Cílem projektu je vytvořit na pozemku školy vhodné prostředí, které dětem a žákům umožní cíleně rozvíjet jejich smyslové vnímání, prostorovou orientaci a koordinačně pohybové dovednosti.","position":{"lat":49.59633948668176,"lng":18.0170330188713},"kouskovani":false,"price":100000,"title":"Smyslová zahrada – stavební úpravy zahrady ZŠ a MŠ speciální, ul. Komenského v Novém Jičíně","year":2012}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"bws-WQ2AN","description":"Účelem je poskytování kvalitní terapeutické služby lidem, kteří se nacházejí v náročné životní situaci a nemohou si tyto služby z finančních důvodu dovolit. Přesto na sobě chtějí pracovat, hledají změnu a uvědomují si díl své zodpovědnosti.\\r\\n","position":{"lat":51,"lng":18.050101637009934},"kouskovani":null,"price":20000,"title":"Sociální klinika z.ú. - Podpora služeb rozvoje Sociální kliniky v Moravskoslezském kraji","year":2020}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"776abe81-bc93-4fbf-9935-90dfa82821a8","description":"Vlastní stůl pro model města Fulneku jsme díky Klášternímu kouskování 2018 zadali zhotovit místnímu stolaři, který se postaral o to, aby byl funkční, bytelný i krásný.","position":{"lat":49.71509426055534,"lng":17.9071717367691},"kouskovani":true,"price":10000,"title":"Stůl pro model města FULNEKU","year":2018}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"15a4417b-bd47-4dce-86a0-9837195d7c48","description":"Tento projekt navazuje na předcházející již dvouletou úspěšnou spolupráci s Lefuškou, díky níž se podařilo začít tuto novou tradici originálních interaktivních vzdělávacích akcí ve Fulneku – městu historicky spjatém s postavou Jana Amose Komenského.","position":{"lat":49.71428001171857,"lng":17.9135027904641},"kouskovani":false,"price":20000,"title":"Stanislav Milion Lefuška","year":2014}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"4285cacc-b06a-476b-96bc-e9381eb39532","description":"Příspěvek nadačního fondu umožní ostravskému družstvu florbalových vozíčkářů účast na mezinárodním turnaji v Praze.","position":{"lat":49.83586696046461,"lng":18.167897427018},"kouskovani":false,"price":35000,"title":"Sportujeme na kolech – florbal vozíčkářů „Prague Wheel Open 2012“ Občanské sdružení ABAK- počítadlo","year":2012}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"59948b20-1f17-4ea6-baf7-cb1c730ec8b7","description":"Projekt podporuje již tradiční vzdělávací seminář pro zájemce z celého regionu, kteří se chtějí dozvědět něco více o vzdělávání a rozvoji osobnosti svých dětí, ale i sebe samotných. Pod heslem „aby bylo doma dobře“ se budou účastnicí moci zapojit do interaktivní výuky největších odborníků na dané téma v ČR. Ty bude možno zajistit právě na základě podpory Nadačního fondu Kousek po kousku.","position":{"lat":49.71428001171857,"lng":17.9135027904641},"kouskovani":false,"price":50000,"title":"Stanislav Milion Lefuška 2013","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"96c50f9f-adb6-4a74-b784-a2dca5f64caa","description":"U příležitosti 15-ti let paličkování ve Fulneku budou členky fulneckého klubu paličkování pořádat víkendový kurz „Navrhování krajky“. Cílem kurzu je zdokonalení členek ve vytváření vlastních návrhů podvinků, aby jen nekopírovaly práce jiných krajkářek. Darovaná částka přispěje na zaplacení lektorky kurzu.","position":{"lat":49.716860958042396,"lng":17.9069223272338},"kouskovani":false,"price":3000,"title":"Světlana Marková 15 let paličkování ve Fulneku","year":2018}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"ddf04012-3022-4d74-b358-9f2090cc72e7","description":"Projekt podporuje uchovávání tradice paličkování, která díky Klubu paličkování vedeným Světlanou Markovou, nachází pokračovatelky i v mladé generaci. Vedle samotných pravidelných dílen klub pořádá každoročně také výstavy či víkendové workshopy pro veřejnost.","position":{"lat":49.716860958042396,"lng":17.9069223272338},"kouskovani":false,"price":12000,"title":"Světlana Marková Klub paličkování","year":2014}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"8842e81f-95f8-420a-ae5b-7102b1125714","description":"Projekt navazuje na loňskou úspěšnou spolupráci místního klubu paličkování vedeného Světlanou Markovou s Nadačním fondem Kousek po kousku. Během předcházejících dvanácti měsíců se klubu podařilo zorganizovat několik výstav, víkendové společné workshopy, zprofesionalizovat svou činnost i rozšířit své řady o nové členky z blízkého i vzdálenějšího okolí, starší i mladší generace.","position":{"lat":49.716860958042396,"lng":17.9069223272338},"kouskovani":false,"price":10000,"title":"Světlana Marková Řemeslo žije!","year":2015}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"be9737f9-d680-4591-8ba5-a6b7a44b7c74","description":"Tento příspěvek podporuje celoroční činnost a aktivity fulneckého klubu paličkářek, který však má členky nejen z Fulneku ale z celého okolí, což jen dokazuje, že zájem o toto tradiční řemeslo stále přetrvává. Paličkářky kromě pravidelného tvůrčího setkávání pořádají každoročně i několik veřejných výstav a loni se například zapojily i do dobročinného Klášterního kouskování.","position":{"lat":49.70742382392442,"lng":18.0500718895889},"kouskovani":false,"price":5000,"title":"Světlana Marková Fulnek zručný a tvůrčí","year":2016}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"50e059c5-444a-4495-adc4-039cf1a15fe3","description":"Příspěvek na zakoupení várnice na teplé nápoje","position":{"lat":49.70742382392442,"lng":18.0500718895889},"kouskovani":true,"price":5000,"title":"Turistický oddíl Touhy z. s.","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"3d8dafa9-5e5c-4ba3-9821-8a7f7b50be87","description":"Projekt Venduly Ostřanské navazuje na její dlouhodobě úspěšnou práci se školami a dětmi celého Novojičínska. Její různorodé pohybové volnočasové programy (od zumby a aerobiku, přes lyžování či bruslení v maskách) pomáhají již několik let dětem navázat důležité sociální kontakty, najít si vztah ke sportu, poznat své zájmy a možnosti, jak trávit svůj volný čas. Vendula je rovněž sama aktivní v místní komunitě. Výtěžek jedné z jejich loňských aktivit přispěl k realizaci smyslové zahrady Speciální MŠ a ZŠ v Novém Jičíně – projektu, který byl loni podpořen i Nadačním fondem Kousek po kousku.","position":{"lat":49.70742382392442,"lng":18.0500718895889},"kouskovani":false,"price":80000,"title":"Vendula Ostřanská A co děti? Mají si s kým hrát?","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"06964d9b-8eb4-4c76-8d1d-c231b18a7012","description":"Theatr Ludem je nezisková organizace, která se specializuje na vzdělávání prostřednictvím loutek a loutkového divadla, například děti zábavnou formou seznamuje s významnými osobnostmi české i světové historie jako třeba i s Janem Amosem Komenským. Jejich vzdělávací interaktivní dílny pro děti budou i díky našemu příspěvku letos opět dostupné všem školákům z našeho regionu.","position":{"lat":49.833894677554085,"lng":18.2926210423352},"kouskovani":false,"price":5000,"title":"Theatr Ludem Zážitkové dramadílny","year":2016}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"4813fd52-e2d4-4d22-9163-74dda6155e19","description":"Nadační fond Kousek po kousku se rozhodl podpořit Thater Ludem, protože jej oslovila zajímavá idea interaktivního dramatického vzdělávání za pomocí loutkového divadla. Projekt vznikající ve spolupráci s Divadlem loutek Ostrava zapojí pomocí nejrůznějších workshopů a zážitkových aktivit so své činnosti už ty nejmenší diváky z řad mateřských škol, a probudí v nich tak snad prvotní silný zájem o dramatická umění.","position":{"lat":49.833894677554085,"lng":18.2926210423352},"kouskovani":false,"price":20000,"title":"Theater Ludem Vzdělávání prostřednictvím dramatu – zážitkové drama dílny pro ZŠ a MŠ v Moravskoslezském kraji","year":2015}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"0251e009-8dbf-48a8-af4c-04ce05660d0d","description":"Ergoterapeutická činnost Veroniky Musilové provozovaná v Ostravě umožňuje dětem s různým typem postižení individuální terapii šitou jim přímo na mír, která jim a jejich rodinám pak následně pomůže lépe se integrovat do společnosti. Důležitost projektu spatřuje Nadační fond v tom, že v Moravskoslezském kraji je stále minimální počet ambulantní rehabilitační péče zaměřující se na dětskou klientelu","position":{"lat":49.83536476276143,"lng":18.2910938387789},"kouskovani":false,"price":10000,"title":"Veronika Musilová Senza Ergo","year":2017}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"5dbc0380-95b4-425c-a76d-4a9f27f78693","description":"Příspěvek na zakoupení traktoru","position":{"lat":49.75168868466538,"lng":17.9198886135511},"kouskovani":true,"price":5000,"title":"TJ Sokol, Lukavec","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"e7605595-8322-4679-bf66-cf122c2e7eb7","description":"Projekt vedla Magdaléna Feilhaurová, která nyní studuje na pražské Akademii výtvarného umění v ateliéru grafiky. Jejím cílem je dát dětem příležitost kreativním způsobem vyjádřit představy o směřování města, v němž žijí, přiblížit nenásilnou formou změny Fulneku během staletí a podnítit v nich touhu po aktivním zapojení ve společenském životě města.","position":{"lat":49.71509426055534,"lng":17.9071717367691},"kouskovani":true,"price":1329,"title":"Výtvarný projekt - Proměna Města Fulneku","year":2018}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"dMNNRzPUf","description":" ","position":{"lat":49.760042572414775,"lng":18.018010687059608},"kouskovani":null,"price":1000,"title":"Vánoční dárky pro seniory ve městě Bílovec","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"c8597329-bc6b-4cc2-8cc0-db99927c43db","description":"Téma tohoto projektu je: \'Jak probíhající celosvětová situace posiluje společneské hodnoty a vede k systémové stabilizaci?.","position":{"lat":49.70742382392442,"lng":18.0500718895889},"kouskovani":false,"price":14400,"title":"ZMĚNA PARADIGMATU, z.s.- Projekt: Cyklus kruhů kolektivní inteligence.","year":2020}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"baa724fc-1509-43f4-a01e-7777207caacf","description":"Příspěvek z Klášterního kouskování 2018 byl poskytnut spolku K PRAMENŮM, který zrealizoval stavbu krytého výletiště v Děrném. Jedná se o místo, kam může zavítat na výlet či na piknik kdokoli. Součástí výletiště je krom krytého posezení i ohniště s lavičkami.","position":{"lat":49.726156544014515,"lng":17.9258467217959},"kouskovani":true,"price":30000,"title":"Výletiště v DĚRNÉM","year":2018}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"f9cb4f3b-c95c-44a5-ae58-7ed634479489","description":"Projekt navazuje na loňskou spolupráci nadačního fondu s Kolovrátkem, organizaci mladých místních lidí, kteří usilují o pestřejší vzdělávání těch dětí a mládeže nejen na Fulnecku. Díky kladení důrazu na stará řemesla, tradice a vztah k přírodě, nabízejí místním dětem hezkou alternativu k tradičním vzdělávacím programům a zároveň posilují jejich vztah k regionu a jeho historii.","position":{"lat":49.716466264959884,"lng":17.907023908065},"kouskovani":false,"price":20000,"title":"Základní článek hnutí Brontosaurus Kolovrátek Zážitková a ekologická výchova pro (nejen) fulnecké děti","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"155c0b91-a6f0-4bd7-b380-2fa01729efee","description":"Projekt navazuje na již dlouhodobou výstavní činnost Kuratoria zámku Bílovec, které jako jedna z mála kulturních institucí na Bílovecku nabízí možnost celoročních návštěv výstav a jiných hudebních či divadelních počinů. Nadační fond věří, že i díky jeho „kousku“ se postupně podaří vrátit život do této cenné kulturní památky, která tak bude i nadále sloužit jako místo kulturních setkání nejen místních obyvatel.","position":{"lat":49.7555714421134,"lng":18.016494992850447},"kouskovani":false,"price":20000,"title":"Zámek Bílovec - dotkněte se historie","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"f0f00256-a893-4c7e-b363-8c1432a612ba","description":"Projekt podporuje vytvoření odborného almanachu o historii školství ve Fulneku, městu známém široké kulturní veřejnosti jako místo působení Jana Amose Komenského „učitele národů“. Projekt dopomůže svým „kouskem“, aby množství dobrovolné práce přispěvatelů do almanachu nepřišlo vniveč a dočkalo se důstojné a reprezentativní tištěné podoby, která připomene důležitou historickou kapitolu Fulnecka.","position":{"lat":49.7151702752424,"lng":17.90196263255},"kouskovani":false,"price":30000,"title":"ZŠ JAK Fulnek 90 let českého školství ve Fulneku – almanach","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"88c163cb-e9f5-454e-9a5d-d9fd65ba8aa9","description":"Tento příspěvek pokračuje v dlouhodobé podpoře bíloveckého zámku a oživování jeho prostor skrze řadu kulturních, vzdělávacích a společenských aktivit, na které se sjíždějí dospělí i děti nejen z nejbližšího okolí. Kuratorium zámku Bílovce hezky ukazuje, co všechno dokáže úsilí několika zapálených jedinců, když dokážou pro své nápady zas a znovu nadchnout nové publikum i budoucí spolupracovníky.","position":{"lat":49.7555714421134,"lng":18.016494992850447},"kouskovani":false,"price":10000,"title":"Zámek Bílovec - divadlo, hudba a vzdělávání","year":2015}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"4edb6ede-a828-4e0e-9254-ae1890ba6ce5","description":"Příspěvek nadačního fondu pomůže k zakoupení nezbytného technického zařízení pro sluchově postiženou Evu Liberdovou, aktivní sociální pracovnici momentálně působící v neziskové organizaci Slezská diakonie v našem regionu. Díky kochleárnímu implantátu bude moci Eva Liberdová účastnit například hromadných školení a vzdělávacích akcí, a dále tak napomáhat všem sociálně potřebným, s kterými se v rámci své práce setká.","position":{"lat":49.82501946158943,"lng":18.2280560116747},"kouskovani":false,"price":49000,"title":"Zajištění příslušenství ke kochleárnímu implantátu","year":2012}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"ff98c307-b685-447c-b11a-12e6d3665af4","description":"Projekt podpoří vytvoření výukového prostředí pro děti se speciálními potřebami (jako jsou například poruchy autistického spektra), které jsou schopny vzdělávat se s dětmi „zdravými“, potřebují pro to však jen trochu přizpůsobené podmínky. Díky realizaci tohoto projektu tak snad nebudou muset takto znevýhodněné děti z celého regionu do budoucna docházet do speciálních škol, ale budou se moci na ZŠ JAK ve Fulneku začlenit mezi ostatní, kteří je mohou motivovat a táhnout k lepším výkonům.","position":{"lat":49.7151702752424,"lng":17.90196263255},"kouskovani":false,"price":40000,"title":"ZŠ JAK Fulnek Vzdělávání dětí s PAS na běžné ZŠ","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"18d64593-8009-4d1b-9696-93d2d50d91e1","description":"Projekt reaguje na lokální nedostatek kvalitních praktických a kreativních aktivit pro děti ve školách a zejména mimo školu. Proto chce pro děti z Fulneku a okolí pořádat kvalitní dětský tábor a ve spolupráci s okolními školami také uspořádat zajímavé vzdělávací programy (jako například výuku tradičních řemesel) přímo ve školách.","position":{"lat":49.716466264959884,"lng":17.907023908065},"kouskovani":false,"price":50000,"title":"Zážitková pedagogika a výuka tradičních řemesel pro děti i dospělé z Fulnecka a okolí Základní článek Hnutí Brontosaurus Kolovrátek","year":2012}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"0PWXUGIVu","description":"Kostel Nejsvětější Trojice Fulnek - odpočinková zóna pro turisty","position":{"lat":494242.444,"lng":175414.775},"kouskovani":null,"price":30000,"title":"Římskokatolická farnost Fulnek","year":2019}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"ea2415c0-5a89-4943-b10c-b37fe81e0778","description":"Projekt navazuje na loni započatou spolupráci mezi Nadačním fondem a Speciální MŠ a ZŠ v Novém Jičíně, která pokrývá důležité vzdělávací potřeby dětí se speciálními potřebami z celého Novojičínska. Díky příspěvku nadačního fondu budou moci získat děti vizuální vzdělávací pomůcky, které jsou v jejich případě nezbytnou součástí každodenní výuky.","position":{"lat":49.59633948668176,"lng":18.0170330188713},"kouskovani":false,"price":10000,"title":"ZŠ a MŠ speciální Nový Jičín","year":2013}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"05ae627e-0389-47a8-8d1d-911f21217219","description":"Příspěvek nadačního fondu přispěje k organizaci mezinárodní kulturní akce s dlouholetou tradicí, do níž se bude moci zapojit řada dětí s různými zdravotními postiženími a ukázat široké veřejnosti, jaké všechny talenty se v nich skrývají.","position":{"lat":49.58956032885382,"lng":18.1408471722757},"kouskovani":false,"price":10000,"title":"„Motýlek ve vesmíru – XVI. ročník přehlídky tance, zpěvu a dramatické tvorby handicapovaných dětí s mezinárodní účasti“","year":2012}}},{"node":{"rawMarkdownBody":"","frontmatter":{"id":"1f3c15b9-044e-413b-a1ab-f5b661fa4a68","description":"Projekt Orbis Pictus","position":{"lat":49.71509426055534,"lng":17.9071717367691},"kouskovani":true,"price":20000,"title":"Část poputovala na vystavení unikátního interaktivního projektu Orbis Pictus také ve městě Fulnek","year":2017}}}]}}}');
+module.exports = JSON.parse('{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"price":5000}}},{"node":{"frontmatter":{"price":3991}}},{"node":{"frontmatter":{"price":90000}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":100000}}},{"node":{"frontmatter":{"price":24000}}},{"node":{"frontmatter":{"price":40000}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":5000}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":30000}}},{"node":{"frontmatter":{"price":30000}}},{"node":{"frontmatter":{"price":50000}}},{"node":{"frontmatter":{"price":20000}}},{"node":{"frontmatter":{"price":5000}}},{"node":{"frontmatter":{"price":20000}}},{"node":{"frontmatter":{"price":3000}}},{"node":{"frontmatter":{"price":50000}}},{"node":{"frontmatter":{"price":20000}}},{"node":{"frontmatter":{"price":100000}}},{"node":{"frontmatter":{"price":20000}}},{"node":{"frontmatter":{"price":100000}}},{"node":{"frontmatter":{"price":20000}}},{"node":{"frontmatter":{"price":23133}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":46000}}},{"node":{"frontmatter":{"price":30000}}},{"node":{"frontmatter":{"price":3000}}},{"node":{"frontmatter":{"price":80000}}},{"node":{"frontmatter":{"price":15000}}},{"node":{"frontmatter":{"price":5000}}},{"node":{"frontmatter":{"price":9000}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":20000}}},{"node":{"frontmatter":{"price":20000}}},{"node":{"frontmatter":{"price":20000}}},{"node":{"frontmatter":{"price":24974}}},{"node":{"frontmatter":{"price":3000}}},{"node":{"frontmatter":{"price":5000}}},{"node":{"frontmatter":{"price":100000}}},{"node":{"frontmatter":{"price":26000}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":30000}}},{"node":{"frontmatter":{"price":25000}}},{"node":{"frontmatter":{"price":50000}}},{"node":{"frontmatter":{"price":20000}}},{"node":{"frontmatter":{"price":44022}}},{"node":{"frontmatter":{"price":50000}}},{"node":{"frontmatter":{"price":5000}}},{"node":{"frontmatter":{"price":23133}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":30000}}},{"node":{"frontmatter":{"price":30000}}},{"node":{"frontmatter":{"price":23133}}},{"node":{"frontmatter":{"price":50000}}},{"node":{"frontmatter":{"price":15000}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":50000}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":8000}}},{"node":{"frontmatter":{"price":8000}}},{"node":{"frontmatter":{"price":48000}}},{"node":{"frontmatter":{"price":6000}}},{"node":{"frontmatter":{"price":3400}}},{"node":{"frontmatter":{"price":40000}}},{"node":{"frontmatter":{"price":100000}}},{"node":{"frontmatter":{"price":30000}}},{"node":{"frontmatter":{"price":50000}}},{"node":{"frontmatter":{"price":30000}}},{"node":{"frontmatter":{"price":21500}}},{"node":{"frontmatter":{"price":15000}}},{"node":{"frontmatter":{"price":40000}}},{"node":{"frontmatter":{"price":200000}}},{"node":{"frontmatter":{"price":40000}}},{"node":{"frontmatter":{"price":20000}}},{"node":{"frontmatter":{"price":100000}}},{"node":{"frontmatter":{"price":20000}}},{"node":{"frontmatter":{"price":5000}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":24200}}},{"node":{"frontmatter":{"price":35000}}},{"node":{"frontmatter":{"price":50000}}},{"node":{"frontmatter":{"price":20000}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":12000}}},{"node":{"frontmatter":{"price":5000}}},{"node":{"frontmatter":{"price":3000}}},{"node":{"frontmatter":{"price":20000}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":5000}}},{"node":{"frontmatter":{"price":5000}}},{"node":{"frontmatter":{"price":80000}}},{"node":{"frontmatter":{"price":5000}}},{"node":{"frontmatter":{"price":30000}}},{"node":{"frontmatter":{"price":1000}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":14400}}},{"node":{"frontmatter":{"price":49000}}},{"node":{"frontmatter":{"price":20000}}},{"node":{"frontmatter":{"price":1329}}},{"node":{"frontmatter":{"price":20000}}},{"node":{"frontmatter":{"price":50000}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":30000}}},{"node":{"frontmatter":{"price":30000}}},{"node":{"frontmatter":{"price":10000}}},{"node":{"frontmatter":{"price":40000}}},{"node":{"frontmatter":{"price":20000}}}]}}}');
 
 /***/ }),
 

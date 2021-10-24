@@ -28,7 +28,7 @@ const AktualityCarousel = Loadable(() => import("../components/aktuality-carouse
 
 import SmallMap from '../components/small-zahrada-map';
 import useAktualityZahrada from '../functions/useAktualityZahrada'
-
+import Counter from './../components/numberCounter';
 import type Aktualita from '../types/aktualita'
 import { Link } from 'gatsby';
 // import JurtaSection from './../components/section-jurta';
@@ -160,6 +160,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     <p style={{ fontWeight: 700 }}>korun českých</p>
 
                 </div> */}
+                <Counter />
                 <p
                     className={"subtitle green"}
                     style={{ marginBottom: '0', maxWidth: '50ch', fontSize: '1.7em' }}
