@@ -76,7 +76,7 @@ const Counter: React.FC<CounterProps> = ({ children, green = true, ...props }) =
     }, [])
 
     return <div id="counter" className={"counter " + (green ? " green" : " red")} {...props}>
-        <h2 className={green ? "green" : ""}>Již jsme vybrali</h2>
+        <h2 className={green ? "green" : ""}>Už jsme vybrali</h2>
         <p className="number"><span className="" id="JurtaNumber">10 000</span></p>
         <p style={{ fontWeight: 700 }}>korun českých</p>
 
