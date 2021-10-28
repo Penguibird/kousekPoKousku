@@ -64,7 +64,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
     const aktuality: Aktualita[] = useAktualityZahrada();
     // console.log(images)
 
-  
+
 
 
     return <Layout title="Zahrada Hojnosti | Nadační fond Kousek po Kousku" headerProps={{ color: 'green', logo: 'zahrada' }}>
@@ -171,12 +171,12 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     style={{ marginBottom: '2em', marginTop: '0em', maxWidth: '50ch', fontSize: '1.3em' }}
                 > Kolik každý z nás daruje, přesně tolik vloží i Nadační fond Kousek po kousku.</p>
                 <div className="button-row">
-                    <a href="https://podpora.kousekpokousku.cz/ze-zahrady-hojnosti" className={"button filled green bigger"}>Přispět</a>
+                    <a href="https://podpora.kousekpokousku.cz/jurta-pro-zahradu-hojnosti-ve-fulneku/" className={"button filled green bigger"}>Přispět</a>
                 </div>
                 <p className="small">Dary na Jurtu je možné zaslat také na speciální transparentní účet: <br />
                     <strong> JURTA pro Zahradu HOJNOSTI ve Fulneku – č. 301075890/0300</strong>
                     <br />
-                    Nebo přes odkaz <a href="https://podpora.kousekpokousku.cz/ze-zahrady-hojnosti"><strong>zde</strong></a>,
+                    Nebo přes odkaz <a href="https://podpora.kousekpokousku.cz/jurta-pro-zahradu-hojnosti-ve-fulneku/"><strong>zde</strong></a>,
                     kde najdete darovací šeky s obrazem Magdalény Feilhauerové.
                 </p>
             </section>
