@@ -1,5 +1,5 @@
 ---
-name: Věnujte nám "KOUSEK" času.
+name: Najdete si "KOUSEK" času?
 date: 22-11-2021
 image:
   image: z-givt.png
