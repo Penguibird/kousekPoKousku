@@ -20,7 +20,7 @@ const AktualityPage: React.FC<AktualityPageProps> = ({ }) => {
             {/* <StaticImage loading="eager" className="img" src="../images/hero_placeholder.png" alt="" layout="constrained" /> */}
             <GatsbyImage objectFit='contain' className="img" image={akt.image.image} alt={akt.image.imageAlt}></GatsbyImage>
             <h3 className="title">{akt.title}</h3>
-            <p className="text" dangerouslySetInnerHTML={{ __html: akt.body }}></p>
+            <div className="text" dangerouslySetInnerHTML={{ __html: akt.body }}></div>
             {/* {akt.link && (akt.link[0] == "/" ? <Link to={akt.link} className="aktuality-link link">Více</Link>
                 : <a className="aktuality-link link" href={akt.link}>Více</a>)} */}
         </div>

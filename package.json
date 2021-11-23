@@ -10,6 +10,7 @@
     "develop": "gatsby clean && gatsby develop",
     "start": "gatsby clean && gatsby develop",
     "build": "gatsby build",
+    "test": "gatsby clean && gatsby build && gatsby serve",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
