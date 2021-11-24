@@ -1,6 +1,6 @@
 ---
 name: ČSOB dobrovolnice na Zahradě HOJNOSTI
-date: 29-11-2021
+date: 29-09-2021
 image:
   image: při-práci.jpg
   imageAlt: ČSOB dobrovolnice na Zahradě HOJNOSTI
