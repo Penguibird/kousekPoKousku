@@ -1,11 +1,11 @@
 ---
-name: "Matěj Čip je na studijním stipendijním pobytu v Číně - i s cimbálem "
+name: "Matěj Číp je na studijním stipendijním pobytu v Číně - i s cimbálem "
 date: 29-10-2021
 image:
   image: matěj-čip.jpg
   imageAlt: "Matěje pozvali na Českou ambasádu v Pekingu. "
 ---
-Matěj Čip, kterého od začátku jeho snu podporuje také NF Kousek po kousku, je momentálně na další studijní cestě. Jako jediný Čech studuje hru na cimbál ve Spojených státech a teď dokonce v Číně.
+Matěj Číp, kterého od začátku jeho snu podporuje také NF Kousek po kousku, je momentálně na další studijní cestě. Jako jediný Čech studuje hru na cimbál ve Spojených státech a teď dokonce v Číně.
 
 Matěj nám od čínské zdi poslal krásný pozdrav - koukněte na náš FB - je to srdcař ❤. 
 
