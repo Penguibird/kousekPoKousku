@@ -38,6 +38,12 @@ const Footer = ({ }) => {
                 </a>
             </li>
         </ul>
+        <div className="ucty">
+            <h5>Číslo transparentního účtu</h5>
+            <p className="ucet">293203185/0300</p>
+            <h5>Č. ú. Jurta pro Zahradu HOJNOSTI ve&nbsp;Fulneku</h5>
+            <p className="ucet">301075890/0300</p>
+        </div>
         <div className="bottom">
             <p className="signature">© {(new Date()).getFullYear()} - <a href="https://www.linkedin.com/in/vojtech-loskot">Vojtěch Loskot</a> </p>
 
