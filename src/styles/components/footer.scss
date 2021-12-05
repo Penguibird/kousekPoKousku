@@ -88,6 +88,8 @@ footer {
     align-items: flex-start;
     justify-content: flex-end;
     justify-self: flex-end;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 70%;
 
     @media (min-width: 750px) {
@@ -186,6 +188,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 0;
     p {
       place-self: initial !important;
       margin-top: 0;
