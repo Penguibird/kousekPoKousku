@@ -15,7 +15,8 @@
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js")),
   "component---src-pages-index-tsx": preferDefault(__webpack_require__(/*! ./src/pages/index.tsx */ "./src/pages/index.tsx")),
-  "component---src-pages-kontakt-tsx": preferDefault(__webpack_require__(/*! ./src/pages/kontakt.tsx */ "./src/pages/kontakt.tsx"))
+  "component---src-pages-kontakt-tsx": preferDefault(__webpack_require__(/*! ./src/pages/kontakt.tsx */ "./src/pages/kontakt.tsx")),
+  "component---src-pages-zahrada-hojnosti-tsx": preferDefault(__webpack_require__(/*! ./src/pages/zahrada-hojnosti.tsx */ "./src/pages/zahrada-hojnosti.tsx"))
   }
 
 
@@ -88,6 +89,39 @@ module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/2460714953.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/2460714953.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAF3UlEQVRIx+WVa0zTVxjG37ZIKUVRRIag1CIUyqWwCqXQFqEUiwUqtOVOyx0EFMUbKIg4horCJo45RVAEdbp5QRTdJqA4LpmXZd6yOM3i5nXOOC/JNPb/P+9CTUz2YTHbvizZSd7kPck5v/Ock5PnAfh/j6vnz8CdG1fg4a3rcHHoC+jv3QsDJ/bByED334ddvzYEMv07lgpPdmEIlRxWiNaRCVMAUgqEYCoSw7xsPuhyPKCuyvh2YEVFJigzXCAyw4WhNDqDT7QNyPXOIFJzmIjXAXwBKuqlsPaD2aBbMvXtQHuVAGJNHgxNpgdoswV+EYZpe+ca3ZWh+imAeJYFAQDY/AwunayHq8fWwdOediDUk78GJmYrwVPBsRLIueAf5VjrKbdDXxX3kT5XLBLF2J4O1U1q31OWbln7oHsLC890MshAB4P07WSQvnYm6Wtlkv521hvg3S87wFVix+KFOUBalmwxTzIBBXKbV3Gp0++4hVth2gKvV88ObYn/ujQG8MJJwB+GAS+eABzsAjy9C3CgDXBw12vYq94OOFeeD58XqBk/rTDB9ZpFbUa1EPm+1pSbBwcnuXMpmXga9sw34cPOjT04fHg2Xu2fjpf73OnBLh7V1yag+tvC6YH2RfAN2MH3YVHwc00lMxOApQWAs6XZ+9PCpyLPi0vxhU60Z7AjhvD5pCwsnO4pz8G7HRvw3mcNjx92b3qKX7U+xr72F3hqB44VnAdnuBYSCVcMqUA31AKOHF+4tz4DbT2BEkqciDTWhTg7jieBLjwMFs4kWv8AKl8XSJevkODBlkX4YN9G/LVrPd7fXU/d2rbaDE+qKhmPli6Dh5vej72/eslRbN/0PE8lQjtXG+IXNgWnzrAjAEyc6MAlTm42xF/kjGEBjmRZnZZ++eAA/fzHA3RXeSHdmBpHGlPiiOUNTQBwLjf7wqhBi63yUOJvP4FwJljjRHsbwgIWsm3YyLWzQScPDnrpJpKkhBlYlTYLW9bkkda6BVgUIUNjgAgzAgMIbImfw+gsNEL/8rLFHXFq7JqrpIsUfmMnEWuGFdqyrZE9zgYdJ3GJdxSXuMXaoiGd/7ImKpjKUfhilMwDKzQKc1OsimqKjUTYVb6A0V23Cg5t2TA9Tej7e02IBONmuhGGlRXhsNjIZXPQzpaNDvbjiCCWTdQlPFSp3U9nS4MKTs4v4BuMYsHO/BTByKpi/+GqIgmszMqCPc0fwtGtH09IFM+6XS6ToJDnQI2fbIvs8awxpZiqCMbRlgpcVSnFyHnOtLuEiz668feqy+Lz8NQJL0SceLUmC253rnv9DwtVkawCjRpMGnX+kbx0NCZ4m/U5niQ/Q0xqjNGE9HYgjhwjBzdnkoj1kzEm14kOieTiwpxZeHnrGrx/uPkXHO76jh79tNcCHHhvBaNvfSUMbqu2H1lS8qI5ew4WJAnNNxuq8UnnZnLnozpyobqEbE2PpmZXTDarjC5UhJsrnSoVmKvnRZOls8Pxt+MtiN8eQCjW66EpMd4CRkQokcl1SYFBt+U8ARp8fKkUPz8q2d+PMvh40waBF8Yl8TBOKcB3Xd0xJzLUPLi2iOqrKqbJqe0UDnWZLaCtyToYaayx9LmiQKhrWO2gk8sGonxFKPXwQoWHJyYFiTFLEXo5P1LRawiaNary93up8RVic7ISByvTyc2NxeZHO1bSFsgnpjQ4UrvconBhWKhVjkEHQz37OeWGRElpglaxUJ+gXluQFYSI1jGu0yx76vMzvQs10ZXJoZJLxlAxLldJsSU5Ct+4TW1pCTgCQIIkGPI0c5mDPfthfrwGUmQySJGHwUpjKiASiBFOs1hUbXYKxAf4jYmwKk7Th6REyJvmiUU3/uSJh3fvBKMqCnI1MbDUlAEmlZKZGBLC1EslzLLEOGbjklLLLTo21UGJNoaZGBTIGpunzZ0DUj4fOlrq7f5RmPXs2Q5hrs4Q7eMJGysWQX5sNDNe5MNaV7fy3yfl5tVL3/RlyVrGfz/c/wA2s4Qk/VIgXwAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/7481a26d9235dd62950169c549fbae19/6cc2e/jahoda_right.png","srcSet":"/static/7481a26d9235dd62950169c549fbae19/1bd48/jahoda_right.png 936w,\\n/static/7481a26d9235dd62950169c549fbae19/3d02c/jahoda_right.png 1872w,\\n/static/7481a26d9235dd62950169c549fbae19/6cc2e/jahoda_right.png 3744w","sizes":"(min-width: 3744px) 3744px, 100vw"},"sources":[{"srcSet":"/static/7481a26d9235dd62950169c549fbae19/ca303/jahoda_right.webp 936w,\\n/static/7481a26d9235dd62950169c549fbae19/3a4a5/jahoda_right.webp 1872w,\\n/static/7481a26d9235dd62950169c549fbae19/5254a/jahoda_right.webp 3744w","type":"image/webp","sizes":"(min-width: 3744px) 3744px, 100vw"}]},"width":3744,"height":5328}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/2481956559.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/2481956559.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC/klEQVQozwXBeUyTdwCA4Y9CMPLHsgOTqVtmmIjL4jmzushwU2EHXTpggCFbG7FqHGiLOhBKqbRACNgOrdLKoamgFiktzjmYtiAFjIhEFDOEMQGDI2jQgCRmHr93zyMND/rJN8axZm0on64PQ505D7s/CM9fYXSPfk3LzQLGpju4NdaK80oN6mw1Ku0X/Jj5Nlk5aTR33MRsOS50+mJ0hnIh7c/+gWj5AjbHy9CVSnhvSQw8ldH/NAj3iITh7Js09ahovpPHnqp8knJ2oNiWwHfbv+GPq7/hb6zl4D6tsNS4KLRWCenjVe/y0bJ3SN0VirFmPq7eEO7MBHF9SkbgcTBXJ4Nx+rdy9LKdjDNWkosOoMzLQFOxl8CwiVbHfjRxG4TZamdfXqGQVqx8j8+3hKNICWe3cREd/8q4+0yGdySIwecSUyzE2R6PxWPg5zNFJBwtJrGijO0OLS1/J3KhNp9CtVJYbA50OUYhxcQuo6A6hB0H3iejfAm9sxIDs6FUdi/BNxlF28Nkip27qWgyU3fhGBmn7SRVHSPnrJVrnfWcL8nCeyRX1LkayTpoElKs4hO2apby095ItKci8E+EcR+JXwNrsXRtwzOopdx9GL2rmr62c0z/c5uu6z4G+gIM3ujE12DhtEsvGi5eIe9QmZDWrYliw8bVJOoWs8e5kJretzh+eQG6SiUn2vXUB7QcuWSmqtHBg/42Wto8NF5qYnpmmkdzz7h9bwiP97yod3nJLbIJKSpiEQqVHJVNjikQTum15XxvUqI/l8bFG4ewOU04fIcxucvIPFlCTJmBU13dTD15wtDYKM2VJuy/qIV5Zyq69HQhyWPfICl7OWbfl7hHNtM6GU/nhJF7s0Z6RnX03DXy+PkJhmdK6XtUQmBCS/eQl0Dffdx1dqzpm8hPiRaaTStQxawUUrQmhDhDMDsb5lHd/wF1QxG0T37L7+NpNI1/xYMXamZfnWTutY2pl7sY/y+V0blcav8sIEUhR7lqMSmfRYrk9ZEkrPtQ/A9mKAFNTfsYZQAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/3f166df4ce65f58ee9a1a104c302dc93/195da/joga.png","srcSet":"/static/3f166df4ce65f58ee9a1a104c302dc93/3752a/joga.png 530w,\\n/static/3f166df4ce65f58ee9a1a104c302dc93/447b0/joga.png 1060w,\\n/static/3f166df4ce65f58ee9a1a104c302dc93/195da/joga.png 2120w","sizes":"(min-width: 2120px) 2120px, 100vw"},"sources":[{"srcSet":"/static/3f166df4ce65f58ee9a1a104c302dc93/0e46b/joga.webp 530w,\\n/static/3f166df4ce65f58ee9a1a104c302dc93/eab0a/joga.webp 1060w,\\n/static/3f166df4ce65f58ee9a1a104c302dc93/f5531/joga.webp 2120w","type":"image/webp","sizes":"(min-width: 2120px) 2120px, 100vw"}]},"width":2120,"height":1079}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/2493766020.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/2493766020.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"fullWidth","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAADG0lEQVQ4y6WTa0yTVxjH3+8mfptfFhOzzGQfNM44F0DERSOggniZQMZFrSWKogitMC0UscRCHDQUu1Zpx+wQC01AHWixQqLxhkVhZnhJXy5Fxuouxmhcgrzv+1tasMPEJc79k5PnOclzfuef8zxHaPU0UVqtIU0dj76qjJVJcWTlbKLebiM1exNafR55ujRGx/2EpCCH4/iTx1y44uK1JGkSRVEQUlQL2VG0gdStKXy+6lPS1ZtxtbqJSViKpeEbfD/5yNGmUl6zC3HwISPDo/z1coL6RjNb9kRjdxv47WkgAhYKSlSMPQlgtpj5aMEHxKxZQEOzFZuzDnuThbsDvfTd97GtIIna73WIQ4/48ZKLqjodVdZC1mUsZ232x3TfauTFy2cIFdVGBh6JxCXEEZvwGZW1RtztzWhK9zNvyRzsZ6yII35i1i1k/rJZZO5NQGPIwt3eSFTShyRmLCFf/xXLUuZS7y5GONlk4VbvHXL25RK1ejHaw3vC1i0OE+l58dh+MGE0l7E2PZas/C/wD/+MpkJFkVFFu7eJxSvnkrYzkXJrJvf8XQiaw2o6u7sZHBphp0ZNcUUB7vYWDDUlmL8zcqXnEuXVX6Mq3EL2/uUMiD00ttrJLV1D3akykrfGkFu8nRaPhafPgwhtHieKpNDZ1UmBbi/6Sh3asmKiExexUb2CG33esOOOrgtk7Iujsn4Xo+ODXO/10nWzjYfifVZtWEF89jyGfulHuHH7WmgWcJ8/zVBAZGx8jFMtDlznnAR/f8zEq4kwUJYV+h9cI/jHPx19rRNOE66O41NdPttxHpvThPeqB/3RQ9TYjnHV533jQGi+ZkpWZGRZml7KdI00BdxRuB6NQc3FyxcxnTQwGHjApDSJJIWK5QgsFKf28huXhOLMXIhNnk3ViXzu3Oth9FfxX1297fDbcuGT6Fk0tFRztK6Ec5dPT38jKfyuMwvfVUJyZhRFR3YT/+VSDlSmTDdA/s+gCPBbhw2rw0x5jZY2j+P/Ax3NteiMB1ifs4jgn8MR4PtK8Af68d3to8J0kLGgGBmL93X4N2AlFW4XwYvYAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/51b6226c3c04a4df260f9a5351fa8f5e/a36d6/tree_final_final.png","srcSet":"/static/51b6226c3c04a4df260f9a5351fa8f5e/57da1/tree_final_final.png 750w,\\n/static/51b6226c3c04a4df260f9a5351fa8f5e/4011d/tree_final_final.png 1080w,\\n/static/51b6226c3c04a4df260f9a5351fa8f5e/8a5ce/tree_final_final.png 1366w,\\n/static/51b6226c3c04a4df260f9a5351fa8f5e/a36d6/tree_final_final.png 1875w","sizes":"100vw"},"sources":[{"srcSet":"/static/51b6226c3c04a4df260f9a5351fa8f5e/b47c1/tree_final_final.webp 750w,\\n/static/51b6226c3c04a4df260f9a5351fa8f5e/886bc/tree_final_final.webp 1080w,\\n/static/51b6226c3c04a4df260f9a5351fa8f5e/f3f5e/tree_final_final.webp 1366w,\\n/static/51b6226c3c04a4df260f9a5351fa8f5e/bd6be/tree_final_final.webp 1875w","type":"image/webp","sizes":"100vw"}]},"width":1,"height":0.7978666666666666}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/2922641140.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/2922641140.json ***!
@@ -99,6 +133,50 @@ module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/2967750178.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/2967750178.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMFAgb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHZ4jA1QefmFQf/xAAcEAACAgIDAAAAAAAAAAAAAAABAgADEhMiIzL/2gAIAQEAAQUCd8Yr85aDty7Y7sWbyLrFH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABoQAQACAwEAAAAAAAAAAAAAAAEAEAIRURL/2gAIAQEABj8CDs8rvlYsKVa0ZT//xAAcEAEAAgIDAQAAAAAAAAAAAAABESEAMRBBYVH/2gAIAQEAAT8hBSXhqCRK4MFIa1rJfOyug4RjJMeYkFt7ycGPbz//2gAMAwEAAgADAAAAEFPPAP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EAB0QAAICAgMBAAAAAAAAAAAAAAERITEAURBBkdH/2gAIAQEAAT8QP4AybQA1hhDCKExqOFVTZofXg6IwFDYU64L8ksiXWsQLrnJwWMhSAh6M/9k="},"images":{"fallback":{"src":"/static/fa1a693b0f0f2c4b337ff9ef3b2be8d4/a89ca/komensky.jpg","srcSet":"/static/fa1a693b0f0f2c4b337ff9ef3b2be8d4/96deb/komensky.jpg 150w,\\n/static/fa1a693b0f0f2c4b337ff9ef3b2be8d4/0fdf4/komensky.jpg 300w,\\n/static/fa1a693b0f0f2c4b337ff9ef3b2be8d4/a89ca/komensky.jpg 600w","sizes":"(min-width: 600px) 600px, 100vw"},"sources":[{"srcSet":"/static/fa1a693b0f0f2c4b337ff9ef3b2be8d4/c65bc/komensky.webp 150w,\\n/static/fa1a693b0f0f2c4b337ff9ef3b2be8d4/078c3/komensky.webp 300w,\\n/static/fa1a693b0f0f2c4b337ff9ef3b2be8d4/6d09e/komensky.webp 600w","type":"image/webp","sizes":"(min-width: 600px) 600px, 100vw"}]},"width":600,"height":600}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3236689753.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3236689753.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQP/2gAMAwEAAhADEAAAAbp7nMkD/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAECEBESMf/aAAgBAQABBQLFqaRsS7//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwGI/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Bh//EABoQAAICAwAAAAAAAAAAAAAAAAAhEBEiMnH/2gAIAQEABj8CnWx5dEj/xAAZEAADAQEBAAAAAAAAAAAAAAAAAREhUUH/2gAIAQEAAT8hhImEXRZGrdbFLzvadUkPw//aAAwDAQACAAMAAAAQGC//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPxCR/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAx/9oACAECAQE/EAJs/8QAGhABAQADAQEAAAAAAAAAAAAAAREAITFRQf/aAAgBAQABPxA2FTzEgXV5ca/GEOyXXKe8NioeEmIfoENDP//Z"},"images":{"fallback":{"src":"/static/5162bc77dd5e60ea50a1504d160b08ac/acacc/kniha.jpg","srcSet":"/static/5162bc77dd5e60ea50a1504d160b08ac/ef8fd/kniha.jpg 360w,\\n/static/5162bc77dd5e60ea50a1504d160b08ac/05c97/kniha.jpg 721w,\\n/static/5162bc77dd5e60ea50a1504d160b08ac/acacc/kniha.jpg 1441w","sizes":"(min-width: 1441px) 1441px, 100vw"},"sources":[{"srcSet":"/static/5162bc77dd5e60ea50a1504d160b08ac/ce5b5/kniha.webp 360w,\\n/static/5162bc77dd5e60ea50a1504d160b08ac/17c71/kniha.webp 721w,\\n/static/5162bc77dd5e60ea50a1504d160b08ac/76e10/kniha.webp 1441w","type":"image/webp","sizes":"(min-width: 1441px) 1441px, 100vw"}]},"width":1441,"height":956}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3788630019.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3788630019.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"fullWidth","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACqklEQVQozwGfAmD9ALfI2bfI27LD1pyst3+Ok4WRmHuIjG1/fmp8fGl8fmd8fWJ2f3OJi3GGknmLmHiNmHaLlXaOj3iUi3uXjgB2hYxbbHdEVVo1QURBTE5PW1pOXFVJWFRWYGJaYmlMWmBWYGNEUlNSW2FkaHRgY3VeZnBfbG5ib2pXalsAfHh9g4KJdXN6V1pSUVhPTVNNW2FhYmZnQEdCYmZgYGJjWl1hW11bXmFhX2VeWF9RWmZOXGtVcnlpZ3pUAIWAequapG5sbl9dVlhbTFBZRmFmWlpjSUtSQ09WTFVXSlZdSk9gPllwPk5gODtMMT1PM1hxOlt2OGJ8OgBZX0BoZGNQT05iXFZRXUJNV0FZXk40QSdIUzNDTzNLXDJCVCo0Qyg/Ti41QC0mLyYkLSg7RzY7RDU5RDIAP1EaXGQ4VVo2VF8xMj4jW2dGhItnREw5TVU6c3hebGxiY2ZZRkxBKjQmRVMvQU4oQEsuTFs1RVAzVWY8ADlJHFJkJ0tXJUJPH0ZVJVVyKVh2K152MldqNFxlQruwn9G+use8s52UlFhVVy0yNTQ6ODI6LyowJkxZMwA+USE+TSArMSAsOBhZay9lei1zg0KzrZWtpJiypJ/Qw7/VzM7PwcHMurO7raedkZGPg4VVUFVDRDk+RywAS1g3oZmFYV1VGSMOcndTwLaiwbSozry408C81sO71MG5zr22yLWsvKmcwbKr1srKopmHaGtBbXNBX28rADM8Jn95a3d2XiozGXR2Wcu7rL6tmrWkjaCPc6SMdZGEZHJzRGxwQXV4THt8VXmBVWNwO1dnKlptJV5wJAANERANEQscIRE9SSBRWi89QSc9RSg2OiUpMR46RCcaHhUXHBYWGhUlKxw/TCc+SiFGWCNSZSdXaSxYaS6ZFP36HWWXSAAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/68e0c8ee8215723bfde90c6fd31ceed1/afa5c/zahrada_hero_placeholder.png","srcSet":"/static/68e0c8ee8215723bfde90c6fd31ceed1/0dee1/zahrada_hero_placeholder.png 750w,\\n/static/68e0c8ee8215723bfde90c6fd31ceed1/8beaa/zahrada_hero_placeholder.png 1080w,\\n/static/68e0c8ee8215723bfde90c6fd31ceed1/d079a/zahrada_hero_placeholder.png 1366w,\\n/static/68e0c8ee8215723bfde90c6fd31ceed1/afa5c/zahrada_hero_placeholder.png 1920w","sizes":"100vw"},"sources":[{"srcSet":"/static/68e0c8ee8215723bfde90c6fd31ceed1/a66aa/zahrada_hero_placeholder.webp 750w,\\n/static/68e0c8ee8215723bfde90c6fd31ceed1/65dd5/zahrada_hero_placeholder.webp 1080w,\\n/static/68e0c8ee8215723bfde90c6fd31ceed1/4fad6/zahrada_hero_placeholder.webp 1366w,\\n/static/68e0c8ee8215723bfde90c6fd31ceed1/c512e/zahrada_hero_placeholder.webp 1920w","type":"image/webp","sizes":"100vw"}]},"width":1,"height":0.5625}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3788707773.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3788707773.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgAEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHsjQYMqv/EABkQAQACAwAAAAAAAAAAAAAAAAECAxAREv/aAAgBAQABBQJmC2mh6M//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAAAEQEgIZH/2gAIAQEABj8CQ94OKf/EABwQAQACAQUAAAAAAAAAAAAAAAEAERAhMUFRYf/aAAgBAQABPyFCrsgQjXtVofAe47x//9oADAMBAAIAAwAAABCzD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABYRAAMAAAAAAAAAAAAAAAAAABARIf/aAAgBAgEBPxCsf//EABkQAQADAQEAAAAAAAAAAAAAAAEAETEhUf/aAAgBAQABPxAZqo5t+QeYBRE3hydodJxWSh0JQNAOQyf/2Q=="},"images":{"fallback":{"src":"/static/42e0d938a5fa0ff69f1c4bcf76a235b9/fc550/byliny.jpg","srcSet":"/static/42e0d938a5fa0ff69f1c4bcf76a235b9/d3f99/byliny.jpg 360w,\\n/static/42e0d938a5fa0ff69f1c4bcf76a235b9/77116/byliny.jpg 720w,\\n/static/42e0d938a5fa0ff69f1c4bcf76a235b9/fc550/byliny.jpg 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/42e0d938a5fa0ff69f1c4bcf76a235b9/2bc1d/byliny.webp 360w,\\n/static/42e0d938a5fa0ff69f1c4bcf76a235b9/f28b1/byliny.webp 720w,\\n/static/42e0d938a5fa0ff69f1c4bcf76a235b9/c317d/byliny.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":684}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/3882051298.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/3882051298.json ***!
@@ -107,6 +185,17 @@ module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"
 
 "use strict";
 module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAACk0lEQVQozwGIAnf9AOy1kgDw0bsA////ADEAAADJimsD2ayWBN23pASCHicAz5aDAOK+rwDIhXAD17arAe3o5ADiyLsA48y9AuLHtgPk1MoA48y/ANvw9QLgxLRUAOW3nJbuz7pO////EncAAADWknAA57ihAOfItwCMJScB0p6Mad23qDnUmYMA8eTfANqwngPn2M4A5dDCAObNvQDdyb4O4ci7aOLIutTjx7f/ALlxTP/FgmD/zItq5dSdf7PfsJeT5rymgOrQv1fXrJqVtndl/8mXiffbsKCD162lCuXArgDdzcMM482+PeTMvYnky7zf5Ma2/+C8qP/Nn4n/AHU/KO+CQib+jkwv/5RVOv+aXkb/qWpS/8yQdv/es57/06mb/Lx6av/Finr/zp6R0uPGuZvkyLng5Ma2/9+9q//UrJj/wZF7/6x3Yf+XZFHQAHteUxiEXE08kmdXbZdoV5uPW0q7h1FB15pUO/7Ff2b8p2ld/n9LP/52SkP7uYl6/8yikv/LoZL/wJKB/7B+a+ilcmC+l2ZWjIhfVkVEfrkEAG5PRAB9VEQAjV9PAH9INAAAAAAA////B59aT7CdVEP/pllC+bNzXvqZYlX9q21g/7KBda+meW5ml2tiQHlVURL/QAAAj1I7AIVbUAA2THMAAHlLOQGGVEECk2FOBIpONwKHLB0BtpGaALaMnRmbXFjWklpO/5NYR/+3eGX/snxye799YwCkd2wAlWZcAHZMRQAAXf8AmF9JA5dtYQOOaV8AALCKfQD///8A5N/fAKd+bwCVcFsAn2xqAqZ0fwCxkJ4RjGZibpBjWZmTYFdUAAAAAHYAAACugXUEpn1zAqF2agGdeG0AqpGOAKmSkACkhX8ANCdRz6x36IUAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/9480b33d79fcc63e39029c5744821c08/f22cd/handshake.png","srcSet":"/static/9480b33d79fcc63e39029c5744821c08/488ec/handshake.png 1404w,\\n/static/9480b33d79fcc63e39029c5744821c08/3a4ae/handshake.png 2808w,\\n/static/9480b33d79fcc63e39029c5744821c08/f22cd/handshake.png 5616w","sizes":"(min-width: 5616px) 5616px, 100vw"},"sources":[{"srcSet":"/static/9480b33d79fcc63e39029c5744821c08/e669c/handshake.webp 1404w,\\n/static/9480b33d79fcc63e39029c5744821c08/dd565/handshake.webp 2808w,\\n/static/9480b33d79fcc63e39029c5744821c08/9e3f3/handshake.webp 5616w","type":"image/webp","sizes":"(min-width: 5616px) 5616px, 100vw"}]},"width":5616,"height":2179}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/443149709.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/443149709.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC5klEQVQozx3J209TBwDA4fMHDDVqQoYQ1LiAOK8gVgaSdtRqIFx0A8ugUESkMApRClJOgco2iggNYIGDrcIAW7k0kNZAwEvjWEag4soiMSEGRnyQmPk0Tdxifka/10+wjz7ANjBBUnISIeHBJCrTEbsfsFuWQVxKLlW228SnZLL9y1043LM0OaY4XdqKt3uM+Y4BkotyiM5NI+abQyQciUKwO724pvz02vuIiYmktcvFhO8FsRl6jspTkZ/8lq8iIti6bStuzxTr6y85lXOR2hITi+6HWI16NLosDhzbT8ieHQiuyVkGO9t47Wrhfm8rj51DTFgtVFWaidgfS3BwCGFhoWzZHESv1MMnxRfyuWmqZnnxL9ovaTAUKqizaKkx5SI4ByX0WjWuq0W8n/fy3/N53gV+563fR4OuiE2bt7AzPJSgoC8oLMjn/41VHlrNLNUVEnC2kZQYhan8LK/8v/L6iRdhabKf3Lw0YuOj8HVXsdJZhr+tmkBHHWv2ZvJUCoJDQjmw7xBZJ2RsjEms9Zj5W6rhn8Ak1QYd59Uq3s6N82rEhvA+4MWgz+Z0ppy1p9N8eDbDYlMhnsxIlhvOcE2TRpIygYXhBl7Ya1geaufNnAfWfoN/V/nT/4iBTpE34xIr1koEz/ViLhelokxPpN8psfJslo05N0/NKUwXx1J2LhFjSxyPPN9jr4/DP2JlfWaU4e56Zu6088R3D//MPVrK1VSojyHcqs/HIebRWJKBpVqLVKflhqjl4lk5KbIoVPKDlBll5FzYS7YqhpW+Fv7oMCHqCxh3DWHruo1Br0OpOIz5ihph4GcdTaXp3BS1uCxl2K5okIwaKrKVHD0Syb6I3ZxQhJOsicRw6TuGf8yiUa3E47iO1aij4gcVd5v1uC2l3GnUIbhEDc3lanprz9Osz6JKm/o5fFItY62VJCtkhIXuIP7415yUR/NTqZrpLpF5h8hCn5lVbxcvJ3tYHPyFW2IBHwFIMO/lRCM7ywAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/ad1db56d65c26fe7b684df39d862292b/9e2d4/deda.png","srcSet":"/static/ad1db56d65c26fe7b684df39d862292b/f0c79/deda.png 360w,\\n/static/ad1db56d65c26fe7b684df39d862292b/46903/deda.png 720w,\\n/static/ad1db56d65c26fe7b684df39d862292b/9e2d4/deda.png 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/ad1db56d65c26fe7b684df39d862292b/95072/deda.webp 360w,\\n/static/ad1db56d65c26fe7b684df39d862292b/7116d/deda.webp 720w,\\n/static/ad1db56d65c26fe7b684df39d862292b/f0eba/deda.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":733}');
 
 /***/ }),
 
@@ -5990,6 +6079,396 @@ const JurtaSection = ({
 
 /***/ }),
 
+/***/ "./src/components/small-zahrada-map.tsx":
+/*!**********************************************!*\
+  !*** ./src/components/small-zahrada-map.tsx ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ SmallMap)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _googlemaps_js_api_loader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @googlemaps/js-api-loader */ "./node_modules/@googlemaps/js-api-loader/dist/index.esm.js");
+/* harmony import */ var _map_tsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./map.tsx */ "./src/components/map.tsx");
+
+
+
+ // @ts-ignore
+
+function SmallMap(props) {
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    // console.log(projekty)
+    //#region loading map
+    const loader = new _googlemaps_js_api_loader__WEBPACK_IMPORTED_MODULE_1__.Loader({
+      apiKey: _map_tsx__WEBPACK_IMPORTED_MODULE_2__.API_KEY,
+      version: "weekly"
+    });
+    let map;
+    loader.load().then(() => {
+      map = new window.google.maps.Map(document.getElementById("map"), {
+        // center: { lat: 49.71198812010327, lng: 17.914118207168002 }, //fulneke
+        center: {
+          lat: 49.718729357197944,
+          lng: 17.90409554493908
+        },
+        //zahrada
+        // center: { lat: 49.85967567710321, lng: 17.914118207168002 }, // MSK center
+        zoom: 14,
+        // styles: grayStyle,
+        mapTypeControl: false,
+        streetViewControl: false
+      }); // highlight Fulnek
+      // const fulnekMarker = new window.google.maps.Marker({
+      //     position: { lat: 49.71198812010327, lng: 17.914118207168002 },
+      //     label: {
+      //         fontSize: '20px',
+      //         text: 'Fulnek',
+      //     },
+      //     icon: getIcon(1),
+      //     map,
+      // });
+      // google.maps.event.addListener(map, 'zoom_changed', () => {
+      //     const zoom = map.getZoom();
+      //     const visible: boolean = zoom == undefined ? false : zoom < 10;
+      //     fulnekMarker.setVisible(visible);
+      // });
+
+      const marker = new window.google.maps.Marker({
+        position: {
+          lat: 49.718729357197944,
+          lng: 17.90409554493908
+        },
+        icon: (0,_map_tsx__WEBPACK_IMPORTED_MODULE_2__.getIcon)(40),
+        map
+      });
+    });
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "small-map"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex-row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "map-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "map"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "adresa"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "title green"
+  }, "Zahrada Hojnosti"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Palack\xE9ho 298"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Fulnek"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "742 45"))));
+}
+
+/***/ }),
+
+/***/ "./src/components/zahrada-carousel.tsx":
+/*!*********************************************!*\
+  !*** ./src/components/zahrada-carousel.tsx ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var tiny_slider_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tiny-slider-react */ "./node_modules/tiny-slider-react/build/index.js");
+/* harmony import */ var _layer_wrapper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layer-wrapper */ "./src/components/layer-wrapper.tsx");
+/* harmony import */ var _functions_useWindowSize__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../functions/useWindowSize */ "./src/functions/useWindowSize.ts");
+
+
+
+ // import Loadable from "@loadable/component"
+
+
+
+const prinosy = [{
+  title: 'Společné tvoření',
+  className: 'socialni',
+  body: [` Víme, že sdílet radost z výsledku, pomáhá. Budování a péče o Zahradu podpoří přátelství lidí různých generací, kteří by se pravděpodobně jinde nepotkali,
+             stejně tak spolupráci, prohlubování vztahu k přírodě, práci a tělu. Komunitní tvoření, společný zájem, pospolitost bude pro mnohé nové, věříme, že o to zajímavější.
+            `],
+  imageUrl: '../images/hero_placeholder.png',
+  imageAlt: '',
+  image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    className: "img",
+    loading: "eager",
+    src: "../images/deda.png",
+    alt: "D\u011Bda s vnukem s\xE1zej\xED na Zahrad\u011B",
+    layout: "constrained",
+    placeholder: "blurred",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/443149709.json */ "./.cache/caches/gatsby-plugin-image/443149709.json")
+  })
+}, {
+  title: "Pohyb a kreativita",
+  className: 'pohybovy',
+  body: [`Vědomé cvičení, workshopy na téma malování, fotografování, tvorba a vázání dekorací, běžných či příležitostných květinových vazeb, zpracování bylin v širokém pojetí,
+             užití v kuchyni, postupně i zdravé vaření. To vše čeká Zahradu Hojnosti. `, `Učme se od přírody, bez ohledu na to, kolik je nám let.`],
+  imageUrl: '../images/zahrada_cviceni.jpg',
+  imageAlt: 'Zena cvici jogu',
+  image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    className: "img",
+    loading: "eager",
+    src: "../images/joga.png",
+    alt: "\u017Dena cvi\u010D\xED j\xF3gu v parku",
+    layout: "constrained",
+    placeholder: "blurred",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2481956559.json */ "./.cache/caches/gatsby-plugin-image/2481956559.json")
+  })
+}, {
+  title: "Moudrost přírody",
+  className: 'edukativni',
+  body: [`Zahrada poslouží dětem a mladým v praxi pochopit zákonitostí přírody, koloběhu, ekosystému. Budou poznávat rostliny a květiny, učit se o jejich významu, účincích bylin.
+             Podle odkazu Jana Amose Komenského, který vyučoval své žáky v nedalekém Žákovském háji, využíváme moudrost přírody v reálném prostředí. 
+            Společně rozvineme mnoho vzdělávacích možností a projektů, které budou vznikat na míru, v závislosti na ročním období a koloběhu přírody.`, `Podobně se mohou přidat dospělí. Ti se jistě zapojí i do výměny pěstitelských zkušeností,
+             předávání rad a tipů o zpracování plodů, bylin, ovoce, zavařování, výrobě tinktur, olejů, mastí a dalších zázraků.`],
+  image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    className: "img",
+    loading: "eager",
+    src: "../images/kniha.jpg",
+    alt: "Otev\u0159en\xE1 kniha na tr\xE1v\u011B",
+    layout: "constrained",
+    placeholder: "blurred",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3236689753.json */ "./.cache/caches/gatsby-plugin-image/3236689753.json")
+  })
+}, {
+  title: "Hojnost",
+  className: 'samozber',
+  body: [`Až Zahrada nabídne svou hojnost, budeme pořádat samosběry z jejich darů. Tak se uzavře cyklus dát a sklidit v rámci jednoho roku, aby mohl započít další.
+             Její hospodaření nastavujeme tak, aby byla soběstačná. 
+            Samosběr bude spolu s workshopy vytvářet zdroje příjmů, které se znovu vloží do další sezóny. Zahrada hojnosti je místem, které vzkvétá. `],
+  image: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    className: "img",
+    loading: "eager",
+    src: "../images/byliny.jpg",
+    alt: "Sesb\xEDran\xE9 byliny na stole",
+    layout: "constrained",
+    placeholder: "blurred",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3788707773.json */ "./.cache/caches/gatsby-plugin-image/3788707773.json")
+  })
+}];
+const romanNumerals = ["", 'I', 'II', 'III', 'IV', 'V', 'VI'];
+
+const ZahradaCarousel = ({}) => {
+  let slider;
+  const windowSize = (0,_functions_useWindowSize__WEBPACK_IMPORTED_MODULE_3__.default)(); // const getItemsCount = (ws: typeof windowSize) => {
+  //     const _ = ws.width == undefined
+  //         ? 2
+  //         : Math.floor((ws.width + (ws.width > 600 ? - 180 : 0)) / 350);
+  //     console.log(ws, _)
+  //     return _;
+  // };
+
+  const prev = () => slider != null && slider.slider.goTo('prev');
+
+  const next = () => slider != null && slider.slider.goTo('next');
+
+  const goTo = i => () => slider != null && slider.slider.goTo(i);
+
+  const {
+    0: selectedIndex,
+    1: setSelectedIndex
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(1);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "carousel-navigation"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    onClick: prev,
+    className: "slider-button prev"
+  }, "<"), prinosy.map((p, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    key: i,
+    className: `${ true ? 'carousel-nav-button ' : 0}${i} ${i + 1 == selectedIndex ? 'selected' : ''}`,
+    onClick: goTo(i)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Leaf, {
+    filled: i + 1 == selectedIndex
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    onClick: next,
+    className: "slider-button next"
+  }, ">")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_layer_wrapper__WEBPACK_IMPORTED_MODULE_2__.default, {
+    className: "zahrada-carousel zahrada-carousel-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "slider-layer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(tiny_slider_react__WEBPACK_IMPORTED_MODULE_1__.default, {
+    settings: {
+      autoplay: false,
+      arrowKeys: false,
+      // autoWidth: true,
+      // fixedWidth: windowSize.width,
+      autoHeight: true,
+      //TODO Check
+      mouseDrag: true,
+      // lazyload: true,
+      nav: false,
+      controls: false,
+      items: 1,
+      rewind: false // startIndex: 0,
+      // responsive: {
+      // 800: {
+      //     autoHeight: false,
+      // }
+      // }
+
+    },
+    ref: ts => slider = ts,
+    onIndexChanged: e => {
+      setSelectedIndex(e.index);
+    }
+  }, prinosy.map((p, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    key: i,
+    className: `zahrada-prinos zahrada-prinos-${i} ${p.className}`
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_layer_wrapper__WEBPACK_IMPORTED_MODULE_2__.default, {
+    key: i,
+    className: "inner-slide"
+  }, p.image, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: `prinos ${i} ${p.className}`
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
+    className: "title"
+  }, p.title), p.body.map((text, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    key: i,
+    className: "text",
+    dangerouslySetInnerHTML: {
+      __html: text
+    }
+  })))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "button-layer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    onClick: prev,
+    className: "slider-button prev"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    className: "arrow",
+    xmlns: "http://www.w3.org/2000/svg",
+    height: "24px",
+    viewBox: "0 0 24 24",
+    width: "24px",
+    fill: "#000000"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M0 0h24v24H0V0z",
+    fill: "none",
+    opacity: ".87"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M17.51 3.87L15.73 2.1 5.84 12l9.9 9.9 1.77-1.77L9.38 12l8.13-8.13z"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    onClick: next,
+    className: "slider-button next"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    className: "arrow",
+    xmlns: "http://www.w3.org/2000/svg",
+    enableBackground: "new 0 0 24 24",
+    height: "24px",
+    viewBox: "0 0 24 24",
+    width: "24px",
+    fill: "#000000"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("g", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M0,0h24v24H0V0z",
+    fill: "none"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("g", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("polygon", {
+    points: "6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"
+  })))))));
+};
+
+const Leaf = ({
+  filled
+}) => filled ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+  viewBox: "0 0 412 412",
+  width: "412",
+  height: "412",
+  viewBox: "0 0 412 412",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("circle", {
+  cx: "206",
+  cy: "206",
+  r: "201",
+  fill: "#118A07",
+  stroke: "#118A07",
+  strokeWidth: "10"
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+  d: "M278.076 71.0947C278.076 71.0947 252.083 96.3068 223.971 106.471C15.7961 181.751 103.592 328.449 106.457 328.933C106.457 328.933 118.13 308.609 133.899 297.017C233.963 223.473 254.301 138.821 254.301 138.821C254.301 138.821 231.846 240.685 142.825 304.067C123.163 318.059 110.53 344.934 104.894 379.366C104.894 379.366 115.8 387.01 121.793 385.485C124.131 370.238 131.368 349.94 139.629 336.898C264.047 351.707 304.797 251.477 310.12 216.528C322.684 133.985 278.076 71.0947 278.076 71.0947Z",
+  fill: "white"
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+  d: "M278.076 71.0947L282.154 68.202L278.78 63.4457L274.594 67.5057L278.076 71.0947ZM223.971 106.471L222.271 101.769L222.271 101.769L223.971 106.471ZM106.457 328.933L105.624 333.863L109.058 334.442L110.792 331.423L106.457 328.933ZM133.899 297.017L130.938 292.988L130.937 292.988L133.899 297.017ZM254.301 138.821L259.183 139.897C259.774 137.218 258.096 134.564 255.423 133.948C252.75 133.333 250.08 134.986 249.439 137.653L254.301 138.821ZM142.825 304.067L145.724 308.141L145.725 308.14L142.825 304.067ZM104.894 379.366L99.9595 378.559L99.4522 381.658L102.024 383.461L104.894 379.366ZM121.793 385.485L123.026 390.331L126.234 389.515L126.736 386.243L121.793 385.485ZM139.629 336.898L140.22 331.933L137.091 331.56L135.405 334.222L139.629 336.898ZM310.12 216.528L315.063 217.281L315.063 217.28L310.12 216.528ZM278.076 71.0947C274.594 67.5057 274.595 67.5052 274.595 67.5048C274.595 67.5048 274.596 67.5045 274.596 67.5045C274.596 67.5045 274.595 67.5049 274.594 67.5057C274.593 67.5072 274.59 67.5102 274.585 67.5147C274.576 67.5237 274.56 67.5388 274.538 67.5596C274.495 67.6012 274.427 67.6662 274.335 67.7532C274.152 67.9272 273.874 68.1893 273.506 68.5299C272.771 69.2111 271.679 70.2051 270.278 71.4339C267.474 73.8933 263.441 77.2833 258.549 80.9837C248.704 88.4304 235.642 96.9346 222.271 101.769L225.671 111.174C240.412 105.844 254.402 96.6594 264.582 88.959C269.702 85.0857 273.924 81.5375 276.872 78.952C278.347 77.6583 279.506 76.6033 280.302 75.866C280.7 75.4973 281.007 75.2078 281.218 75.0075C281.324 74.9074 281.405 74.8295 281.462 74.7751C281.49 74.748 281.512 74.7266 281.528 74.7114C281.536 74.7037 281.542 74.6976 281.547 74.693C281.55 74.6907 281.552 74.6888 281.553 74.6872C281.554 74.6864 281.555 74.6856 281.555 74.6852C281.556 74.6844 281.557 74.6838 278.076 71.0947ZM222.271 101.769C169.651 120.798 135.297 144.496 113.597 169.656C91.8531 194.866 83.0262 221.3 81.0902 245.349C79.1606 269.319 84.0817 290.783 89.629 306.244C92.4064 313.985 95.361 320.278 97.7447 324.696C98.9332 326.9 100.003 328.68 100.863 329.964C101.285 330.594 101.706 331.179 102.102 331.657C102.291 331.885 102.556 332.188 102.873 332.481C103.03 332.625 103.284 332.846 103.617 333.066C103.871 333.233 104.588 333.688 105.624 333.863L107.289 324.002C108.28 324.17 108.943 324.599 109.131 324.723C109.399 324.901 109.578 325.06 109.65 325.127C109.798 325.263 109.854 325.34 109.8 325.274C109.709 325.164 109.499 324.889 109.172 324.4C108.532 323.445 107.625 321.95 106.546 319.949C104.393 315.958 101.645 310.123 99.0415 302.867C93.8269 288.333 89.2729 268.327 91.058 246.152C92.8368 224.056 100.915 199.671 121.169 176.187C141.466 152.654 174.204 129.785 225.671 111.173L222.271 101.769ZM106.457 328.933C110.792 331.423 110.792 331.424 110.792 331.424C110.792 331.424 110.791 331.425 110.791 331.425C110.791 331.425 110.791 331.425 110.791 331.425C110.791 331.424 110.792 331.423 110.794 331.42C110.798 331.414 110.804 331.403 110.813 331.388C110.831 331.357 110.86 331.307 110.9 331.239C110.979 331.104 111.102 330.897 111.267 330.625C111.595 330.082 112.089 329.281 112.733 328.279C114.023 326.272 115.907 323.47 118.267 320.319C123.03 313.957 129.548 306.421 136.861 301.045L130.937 292.988C122.481 299.205 115.278 307.627 110.262 314.325C107.733 317.703 105.713 320.707 104.321 322.873C103.624 323.957 103.082 324.835 102.711 325.448C102.526 325.755 102.382 325.996 102.283 326.164C102.234 326.248 102.195 326.314 102.168 326.36C102.155 326.384 102.144 326.402 102.136 326.416C102.132 326.423 102.129 326.428 102.126 326.433C102.125 326.435 102.124 326.437 102.123 326.438C102.123 326.439 102.122 326.44 102.122 326.441C102.121 326.441 102.121 326.442 106.457 328.933ZM136.86 301.046C187.515 263.816 218.057 223.721 235.95 192.847C244.894 177.414 250.675 164.29 254.23 154.981C256.008 150.326 257.23 146.625 258.013 144.064C258.404 142.783 258.686 141.788 258.873 141.101C258.966 140.757 259.036 140.491 259.083 140.305C259.107 140.212 259.125 140.138 259.139 140.086C259.145 140.059 259.15 140.038 259.154 140.022C259.156 140.014 259.158 140.007 259.159 140.001C259.16 139.999 259.161 139.996 259.161 139.994C259.162 139.991 259.162 139.989 254.301 138.821C249.439 137.653 249.439 137.651 249.44 137.649C249.44 137.649 249.44 137.648 249.44 137.648C249.44 137.648 249.44 137.649 249.439 137.651C249.438 137.655 249.436 137.665 249.432 137.679C249.425 137.708 249.413 137.758 249.395 137.827C249.36 137.966 249.303 138.184 249.223 138.478C249.063 139.067 248.81 139.962 248.45 141.14C247.73 143.496 246.581 146.982 244.888 151.413C241.504 160.275 235.946 172.91 227.298 187.833C210.006 217.671 180.347 256.674 130.938 292.988L136.86 301.046ZM254.301 138.821C249.418 137.745 249.418 137.743 249.418 137.742C249.418 137.743 249.418 137.742 249.418 137.742C249.418 137.743 249.418 137.746 249.417 137.75C249.415 137.757 249.412 137.771 249.407 137.792C249.398 137.832 249.383 137.896 249.363 137.984C249.322 138.16 249.258 138.431 249.17 138.793C248.993 139.516 248.719 140.601 248.336 142.015C247.57 144.841 246.372 148.979 244.655 154.153C241.221 164.506 235.721 178.991 227.476 195.434C210.973 228.349 183.572 268.918 139.925 299.994L145.725 308.14C191.099 275.834 219.436 233.78 236.415 199.917C244.912 182.971 250.589 168.029 254.147 157.302C255.927 151.936 257.178 147.62 257.988 144.629C258.393 143.133 258.688 141.968 258.884 141.168C258.981 140.768 259.054 140.459 259.104 140.246C259.129 140.139 259.148 140.057 259.161 139.998C259.167 139.969 259.172 139.946 259.176 139.929C259.178 139.921 259.18 139.914 259.181 139.909C259.181 139.906 259.182 139.903 259.182 139.902C259.183 139.899 259.183 139.897 254.301 138.821ZM139.926 299.993C118.67 315.119 105.683 343.586 99.9595 378.559L109.828 380.174C115.376 346.281 127.656 320.998 145.724 308.141L139.926 299.993ZM104.894 379.366C102.024 383.461 102.025 383.461 102.026 383.462C102.026 383.462 102.027 383.463 102.028 383.463C102.029 383.464 102.03 383.465 102.032 383.466C102.035 383.468 102.039 383.471 102.044 383.474C102.053 383.481 102.065 383.489 102.079 383.499C102.108 383.519 102.147 383.546 102.196 383.579C102.294 383.646 102.432 383.74 102.606 383.856C102.954 384.087 103.447 384.408 104.055 384.785C105.263 385.535 106.957 386.528 108.878 387.479C110.779 388.419 113.027 389.382 115.325 390C117.53 390.594 120.315 391.021 123.026 390.331L120.561 380.639C120.275 380.712 119.449 380.755 117.924 380.344C116.492 379.959 114.89 379.296 113.314 378.516C111.76 377.747 110.353 376.924 109.328 376.289C108.82 375.973 108.414 375.709 108.142 375.528C108.006 375.438 107.904 375.368 107.84 375.324C107.807 375.302 107.785 375.286 107.772 375.277C107.765 375.273 107.761 375.27 107.76 375.269C107.759 375.269 107.759 375.269 107.76 375.269C107.76 375.269 107.761 375.27 107.761 375.27C107.761 375.27 107.762 375.271 107.762 375.271C107.763 375.271 107.764 375.272 104.894 379.366ZM126.736 386.243C128.978 371.613 135.994 351.98 143.853 339.573L135.405 334.222C126.741 347.9 119.283 368.862 116.851 384.728L126.736 386.243ZM139.038 341.863C202.863 349.46 245.695 327.498 273.146 298.83C300.376 270.395 312.273 235.599 315.063 217.281L305.177 215.775C302.644 232.406 291.505 265.2 265.924 291.914C240.565 318.397 200.813 339.145 140.22 331.933L139.038 341.863ZM315.063 217.28C321.507 174.944 313.282 137.712 303.502 111.131C298.608 97.8309 293.31 87.156 289.222 79.7857C287.177 76.099 285.432 73.2344 284.188 71.2765C283.566 70.2975 283.068 69.5448 282.721 69.0289C282.547 68.771 282.411 68.5722 282.316 68.434C282.268 68.3648 282.23 68.3108 282.203 68.2721C282.19 68.2528 282.179 68.2372 282.17 68.2255C282.166 68.2197 282.163 68.2148 282.16 68.2109C282.159 68.2089 282.157 68.2067 282.156 68.2057C282.155 68.2037 282.154 68.202 278.076 71.0947C273.997 73.9875 273.996 73.9862 273.996 73.9852C273.996 73.9852 273.995 73.9844 273.995 73.9844C273.995 73.9843 273.996 73.9851 273.997 73.9869C273.999 73.9905 274.005 73.998 274.013 74.0091C274.028 74.0315 274.054 74.069 274.091 74.1213C274.163 74.2261 274.276 74.3906 274.426 74.6134C274.726 75.0591 275.175 75.7381 275.748 76.6399C276.894 78.4438 278.536 81.1374 280.477 84.6363C284.36 91.6373 289.429 101.844 294.117 114.584C303.5 140.084 311.297 175.568 305.177 215.775L315.063 217.28Z",
+  fill: "#118A07"
+})) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+  viewBox: "0 0 412 412",
+  width: "412",
+  height: "412",
+  viewBox: "0 0 412 412",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+  d: "M278.075 71.0947C278.075 71.0947 252.083 96.3068 223.971 106.471C15.7959 181.751 105.636 332.017 108.5 332.5C108.5 332.5 118.13 308.609 133.899 297.017C233.963 223.473 254.3 138.821 254.3 138.821C254.3 138.821 231.846 240.685 142.824 304.067C123.163 318.059 110.135 342.567 104.5 377C104.5 377 116.007 384.525 122 383C124.337 367.753 131.368 349.94 139.628 336.898C264.047 351.707 304.796 251.477 310.12 216.528C322.684 133.985 278.075 71.0947 278.075 71.0947Z",
+  stroke: "#118A07",
+  strokeWidth: "14",
+  strokeLinejoin: "round"
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("circle", {
+  cx: "206",
+  cy: "206",
+  r: "201",
+  stroke: "#118A07",
+  strokeWidth: "10"
+}));
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ZahradaCarousel);
+
+/***/ }),
+
+/***/ "./src/components/zahrada-galerie.tsx":
+/*!********************************************!*\
+  !*** ./src/components/zahrada-galerie.tsx ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _public_page_data_sq_d_1790044199_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/1790044199.json */ "./public/page-data/sq/d/1790044199.json");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+
+ //import {Fragment, useState, useEffect} from 'react';
+
+// import TinySlider from 'tiny-slider-react';
+
+;
+
+const ZahradaGalerie = ({}) => {
+  // let slider: TinySlider | null;
+  // const prev = () => slider != null && slider.slider.goTo('prev');
+  // const next = () => slider != null && slider.slider.goTo('next');
+  const data = _public_page_data_sq_d_1790044199_json__WEBPACK_IMPORTED_MODULE_0__.data; // @ts-ignore
+
+  const images = data.allFile.edges.map(({
+    node
+  }) => ({
+    src: node.childrenImageSharp[0].gatsbyImageData,
+    alt: node.name
+  })).sort((a, b) => a.alt.localeCompare(b.alt)); // console.log(data)
+  // console.log(images);
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
+    className: "gallery-wrapper"
+  }, images.map((image, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
+    className: "image-wrapper",
+    key: i
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.GatsbyImage, {
+    className: "img",
+    image: image.src,
+    alt: image.alt
+  }))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ZahradaGalerie);
+
+/***/ }),
+
 /***/ "./src/functions/useAktuality.ts":
 /*!***************************************!*\
   !*** ./src/functions/useAktuality.ts ***!
@@ -6042,6 +6521,112 @@ const useAktuality = () => {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (useAktuality);
+
+/***/ }),
+
+/***/ "./src/functions/useAktualityZahrada.ts":
+/*!**********************************************!*\
+  !*** ./src/functions/useAktualityZahrada.ts ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _public_page_data_sq_d_2282705134_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/2282705134.json */ "./public/page-data/sq/d/2282705134.json");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+const useAktualityZahrada = () => {
+  const {
+    allMarkdownRemark: {
+      edges
+    }
+  } = _public_page_data_sq_d_2282705134_json__WEBPACK_IMPORTED_MODULE_0__.data;
+
+  const getLink = link => {
+    if (/kousekpokousku\.cz/.test(link)) {
+      let arr = link.split('.cz');
+      return arr[arr.length - 1];
+    }
+
+    return link;
+  };
+
+  const aktuality = edges.map(edge => edge.node).map(node => {
+    var _node$frontmatter, _node$frontmatter$ima, _node$frontmatter$ima2, _node$frontmatter$ima3;
+
+    return {
+      title: node.frontmatter.name,
+      body: node.html.replace('/n', ''),
+      //@ts-ignore
+      date: moment__WEBPACK_IMPORTED_MODULE_1___default()(node.frontmatter.date, 'DD-MM-YYYY').toDate(),
+      link: node.frontmatter.link ? getLink(node.frontmatter.link) : undefined,
+      image: {
+        image: (_node$frontmatter = node.frontmatter) === null || _node$frontmatter === void 0 ? void 0 : (_node$frontmatter$ima = _node$frontmatter.image) === null || _node$frontmatter$ima === void 0 ? void 0 : (_node$frontmatter$ima2 = _node$frontmatter$ima.image) === null || _node$frontmatter$ima2 === void 0 ? void 0 : (_node$frontmatter$ima3 = _node$frontmatter$ima2.childImageSharp) === null || _node$frontmatter$ima3 === void 0 ? void 0 : _node$frontmatter$ima3.gatsbyImageData,
+        imageAlt: node.frontmatter.image.imageAlt
+      }
+    };
+  }).sort((a, b) => a.date.getTime() - b.date.getTime()).reverse();
+  return aktuality;
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (useAktualityZahrada);
+
+/***/ }),
+
+/***/ "./src/functions/useWindowSize.ts":
+/*!****************************************!*\
+  !*** ./src/functions/useWindowSize.ts ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+ // Define general type for useWindowSize hook, which includes width and height
+
+// Hook
+function useWindowSize() {
+  // Initialize state with undefined width/height so server and client renders match
+  // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
+  const {
+    0: windowSize,
+    1: setWindowSize
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({
+    width: undefined,
+    height: undefined
+  });
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    // Handler to call on window resize
+    function handleResize() {
+      // Set window width/height to state
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight
+      });
+    } // Add event listener
+
+
+    window.addEventListener("resize", handleResize); // Call handler right away so state gets updated with initial window size
+
+    handleResize(); // Remove event listener on cleanup
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []); // Empty array ensures that effect is only run on mount
+
+  return windowSize;
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (useWindowSize);
 
 /***/ }),
 
@@ -6737,6 +7322,339 @@ const KontaktPage = ({}) => {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (KontaktPage);
+
+/***/ }),
+
+/***/ "./src/pages/zahrada-hojnosti.tsx":
+/*!****************************************!*\
+  !*** ./src/pages/zahrada-hojnosti.tsx ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../components/layout */ "./src/components/layout.tsx");
+/* harmony import */ var _components_layer_wrapper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../components/layer-wrapper */ "./src/components/layer-wrapper.tsx");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var _loadable_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @loadable/component */ "./node_modules/@loadable/component/dist/loadable.esm.js");
+/* harmony import */ var _images_videos_zahrada_final_mp4__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/videos/zahrada_final.mp4 */ "./src/images/videos/zahrada_final.mp4");
+/* harmony import */ var _images_videos_zahrada_final_1366_mp4__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/videos/zahrada_final_1366.mp4 */ "./src/images/videos/zahrada_final_1366.mp4");
+/* harmony import */ var _images_videos_zahrada_final_768_mp4__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/videos/zahrada_final_768.mp4 */ "./src/images/videos/zahrada_final_768.mp4");
+/* harmony import */ var _images_videos_zahrada_final_360_mp4__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/videos/zahrada_final_360.mp4 */ "./src/images/videos/zahrada_final_360.mp4");
+/* harmony import */ var gatsby_plugin_breakpoints__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! gatsby-plugin-breakpoints */ "./node_modules/gatsby-plugin-breakpoints/index.js");
+/* harmony import */ var _components_small_zahrada_map__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/small-zahrada-map */ "./src/components/small-zahrada-map.tsx");
+/* harmony import */ var _functions_useAktualityZahrada__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../functions/useAktualityZahrada */ "./src/functions/useAktualityZahrada.ts");
+/* harmony import */ var _components_numberCounter__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./../components/numberCounter */ "./src/components/numberCounter.tsx");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+ //import {Fragment, useState, useEffect} from 'react';
+
+
+
+
+ // @ts-ignore
+// @ts-ignore
+
+ // @ts-ignore
+
+ // @ts-ignore
+
+ // @ts-ignore
+
+
+ // import ZahradaCarousel from '../components/zahrada-carousel'
+
+const ZahradaCarousel = (0,_loadable_component__WEBPACK_IMPORTED_MODULE_3__.default)(() => Promise.resolve().then(() => _interopRequireWildcard(__webpack_require__(/*! ../components/zahrada-carousel */ "./src/components/zahrada-carousel.tsx"))));
+const ZahradaGalerie = (0,_loadable_component__WEBPACK_IMPORTED_MODULE_3__.default)(() => Promise.resolve().then(() => _interopRequireWildcard(__webpack_require__(/*! ../components/zahrada-galerie */ "./src/components/zahrada-galerie.tsx")))); // import AktualityCarousel from "../components/aktuality-carousel";
+
+const AktualityCarousel = (0,_loadable_component__WEBPACK_IMPORTED_MODULE_3__.default)(() => Promise.resolve().then(() => _interopRequireWildcard(__webpack_require__(/*! ../components/aktuality-carousel */ "./src/components/aktuality-carousel.tsx"))));
+
+
+
+ // import JurtaSection from './../components/section-jurta';
+
+;
+
+const ZahradaPage = ({}) => {
+  const breakpoints = (0,gatsby_plugin_breakpoints__WEBPACK_IMPORTED_MODULE_8__.useBreakpoint)();
+  const placeholderImage = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__.StaticImage, {
+    className: "img",
+    src: "../images/zahrada_hero_placeholder.png",
+    alt: "Foto Zahrady z dronu",
+    layout: "fullWidth",
+    placeholder: "blurred",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3788630019.json */ "./.cache/caches/gatsby-plugin-image/3788630019.json")
+  });
+  const videoProps = {
+    className: "hero-video",
+    width: "1920",
+    height: "1080",
+    muted: true,
+    playsInline: true,
+    autoPlay: true,
+    loop: true,
+    preload: "auto"
+  }; // React.useLayoutEffect(() => {
+  //     const video = document.querySelector('.hero-video');
+  //     if (video) video.addEventListener('loadeddata', () => {
+  //         const target = document.getElementById('placeholderImage');
+  //         // console.log(target)
+  //         if (target) target.style.display = 'none';
+  //     }, false)
+  // }, [breakpoints])
+
+  const aktuality = (0,_functions_useAktualityZahrada__WEBPACK_IMPORTED_MODULE_10__.default)(); // console.log(images)
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__.default, {
+    title: "Zahrada Hojnosti | Nada\u010Dn\xED fond Kousek po Kousku",
+    headerProps: {
+      color: 'green',
+      logo: 'zahrada'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
+    className: "zahrada"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layer_wrapper__WEBPACK_IMPORTED_MODULE_2__.default, {
+    className: "hero"
+  }, breakpoints.noVideo ? placeholderImage : breakpoints.xs ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("video", videoProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("source", {
+    src: _images_videos_zahrada_final_360_mp4__WEBPACK_IMPORTED_MODULE_7__.default,
+    type: "video/mp4"
+  })) : breakpoints.sm ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("video", videoProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("source", {
+    src: _images_videos_zahrada_final_768_mp4__WEBPACK_IMPORTED_MODULE_6__.default,
+    type: "video/mp4"
+  })) : breakpoints.md ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("video", videoProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("source", {
+    src: _images_videos_zahrada_final_1366_mp4__WEBPACK_IMPORTED_MODULE_5__.default,
+    type: "video/mp4"
+  })) : breakpoints ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("video", videoProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("source", {
+    src: _images_videos_zahrada_final_mp4__WEBPACK_IMPORTED_MODULE_4__.default,
+    type: "video/mp4"
+  })) : placeholderImage), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "section-uvod",
+    style: {
+      overflow: 'auto'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__.StaticImage, {
+    className: "img",
+    src: "../images/jahoda_right.png",
+    alt: "Ruka drzi rostlinku",
+    layout: "constrained",
+    placeholder: "blurred",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2460714953.json */ "./.cache/caches/gatsby-plugin-image/2460714953.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_12__.Link, {
+    className: "link-back",
+    to: "/"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "text"
+  }, "Zp\u011Bt na hlavn\xED str\xE1nku NF ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "highlight green"
+  }, "Kousek po Kousku"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "montserrat-subtitle "
+  }, "Budujeme p\u0159\xEDrodn\xED zahradu - Zahradu Hojnosti. Zahradu pro ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "t\u011Blo i du\u0161i."), " P\u0159id\xE1te se? ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Vytvo\u0159\xEDme spole\u010Dn\u011B kr\xE1sn\xE9, inspirativn\xED m\xEDsto pro psychickou i fyzickou relaxaci, kter\xE9 bude \u017E\xEDt pro dal\u0161\xED a dal\u0161\xED generace.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "montserrat-subtitle"
+  }, "V\xEDt\xE1me v\u0161echny, kte\u0159\xED v n\xED najdou sv\u016Fj kousek pro sebe. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Kousek pohody, odpo\u010Dinku, kr\xE1sy, pohybu, p\u0159\xE1telstv\xED...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "montserrat-subtitle"
+  }, "Zahrada poskytne ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "prostor pro hled\xE1n\xED a hlub\u0161\xED pozn\xE1n\xED sebe sama,"), " pro tvo\u0159ivou pr\xE1ci, setk\xE1v\xE1n\xED, pohyb a pozn\xE1v\xE1n\xED nov\xE9ho prost\u0159ednictv\xEDm workshop\u016F.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "section youtube-video"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("iframe", {
+    width: "560",
+    height: "315",
+    src: "https://www.youtube.com/embed/wsF5T_2csE0",
+    title: "YouTube video player",
+    frameBorder: "0",
+    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+    allowFullScreen: true
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "text-section section section-jurta",
+    style: {
+      paddingTop: 0
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "grid-top"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "section-title title"
+  }, "Jurta pro Zahradu HOJNOSTI"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Zahrada Hojnosti pot\u0159ebuje celoro\u010Dn\xED z\xE1zem\xED."), " Pro setk\xE1v\xE1n\xED, workshopy, cvi\u010Den\xED i pro d\u011Bti ze \u0161kol, kter\xE9 by mohly tr\xE1vit n\u011Bjak\xFD \u010Das mimo lavice.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__.StaticImage, {
+    className: "grid-img img section-image",
+    src: "../images/jurta_white.jpg",
+    alt: "Jurta - Magdal\xE9na Feilhauerov\xE1",
+    layout: "constrained",
+    placeholder: "blurred",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2122193908.json */ "./.cache/caches/gatsby-plugin-image/2122193908.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "grid-bottom"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text"
+  }, "Jurta o pr\u016Fm\u011Bru 9 m s\xA0v\xFDhledem do Zahrady HOJNOSTI poskytne p\u0159\xEDst\u0159e\u0161\xED a d\xEDky tomu mo\u017Enost pozorovat p\u0159\xEDrodu bez omezen\xED, za ka\u017Ed\xE9ho po\u010Das\xED. D\xEDky Jurt\u011B bude Zahrada Hojnosti \u017E\xEDt v\xA0ka\u017Ed\xE9 ro\u010Dn\xED dob\u011B. Bude slou\u017Eit v\u0161em generac\xEDm, kter\xE9 spojuje aktivn\xED, tvo\u0159iv\xFD zp\u016Fsob \u017Eivota."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "section text-section center section-jurta-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_numberCounter__WEBPACK_IMPORTED_MODULE_11__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "subtitle green",
+    style: {
+      marginBottom: '0',
+      maxWidth: '50ch',
+      fontSize: '1.7em'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "P\u0159isp\u011Bt m\u016F\u017Ee ka\u017Ed\xFD.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text",
+    style: {
+      marginBottom: '2em',
+      marginTop: '0em',
+      maxWidth: '50ch',
+      fontSize: '1.3em'
+    }
+  }, " Kolik ka\u017Ed\xFD z\xA0n\xE1s daruje, p\u0159esn\u011B tolik vlo\u017E\xED i Nada\u010Dn\xED fond Kousek po kousku."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "button-row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://podpora.kousekpokousku.cz/jurta-pro-zahradu-hojnosti-ve-fulneku/",
+    className: "button filled green bigger"
+  }, "P\u0159isp\u011Bt")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "small"
+  }, "Dary na Jurtu je mo\u017En\xE9 zaslat tak\xE9 na speci\xE1ln\xED transparentn\xED \xFA\u010Det: ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, " JURTA pro Zahradu HOJNOSTI ve Fulneku \u2013 \u010D. 301075890/0300"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "Nebo p\u0159es odkaz ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://podpora.kousekpokousku.cz/jurta-pro-zahradu-hojnosti-ve-fulneku/"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "zde")), ", kde najdete darovac\xED \u0161eky s obrazem Magdal\xE9ny Feilhauerov\xE9.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "prinos"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "title"
+  }, "Co Zahrada d\xE1v\xE1?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layer_wrapper__WEBPACK_IMPORTED_MODULE_2__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    style: {
+      height: '400px'
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(ZahradaCarousel, null)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "section section-text section-centered"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "montserrat-subtitle co-nabizi"
+  }, "Spolupr\xE1ce s p\u0159\xEDrodou je rovn\xE1. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Za pr\xE1ci, p\xE9\u010Di a starostlivost p\u0159ich\xE1z\xED hojnost."), " Pokud ji vid\u011Bt chceme, vn\xEDm\xE1me ji v\u0161ude. U\u017E p\u0159i zrodu nab\xEDz\xED Zahrada p\u016Fdu, prostor a z\xE1zem\xED. Je povzbuzuj\xEDc\xED terapi\xED vid\u011Bt, jak se i to nejmen\u0161\xED sem\xEDnko sna\u017E\xED uchytit, ka\u017Ed\xE1 kv\u011Btina na louce prezentovat svoji kr\xE1su. Je to v\xFDzva a inspirace pro n\xE1s pro v\u0161echny.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "section section-text co-nabizi"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
+    className: "flex-row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
+    className: "title"
+  }, "P\u016Fda"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text"
+  }, "P\u016Fda poskytuje p\xE9\u010Di v\u0161emu, co po nutn\xFDch ter\xE9nn\xEDch \xFAprav\xE1ch zbylo, i nov\xFDm semen\u016Fm a rostlin\xE1m. Jde o prostor v\xEDce ne\u017E 16\xA0000\xA0m", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("sup", null, "2"), ". Vznik\xE1 zde kv\u011Btinov\xFD labyrint, bylinn\xE1 i okrasn\xE1 \u010D\xE1st. Postupn\u011B se bude okrasn\xE1 i jedl\xE1 Zahrada roz\u0161i\u0159ovat, p\u0159ibude jedl\xFD les."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text"
+  }, "V\xA0Zahrad\u011B\xA0Hojnosti je po\xA0\xFAprav\xE1ch st\xE1le nedostatek orn\xE9 p\u016Fdy. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "V\xEDte\xA0o\xA0n\u011Bjak\xE9?"), " Napi\u0161te n\xE1m na\xA0", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    className: "mail",
+    href: "mailto:info@kousekpokousku.cz"
+  }, "info@kousekpokousku.cz")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "subtitle green"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Pomozte\xA0n\xE1m zajistit dal\u0161\xED p\u016Fdu pro\xA0rostliny."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
+    className: "title"
+  }, "Prostor"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text"
+  }, "Prostor slou\u017E\xED ke\xA0sd\xEDlen\xED, setk\xE1v\xE1n\xED, tvo\u0159en\xED jednotlivc\u016F i\xA0skupin. V\u0161ichni si\xA0mohou odzkou\u0161et sv\xE9 limity p\u0159i\xA0fyzick\xE9 pr\xE1ci a\xA0zjistit, jak\xFD d\xEDl radosti jim p\u0159in\xE1\u0161\xED. Dobrovolnictv\xED v\xA0Zahrad\u011B nabude v\u0161edn\xED v\xFDznam. Jde o\xA0skv\u011Bl\xFD zp\u016Fsob, jak\xA0pozitivn\u011B ovlivnit sebe a\xA0sv\u011Bt kolem n\xE1s."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Chcete\xA0se\xA0zapojit?"), " Nav\u0161tivte\xA0FB\xA0str\xE1nku ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://www.facebook.com/dobrovolniciprozahraduhojnosti.cz/"
+  }, "Dobrovoln\xEDci\xA0Zahrady\xA0Hojnosti"), ", kde sd\u011Blujeme aktu\xE1ln\xED informace o\xA0term\xEDnech a\xA0akc\xEDch, nebo napi\u0161te na\xA0", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    className: "mail",
+    href: "mailto:info@kousekpokousku.cz"
+  }, "info@kousekpokousku.cz"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "subtitle green"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "R\xE1di V\xE1s p\u0159iv\xEDt\xE1me"), ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
+    className: "title"
+  }, "Z\xE1zem\xED"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text"
+  }, "Zahrada poskytne z\xE1zem\xED tak\xE9 pro\xA0r\u016Fzn\xE9 druhy v\u011Bdom\xE9ho cvi\u010Den\xED, pro\xA0harmonizaci, odpo\u010Dinek a\xA0du\u0161evn\xED pohodu. Pro hled\xE1n\xED sama sebe, zti\u0161en\xED sv\xE9 du\u0161e, odpout\xE1n\xED se\xA0od\xA0ka\u017Edodenn\xED reality. Je u\u017E\xA0na ka\u017Ed\xE9m, zda relaxuje u\xA0fyzick\xE9 pr\xE1ce, cvi\u010Den\xED nebo si\xA0jen posed\xED pod stromem. P\u0159ipravujeme i\xA0mnoho tematick\xFDch workshop\u016F o\xA0p\u011Bstov\xE1n\xED a\xA0zpracov\xE1n\xED bylin, v\xFDrob\u011B mast\xED, kr\xE9m\u016F, tinktur a\xA0dal\u0161\xEDch z\xE1zrak\u016F."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "M\xE1te vlastn\xED n\xE1m\u011Bt?"), " P\u0159ihlaste se na ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    className: "mail",
+    href: "mailto:info@kousekpokousku.cz"
+  }, "info@kousekpokousku.cz")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "subtitle green"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Chcete workshop sami po\u0159\xE1dat?"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "tree-section section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layer_wrapper__WEBPACK_IMPORTED_MODULE_2__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__.StaticImage, {
+    className: "img tree-img",
+    src: "../images/tree_final_final.png",
+    alt: "",
+    layout: "fullWidth",
+    placeholder: "blurred",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2493766020.json */ "./.cache/caches/gatsby-plugin-image/2493766020.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "quote-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("figure", {
+    className: "quote-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("blockquote", {
+    className: "komensky"
+  }, "\"Um\u011Bn\xED, kterak vyu\u010Dovat a\xA0u\u010Dit\xA0se, nesm\xED a\xA0nem\u016F\u017Ee se\xA0br\xE1ti odjinud, ne\u017E\xA0od\xA0u\u010Ditelky p\u0159\xEDrody\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("figcaption", {
+    className: ""
+  }, "J.\xA0A.\xA0Komensk\xFD")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__.StaticImage, {
+    className: "img",
+    src: "../images/komensky.jpg",
+    alt: "Jan amos komensky",
+    placeholder: "blurred",
+    layout: "constrained",
+    imgStyle: {
+      filter: 'brightness(1.1)'
+    },
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2967750178.json */ "./.cache/caches/gatsby-plugin-image/2967750178.json")
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "financovani"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "section section-text inner"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "title"
+  }, "Hospoda\u0159en\xED"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Zahradu hojnosti spravuje a provozuje NF Kousek po kousku se z\xE1m\u011Brem sob\u011Bsta\u010Dnosti.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Jedn\xEDm ze zdroj\u016F budou samosb\u011Bry."), " Bude mo\u017En\xE9 p\u0159ij\xEDt na \u0159ez kv\u011Btin, sb\u011Br bylin, pozd\u011Bji i bobulovin a v\u0161e, co v hojnosti Zahrada vyd\xE1. P\u0159i samosb\u011Bru se nastav\xED minim\xE1ln\xED \u010D\xE1stka a bude na ka\u017Ed\xE9m, zda plody p\u0159\xEDrody ocen\xED klidn\u011B i sumou vy\u0161\u0161\xED. Finan\u010Dn\xED zdroje se vr\xE1t\xED zp\u011Bt do hospoda\u0159en\xED Nada\u010Dn\xEDho fondu a budou pou\u017Eity na dal\u0161\xED rozvoj Zahrady."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Dal\u0161\xED zdroje p\u0159inese zapojen\xED jednotlivc\u016F, skupin a firem."), " Ka\u017Ed\xFD m\u016F\u017Ee zakoupit sv\u016Fj strom, \u010D\xE1st plotu, lavi\u010Dku atd., kter\xE9 ponesou jejich jmenovku."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "V\u011B\u0159\xEDme, \u017Ee tento inov\xE1torsk\xFD projekt p\u0159it\xE1hne dal\u0161\xED region\xE1ln\xED d\xE1rce a filantropy.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "section paragraph"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__.StaticImage, {
+    className: "img",
+    src: "../images/paprika_hor.png",
+    alt: "Ruka dr\u017E\xEDc\xED rostlinku papriky",
+    layout: "constrained",
+    placeholder: "blurred",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2356720090.json */ "./.cache/caches/gatsby-plugin-image/2356720090.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "lone-paragraph"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "P\u0159ejeme si\xA0dlouhodob\u011B spolu vytv\xE1\u0159et podm\xEDnky pro spole\u010Dnost, kter\xE1 \u017Eije v hojnosti autentick\xFDch projev\u016F,"), " s v\u011Bdom\xEDm sv\xE9ho odpov\u011Bdn\xE9ho jedn\xE1n\xED, s um\u011Bn\xEDm radovat se z ka\u017Edodenn\xEDho \u017Eit\xED a chut\xED tvo\u0159it v radosti, co\u017E je", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, " nejv\u011Bt\u0161\xED dar"), ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "section section-text pravidla"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "title"
+  }, "Desatero Zahrady"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ol", {
+    className: "pravidla-list"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "P\u0159istupuj s l\xE1skou ke v\u0161emu, co zde je a cti hojnost."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "I ty jsi p\u0159ilo\u017Eil ruku k d\xEDlu nebo se teprve tak stane. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "P\u0159ijmi pr\xE1ci druh\xFDch i svou a dary, kter\xE9 vznikly pod veden\xEDm p\u0159\xEDrody."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Vezmi pro sebe to, co neovlivn\xED hojnost druh\xFDm."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Vyu\u017Eij prostor pro relaxaci, meditaci, zklidn\u011Bn\xED."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Vyu\u017Eij \u010Dist\xE9 energie pro na\u010Derp\xE1n\xED nov\xFDch sil. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Zapoj se do dobrovolnick\xFDch prac\xED a vyzkou\u0161ej sv\xE9 limity. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Za\u017Eij, jak\xE9 je tvo\u0159it rukama, zotav t\u011Blo i mysl."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "V\u0161e co Zahrada Hojnosti nab\xEDz\xED se vrac\xED zp\u011Bt, v podob\u011B dar\u016F pot\u0159ebn\xFDm. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Udr\u017Euj kolob\u011Bh hojnosti. P\u0159ij\u010F a nasb\xEDrej si p\u0159i samosb\u011Bru kv\u011Btiny, byliny, plody, zapla\u0165 za n\u011B, a\u0165 se Zahrada m\u016F\u017Ee d\xE1le rozv\xEDjet. "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "aktuality-zahrada"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(AktualityCarousel, {
+    aktuality: aktuality,
+    green: true
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_small_zahrada_map__WEBPACK_IMPORTED_MODULE_9__.default, null)));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ZahradaPage);
+/* <section className="section section-text intro">
+
+</section> */
+
+/* <section className="section section-text kde ">
+    <h2 className="title">Kde? </h2>
+    <p className="subtitle"><strong>Zahrada hojnosti se rozprostírá ve Fulneku na Novojičínsku,</strong> na ulici Palackého, nedaleko Kapucínského kláštera.</p>
+    <p className="text">
+        Na protějším kopci se rozprostírá Žákovský háj, kam chodil vyučovat své žáky Jan Ámos Komenský.
+        Kousek od Zahrady hojnosti  stojí i Dětský domov Loreta, v jehož podzemí byla potvrzena existence zaniklé Loretánské kaple, nazývané Svatá chýše.
+        Santa Casy se bez výjimek stavěly na zcela výjimečných místech s prokázanými tzv. telurickými proudy. Ty vznikají pohybem podzemních vod, posuvem půdy nebo na geologických zlomech.
+        Telurické proudy jsou podle historických zdrojů projevem života, často se označují jako meridiány Země. Jsou popisovány jako energetické toky, které zásobují krajinu pozitivní energií.
+    </p>
+    <p className="text">
+        Fulnek je na základě těchto doložených faktů bezpochyb mystickým místem. Je povzbuzován zvláštní, jedinečnou energií.
+        Síle energetických jevů věřili už v 15. století a její pozitiva plně využívali.
+    </p>
+
+</section> */
 
 /***/ }),
 
@@ -46416,6 +47334,88 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/homepage_768_4Mb-4b246399d68f44ebdf7129ca236f2049.mp4");
+
+/***/ }),
+
+/***/ "./src/images/videos/zahrada_final.mp4":
+/*!*********************************************!*\
+  !*** ./src/images/videos/zahrada_final.mp4 ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/zahrada_final-efe975d1d5659e938bec91e705bd05f1.mp4");
+
+/***/ }),
+
+/***/ "./src/images/videos/zahrada_final_1366.mp4":
+/*!**************************************************!*\
+  !*** ./src/images/videos/zahrada_final_1366.mp4 ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/zahrada_final_1366-b8804ece6ffeda5004d64f4a1d1cf905.mp4");
+
+/***/ }),
+
+/***/ "./src/images/videos/zahrada_final_360.mp4":
+/*!*************************************************!*\
+  !*** ./src/images/videos/zahrada_final_360.mp4 ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/zahrada_final_360-2133d1917a94d4a6a61f4849b1805f45.mp4");
+
+/***/ }),
+
+/***/ "./src/images/videos/zahrada_final_768.mp4":
+/*!*************************************************!*\
+  !*** ./src/images/videos/zahrada_final_768.mp4 ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/zahrada_final_768-45dc91f0a1988001aee2cf6f82c254e3.mp4");
+
+/***/ }),
+
+/***/ "./public/page-data/sq/d/1790044199.json":
+/*!***********************************************!*\
+  !*** ./public/page-data/sq/d/1790044199.json ***!
+  \***********************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"data":{"allFile":{"edges":[{"node":{"name":"od Martiny vzniká labyrint","childrenImageSharp":[{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#b8c8d8","images":{"fallback":{"src":"/static/dda1c65f4d08adb946aaa596d841e770/81bb2/od%20Martiny%20vznik%C3%A1%20labyrint.png","srcSet":"/static/dda1c65f4d08adb946aaa596d841e770/ce13a/od%20Martiny%20vznik%C3%A1%20labyrint.png 160w,\\n/static/dda1c65f4d08adb946aaa596d841e770/5bd2d/od%20Martiny%20vznik%C3%A1%20labyrint.png 320w,\\n/static/dda1c65f4d08adb946aaa596d841e770/81bb2/od%20Martiny%20vznik%C3%A1%20labyrint.png 640w","sizes":"(min-width: 640px) 640px, 100vw"},"sources":[{"srcSet":"/static/dda1c65f4d08adb946aaa596d841e770/79906/od%20Martiny%20vznik%C3%A1%20labyrint.webp 160w,\\n/static/dda1c65f4d08adb946aaa596d841e770/8c64a/od%20Martiny%20vznik%C3%A1%20labyrint.webp 320w,\\n/static/dda1c65f4d08adb946aaa596d841e770/ffef7/od%20Martiny%20vznik%C3%A1%20labyrint.webp 640w","type":"image/webp","sizes":"(min-width: 640px) 640px, 100vw"}]},"width":640,"height":480}}]}},{"node":{"name":"od Martiny - semínka detail","childrenImageSharp":[{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#d8e8f8","images":{"fallback":{"src":"/static/d4ccc51279cfecaacb21318792e54b9a/81bb2/od%20Martiny%20-%20sem%C3%ADnka%20detail.png","srcSet":"/static/d4ccc51279cfecaacb21318792e54b9a/ce13a/od%20Martiny%20-%20sem%C3%ADnka%20detail.png 160w,\\n/static/d4ccc51279cfecaacb21318792e54b9a/5bd2d/od%20Martiny%20-%20sem%C3%ADnka%20detail.png 320w,\\n/static/d4ccc51279cfecaacb21318792e54b9a/81bb2/od%20Martiny%20-%20sem%C3%ADnka%20detail.png 640w","sizes":"(min-width: 640px) 640px, 100vw"},"sources":[{"srcSet":"/static/d4ccc51279cfecaacb21318792e54b9a/79906/od%20Martiny%20-%20sem%C3%ADnka%20detail.webp 160w,\\n/static/d4ccc51279cfecaacb21318792e54b9a/8c64a/od%20Martiny%20-%20sem%C3%ADnka%20detail.webp 320w,\\n/static/d4ccc51279cfecaacb21318792e54b9a/ffef7/od%20Martiny%20-%20sem%C3%ADnka%20detail.webp 640w","type":"image/webp","sizes":"(min-width: 640px) 640px, 100vw"}]},"width":640,"height":480}}]}},{"node":{"name":"od Martiny louka sad","childrenImageSharp":[{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#384818","images":{"fallback":{"src":"/static/468a65f49911a02c226130f48e13e1c3/81bb2/od%20Martiny%20louka%20sad.png","srcSet":"/static/468a65f49911a02c226130f48e13e1c3/ce13a/od%20Martiny%20louka%20sad.png 160w,\\n/static/468a65f49911a02c226130f48e13e1c3/5bd2d/od%20Martiny%20louka%20sad.png 320w,\\n/static/468a65f49911a02c226130f48e13e1c3/81bb2/od%20Martiny%20louka%20sad.png 640w","sizes":"(min-width: 640px) 640px, 100vw"},"sources":[{"srcSet":"/static/468a65f49911a02c226130f48e13e1c3/79906/od%20Martiny%20louka%20sad.webp 160w,\\n/static/468a65f49911a02c226130f48e13e1c3/8c64a/od%20Martiny%20louka%20sad.webp 320w,\\n/static/468a65f49911a02c226130f48e13e1c3/ffef7/od%20Martiny%20louka%20sad.webp 640w","type":"image/webp","sizes":"(min-width: 640px) 640px, 100vw"}]},"width":640,"height":480}}]}},{"node":{"name":"od Martiny - semínka, šup do půdy","childrenImageSharp":[{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#888878","images":{"fallback":{"src":"/static/83fe98e48b2d4e1e61405fabf3cc3d10/81bb2/od%20Martiny%20-%20sem%C3%ADnka%2C%20%C5%A1up%20do%20p%C5%AFdy.png","srcSet":"/static/83fe98e48b2d4e1e61405fabf3cc3d10/ce13a/od%20Martiny%20-%20sem%C3%ADnka%2C%20%C5%A1up%20do%20p%C5%AFdy.png 160w,\\n/static/83fe98e48b2d4e1e61405fabf3cc3d10/5bd2d/od%20Martiny%20-%20sem%C3%ADnka%2C%20%C5%A1up%20do%20p%C5%AFdy.png 320w,\\n/static/83fe98e48b2d4e1e61405fabf3cc3d10/81bb2/od%20Martiny%20-%20sem%C3%ADnka%2C%20%C5%A1up%20do%20p%C5%AFdy.png 640w","sizes":"(min-width: 640px) 640px, 100vw"},"sources":[{"srcSet":"/static/83fe98e48b2d4e1e61405fabf3cc3d10/79906/od%20Martiny%20-%20sem%C3%ADnka%2C%20%C5%A1up%20do%20p%C5%AFdy.webp 160w,\\n/static/83fe98e48b2d4e1e61405fabf3cc3d10/8c64a/od%20Martiny%20-%20sem%C3%ADnka%2C%20%C5%A1up%20do%20p%C5%AFdy.webp 320w,\\n/static/83fe98e48b2d4e1e61405fabf3cc3d10/ffef7/od%20Martiny%20-%20sem%C3%ADnka%2C%20%C5%A1up%20do%20p%C5%AFdy.webp 640w","type":"image/webp","sizes":"(min-width: 640px) 640px, 100vw"}]},"width":640,"height":480}}]}},{"node":{"name":"od martiny jahůdky","childrenImageSharp":[{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#284808","images":{"fallback":{"src":"/static/a0ec9b6f6485c160891210243670dab0/81bb2/od%20martiny%20jah%C5%AFdky.png","srcSet":"/static/a0ec9b6f6485c160891210243670dab0/ce13a/od%20martiny%20jah%C5%AFdky.png 160w,\\n/static/a0ec9b6f6485c160891210243670dab0/5bd2d/od%20martiny%20jah%C5%AFdky.png 320w,\\n/static/a0ec9b6f6485c160891210243670dab0/81bb2/od%20martiny%20jah%C5%AFdky.png 640w","sizes":"(min-width: 640px) 640px, 100vw"},"sources":[{"srcSet":"/static/a0ec9b6f6485c160891210243670dab0/79906/od%20martiny%20jah%C5%AFdky.webp 160w,\\n/static/a0ec9b6f6485c160891210243670dab0/8c64a/od%20martiny%20jah%C5%AFdky.webp 320w,\\n/static/a0ec9b6f6485c160891210243670dab0/ffef7/od%20martiny%20jah%C5%AFdky.webp 640w","type":"image/webp","sizes":"(min-width: 640px) 640px, 100vw"}]},"width":640,"height":480}}]}},{"node":{"name":"Zvlcsnap-2021-06-06-18h35m44s198","childrenImageSharp":[{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#988888","images":{"fallback":{"src":"/static/64c1486a0068ee0da50d67897dd7c884/afa5c/Zvlcsnap-2021-06-06-18h35m44s198.png","srcSet":"/static/64c1486a0068ee0da50d67897dd7c884/2fe1e/Zvlcsnap-2021-06-06-18h35m44s198.png 480w,\\n/static/64c1486a0068ee0da50d67897dd7c884/9bec7/Zvlcsnap-2021-06-06-18h35m44s198.png 960w,\\n/static/64c1486a0068ee0da50d67897dd7c884/afa5c/Zvlcsnap-2021-06-06-18h35m44s198.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/64c1486a0068ee0da50d67897dd7c884/3a3a2/Zvlcsnap-2021-06-06-18h35m44s198.webp 480w,\\n/static/64c1486a0068ee0da50d67897dd7c884/bde8a/Zvlcsnap-2021-06-06-18h35m44s198.webp 960w,\\n/static/64c1486a0068ee0da50d67897dd7c884/c512e/Zvlcsnap-2021-06-06-18h35m44s198.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":1080}}]}},{"node":{"name":"zAHRADA - CELKOVÝ POHLED","childrenImageSharp":[{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#181818","images":{"fallback":{"src":"/static/2d4b2880026d8a47b1fadac35fd095a1/6c153/zAHRADA%20-%20CELKOV%C3%9D%20POHLED.png","srcSet":"/static/2d4b2880026d8a47b1fadac35fd095a1/967e7/zAHRADA%20-%20CELKOV%C3%9D%20POHLED.png 449w,\\n/static/2d4b2880026d8a47b1fadac35fd095a1/babc2/zAHRADA%20-%20CELKOV%C3%9D%20POHLED.png 898w,\\n/static/2d4b2880026d8a47b1fadac35fd095a1/6c153/zAHRADA%20-%20CELKOV%C3%9D%20POHLED.png 1795w","sizes":"(min-width: 1795px) 1795px, 100vw"},"sources":[{"srcSet":"/static/2d4b2880026d8a47b1fadac35fd095a1/3c08f/zAHRADA%20-%20CELKOV%C3%9D%20POHLED.webp 449w,\\n/static/2d4b2880026d8a47b1fadac35fd095a1/f5dca/zAHRADA%20-%20CELKOV%C3%9D%20POHLED.webp 898w,\\n/static/2d4b2880026d8a47b1fadac35fd095a1/51a2c/zAHRADA%20-%20CELKOV%C3%9D%20POHLED.webp 1795w","type":"image/webp","sizes":"(min-width: 1795px) 1795px, 100vw"}]},"width":1795,"height":1010}}]}},{"node":{"name":"A","childrenImageSharp":[{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/7323a7169f1065357fa645b9c2150764/68a6f/A.jpg","srcSet":"/static/7323a7169f1065357fa645b9c2150764/dfcd4/A.jpg 1008w,\\n/static/7323a7169f1065357fa645b9c2150764/b97c6/A.jpg 2016w,\\n/static/7323a7169f1065357fa645b9c2150764/68a6f/A.jpg 4032w","sizes":"(min-width: 4032px) 4032px, 100vw"},"sources":[{"srcSet":"/static/7323a7169f1065357fa645b9c2150764/80cfb/A.webp 1008w,\\n/static/7323a7169f1065357fa645b9c2150764/66d80/A.webp 2016w,\\n/static/7323a7169f1065357fa645b9c2150764/5cc0d/A.webp 4032w","type":"image/webp","sizes":"(min-width: 4032px) 4032px, 100vw"}]},"width":4032,"height":3024}}]}}]}}}');
+
+/***/ }),
+
+/***/ "./public/page-data/sq/d/2282705134.json":
+/*!***********************************************!*\
+  !*** ./public/page-data/sq/d/2282705134.json ***!
+  \***********************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"data":{"allMarkdownRemark":{"edges":[{"node":{"rawMarkdownBody":"Děkujeme všem, kteří už nakupujete on-line s 𝗚𝗜𝗩𝗧𝗲𝗺 a podporujete Nadační fond Kousek po kousku ![💛](https://static.xx.fbcdn.net/images/emoji.php/v9/t6e/1.5/16/1f49b.png), aniž by vás to cokoliv stálo ![🙏](https://static.xx.fbcdn.net/images/emoji.php/v9/td9/1.5/16/1f64f.png)\\r\\n\\r\\nVy, kdo ještě nemáte 𝗚𝗜𝗩𝗧 Pomocníka a přidáte si ho právě teď ![👉](https://static.xx.fbcdn.net/images/emoji.php/v9/taa/1.5/16/1f449.png) [https://bit.ly/30Kc-pro-Nadacni-fond-Kousek-po-kousku](https://bit.ly/30Kc-pro-Nadacni-fond-Kousek-po-kousku?fbclid=IwAR0bUPmtYR4a5V_heLhABvRICoAqD3Tj3lk92ZKEhc5t3JiW7iyl9IRoMNM) , NF Kousek po kousku dostane automaticky 𝐛𝐨𝐧𝐮𝐬 𝟑𝟎 𝐤𝐨𝐫𝐮𝐧.\\r\\n\\r\\nS 𝗚𝗜𝗩𝗧𝗶́𝗺 POMOCNÍKEM pak můžete nakupovat přes internet jak jste zvyklí, ale část peněz z vaší objednávky půjde na dobrou věc pro KOUSEK. Důležité je, že při tom neplatíte nic navíc a Pomocník vás vždy upozorní na možnost přispět.\\r\\n\\r\\nAkce platí 𝐨𝐝 𝟐𝟑. 𝟏𝟏. 𝐝𝐨 𝟐𝟓. 𝟏𝟏. 𝟐𝟎𝟐𝟏.\\r\\n\\r\\nDěkujeme za všechny stažené Pomocníky a sdílení tohoto příspěvku, vážíme si toho. ![🍀](https://static.xx.fbcdn.net/images/emoji.php/v9/te0/1.5/16/1f340.png)","html":"<p>Děkujeme všem, kteří už nakupujete on-line s 𝗚𝗜𝗩𝗧𝗲𝗺 a podporujete Nadační fond Kousek po kousku <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t6e/1.5/16/1f49b.png\\" alt=\\"💛\\">, aniž by vás to cokoliv stálo <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/td9/1.5/16/1f64f.png\\" alt=\\"🙏\\"></p>\\n<p>Vy, kdo ještě nemáte 𝗚𝗜𝗩𝗧 Pomocníka a přidáte si ho právě teď <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/taa/1.5/16/1f449.png\\" alt=\\"👉\\"> <a href=\\"https://bit.ly/30Kc-pro-Nadacni-fond-Kousek-po-kousku?fbclid=IwAR0bUPmtYR4a5V_heLhABvRICoAqD3Tj3lk92ZKEhc5t3JiW7iyl9IRoMNM\\">https://bit.ly/30Kc-pro-Nadacni-fond-Kousek-po-kousku</a> , NF Kousek po kousku dostane automaticky 𝐛𝐨𝐧𝐮𝐬 𝟑𝟎 𝐤𝐨𝐫𝐮𝐧.</p>\\n<p>S 𝗚𝗜𝗩𝗧𝗶́𝗺 POMOCNÍKEM pak můžete nakupovat přes internet jak jste zvyklí, ale část peněz z vaší objednávky půjde na dobrou věc pro KOUSEK. Důležité je, že při tom neplatíte nic navíc a Pomocník vás vždy upozorní na možnost přispět.</p>\\n<p>Akce platí 𝐨𝐝 𝟐𝟑. 𝟏𝟏. 𝐝𝐨 𝟐𝟓. 𝟏𝟏. 𝟐𝟎𝟐𝟏.</p>\\n<p>Děkujeme za všechny stažené Pomocníky a sdílení tohoto příspěvku, vážíme si toho. <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/te0/1.5/16/1f340.png\\" alt=\\"🍀\\"></p>","frontmatter":{"name":"GIVTujte pro KOUSEK","date":"23-11-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/44cf8326d35064bbfdd5b4f7aae4be45/ae1c8/z-givt.png","srcSet":"/static/44cf8326d35064bbfdd5b4f7aae4be45/08932/z-givt.png 270w,\\n/static/44cf8326d35064bbfdd5b4f7aae4be45/1fa44/z-givt.png 540w,\\n/static/44cf8326d35064bbfdd5b4f7aae4be45/ae1c8/z-givt.png 1080w","sizes":"(min-width: 1080px) 1080px, 100vw"},"sources":[{"srcSet":"/static/44cf8326d35064bbfdd5b4f7aae4be45/ede49/z-givt.webp 270w,\\n/static/44cf8326d35064bbfdd5b4f7aae4be45/4cb34/z-givt.webp 540w,\\n/static/44cf8326d35064bbfdd5b4f7aae4be45/4f506/z-givt.webp 1080w","type":"image/webp","sizes":"(min-width: 1080px) 1080px, 100vw"}]},"width":1080,"height":1080}}},"imageAlt":"Pomáhat můžete i když Vás to nic nestojí. "}}}},{"node":{"rawMarkdownBody":"Labyrint vznikl ze zbytků kamenů, které na pozemku zůstaly po terénních úpravách. Začalo se od středu levandulemi a postupně se vysázelo cca 50 druhů letniček – krásenky, cínie, šalvěj, vysévaly se jiřinky, okrasný mák, proso, laskavec a další. Vše se na radu odbornice, zahradnice Míši, překrývá netkanou fólii, která zajistí ochranu před ptáčky, rychlým vysycháním i nočními výkyvy teplot.","html":"<p>Labyrint vznikl ze zbytků kamenů, které na pozemku zůstaly po terénních úpravách. Začalo se od středu levandulemi a postupně se vysázelo cca 50 druhů letniček – krásenky, cínie, šalvěj, vysévaly se jiřinky, okrasný mák, proso, laskavec a další. Vše se na radu odbornice, zahradnice Míši, překrývá netkanou fólii, která zajistí ochranu před ptáčky, rychlým vysycháním i nočními výkyvy teplot.</p>","frontmatter":{"name":"Labyrint","date":"17-06-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#988888","images":{"fallback":{"src":"/static/fb5a23d6b70de1cd425cd41d0e813d9b/afa5c/zpr%C3%A1va-3.png","srcSet":"/static/fb5a23d6b70de1cd425cd41d0e813d9b/2fe1e/zpr%C3%A1va-3.png 480w,\\n/static/fb5a23d6b70de1cd425cd41d0e813d9b/9bec7/zpr%C3%A1va-3.png 960w,\\n/static/fb5a23d6b70de1cd425cd41d0e813d9b/afa5c/zpr%C3%A1va-3.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/fb5a23d6b70de1cd425cd41d0e813d9b/3a3a2/zpr%C3%A1va-3.webp 480w,\\n/static/fb5a23d6b70de1cd425cd41d0e813d9b/bde8a/zpr%C3%A1va-3.webp 960w,\\n/static/fb5a23d6b70de1cd425cd41d0e813d9b/c512e/zpr%C3%A1va-3.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":1080}}},"imageAlt":"Foto z ptačí perspektivz labyrintu na Zahradě Hojnosti"}}}},{"node":{"rawMarkdownBody":"OSTROPESTŘEC - takový bodlák a tolik bohatství \\r\\n\\r\\nJak je ale nejlépe použít semínka, která mají tak blahodárné účinky!\\r\\n\\r\\nVe středu 8. září bude ve fulnecké Zahradě HOJNOSTI![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png)![🌼](https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1.5/16/1f33c.png)![🌿](https://static.xx.fbcdn.net/images/emoji.php/v9/t77/1.5/16/1f33f.png) další kurz s bylinkářkou / seriál Rok (s) bylinkářkou @[Míša Cotoumísbylinami](https://www.facebook.com/misa.cotoumisbylinami?__cft__[0]=AZU--Xdc8XCkJKHjZMOnBrNtww_tKw6odCGZ1wPDDyhwixPI7mfNMuMn4IODe97137iM4xa1Eo4HNBWslJqC0WAVWT9s_frpXE5s7reyYVCakHy989c-Z8d1zyNJEISZ_6ijnzQqwsBGgwHwo8jxWxrWJsYKXSUDpXPsZvBbac92O7Kj1_DaXi_p06obBBeLLv0&__tn__=-]K-R) - téma Ostropestřec -  OD SBĚRU AŽ PO TINKTURU !\\r\\n\\r\\nObujte pevné boty ![👞](https://static.xx.fbcdn.net/images/emoji.php/v9/t75/1.5/16/1f45e.png), vemte rukavice ![🧤](https://static.xx.fbcdn.net/images/emoji.php/v9/td9/1.5/16/1f9e4.png) a přijďte v 16:30 h na Zahradu HOJNOSTI ![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png) Palackého 298, Fulnek\\r\\n\\r\\nZjistíte, jak je to s nejčastějšími mýty o ostropestřci, k čemu je vlastně dobrý a jak jej použít. Ostropestřec sesbíráme, zpracujeme a vyrobíme \\"medicínu\\". Tu si rovnou odnesete s sebou, navíc bohatší o cenné a zaručené rady a třeba i o pár nových známých ![👩](https://static.xx.fbcdn.net/images/emoji.php/v9/te8/1.5/16/1f469.png)![👨](https://static.xx.fbcdn.net/images/emoji.php/v9/t67/1.5/16/1f468.png)![🧑](https://static.xx.fbcdn.net/images/emoji.php/v9/tb7/1.5/16/1f9d1.png)![👦](https://static.xx.fbcdn.net/images/emoji.php/v9/t65/1.5/16/1f466.png)\\r\\n\\r\\nCena workshopu je 300 Kč, v ceně - materiál, odborné vedení a podpora Zahrady HOJNOSTI ![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png) TĚŠÍME SE![💕](https://static.xx.fbcdn.net/images/emoji.php/v9/tc1/1.5/16/1f495.png)","html":"<p>OSTROPESTŘEC - takový bodlák a tolik bohatství</p>\\n<p>Jak je ale nejlépe použít semínka, která mají tak blahodárné účinky!</p>\\n<p>Ve středu 8. září bude ve fulnecké Zahradě HOJNOSTI<img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png\\" alt=\\"💚\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1.5/16/1f33c.png\\" alt=\\"🌼\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t77/1.5/16/1f33f.png\\" alt=\\"🌿\\"> další kurz s bylinkářkou / seriál Rok (s) bylinkářkou @<a href=\\"https://www.facebook.com/misa.cotoumisbylinami?__cft__%5B0%5D=AZU--Xdc8XCkJKHjZMOnBrNtww_tKw6odCGZ1wPDDyhwixPI7mfNMuMn4IODe97137iM4xa1Eo4HNBWslJqC0WAVWT9s_frpXE5s7reyYVCakHy989c-Z8d1zyNJEISZ_6ijnzQqwsBGgwHwo8jxWxrWJsYKXSUDpXPsZvBbac92O7Kj1_DaXi_p06obBBeLLv0&#x26;__tn__=-%5DK-R\\">Míša Cotoumísbylinami</a> - téma Ostropestřec -  OD SBĚRU AŽ PO TINKTURU !</p>\\n<p>Obujte pevné boty <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t75/1.5/16/1f45e.png\\" alt=\\"👞\\">, vemte rukavice <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/td9/1.5/16/1f9e4.png\\" alt=\\"🧤\\"> a přijďte v 16:30 h na Zahradu HOJNOSTI <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png\\" alt=\\"💚\\"> Palackého 298, Fulnek</p>\\n<p>Zjistíte, jak je to s nejčastějšími mýty o ostropestřci, k čemu je vlastně dobrý a jak jej použít. Ostropestřec sesbíráme, zpracujeme a vyrobíme \\"medicínu\\". Tu si rovnou odnesete s sebou, navíc bohatší o cenné a zaručené rady a třeba i o pár nových známých <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/te8/1.5/16/1f469.png\\" alt=\\"👩\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t67/1.5/16/1f468.png\\" alt=\\"👨\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tb7/1.5/16/1f9d1.png\\" alt=\\"🧑\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t65/1.5/16/1f466.png\\" alt=\\"👦\\"></p>\\n<p>Cena workshopu je 300 Kč, v ceně - materiál, odborné vedení a podpora Zahrady HOJNOSTI <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png\\" alt=\\"💚\\"> TĚŠÍME SE<img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tc1/1.5/16/1f495.png\\" alt=\\"💕\\"></p>","frontmatter":{"name":"Další kurz s bylinkářkou - Jak nejlépe efektivně zpracovat semena OSTROPESTŘCE","date":"01-09-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/046bf762fc98abcd124d3b116acbb0cb/9c1c5/plakat-zahrada-ostropest%C5%99ec-8.9..png","srcSet":"/static/046bf762fc98abcd124d3b116acbb0cb/4d208/plakat-zahrada-ostropest%C5%99ec-8.9..png 413w,\\n/static/046bf762fc98abcd124d3b116acbb0cb/fa115/plakat-zahrada-ostropest%C5%99ec-8.9..png 827w,\\n/static/046bf762fc98abcd124d3b116acbb0cb/9c1c5/plakat-zahrada-ostropest%C5%99ec-8.9..png 1653w","sizes":"(min-width: 1653px) 1653px, 100vw"},"sources":[{"srcSet":"/static/046bf762fc98abcd124d3b116acbb0cb/ffbc5/plakat-zahrada-ostropest%C5%99ec-8.9..webp 413w,\\n/static/046bf762fc98abcd124d3b116acbb0cb/67d54/plakat-zahrada-ostropest%C5%99ec-8.9..webp 827w,\\n/static/046bf762fc98abcd124d3b116acbb0cb/0de36/plakat-zahrada-ostropest%C5%99ec-8.9..webp 1653w","type":"image/webp","sizes":"(min-width: 1653px) 1653px, 100vw"}]},"width":1653,"height":1650.0000000000002}}},"imageAlt":"Pozvánka na workshop Jak nejlépe efektivně zpracovat semena OSTROPESTŘCE"}}}},{"node":{"rawMarkdownBody":"Bylo to skvělé, prohlídka, Vy, workshop, informace, @misa.cotoumisbylinami\\r\\n\\r\\nProstě nádherná atmosféra, cenné informace a výsledek? Ten nám pokaždé připomene tuhle hezkou sobotu, když budeme sahat do lékárničky pro měsíčkovou mast.","html":"<p>Bylo to skvělé, prohlídka, Vy, workshop, informace, @misa.cotoumisbylinami</p>\\n<p>Prostě nádherná atmosféra, cenné informace a výsledek? Ten nám pokaždé připomene tuhle hezkou sobotu, když budeme sahat do lékárničky pro měsíčkovou mast.</p>","frontmatter":{"name":"Měsíček lékařský - výroba masti v Zahradě HOJNOSTI","date":"15-08-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#b84808","images":{"fallback":{"src":"/static/a6198bfccc7941f215a466c62fad345a/863ef/mast-2-.jpg","srcSet":"/static/a6198bfccc7941f215a466c62fad345a/d4d2a/mast-2-.jpg 512w,\\n/static/a6198bfccc7941f215a466c62fad345a/669f3/mast-2-.jpg 1024w,\\n/static/a6198bfccc7941f215a466c62fad345a/863ef/mast-2-.jpg 2048w","sizes":"(min-width: 2048px) 2048px, 100vw"},"sources":[{"srcSet":"/static/a6198bfccc7941f215a466c62fad345a/a79fe/mast-2-.webp 512w,\\n/static/a6198bfccc7941f215a466c62fad345a/2d898/mast-2-.webp 1024w,\\n/static/a6198bfccc7941f215a466c62fad345a/de790/mast-2-.webp 2048w","type":"image/webp","sizes":"(min-width: 2048px) 2048px, 100vw"}]},"width":2048,"height":1536}}},"imageAlt":"Měsíček lékařský sklizený v Zahradě HOJNOSTI a vyrobená mast do domácí lékárnicky. "}}}},{"node":{"rawMarkdownBody":"Máme radost! V Zahradě Hojnosti začíná žít vše, co jsme jí zatím dali. Pod plachtami vzniklo mikroklima, které pomohlo semínkům vzpomenout si na základní informaci – vzklíčit do života. Každá rostlinka se tetelí a ukazuje světu. Poctivě zaléváme. Nemůžeme tomu uvěřit. Zahrada hojnosti vzkvétá. Jsme na začátku.","html":"<p>Máme radost! V Zahradě Hojnosti začíná žít vše, co jsme jí zatím dali. Pod plachtami vzniklo mikroklima, které pomohlo semínkům vzpomenout si na základní informaci – vzklíčit do života. Každá rostlinka se tetelí a ukazuje světu. Poctivě zaléváme. Nemůžeme tomu uvěřit. Zahrada hojnosti vzkvétá. Jsme na začátku.</p>","frontmatter":{"name":"Máme radost","date":"18-06-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/0701298c086f6936173f4219bcc7986e/fae27/zpr%C3%A1va-4.jpg","srcSet":"/static/0701298c086f6936173f4219bcc7986e/6c903/zpr%C3%A1va-4.jpg 756w,\\n/static/0701298c086f6936173f4219bcc7986e/44670/zpr%C3%A1va-4.jpg 1512w,\\n/static/0701298c086f6936173f4219bcc7986e/fae27/zpr%C3%A1va-4.jpg 3024w","sizes":"(min-width: 3024px) 3024px, 100vw"},"sources":[{"srcSet":"/static/0701298c086f6936173f4219bcc7986e/dd945/zpr%C3%A1va-4.webp 756w,\\n/static/0701298c086f6936173f4219bcc7986e/76fb3/zpr%C3%A1va-4.webp 1512w,\\n/static/0701298c086f6936173f4219bcc7986e/7d916/zpr%C3%A1va-4.webp 3024w","type":"image/webp","sizes":"(min-width: 3024px) 3024px, 100vw"}]},"width":3024,"height":4032}}},"imageAlt":"Foto osazeného labyrintu na zahradě"}}}},{"node":{"rawMarkdownBody":"Na Zahradě HOJNOSTI přibyla Moruše bílá od žáků ZŠ Komenského ve Fulneku.\\r\\n\\r\\nZasadili ji 11.11. 2021 po 11 hodině. Bylo jich 11 a s kopáním jámy v náročném terénu si poradili s vervou ![⛏](https://static.xx.fbcdn.net/images/emoji.php/v9/td7/1.5/16/26cf.png)![🌳](https://static.xx.fbcdn.net/images/emoji.php/v9/tc4/1.5/16/1f333.png)\\r\\n\\r\\nDěkujeme ZŠ JAK Fulnek[](https://www.facebook.com/Z%C5%A0-JAKomensk%C3%A9ho-Fulnek-103241558404114/?__cft__[0]=AZXHiUZV2NCFbqRBREjMPpIOYnKRwx4BoiJKJR2TDPAX5k02Dt4Ucv93xn3t1m2IQXAvyvVNG_7pzXPy3Xn2HzIFXvX5d84YNz6SyMEpa2E5J5m8-DtVoiiq2Wu9kb-d5rtfRkF8fu20zeM-pFGVPojTlcMhK6MYWbiq1o7ThjQ_TA0rTkxyyvBprWn8tB9uV1Y&__tn__=kK-R), deváťákům, Mgr. Dámkové i paní ředitelce za prima spolupráci.","html":"<p>Na Zahradě HOJNOSTI přibyla Moruše bílá od žáků ZŠ Komenského ve Fulneku.</p>\\n<p>Zasadili ji 11.11. 2021 po 11 hodině. Bylo jich 11 a s kopáním jámy v náročném terénu si poradili s vervou <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/td7/1.5/16/26cf.png\\" alt=\\"⛏\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tc4/1.5/16/1f333.png\\" alt=\\"🌳\\"></p>\\n<p>Děkujeme ZŠ JAK Fulnek<a href=\\"https://www.facebook.com/Z%C5%A0-JAKomensk%C3%A9ho-Fulnek-103241558404114/?__cft__%5B0%5D=AZXHiUZV2NCFbqRBREjMPpIOYnKRwx4BoiJKJR2TDPAX5k02Dt4Ucv93xn3t1m2IQXAvyvVNG_7pzXPy3Xn2HzIFXvX5d84YNz6SyMEpa2E5J5m8-DtVoiiq2Wu9kb-d5rtfRkF8fu20zeM-pFGVPojTlcMhK6MYWbiq1o7ThjQ_TA0rTkxyyvBprWn8tB9uV1Y&#x26;__tn__=kK-R\\"></a>, deváťákům, Mgr. Dámkové i paní ředitelce za prima spolupráci.</p>","frontmatter":{"name":"Na Zahradě HOJNOSTI přibyla Moruše bílá - ze ZŠ  JAK Fulnek","date":"14-11-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#282828","images":{"fallback":{"src":"/static/bf3bf7067bbc09ac1e4d93587ca81b54/ba406/20211111_131450.jpg","srcSet":"/static/bf3bf7067bbc09ac1e4d93587ca81b54/7eb66/20211111_131450.jpg 1440w,\\n/static/bf3bf7067bbc09ac1e4d93587ca81b54/db9a8/20211111_131450.jpg 2880w,\\n/static/bf3bf7067bbc09ac1e4d93587ca81b54/ba406/20211111_131450.jpg 5760w","sizes":"(min-width: 5760px) 5760px, 100vw"},"sources":[{"srcSet":"/static/bf3bf7067bbc09ac1e4d93587ca81b54/2e515/20211111_131450.webp 1440w,\\n/static/bf3bf7067bbc09ac1e4d93587ca81b54/f47a1/20211111_131450.webp 2880w,\\n/static/bf3bf7067bbc09ac1e4d93587ca81b54/caf5e/20211111_131450.webp 5760w","type":"image/webp","sizes":"(min-width: 5760px) 5760px, 100vw"}]},"width":5760,"height":4312}}},"imageAlt":"Deváťáci si v těžkém terénu mákli. Děkujeme."}}}},{"node":{"rawMarkdownBody":"Účastnice workshopu si odnesly informace a medicínu na celou zimu. Opět přijela @Mísa.cotoumisbylinami  \\r\\n\\r\\nVěděli jste, že i její maminka, babička pracovaly s bylinami? Informace od Míši jsou opravdu generacemi odzkoušené a co víc, Míša se svým manželem pracují s vědeckými podklady, nechávají zjišťovat v laboratořích množství léčivých látek pro své účely. Jak sama Míša říká, to že se uleví synovci a známému známého není relevantní důkaz. \\r\\n\\r\\nVyužijte toho, že na Zahradu HOJNOSTI zveme kapacity z oboru a přijďte načerpat informace.","html":"<p>Účastnice workshopu si odnesly informace a medicínu na celou zimu. Opět přijela @Mísa.cotoumisbylinami</p>\\n<p>Věděli jste, že i její maminka, babička pracovaly s bylinami? Informace od Míši jsou opravdu generacemi odzkoušené a co víc, Míša se svým manželem pracují s vědeckými podklady, nechávají zjišťovat v laboratořích množství léčivých látek pro své účely. Jak sama Míša říká, to že se uleví synovci a známému známého není relevantní důkaz.</p>\\n<p>Využijte toho, že na Zahradu HOJNOSTI zveme kapacity z oboru a přijďte načerpat informace.</p>","frontmatter":{"name":"Ostropestřec ze Zahrady HOJNOSTI sklizen","date":"09-09-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#383838","images":{"fallback":{"src":"/static/1a09c32c2a50d7a2decd3e7bb25db431/863ef/sem%C3%ADnka.jpg","srcSet":"/static/1a09c32c2a50d7a2decd3e7bb25db431/d4d2a/sem%C3%ADnka.jpg 512w,\\n/static/1a09c32c2a50d7a2decd3e7bb25db431/669f3/sem%C3%ADnka.jpg 1024w,\\n/static/1a09c32c2a50d7a2decd3e7bb25db431/863ef/sem%C3%ADnka.jpg 2048w","sizes":"(min-width: 2048px) 2048px, 100vw"},"sources":[{"srcSet":"/static/1a09c32c2a50d7a2decd3e7bb25db431/a79fe/sem%C3%ADnka.webp 512w,\\n/static/1a09c32c2a50d7a2decd3e7bb25db431/2d898/sem%C3%ADnka.webp 1024w,\\n/static/1a09c32c2a50d7a2decd3e7bb25db431/de790/sem%C3%ADnka.webp 2048w","type":"image/webp","sizes":"(min-width: 2048px) 2048px, 100vw"}]},"width":2048,"height":1536}}},"imageAlt":"Semínka ostropestřce ze Zahrady HOJNOSTI"}}}},{"node":{"rawMarkdownBody":"12\\\\. května – první výsadba. K dalším semínkům přibylo cca 100 růží a 300 levandulí. Osazujeme svah a začínáme tvořit Labyrint. Postupně přibývají další a další sazenice. Levandulí bude určitě už příští týden přes tisíc. Ano, je to velká plocha.","html":"<p>12. května – první výsadba. K dalším semínkům přibylo cca 100 růží a 300 levandulí. Osazujeme svah a začínáme tvořit Labyrint. Postupně přibývají další a další sazenice. Levandulí bude určitě už příští týden přes tisíc. Ano, je to velká plocha.</p>","frontmatter":{"name":"Osazování svahu pokračuje","date":"16-06-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#181808","images":{"fallback":{"src":"/static/842de6672363913ab813b5f19a7b5652/dbc78/zpr%C3%A1va-2-foto.jpg","srcSet":"/static/842de6672363913ab813b5f19a7b5652/8b617/zpr%C3%A1va-2-foto.jpg 1068w,\\n/static/842de6672363913ab813b5f19a7b5652/e0125/zpr%C3%A1va-2-foto.jpg 2136w,\\n/static/842de6672363913ab813b5f19a7b5652/dbc78/zpr%C3%A1va-2-foto.jpg 4272w","sizes":"(min-width: 4272px) 4272px, 100vw"},"sources":[{"srcSet":"/static/842de6672363913ab813b5f19a7b5652/a71eb/zpr%C3%A1va-2-foto.webp 1068w,\\n/static/842de6672363913ab813b5f19a7b5652/faeff/zpr%C3%A1va-2-foto.webp 2136w,\\n/static/842de6672363913ab813b5f19a7b5652/8e1f3/zpr%C3%A1va-2-foto.webp 4272w","type":"image/webp","sizes":"(min-width: 4272px) 4272px, 100vw"}]},"width":4272,"height":2848}}},"imageAlt":"Foto výsadby na Zahradě"}}}},{"node":{"rawMarkdownBody":"Naše pravidelná setkávání ve čtvrtky odpoledne jsme ukončili. Kdybyste ale kdykoli chtěli na Zahradu HOJNOSTI přijít s nápadem, námětem, podívat se...či pracovat, než přijde mráz, kontaktujte nás.\\r\\n\\r\\n[https://www.kousekpokousku.cz/kontakt](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.kousekpokousku.cz%2Fkontakt%3Ffbclid%3DIwAR3moE8ZbqyjvbuseHjP6P7Ikzt3bHtm-M7adIDq32aPzCpX3s7p_okYbOU&h=AT33g4VXZUKn6QPV5l47c_9T8yoku4nxjzolxRvFFtXabMHAsieMqprIJh1H8uHPx2lGqjbYHGMZQox39BkctpPuI-biFxxNzRdh5gdFVzxILhQH5TOi7bq3dOwNrrl925tp--z6E0rj8AiEmxMy&__tn__=-UK-R&c[0]=AT3COKF_G5fg2_D1OsdOQpYObSmfhlBzVEU2hUexdyA49fgWf_tLCdY5GygtD5zTVmZbuBopmxc4rT8z--uLwc1EZxSTBwdYrb6FpKn-LvfUIzaZdAkS7p_EFPaQcyChxI6_igiQnKV0L5yMcfMJoIkex7KiO9-aJexnNFb2rdaNBOCxyU_b5Spel1txuebU-RkM)\\r\\n\\r\\nSesbírala se semínka z mnoha květin a bylin, na jaře budeme měnit. Přidáte se? \\r\\n\\r\\nVidíte, jak se letos vyvedly krásenky?","html":"<p>Naše pravidelná setkávání ve čtvrtky odpoledne jsme ukončili. Kdybyste ale kdykoli chtěli na Zahradu HOJNOSTI přijít s nápadem, námětem, podívat se...či pracovat, než přijde mráz, kontaktujte nás.</p>\\n<p><a href=\\"https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.kousekpokousku.cz%2Fkontakt%3Ffbclid%3DIwAR3moE8ZbqyjvbuseHjP6P7Ikzt3bHtm-M7adIDq32aPzCpX3s7p_okYbOU&#x26;h=AT33g4VXZUKn6QPV5l47c_9T8yoku4nxjzolxRvFFtXabMHAsieMqprIJh1H8uHPx2lGqjbYHGMZQox39BkctpPuI-biFxxNzRdh5gdFVzxILhQH5TOi7bq3dOwNrrl925tp--z6E0rj8AiEmxMy&#x26;__tn__=-UK-R&#x26;c%5B0%5D=AT3COKF_G5fg2_D1OsdOQpYObSmfhlBzVEU2hUexdyA49fgWf_tLCdY5GygtD5zTVmZbuBopmxc4rT8z--uLwc1EZxSTBwdYrb6FpKn-LvfUIzaZdAkS7p_EFPaQcyChxI6_igiQnKV0L5yMcfMJoIkex7KiO9-aJexnNFb2rdaNBOCxyU_b5Spel1txuebU-RkM\\">https://www.kousekpokousku.cz/kontakt</a></p>\\n<p>Sesbírala se semínka z mnoha květin a bylin, na jaře budeme měnit. Přidáte se?</p>\\n<p>Vidíte, jak se letos vyvedly krásenky?</p>","frontmatter":{"name":"Sbíráme semínka... budeme na jaře měnit? ","date":"06-10-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/f61adc8c9b75ca0138f3ede5a3756395/4d5c4/iva-skl%C3%ADz%C3%AD-kr%C3%A1senku.jpg","srcSet":"/static/f61adc8c9b75ca0138f3ede5a3756395/67e32/iva-skl%C3%ADz%C3%AD-kr%C3%A1senku.jpg 160w,\\n/static/f61adc8c9b75ca0138f3ede5a3756395/fc269/iva-skl%C3%ADz%C3%AD-kr%C3%A1senku.jpg 320w,\\n/static/f61adc8c9b75ca0138f3ede5a3756395/4d5c4/iva-skl%C3%ADz%C3%AD-kr%C3%A1senku.jpg 640w","sizes":"(min-width: 640px) 640px, 100vw"},"sources":[{"srcSet":"/static/f61adc8c9b75ca0138f3ede5a3756395/79906/iva-skl%C3%ADz%C3%AD-kr%C3%A1senku.webp 160w,\\n/static/f61adc8c9b75ca0138f3ede5a3756395/8c64a/iva-skl%C3%ADz%C3%AD-kr%C3%A1senku.webp 320w,\\n/static/f61adc8c9b75ca0138f3ede5a3756395/ffef7/iva-skl%C3%ADz%C3%AD-kr%C3%A1senku.webp 640w","type":"image/webp","sizes":"(min-width: 640px) 640px, 100vw"}]},"width":640,"height":480}}},"imageAlt":"Některé dobrovolníky nezastaví vůbec nic. Ani zlomená noha. Sbírat semínka se dají i v sedě. "}}}},{"node":{"rawMarkdownBody":"ZVEME VÁS na Zahradu HOJNOSTI ![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f49a.png)![🌼](https://static.xx.fbcdn.net/images/emoji.php/v9/t9b/1/16/1f33c.png)![🍀](https://static.xx.fbcdn.net/images/emoji.php/v9/t87/1/16/1f340.png), na historicky první WORKSHOP ! Pokud věříte v sílu a moc bylin, využijte příležitosti načerpat zkušenosti od úžasné odbornice Míši Brošové. Jde o setkání ze seriálu Rok (s) bylinkářkou a jsme rádi, že proběhne právě u nás.\\r\\n\\r\\nV SOBOTU 14.8.2021 v Zahradě HOJNOSTI ![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f49a.png)![🌼](https://static.xx.fbcdn.net/images/emoji.php/v9/t9b/1/16/1f33c.png)![🍀](https://static.xx.fbcdn.net/images/emoji.php/v9/t87/1/16/1f340.png)\\r\\n\\r\\n09:00 - 12:00 ![✔](https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/2714.png) prohlídka a samosběr\\r\\n\\r\\n12:00 - 14:00 ![✔](https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/2714.png) výroba MĚSÍČKOVÉ masti s bylinkářkou Míšou\\r\\n\\r\\nDopoledne je ZDARMA, workshop od 12ti hodin stojí 300 Kč. V ceně je materiál, pomůcky, výklad a podpora dalšího rozvoje Zahrady HOJNOSTI. Měsíček si sami natrháte, a pod vedením Míši, vyrobíte vlastní zázrak z přírody, který nemá chybět v žádné domácnosti. Nezapomeňte na pevnou obuv a ochranu proti sluníčku, pokud bude ![😎](https://static.xx.fbcdn.net/images/emoji.php/v9/t83/1/16/1f60e.png) a taky něco na psaní, aby Vám cenné informace zůstaly napořád. Ostatní je zajištěno.\\r\\n\\r\\nJestli chcete vědět, kdo je Míša Brošová, hledejte na FB misa.cotoumisbylinami a věřte, ta fakt umí ![🌿](https://static.xx.fbcdn.net/images/emoji.php/v9/t1e/1/16/1f33f.png)![👏](https://static.xx.fbcdn.net/images/emoji.php/v9/tfe/1/16/1f44f.png)\\r\\n\\r\\nO Zahradě HOJNOSTI čtěte zde ![👉](https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png) [https://www.kousekpokousku.cz/zahrada-hojnosti](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.kousekpokousku.cz%2Fzahrada-hojnosti%3Ffbclid%3DIwAR1pzoqOWt7uvug01HKxw9zFYCGq1xao8Y6LWF6q5oLPa4pUxXCVfFkrvcw&h=AT3tJOy34asMiayQ2kkrR8w6w7FpzGnpxtdwB7Cf0hL8QHi1SL2syih3qCluixtfJR0rybgj6W8b-sLXYgVOglvV3unpjVK7ibcU0D9iz2OnNTIT9a58yFLSVX9RHYcTBJ9K&__tn__=-UK-y-R&c[0]=AT2mJFU71DRtpu61dML7k_dVd76uI-ArMRqotE5sl90XTFnaNqbXZa1COiZv8LPEAdLF7CBmhTo6Aox4s3qWRWIaWx-2k_ndD7ZAw0IMq6AOofGSQG2Zq3y2RVyLxz8XhjgNAXxqlLotGElrtffWytPewECzbrUGYhodJGagqqvqSnQxND2tCMZEbyrCjVqL6WgoZzE)\\r\\n\\r\\nPokud se chcete přidat k podpoře Zahradě Hojnosti, můžete ![👉](https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png) [https://podpora.kousekpokousku.cz/ze-zahrady-hojnosti/](https://l.facebook.com/l.php?u=https%3A%2F%2Fpodpora.kousekpokousku.cz%2Fze-zahrady-hojnosti%2F%3Ffbclid%3DIwAR15YWwhj9cQViZdN1_EipDuJyxo-00RtWxSwRBCWnSx9UOIxZ5VJ1Nwnzs&h=AT2JXKbvfwAZHZthtRrF-WDgG1PHm7LVv56qwJxqUkvYDfl8wHvsove2rChpgJfWbQpztJ8fE05wBJr7HcbkE17Uy-lyXORXcfn5bsZ43EI558_K1rVUXdkw3QjkoseLId9N&__tn__=-UK-y-R&c[0]=AT2mJFU71DRtpu61dML7k_dVd76uI-ArMRqotE5sl90XTFnaNqbXZa1COiZv8LPEAdLF7CBmhTo6Aox4s3qWRWIaWx-2k_ndD7ZAw0IMq6AOofGSQG2Zq3y2RVyLxz8XhjgNAXxqlLotGElrtffWytPewECzbrUGYhodJGagqqvqSnQxND2tCMZEbyrCjVqL6WgoZzE)\\r\\n","html":"<p>ZVEME VÁS na Zahradu HOJNOSTI <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f49a.png\\" alt=\\"💚\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t9b/1/16/1f33c.png\\" alt=\\"🌼\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t87/1/16/1f340.png\\" alt=\\"🍀\\">, na historicky první WORKSHOP ! Pokud věříte v sílu a moc bylin, využijte příležitosti načerpat zkušenosti od úžasné odbornice Míši Brošové. Jde o setkání ze seriálu Rok (s) bylinkářkou a jsme rádi, že proběhne právě u nás.</p>\\n<p>V SOBOTU 14.8.2021 v Zahradě HOJNOSTI <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f49a.png\\" alt=\\"💚\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t9b/1/16/1f33c.png\\" alt=\\"🌼\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t87/1/16/1f340.png\\" alt=\\"🍀\\"></p>\\n<p>09:00 - 12:00 <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/2714.png\\" alt=\\"✔\\"> prohlídka a samosběr</p>\\n<p>12:00 - 14:00 <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/2714.png\\" alt=\\"✔\\"> výroba MĚSÍČKOVÉ masti s bylinkářkou Míšou</p>\\n<p>Dopoledne je ZDARMA, workshop od 12ti hodin stojí 300 Kč. V ceně je materiál, pomůcky, výklad a podpora dalšího rozvoje Zahrady HOJNOSTI. Měsíček si sami natrháte, a pod vedením Míši, vyrobíte vlastní zázrak z přírody, který nemá chybět v žádné domácnosti. Nezapomeňte na pevnou obuv a ochranu proti sluníčku, pokud bude <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t83/1/16/1f60e.png\\" alt=\\"😎\\"> a taky něco na psaní, aby Vám cenné informace zůstaly napořád. Ostatní je zajištěno.</p>\\n<p>Jestli chcete vědět, kdo je Míša Brošová, hledejte na FB misa.cotoumisbylinami a věřte, ta fakt umí <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t1e/1/16/1f33f.png\\" alt=\\"🌿\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tfe/1/16/1f44f.png\\" alt=\\"👏\\"></p>\\n<p>O Zahradě HOJNOSTI čtěte zde <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png\\" alt=\\"👉\\"> <a href=\\"https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.kousekpokousku.cz%2Fzahrada-hojnosti%3Ffbclid%3DIwAR1pzoqOWt7uvug01HKxw9zFYCGq1xao8Y6LWF6q5oLPa4pUxXCVfFkrvcw&#x26;h=AT3tJOy34asMiayQ2kkrR8w6w7FpzGnpxtdwB7Cf0hL8QHi1SL2syih3qCluixtfJR0rybgj6W8b-sLXYgVOglvV3unpjVK7ibcU0D9iz2OnNTIT9a58yFLSVX9RHYcTBJ9K&#x26;__tn__=-UK-y-R&#x26;c%5B0%5D=AT2mJFU71DRtpu61dML7k_dVd76uI-ArMRqotE5sl90XTFnaNqbXZa1COiZv8LPEAdLF7CBmhTo6Aox4s3qWRWIaWx-2k_ndD7ZAw0IMq6AOofGSQG2Zq3y2RVyLxz8XhjgNAXxqlLotGElrtffWytPewECzbrUGYhodJGagqqvqSnQxND2tCMZEbyrCjVqL6WgoZzE\\">https://www.kousekpokousku.cz/zahrada-hojnosti</a></p>\\n<p>Pokud se chcete přidat k podpoře Zahradě Hojnosti, můžete <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png\\" alt=\\"👉\\"> <a href=\\"https://l.facebook.com/l.php?u=https%3A%2F%2Fpodpora.kousekpokousku.cz%2Fze-zahrady-hojnosti%2F%3Ffbclid%3DIwAR15YWwhj9cQViZdN1_EipDuJyxo-00RtWxSwRBCWnSx9UOIxZ5VJ1Nwnzs&#x26;h=AT2JXKbvfwAZHZthtRrF-WDgG1PHm7LVv56qwJxqUkvYDfl8wHvsove2rChpgJfWbQpztJ8fE05wBJr7HcbkE17Uy-lyXORXcfn5bsZ43EI558_K1rVUXdkw3QjkoseLId9N&#x26;__tn__=-UK-y-R&#x26;c%5B0%5D=AT2mJFU71DRtpu61dML7k_dVd76uI-ArMRqotE5sl90XTFnaNqbXZa1COiZv8LPEAdLF7CBmhTo6Aox4s3qWRWIaWx-2k_ndD7ZAw0IMq6AOofGSQG2Zq3y2RVyLxz8XhjgNAXxqlLotGElrtffWytPewECzbrUGYhodJGagqqvqSnQxND2tCMZEbyrCjVqL6WgoZzE\\">https://podpora.kousekpokousku.cz/ze-zahrady-hojnosti/</a></p>","frontmatter":{"name":"Sobota v Zahradě HOJNOSTI","date":"11-08-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/b9bd5d930914809769ccfea6ca4a2300/cfe7a/zhrada-plakat-bylinka%C5%99ka-.png","srcSet":"/static/b9bd5d930914809769ccfea6ca4a2300/f2284/zhrada-plakat-bylinka%C5%99ka-.png 349w,\\n/static/b9bd5d930914809769ccfea6ca4a2300/700bf/zhrada-plakat-bylinka%C5%99ka-.png 698w,\\n/static/b9bd5d930914809769ccfea6ca4a2300/cfe7a/zhrada-plakat-bylinka%C5%99ka-.png 1396w","sizes":"(min-width: 1396px) 1396px, 100vw"},"sources":[{"srcSet":"/static/b9bd5d930914809769ccfea6ca4a2300/546d1/zhrada-plakat-bylinka%C5%99ka-.webp 349w,\\n/static/b9bd5d930914809769ccfea6ca4a2300/70079/zhrada-plakat-bylinka%C5%99ka-.webp 698w,\\n/static/b9bd5d930914809769ccfea6ca4a2300/2da55/zhrada-plakat-bylinka%C5%99ka-.webp 1396w","type":"image/webp","sizes":"(min-width: 1396px) 1396px, 100vw"}]},"width":1396,"height":1394}}},"imageAlt":"Plakát s pozvánkou na akci"}}}},{"node":{"rawMarkdownBody":"Tak je to definitivní. 𝗭𝗮𝗵𝗿𝗮𝗱𝗮 𝗛𝗼𝗷𝗻𝗼𝘀𝘁𝗶 ![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png)![🌼](https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1.5/16/1f33c.png)![🌿](https://static.xx.fbcdn.net/images/emoji.php/v9/t77/1.5/16/1f33f.png) potřebuje celoroční zázemí. Místo pro setkávání, workshopy, cvičení i pro děti ze škol, které by mohly trávit nějaký čas mimo lavice ![🏫](https://static.xx.fbcdn.net/images/emoji.php/v9/t81/1.5/16/1f3eb.png)\\r\\n\\r\\n𝗝𝗨𝗥𝗧𝗔 o průměru 9 m s výhledem do 𝗭𝗮𝗵𝗿𝗮𝗱𝘆 𝗛𝗼𝗷𝗻𝗼𝘀𝘁𝗶   ![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png)![🌼](https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1.5/16/1f33c.png)![🌿](https://static.xx.fbcdn.net/images/emoji.php/v9/t77/1.5/16/1f33f.png) poskytne přístřeší a díky tomu možnost pozorovat přírodu bez omezení, za každého počasí ![🌧](https://static.xx.fbcdn.net/images/emoji.php/v9/t29/1.5/16/1f327.png)![⛈](https://static.xx.fbcdn.net/images/emoji.php/v9/ta9/1.5/16/26c8.png)![🥶](https://static.xx.fbcdn.net/images/emoji.php/v9/t49/1.5/16/1f976.png)![❄](https://static.xx.fbcdn.net/images/emoji.php/v9/tb5/1.5/16/2744.png)![⛄](https://static.xx.fbcdn.net/images/emoji.php/v9/ta5/1.5/16/26c4.png)![🌨](https://static.xx.fbcdn.net/images/emoji.php/v9/taa/1.5/16/1f328.png).\\r\\n\\r\\nDíky Jurtě bude 𝗭𝗮𝗵𝗿𝗮𝗱𝗮 𝗛𝗼𝗷𝗻𝗼𝘀𝘁𝗶 ![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png)![🌼](https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1.5/16/1f33c.png)![🌿](https://static.xx.fbcdn.net/images/emoji.php/v9/t77/1.5/16/1f33f.png) žít v každé roční době. Bude sloužit všem generacím, které spojuje aktivní, tvořivý způsob života.\\r\\n\\r\\nAutorkou vizualizace je Magdaléna Feilhauerová. \\r\\n\\r\\nDěkujeme. Přispět můžete přímo na transparentní účet a také přes https://podpora.kousekpokousku.cz/\\r\\n\\r\\nObratem zasíláme potvrzení o daru.","html":"<p>Tak je to definitivní. 𝗭𝗮𝗵𝗿𝗮𝗱𝗮 𝗛𝗼𝗷𝗻𝗼𝘀𝘁𝗶 <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png\\" alt=\\"💚\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1.5/16/1f33c.png\\" alt=\\"🌼\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t77/1.5/16/1f33f.png\\" alt=\\"🌿\\"> potřebuje celoroční zázemí. Místo pro setkávání, workshopy, cvičení i pro děti ze škol, které by mohly trávit nějaký čas mimo lavice <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t81/1.5/16/1f3eb.png\\" alt=\\"🏫\\"></p>\\n<p>𝗝𝗨𝗥𝗧𝗔 o průměru 9 m s výhledem do 𝗭𝗮𝗵𝗿𝗮𝗱𝘆 𝗛𝗼𝗷𝗻𝗼𝘀𝘁𝗶   <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png\\" alt=\\"💚\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1.5/16/1f33c.png\\" alt=\\"🌼\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t77/1.5/16/1f33f.png\\" alt=\\"🌿\\"> poskytne přístřeší a díky tomu možnost pozorovat přírodu bez omezení, za každého počasí <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t29/1.5/16/1f327.png\\" alt=\\"🌧\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/ta9/1.5/16/26c8.png\\" alt=\\"⛈\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t49/1.5/16/1f976.png\\" alt=\\"🥶\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tb5/1.5/16/2744.png\\" alt=\\"❄\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/ta5/1.5/16/26c4.png\\" alt=\\"⛄\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/taa/1.5/16/1f328.png\\" alt=\\"🌨\\">.</p>\\n<p>Díky Jurtě bude 𝗭𝗮𝗵𝗿𝗮𝗱𝗮 𝗛𝗼𝗷𝗻𝗼𝘀𝘁𝗶 <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png\\" alt=\\"💚\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1.5/16/1f33c.png\\" alt=\\"🌼\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t77/1.5/16/1f33f.png\\" alt=\\"🌿\\"> žít v každé roční době. Bude sloužit všem generacím, které spojuje aktivní, tvořivý způsob života.</p>\\n<p>Autorkou vizualizace je Magdaléna Feilhauerová.</p>\\n<p>Děkujeme. Přispět můžete přímo na transparentní účet a také přes <a href=\\"https://podpora.kousekpokousku.cz/\\">https://podpora.kousekpokousku.cz/</a></p>\\n<p>Obratem zasíláme potvrzení o daru.</p>","frontmatter":{"name":"Přidáte se? Jurta pro Zahradu Hojnosti začíná přitahovat první dárce. ","date":"17-10-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#e8e8e8","images":{"fallback":{"src":"/static/abbf69051bebc71c553692a7accea007/3a3f4/jurta-kombinace-s-podpisem.png","srcSet":"/static/abbf69051bebc71c553692a7accea007/b32ce/jurta-kombinace-s-podpisem.png 898w,\\n/static/abbf69051bebc71c553692a7accea007/834a7/jurta-kombinace-s-podpisem.png 1796w,\\n/static/abbf69051bebc71c553692a7accea007/3a3f4/jurta-kombinace-s-podpisem.png 3592w","sizes":"(min-width: 3592px) 3592px, 100vw"},"sources":[{"srcSet":"/static/abbf69051bebc71c553692a7accea007/332f9/jurta-kombinace-s-podpisem.webp 898w,\\n/static/abbf69051bebc71c553692a7accea007/e5052/jurta-kombinace-s-podpisem.webp 1796w,\\n/static/abbf69051bebc71c553692a7accea007/6169f/jurta-kombinace-s-podpisem.webp 3592w","type":"image/webp","sizes":"(min-width: 3592px) 3592px, 100vw"}]},"width":3592,"height":3592}}},"imageAlt":"Na Jurtu můžete přispět přímo na transparentní účet nebo na https://podpora.kousekpokousku.cz/"}}}},{"node":{"rawMarkdownBody":"25\\\\. dubna 2021 jsme v Zahradě Hojnosti vyseli první semínka! Začala nová etapa pozemku ve Fulneku. Každým semínkem vzniká nový život.\\r\\n\\r\\nČást svahu porostou byliny – lichořeřišnice , měsíček lékařský, ostropestřec mariánský, třezalka tečkovaná, heřmánek pravý, len modrý. Jsme v očekávání, zda se vše uchytí.","html":"<p>25. dubna 2021 jsme v Zahradě Hojnosti vyseli první semínka! Začala nová etapa pozemku ve Fulneku. Každým semínkem vzniká nový život.</p>\\n<p>Část svahu porostou byliny – lichořeřišnice , měsíček lékařský, ostropestřec mariánský, třezalka tečkovaná, heřmánek pravý, len modrý. Jsme v očekávání, zda se vše uchytí.</p>","frontmatter":{"name":"První semínka v půdě","date":"15-06-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#b8c8d8","images":{"fallback":{"src":"/static/5abdfe096db512f11d71cb35c8a61aca/6203f/zpr%C3%A1va-1-foto-2-.jpg","srcSet":"/static/5abdfe096db512f11d71cb35c8a61aca/5e339/zpr%C3%A1va-1-foto-2-.jpg 114w,\\n/static/5abdfe096db512f11d71cb35c8a61aca/1ff8e/zpr%C3%A1va-1-foto-2-.jpg 227w,\\n/static/5abdfe096db512f11d71cb35c8a61aca/6203f/zpr%C3%A1va-1-foto-2-.jpg 454w","sizes":"(min-width: 454px) 454px, 100vw"},"sources":[{"srcSet":"/static/5abdfe096db512f11d71cb35c8a61aca/17f87/zpr%C3%A1va-1-foto-2-.webp 114w,\\n/static/5abdfe096db512f11d71cb35c8a61aca/99b0f/zpr%C3%A1va-1-foto-2-.webp 227w,\\n/static/5abdfe096db512f11d71cb35c8a61aca/d1ef0/zpr%C3%A1va-1-foto-2-.webp 454w","type":"image/webp","sizes":"(min-width: 454px) 454px, 100vw"}]},"width":454,"height":216.00000000000003}}},"imageAlt":"Foto ze Zahrady Hojnosti z výsevu"}}}},{"node":{"rawMarkdownBody":"Zahrada HOJNOSTI ![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png)![🌼](https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1.5/16/1f33c.png)![🌿](https://static.xx.fbcdn.net/images/emoji.php/v9/t77/1.5/16/1f33f.png) má za sebou první dobrovolnickou návštěvu 𝘇 𝗳𝗶𝗿𝗺𝘆.\\r\\n\\r\\nDámy z ČSOB přijely, s elánem se pustily do práce a nádherně vyplely část levandulového svahu.\\r\\n\\r\\nS odhodláním a úsměvem na rtu! Mentální práci nechaly v bance a odpočaly při manuálním zápřahu, po kterém se odměnily táborákem a večeří v přírodě ![🔥](https://static.xx.fbcdn.net/images/emoji.php/v9/ta9/1.5/16/1f525.png)... A tak to má být. No není spojení příjemného s užitečným ta správná rovnováha? \\r\\n\\r\\nDěkujeme a těšíme se na další firmy, které se nám ozvou.\\r\\n\\r\\nMáte i u Vás dobrovolnické programy?\\r\\n\\r\\n𝙉𝙚𝙗𝙤 𝙯𝙫𝙖𝙯̌𝙪𝙟𝙚𝙩𝙚 𝙣𝙚𝙩𝙧𝙖𝙙𝙞𝙘̌𝙣𝙞́ 𝙩𝙚𝙖𝙢𝙗𝙪𝙞𝙡𝙙𝙞𝙣𝙜?","html":"<p>Zahrada HOJNOSTI <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png\\" alt=\\"💚\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1.5/16/1f33c.png\\" alt=\\"🌼\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t77/1.5/16/1f33f.png\\" alt=\\"🌿\\"> má za sebou první dobrovolnickou návštěvu 𝘇 𝗳𝗶𝗿𝗺𝘆.</p>\\n<p>Dámy z ČSOB přijely, s elánem se pustily do práce a nádherně vyplely část levandulového svahu.</p>\\n<p>S odhodláním a úsměvem na rtu! Mentální práci nechaly v bance a odpočaly při manuálním zápřahu, po kterém se odměnily táborákem a večeří v přírodě <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/ta9/1.5/16/1f525.png\\" alt=\\"🔥\\">... A tak to má být. No není spojení příjemného s užitečným ta správná rovnováha?</p>\\n<p>Děkujeme a těšíme se na další firmy, které se nám ozvou.</p>\\n<p>Máte i u Vás dobrovolnické programy?</p>\\n<p>𝙉𝙚𝙗𝙤 𝙯𝙫𝙖𝙯̌𝙪𝙟𝙚𝙩𝙚 𝙣𝙚𝙩𝙧𝙖𝙙𝙞𝙘̌𝙣𝙞́ 𝙩𝙚𝙖𝙢𝙗𝙪𝙞𝙡𝙙𝙞𝙣𝙜?</p>","frontmatter":{"name":"ČSOB dobrovolnice na Zahradě HOJNOSTI","date":"30-09-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#68a8e8","images":{"fallback":{"src":"/static/709fb76c52c500b3a1b3cc5f43910623/4d5c4/p%C5%99i-pr%C3%A1ci.jpg","srcSet":"/static/709fb76c52c500b3a1b3cc5f43910623/67e32/p%C5%99i-pr%C3%A1ci.jpg 160w,\\n/static/709fb76c52c500b3a1b3cc5f43910623/fc269/p%C5%99i-pr%C3%A1ci.jpg 320w,\\n/static/709fb76c52c500b3a1b3cc5f43910623/4d5c4/p%C5%99i-pr%C3%A1ci.jpg 640w","sizes":"(min-width: 640px) 640px, 100vw"},"sources":[{"srcSet":"/static/709fb76c52c500b3a1b3cc5f43910623/79906/p%C5%99i-pr%C3%A1ci.webp 160w,\\n/static/709fb76c52c500b3a1b3cc5f43910623/8c64a/p%C5%99i-pr%C3%A1ci.webp 320w,\\n/static/709fb76c52c500b3a1b3cc5f43910623/ffef7/p%C5%99i-pr%C3%A1ci.webp 640w","type":"image/webp","sizes":"(min-width: 640px) 640px, 100vw"}]},"width":640,"height":480}}},"imageAlt":"ČSOB dobrovolnice na Zahradě HOJNOSTI"}}}},{"node":{"rawMarkdownBody":"\\r\\n\\r\\n25. září 2021 ![🌞](https://static.xx.fbcdn.net/images/emoji.php/v9/tb8/1.5/16/1f31e.png)\\r\\n\\r\\n12 STROMKŮ MORUŠÍ ČERNÝCH VYSAZENO. Mirek Sedláček ví, co dělá. \\r\\n\\r\\nPřizvukovala [Míša Co to umí s bylinami](https://www.facebook.com/misa.cotoumisbylinami?__cft__[0]=AZWEgGhtBIexxz4UQB-QgH6R-PnQh_jxzweqB9SR5n_Q4M4YF_cygi_cn3R3bPGX36N99eZWJJT0DosT6_s-BuQPT2GUjxXIXzBd3q5JKiIpb5zVhJo4lTbbtO5d9alob8Rmm-B8YiKfOgNAS3tXhRaR--IyqbE_IU5d3Y3_VHtYmsFCJdBUcsTScGHN55_vl84&__tn__=-]K-R) a pár dobrovolníků. Míšu Brošovou znáte z workshopů s bylinkářkou. \\r\\n\\r\\nZahrada HOJNOSTI Fulnek má krásné zákoutí  ![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png)![🌼](https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1.5/16/1f33c.png)![🌿](https://static.xx.fbcdn.net/images/emoji.php/v9/t77/1.5/16/1f33f.png)","html":"<ol start=\\"25\\">\\n<li>září 2021 <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tb8/1.5/16/1f31e.png\\" alt=\\"🌞\\"></li>\\n</ol>\\n<p>12 STROMKŮ MORUŠÍ ČERNÝCH VYSAZENO. Mirek Sedláček ví, co dělá.</p>\\n<p>Přizvukovala <a href=\\"https://www.facebook.com/misa.cotoumisbylinami?__cft__%5B0%5D=AZWEgGhtBIexxz4UQB-QgH6R-PnQh_jxzweqB9SR5n_Q4M4YF_cygi_cn3R3bPGX36N99eZWJJT0DosT6_s-BuQPT2GUjxXIXzBd3q5JKiIpb5zVhJo4lTbbtO5d9alob8Rmm-B8YiKfOgNAS3tXhRaR--IyqbE_IU5d3Y3_VHtYmsFCJdBUcsTScGHN55_vl84&#x26;__tn__=-%5DK-R\\">Míša Co to umí s bylinami</a> a pár dobrovolníků. Míšu Brošovou znáte z workshopů s bylinkářkou.</p>\\n<p>Zahrada HOJNOSTI Fulnek má krásné zákoutí  <img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/ted/1.5/16/1f49a.png\\" alt=\\"💚\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1.5/16/1f33c.png\\" alt=\\"🌼\\"><img src=\\"https://static.xx.fbcdn.net/images/emoji.php/v9/t77/1.5/16/1f33f.png\\" alt=\\"🌿\\"></p>","frontmatter":{"name":"Sázení moruší","date":"25-09-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#283818","images":{"fallback":{"src":"/static/1e1c5c158fb0fd328eae373103c32ec8/c8beb/moru%C5%A1e-v-zemi.jpg","srcSet":"/static/1e1c5c158fb0fd328eae373103c32ec8/d1059/moru%C5%A1e-v-zemi.jpg 120w,\\n/static/1e1c5c158fb0fd328eae373103c32ec8/06873/moru%C5%A1e-v-zemi.jpg 240w,\\n/static/1e1c5c158fb0fd328eae373103c32ec8/c8beb/moru%C5%A1e-v-zemi.jpg 480w","sizes":"(min-width: 480px) 480px, 100vw"},"sources":[{"srcSet":"/static/1e1c5c158fb0fd328eae373103c32ec8/d3719/moru%C5%A1e-v-zemi.webp 120w,\\n/static/1e1c5c158fb0fd328eae373103c32ec8/ac7f7/moru%C5%A1e-v-zemi.webp 240w,\\n/static/1e1c5c158fb0fd328eae373103c32ec8/b46c9/moru%C5%A1e-v-zemi.webp 480w","type":"image/webp","sizes":"(min-width: 480px) 480px, 100vw"}]},"width":480,"height":640}}},"imageAlt":"V Zahradě HOJNOSTI je vysázeno 12 moruší černých. "}}}},{"node":{"rawMarkdownBody":"**Zveme na - pravděpodobně - poslední akci letošní sezóny v Zahradě HOJNOSTI 💚🌼🌿**\\r\\n\\r\\nV sobotu v 10 h dopoledne začne výsadba 11ti MORUŠÍ s Mirkem Sedláčkem, který je velkým odborníkem a fandou Moruší. U práce⛏ bude povídat, odpovídat na Vaše dotazy a je na Vás, jestli přijdete pomoct nebo se jen podívat 👀.\\r\\n\\r\\nPřijede znovu také úžasná Miša Brošová a téma sobotního workshopu bude jak jinak - podzimní, bude se točit kolem semínek. Jak správně sesbírat, sušit či ne, jak uskladňovat, abychom je na jaře zase mohli vysévat do země. Pokud nějaká máte ze své zahrady, přineste, můžeme vyměňovat, aby se druhy rozšířily.\\r\\n\\r\\nKdo jste Míšu zažili, víte, že její zkušenosti jsou opravdu obrovské, vědomosti hluboké a její výklad jednoznačně obohacující 👌\\\\\\r\\nOd 12 do 15 h se můžete přidat ke skupince workshopu.\\r\\n\\r\\nVyužijte možnosti potkat se s odborníky ve svém oboru. Těšíme se na Zahradě HOJNOSTI ve FULNEKU, na Palackého 297.","html":"<p><strong>Zveme na - pravděpodobně - poslední akci letošní sezóny v Zahradě HOJNOSTI 💚🌼🌿</strong></p>\\n<p>V sobotu v 10 h dopoledne začne výsadba 11ti MORUŠÍ s Mirkem Sedláčkem, který je velkým odborníkem a fandou Moruší. U práce⛏ bude povídat, odpovídat na Vaše dotazy a je na Vás, jestli přijdete pomoct nebo se jen podívat 👀.</p>\\n<p>Přijede znovu také úžasná Miša Brošová a téma sobotního workshopu bude jak jinak - podzimní, bude se točit kolem semínek. Jak správně sesbírat, sušit či ne, jak uskladňovat, abychom je na jaře zase mohli vysévat do země. Pokud nějaká máte ze své zahrady, přineste, můžeme vyměňovat, aby se druhy rozšířily.</p>\\n<p>Kdo jste Míšu zažili, víte, že její zkušenosti jsou opravdu obrovské, vědomosti hluboké a její výklad jednoznačně obohacující 👌<br>\\nOd 12 do 15 h se můžete přidat ke skupince workshopu.</p>\\n<p>Využijte možnosti potkat se s odborníky ve svém oboru. Těšíme se na Zahradě HOJNOSTI ve FULNEKU, na Palackého 297.</p>","frontmatter":{"name":"Výsadba MORUŠÍ a kurz - JAK PŘIPRAVIT SEMENA PRO JARNÍ VÝSEV","date":"20-09-2021","link":null,"image":{"image":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/95a58b4ba7817c29637796f45112d306/f793e/zahrada-moru%C5%A1e-1.png","srcSet":"/static/95a58b4ba7817c29637796f45112d306/f4c0e/zahrada-moru%C5%A1e-1.png 413w,\\n/static/95a58b4ba7817c29637796f45112d306/2145e/zahrada-moru%C5%A1e-1.png 825w,\\n/static/95a58b4ba7817c29637796f45112d306/f793e/zahrada-moru%C5%A1e-1.png 1650w","sizes":"(min-width: 1650px) 1650px, 100vw"},"sources":[{"srcSet":"/static/95a58b4ba7817c29637796f45112d306/b3ea4/zahrada-moru%C5%A1e-1.webp 413w,\\n/static/95a58b4ba7817c29637796f45112d306/974f0/zahrada-moru%C5%A1e-1.webp 825w,\\n/static/95a58b4ba7817c29637796f45112d306/abe36/zahrada-moru%C5%A1e-1.webp 1650w","type":"image/webp","sizes":"(min-width: 1650px) 1650px, 100vw"}]},"width":1650,"height":1650}}},"imageAlt":null}}}}]}}}');
 
 /***/ }),
 

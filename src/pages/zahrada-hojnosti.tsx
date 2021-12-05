@@ -129,9 +129,17 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                 {/* </section> */}
             </section>
 
-            {/* <JurtaSection green={true} />
-            
-            */}
+            <section className="section youtube-video">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/wsF5T_2csE0"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                />
+            </section>
 
             <section className="text-section section section-jurta" style={{ paddingTop: 0 }}>
                 <div className="grid-top">
