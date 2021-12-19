@@ -22,4 +22,4 @@ Pokud si s vyřízením nevíte rady, Nadační fond Kousek po kousku prvním z 
 
 Milostivé léto – amnestie sankcí - neplatí pro daňové a správní exekuce.
 
-Zde další informace a dokumenty, v případě, že si nevíte rady, pište na i**nfo@kousekpokousku.cz**
+[Zde](/ke-stazeni#milostive-leto) další informace a dokumenty, v případě, že si nevíte rady, pište na **info@kousekpokousku.cz**.

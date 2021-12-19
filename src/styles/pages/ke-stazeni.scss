@@ -1,13 +1,33 @@
 main.ke-stazeni {
   display: flex;
   flex-direction: column;
-  @include  flexGap(5em,  $column: true);
-  align-items: flex-start;
-  justify-content: space-around;
+  @include flexGap(5em, $column: true);
+  align-items: center;
+  // justify-content: space-around;
   width: max-content;
   margin: 4em auto;
   font-size: 1.2em;
+  * {
+    text-align: center;
+  }
   ul {
-      padding: 0;
+    padding: 0;
+  }
+  .img {
+    max-width: 900px;
+    width: 80%;
+  }
+}
+
+section#milostive-leto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .img {
+    margin: 1em 0;
+  }
+
+  a {
+    margin-bottom: 1em;
   }
 }
