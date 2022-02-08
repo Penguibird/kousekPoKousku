@@ -7,7 +7,7 @@ image:
 ---
 A je venku🌟📖 Kniha Úspěšná žena byla pokřtěna na Konferenci plné příběhů ÚSPĚŠNÝCH žen v ostravském ImpactHub
 
-Součástí knihy je i rozhovor s Martinou Mazancovou, předsedkyní správní rady NF Kousek po kousku a jednatelkou společnosti Pars Komponenty
+Součástí knihy je i rozhovor s Martinou Mazancovou, předsedkyní správní rady NF Kousek po kousku a jednatelkou společnosti Pars Komponenty.
 
 Vedle například Zlatuše Holušové, ředitelky Colours of Ostrava nebo digitální ženy Markéty Ubíkové, v ní najdete inspirativní příběhy dalších žen, které si s lehkostí vedou v mužském světe 💪
 
