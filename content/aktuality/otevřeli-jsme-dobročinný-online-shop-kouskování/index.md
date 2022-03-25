@@ -6,6 +6,8 @@ image:
 ---
 Je otevřeno💛
 
+Přes červené tlačítko Chci přispět - vpravo nahoře jste tam, než řeknete - KOUSEK 
+
 V dobročinném shopu Nadačního fondu Kousek po kousku postupně přibydou každý čtvrtek další kousky👗👖🥻, které vybíráme z těch , co darujete. Vracíme je zpátky do života a přispíváme k maximálnímu využití. Vybíráme jen oblečení, které je opravdu jako nové. 
 
 Vybírejte [https://eshop.kousekpokousku.cz/kousk](https://eshop.kousekpokousku.cz/kousk?fbclid=IwAR1aS5cAEOuLqJHoR4NElRgMZrvLt-ftyox3HGLakMv6CW8ai05APUg9uZI)...
