@@ -20,7 +20,7 @@ const KouskovaniPage: React.FC<KouskovaniPageProps> = ({ }) => {
                 </p>
                 {/* Ve Studénce, kde je sklad Kouskování si můžete po dohodě své vybrané kousky také vyzvednout, nebo Vám balíček zašleme na uvedenou adresu.
                 Svým nákupem přispějete na další projekt. Všechny podpořené projekty najdete zde/ link na mappu. Ty, související s výtěžkem z Kouskování jsou označeny. */}
-                <p className="text " style={{ textAlign: 'justify' }}>Darováním svých kousků do Kouskování pomůžete dlouhodobě podporovanému projektu <Link to="/aktualne-podporujeme#intervence"><strong>Intervence pro autismus.</strong></Link> Všechny podpořené projekty najdete <Link to="/aktualne-podporujeme" >zde</Link>. Ty, související s výtěžkem z Kouskování jsou označeny.</p>
+                <p className="text " style={{ textAlign: 'justify' }}>Darováním svých kousků do Kouskování pomůžete dlouhodobě podporovaným projektům <Link to="zahrada-hojnosti"><strong>Zahrada Hojnosti</strong></Link>, <Link to="aktualne-podporujeme#klinika"><strong>sociální klinika</strong></Link> a <Link to="aktualne-podporujeme#intervence"><strong>Intervence pro autismus</strong></Link>. Všechny podpořené projekty najdete <Link to="/aktualne-podporujeme" >zde</Link>. Ty, související s výtěžkem z Kouskování jsou označeny.</p>
                 <p className="dekujeme subtitle">Děkujeme, že pomáháte</p>
             </section>
         </main>
