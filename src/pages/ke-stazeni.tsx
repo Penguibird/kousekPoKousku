@@ -38,14 +38,14 @@ const VyrocniZpravyPage: React.FC<VyrocniZpravyPageProps> = ({ }) => {
                 <a href="/ke-stazeni/zakladaci-listina.zip"> Zakládací listina (ZIP) </a>
             </section>
 
-            <section id="milostive-leto">
+            {/* <section id="milostive-leto">
                 <h2>Milostivé Léto</h2>
                 <StaticImage className='img' src="../images/Milostivé léto-1.png" alt='' layout='constrained' placeholder='blurred'/>
                 <a href="/ke-stazeni/Dopis exekutorovi - vzor.docx">Dopis exekutorovi - vzor</a>
                 <a href="/ke-stazeni/dopis krajského ředitele.pdf">Dopis krajského ředitele</a>
                 <a href="/ke-stazeni/Milostivé léto.pdf.pdf">Milostivé léto - PDF s informacemi</a>
 
-            </section>
+            </section> */}
         </main>
     </Layout>
 }

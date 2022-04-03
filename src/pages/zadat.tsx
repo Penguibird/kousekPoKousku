@@ -10,9 +10,9 @@ const ZadatPage: React.FC<ZadatPageProps> = ({ }) => {
     return <Layout title="Žádat | Nadační fond Kousek po Kousku" >
         <main className="zadat">
             <section className="main-section section section-text">
-                <h1 className="title">Aktuální informace pro rok 2021</h1>
+                <h1 className="title">Aktuální informace pro rok {new Date().getFullYear()}</h1>
                 <p>
-                    <p className="text">Pro rok 2021 už žádosti o příspěvky nepřijímáme. Hlavní projekty, kterým je věnována nejen finanční podpora, jsou vybrány.  Nic ale není definitivní. Pokud máte důvody o pomoc žádat, napište na <a href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>, uveďte své údaje a popište příběh. Brzy se Vám ozveme.
+                    <p className="text">Pro rok {new Date().getFullYear()} už žádosti o příspěvky nepřijímáme. Hlavní projekty, kterým je věnována nejen finanční podpora, jsou vybrány.  Nic ale není definitivní. Pokud máte důvody o pomoc žádat, napište na <a href="mailto:info@kousekpokousku.cz">info@kousekpokousku.cz</a>, uveďte své údaje a popište příběh. Brzy se Vám ozveme.
 </p>
 
                     <p className="text">Pokud budou vyhlášeny mimořádné granty, informace řádně zveřejníme.</p>
