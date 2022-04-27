@@ -4,7 +4,7 @@ date: 27-04-2022
 image:
   image: den-matek_růžová-002-.png
 ---
-2. květnová neděle je tradičně věnována všem maminkám  ![💗](https://static.xx.fbcdn.net/images/emoji.php/v9/tc3/1.5/16/1f497.png)
+2.květnová neděle je tradičně věnována všem maminkám  ![💗](https://static.xx.fbcdn.net/images/emoji.php/v9/tc3/1.5/16/1f497.png)
 
 Přijďte letos oslavit DEN MATEK do Zahrady HOJNOSTI.
 
