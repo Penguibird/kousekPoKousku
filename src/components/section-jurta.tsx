@@ -20,7 +20,13 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
             </p>
         </div>
         <StaticImage className='grid-img img section-image' src="../images/jurta_white.jpg" alt='Jurta - Magdaléna Feilhauerová' layout='constrained' placeholder='blurred' />
-        <div className="grid-bottom">
+        <div
+            className="grid-bottom"
+            style={{
+                display: 'flex',
+                flexDirection: 'column',
+            }}
+        >
             <p className="text">
                 Jurta o průměru 9 m s výhledem do Zahrady HOJNOSTI poskytne přístřeší a díky tomu
                 možnost pozorovat přírodu bez omezení, za každého počasí.
@@ -35,8 +41,9 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
                 Přispět může každý. Kolik každý z nás daruje, přesně tolik vloží i Nadační fond Kousek po kousku.
             </p>
             <p className="small">Dary na Jurtu je možné zaslat na speciální transparentní účet:
-                <strong> JURTA pro Zahradu HOJNOSTI ve Fulneku – č. 301075890/0300</strong>
+                <strong> JURTA pro Zahradu HOJNOSTI ve Fulneku – č. 301075890/0300</strong>. Platbu můžete provést také naskenováním QR kódu:
             </p>
+            <StaticImage className='img' src="../images/jurtaUcetQR.png" alt='' layout='constrained' placeholder='blurred' />
             <p className="small">Nebo přes odkaz <a href="https://podpora.kousekpokousku.cz/jurta-pro-zahradu-hojnosti-ve-fulneku/">zde</a>, kde najdete darovací šeky s obrazem Magdalény Feilhauerové.</p>
             <div className="button-row">
                 <a href="https://podpora.kousekpokousku.cz/jurta-pro-zahradu-hojnosti-ve-fulneku/" className={"button filled " + (green && " green")}>Přispět</a>
@@ -46,7 +53,7 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
                 }
             </div>
         </div>
-    </section>
+    </section >
 
 }
 
