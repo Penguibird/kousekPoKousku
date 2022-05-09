@@ -43,7 +43,7 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
             <p className="small">Dary na Jurtu je možné zaslat na speciální transparentní účet:
                 <strong> JURTA pro Zahradu HOJNOSTI ve Fulneku – č. 301075890/0300</strong>. Platbu můžete provést také naskenováním QR kódu:
             </p>
-            <StaticImage className='img' style={{margin: '0 auto'}} src="../images/jurtaUcetQR.png" alt='' layout='constrained' placeholder='blurred' />
+            <StaticImage className='img' style={{ margin: '0 auto' }} src="../images/jurtaUcetQR.png" alt='' layout='constrained' placeholder='blurred' />
             <p className="small">Nebo přes odkaz <a href="https://podpora.kousekpokousku.cz/jurta-pro-zahradu-hojnosti-ve-fulneku/">zde</a>, kde najdete darovací šeky s obrazem Magdalény Feilhauerové.</p>
             <div className="button-row">
                 <a href="https://podpora.kousekpokousku.cz/jurta-pro-zahradu-hojnosti-ve-fulneku/" className={"button filled " + (green && " green")}>Přispět</a>

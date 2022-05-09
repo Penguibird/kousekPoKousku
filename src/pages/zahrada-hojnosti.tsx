@@ -182,11 +182,14 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     <a href="https://podpora.kousekpokousku.cz/jurta-pro-zahradu-hojnosti-ve-fulneku/" className={"button filled green bigger"}>Přispět</a>
                 </div>
                 <p className="small">Dary na Jurtu je možné zaslat také na speciální transparentní účet: <br />
-                    <strong> JURTA pro Zahradu HOJNOSTI ve Fulneku – č. 301075890/0300</strong>
-                    <br />
-                    Nebo přes odkaz <a href="https://podpora.kousekpokousku.cz/jurta-pro-zahradu-hojnosti-ve-fulneku/"><strong>zde</strong></a>,
-                    kde najdete darovací šeky s obrazem Magdalény Feilhauerové.
+                    <strong> JURTA pro Zahradu HOJNOSTI ve Fulneku – č. 301075890/0300</strong>. Platbu můžete provést také naskenováním QR kódu:
                 </p>
+                <StaticImage className='img' style={{ margin: '0 auto' }} src="../images/jurtaUcetQR.png" alt='' layout='constrained' placeholder='blurred' />
+                <p>
+                    Nebo přes odkaz <a href="https://podpora.kousekpokousku.cz/jurta-pro-zahradu-hojnosti-ve-fulneku/"><strong>zde</strong></a>,
+                    kde najdete darovací šeky s obrazem Magdalény Feilhauerové
+                </p>
+
             </section>
 
 
