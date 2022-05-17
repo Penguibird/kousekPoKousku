@@ -52,6 +52,17 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
                     : <Link to="/zahrada-hojnosti" className={"button  outlined " + (green && " green")}>Více o Zahradě</Link>
                 }
             </div>
+            <p  className="small">
+                Cena Jurty se, bohužel, od podzimu, kdy jsme výzvu na JURTU vyhlásili a vybrali výrobce,  zvedla v rámci zdražování na 1&nbsp;200&nbsp;000,-&nbsp;Kč.
+
+                Je to cena včetně kamen a je garantovaná do 1.7.&nbsp;2022.
+            </p>
+            <p className="small">
+                Pokud se nám tedy <strong>do konce června společně podaří získat 150&nbsp;000&nbsp;Kč,</strong> NF dary zdvojnásobí a ve stejný okamžik zaplatí zálohu na výrobu JURTY.
+                Pak bude čas do konce září shromáždit posledních 150&nbsp;000&nbsp;Kč. S podílem NF se tak JURTA doplatí a začátkem října je reálné, abychom se vídali v novém přístřeší u prvních akcí. Prostor začnou využívat také děti z nejen místních škol.
+                Cílová částka <strong>je 1&nbsp;200&nbsp;000&nbsp;Kč.</strong>
+                <strong>O kolik částka roste, přesně tolik vloží Nadační fond KPK.</strong>
+            </p>
         </div>
     </section >
 
