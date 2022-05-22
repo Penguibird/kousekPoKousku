@@ -31,6 +31,7 @@ import useAktualityZahrada from '../functions/useAktualityZahrada'
 import Counter from './../components/numberCounter';
 import type Aktualita from '../types/aktualita'
 import { Link } from 'gatsby';
+import JurtaSection from '../components/section-jurta';
 // import JurtaSection from './../components/section-jurta';
 interface ZahradaPageProps {
 
@@ -141,7 +142,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                 />
             </section>
 
-            <section className="text-section section section-jurta" style={{ paddingTop: 0 }}>
+            {/* <section className="text-section section section-jurta" style={{ paddingTop: 0 }}>
                 <div className="grid-top">
                     <h1 className="section-title title">
                         Jurta pro Zahradu HOJNOSTI
@@ -160,14 +161,8 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                         Bude sloužit všem generacím, které spojuje aktivní, tvořivý způsob života.
                     </p>
                 </div>
-            </section>
-            <section className="section text-section center section-jurta-2">
-                {/* <div className="counter">
-                    <h2 className="green">Již jsme vybrali</h2>
-                    <p className="number"><span className="" id="number">10 000</span></p>
-                    <p style={{ fontWeight: 700 }}>korun českých</p>
-
-                </div> */}
+            </section> */}
+            {/* <section className="section text-section center section-jurta-2">
                 <Counter />
                 <p
                     className={"subtitle green"}
@@ -200,7 +195,8 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     Cílová částka <strong>je 1&nbsp;200&nbsp;000&nbsp;Kč.</strong>
                     <strong>O kolik částka roste, přesně tolik vloží Nadační fond KPK.</strong>
                 </p>
-            </section>
+            </section> */}
+            <JurtaSection green />
 
 
             <section className="prinos">
