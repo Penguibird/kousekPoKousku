@@ -43,7 +43,7 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
             >
                 Přispět může každý. Kolik každý z nás daruje, přesně tolik vloží i Nadační fond Kousek po kousku.
             </p>
-            <p className="small">
+            <p className="text">
                 Pokud se podaří navýšit o 150 000 Kč, NF dary zdvojnásobí a ve stejný okamžik zaplatí zálohu na výrobu JURTY.
 
                 Pak bude čas do konce září shromáždit posledních 150 000 Kč. S podílem NF se tak JURTA doplatí a začátkem října je reálné,
@@ -52,18 +52,18 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
 
                 Cílová částka je 1 200 000 Kč.
             </p>
-            <p>O kolik částka roste, přesně tolik vloží Nadační fond KPK.</p>
-            {/* <p className="small">
+            <p className="text">O kolik částka roste, přesně tolik vloží Nadační fond KPK.</p>
+            {/* <p className="text">
                 Pokud se nám tedy <strong>do konce června společně podaří získat 150&nbsp;000&nbsp;Kč,</strong> NF dary zdvojnásobí a ve stejný okamžik zaplatí zálohu na výrobu JURTY.
                 Pak bude čas do konce září shromáždit posledních 150&nbsp;000&nbsp;Kč. S podílem NF se tak JURTA doplatí a začátkem října je reálné, abychom se vídali v novém přístřeší u prvních akcí. Prostor začnou využívat také děti z nejen místních škol.
                 Cílová částka <strong>je 1&nbsp;200&nbsp;000&nbsp;Kč.</strong>
                 <strong>O kolik částka roste, přesně tolik vloží Nadační fond KPK.</strong>
             </p> */}
-            <p className="small">Dary na Jurtu je možné zaslat na speciální transparentní účet:
+            <p className="text">Dary na Jurtu je možné zaslat na speciální transparentní účet:
                 <strong> JURTA pro Zahradu HOJNOSTI ve Fulneku – č. 301075890/0300</strong>. Platbu můžete provést také naskenováním QR kódu:
             </p>
             <StaticImage className='img' style={{ margin: '0 auto' }} src="../images/jurtaUcetQR.png" alt='' layout='constrained' placeholder='blurred' />
-            <p className="small">Nebo přes odkaz <a href="https://podpora.kousekpokousku.cz/jurta-pro-zahradu-hojnosti-ve-fulneku/">zde</a>, kde najdete darovací šeky s obrazem Magdalény Feilhauerové.</p>
+            <p className="text">Nebo přes odkaz <a href="https://podpora.kousekpokousku.cz/jurta-pro-zahradu-hojnosti-ve-fulneku/">zde</a>, kde najdete darovací šeky s obrazem Magdalény Feilhauerové.</p>
             <div className="button-row">
                 <a href="https://podpora.kousekpokousku.cz/jurta-pro-zahradu-hojnosti-ve-fulneku/" className={"button filled " + (green && " green")}>Přispět</a>
                 {green
