@@ -360,17 +360,18 @@ const IndexPage = () => {
       </section>
 
 
-      <section className="section sponzori">
+      {/* <section className="section sponzori">
         <h2 className="title text-center">Partneři</h2>
         <ul className="flex-row">
           <li>
             <StaticImage className='img' src="../images/logo_pars.png" alt='Pars Komponenty' layout='constrained' placeholder='blurred' />
           </li>
+          // Dont include KSB 1
           {/* <li>
             <StaticImage className='img' src="../images/logo_ksb.jpg" alt='Kocián Šolc Balaštík' layout='constrained' placeholder='blurred' />
-          </li> */}
+          // </li> 
         </ul>
-      </section>
+      </section> */}
       {/* <section className="section section-map">
         <Map />
       </section> */}
