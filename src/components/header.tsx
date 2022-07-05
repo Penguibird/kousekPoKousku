@@ -2,6 +2,8 @@ import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { Link } from "gatsby";
 import { StaticImage } from 'gatsby-plugin-image';
+import LogoZahrada from '../images/LogoZahrada';
+import NoveLogo from '../images/NoveLogo';
 
 type Image = {
     url: string,
@@ -25,11 +27,13 @@ const Header: React.FC<Props> = ({ color, logo }) => {
     }, [])
 
 
-    return <header className=""  >
-        <Link className="logo" to="/">
+    return <header className={logo + ""}  >
+        <Link className={"logo " + logo} to="/">
             {logo == 'zahrada'
-                ? <StaticImage src="../images/logo_zahrada_wbg.png" alt='Kousek po Kousku - Zahrada hojnosti' width={150} aspectRatio={2135 / 2318} layout='constrained' />
-                : <StaticImage src="../images/logo.svg" alt='Kousek po Kousku' width={150} aspectRatio={228 / 237} layout='constrained' />
+                ? <LogoZahrada />
+                // ? <StaticImage src="../images/logo_zahrada_wbg.png" alt='Kousek po Kousku - Zahrada hojnosti' width={150} aspectRatio={2135 / 2318} layout='constrained' />
+                //: <StaticImage src="../images/logo.svg" alt='Kousek po Kousku' width={150} aspectRatio={228 / 237} layout='constrained' />
+                : <NoveLogo />
             }
         </Link>
         {/* <span className="empty"></span> */}
@@ -41,7 +45,7 @@ const Header: React.FC<Props> = ({ color, logo }) => {
         <nav>
             <ul>
                 <li className="dropdown">
-                    <label htmlFor="dropdown-expand" className="navbar-link" style={{textAlign: 'left'}}>O&nbsp;nás</label>
+                    <label htmlFor="dropdown-expand" className="navbar-link" style={{ textAlign: 'left' }}>O&nbsp;nás</label>
                     <input className="" type="checkbox" name="dropdown-expand" id="dropdown-expand" />
                     <ul className="dropdown-content">
                         <li className="navbar-link" >

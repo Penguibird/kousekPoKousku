@@ -21,11 +21,19 @@ header {
 
         margin-top: 0.5em;
 
-        min-width: 60px;
-        width: 10vw;
-        max-width: 120px;
+        min-height: 60px;
+        height: 10vw;
+        max-height: 120px;
 
-        height: auto;
+        width: auto;
+
+        aspect-ratio: 1;
+        svg {
+            height: 100%;
+        }
+        &.zahrada {
+            aspect-ratio: 2;
+        }
     }
     a {
         color: inherit;
@@ -70,6 +78,10 @@ header nav {
             }
         }
     }
+}
+
+header.zahrada nav {
+    padding-left: max(130px, 19vw);
 }
 
 header input[type="checkbox"] {
@@ -236,6 +248,11 @@ header input[type="checkbox"] {
     }
     li {
         margin-left: 0 !important;
+    }
+
+
+    header.zahrada nav {
+        padding-left: 50px;
     }
 }
 
