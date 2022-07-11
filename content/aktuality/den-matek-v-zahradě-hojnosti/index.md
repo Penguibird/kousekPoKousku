@@ -13,7 +13,7 @@ Máme velkou radost, že dámy z klubu seniorů se rozhodly na Zahradu HOJNOSTI 
 
 Také moc děkujeme za příspěvky.
 
-Dobrovolné vstupné vyneslo 2 200 Kč ![💛](https://static.xx.fbcdn.net/images/emoji.php/v9/t6e/1.5/16/1f49b.png)
+Dobrovolné vstupné vyneslo 2 200 Kč
 
 NF hned částku převedl na transparentní účet JURTA pro Zahradu HOJNOSTI ve FULNEKU č. 301075890/0300 - a jak je nastaveno, částku zdvojnásobil.
 
