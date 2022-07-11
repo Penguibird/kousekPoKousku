@@ -4,7 +4,7 @@ date: 03-07-2022
 image:
   image: pohled-dron-červen-22-f.png
 ---
-No řekněte, není to nádhera? Součástí zahrady bude i 9m JURTA.  A co se v ní bude odehrávat? Výuka dětí, workshopy, vědomé cvičení, přednášky na téma osobního rozvoje, setkávání při tvoření... Chtěli byste v Jurtě vést nějaký kurz i Vy? 
+No řekněte, není to nádhera? Nádherný prostor, co říkáte... Součástí zahrady bude i 9m JURTA.  Bude tam probíhat výuka dětí, workshopy, vědomé cvičení, přednášky na téma osobního rozvoje, setkávání, tvoření... Chtěli byste v Jurtě vést nějaký kurz i Vy? 
 
 Napište nám na info@kousekpokousku.cz
 
