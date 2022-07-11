@@ -1,5 +1,5 @@
 ---
-name: Zahrada HOJNOSTI má nové logo - symbol semínka píše příběh
+name: Zahrada HOJNOSTI má nové logo / Příběh semínka ...
 date: 10-07-2022
 image:
   image: logo_zh_zelene_velke.png
