@@ -2,7 +2,7 @@
 name: Zahrada HOJNOSTI má nové logo - symbol semínka píše příběh
 date: 10-07-2022
 image:
-  image: logo_zh_zelene_male.jpg
+  image: logo_zh_zelene_velke.png
   imageAlt: logo ZH
 ---
 Semínko je prazáklad všeho.
