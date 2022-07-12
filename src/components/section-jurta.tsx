@@ -33,8 +33,7 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
                 Díky Jurtě bude Zahrada Hojnosti žít v každé roční době.
                 Bude sloužit všem generacím, které spojuje aktivní, tvořivý způsob života. */}
                 O záměru JURTY jsme informovali na oslavě 10. narozenin NF KPK, na podzim 2021.
-                Od té doby se cena v rámci zdražování zvedla na 1 200 000,- Kč, včetně kamen, s garancí ceny do 1.7. 2022.
-                Do konce června bychom se potřebovali přiblížit cílové částce.
+                Od té doby se cena v rámci zdražování zvedla na 1 200 000,- Kč, včetně kamen.
             </p>
             <Counter green={green} />
             <p
@@ -42,8 +41,8 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
                 style={{ marginBottom: '1em', maxWidth: '50ch' }}
             >
                 Přispět může každý. Kolik každý z nás daruje, přesně tolik vloží i Nadační fond Kousek po kousku.
-            </p>
-            <p className="text">
+             </p>
+            {/*<p className="text">
                 Pokud se podaří navýšit o 150 000 Kč, NF dary zdvojnásobí a ve stejný okamžik zaplatí zálohu na výrobu JURTY.
 
                 Pak bude čas do konce září shromáždit posledních 150 000 Kč. S podílem NF se tak JURTA doplatí a začátkem října je reálné,
@@ -51,8 +50,8 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
                 abychom se vídali v novém přístřeší u prvních akcí.
 
                 Cílová částka je 1 200 000 Kč.
-            </p>
-            <p className="text">O kolik částka roste, přesně tolik vloží Nadační fond KPK.</p>
+            </p> */}
+            {/* <p className="text">O kolik částka roste, přesně tolik vloží Nadační fond KPK.</p> */}
             {/* <p className="text">
                 Pokud se nám tedy <strong>do konce června společně podaří získat 150&nbsp;000&nbsp;Kč,</strong> NF dary zdvojnásobí a ve stejný okamžik zaplatí zálohu na výrobu JURTY.
                 Pak bude čas do konce září shromáždit posledních 150&nbsp;000&nbsp;Kč. S podílem NF se tak JURTA doplatí a začátkem října je reálné, abychom se vídali v novém přístřeší u prvních akcí. Prostor začnou využívat také děti z nejen místních škol.
