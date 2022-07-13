@@ -1,5 +1,5 @@
 ---
-name: Zahrada HOJNOSTI má nové logo / Příběh semínka ...
+name: Zahrada HOJNOSTI má nové logo ... počátkem všeho je semínko!
 date: 10-07-2022
 image:
   image: logo_zh_zelene_velke.png
