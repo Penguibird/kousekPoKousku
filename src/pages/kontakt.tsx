@@ -61,12 +61,12 @@ const KontaktPage: React.FC<KontaktPageProps> = ({ }) => {
                     <a href="mailto:martina.mazancova@ikousekpokousku.cz">martina.mazancova@kousekpokousku.cz</a>
                     <a href="tel:+420724328651">+420 724 328 651</a>
                 </li>
-                <li className="clovek">
+                {/* <li className="clovek">
                     <h2 className="jmeno">Eva Loskotová</h2>
                     <p className="popis">PR &amp; komunikace</p>
                     <a href="mailto:eva.loskotova@kousekpokousku.cz">eva.loskotova@kousekpokousku.cz</a>
                     <a href="tel:+420776003455">+420 776 003 455</a>
-                </li>
+                </li> */}
                 <li className="clovek">
                     <h2 className="jmeno">Ivana Ježová</h2>
                     <p className="popis">asistentka</p>
