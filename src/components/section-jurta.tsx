@@ -35,13 +35,16 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
                 O záměru JURTY jsme informovali na oslavě 10. narozenin NF KPK, na podzim 2021.
                 Od té doby se cena v rámci zdražování zvedla na 1 200 000,- Kč, včetně kamen.
             </p>
+            <p className="text">
+                Příznivci NF KPK, podporovatelé Zahrady HOJNOSTI! Děkujeme. I díky Vám byla záloha na Jurtu uhrazena, vše je v procesu. Příspěvky na doplatek můžete stále posílat na transparentní účet 301075890/0300 💚🌼🌿🙏🍀
+            </p>
             <Counter green={green} />
             <p
                 className={"subtitle " + (green && " green")}
                 style={{ marginBottom: '1em', maxWidth: '50ch' }}
             >
                 Přispět může každý. Kolik každý z nás daruje, přesně tolik vloží i Nadační fond Kousek po kousku.
-             </p>
+            </p>
             {/*<p className="text">
                 Pokud se podaří navýšit o 150 000 Kč, NF dary zdvojnásobí a ve stejný okamžik zaplatí zálohu na výrobu JURTY.
 
