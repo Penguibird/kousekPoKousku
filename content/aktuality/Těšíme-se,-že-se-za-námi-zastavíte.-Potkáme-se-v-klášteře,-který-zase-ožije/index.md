@@ -5,3 +5,4 @@ image:
     image: PLAKAT_AKTUALNI-1.png
     imageAlt: Klášterní kouskování. Zveme Vás na dobročinný bazar 6. - 10. října 2002 v Kostele sv. Josefa Fulnek
 ---
+
