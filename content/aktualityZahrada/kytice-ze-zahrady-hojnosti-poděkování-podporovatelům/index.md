@@ -1,5 +1,5 @@
 ---
-name: Kytice ze Zahrady HOJNOSTI - poděkování podporovatelům
+name: "Děkujeme  podporovatelům květinami ze Zahrady HOJNOSTI "
 date: 07-09-2022
 image:
   image: kytice-pro-dárce.jpg
@@ -7,4 +7,4 @@ image:
 ---
 V﻿ Zahradě Hojnosti se letos urodilo obrovské množství květin. Krásenky, krásnoočka, cínie, astry, slunečnice, další a další...
 
-Každý čtvrtek jim vtiskne tvar a duši Veronika Šichorová a její překrásné kytice  putují i za těmi, kteří Zahradu HOJNOSTI podpořili. Děkujeme  a posíláme velké díky.
+Každý čtvrtek jim vtiskne tvar a duši Veronika Šichorová a její překrásné kytice  putují i za těmi, kteří Zahradu HOJNOSTI podpořili. Děkujeme  a posíláme pro radost.
