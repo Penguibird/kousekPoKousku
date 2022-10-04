@@ -17,7 +17,7 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
             <p className="text">
                 Podpořte záměr vytvořit celoroční zázemí na <strong>Zahradě HOJNOSTI ve Fulneku.</strong>
             </p>
-            <p className="text"> Zahrada HOJNOSTI se stane celosezónním místem pro pořádání setkání, kurzů, cvičení, workshopů a výuky i dalších aktivit dětí, a to nejen z místních škol.  Přispět může každý jakoukoli částkou. Kousek po kousku dáme obnos dohromady. </p>
+            <p className="text"> Zahrada HOJNOSTI se stane celosezónním místem pro pořádání setkání, kurzů, cvičení, workshopů a výuky i dalších aktivit dětí, a to nejen z místních škol.<strong> Přispět může každý jakoukoli částkou. </strong>Kousek po kousku dáme obnos dohromady. </p>
         </div>
         <StaticImage className='grid-img img section-image' src="../images/jurta_white.jpg" alt='Jurta - Magdaléna Feilhauerová' layout='constrained' placeholder='blurred' />
         <div
@@ -37,12 +37,14 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
             </p>
             <p className="text">
                 Příznivci NF KPK, podporovatelé Zahrady HOJNOSTI! Děkujeme.
-                I díky Vám byla záloha na Jurtu uhrazena: Máme velkou radost, že Jurta pro fulneckou Zahradu Hojnosti je <strong>v procesu výroby.</strong>
-                Peníze z transparentního účtu jsou už u výrobce a nás čeká dát dohromady poslední část - 150 000,- Kč - z Vašich darů na doplatek. Po znásobení částky nadačním fondem na 300 000,- Kč Jurtu doplatíme, a to už se budeme těšit na její instalaci.
+                I díky Vám byla záloha na Jurtu uhrazena: Máme velkou radost, že Jurta pro fulneckou Zahradu Hojnosti je <strong>v procesu výroby. </strong>
+            </p>
+            <p className="text">
+                Peníze z transparentního účtu jsou už u výrobce a nás čeká dát dohromady poslední část - 150 000,- Kč -<strong> z Vašich darů na doplatek. </strong>Po znásobení částky nadačním fondem na 300 000,- Kč Jurtu doplatíme, a to už se budeme<strong> těšit na její instalaci. </strong>
                 Příspěvky na doplatek Jurty můžete stále posílat na transparentní účet 301075890/0300
             </p>
             <p className="text">
-                Znovu začneme odpočítávat cílovu částku 300 000,- Kč , včetně znásobení. Velice děkujeme Vám všem, kteří jste se rozhodli podpořit náš záměr a těšíme se na setkání s Vámi v 9 m Jurtě v Zahradě HOJNOSTI ve Fulneku.🍀
+                Znovu začneme odpočítávat cílovu částku 300 000,- Kč , včetně znásobení.<strong> Velice děkujeme Vám všem, </strong>kteří jste se rozhodli podpořit náš záměr a těšíme se na setkání s Vámi v 9 m Jurtě v Zahradě HOJNOSTI ve Fulneku.🍀
             </p>
             <Counter green={green} />
             <p
@@ -51,6 +53,7 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
             >
                 Přispět může každý. Kolik každý z nás daruje, přesně tolik vloží i Nadační fond Kousek po kousku.
             </p>
+            
             {/*<p className="text">
                 Pokud se podaří navýšit o 150 000 Kč, NF dary zdvojnásobí a ve stejný okamžik zaplatí zálohu na výrobu JURTY.
 
