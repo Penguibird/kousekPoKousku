@@ -4,7 +4,7 @@ date: 04-10-2022
 image:
   image: 816_damska-halenka-ralph-lauren.jpg
 ---
-I﻿ tahle dámská košile Ralph Lauren je mezi kousky Klášterního kouskování připravena pro Vás. 
+I﻿ tahle dámská košile Ralph Lauren je mezi kousky Klášterního kouskování připravena pro Vás. Další tipy na https://podpora.kousekpokousku.cz/
 
 F﻿ulnecký klášter otevíráme už ve čtvrtek 6. října v 10 hodin. 
 
