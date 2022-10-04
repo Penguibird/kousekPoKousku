@@ -36,7 +36,13 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
                 Od té doby se cena v rámci zdražování zvedla na 1 200 000,- Kč, včetně kamen.
             </p>
             <p className="text">
-                Příznivci NF KPK, podporovatelé Zahrady HOJNOSTI! Děkujeme. I díky Vám byla záloha na Jurtu uhrazena, vše je v procesu. Příspěvky na doplatek můžete stále posílat na transparentní účet 301075890/0300 💚🌼🌿🙏🍀
+                Příznivci NF KPK, podporovatelé Zahrady HOJNOSTI! Děkujeme.
+                I díky Vám byla záloha na Jurtu uhrazena: Máme velkou radost, že Jurta pro fulneckou Zahradu Hojnosti je <strong>v procesu výroby.</strong>
+                Peníze z transparentního účtu jsou už u výrobce a nás čeká dát dohromady poslední část - 150 000,- Kč - z Vašich darů na doplatek. Po znásobení částky nadačním fondem na 300 000,- Kč Jurtu doplatíme, a to už se budeme těšit na její instalaci.
+                Příspěvky na doplatek Jurty můžete stále posílat na transparentní účet 301075890/0300
+            </p>
+            <p className="text">
+                Znovu začneme odpočítávat cílovu částku 300 000,- Kč , včetně znásobení. Velice děkujeme Vám všem, kteří jste se rozhodli podpořit náš záměr a těšíme se na setkání s Vámi v 9 m Jurtě v Zahradě HOJNOSTI ve Fulneku.🍀
             </p>
             <Counter green={green} />
             <p
