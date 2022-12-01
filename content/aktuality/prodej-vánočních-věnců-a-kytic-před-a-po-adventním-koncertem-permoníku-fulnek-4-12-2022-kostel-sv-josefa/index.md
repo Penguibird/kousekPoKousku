@@ -1,5 +1,5 @@
 ---
-name: "Prodej vánočních věnců a kytic před a po adventním koncertem Permoníku /
+name: "Prodej vánočních věnců a kytic v rámci adventního koncertu Permoníku /
   Fulnek 4.12.2022 / Kostel sv. Josefa "
 date: 01-12-2022
 image:
