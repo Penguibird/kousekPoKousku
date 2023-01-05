@@ -12,12 +12,12 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
     return <section className="text-section section section-jurta" {...props}>
         <div className="grid-top">
             <h1 className="section-title title">
-                Jurta pro Zahradu HOJNOSTI
+                Jurta pro Zahradu HOJNOST
             </h1>
             <p className="text">
-                Podpořte záměr vytvořit celoroční zázemí na <strong>Zahradě HOJNOSTI ve Fulneku.</strong>
+                Pomozte našemu záměru!
             </p>
-            <p className="text"> Zahrada HOJNOSTI se stane celosezónním místem pro pořádání setkání, kurzů, cvičení, workshopů a výuky i dalších aktivit dětí, a to nejen z místních škol.<strong> Přispět může každý jakoukoli částkou. </strong>Kousek po kousku dáme obnos dohromady. </p>
+            <p className="text">Cílem je využívat <strong>Zahradu HOJNOSTI ve Fulneku celoročně, bez ohledu na počasí. </strong>Snažíme se, aby vzniklo výjimečné místo pro pořádání akcí, kurzů, cvičení, workshopů, setkávání, výuky i dalších aktivit pro dospělé i dětí, a to nejen z místních škol. </p>
         </div>
         <StaticImage className='grid-img img section-image' src="../images/jurta_white.jpg" alt='Jurta - Magdaléna Feilhauerová' layout='constrained' placeholder='blurred' />
         <div
@@ -27,51 +27,23 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
                 flexDirection: 'column',
             }}
         >
+            <p className="text">Cílová suma, za&nbsp;kterou se dá kvalitní Jurta pořídit, se po zdražování vyšplhala na&nbsp;1&nbsp;200&nbsp;000 Kč.
+                Kousek po&nbsp;kousku <strong>dáváme společně obnos dohromady</strong> už&nbsp;od&nbsp;podzimu 2021, kdy Nadační fond Kousek po&nbsp;kousku slavil 10. narozeniny a&nbsp;projekt zveřejnil. </p>
+            <p className="text">Od&nbsp;té doby byla <strong>začátkem léta 2022 z&nbsp;transparentního účtu zaslána polovina částky výrobci a&nbsp;proces realizace odstartoval. </strong></p>
+            <p className="text"><strong>Na&nbsp;doplatek Jurty můžete stale své příspěvky zasílat. </strong>
+                Pro&nbsp;tento účel je zřízen speciální transparentní účet Jurta pro&nbsp;Zahradu&nbsp;HOJNOSTI ve Fulneku, s&nbsp;číslem 301075890/0300. Kolik na&nbsp;účet pošlete, stejnou částku přidá i&nbsp;NF KPK. Částka, ať už jakákoli, se&nbsp;ihned znásobí.</p>
             <p className="text">
-                {/* Jurta o průměru 9 m s výhledem do Zahrady HOJNOSTI poskytne přístřeší a díky tomu
-                možnost pozorovat přírodu bez omezení, za každého počasí.
-                Díky Jurtě bude Zahrada Hojnosti žít v každé roční době.
-                Bude sloužit všem generacím, které spojuje aktivní, tvořivý způsob života. */}
-                O záměru JURTY jsme informovali na oslavě 10. narozenin NF KPK, na podzim 2021.
-                Od té doby se cena v rámci zdražování zvedla na 1 200 000,- Kč, včetně kamen.
-            </p>
-            <p className="text">
-                Příznivci NF KPK, podporovatelé Zahrady HOJNOSTI! Děkujeme.
-                I díky Vám byla záloha na Jurtu uhrazena: Máme velkou radost, že Jurta pro fulneckou Zahradu Hojnosti je <strong>v procesu výroby. </strong>
-            </p>
-            <p className="text">
-                Peníze z transparentního účtu jsou už u výrobce a nás čeká dát dohromady poslední část - 150 000,- Kč -<strong> z Vašich darů na doplatek. </strong>Po znásobení částky nadačním fondem na 300 000,- Kč Jurtu doplatíme, a to už se budeme<strong> těšit na její instalaci. </strong>
-                Příspěvky na doplatek Jurty můžete stále posílat na transparentní účet 301075890/0300
-            </p>
-            <p className="text">
-                Znovu začneme odpočítávat cílovu částku 300 000,- Kč , včetně znásobení.<strong> Velice děkujeme Vám všem, </strong>kteří jste se rozhodli podpořit náš záměr a těšíme se na setkání s Vámi v 9 m Jurtě v Zahradě HOJNOSTI ve Fulneku.🍀
+                Velice děkujeme všem, kteří jste se nadchli a&nbsp;rozhodli tento odvážný počin podpořit. Těšíme se na&nbsp;setkávání v&nbsp;9m Jurtě v&nbsp;Zahradě HOJNOSTI ve&nbsp;Fulneku. Protože život je třeba žít a&nbsp;užívat.
             </p>
             <Counter green={green} />
             <p
                 className={"subtitle " + (green && " green")}
                 style={{ marginBottom: '1em', maxWidth: '50ch' }}
             >
-                Přispět může každý. Kolik každý z nás daruje, přesně tolik vloží i Nadační fond Kousek po kousku.
+                Přispět může každý. Kolik každý z&nbsp;nás daruje, přesně tolik vloží i&nbsp;Nadační fond Kousek po kousku.
             </p>
-            
-            {/*<p className="text">
-                Pokud se podaří navýšit o 150 000 Kč, NF dary zdvojnásobí a ve stejný okamžik zaplatí zálohu na výrobu JURTY.
-
-                Pak bude čas do konce září shromáždit posledních 150 000 Kč. S podílem NF se tak JURTA doplatí a začátkem října je reálné,
-
-                abychom se vídali v novém přístřeší u prvních akcí.
-
-                Cílová částka je 1 200 000 Kč.
-            </p> */}
-            {/* <p className="text">O kolik částka roste, přesně tolik vloží Nadační fond KPK.</p> */}
-            {/* <p className="text">
-                Pokud se nám tedy <strong>do konce června společně podaří získat 150&nbsp;000&nbsp;Kč,</strong> NF dary zdvojnásobí a ve stejný okamžik zaplatí zálohu na výrobu JURTY.
-                Pak bude čas do konce září shromáždit posledních 150&nbsp;000&nbsp;Kč. S podílem NF se tak JURTA doplatí a začátkem října je reálné, abychom se vídali v novém přístřeší u prvních akcí. Prostor začnou využívat také děti z nejen místních škol.
-                Cílová částka <strong>je 1&nbsp;200&nbsp;000&nbsp;Kč.</strong>
-                <strong>O kolik částka roste, přesně tolik vloží Nadační fond KPK.</strong>
-            </p> */}
             <p className="text">Dary na Jurtu je možné zaslat na speciální transparentní účet:
-                <strong> JURTA pro Zahradu HOJNOSTI ve Fulneku – č. 301075890/0300</strong>. Platbu můžete provést také naskenováním QR kódu:
+                <strong> JURTA pro Zahradu HOJNOSTI ve Fulneku – č.&nbsp;301075890/0300</strong>. Platbu můžete provést také naskenováním QR kódu:
             </p>
             <StaticImage className='img' style={{ margin: '0 auto' }} src="../images/jurtaUcetQR.png" alt='' layout='constrained' placeholder='blurred' />
             <p className="text">Nebo přes odkaz <a href="https://podpora.kousekpokousku.cz/jurta-pro-zahradu-hojnosti-ve-fulneku/">zde</a>, kde najdete darovací šeky s obrazem Magdalény Feilhauerové.</p>
