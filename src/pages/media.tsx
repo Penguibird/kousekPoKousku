@@ -8,21 +8,37 @@ interface MediaPageProps {
 };
 
 const MediaPage: React.FC<MediaPageProps> = ({ }) => {
-    return <Layout  title="Média | Nadační fond Kousek po Kousku" >
+    return <Layout title="Média | Nadační fond Kousek po Kousku" >
         {/* Popisek melting pot videa */}
         <main className="media">
             <section className=" section hero yellow">
                 <h1 className="title hero-title">Média</h1>
+            </section>
+
+            <section className="section section-center">
+                <h2 className="title"> Proč podporujeme SOCIÁLNÍ KLINIKU?</h2>
+                <iframe width="500" height="380" src="https://www.youtube.com/embed/mNJSPWNcjpw" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            </section>
+            <section className="section section-center">
+                <h2 className="title">Mystický fulnek, symbol Madony, rodina</h2>
+                <iframe width="500" height="380" src="https://www.youtube.com/embed/aOXHbjEKWKk" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            </section>
+            <section className="section section-center">
+                <h2 className="title">O projektu Zahrady HOJNOSTI ve Fulneku</h2>
+                <iframe width="500" height="380" src="https://www.youtube.com/embed/wsF5T_2csE0 " allow="autoplay; encrypted-media" allowFullScreen></iframe>
             </section>
             <section className="section section-center">
                 <h2 className="title">Zrodila se hvězda</h2>
                 <p>Rozhovor s Matějem Čípem v DVTV.</p>
                 {/* <iframe width="500" height="380" src="https://www.youtube.com/embed/2eI66_Pu9ZA" allow="autoplay; encrypted-media" allowFullScreen></iframe> */}
                 <a className='link-image' href="https://video.aktualne.cz/dvtv/univerzita-v-usa-otevrela-obor-jen-pro-nej-musel-jsem-je-pre/r~195d0092cd0f11eb9322ac1f6b220ee8/">
-                    <StaticImage src="../images/matej_cip.png" alt='Video mateje cipa v dvtv' layout='constrained'/>
+                    <StaticImage src="../images/matej_cip.png" alt='Video mateje cipa v dvtv' layout='constrained' />
                 </a>
             </section>
-
+            <section className="section section-center">
+                <h2 className="title">Příběh Magdalény </h2>
+                <iframe width="500" height="380" src="https://www.youtube.com/embed/d414jfMVTl4" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            </section>
             <section className="section section-center">
                 <h2 className="title">Klášterní kouskování 2019</h2>
                 <p>A máme za sebou další úspěšný, letos už 6. ročník Klášterního kouskování ve Fulneku, kde se díky Vám podařilo vybrat neuvěřitelných 91 495 korun!</p>
