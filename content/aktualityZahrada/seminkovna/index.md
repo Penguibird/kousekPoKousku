@@ -5,7 +5,7 @@ image:
     image: seminkovna.jpeg
     imageAlt: Semínkovna
 ---
-...už se také těšíte na zahradničení?
+Už se také těšíte na zahradničení?
 
 V naší Zahradě HOJNOSTI 💚🌼🌿 ve Fulneku jsme loni poctivě sbírali všechna dostupná semínka.
 
