@@ -230,7 +230,7 @@ const IndexPage = () => {
         </ul>
       </section>
 
-      <JurtaSection green={false} />
+      {/* <JurtaSection green={false} /> */}
 
       {/* <LayerWrapper>
         <StaticImage objectFit="cover" objectPosition="right" className="img" src="../images/sako_final.jpg" alt='Muž v obleku upravující si manžety' layout='fullWidth' />

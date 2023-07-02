@@ -53,7 +53,7 @@ const useAktuality = () => {
         : undefined,
       image: {
         image: node.frontmatter?.image?.image?.childImageSharp?.gatsbyImageData,
-        imageAlt: node.frontmatter.image.imageAlt
+        imageAlt: node.frontmatter.image?.imageAlt
       }
     }))
     .sort((a: Aktualita, b: Aktualita) => a.date.getTime()- b.date.getTime())

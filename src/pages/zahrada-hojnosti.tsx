@@ -196,7 +196,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     <strong>O kolik částka roste, přesně tolik vloží Nadační fond KPK.</strong>
                 </p>
             </section> */}
-            <JurtaSection green />
+            {/* <JurtaSection green /> */}
 
 
             <section className="prinos">

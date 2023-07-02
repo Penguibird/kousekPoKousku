@@ -12,7 +12,7 @@ const JurtaSection: React.FC<JurtaSectionProps> = ({ children, green = true, ...
     return <section className="text-section section section-jurta" {...props}>
         <div className="grid-top">
             <h1 className="section-title title">
-                Jurta pro Zahradu HOJNOST
+                Jurta pro Zahradu HOJNOSTI
             </h1>
             <p className="text">
                 Pomozte našemu záměru!
