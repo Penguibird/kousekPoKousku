@@ -1,6 +1,6 @@
 ---
 name: I letos podporujeme Jurije Tarču
-date: 20-08-2023
+date: 19-08-2023
 image:
   image: jurij.jpg
   imageAlt: Jurij s kolem
