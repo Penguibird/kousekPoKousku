@@ -44,9 +44,9 @@ const Footer = ({ }) => {
             </li>
         </ul>
         <div className="ucty">
-            <h5>Číslo transparentního účtu</h5>
+            <h5>Transparentní účet: Nadační fond Kousek po Kousku</h5>
             <p className="ucet">293203185/0300</p>
-            <h5>Č. ú. Jurta pro Zahradu HOJNOSTI ve&nbsp;Fulneku</h5>
+            <h5>Transparentní účet: Zahrada HOJNOSTI</h5>
             <p className="ucet">301075890/0300</p>
         </div>
         <div className="bottom">
