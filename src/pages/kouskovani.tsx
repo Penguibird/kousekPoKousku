@@ -35,7 +35,7 @@ const Kouskovani: React.FC<KouskovaniProps> = ({ }) => {
         .sort((a: Vyrocka, b: Vyrocka) => Number.parseInt(a.year) - Number.parseInt(b.year))
         .reverse()
         ;
-
+        <a href="https://wwww.klasternikouskovani.cz/">VÍCE O KLÁŠTERNÍM KOUSKOVÁNÍ KLIKNĚTE ZDE</a>
 
     return <Layout title="Kouskování | Nadační fond Kousek po Kousku">
         <main className="kouskovani">
