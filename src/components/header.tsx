@@ -64,7 +64,7 @@ const Header: React.FC<Props> = ({ color, logo }) => {
                             <Link to="/ke-stazeni">Ke stažení</Link>
                         </li>
                         <li className="navbar-link">
-                            <Link to="/kouskovani">O Klášterním kouskování</Link>
+                            <Link to="/klasterni-kouskovani">O Klášterním kouskování</Link>
                         </li>
                     </ul>
                 </li>
