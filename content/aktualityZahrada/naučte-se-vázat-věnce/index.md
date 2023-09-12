@@ -1,6 +1,6 @@
 ---
 name: Naučte se vázat věnce
-date: 12-09-2023
+date: 09-08-2023
 image:
   image: vázání-věnců.jpg
   imageAlt: pozvánka na vázání věnců
