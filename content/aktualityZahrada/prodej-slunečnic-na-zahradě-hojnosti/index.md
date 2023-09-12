@@ -1,6 +1,6 @@
 ---
 name: Prodej SLUNEČNIC běží. Samoobsluha na Zahradě HOJNOSTI
-date: 12-09-2023
+date: 08-08-2023
 image:
   image: prodej-slunečnic.jpg
   imageAlt: slunečnice
