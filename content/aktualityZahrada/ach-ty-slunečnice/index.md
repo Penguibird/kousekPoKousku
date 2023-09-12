@@ -2,7 +2,7 @@
 name: Ach ty SLUNEČNICE
 date: 24-08-2022
 image:
-  image: slunečnice-na-web-.jpg
+  image: slunečnice-samoobsluha.jpg
   imageAlt: slunečnice ze zahrady hojnosti
 ---
 Posíláme kousek sluníčka, krásy a hojnosti ze Zahrady HOJNOSTI
