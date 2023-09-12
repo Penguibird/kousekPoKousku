@@ -1,6 +1,6 @@
 ---
 name: Klášterní KOUSKOVÁNÍ VIII. s dary ze Zahrady HOJNOSTI
-date: 11-09-2023
+date: 12-09-2023
 image:
   image: pozvánka-ii.jpg
   imageAlt: Pozvánka na Klášterní Kouskování
