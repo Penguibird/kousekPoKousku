@@ -2,7 +2,7 @@ backend:
   name: github
   repo: penguibird/kousekPoKousku
   branch: master
-  base_url: 'https://my-github-auth-provider.herokuapp.com'
+  base_url: 'http://164.90.242.52:3000'
 
 
 locale: 'cs'
