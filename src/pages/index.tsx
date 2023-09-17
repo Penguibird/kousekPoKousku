@@ -296,7 +296,7 @@ const IndexPage = () => {
           {/* 
           <p className="text">Do&nbsp;šatníku si&nbsp;pořizujme <strong>základní, kvalitní, nadčasové kousky, nejlépe z&nbsp;recyklovatelných materiálů.</strong> Zejména díky dobrým materiálům vydrží ve&nbsp;skvělé kondici a&nbsp;slouží dlouho, často i&nbsp;někomu druhému. Právě nákup z&nbsp;druhé ruky je jedním z&nbsp;principů zpomalení cyklu neboli <strong>slou&nbsp;módy</strong>.</p> */}
 
-          <p className="text"><strong>Sedm ročníků Klášterního kouskování vyneslo bezmála  600 tisíc korun. Finance znovu slouží jako další kousky pomoci pro vybrané projekty. Děkujeme! </strong> <Link to="/kouskovani" className="link">Více o Klášterním kouskování</Link>
+          <p className="text"><strong>Sedm ročníků Klášterního kouskování vyneslo bezmála  600 tisíc korun. Finance znovu slouží jako další kousky pomoci pro vybrané projekty. Děkujeme! </strong> <Link to="/klasterni-kouskovani" className="link">Více o Klášterním kouskování</Link>
           </p>
 
           <p className="text">O dalším aktuálním Klášterním kouskování informujeme prostřednictvím aktualit a sociálních sítí.</p>
