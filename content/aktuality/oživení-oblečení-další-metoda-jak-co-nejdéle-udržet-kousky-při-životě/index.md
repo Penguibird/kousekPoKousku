@@ -7,9 +7,9 @@ image:
 ---
 Letošní Klášterní KOUSKOVÁNÍ VIII. 
 
-je  mimo jiné věnováno technice oživování oděvů. Ta se dá použít vždy, když už je Váš oblíbený kousek malinko okoukaný nebo zažil nějako újmu / skvrna, zatržení, atd../ Slovenští umělci z Primát nás naučí, jak vrátit kousky zpátky do hry.
+je  mimo jiné věnováno technice oživování oděvů. Ta se dá použít vždy, když už je Váš oblíbený kousek malinko okoukaný nebo zažil nějako újmu - skvrna, zatržení, atd..  Slovenští umělci z Primát nás naučí, jak vrátit kousky zpátky do hry.
 
-A jaký je postup? Prvotní je NÁPAD A NÁVRH, který je potřeba překreslit a technikou LINORYTU přenést na šablonu. Pak BARVÍME a otiskáváme tam, kde to chcete mít a hlavně vznikne motiv, jaký chcete mít. Kousek se stává jedinečným. 
+A jaký je postup? Prvotní je NÁPAD A NÁVRH, který je potřeba překreslit a technikou LINORYTU přenést na šablonu. Pak BARVÍME a otiskáváme tam, kde motiv chcete mít. Kousek se Vaším zásahem stává jedinečným. 
 
 Připomíná Vám to výtvarku ve škole? Kouzlo je v tom, že technologie použitých barev je dnes natolik vylepšená, že o jejich stálosti není pochyb. Oblečení pak normálně, běžně perete, jak jste zvyklí.
 
