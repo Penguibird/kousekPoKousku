@@ -1,6 +1,6 @@
 ---
 name: Letošní KLÁŠTERNÍ KOUSKOVÁNÍ
-date: 01-10-2023
+date: 14-09-2023
 image:
   image: snímek1.jpg
   imageAlt: Klášter Fulnek při akci KK
