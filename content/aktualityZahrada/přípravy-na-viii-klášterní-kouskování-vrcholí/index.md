@@ -11,9 +11,9 @@ Přijďte se sami podívat do kostela sv. Josefa ve Fulneku od 5. do 9. října.
 
 Na akci také odtajníme nový produkt, kterým rovněž můžete podpořit vybrané projekty. A které to jsou? 
 
-1. Záchranu starých ovocných stromů ve fulnecké klášterní zahradě 
+1. Záchranu starých ovocných stromů ve fulnecké klášterní zahradě.
 
-2﻿. Novou výsadbu stromů pro další generace v Zahradě HOJNOSTI
+2﻿. Novou výsadbu stromů pro další generace v Zahradě HOJNOSTI.
 
 3﻿. A HLAVNĚ si přejeme vytvořit základ finanční podpory na léčbu úžasného 7letého Mikuláše Adamčíka, který má diagnostikovaný dětský autismus. Díky nové léčbě v zahraničí stojí před velkou šancí na zlepšení. Celý příběh Mikyho a jeho rodiny brzy zveřejníme.
 
