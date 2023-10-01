@@ -11,7 +11,7 @@ Přijďte se sami podívat do kostela sv. Josefa ve Fulneku od 5. do 9. října.
 
 Na akci také odtajníme nový produkt, kterým rovněž můžete podpořit vybrané projekty. A které to jsou? 
 
-1. Záchranu starých ovocných stromů ve fulnecké klášterní zahradě.
+1. Záchranu starých ovocných stromů ve fulnecké klášterní zahradě. 
 
 2﻿. Novou výsadbu stromů pro další generace v Zahradě HOJNOSTI.
 
