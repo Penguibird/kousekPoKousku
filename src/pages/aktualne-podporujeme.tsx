@@ -26,7 +26,7 @@ const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
 
         <section className="section-mikulas section-klinika" style={{ justifyContent: 'center' }}>
             <section className="section section-text " id="mikulas" style={{ width: '100%' }}>
-                <h2 className="section-title title">Pomoc pro sedmiletého Mikuláše z našeho regionu</h2>
+                <h2 className="section-title title">Pomoc pro sedmiletého Mikuláše<br />z našeho regionu</h2>
                 {/* <p className="subtitle">Podpora služeb rozvoje Sociální kliniky v Moravskoslezském kraji</p> */}
 
                 <iframe
@@ -38,7 +38,7 @@ const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
                 ></iframe>
-                <p style={{marginTop: '2rem'}}>
+                <p style={{ marginTop: '2rem' }}>
                     Mikuláš Adamčík, 7 let. Usměvavé, šťastné dítě, kterému se ve 2 letech začaly dít podivné věci. Jeho milující rodiče museli tehdy přijmout zprávu o Mikyho poruše autistického spektra. Přes smíření se aktivně zajímají o nové metody v léčbě a terapeutickou podporu.
                 </p>
                 <p>
@@ -51,7 +51,7 @@ const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
                 </p>
                 <p>
                     Ano, už tušíte, léčba v hodnotě 500 tis. korun není hrazena zdravotními pojišťovnami.
-                    Zveřejňujeme po dohodě s rodiči Mikyho příběh a šíříme prosbu o pomoc pro chlapečka z našeho kraje, směrem k Vám.
+                    Zveřejňujeme po dohodě s rodiči Mikyho příběh a šíříme prosbu o pomoc pro chlapečka z&nbsp;našeho kraje, směrem k&nbsp;Vám.
                 </p>
                 <p>
                     Transparentní účet pro Mikyho je zřízen u ČSOB a má číslo: <strong>329868198/0300</strong>. Přispět můžete i naskenováním QR kódu
