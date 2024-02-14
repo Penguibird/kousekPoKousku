@@ -44,6 +44,14 @@ const VyrocniZpravyPage: React.FC<VyrocniZpravyPageProps> = ({ }) => {
                 <a href="/ke-stazeni/zakladaci-listina.zip"> Zakládací listina (ZIP) </a>
             </section>
 
+            <section className="projekty">
+                <h2>Pořízení vybavení do Zahrady Hojnosti</h2>
+                <h3>Cílem projektu je rozšířit spolkové zařízení a zázemí Zahrady Hojnosti ve Fulneku, kterou spravuje Nadační fond Kousek po kousku.
+Jedná se především o pořízení technického vybavení a vybavení pro venkovní výuku, dále zakoupení ekologických WC a venkovního mobiliáře do zahrady.
+Celkové náklady na projekt činily 497.150 Kč, dotace činí 80 %.</h3>
+                <a href="/ke-stazeni/publicita.pdf"> Publicita PDF </a>
+            </section>
+
             {/* <section id="milostive-leto">
                 <h2>Milostivé Léto</h2>
                 <StaticImage className='img' src="../images/Milostivé léto-1.png" alt='' layout='constrained' placeholder='blurred'/>
