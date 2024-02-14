@@ -46,7 +46,7 @@ const VyrocniZpravyPage: React.FC<VyrocniZpravyPageProps> = ({ }) => {
 
             <section className="projekty">
                 <h2>Pořízení vybavení do Zahrady Hojnosti</h2>
-                <a>Cílem projektu je rozšířit spolkové zařízení a zázemí Zahrady Hojnosti ve Fulneku, kterou spravuje Nadační fond Kousek po kousku.
+                <a style={{ textDecoration: 'none' }}>Cílem projektu je rozšířit spolkové zařízení a zázemí Zahrady Hojnosti ve Fulneku, kterou spravuje Nadační fond Kousek po kousku.
 Jedná se především o pořízení technického vybavení a vybavení pro venkovní výuku, dále zakoupení ekologických WC a venkovního mobiliáře do zahrady.
 Celkové náklady na projekt činily 497.150 Kč, dotace činí 80 %.
 </a>
