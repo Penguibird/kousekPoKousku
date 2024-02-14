@@ -31,3 +31,16 @@ main.ke-stazeni {
 //     margin-bottom: 1em;
 //   }
 // }
+section.projekty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Zarovnání obsahu uprostřed */
+}
+
+section.projekty a {
+  display: block;
+  max-width: 100%;
+  word-wrap: break-word;
+  margin-bottom: 1em;
+}
