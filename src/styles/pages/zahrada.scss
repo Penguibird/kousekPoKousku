@@ -206,14 +206,17 @@ section.youtube-video {
   display: flex;
   flex-direction: column;
   align-items: center;
-  iframe {
+}
+
+section.youtube-video iframe,
+iframe.youtube-video {
     // width:
     margin: 0 auto;
     aspect-ratio: 16 / 9;
     width: 80vw;
     max-width: 900px;
     border-radius: 3px;
-  }
+    height: auto;
 }
 
 /* ---------------------------- tree img section ---------------------------- */

@@ -134,7 +134,8 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                 <iframe
                     width="560"
                     height="315"
-                    src="https://www.youtube.com/embed/wsF5T_2csE0"
+                    // src="https://www.youtube.com/embed/wsF5T_2csE0"
+                    src="https://www.youtube.com/embed/k3hMVfqi8-Y?si=Q2AgMxb5FyiTCih1" 
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

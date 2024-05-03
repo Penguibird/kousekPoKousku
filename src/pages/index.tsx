@@ -288,46 +288,55 @@ const IndexPage = () => {
 
 
       </section>
-      <section className="image-section">
-        <section className="text-section section kouskovani">
-          <h1 className="section-title">Kouskování</h1>
-          <p className="subtitle">Dejme kouskům druhou šanci!</p>
-          <p className="text">Udržitelnost je téma, ke kterému se hlásíme od začátku založení NF. Záměr se poprvé zhmotnil v roce 2015, kdy jsme v Kostele sv. Josefa ve Fulneku uspořádali I. ročník Klášterního kouskování. Pořádáním dobročinných bazarů se naplnil ještě další sekundární záměr! Stmelil desítky dobrovolníků, kteří se vrací doposud, někteří i se svými dětmi. Mají zásadní podíl na fungování tohoto projektu a patří jim velké díky. </p>
-          {/* 
-          <p className="text">Do&nbsp;šatníku si&nbsp;pořizujme <strong>základní, kvalitní, nadčasové kousky, nejlépe z&nbsp;recyklovatelných materiálů.</strong> Zejména díky dobrým materiálům vydrží ve&nbsp;skvělé kondici a&nbsp;slouží dlouho, často i&nbsp;někomu druhému. Právě nákup z&nbsp;druhé ruky je jedním z&nbsp;principů zpomalení cyklu neboli <strong>slou&nbsp;módy</strong>.</p> */}
 
-          <p className="text"><strong>Sedm ročníků Klášterního kouskování vyneslo bezmála  600 tisíc korun. Finance znovu slouží jako další kousky pomoci pro vybrané projekty. Děkujeme! </strong> <Link to="/klasterni-kouskovani" className="link">Více o Klášterním kouskování</Link>
-          </p>
-
-          <p className="text">O dalším aktuálním Klášterním kouskování informujeme prostřednictvím aktualit a sociálních sítí.</p>
-
-          <p className="text">A co se děje s kousky, které se u nás neprodají? <strong>Spolupracujeme s prospěšným second handem Moment a s Dobrovolnickým centrem ADRA ve Frýdku – Místku.</strong> Každý kousek tak najde svého nového majitele. Na to se můžete spolehnout.</p>
-
-
-
-          <p className="subtitle">Dopady výroby oděvů nelze přehlížet.</p>
-          <p className="text"> Ročně se na Zemi vyprodukuje přes <strong>50 milionu tun nového oblečení.</strong> To je pak následně nejzásadnějším znečišťovatelem planety. </p>
-          <p className="text">Už <>redukcí</> naší osobní spotřeby každý z nás významně pomůže. Do šatníku si pořizujme základní, kvalitní, nadčasové kousky, nejlépe z <strong>recyklovatelných materiálů</strong>. Zejména díky dobrým materiálům vydrží ve skvělé kondici a slouží dlouho, často i někomu dalšímu. <strong>Právě nákup z druhé ruky je jedním z principů zpomalení cyklu neboli slou módy.</strong></p>
-
-          <div className="button-row" style={{ marginBottom: '2rem' }}>
-            <Link to="/daruj-kousek" className="button">Chci darovat kousek</Link>
-            {/* <a href="https://podpora.kousekpokousku.cz/kouskovani/" className="button section-button buy-button filled">
-              Chci koupit kousek
-            </a> */}
+      <section className="text-section section-centered section srdcovky text-justify">
+        <div className="flex-logo">
+          <div>
+            <h1 className="section-title left">Srdcovky</h1>
+            <p className="subtitle left" >Začalo to darem.</p>
           </div>
+          <StaticImage className='img' src='../images/vizual_srdcovky.jpg' alt='Logo srdcovky, červené srdce s textem Srdcovky, akce která rozbuší' layout='constrained' placeholder='blurred' />
 
-          {/* <p className="text red">Hlásíme se k doporučení principů 3R</p> */}
-          {/* <ul>
-            <li><strong>REDUCE</strong> – redukce</li>
-            <li><strong>REUSE</strong> – maximální využití. Pokud nevynosím, posílám dál!</li>
-            <li><strong>RECYCLE</strong> – volím (pokud možno) recyklovatelné materiály. </li>
-          </ul> */}
+        </div>
+        <p className="text">Darem významného výtvarníka, báječného člověka <strong>Kurta Gebauera</strong>
+          &nbsp;to začalo a rozvířilo mnohé.
+          Přidali se další umělci a zrodila se chuť realizovat Srdcovky,
+          benefiční akci pro <Link to="/zahrada-hojnosti"><strong>Zahradu HOJNOSTI</strong></Link>
+        </p>
+        <p className="text">
+          Srdcovky jsou přirozeným vyústěním dosavadních uměleckých spoluprací NF s autory, kteří dlouhodobě či nově KPK fandí. Naše komunita milovníků umění, přírody a filantropie roste nadšeně a trpělivě zároveň, jako čerstvě zasazené semínko. Pečujeme, věříme, učíme se, pozorujeme a hlavně milujeme.
+        </p>
+        <p className="text left" style={{ marginTop: 30, fontSize: '1.2em' }}>
+          <strong>První Srdcovky live</strong> proběhly v Ostravě a Vy se můžete podívat jak:
+        </p>
+        <div style={{ marginBlock: 15 }}>
+          <iframe
+            style={{ maxWidth: 700 }}
+            className="youtube-video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/UI62Ws-IWB4?autoplay=0"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+        <p className="text">
+          Pro ty z Vás, kteří jste nemohli dorazit nebo se chcete přidat kdykoli,
+          <strong> máme připravena díla online na&nbsp;
+            <a href="https://podpora.kousekpokousku.cz/srdcovky/" target="_blank">podpora.kousekpokousku.cz/srdcovky/</a>
+          </strong>
+        </p>
+        <p className="text">
+          Srdcovky otevírají novou možnost podpory našich aktivit, každé zakoupené dílo je pomyslným semínkem, které jste do zahrady zasadili i Vy.
+        </p>
+        <p className="text">Bude Vám navždy připomínat ten pocit růstu. Může být chytrým a nadčasovým dárkem pro zvídavé oslavence.
+        </p>
 
 
-
-        </section>
-        <StaticImage style={{ filter: 'brightness(1.2)' }} className='section-image img' src="../images/kouskovani_saty.png" alt='Ruka podává šaty a boty' layout='constrained' placeholder='blurred' />
       </section>
+
 
 
 
@@ -399,3 +408,44 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+
+const __trashKouskovaniSection = () => <section className="image-section">
+  <section className="text-section section kouskovani">
+    <h1 className="section-title">Kouskování</h1>
+    <p className="subtitle">Dejme kouskům druhou šanci!</p>
+    <p className="text">Udržitelnost je téma, ke kterému se hlásíme od začátku založení NF. Záměr se poprvé zhmotnil v roce 2015, kdy jsme v Kostele sv. Josefa ve Fulneku uspořádali I. ročník Klášterního kouskování. Pořádáním dobročinných bazarů se naplnil ještě další sekundární záměr! Stmelil desítky dobrovolníků, kteří se vrací doposud, někteří i se svými dětmi. Mají zásadní podíl na fungování tohoto projektu a patří jim velké díky. </p>
+    {/*           
+          <p className="text">Do&nbsp;šatníku si&nbsp;pořizujme <strong>základní, kvalitní, nadčasové kousky, nejlépe z&nbsp;recyklovatelných materiálů.</strong> Zejména díky dobrým materiálům vydrží ve&nbsp;skvělé kondici a&nbsp;slouží dlouho, často i&nbsp;někomu druhému. Právě nákup z&nbsp;druhé ruky je jedním z&nbsp;principů zpomalení cyklu neboli <strong>slou&nbsp;módy</strong>.</p> */}
+
+    <p className="text"><strong>Sedm ročníků Klášterního kouskování vyneslo bezmála  600 tisíc korun. Finance znovu slouží jako další kousky pomoci pro vybrané projekty. Děkujeme! </strong> <Link to="/klasterni-kouskovani" className="link">Více o Klášterním kouskování</Link>
+    </p>
+
+    <p className="text">O dalším aktuálním Klášterním kouskování informujeme prostřednictvím aktualit a sociálních sítí.</p>
+
+    <p className="text">A co se děje s kousky, které se u nás neprodají? <strong>Spolupracujeme s prospěšným second handem Moment a s Dobrovolnickým centrem ADRA ve Frýdku – Místku.</strong> Každý kousek tak najde svého nového majitele. Na to se můžete spolehnout.</p>
+
+
+
+    <p className="subtitle">Dopady výroby oděvů nelze přehlížet.</p>
+    <p className="text"> Ročně se na Zemi vyprodukuje přes <strong>50 milionu tun nového oblečení.</strong> To je pak následně nejzásadnějším znečišťovatelem planety. </p>
+    <p className="text">Už <>redukcí</> naší osobní spotřeby každý z nás významně pomůže. Do šatníku si pořizujme základní, kvalitní, nadčasové kousky, nejlépe z <strong>recyklovatelných materiálů</strong>. Zejména díky dobrým materiálům vydrží ve skvělé kondici a slouží dlouho, často i někomu dalšímu. <strong>Právě nákup z druhé ruky je jedním z principů zpomalení cyklu neboli slou módy.</strong></p>
+
+    <div className="button-row" style={{ marginBottom: '2rem' }}>
+      {/* <Link to="/daruj-kousek" className="button">Chci darovat kousek</Link> */}
+      {/* <a href="https://podpora.kousekpokousku.cz/kouskovani/" className="button section-button buy-button filled">
+              Chci koupit kousek
+            </a> */}
+    </div>
+
+    {/* <p className="text red">Hlásíme se k doporučení principů 3R</p> */}
+    {/* <ul>
+            <li><strong>REDUCE</strong> – redukce</li>
+            <li><strong>REUSE</strong> – maximální využití. Pokud nevynosím, posílám dál!</li>
+            <li><strong>RECYCLE</strong> – volím (pokud možno) recyklovatelné materiály. </li>
+          </ul> */}
+
+
+
+  </section>
+  {/* <StaticImage style={{ filter: 'brightness(1.2)' }} className='section-image img' src="../images/kouskovani_saty.png" alt='Ruka podává šaty a boty' layout='constrained' placeholder='blurred' /> */}
+</section>

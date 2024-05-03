@@ -19,7 +19,7 @@
 }
 
 section.intro-section {
-  @include  flexGap(1em,  $column: true);
+  @include flexGap(1em, $column: true);
   // .subtitle {
   //   font-size: 2em;
   // }
@@ -47,7 +47,7 @@ section.intro-section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    @include  flexGap(5em,  $column: true);
+    @include flexGap(5em, $column: true);
     padding-left: 0;
     padding: 0 2em;
     margin: 8em auto 2em;
@@ -81,7 +81,7 @@ section.intro-section {
       flex-direction: row;
       // align-items: baseline;
       align-items: center;
-      @include  flexGap(1ch,  $column: false);
+      @include flexGap(1ch, $column: false);
     }
     .link {
       grid-area: text;
@@ -130,8 +130,7 @@ section.intro-section {
     &:hover {
       text-decoration: underline;
       filter: brightness(0.9);
-  }
-    
+    }
   }
   & > * + * {
     margin-top: 5em;
@@ -155,7 +154,7 @@ section.subtitle {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  @include  flexGap(3em,  $column: false);
+  @include flexGap(3em, $column: false);
   flex-grow: 1;
   flex-basis: auto;
 
@@ -271,8 +270,7 @@ section.aktuality {
       text-decoration: underline;
       &:hover {
         filter: brightness(0.9);
-    }
-      
+      }
     }
   }
 }
@@ -317,7 +315,8 @@ section.sponzori {
 }
 
 .section-projekty {
-  .title, .subtitle {
+  .title,
+  .subtitle {
     margin: 0 auto;
     text-align: center;
   }
@@ -327,14 +326,42 @@ section.sponzori {
   }
 }
 
-
 .section.kouskovani .link {
-    // font-size: 1.1em;
-    color: $main-text-red;
+  // font-size: 1.1em;
+  color: $main-text-red;
 
   font-weight: 700;
   text-decoration: underline;
   &:hover {
     filter: brightness(0.9);
+  }
 }
+
+.text-justify .text {
+  text-align: justify;
+}
+
+.section.srdcovky {
+  .left {
+    text-align: left;
+  }
+
+  h1,
+  strong {
+    color: $main-text-red;
+  }
+
+  .flex-logo {
+    width: min(90vw, 741px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    .img {
+      height: 180px;
+      aspect-ratio: 1;
+    }
+  }
 }
