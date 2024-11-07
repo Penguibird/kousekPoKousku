@@ -53,6 +53,16 @@ Celkové náklady na projekt činily 497.150 Kč, dotace činí 80 %.
                 <a href="/ke-stazeni/publicita.pdf">Publicita PDF </a>
             </section>
 
+            <section className="projekty">
+                <h2>Projekt MAS</h2>
+                <StaticImage className='img' src="../images/Publicita_MAS.jpg" alt='' layout='constrained' placeholder='blurred'/>
+                <a style={{ textDecoration: 'none' }}>Zahrada Hojnosti jako prostor pro spolupráci, komunitu a kontakt s přírodou“ byl podpořen z programu Malý LEADER MAS Regionu Poodří v celkové částce 9.900 Kč. 
+</a>
+     
+            </section>
+
+            
+
             {/* <section id="milostive-leto">
                 <h2>Milostivé Léto</h2>
                 <StaticImage className='img' src="../images/Milostivé léto-1.png" alt='' layout='constrained' placeholder='blurred'/>
