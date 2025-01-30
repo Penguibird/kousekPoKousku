@@ -14,6 +14,9 @@ const VyrocniZpravyPage: React.FC<VyrocniZpravyPageProps> = ({ }) => {
                 <h2>Výroční zprávy</h2>
                 <ul style={{ listStyleType: 'none' }} >
                     <li className="zprava">
+                        <a href={`/ke-stazeni/VÝROČNÍ ZPRÁVA 2023.pdf`}>Výroční zpráva 2023 (PDF)</a>
+                    </li>
+                    <li className="zprava">
                         <a href={`/ke-stazeni/VÝROČNÍ ZPRÁVA 2022.pdf`}>Výroční zpráva 2022 (PDF)</a>
                     </li>
                     <li className="zprava">
