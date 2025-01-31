@@ -331,7 +331,7 @@ const ZahradaPage: React.FC<ZahradaPageProps> = ({ }): JSX.Element => {
                     <li>Zapoj se do dobrovolnických prací a vyzkoušej své limity. </li>
                     <li>Zažij, jaké je tvořit rukama, zotav tělo i mysl.</li>
                     <li>Vše co Zahrada Hojnosti nabízí se vrací zpět, v podobě darů potřebným. </li>
-                    <li>Udržuj koloběh hojnosti. Přijď a nasbírej si při samosběru květiny, byliny, plody, zaplať za ně, ať se Zahrada může dále rozvíjet. </li>
+                    <li>Udržuj koloběh hojnosti. Přijď a nasbírej si při samosběru květiny, byliny, plody. Finančním darem za ně se Zahrada může dále rozvíjet. </li>
                 </ol>
             </section>
 
