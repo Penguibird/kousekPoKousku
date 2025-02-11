@@ -23,7 +23,7 @@ const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
         </section>
 
         {/* Tady byla zahrada */}
-
+        {/*
         <section className="section-mikulas section-klinika" style={{ justifyContent: 'center' }}>
             <section className="section section-text " id="mikulas" style={{ width: '100%' }}>
                 <h2 className="section-title title">Pomoc pro sedmiletého Mikuláše<br />z našeho regionu</h2>
@@ -62,6 +62,7 @@ const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
 
 
             </section>
+            */}
             {/* <StaticImage className='img' src="../images/mikulas_adamcik.jpg" alt='Fotka Mikuláše' layout='constrained' placeholder='blurred' /> */}
         </section><section className="section-klinika">
             <section className="section section-text " id="klinika">
