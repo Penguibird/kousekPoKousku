@@ -61,7 +61,7 @@ const ProjektyPage: React.FC<ProjektyPageProps> = ({ }) => {
                 <StaticImage style={{ maxHeight: 200, maxWidth: 200 }} className='img' src="../images/qrkod_miky.png" formats={["png"]} alt='329868198/0300' layout='constrained' placeholder='blurred' />
 
 
-          {/*  </section> */}
+             </section> 
             {/* <StaticImage className='img' src="../images/mikulas_adamcik.jpg" alt='Fotka Mikuláše' layout='constrained' placeholder='blurred' /> */}
         </section><section className="section-klinika">
             <section className="section section-text " id="klinika">
