@@ -56,7 +56,7 @@ const KontaktPage: React.FC<KontaktPageProps> = ({ }) => {
             </section>
             <ul className="lidi">
                 <li className="clovek">
-                    <h2 className="jmeno">Martina Mazancová</h2>
+                    <h2 className="jmeno">Ing. Martina Mazancová</h2>
                     <p className="popis">předsedkyně správní rady</p>
                     <a href="mailto:martina.mazancova@kousekpokousku.cz">martina.mazancova@kousekpokousku.cz</a>
                     <a href="tel:+420724328651">+420 724 328 651</a>
@@ -103,7 +103,7 @@ const KontaktPage: React.FC<KontaktPageProps> = ({ }) => {
                     </div>
                 </div>
             </div>
-
+ {/*
             <div className="zakladatel">
                 <h2 className="title">Zakladatel</h2>
                 <p className="jmeno"><span className="titul">Ing.</span> Vladimír Vyhlídal<span className="titul">, MBA</span></p>
@@ -126,6 +126,7 @@ const KontaktPage: React.FC<KontaktPageProps> = ({ }) => {
                     </ul>
                 </li>
             </ul>
+            */}
 
 
 
